@@ -1,0 +1,21 @@
+{
+	"_id": "14303469",
+	"site": "https://github.com/cristianbote/preducs",
+	"title": " Preducs",
+	"author": "cristianbote",
+	"date": "2017-06-13T13:08:57.819Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"state",
+			"state-management",
+			"javascript",
+			"preducs",
+			"redux"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md preducstiny library(1.3kb) manage application state. supports interceptors(modifiers) handle modify data the fly.status to itcheck the tests folder usages, this is common usage.import createstore 'preducs';// create storelet store = createstore({ loading: true // data});// subscribe updateslet unsubscribe = store.subscribetoupdates((state) => { console.log(' got updated', state); // unsubscribe current listener unsubscribe();});// lightweight interceptor(modifier)const initialdatamodifier = (currentstate, newstate) => { return fetch('/api/endpoint') .(res => { return { ...newstate, ...res.json() } });};// update store, a call a apistore.update({ loading: false}, initialdatamodifier); that's it!instal npm install preducsyarn add preducs"
+}

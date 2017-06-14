@@ -1,0 +1,16 @@
+{
+	"_id": "14313562",
+	"site": "https://github.com/lolsborn/readsync",
+	"title": " I reverse engineered Wispersync api",
+	"author": "steve918",
+	"date": "2017-06-13T13:08:55.811Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md made facebook app would parse kindle feed share with friends 2010 reverse engineering wispersync api. https://lolsborn.com/2010/10/11/read-sync/'m now making the client code public. repo contains python client used.here is original scala client wrote:https://github.com/lolsborn/fiona-client"
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14381795",
+	"site": "https://github.com/janten/keypad-layout",
+	"title": " Keypad Layout Window Manager for Mac",
+	"author": "janten",
+	"date": "2017-06-13T13:07:23.773Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"macos",
+			"window-manager",
+			"numpad",
+			"keypad"
+		],
+		"languages": [
+			"objective-c"
+		]
+	},
+	"content": "readme.md keypad layoutcontrol window layout using ctrl + numeric keypad macos. press number keys a row while holding down ctrl select new window frame a 3x3 grid.installationhomebrew users simply brew cask install keypad-layout. compiled versions are available download releases.examplesctrl +result1 9full screen7 9top row1 3bottom row3 1bottom row8 3right thirdsreference you a macbook forgot layout the numeric keypad, refer the table below the grid layout. 7 8 9 4 5 6 1 2 3 attributions application menu bar icons are derived numpad ján slobodník the noun project, available under creative commons attribution license."
+}

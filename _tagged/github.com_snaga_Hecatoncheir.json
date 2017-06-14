@@ -1,0 +1,22 @@
+{
+	"_id": "14298076",
+	"site": "https://github.com/snaga/Hecatoncheir",
+	"title": " Hecatoncheir: The Data Stewardship Studio",
+	"author": "snaga",
+	"date": "2017-06-13T13:31:14.270Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"html",
+			"sqlpl",
+			"shell",
+			"css",
+			"makefile",
+			"batchfile"
+		]
+	},
+	"content": "readme.md hecatoncheir: data stewardship studio hecatoncheirhecatoncheir is software helps data stewards ensure dataquality management data governance using database metadata,statistics data profiles.key featureshecatoncheir allows to:collect metadata database dictionaries/catalogsprofile database tables columnsvalidate data several business rulescatalog data sets tagging importing additional metadatabuild business glossarycurate everything needs be shared data developers usersscreenshotsdata catalog top pagemetadata statisticsdata validationbusiness glossaryrequirementstarget databases latest version supports following databases:oracle database / oracle exadatasql serverpostgresqlmysqlfollowing databases are coming the future releases:db2db2 purescale (neteeza)apache hiveapache sparkverticagoogle bigqueryamazon redshiftoperating systemshecatoncheir work following operating systems.red hat enterprise linux 6 (x86_64)red hat enterprise linux 7 (x86_64)windows 7 (64bit / 32bit)pythonhecatoncheir requires python 2.7. you need have or more database drivers the databases want connect :cx-oracle: oracle database / oracle exadatamysql-python: mysqlpsycopg2: postgresqlpymssql: sql serverinstallation install hecatoncheir, clone git repository install with pip command following.git clone https://github.com/snaga/hecatoncheir.gitcd hecatoncheirpip install -r requirements.txtpip install .quick startquick start [en]quick start [ja]documentationhecatoncheir: data stewardship studio [en]hecatoncheir: data stewardship studio [ja]licenseapache license version 2.0. the license file more information."
+}

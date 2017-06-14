@@ -1,0 +1,20 @@
+{
+	"_id": "14353432",
+	"site": "https://github.com/octohedron/TouristGopher",
+	"title": " TouristGopher Combines Bayesian Rankings from Google Yelp and FourSquare",
+	"author": "octohedron",
+	"date": "2017-06-13T13:07:42.575Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"go",
+			"redis"
+		],
+		"languages": [
+			"go",
+			"css"
+		]
+	},
+	"content": "readme.md touristgopher gopher knows it action touristgopher.com clever gopher combines search delicious food results yelp, google places foursquare their bayesian ranking estimates puts on maptry outinstall redisinstall dependencies$ getset environment variables$ export gmaps_key=your_gmaps_keyrun $ go build && nohup ./touristgopher & check other repo, touristfriendcontributing: yeslicense: mit"
+}

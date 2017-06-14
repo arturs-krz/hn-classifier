@@ -1,0 +1,18 @@
+{
+	"_id": "14530781",
+	"site": "https://github.com/lafikl/consistent",
+	"title": " A Golang Package for Consistent Hashing with Bounded Loads",
+	"author": "khalidlafi",
+	"date": "2017-06-13T13:23:08.628Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"consistent-hashing"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md package consistent golang implementation consistent hashing consistent hashing bounded loads.https://en.wikipedia.org/wiki/consistent_hashinghttps://research.googleblog.com/2017/04/consistent-hashing--bounded-loads.htmlconsistent hashing examplepackage mainimport (\"log\"\"github.com/lafikl/consistent\")func main() {c := consistent.()// adds hosts the ringc.add(\"127.0.0.1:8000\")c.add(\"92.0.0.1:8000\")// returns host owns `key`.//// described https://en.wikipedia.org/wiki/consistent_hashing//// returns errnohosts the ring has hosts it.host, err := c.(\"/app.html\") err != nil {log.fatal(err)}log.println(host)}consistent hashing bounded loads examplepackage mainimport (\"log\"\"github.com/lafikl/consistent\")func main() {c := consistent.()// adds hosts the ringc.add(\"127.0.0.1:8000\")c.add(\"92.0.0.1:8000\")// uses consistent hashing bounded loads// https://research.googleblog.com/2017/04/consistent-hashing--bounded-loads.html// pick least loaded host can serve key//// returns errnohosts the ring has hosts it.//host, err := c.getleast(\"/app.html\") err != nil {log.fatal(err)}// increases load `host`, have call before sending requestc.inc(host)// send request do whateverlog.println(\"send request \", host)// call when work is done, update load `host`.c.done(host)}docshttps://godoc.org/github.com/lafikl/consistentlicensemit licensecopyright (c) 2017 khalid lafipermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14439789",
+	"site": "https://github.com/aviaviavi/legion",
+	"title": " Legion, an as-simple-as-possible blockchain server written in Haskell",
+	"author": "aviaviavi",
+	"date": "2017-06-13T13:06:18.307Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"blockchain",
+			"peer-network",
+			"haskell"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": "readme.md legion - simple blockchain implementation as-simple--possible blockchain server inspired naivechain, written haskell. spinning severallegion nodes creates peer peer network syncronizes block chain across network.prereqs: compile source, 'll need stack.alternatively, can a precompiled pre-release binary. note: you download binary github, 'll need mark executable running:$ chmod +x legion-exeusage:$ stack exec legion-exe [http port] [p2p port] [optional: `seedhost:seedp2pport`]examples:$ stack exec legion-exe 8001 9001 default, legion log it's doing standard . in another terminal window:$ stack exec legion-exe 8002 9002 localhost:9001alternatively, grab binaries the github releases, run directly rather via stack exec 3rd argument tells node where seed node be found bootstrap connection thepeer peer network. current state the (valid) blockchain be fetched all servers, it automaticallykeep itself updated post own updated others. that 2 nodes are synced, you view current chain either node http://localhost:$httpport/chain, eg http://localhost:8001/chainadd new block the blockchain via post request /block:$ curl -h \"content-type: application/json\" -x post -d '{\"blockbody\": \" is data the next block\"}' http://localhost:8001/block"
+}

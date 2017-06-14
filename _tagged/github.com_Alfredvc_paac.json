@@ -1,0 +1,24 @@
+{
+	"_id": "14366927",
+	"site": "https://github.com/Alfredvc/paac",
+	"title": " PAAC – A fast parallel version of Google Deepmind's A3C algorithm",
+	"author": "alfredvc",
+	"date": "2017-06-13T13:07:41.862Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"reinforcement",
+			"learning",
+			"reinforcement-learning",
+			"paac",
+			"machine-learning",
+			"atari",
+			"tensorflow",
+			"open-source"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md efficient parallel methods deep reinforcement learning repository contains open source implementation the paac algorithm presented efficient parallel methods deep reinforcement learning.paac is conceptually simple advantage actor-critic algorithm designed run efficiently a gpu, offering a3c performance under 12 hours training.runing via docker (recommended)follow instructions install nvidia-dockerclone repositoryrun container nvidia-docker run - -v <absolute-path>/paac:/root/paac -p 6006:6006 alfredvc/tf1-ale. cpu version the docker container is provided can run docker run - -v <absolute-path>/paac:/root/paac -p 6006:6006 alfredvc/tf1-ale:cpu. running the cpu pass device flag -d '/cpu:0' the training script.runing locallyrequirementspython 3.4+tensorflow 1.0+arcade-learning-environmentcython (pip3 package)scikit-image (pip3 package)python3-tktraining agent train agent play, example, pong runpython3 train.py -g pong -df logs/ pong, agent begin learn about 5 million frames, will learn optimal policy about 15 million frames.training be stopped, example using ctrl+c, then resumed again running python3 train.py -g pong -df logs/. a setup an intel i7-4790k cpu an nvidia gtx 980 ti gpu default settings, can expect around 3000 timesteps (global steps) per second.training 80 million timesteps requires under 8 hours.qbertvisualizing trainingopen new terminalattach the running docker container docker exec - container_name bashrun tensorboard --logdir=<absolute-path>/paac/logs/tf. your browser navigate localhost:6006/ running locally, skip step 2.testing agent test performance a trained agent run python3 test.py -f logs/ -tc 5output:performed 5 tests seaquest.mean: 1704.00min: 1680.00max: 1720.00std: 14.97generating gifsgifs be generated stored network weights, example gif the agent playing breakout be generated python3 test.py -f pretrained/breakout/ -gn breakout may a few minutes.pretrained modelspretrained models some games be found here. models be used starting points training the same game, games, to generate gifs.adapting code codebase was designed be easily modified new environments new neural network architectures.adapting a environment codebase currently contains single environment, namely atari_emulator.py. train a environment, simplycreate new class inherits baseenvironment modify environment_creator.py create instance your environment.adapting new neural network architectures codebase contains currently neural network architectures, architecture used playing atari deep reinforcement learning, the architecture human-level control through deep reinforcement learning. both adapted an actor-critic algorithm. create new architecture follow pattern demonstrated naturenetwork nipsnetwork. create new class inherits both policyvnetwork andyournetwork. example: newarchitecturepolicyvnetwork(policyvnetwork, yournetwork). use class train.py.citing paac you paac your research, ask you please cite paper:@article{2017arxiv170504862c, author = {{clemente}, .~v. {castej{\\'o}n}, h.~n. {chandra}, .}, title = \"{efficient parallel methods deep reinforcement learning}\", journal = {arxiv e-prints},archiveprefix = \"arxiv\", eprint = {1705.04862}, primaryclass = \"cs.lg\", keywords = {computer science - learning}, = 2017, month = may, adsurl = {http://adsabs.harvard.edu/abs/2017arxiv170504862c}, adsnote = {provided the sao/nasa astrophysics data system}} paper has been accepted a poster the multi-disciplinary conference reinforcement learning decision making (citation come).disclaimer code this repository is the code used generate results the paper, should similar results. changes been made:gradient clipping default value changed 40.0 3.0.entropy regularization constant default changed 0.01 0.02.using openai gym results an increase training of 33%. is converting image rgb grayscale python is slow."
+}

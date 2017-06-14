@@ -1,0 +1,23 @@
+{
+	"_id": "14120957",
+	"site": "https://github.com/meric/l2l",
+	"title": " Superset of Lisp and Lua Programming Language, a la JSX",
+	"author": "meric",
+	"date": "2017-06-13T13:35:13.730Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"lisp",
+			"lisp-dialect",
+			"lisp-compiler",
+			"lua"
+		],
+		"languages": [
+			"lua",
+			"common lisp",
+			"newlisp",
+			"makefile"
+		]
+	},
+	"content": "readme.md l2l language is superset lisp lua.exampleboolean.lisp, implements , or special forms:@import quasiquote@import quote@import fn@import local@import @import let@import cond(fn circuit_and (invariant cdr output truth) (cond cdr (let ( car (:car cdr) ref (lua_name:unique \"_and_value\")) `\\ local \\,ref = \\,\\(expize(invariant, car, output)) \\,ref \\,(cond (:cdr cdr) (circuit_and invariant (:cdr cdr) output truth) `\\\\,truth = \\,ref) else \\,truth = false end)))(fn expize_and (invariant cdr output) (let (ref (lua_name:unique \"_and_bool\")) (table.insert output `\\local \\,ref = true) (table.insert output (circuit_and invariant cdr output ref)) ref))(fn statize_and (invariant cdr output) (to_stat (expize_and invariant cdr output)))(fn circuit_or (invariant cdr output truth) (cond cdr (let ( car (:car cdr) ref (lua_name:unique \"_or_value\")) `\\ not \\,truth local \\,ref = \\,\\(expize(invariant, car, output)) \\,ref \\,truth = \\,ref end end \\,(cond (:cdr cdr) (circuit_or invariant (:cdr cdr) output truth)))))(fn expize_or (invariant cdr output) (let (ref (lua_name:unique \"_or_bool\")) (table.insert output `\\local \\,ref = false) (table.insert output (circuit_or invariant cdr output ref)) ref))(fn statize_or (invariant cdr output) (to_stat (expize_or invariant cdr output))){ lua = { [\"\"] = {expize=expize_and, statize=statize_and}, [\"\"] = {expize=expize_or, statize=statize_or} }}quick start# requires https://github.com/meric/leftry cloned a sibling this repo.git clone git@github.com:meric/leftry.gitgit clone git@github.com:meric/l2l.gitcd l2l clean test replrun following commands:> (print \"hello world\")hello world> \\print(\"hello world\")hello world> (let ( 1) (print `\\print(\\,)))print(1)> (let ( 1) (print (getmetatable `\\print(\\,))))lua_blocksyntax highlightingatom: language-l2lsublime text: l2l.sublime-packagenaminglisp names are mangled lua replacing non lua compliant characters lua compliant characters. ( the mangle function l2l/reader.lua).lisp names contain dashes, dots, alphabets, numbers, underscores, manymore characters, they must consist two dots consecutively unless name is .. (lua string concat) ... (lua vararg). is the compiler mangle lua field accessor namesmy_table.my_subtable--dashes.some_key properly.featuresmix lisp lua source code backslash.\\print(\\(+ 1 2 3 4))quasiquoting lua expressions.(table.insert output `\\local \\,ref = false)macro special form aliasing.macro modules.@import (let x); (x.let (y 1) (print y))custom special forms modules. example, boolean.lisp.zero-cost map, filter, reduce abstractions. implement special forms can inline anonymous functions macros.special forms lua.@import iterator\\map(function(x) return x + 2 end, filter(function(x) return x % 2 == 0 end, map(function(x) return x + 1 end, {1, 2, 3, 4})))compiles (nested loops collapsed a single pass):local ipairs = require(\"l2l.iterator\")local vector = require(\"l2l.vector\")local next38,invariant37,i39 = ipairs({1,2,3,4});local values41 = vector();while i39 local v40;i39,v40=next38(invariant37,i39); i39 v40=v40 + 1; v40 % 2 == 0 v40=v40 + 2; (values41):insert(v40) end endendreturn values41philosophy tao begot . one begot . laozi i not whether was a man dreaming was butterfly, whether am a butterfly, dreaming am man. zhuangzi have put duality away, have seen the worlds are ;one seek, i , one see, i call. jalaluddin rumi i not whether was writing lua inside lisp, whether am writing lisp, inside lua. have put duality away, have seen the worlds are ;one read. i write. i compile. i run. obligatory am servant the qur' as long i life. am dust the path muhammad, chosen .if anyone quotes anything except from sayings, am quit him outraged these words. jalaluddin rumi"
+}

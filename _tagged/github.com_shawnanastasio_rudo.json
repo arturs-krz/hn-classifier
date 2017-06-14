@@ -1,0 +1,23 @@
+{
+	"_id": "14414173",
+	"site": "https://github.com/shawnanastasio/rudo",
+	"title": " Rudo – A toy sudo clone written in Rust",
+	"author": "awordnot",
+	"date": "2017-06-13T13:06:44.494Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rust",
+			"sudo",
+			"unix",
+			"command-line",
+			"pam"
+		],
+		"languages": [
+			"rust",
+			"c",
+			"shell"
+		]
+	},
+	"content": "readme.md rudorudo is toy sudo clone written rust aims serve a learning tool well (potentially) useful system administration tool.disclaimer: is toy. has undergone formal security analysis. am a security expert. at own risk.why? wanted learn rust writing project would highlight strengths a safe systems programming language. many command-line utilities been rewritten rust, to knowledge sudo has .eventually, rudo may reach high level security usability become useful a system administration tool, for it's mostly experiment.supported platformsrudo has been tested both linux macos, it should on *nix pam.automatic installation automatically install rudo, simply clone repository run included install.sh root. note you need rust environment ( recommend using rustup) well the pam header files your system.$ git clone https://github.com/shawnanastasio/rudo# ./install.shonce installation is complete, can edit configuration file /etc/rudo.json include user.example:{ \"prompt\": \"password: \", \"allowed_users\": [ { \"username\": \"root\", \"permissions\": { \"allowed_commands\": [ \"*\" ] } }, { \"username\": \"shawnanastasio\", \"permissions\": { \"allowed_commands\": [ \"whoami\", \"ls\" ] } } ]} enable (experimental) touchid newer macs, call ./install.sh --features touchid:# ./install.sh --features touchidonce feature is enabled, rudo attempt authenticate touchid. touchid authentication fails, rudo fall to pam password authentication.manual installation install.sh full list steps.todoadd more granular control permissions system configuration file less uglylicense code is licensed under mit license. license more information.fork pull requests suggestions are welcome!"
+}

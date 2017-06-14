@@ -1,0 +1,22 @@
+{
+	"_id": "14179571",
+	"site": "https://github.com/rokstrnisa/the-matrix.js",
+	"title": " Configurable JavaScript version of the Matrix system failure animation",
+	"author": "strnisa",
+	"date": "2017-06-13T13:33:35.345Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"javascript-library",
+			"canvas",
+			"website"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md -matrix.jsconfigurable javascript version the matrix system failure animation. a live demo. click thecanvas see longer animation.featureseasily configurable, e.g. text, speed, number highlights, etc.replaces drawn words similarly-looking, previously-hidden dom elements the end, makes crawler-friendly useful an index page.handles window resizing ( stops animation).contributingcontributions welcome. contributing.md.license license."
+}

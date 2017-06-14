@@ -1,0 +1,18 @@
+{
+	"_id": "14276316",
+	"site": "https://github.com/vincentschen/vr-teacher-studio",
+	"title": " VR Teacher Studio",
+	"author": "vincentschen",
+	"date": "2017-06-13T13:32:02.840Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c#",
+			"glsl",
+			"python"
+		]
+	},
+	"content": "readme.md video demo hereinspiration few weeks ago, friend mine came to try oculus rift. showed oculus quill, is drawing app. tried explain geometric interpretation the cross product vr. worked! it doesdraw lesson vr, hit record whenever 're ready! can always change position the camera help students better understand 3d concepts you've drawn. we built built drawing mechanism scratch using custom meshlinerenderer of raw oculus touch sdk hack together ui interactions view second camera the exportable output's next vr teacher studiomore teaching tools, access pre-fabricated 3d object different brush types/colors."
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "14264842",
+	"site": "https://github.com/enricobacis/poloniex_evaluator",
+	"title": " Little tool to evaluate your cryptocurrency trades on Poloniex",
+	"author": "enricobacis",
+	"date": "2017-06-13T13:32:04.932Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md poloniex_evaluatorevaulate poloniex market tradesintroductionsometimes 's difficult understand market is going in poloniex account. little tool is here help.usageclone repositoryrename file src/config.py.changeme src/config.pyedit file your poloniex apikey secret runoutput====================== btc =======================market shares value delta--------- ------------- ---------- ------------btc_gnt 502.0 0.081565 0.0629678btc_strat 55.87289273 0.0387864 0.0452335btc_ardr 2868.0 0.098229 0.0243277btc_ltc 2.7 0.0389443 0.0153975btc_nxt 3870.0 0.0729882 0.0124819btc_sc 32000.0 0.0288 0.01142btc_xrp 738.0 0.036162 0.00861599btc_fct 4.0 0.0208014 0.00821255btc_rep 2.0 0.0220802 0.00606601btc_gno 0.29616555 0.0167317 0.00456091btc_maid 252.21114354 0.0427876 0.00352096btc_lsk 50.0 0.018463 0.003398btc_str 5235.60209424 0.022199 0.00225131btc_burst 10000.0 0.0171 0.0021btc_steem 50.0 0.0094645 0.0007075btc_zec 0.1 0.00657337 0.00047699btc_sjcx 19.7 0.00544035 -1.4908e-05btc_xmr 0.08620358 0.00143787 -0.000600721btc_sys 427.92886001 0.0157949 -0.00105404btc_etc 10.16314865 0.047064 -0.0021509btc_dash 0.31 0.018753 -0.0106317--------- ------------- ---------- ------------ 0.660166 0.197286==================================================faqq: you implement?: this tool seriously need love attention, feel free submit pullrequests"
+}

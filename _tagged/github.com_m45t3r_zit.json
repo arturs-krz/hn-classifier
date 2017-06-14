@@ -1,0 +1,20 @@
+{
+	"_id": "14528782",
+	"site": "https://github.com/m45t3r/zit",
+	"title": " Zit – minimal plugin manager for ZSH",
+	"author": "m45t3r",
+	"date": "2017-06-13T13:23:08.932Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"zsh",
+			"plugin-manager",
+			"shell",
+			"zit"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md zitminimal plugin manager zshzit is yet another plugin manager zsh. is minimal it implements bare minimum be qualified a plugin manager: allows user install plugins git repositories ( git repositories , them why name), source plugins update . it does implement fancyfunctions cleanup removed plugins, automatic compilation installedplugins, alias oh--zsh/prezto/ zsh frameworks, building binaries,path manipulation others. should as simple it be, minimal enough if want cansimply copy paste whole zit source your ~/.zshrc it work.usage first command zit is install:$ zit-install \"https://github.com/eriner/zim/\" \".zim\" command above clone eriner/zim insidezit_modules_path/.zim ( default, zit_modules_path is defined the value your zdotdir variable your home directory). however, zit_modules_path/.zim already exists, will nothing.zit supports git branches. do , pass branch using #branch the repository url during zit-install call:$ zit-install https://github.com/zsh-users/zsh-autosuggestions#developimportant note: zit does support changing branches install. you to change branch an already installed branch, to directory the installed plugin call git checkout branch-name manually! install, can load zim running:$ zit-load \".zim\" \"init.zsh\" this command, zit source file named init.zsh insidezit_modules_path/.zim. second paramter supports glob patterns:$ zit-load \".zim\" \"*.zsh\" this case, would try load files extension .zsh insidezit_modules_path/.zim directory. actually, above is default, you also pass simply:$ zit-load \".zim\" can call both zit-install zit-load one step:$ zit-install-load \"https://github.com/eriner/zim/\" \".zim\" \"init.zsh\"# $ zit-install-load \"https://github.com/eriner/zim/\" \".zim\"finally, zit also update your installed plugins. this yousimply need run:$ zit-update zit update your plugins. course, instead typing command the start your sessioneverytime, can simply put your ~/.zshrc.aliaseszit provide command alias you type slightly less:commandaliaszit-installzit-zit-loadzit-lozit-install-loadzit-ilzit-updatezit-installation is different ways install zit. simplest is copy filezit.zsh somewhere your home directory source in ~/.zshrc. will always because want source code zit beself-contained inside one file. you to fancy, can clone repository:$ git clone https://github.com/m45t3r/zit.git \"${home}/.zit\" source cloned diretory your ~/.zshrcsource $home/.zit/zit.zsh the above case could put your ~/.zshrc ( above line):zit-load \".zit\" zit manage zit updates too.supported versionszit supports zsh version 5.1 above. are automated tests running the following versions zsh travis-ci:5.1.15.25.3.1 tests are known break versions <5.1, however fixes are welcome you happen use older version zsh. git, version 1.7 above should . probably older versionsshould still , since zit does use advanced git features. travis-ci are running git 1.9.x it is working great.faqwhy zit install everything home directory default? some plugins assume they're running home. this isn't problem you, can simply set zit_modules_path something your ~/.zshrc:zit_modules_path=\"$home/.zit.d\" can compile zsh plugins speed initialization? can simply call compilation your installed modules yourself inside ~/.zlogin. at zlogin file zim example:https://github.com/eriner/zim/blob/master/templates/zlogin. can simplyedit file include zit_modules_path, example."
+}

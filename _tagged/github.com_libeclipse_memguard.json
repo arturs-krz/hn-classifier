@@ -1,0 +1,21 @@
+{
+	"_id": "14173716",
+	"site": "https://github.com/libeclipse/memguard",
+	"title": " Securely Handle Encryption Keys in Go",
+	"author": "libeclipse",
+	"date": "2017-06-13T13:33:36.275Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"security",
+			"memory",
+			"crypto-library",
+			"golang",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md memguard pure library handles sensitive values memory. is thread-safe package, designed allow to easily handle sensitive values memory. supports major operating systems is written pure .featuresmemory is allocated using system calls, thereby bypassing go runtime preventing gc messing it. prevent buffer overflows underflows, secure buffer is sandwiched between protected guard pages. these pages are accessed, sigsegv violation is triggered. secure buffer is prepended a random canary. this value changes, process panic. is designed prevent buffer underflows. pages between two guards are locked stop from being swapped disk. secure buffer be made read- so any action triggers sigsegv violation. freeing, secure memory is wiped. api includes functions time-constant copying comparison, disabling system core dumps, catching signals. of features were inspired libsodium, credits them.full documentation a complete overview the api be found here.installationalthough do recommend using release, simplest to install library is go it:$ get github.com/awnumar/memguard you prefer signed release you verify manually compile yourself, download extract latest release. go ahead run:$ install -v ./ releases are cryptographically signed my pgp key, can found keybase. import directly gpg, run:$ curl https://keybase.io/awn/pgp_keys.asc | gpg --import"
+}

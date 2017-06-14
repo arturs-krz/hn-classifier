@@ -1,0 +1,18 @@
+{
+	"_id": "14358649",
+	"site": "https://github.com/harshmaur/react-input-error-validation",
+	"title": "Simple Input Only Validation for React",
+	"author": "harshmaur",
+	"date": "2017-06-13T13:57:48.802Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"validation"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md react-input-error-validation basic input validation hoc provide error validations around input. can pass number validators do error handling every input wise. hack to refs get complete form validations.usagetry running demo interative usageimport react, { component } 'react'import withvalidations 'react-input-error-validation'// create input field. props are required// class based support inputrefclass textfield extends component { render() { const { inputref, validations, error, checkvalidations, config, ...rest } = .props return ( <div> <input {...rest} /> {rest.error && <div>{rest.error}</div>} </div> ) }}// applying hocconst validatedtextfield = withvalidations(textfield)/*validations - will in value prop the input field well and `config` prop passed. config prop be used do extra checking in case fixdigits. */const notempty = val => { (!val) { return 'field cannot empty' } return}const onlynumber = val => { const pattern = /^\\d+$/ (!pattern.test(val)) { return 'please enter valid number' } return}// can config object check any custom configurations. const fixdigits = (val, config = {}) => { (val.length !== config.digits) { return `content should ${config.digits} ` } return}// utility function check complete form errorsconst checkforerrors = el => { let err = false let errfield = '' // will contain \"name\" the \"\" field error. object.keys(el).map(key => { const elitem = el[key] (elitem && elitem.props.checkvalidations() !== '') { err = true // that next error does replace first . if (!errfield) { errfield = elitem.props.name } } }) // keeping error field is optional depends the case, // may a case where want take users the field where error occoured. return { err, errfield }}// finally render out. class app extends component { el = {} state = { : '', second: '', third: '' } validateanddosomething() { const { err } = checkforerrors(.el) // passing el (!err) { console.log(' were errors') // something here.... } else { console.log(' were errors') } } render() { return ( <div> must filled : <validatedtextfield inputref={el => .el[''] = el} value={.state.} onchange={ => this.setstate({ })} validations={[notempty]} // pass array functions the validations prop /> <br /> should a number filled: <validatedtextfield inputref={el => .el['second'] = el} value={.state.second} onchange={second => .setstate({ second })} validations={[notempty, onlynumber]} /> <br /> number, 7 digits filled: <validatedtextfield inputref={el => .el['third'] = el} value={.state.third} onchange={third => .setstate({ third })} config={{ digits: 7 }} // is we pass config. validations={[notempty, onlynumber, fixdigits]} // can pass many validators squence /> <br /> <input type=\"button\" value=\"submit\" onclick={() => .validateanddosomething()} /> </div> ) }}export default app"
+}

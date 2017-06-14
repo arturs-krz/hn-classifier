@@ -1,0 +1,19 @@
+{
+	"_id": "14473271",
+	"site": "https://github.com/dmitry-php/coarc",
+	"title": "Increase compsoser install speed",
+	"author": "chekak",
+	"date": "2017-06-13T13:55:02.875Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"shell",
+			"composer",
+			"performance"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md coarcshell script can reduce composer install .the idea create script came i had got tired wait composer installing every gitlab build. script is trying achieve https://www.npmjs.com/package/freight functionality light manner. you start coarc.sh time will install dependencies composer, archive and send to transfer.sh. it create coarc.lock file link transfer.sh ( need add file repository).next you execute it download archived dependencies ( file ) and unzip to vendor folder. it's much faster case don't cached dependencies this machine ( my case was gitlab docker). to sh coarc.shrun script folder contains composer.json use as is needinsatlled zipglobally installed composerinstalled curlinstalled wget case don't to install composer globally can change composer php composer.phar. don't forget add composer.phar folder where are going execute coarc.sh"
+}

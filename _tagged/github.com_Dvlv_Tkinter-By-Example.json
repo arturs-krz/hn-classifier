@@ -1,0 +1,17 @@
+{
+	"_id": "14442648",
+	"site": "https://github.com/Dvlv/Tkinter-By-Example",
+	"title": "Learn Tkinter by Example – a free book",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T13:55:21.547Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"tex"
+		]
+	},
+	"content": "readme.md learn tkinter examplelearn tkinter example - free book learning tkinter, complete full source code. the book heremobile formats (mobi epub) are available the assets folder. however, would recommend using fbreader the pdf version where possible.'s book ?this book walks through 7 full-featured applications built python tkinter. each application teach different aspects tkinter you use your own projects. screenshots, source code full explanations are included each app. book assumes little--no experience tkinter will require basic knowledge the python language.full source code each application is available the code folder this repository. latex source the book itself is the assets folder.legal stuff book book is licensed under creative commons attribution-noderivs (cc -nd)https://creativecommons.org/licenses/-nd/4.0/ are free download book many times you and are encouraged share with anyone everyone may benefit it. you wish compile latex source another format may so. you wish redistribute new format please submit as pull request here. python code source code is licensed under mit licencehttps://opensource.org/licenses/mit are free download, modify, , and re-distribute code you fit."
+}

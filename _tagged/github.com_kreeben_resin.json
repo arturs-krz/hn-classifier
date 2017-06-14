@@ -1,0 +1,23 @@
+{
+	"_id": "14486874",
+	"site": "https://github.com/kreeben/resin",
+	"title": " Document db with word2vec-driven scoring and Levenshtein automata",
+	"author": "edward_rolf",
+	"date": "2017-06-13T13:04:45.546Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"information-retrieval",
+			"tf-idf",
+			"resin",
+			"search-engine",
+			"dotnet-core",
+			"nosql-database"
+		],
+		"languages": [
+			"c#",
+			"batchfile"
+		]
+	},
+	"content": "readme.md resindbresindb is in-process document database full-text search loosely coupled storage engine. resindb may used a database, as index your database key/value store. schema can store documents variable number columns/fields. can group similar documents separate stores have all a big store.auto-index default resin indexes fields all documents. can opt of indexing (analyzing) storing fields. you try retrieve document was upserted nothing unstored analyzed fields will a blank document but contents have participated calculating tf-idf scores.full-text searchquerying support includes term, fuzzy, prefix, phrase range.vector space bag--words modelscores are calculated using vector space/tf-idf bag--words model.disk-based tree traversal index is fast disk-based left-child-right-sibling character trie.compression resin's default storage engine have option compressing data either quicklz gzip. unstructured data compression leaves smaller footprint disk enables faster writes.pluggable storage engineimplement own storage engine through idocumentstorewriter, idocumentstorereadsessionfactory, idocumentstorereadsession idocumentstoredeleteoperation interfaces.flexible extensibleanalyzers, tokenizers scoring schemes are customizable.are looking something than document database a search engine? database builders architects looking resin's indexing capabilities specifically nothing , can eitherintegrate a store plug-send documents the default storage engine storing single unique key per document analyzing everything ( then querying index you normally to resolve primary key)merge truncatemultiple simultaneous writes are allowed. they happen instead appending the main log index forks two more branches the document file fragments two more files.querying is performed multiple branches takes hit performance wise there are many. new segment is minor no performance hit.issuing multiple merge operations a directory lead forks becoming merged ( order according their wall-clock timestamp) then segments becoming truncated. merge truncate truncate operation wipe away unusable data lead increased querying performance a smaller disk foot-print.merging forks leads a defragmented segmented index.writing a store uncompeted yields segmented index.issuing merge operation a single segmented index results a unisegmented index.supported .net versionresin is built dotnet core 1.1.downloadclone source download latest source a zip file, build run cli look the code the cli program.cs see querying writing was implemented.help ?awesome! start here.usage document (serialized).{\"id\": \"q1\",\"label\": \"universe\",\"description\": \"totality planets, stars, galaxies, intergalactic space, all matter all energy\",\"aliases\": \"cosmos universe existence space outerspace\"}download wikipedia json here.store index documentsvar docs = getdocumentstypedasdictionaries();var dir = @\"c:\\mystore\";// memoryusing (var firstbatchbocuments = inmemorydocumentstream(docs))using (var writer = upsertoperation(dir, analyzer(), compression.nocompression, primarykey:\"id\", firstbatchbocuments)){long versionid = writer.write();}// streamusing (var secondbatchdocuments = jsondocumentstream(filename))using (var writer = upsertoperation(dir, analyzer(), compression.nocompression, primarykey:\"id\", secondbatchdocuments)){long versionid = writer.write();}// implement base class documentstream use whatever source need.query index.var result = searcher(dir).search(\"label: bad~ description:leone\", page:0, size:15);// document fields scores, .e. aggregated tf-idf weights document recieve a simple // compound query, are included the result:var scoreoffirstdoc = result.docs[0].score;var label = result.docs[0].fields[\"label\"];var primarykey = result.docs[0].fields[\"id\"];more documentation here.query executionwritedelete"
+}

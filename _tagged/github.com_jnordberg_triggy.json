@@ -1,0 +1,18 @@
+{
+	"_id": "14370974",
+	"site": "https://github.com/jnordberg/triggy",
+	"title": " Triggy – Open-source DSLR intervalometer for iOS",
+	"author": "rwinn",
+	"date": "2017-06-13T13:07:41.964Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"swift",
+			"html",
+			"other"
+		]
+	},
+	"content": "readme.md triggyintervalometer wifi-enabled canon cameras. available the app store"
+}

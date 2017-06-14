@@ -1,0 +1,9 @@
+{
+	"_id": "14518420",
+	"site": "http://aboutthiswebsite.com/",
+	"title": " AboutThisWebsite Is About This Website",
+	"author": "a3n",
+	"date": "2017-06-14T12:56:08.441Z",
+	"tags": [],
+	"content": "aboutthiswebsite is this website github tools required suggested software tools. content create modify content, templates metadata, generate pages. hosting install operate web hosting environment, upload serve content. pages available pages files aboutthiswebsite aboutthiswebsite is this website, nothing else. describes to build , how maintain , and to serve .aboutthiswebsite is self-documenting documentation, documents nothing itself documenting itself.aboutthiswebsite is recursive parrot, beautiful plumage.smart would installed static site generator called done. we're that kind people.aboutthiswebsite is a pretty site. it had be built, otherwise would no description aboutthiswebsite.is a technical project? sure.is a writing project? guess.is a joke? ... <crickets> ... write aboutthiswebsite content restructuredtext. content be written : * html (.html) plain text (.txt). * markdown (.md). * restructuredtext (.rst).aboutthiswebsite content is managed processed a python script a mongodb database: * mongodb database stores organizes content. aboutthiswebsite is static site, database its supporting python script run the laptop/dev environment, on web host. * atw.py is pythonscript manages storing retrieving content and the database, processing content templates output html files. * jinja2html template engine is used ... an html template engine. * linuxdevelopment hosting environments are assumed. * stuff.aboutthiswebsite is served : * a linode vps (virtual private server) running linux. * running nginx web server.aboutthiswebsite: ask it name.about"
+}

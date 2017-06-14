@@ -1,0 +1,18 @@
+{
+	"_id": "14433625",
+	"site": "https://github.com/vackosar/youtube-reader",
+	"title": " YouTube Reader for Android: Save data reading captions",
+	"author": "vackosar",
+	"date": "2017-06-13T13:06:18.661Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md youtube reader androidsave mobile data watching youtube: download read captions!download available google play, it uses google's youtube without showing ads.soon f-droid store!direct apk link: store/youtube-reader-release.apkdonatebitcoin: 1napzs8brwnifgk7qfemqtbyczdbaag9cadescription: you to ... what's said the video without having spend valuable mobile data?quickly skim through videos text?backup video captions read later? this app is you! app downloads captions using youtube url displays automatically punctuated. can easily listen the text using favourite text speech.note not videos provide captions app is current version limited english .screenshotstechnologyuses neural network punctuate captions. neural network is executed android using tensorflow android libraries.keras training project a command line utility be found here: https://github.com/vackosar/keras-punctuator"
+}

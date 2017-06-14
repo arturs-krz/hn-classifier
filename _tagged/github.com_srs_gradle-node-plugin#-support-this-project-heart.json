@@ -1,0 +1,16 @@
+{
+	"_id": "14423652",
+	"site": "https://github.com/srs/gradle-node-plugin#-support-this-project-heart",
+	"title": "Gradle Plugin for Node needs help",
+	"author": "qHydra",
+	"date": "2017-06-13T13:56:32.851Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"groovy"
+		]
+	},
+	"content": "readme.md gradle plugin node plugin enabled to a lot nodejs-based technologies part yourbuild without having nodejs installed locally your system. integrates following nodejs-based system gradle:nodejsyarngruntgulp's actually 3 plugins one:node plugin (com.moowork.node) - docs.grunt plugin (com.moowork.grunt) - docsgulp plugin (com.moowork.gulp) - docsdocumentationhere's you started using plugin. you not find you are looking , please add issue github issues.installingnode plugingrunt plugingulp pluginfaqchangelogdocumentation older releaseshere's documentation older releases the plugin:0.140.130.120.110.10building plugin build plugin, type following command:./gradlew clean buildcontributingcontributions are always welcome! you'd to contribute ( we hope do) please send of existing contributors nudge. support project plugin is open source project completely free use. you are using project your products/projects, please consider sponsoring ensure is actively developed maintained.donate via paypal ( time)licenselicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

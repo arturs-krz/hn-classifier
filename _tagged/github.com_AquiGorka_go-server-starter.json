@@ -1,0 +1,17 @@
+{
+	"_id": "14519540",
+	"site": "https://github.com/AquiGorka/go-server-starter",
+	"title": " A starting point to develop a back end server with Go",
+	"author": "AquiGorka",
+	"date": "2017-06-13T13:04:18.968Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": "readme.md server starter repo provides starting point develop backend server go. relies the iris framework http socket servers. tests actually run server test against both ping endpoints.dev environmentrun container ( this repo /)./scripts/docker.sh will run golang image mount source code lib dir ( be created first you install dependencies) the container - lib dir is gitignored it is place where the dependencies be stored locally - of as node_modules dir; doesn't committed you not to install dependencies everytime run container. the container is running the app is running exposes server http://localhost:8877install dependencies (inside running container ...go-server-starter/)# -t installs testing dependencies get -v -t ./...build (inside running container ...go-server-starter/) install# run-server-starterexecute (inside running container ...go-server-starter/)./scripts/run.shenter running container neededdocker exec - go-server-starter /bin/bashtests (inside running container ...go-server-starter/)./scripts/test.sh"
+}

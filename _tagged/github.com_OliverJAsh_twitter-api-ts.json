@@ -1,0 +1,21 @@
+{
+	"_id": "14375338",
+	"site": "https://github.com/OliverJAsh/twitter-api-ts",
+	"title": "TypeScript compatible (type-safe) Twitter API client",
+	"author": "OliverJAsh",
+	"date": "2017-06-13T13:57:07.067Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"twitter",
+			"twitter-api",
+			"typescript",
+			"api-client"
+		],
+		"languages": [
+			"typescript"
+		]
+	},
+	"content": "readme.md twitter-api-tstypscript compatible twitter api client.io-ts is used perform io validation type safety.fp-ts is used its task, either, option types.request functions return types type response<t> = either.either<errorresponse, t>. library is written typescript is published javascript type declaration files.installationyarn add twitter-api-tsexampleimport { fetchhometimeline } 'twitter-api-ts';import * option 'fp-ts/lib/option';const consumer_key = 'your_consumer_key';const consumer_secret = 'your_consumer_secret';const callback = 'your_callback';const token = 'your_token';const token_secret = 'your_token_secret';fetchhometimeline({ oauth: { consumerkey: consumer_key, consumersecret: consumer_secret, callback: callback, token: option.(token), tokensecret: option.(token_secret), verifier: option.none, }, queryparams: { count: 50, maybemaxid: option.none, },}) // use fp-ts task type, is lazy. running task returns // promise. .run() .(response => { console.log(response); // => either<errorresponse, twitterapitimelineresponset> });developmentyarnyarn compileyarn lint"
+}

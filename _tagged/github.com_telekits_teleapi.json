@@ -1,0 +1,26 @@
+{
+	"_id": "14379880",
+	"site": "https://github.com/telekits/teleapi",
+	"title": " Telegram Bot API into Each Home with Payments Platform [Node.js]",
+	"author": "nof1000",
+	"date": "2017-06-13T13:07:23.792Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"telegram",
+			"nodejs",
+			"javascript",
+			"es6",
+			"api",
+			"bot",
+			"network",
+			"library",
+			"tekekit",
+			"telegram-api"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md telekit teleapi support telegram bot api 3.0.0 payment platform. more payment platform is ?this is useful library simplify work the telegram bot apibefore start, please, read introduction developers. a moment, 'll read .installnpm$ npm install teleapi --saveyarn$ yarn add teleapi it ?elementary! at next example show how send request getme method:/** be 've required teleapi */const teleapi = require('teleapi');/** * next need get instance the teleapi. * , we should set bot token. */const api = teleapi('telegram_bot_token');/** * now can send requests the telegram bot api; * method returns info the bot us. * * (`getme` method is available the telegram bot api). */api.getme().((response) => { /** bot id */ console.log('id:', response.id); /** username the bot */ console.log('username:', response.username); /** * also name last name lang code. * about below. */}).catch((error) => { /** something is wrong! */ console.log(error);}); you to available methods types:please, a at here .apiteleapi(token, [api]);token:string - token the bot you get the botfatherapi:object - (optional) object custom api( api.json)returns: api - instance the teleapi.creates new instance the teleapi your token the bot.teleapi.version:string contain the current api version.teleapi.methods:array contain array string all available methods.api.getfile(id);id:string - file idreturns: stream - stream file data file the telegram.api.method(name, [params]);name:string - name the method available the telegram bot apiparams:object - (optional) object body params the requestreturns: promise response then method send request the telegram bot api;'s private method you use .api.<method>(params);params:object - object body params the requestreturns: promise response then <method> is of available methods telegram bot api. all available methods here.examplessend text message chatconst teleapi = require('teleapi');const api = teleapi('telegram_bot_token');/** send request chat text message */api.sendmessage({ chat_id: 0000, text: 'hello!', });save file the telegramconst teleapi = require('teleapi');const api = teleapi('telegram_bot_token');/** send request file id */api.getfile('file_id').pipe(fs.createwritestream('image.png'));send sticker(file_id)const teleapi = require('teleapi');const api = teleapi('telegram_bot_token');/** send request where `sticker` is file id */api.sendsticker({ chat_id: 0000, sticker: 'file_id', });send document(stream.readable)const teleapi = require('teleapi');const fs = require('fs');const api = teleapi('telegram_bot_token');/** send request where `document` is stream.readable */api.senddocument({ chat_id: 0000, document: fs.readfile('book_from_tpb.pdf'), });send photo(url)const teleapi = require('teleapi');const api = teleapi('telegram_bot_token');/** send request where `photo` is url */api.sendphoto({ chat_id: 0000, photo: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/test.png', });send voice(buffer)const teleapi = require('teleapi');const api = teleapi('telegram_bot_token');/** send request where `voice` is buffer */api.sendvoice({ chat_id: 0000, voice: buffer([1, 2, 3]), });send document(strict)const teleapi = require('teleapi');const fs = require('fs');const api = teleapi('telegram_bot_token');/** send request where 'document' is object strict data */api.senddocument({ chat_id: 000000, document: { filename: 'photo.png', value: fs.readfile('family_photo.dat'), mime: 'image/png', },}); more is coming soon.licensemit © denis maslennikov"
+}

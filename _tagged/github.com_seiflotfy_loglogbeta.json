@@ -1,0 +1,16 @@
+{
+	"_id": "14363615",
+	"site": "https://github.com/seiflotfy/loglogbeta",
+	"title": " RLogLog-Beta - Cardinality estimation since a given timestamp",
+	"author": "seiflotfy",
+	"date": "2017-06-13T13:07:42.151Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md (retaining) loglog-beta loglog-beta more: new algorithm cardinality estimation based loglog counting - jason qin, denys kim, yumei tungtl;dr:better hyperloglog approximating number unique elements a setloglog-beta (simple version)loglog-beta is new algorithm estimating cardinalities based loglog counting. new algorithm uses one formula needs additional bias corrections the entire range cardinalities, therefore, is more efficient simpler implement. simulations show the accuracy provided the algorithm is good or better the accuracy provided either hyperloglog hyperloglog++. addition loglog-beta also provide another -formula estimator cardinalities based order statistics, modification an algorithm developed lumbroso.using loglog-beta// create loglogbetallb := loglogbeta.newdefault()// add value loglogbetallb.add([]byte(\"hello\"))// returns cardinalityllb.cardinality()retaining-loglog-beta (basically hllseries minor modifications)retaining-loglog-beta produce loglog-beta counter any window the past, using constant factor more space (8 * (32-precisionbits)) loglog-beta. each register, keeps maxtimestamp each rho value has seen. implies array length \"32-precisionbits\" 64 bit timestamp values per register. allows to reconstruct loglog-beta it be had started zero any given point the past, seen same updates structure has seen.using retaining-loglog-beta// create rloglogbetarllb := loglogbeta.newretainingdefault()// add value rloglogbeta the current timestamprllb.addnow([]byte(\"hello\"))// add value rloglogbeta a given timestamppasttime := .date(2009, .november, 10, 23, 0, 0, 0, .utc)rllb.add([]byte[\"world\"], pasttime)// returns cardinality since timestamprllb.cardinalitysince(pasttime)// returns overall cardinalityrllb.cardinality()initial results demofile: data/words-1exact: 150estimate: 157ratio: 4.458599%file: data/words-2exact: 1308estimate: 1373ratio: 4.734159%file: data/words-3exact: 76205estimate: 78440ratio: 2.849312%file: data/words-4exact: 235886estimate: 236587ratio: 0.296297%file: data/words-5exact: 349900estimate: 349388ratio: -0.146542%file: data/words-6exact: 479829estimate: 481224ratio: 0.289886%totalexact: 660131estimate: 660548ratio: 0.063129%"
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "14365975",
+	"site": "https://github.com/Z3Prover/z3",
+	"title": "Microsoft: The Z3 Theorem Prover",
+	"author": "tosh",
+	"date": "2017-06-13T13:57:07.282Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"c#",
+			"java",
+			"c",
+			"ocaml",
+			"other"
+		]
+	},
+	"content": "readme.md z3z3 is theorem prover microsoft research. is licensedunder mit license. you are familiar z3, can start here.z3 be built using visual studio, makefile using cmake. providesbindings several programming languages. the release notes notes various stable releases z3.build statuswindows x86windows x64ubuntu x64ubuntu x86debian x64osxbuilding z3 windows using visual studio command prompt32-bit builds, start :python scripts/mk_make.py instead, a 64-bit build:python scripts/mk_make.py -x:cd buildnmakebuilding z3 using and gcc/clangexecute:python scripts/mk_make.pycd buildsudo installnote default g++ is used the c++ compiler it is available. you prefer use clang change mk_make.py invocation :cxx=clang++ cc=clang python scripts/mk_make.pynote clang < 3.7 does support openmp. can build z3 windows using cygwin the mingw-w64 cross-compiler. configure case correctly, sure use cygwin's own python not windows installation python. a 64 bit build ( cygwin64), configure z3's sources cxx=x86_64-w64-mingw32-g++ cc=x86_64-w64-mingw32-gcc ar=x86_64-w64-mingw32-ar python scripts/mk_make.py 32 bit build should similarly ( is untested); same is true 32/64 bit builds within cygwin32. default, will install z3 executable prefix/bin, libraries prefix/lib, include files prefix/include, where prefixinstallation prefix inferred the mk_make.py script. is usually/usr most linux distros, /usr/local freebsd osx. the --prefix= command line option change install prefix. example:python scripts/mk_make.py --prefix=/home/leocd buildmake install uninstall z3, sudo uninstall clean z3 can delete build directory run mk_make.py script again.building z3 using cmakez3 has unofficial build system using cmake. read readme-cmake.mdfile details.z3 bindingsz3 has bindings various programming languages..net the --dotnet command line flag mk_make.py enable building .on non-windows platforms mono is required. theseplatforms location the c# compiler gac utility need be known. can set as follows they aren't detected automatically. example:csc=/usr/bin/csc gacutil=/usr/bin/gacutil python scripts/mk_make.py --dotnetnote very old versions mono (e.g. 2.10) may need set csc /usr/bin/dmcs.note when install is executed non-windows platforms gacutility is used install microsoft.z3.dll thegac themicrosoft.z3.sharp package. during install pkg-config file(microsoft.z3.sharp.pc) is installed allows monodevelop ide find bindings. running uninstall remove dll the gac the pkg-config file. examples/dotnet examples.c are always enabled. examples/c examples.c++ are always enabled. examples/c++ examples.java the --java command line flag mk_make.py enable building .see examples/java examples.ocaml the --ml command line flag mk_make.py enable building .see examples/ml examples.python the --python command line flag mk_make.py enable building .note is required certain platforms the python package directory(site-packages most distributions dist-packages debian baseddistributions) live under install prefix. you a non standard prefix can the --pypkgdir option change python package directoryused installation. example:python scripts/mk_make.py --prefix=/home/leo --python --pypkgdir=/home/leo/lib/python-2.7/site-packages you need install a non standard prefix better approach is use python virtual environment install z3 . python packages work python3.under windows, recall build inside visual c++ native command build environment.note the buit/python/z3 directory should accessible where python is used z3 it depends libz3.dll be the path.virtualenv venvsource venv/bin/activatepython scripts/mk_make.py --pythoncd buildmake install# will find z3 the python bindings installed the virtual environmentvenv/bin/z3 -h...python -c 'import z3; print(z3.get_version_string())'... examples/python examples."
+}

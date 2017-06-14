@@ -1,0 +1,22 @@
+{
+	"_id": "14385323",
+	"site": "https://github.com/epiqueras/japicam",
+	"title": " JAPICAM – JSON API Caller and Redux Middleware",
+	"author": "ep123",
+	"date": "2017-06-13T13:07:23.574Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"redux",
+			"redux-middleware",
+			"json-api",
+			"ajax",
+			"fetch",
+			"api"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md japicamjson api caller middleware.japicam is tool simplifying connections json apis. works really as redux middleware, it's helpful any setting. gistimport japicam 'japicam'//...applymiddleware( /* whatever method are using adding middleware redux */japicam({ // can configure many apis you name: 'main-api', root: 'https://aniceapi.com/api', method: 'post', // optional, defaults 'get' headers: {}, // optional, defaults { 'content-type': 'application/json' } timeout: 1000, // optional, defaults 5000 body: {}, // optional, won't used 'get' requests params: {}, // optional, extra properties assign the request object onsuccess: json => {/* ... */} || 'fetched_data', // optional, action creator action name dispatch the request is succesful ontimeout: error => {/* ... */} || 'timed_out', // optional, action creator action name dispatch the request times onerror: (error || json) => {/* ... */} || 'request_error', // optional, action creator action name dispatch the request throws error the response is in range 200-299}, 'https://anotherniceapi.com/api') // can pass string the name default `api-${paramindex}`// )// somewhere else your code:dispatch({ type: 'main-api', endpoint: '/posts/1', onsuccess: 'posts-fetched', headers: { 'content-type': 'application/json', /* more properties... */ },}) the value onsuccess, ontimeout, onerror is string. japicam dispatch action type: thatstring json: responsejson error: responseerror. way don't to create action creator function handle request responses your reducers. property the action object overwrite those initialized japicam. of initial configuration object specifying defaults you later overwrite specific actions.dispatch return promise resolves json an error object you wait it resolve your code.dispatch({ type: 'main-api', endpoint: '/posts/1' }).(result => console.log(result))example: retrying requests could retry timed request this:dispatch({ type: 'main-api', endpoint: '/posts/1', ontimeout: (error) => { dispatch({ type: 'main-api', endpoint: '/posts/1' }) },})usage outside reduximport { japicamnomiddleware japicam } 'japicam'const apicaller = japicam({ name: 'main-api', root: 'https://aniceapi.com/api', timeout: 1000, body: {}, params: {}, onsuccess: json => console.log(json), ontimeout: error => console.error(error), onerror: (error || json) => {/* ... */},}, 'https://anotherniceapi.com/api')apicaller({ type: 'api-2' // are using second this onsuccess: json => console.log(json),}).(result => console.log(result)) // can attach the promise chain"
+}

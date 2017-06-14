@@ -1,0 +1,23 @@
+{
+	"_id": "14475740",
+	"site": "https://github.com/ilkeryilmaz/timelinejs/",
+	"title": "Timelinejs – jQuery timeline plugin, easily creates timeline slider",
+	"author": "ilkoylmz",
+	"date": "2017-06-13T13:55:02.540Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"timeline",
+			"chronology",
+			"milestone",
+			"jquery-timeline-plugin",
+			"jquery-plugin",
+			"jquery-timeline"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md jquery timeline pluginjquery timeline plugin, easily creates timeline.getting started1.1. installation package managerstimeline.js is setup ready be used bower npm can installed using following commands.bower install timelinejs-slidernpm install timelinejs-slider1.2. basicsinclude jquery library plugin:<script src=\"js/jquery.min.js\"></script> <!-- >=1.11.2 --><script src=\"js/timeline.min.js\"></script>include plugin css file:<link rel=\"stylesheet\" href=\"css/timeline.css\">html markup:<div class=\"timeline-container timeline-theme-1\"> <div class=\"timeline js-timeline\"> <div data-=\"2017\"> content markup</div> <div data-=\"2016\"> content markup</div> <div data-=\"2015\"> content markup</div> <div data-=\"2014\"> content markup</div> <div data-=\"2013\"> content markup</div> </div></div><!-- /.timeline-container -->start plugin:$(function(){ $('.js-timeline').timeline();});optionsavailable options listed below.$('.timeline').timeline({ autoplay: false, // value: boolean | enables autoplay autoplayspeed: 3000, // value: integer | autoplay speed milliseconds mode: 'horizontal', // value: horizontal | vertical, default horizontal itemclass: 'timeline-item', // value: item class dotsclass: 'timeline-dots', // value: dots item class activeclass: 'slide-active', // value: item dots active class prevclass: 'slide-prev', // value: item dots prev class nextclass: 'slide-next', // value: item dots next class startitem: '', // first|last|number // value: | last | number , default first dotsposition: 'bottom', // value: bottom | top, default bottom pauseonhover: true, // value: boolean | pause autoplay hover pauseondotshover: false, // value: boolean | pause autoplay a dot is hovered});demohttps://ilkeryilmaz.github.io/timelinejs/tasks basic plugin demo page documentation mouse drag touch support mobile support next/prev button advanced features (date slider, autoplay.)"
+}

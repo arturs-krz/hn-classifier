@@ -1,0 +1,20 @@
+{
+	"_id": "14486352",
+	"site": "https://github.com/darshanime/notes",
+	"title": "Computer science notes open sourced",
+	"author": "darshanime",
+	"date": "2017-06-13T14:10:05.899Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"interview",
+			"notes",
+			"computer-science",
+			"interview-preparation",
+			"python",
+			"operating-systems"
+		],
+		"languages": []
+	},
+	"content": "readme.md noteswelcome my personal notes various computer science topics, gathered 3 years. am sharing in hope they be useful as .available notes:operating systemsartificial intelligencepro pythonc languageemacsalgorithmsdatastructurestwistedasync programmingelectronicsdjangoflaskemberfront endfullstackhadoopprogramming languagesjavajava apipython gotchaspythonjscmysqlorgmodescrapytensorflowmisc dumpscontributions welcome! welcome to contribute notes the topics add topics entirely! corrections any form are welcome.disclaimer large chunk these notes are organized very nicely. especially ones \"pre-emacs, pre-org mode\" era. will structure when get ."
+}

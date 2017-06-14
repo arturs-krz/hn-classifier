@@ -1,0 +1,14 @@
+{
+	"_id": "14451642",
+	"site": "https://github.com/systemd/systemd/pull/5998",
+	"title": "Systemd-resolved remote DoS via a crafted DNS response",
+	"author": "tgragnato",
+	"date": "2017-06-13T13:55:22.040Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": ""
+}

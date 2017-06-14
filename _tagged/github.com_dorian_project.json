@@ -1,0 +1,20 @@
+{
+	"_id": "14526920",
+	"site": "https://github.com/dorian/project",
+	"title": " Points project",
+	"author": "dorianm",
+	"date": "2017-06-13T13:23:09.465Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md project points projectreadme readme normally document whatever steps are necessary get application and running.things may to cover:ruby versionsystem dependenciesconfigurationdatabase creationdatabase initialization to run test suiteservices (job queues, cache servers, search engines, etc.)deployment instructions...rais serverrails consolespring stopstaging: +14153749843 # +1 415-805-7561 san francisco, caproduction: +12312161681 # +1 660-250-0542 norborne, modorian google: +14156219825 # +1 415-621-9825dorian t-mobile: +14153740330 # +1 415-374-0330puts hirb::helpers::table.render(controller.twilio_client.account.messages.list.map { |m| { : m., to: m., body: m.body[0..50] } }, fields: [:, :to, :body])r = controller.twilio_client.account.messages.list(page_size: 1000).map { |m| [m., m., m.body, m.date_created] }; puts r.map { || a.join(', ') }file.write('data/texts.json', json.pretty_generate(controller.twilio_client.account.messages.list(page_size: 1000).map { |m| { : m., to: m., body: m.body, date_created: m.date_created } }))file.write('data/transactions.json', json.pretty_generate(transaction.))file.write('data/users.json', json.pretty_generate(user.))puts (text..map(&:) + text..map(&:)).uniq.sortdatabase.production!; texts = (user..map(&:to_text) + transaction.includes(:source, :destination).map(&:to_text) + text.where_to_production).sort_by(&:created_at); puts texts.map { |t| [t.created_at, t.body].join(' | ') }curl -x post -d \"callsid=ca6bc26fce2c2fa97c33a1d1dfc02b91ed\" http://localhost:3000/voicescurl -x post -d \"messagesid=sm482d3e7ed73fb609f3bfa107f751f610\" http://localhost:3000/textsrake db:reset db:fixtures:loadstaging: +14153749843+14158057561production: +12312161681dorian: +14156219825, +14153740330+18303707687 jeff:+13054504837+14153740330+14155354880+14156219825+14158057561+16602500542+17143086358+17862054694+18303707687import# all texts# all transactions# all users# phone numbers mapping# print non-duplicated transactions user registrations# created_at:, :, to:, body:# separate staging / production# process messages"
+}

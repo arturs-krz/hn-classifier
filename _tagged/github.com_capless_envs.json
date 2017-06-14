@@ -1,0 +1,23 @@
+{
+	"_id": "14463824",
+	"site": "https://github.com/capless/envs",
+	"title": " Envs – Substitute hard coded vars for environment variables",
+	"author": "bjinwright",
+	"date": "2017-06-13T13:05:02.938Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"environment-variables",
+			"python",
+			"dict",
+			"tuples",
+			"lists",
+			"boolean",
+			"strings"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md envseasy access environment variables python support booleans, strings, lists, tuples, integers, floats, dicts. case you need environment variables your settings need easy of using python objects instead just strings. example, you need list strings.featurescli convert settingscli list check environment variables strings, lists, tuples, integers, floats dicts. important: setting variables your environmenet (ex. .env file) wrap in single double quotes (ex. \"['','list']\")quick startrun convert settingsimportant: don't name file same the original module ( have added imports yet).envs convert_settings --settings-file .settings.modulecopy paste imports logic code original fileenvs does copy paste imports your original code, you to this manually.run list envs tells what envs default venvs list_envs --settings-file .settings.modulegeneral api envs import envenv('somevar','default value that var',var_type='string',allow_none=true)stringsenvironment variable example: secret_key='adfadfadfafasf'>>> envs import env>>>env('secret_key','default secret key here')'adfadfadfafasf'listsenvironment variable example: server_names=\"['coastal','inland','western']\">>> envs import env>>>env('server_names',var_type='list')['coastal','inland','western']tuplesenvironment variable example: server_names=\"('coastal','inland','western')\">>> envs import env>>>env('server_names',var_type='list')('coastal','inland','western')dictsenvironment variable example: database=\"{'user':'name','password':'password'}\">>> envs import env>>>env('database',var_type='dict'){'user':'name','password':'password'}integersenvironment variable example: no_servers=12>>> envs import env>>>env('no_servers',var_type='integer')12floatsenvironment variable example: index_weight=0.9>>> envs import env>>>env('index_weight',var_type='float')0.9booleansenvironment variable example: use_profile=false>>> envs import env>>>env('use_profile',var_type='boolean')falsecommand line utilsimportant: of command arguments fallback becoming prompts not set calling commands.convert module (convert_module)converts existing settings file it uses envs. important: command does copy import stataements the module.argumentssettings-file: - dot notated import string settings fileenvs convert_module --settings-file .settingslist envs (list_envs)shows list env instances set a settings file.settings-file: - dot notated import string settings filekeep-result: - keep .env_results file generated this command (default: false)envs list_envs --settings-file .settings --keep-result falsecheck envs (check_envs) sure the defined envs no default value a value set the environment. command raise envsvalueexception there is environment variable should set is . this command is meant use a ci/cd tool a to halt build there isn't value an environment variable.settings-file: - dot notated import string settings fileenvs check_envs --settings-file .settingsauthortwitter::@brianjinwrightgithub: bjinwright"
+}

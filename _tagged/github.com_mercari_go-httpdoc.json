@@ -1,0 +1,17 @@
+{
+	"_id": "14453147",
+	"site": "https://github.com/mercari/go-httpdoc",
+	"title": " Golang package for generating API documentation from handler test",
+	"author": "deeeet",
+	"date": "2017-06-13T13:05:04.417Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"protocol buffer"
+		]
+	},
+	"content": "readme.md -httpdoc -httpdoc is golang package generate api documentation httptest test cases. provides simple http middleware records http requests responses tests generates documentation automatically markdown format. sample documentation. also provides way validate values are equal what expect annotation (e.g., can add description headers, params response fields). you write proper tests, will generate usable documentation (namely, forces to write tests). only json request response it supports protocol buffer. sample protobuf documentation). usage example godoc.note: package is experimental may backward-incompatible changes.install go :$ go github.com/mercari/-httpdocusage usage are described godoc. generate documentation, set following env var:$ export httpdoc=1reference original idea came r7kamura/autodoc (rack middleware). struct inspection validator, uses tenntenn/gpath package."
+}

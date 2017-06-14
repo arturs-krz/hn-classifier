@@ -1,0 +1,16 @@
+{
+	"_id": "14100949",
+	"site": "https://github.com/qwook/graphical",
+	"title": " Qwook, a lightweight framework to draw from Node.js",
+	"author": "Bambo",
+	"date": "2017-06-13T13:35:27.003Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md graphicalgraphical is very lightweight framework used dynamically draw graphics nodejs straight the browser. graphical is great visualizing server-side data such x, y coordinates accelerometer output real-.no more having deal console.log spamming, your debugging graphical!example visualizing steam controller (source code)getting started stepsinstall graphical through npm:npm install --save-dev graphicalvar { graphical } = require('graphical');graphical(8111); // listen port 8111graphical should be accessible http://localhost:8111/drawing shapesvar { rectangle, graphical } = require('graphical');graphical(8111);var rectangle = rectangle();rectangle.setpos(0, 0);rectangle.setcolor('blue');rectangle.setsize(20, 20);check ./test.js more examples.apigraphical( [port, sendrate] )sendrate is frequently graphical should send state changes. default is every 10 milliseconds. drawable()base class all graphical objects..destroy() removes drawable..setcolor( color: string ) sets fill-color the drawable. color be variation a css-style color: \"red\", \"#ff0000\", \"rgb(255, 0, 0)\"..setpos( x: number, y: number ).setz( zindex: int = 0 ) changes drawing order. set z-index a negative number draw behind every drawable. set z-index a positive number draw front every drawable. two objects the same z-index, they are drawn based creation .new circle()extends drawable.setradius( radius: number ).setoutlinewidth( width: number = 0 ) thickness the circle's outline, pixels..setoutlinecolor( color: string ) rectangle()extends drawable.setsize( width: number, height: number ).setwidth( width: number ).setheight( height: number ).setoutlinewidth( width: number = 0 ) thickness the rectangle's outline, pixels..setoutlinecolor( color: string ) line()extends drawable.setpos2( x: number, y: number ) sets position the line's second end-point. ( be used -conjunction setpos).setwidth( width: number ) thickness the line, pixels. text()extends drawable.setfont( font: string ) css-style description font font size. ex: \"12pt times roman\", \"bold 12px arial\", \"italic bold 16px arial\"..settext( text: string ).setlineheight( lineheight: number = 0 ) tall each line should (in pixels) breaking multi-line text. set 0, don't break multiline text..setoutlinewidth( width: number = 0 ) thickness the text's outline, pixels..setoutlinecolor( color: string )"
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14437695",
+	"site": "https://github.com/delvedor/find-my-way",
+	"title": "find-my-way: A crazy fast HTTP router",
+	"author": "guifortaine",
+	"date": "2017-06-13T13:55:35.083Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"router",
+			"http",
+			"speed",
+			"radix-tree"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md find--way crazy fast http router, internally uses highly performant radix tree (aka compact prefix tree), supports route params, wildcards, it's framework independent. is inspired the echo router, parts been extracted trekjs router.installnpm find--way --saveusageconst http = require('http')const router = require('find--way')()router.('get', '/', (req, res, params) => { res.end('{\"hello\":\"world\"}')})const server = http.createserver((req, res) => { router.lookup(req, res)})server.listen(3000, err => { (err) throw err console.log('server listening : http://localost:3000')})apifindmyway([options])instance new router. can pass default route the option defaultroute.const router = require('find--way')({ defaultroute: (req, res) => { res.statuscode = 404 res.end() }})(method, path, handler, [store])register new route, store is object you access later inside handler function.router.('get', '/', (req, res, params) => { // code})// storerouter.('get', '/store', (req, res, params, store) => { // store be updated assert.equal(store, { hello: 'world' })}, { hello: 'world' }) you to register parametric path, use colon before parameter name, you need wildcard the star.// parametricrouter.('get', '/example/:name', () => {}))// wildcardrouter.('get', '/-example/*', () => {}))lookup(request, response)start new search, request response are server req/res objects. a route is found will automatically called handler, otherwise default route be called. url is sanitized internally, the parameters wildcards are decoded automatically.router.lookup(req, res)find(method, path)return ( present) route registered method:path. path must sanitized, the parameters wildcards are decoded automatically.router.find('', '/example')// => { handler: function, params: object, store: object}// => nullacknowledgements project is kindly sponsored letzdoit.licensefind--way - mittrekjs/router - mit software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose non infringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software.copyright © 2017 tomas della vedova"
+}

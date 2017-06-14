@@ -1,0 +1,17 @@
+{
+	"_id": "14200882",
+	"site": "https://github.com/ruchir594/NatOS",
+	"title": " Scheduling Async Voice Messages on RPi Made Easy with NatOS",
+	"author": "ruchirp",
+	"date": "2017-06-13T13:33:07.170Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"other"
+		]
+	},
+	"content": "readme.md natos - libraries at you don't succeed, have lot common.scheduling async bash commands one line. literally. actionsa import schedulerscheduler.message(seconds=7, command='afplay imagine.mp3')scheduler.message(minutes=5, command='python 334.py &')voice messages too... actionsa import schedulerscheduler.message(seconds=4, text='nitesh is brilliant...')scheduler.message(minutes=2, text=' is ?')scheduler.message(hours=6, text=' time tell', player='afplay')scheduler.message(days=7, text=' is!', player='mpg123') default player is omxplayer, runs on raspberry pi, a player must specified other os.installinggit clone https://github.com/ruchir594/natos.gitcd natossudo if are running on mac any unix, please sure redis-server queue-server is running. open cli, runredis-servercd natospython queue-server.py & raspberry pi, some weird reason, after adding queue-server init.d, still has be manually started. not forget run redis-server queue-server.technical documentationuses redis tasktiger backend.during , redis-server a queue \"tasks\" is added deamon perceived seemless interaction. (tasks = to play, text be played).text--speech is powered omxplayer raspberry pi.-- more coming soon --comments, criticism, contributions welcomedesigned tested raspberry pi running raspbian jessienatoscommands can understandok nat, -- greetings --ok nat, call -- khal drogo? --ok nat, time is ?ok nat, hows weather?things be addedwake engine (completed) (thanks kitt.ai)image recognitionasynchronous process management wait_on(s)p.s. internet is utmost importanttechnical documentationoverview code only thing has run, is parent.py. in turn executes wakeword.py, wakeword being \"ok nat.\" the wakeword is detected, snowboydecoder immediately calls mothership starts recording rest the voice. processes.processing commandscorecommon functions casual natural language interactions (weather, , hi-hello) be handles core directory, mainly, nlqueen.py. thoughful contributions casual nli welcomed.advance actions. standard modules.reminders, schedule, monitoring; be handled actions architecture. is module based approach.ii. custom modules hacker organization built own module push main repository will allow user natos download use . any custom module follows actions architectures documentation ( here - in progress) be integrated its own all functionality that module be available natos main voice interface directly. is gonna that simple."
+}

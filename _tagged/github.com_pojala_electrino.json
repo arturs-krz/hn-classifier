@@ -1,0 +1,24 @@
+{
+	"_id": "14260755",
+	"site": "https://github.com/pojala/electrino",
+	"title": " Electrino, a featherweight API-compatible alternative to Electron",
+	"author": "pavlov",
+	"date": "2017-06-13T13:32:47.284Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"electronjs",
+			"electron",
+			"macos",
+			"desktop",
+			"webkit"
+		],
+		"languages": [
+			"objective-c",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md electrino not this production. project is its early stages desktop runtime apps built web technologies, using system's own web browser engine.electrino is experimental featherweight alternative the popular powerful electron. implements minuscule portion the apis available electron, the output app size is much smaller. \"hello world\" app takes 115 mb using electron, only 167 kb using electrino: comparison is completely unfair electrino currently doesn't anything more. can load web page, access basic electron/node apis, that's . electrino is nothing more a proof concept present. current implementation is for macos. windows port using microsoft edge seems potentially interesting though.read more electrino this post dailyjssupported api'selectrino currently supports following api implementations:appbrowserwindowipcmaintraynativeimageroadmap plan is examine api usage real-world apps use electron don't really need full capabilities. candidates are desktop utilities, menu bar apps other small apps users typically leave open. ( large productivity-style apps, electron is better choice.)jan hovancik offered stretchly app a candidate, i'm going start mapping the apis used stretchly see it take implement with electrino. you a small electron-based mac app you'd to try putting on electrino diet, let's it try! contact info is below.contactpauli olavi ojala / @pauliooj / pauli @ lacquer.fiamila welihinda / @amilajack / amilajack @ gmail.com"
+}

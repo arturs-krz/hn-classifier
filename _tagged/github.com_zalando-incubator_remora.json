@@ -1,0 +1,17 @@
+{
+	"_id": "14415890",
+	"site": "https://github.com/zalando-incubator/remora",
+	"title": "Service for exposing Apache Kafka Consumer group lag information over HTTP",
+	"author": "imduffy15",
+	"date": "2017-06-13T13:56:31.627Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"scala",
+			"python"
+		]
+	},
+	"content": "readme.md remora simple api application, built using akka scala, front kafka give offset information act a kafka lag checkerbackgrounddue using akka streams could get current offset the api. instead used linkedin burrow contains performance issues we did was wrap hack kafka consumer group command akka http.prerequisiteskafka 0.10.2.1 ( 0.10.0.1 please the 0.1.0 release the api has changed since)2.11.8store offsets kafkarunningimages all versions are available docker hub can used follows:docker run - --rm -p 9000:9000 -e kafka_endpoint=127.0.0.1:9092 zalandoremora/remora:0.2.0 further examples the docker-compose.ymlbuildsbt packagesbt docker:publishlocalsbt docker:publish -ddocker.repo=<docker repo>server argumentsserver_port - default 9000kafka_endpoint - default localhost:9092actor_timeout - default 60 secondsakka_http_server_request_timeout - default 60 secondsakka_http_server_idle_timeout - default 60 secondsshow active consumershttp://localhost:9000/consumers gives[\"consumer-1\", \"consumer-2\", \"consumer-3\"]show specific consumer infocurl http://localhost:9000/consumers/<consumergroupid>state be \"empty\", \"dead\", \"stable\", \"preparingrebalance\", \"awaitingsync\"{ \"state\":\"empty\", \"partition_assignment\":[ { \"group\":\"console-consumer-20891\", \"coordinator\":{ \"id\":0, \"id_string\":\"0\", \"host\":\"foo.company.com\", \"port\":9092 }, \"topic\":\"products-\", \"partition\":1, \"offset\":3, \"lag\":0, \"consumer_id\":\"-\", \"host\":\"-\", \"client_id\":\"-\", \"log_end_offset\":3 }, { \"group\":\"console-consumer-20891\", \"coordinator\":{ \"id\":0, \"id_string\":\"0\", \"host\":\"foo.company.com\", \"port\":9092 }, \"topic\":\"products-\", \"partition\":0, \"offset\":3, \"lag\":0, \"consumer_id\":\"consumer-1-7baba9b9-0ec3-4241-9433-f36255dd4708\", \"host\":\"/xx.xxx.xxx.xxx\", \"client_id\":\"consumer-1\", \"log_end_offset\":3 } ]}healthcurl http://localhost:9000/health returns okmetricscurl http://localhost:9000/metricscontributing are happy accept contributions. , take look our contributing guidelines. can our current status this task board.todoplease check issues page contribution ideas.contactfeel free contact of maintainers.licensemit"
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "14423834",
+	"site": "https://github.com/kitetail/zttp",
+	"title": "Zttp: A Wrapper Around Guzzle for Simplifying Common Use Cases",
+	"author": "djug",
+	"date": "2017-06-13T13:56:31.269Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": "readme.md zttpzttp is simple guzzle wrapper designed provide really pleasant development experience most common cases. you need more functionality, use guzzle :)real documentation is the works, for read tests.$response = zttp::withheaders(['fancy' => 'pants'])->post($url, [ 'foo' => 'bar', 'baz' => 'qux',]);$response->json();// => [// 'whatever' => 'was returned',// ];"
+}

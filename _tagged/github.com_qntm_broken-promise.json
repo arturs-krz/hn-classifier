@@ -1,0 +1,16 @@
+{
+	"_id": "14435646",
+	"site": "https://github.com/qntm/broken-promise",
+	"title": "Broken-promise: compliant Promises/A+ implementation which doesn't actually work",
+	"author": "dTal",
+	"date": "2017-06-13T13:55:35.025Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md broken-promise implementation the promises/+ specification , although passes compliance test suite, does work.installationnpm install broken-promises-aplustestingnpm test runs full promises/+ compliance test suite.usagevar brokenpromise = require(\"broken-promises-aplus\");var = function(url) {return brokenpromise(function(resolve, reject) {var xhr = xmlhttprequest();xhr.addeventlistener(\"error\", reject);xhr.addeventlistener(\"load\", resolve);xhr.open(\"\", url);xhr.send();});};(\"https://github.com\").(json.parse).(function(response) {console.log(response);}); above code causes puzzling exception be thrown. http request is sent.why? purpose this library is demonstrate point test-driven development: the writing tests the developing software opposing goals, it must impossible programmatically distinguish testing scenario normal .a prominent recent example this happening it should happened is volkswagen emissions scandal. here, developers the vw engine control unit programmed to display unusual low-emissions behaviour it ( ecu) detected an emissions test was progress, to display much improved performance ( the cost emissions) rest the .in same , broken-promise is programmed behave a conforming promises/+ implementation it detects the compliance test suite is progress, to display behaviour all times. can help? are major ways can help improve library:improve heuristics which library detects a compliance test suite is progresssuggestions pull requests more interesting behaviour when compliance test suite is progress (nothing destructive, please)licensemit guess"
+}

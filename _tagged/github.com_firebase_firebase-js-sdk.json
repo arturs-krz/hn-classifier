@@ -1,0 +1,29 @@
+{
+	"_id": "14363335",
+	"site": "https://github.com/firebase/firebase-js-sdk",
+	"title": "Firebase JavaScript SDK on GitHub",
+	"author": "jwngr",
+	"date": "2017-06-13T13:57:48.239Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"firebase",
+			"firebase-database",
+			"firebase-auth",
+			"firebase-authentication",
+			"firebase-storage",
+			"firebase-messaging",
+			"firebase-cloud-messaging",
+			"firebase-db",
+			"firebase-realtime-database",
+			"javascript",
+			"typescript",
+			"real-time"
+		],
+		"languages": [
+			"javascript",
+			"typescript"
+		]
+	},
+	"content": "readme.md firebase javascript sdk firebase javascript sdk implements client-side libraries used applications using firebase services. sdk is distributed via:cdn (<script src=\"https://www.gstatic.com/firebasejs/4.0.0/firebase.js\"></script>)npm packagebower package get starting using firebase, add firebase your javascript project.sdk dev workflowprerequisitesbefore can start working the firebase js sdk, need have node.js 6.0 greater installed your machine. doing , you must install dependencies this package. download node.js visit https://nodejs.org/en/download/.once 've verified you are using version 6.0 later (run node -v see current running version node.js), can install dependencies running:$ npm installnote: package maintains yarn.lock you get faster installs installingdependencies yarn instead.pipeline instructions firebase js sdk is built tested through gulp pipeline. will need have gulp command available your system run tasks yourself. install gulp simply run:$ npm install -g gulp-clinote: installing gulp-cli is optional you simply leverage npm commands most interactions.gulp pipeline of tasks interacting the sdk are defined through gulp. youinstalled gulp globally, can run following see of availablegulp tasks:gulp --taskstesting sdk run tests the sdk simply run: npm test the root this package. are several types available tests:unit tests (gulp test:unit)integration tests (gulp test:integration)note: can execute each these tasks their own (e.g. can rungulp test:unit run exclusively smoke tests your cli)building sdkintroduction javascript sdk is built through gulp pipeline. build project run npm run build your cli. will generate of output assets a /dist folder available theroot this project.each the different types source files are explained more detail below.source file handling source files are located the /src directory. currently contains variety different sources (typescript, prebuilt binaries, legacy). handleeach these cases our gulp pipeline.typescript source is planned source language this repo. we are able, components be migrated typescript processed the following flow:ts files are compiled es6 using typescript compileres6 files are transpiled cjs modules using babeles6 files are processed webpack attach the window globalprebuilt binaries allow firebase build github consume prebuilt binaries our componentsuntil source is migrated this repo. files are processed the following flow:prebuilt browser binaries are ready consume individually the browserhowever need wrap in cjs module wrapper node/webpack/browserifyconsumption. firebase app binary is generated ( ts) concatenated thebrowser binaries each individual module create firebase.js.legacy files files are built this repo are being migrated typescript we are able.once files are migrated, associated build process, be removed.contributing contributing more information contributing the firebasejavascript sdk."
+}

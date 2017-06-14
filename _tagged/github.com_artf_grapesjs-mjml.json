@@ -1,0 +1,21 @@
+{
+	"_id": "14371187",
+	"site": "https://github.com/artf/grapesjs-mjml",
+	"title": "Newsletter Builder with MJML Components and GrapesJS",
+	"author": "artf",
+	"date": "2017-06-13T13:57:06.624Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"newsletter",
+			"builder",
+			"wysiwyg",
+			"editor"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md grapesjs mjml plugin enables usage mjml components inside grapesjs environment. mjml components are rendered real- using official compiler, therefore result is, almost, same using mjml live editor.demosupported components:mj-containermj-sectionmj-columnmj-textmj-imagemj-buttonmj-socialmj-divideroptionsimportplaceholder import placeholder mjml, default: '',modaltitleimport title the import modal, default: 'import mjml',modalbtnimport test the import button, default: 'import',modallabelimport description the import modal, default: '',modaltitleexport title the export modal, default: 'export mjml',modallabelexport description the export modal, default: '',overwriteexport overwrite default export command, default: 'true',premjml string before mjml export code, default: '',postmjml string the mjml export code, default: '',resetblocks clean previous blocks true, default: 'true',resetblocks clean previous devices set new for mobile, default: 'true',resetstylemanager reset style manager add properties mjml, default: 'true',downloadnpm grapesjs-mjml yarn add grapesjs-mjmlusage<link href=\"path//grapes.min.css\" rel=\"stylesheet\"/><script src=\"path//grapes.min.js\"></script><script src=\"path//grapesjs-mjml.min.js\"></script><div id=\"gjs\"> <!-- mjml body here --> <mj-container> <mj-section> <mj-column> <mj-text> company</mj-text> </mj-column> </mj-section> <mj-container></div><script type=\"text/javascript\"> var editor = grapesjs.init({ fromelement: 1, container : '#gjs', plugins: ['gjs-mjml'], pluginsopts: { 'gjs-mjml': {/* ...options */} } });</script>developmentclone repository$ git clone https://github.com/artf/grapesjs-mjml.git$ cd grapesjs-mjmlinstall $ npm start dev server$ npm startbuild before commit. will increase patch level version the package$ npm run buildlicensebsd 3-clause"
+}

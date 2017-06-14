@@ -1,0 +1,18 @@
+{
+	"_id": "14142956",
+	"site": "https://github.com/sacert/Prim-s-Maze",
+	"title": " Prim's algorithm",
+	"author": "sacert",
+	"date": "2017-06-13T13:35:12.352Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md prim's-maze goal was understand tree traversal algorithms i've rarely touched since university i quickly wrote one interested and wrote for building unique maze. can test out https://sacert.github.io/prim-s-maze/demo"
+}

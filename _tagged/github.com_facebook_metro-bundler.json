@@ -1,0 +1,19 @@
+{
+	"_id": "14498335",
+	"site": "https://github.com/facebook/metro-bundler",
+	"title": "Metro Bundler: The React Native JavaScript Packager",
+	"author": "jimarcey",
+	"date": "2017-06-13T14:10:07.364Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"react-native",
+			"bundler"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md metro-bundler javascript bundler react native. fast: aim sub-second reload cycles, fast startup quick bundling speeds. scalable: works thousands modules a single application. integrated: supports every react native project of box. project was previously part the react-native repository. this smaller repository is easier the team working metro bundler respond both issues pull requests. react-native#13976 the initial announcement."
+}

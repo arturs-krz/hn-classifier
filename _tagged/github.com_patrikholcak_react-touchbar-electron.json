@@ -1,0 +1,21 @@
+{
+	"_id": "14485816",
+	"site": "https://github.com/patrikholcak/react-touchbar-electron",
+	"title": "[electron] Define TouchBar layout in your React components/routes",
+	"author": "patrikholcak",
+	"date": "2017-06-13T14:10:07.766Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"electron",
+			"touchbar"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md react touchbar electronproof conceptusing touchbar has never been easier define custom touchbar layout your react routes components have automagically mounted. easily map events, directly update state dispatch actions.exampleimport { touchbar, button, slider } 'react-touchbar-electron';const app = ({ slidervalue, onsliderchange }) => ( <div> <touchbar> <button label=\" action!\" onclick={() => alert('yo!')} /> <slider value={slidervalue} onchange={onsliderchange} /> </touchbar> <h1>app</h1> </div>)export default app;disclaimer is experimental software, distributed is, without warranty support.requirementsreact@^16.0.0-alpha newer. older versions are supported due the they render children.electron@^1.6.3 newer. older versions not support touchbar.installation$ yarn add react-touchbar-electron$ yarn add react@^16.0.0-alpha.12$ yarn add react-dom@^16.0.0-alpha.12$ yarn add electron@^1.7.2edit electron main.js:const { touchbarwrapper } = require('react-touchbar-electron');mainwindow = browserwindow({ });touchbarwrapper(mainwindow);edit electron renderer.jsimport { touchbarprovider } 'react-touchbar-electron';reactdom.render( <touchbarprovider> <app /> </touchbarprovider>, rootel);known bugsremoving appending items might work correctly - will solved rendering items using custom react fiber renderer. it workstouchbar implements 2 types objects - groups items. library simplycreates object tree using contexts, is sent the main process,where touchbar is constructed.api api is basically same electrontouchbar api.touchbarclearonunmount: boolean destroy touchbar instance unmount, defaulttruebuttonlabel: stringbackgroundcolor: string, hexicon: string icons are resolved process.cwd()iconposition: 'left' | 'right' | 'overlay'onclick: () => colorpickeravailablecolors: array<string>selectedcolor: stringonchange: (activecolor: string) => groupgroups together or more touchbar itemslabellabel: stringtextcolor: stringpopoverlabel: stringicon: string icons are resolved process.cwd()showclosebutton: booleanscrubberselectedstyle: 'background' | 'outline'overlaystyle: 'background' | 'outline'showarrowbuttons: booleanmode: 'fixed' | 'free'onchange: (item: ) => anyonclick: (item: ) => anyscrubberitemlabel: stringicon: string icons are resolved process.cwd()segmentedcontrolsegmentstyle: 'automatic' | 'rounded' | 'textured-rounded' | 'round-rect' | 'textured-square' | 'capsule' | 'small-square' | 'separated'mode: 'single' | 'multiple' | 'buttons'selectedindex: numberonchange: (selectedindex: number, isselected: boolean) => segmentlabel: stringicon: string icons are resolved process.cwd()enabled: booleansliderlabel: stringvalue: numberminvalue: numbermaxvalue: numberonchange: (value: number) => spacersize: 'small' | 'large' | 'flexible'licencemit"
+}

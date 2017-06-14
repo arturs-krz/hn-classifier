@@ -1,0 +1,24 @@
+{
+	"_id": "14429646",
+	"site": "https://github.com/RobinCK/vue-popper",
+	"title": "VueJS popover component based popper.js",
+	"author": "RobinCK",
+	"date": "2017-06-13T13:55:34.199Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"vuejs",
+			"popover",
+			"vue",
+			"popper",
+			"vue-component"
+		],
+		"languages": [
+			"html",
+			"vue",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": "readme.md vue-popperjsvuejs popover component based popper.jsexamplejsfiddleinstallcdnrecommended: https://unpkg.com/vue-popperjs, will reflect latest version soon it is published npm. can browse source the npm package https://unpkg.com/vue-popperjs/npmnpm install vue-popperjs --saveyarnyarn add vue-popperjsbowerbower install vue-popperjs --savedevelopment setup# install dependenciesnpm install# build dist filesnpm run buildusagevuejs single file (ecmascript 2015)<template> <popper trigger=\"click\" :options=\"{placement: 'top'}\"> <div class=\"popper\"> popper content </div> <button slot=\"reference\"> reference element </button> </popper></template><script> import popper 'vue-popperjs'; import 'vue-popperjs/dist/css/vue-popper.css'; export default { components: { 'popper': popper }, }</script> browser (es5)<script type=\"text/javascript\" src=\"popper.js\"></script><script type=\"text/javascript\" src=\"vue.js\"></script><script type=\"text/javascript\" src=\"vue-popper.js\"></script><script type=\"text/javascript\" src=\"vue-popper.css\"></script><div id=\"app\"> <popper trigger=\"click\" :options=\"{placement: 'top'}\"> <div class=\"popper\"> popper content </div> <button slot=\"reference\"> reference element </button> </popper></div><script type=\"text/javascript\"> vue({ el: '#app', components: { 'popper': vuepopper } });</script>propspropstypedefaultdescriptiondisabledbooleanfalseappend--bodybooleanfalsevisible-arrowbooleantrueforce-showbooleanfalsetriggerstringhoveroptional value: hover clickcontentstringnullboundaries-selectorstringnulltransitionstringemptyoptionsobject{ placement: 'bottom', gpuacceleration: false }popper.js optionseventsnameparamsdescriptioncreatedcontext[object]created popper componentshowshow popoverhidehide popoverlicensemit © igor ognichenko"
+}

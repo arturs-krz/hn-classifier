@@ -1,0 +1,22 @@
+{
+	"_id": "14460841",
+	"site": "https://github.com/brentsimmons/Frontier",
+	"title": "Frontier: Modern version of Frontier",
+	"author": "tambourine_man",
+	"date": "2017-06-13T13:55:02.207Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"r",
+			"c++",
+			"html",
+			"swift",
+			"yacc",
+			"other"
+		]
+	},
+	"content": "readme.md frontiermodern version frontier.nothing see here yet. in progress. very early days."
+}

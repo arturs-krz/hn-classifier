@@ -1,0 +1,25 @@
+{
+	"_id": "14447435",
+	"site": "https://github.com/stampery/mongoaudit",
+	"title": " Mongoaudit – CLI tool for auditing and pentesting MongoDB servers",
+	"author": "adansdpc",
+	"date": "2017-06-13T13:06:17.562Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mongodb",
+			"infosec",
+			"pentesting",
+			"encryption",
+			"authentication",
+			"database",
+			"hardening",
+			"cli"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md mongoaudit is cli tool auditing mongodb servers, detecting poor security settings performing automated penetration testing.installing pip is recommended installation method case have python pip.pip install mongoauditalternative installer this and if python pip are available your platform.curl -s https://mongoaud./install | bashworks mac os x, gnu/linux bash windows 10 you are serious security should always the pip installer , better yet, follow best security practices: clone repository, check source code only run with python mongoaudit.introduction is widely known there are quite few holes mongodb's default configuration settings. fact, combined abundant lazy system administrators developers, has led what press has called mongodb apocalypse.mongoaudit only detects misconfigurations, known vulnerabilities bugs also gives advice how fix , recommends best practices teaches how devop a pro! is the actual app looks : yep, 's material design a console line interface. (powered urwid)supported testsmongodb listens a port different default server accepts connections whitelisted hosts / networksmongodb http status interface is accessible port 28017mongodb is exposing version numbermongodb version is newer 2.4tls/ssl encryption is enabledauthentication is enabledscram-sha-1 authentication method is enabledserver-side javascript is forbidden *roles granted the user permit crud operations * user has permissions a single database *security bug cve-2015-7882security bug cve-2015-2705security bug cve-2014-8964security bug cve-2015-1609security bug cve-2014-3971security bug cve-2014-2917security bug cve-2013-4650security bug cve-2013-3969security bug cve-2012-6619security bug cve-2013-1892security bug cve-2013-2132tests marked an asterisk (*) require valid authentication credentials. can best secure mongodb?once run of test suites provided mongoaudit, will offer to receive fully detailed report via email. personalized report links a series useful guides how fix every specific issue how harden mongodb deployments. your convenience, have published mongoaudit guides our medium publication.contributing're happy want contribute! can help in different ways:open issue suggestions improvements errors 're facing.fork repository submit pull request.improve documentation. submit pull request, fork mongoaudit repository then clone fork:git clone git@github.com:<-name>/mongoaudit.git your suggested changes, git push then submit pull request.legallicensemongoaudit is released under [mit license](https://github.com/stampery/mongoaudit/blob/master/license).disclaimer\" great power comes great responsibility\"never this tool servers don't own. unauthorized access strangers' computer systems is crime many countries.please this tool is your own risk. will accept liability any loss damage you may incur matter caused.don't evil! suport trademarks software is supported endorsed any by mongodb inc., compose inc., objectslab corporation nor products services providers interoperates . it neither tries mimic replace software originally conceived the owners those products services. the same manner, third party's trademark intellectual property may appear this software must understood a strictly illustrative reference the service provider represents, is never used any that may lead confusion, no abuse is intended."
+}

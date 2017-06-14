@@ -1,0 +1,32 @@
+{
+	"_id": "14141994",
+	"site": "https://github.com/Tw1ddle/geometrize-haxe",
+	"title": " Geometrize Haxe – library and tool for geometrizing images",
+	"author": "Twidlard",
+	"date": "2017-06-13T13:35:12.438Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"art",
+			"hill-climbing",
+			"geometry-processing",
+			"shapes",
+			"haxe",
+			"graphics",
+			"graphics-library",
+			"graphics-primitives",
+			"primitives",
+			"geometric",
+			"geometric-shapes",
+			"geometry",
+			"haxelib"
+		],
+		"languages": [
+			"haxe",
+			"css",
+			"javascript",
+			"batchfile"
+		]
+	},
+	"content": "readme.md geometrize haxe is haxe library recreating images geometric primitives. run web demo your browser. geometrize haxe haxelib is based the primitive library.featuresrecreate images shapes - combinations rectangles, rotated rectangles, triangles, circles, ellipses, rotated ellipses lines are supported.easily export geometrized images svg, generated shape data json. haxe targets are supported.install the haxe library github through haxelib.include in project .hxml-lib geometrize-haxe add to project.xml:<haxelib name=\"geometrize-haxe\" />usagerefer the geometrize haxe web demo code, this haxeflixel example code. read library documentation.basic usage: instantiate imagerunner, pass a bitmap starting background rgba color. add shapes repeatedly calling runner.step(options), passing imagerunneroptions. export results using export methods svgexporter shapejsonexporter. it works user provides target image, the algorithm finds shapes approximate image. find good shape, algorithm generates large number random candidate shapes, repeatedly improving fit each using hillclimbing optimization approach, eventually choosing best fitting shape. shapes are added by .a detailed explanation how algorithm works is given the primitive readme.resources the geometrize resources template repositories. the geometrize haxelib code library documentation. the geometrize web demo web demo code. the haxeflixel geometrize demo the demo code. the primitive repository.examples screenshots is jagginess saving images vector-based svg e.g. pyramid pomegranate.examples geometrizing public domain artwork photos:notes implementation is single-threaded, performance varies target platform. small target images are recommended - probably not need detail anyway.got idea suggestion? open issue github, send sam message twitter.geometrize haxe is based primitive, go library created michael fogleman.geometrize haxe is available a haxelib.geometrize haxe has unit tests. haxe targets are supported."
+}

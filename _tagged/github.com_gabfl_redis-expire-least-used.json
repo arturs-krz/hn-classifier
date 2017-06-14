@@ -1,0 +1,16 @@
+{
+	"_id": "14090528",
+	"site": "https://github.com/gabfl/redis-expire-least-used",
+	"title": " Redis proof of concept tool to pre-expire least used Redis keys",
+	"author": "gabriel_b",
+	"date": "2017-06-13T13:35:27.997Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"lua"
+		]
+	},
+	"content": "readme.md redis-expire-least-used redis is used cache large amounts items, least frequently used items take of memory. proof concept written lua allows set 2 expiration dates each item: normal expiration date which item expires (traditional redis expiration) pre-expiration date which item expires it has never been accessed. will address situation where long tail takes of memory:basic example search engine uses redis cache query results. each search be cached a normal expiration 600 seconds a pre-expiration 60 seconds. have 2 searches: air shuttle eat ice cream an air shuttle.air shuttle be searched more once every 60 seconds it expire its normal expiration (600 seconds).eat ice cream an air shuttle is uncommon search query will be searched again within first 60 seconds. will expire early.usage samplesetset item.usageset key value expiration pre_expirationsampleredis-cli --eval redis_elu.lua null null , set mykey myvalue 600 60returnoutput is similar setget item.usage keysampleredis-cli --eval redis_elu.lua null null , mykeyreturnoutput is similar getexpiretriggers expiration.usageexpire (limit)sample-- expire redis-cli --eval redis_elu.lua null null , expire-- expire 1,000 items maximumredis-cli --eval redis_elu.lua null null , expire 1000returncount deleted items."
+}

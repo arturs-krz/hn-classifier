@@ -1,0 +1,30 @@
+{
+	"_id": "14148806",
+	"site": "https://github.com/TheBerkin/Rant",
+	"title": " Rant 3 makes it easier than ever to procedurally generate text",
+	"author": "RantLang",
+	"date": "2017-06-13T13:34:48.365Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rant",
+			"language",
+			"c-sharp",
+			"procedural-generation",
+			"text-generation",
+			"template-engine",
+			"scripting",
+			"dotnet",
+			"unity3d",
+			"pcg",
+			"gamedev",
+			"dsl",
+			"nuget",
+			"writing"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md rant is all-purpose procedural text engine is simply described the opposite regex. has been refined include dizzying array features handling everything the basic string generation tasks advanced dialogue generation,code templating, automatic formatting, more. goal the project is enable developers all kinds automate repetitive writing tasks a high degree creative freedom.featuresrecursive, weighted branching several selection modesqueryable dictionariesautomatic capitalization, rhyming, english indefinite articles, multi-lingual number verbalizationprint multiple separate outputsprobability modifiers pattern elementsloops, conditional statements, subroutinesfully-functional object modelimport/export resources easily the .rantpkg formatcompatible unity 2017 much, much, much more...examplesliven a narrative a few simple queries.<name-male> likes <verb-transitive> <noun.pl> <pro.dposs-male> pet <noun-animal> <noun.pl -dayofweek>.alick likes mount shuttlecocks his pet bat mondays.count ten spell out.[case:sentence][numfmt:verbal][rs:10;\\s]{[rn].}. two. three. four. five. six. seven. eight. nine. ten.write poem[rhyme:perfect] <noun(1)::&> <verb.ed(1)-transitive::&> the <adj::&> <noun(1)::&>.the bread fed red head. drug dug smug plug.nugetrant is available a nuget package.enter command your package manager, the latest version rant automagically installed your project:pm> install-package rant if development builds are thing:pm> install-package rant -prelicenserant is provided under mit license.improve rant there is something want fixed, added, changed, feel free submit issue/pull request; will try get to within day. you like translate rant your native language, simply write .lang file it this here.rant resourcesrant homepagerant documentationrantionary - rant standard dictionaryonline pattern testerbuild status support projects you love work, please consider supporting on patreon. alternatively, also accept donations through paypal.donations help make projects rant better. thank ."
+}

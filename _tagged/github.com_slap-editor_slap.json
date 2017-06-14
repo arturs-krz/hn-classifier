@@ -1,0 +1,17 @@
+{
+	"_id": "14434160",
+	"site": "https://github.com/slap-editor/slap",
+	"title": "Slap – A Sublime-like terminal-based text editor",
+	"author": "type0",
+	"date": "2017-06-13T13:55:35.195Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": "readme.md slap slap is sublime- terminal-based text editor strives make editing the terminal easier. has:-class mouse support ( over ssh connection) sublime- file sidebardouble-click select word, highlight occurrencesconfigurable sublime- keybindings* (ctrl+s save, ctrl+z undo, etc.)copying/pasting os clipboard supportinfinite undo/redosyntax highlighting 100+ languagesbracket matchingautoindentationheavily customizeable via plugins... many features will you leave nano, vim, emacs behindinstallation$ curl -sl https://raw.githubusercontent.com/slap-editor/slap/master/install.sh | sh you already nodejs installed:$ sudo npm install -g slap@latestusage$ slap fish.c$ slap fish1.c fish2.c$ slap redfish/ # open dir$ slap # filedefault keybindingsquit: ctrl+qmovement: mouse arrow keys pageup/down/home/endshift click+drag select, ctrl/alt move fastersave: ctrl+sundo: ctrl+z, redo: ctrl+ylist open tabs: ctrl+lnext/previous tab: ctrl+alt+pageup/downclose tab: ctrl+wfind: ctrl+f to line: ctrl+g to matching bracket: ctrl+]open: ctrl+o ( click filebrowser) file: ctrl+nconfigurationslap supports ini json config files. can put configuration wherever rc find .a mostly empty configuration file some useful comments is created ~/.slap/config an existing file isn't found.pass configuration via command line:$ slap --header.style.bg red file.cpluginsslap is fully customizeable supports plugins written js. can placesingle js files, nodejs packages, ~/.slap/plugins/. write own plugin, good starting point isslap-clipboard-plugin.please note plugin packages must \"keywords\": [\"slap-plugin\"] package.json.os supportosxiterm2 supports mouse most keybindings of box. optimalterminal.app usage, slap-terminal.app-profile.linux you are using x.org, ensure xclip is installed os clipboard support.windows terminal emulators windows not support mouse events, putty being notable exception. cygwin, slap crashes startup due joyent/node#6459.issuesjoin in #slap freenode troubleshooting, theme/plugin/core development, palm strike discussion anynature. keys don't !note: you are using terminal.app, slap-terminal.app-profile.unfortunately terminal emulators not support certain keystrokes assuch is way handle . these include c-backspace, s-home/end, s-pageup/down. of actions alternate keybindings, inspired emacs other editors, if find that doesn't , pleasesubmit issue!slow single cores, raspberry pislap is based github's atom/text-buffer, as such should very performant, with very large files.try --editor.highlight false adding following ~/.slap/config:[editor]highlight = false that doesn't improve performance, please run --perf.profile true submit issue the newly-created v8.log file."
+}

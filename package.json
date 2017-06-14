@@ -1,0 +1,16 @@
+{
+  "name": "hackerhunt",
+  "private": true,
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "html-to-text": "^3.3.0",
+    "natural": "^0.5.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "strip-common-words": "^0.1.1",
+    "yargs": "^8.0.2"
+  }
+}

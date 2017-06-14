@@ -1,0 +1,20 @@
+{
+	"_id": "14186402",
+	"site": "https://github.com/bengadbois/nopejs",
+	"title": " NopeJS – just say nope to JavaScript",
+	"author": "bengadbois",
+	"date": "2017-06-13T13:33:34.843Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"node",
+			"node-js",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md nopejs says \"nope!\" the js stops execution."
+}

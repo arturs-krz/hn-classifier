@@ -1,0 +1,19 @@
+{
+	"_id": "14487289",
+	"site": "https://github.com/venepe/react-native-roxie",
+	"title": " Roxie – React Native and Arduino and Music",
+	"author": "vpears87",
+	"date": "2017-06-13T13:04:45.495Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"objective-c",
+			"java",
+			"python"
+		]
+	},
+	"content": "readme.md react-native-roxieconnect music library the devices around .purpose it's enough just listen your music, need experience . connect favorite tunes a smart light enjoy show. using arduino, control irrigation system watch dance. you need is song mind a bluetooth device. it worksroxie analyzes meter level a song, assigns a value, emits payload the bluetooth connected device. to customize made easy you connect customize a qr code:steps:discover bluetooth device's peripheralid, characteristicuuid, serviceuuiddecide values want write your devicefill the below json object your values: { \"peripheralid\": \"dca3c1f9-3ba2-4a2a-8107-88bf3b7c0de0\", \"characteristicuuid\": \"ffe1\", \"serviceuuid\": \"ffe0\", \"values\": [ \"0\", \"1\", \"2\", \"3\" ] } sure stringify json objectconvert to qr codeclick connect scan qr codeshare qr code others. send a pr!supported deviceshm-10 bleqr codeshm-10 ble { \"peripheralid\": \"dca3c1f9-3ba2-4a2a-8107-88bf3b7c0de0\", \"characteristicuuid\": \"ffe1\", \"serviceuuid\": \"ffe0\", \"values\": [ \"0\", \"1\", \"2\", \"3\" ] }installationgit clonenpm installreact-native linktesting linting use jest testing eslint linting. npm test"
+}

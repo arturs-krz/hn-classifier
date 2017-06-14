@@ -1,0 +1,25 @@
+{
+	"_id": "14314944",
+	"site": "https://github.com/AI428/cssing",
+	"title": " CSS Class Accelerator for designer, developer",
+	"author": "UXCODE",
+	"date": "2017-06-13T13:08:55.868Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"accelerator",
+			"animation",
+			"class",
+			"css",
+			"cssing",
+			"design",
+			"motion",
+			"typescript"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md css class accelerator designer, developeris cssing you?, this library can implement event-driven interactions without introducing large-scale framework coding javascript. do need javascript, css knowledge ideas. can easily test animation motion. library is light, 5 kb. 's mobile site, application. uses css classes attributes, it does disturb app. you learn is one syntax.quick startnpm install cssing --save download, insert<script src=\"cssing.min.js\"></script><script>cssing()</script> your product. you to limit range,<script>cssing('selector')</script>pass selector.usage<div class--{ method 'add', 'remove', 'toggle' }--{ trigger event }=\"{ class }[|{ selector }]\"></div> trigger event be set any event dispatched this element. 's click, touchstart, transitionend etc. class set same contents class attribute. multiple settings are possible a comma delimiter. selector, you to control class a different element, set .licensemit © ai428"
+}

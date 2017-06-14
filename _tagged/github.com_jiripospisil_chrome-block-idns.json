@@ -1,0 +1,16 @@
+{
+	"_id": "14147250",
+	"site": "https://github.com/jiripospisil/chrome-block-idns",
+	"title": " An extension to block all Internationalized Domain Names (IDNs)",
+	"author": "jiripospisil",
+	"date": "2017-06-13T13:34:48.499Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md block internationalized domain names (idns)installhttps://chrome.google.com/webstore/detail/block-internationalized-d/jmnapkaobebcoddgamggpchpnaikahff is ?it's chrome extension blocks requests websites useinternationalized domainname. short, allows users use non-ascii based alphabets domain names. sounds useful a lot people. is useful. 's lot people there don't the latinalphabet there's valid reason why should force to it. why i to block ?because unless 're of those , it opens possibilities idnhomograph attacks. kind spoofing attacks been demonstrated the past recently poppedagain demonstrating 'restill cases where browsers cannot protect user.(whether 's actually browser's job do is completely separatediscussion one might argue 's domain registrants' responsibility make sure lookalike domain names cannot registered. nevertheless're there.) extension is really basic. can't temporarily allow domain! is. hope is browserssoon figure asolution this the extension not needed. you need morecontrol, 're extensions might to into (untested):https://github.com/i3visio/punycode-alerthttps://github.com/aykutcevik/idn-safe extension asks permissions read data all pages. do know is code 's published the store? can download extension directly the store via chrome-ext-downloader see yourself.npm install -g chrome-ext-downloaderced jmnapkaobebcoddgamggpchpnaikahff do know works?once installed, should longer possible open pages such https://www.xn--e1awd7f.com https://www.xn--80ak6aa92e.com. it crashes does sorts nasty things!, it's first chrome extension all! seriously should everhappen, please open issue let have on twitter@jiripospisil."
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "14424260",
+	"site": "https://github.com/suyashmahar/Clipboarder",
+	"title": "[oss] Clipboard manager for Windows",
+	"author": "sisterlymite",
+	"date": "2017-06-13T13:56:32.184Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"clipboard-manager",
+			"windows"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md clipboarderclipboarder is clipboard management tool windows written c# using .net framework 4.0.features:clipboard management text image based content.ability save contents clipboarder database using password.ability access content hierarchical order using customizable keyboard shortcut, default: ctrl + shift + numberkeys.identification multiple urls text content (turned off default).syntax highlighting languages defined shls directoryscreenshotsyntax highlightingclipboarder uses cutom richtextbox, syntaxhighlightingtextbox highlight text. keywords coloring are stored xml files within 'shls' directory.relases0.9.0-betalatest release clipboarder is 0.9.0-beta. release notes binary this release is here.note:language name displayed text preview are same xml file the shls directory.xml file should follow pattern similar that sample-java.xmlcoloring keywords syntaxhighlightingtextbox is the order are defined xml file.acknowledgement would to thank @dhavalkapil his mentoring support during sdslabs winter code."
+}

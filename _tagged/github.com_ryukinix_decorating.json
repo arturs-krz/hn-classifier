@@ -1,0 +1,21 @@
+{
+	"_id": "14150117",
+	"site": "https://github.com/ryukinix/decorating",
+	"title": " Terminal ASCII animation using python decorators",
+	"author": "lerax",
+	"date": "2017-06-13T13:34:47.749Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"decorators",
+			"animation",
+			"terminal",
+			"python"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md decorating: meta repo decoratorsabstract project encourages exploration the limits decorators python. while decorators might new beginners, are extremely useful feature the language. can similar lisp macros, without changes the ast. famous decorator examples are @animated @writing. repository is made scratch, using python's standard library, dependency!installationinfo: need people do support python2, python3 now. check #3stable: last release:sudo pip install decoratingbleeding-edge:sudo pip install git+https://www.github.com/ryukinix/decoratingusagepublic decorators the api decorators decorating:debugcachecountercount_timeanimatedwritingexamplesanimatedusing decorator mixed context-managersusing nested context-managerswritinganother project mine called mal is basic command line interface myanimelist. decorator @writing be used just adding 3 lines code! check the awesome effect:developerssudo git clone https://www.github.com/ryukinix/decoratingcd decoratingsudo develop develop mode creates .egg-info (egg-link) a symlink your standard site-packages/dist-packages directory. don't worry the decorating.egg-info, 's information the package egg link your pythonpath. that, usage is dynamic, can modify code test the command line always using absolute imports anywhere ( the example)contributingplease sure code passes lint tests before sending pull request. can set pre-commit make easy. the root git repository, run commands cloning project:sudo pip install pre-commit pylint nose2pre-commit install you don't about pre-commit, check pre-commit website. you create new branch git checkout -b feature based the master ( other want improve, dev) send pull-request me! you want know something give a suggestion, create new issue!licensemit good things need be free."
+}

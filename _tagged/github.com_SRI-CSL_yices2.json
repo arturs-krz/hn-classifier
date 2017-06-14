@@ -1,0 +1,27 @@
+{
+	"_id": "14401470",
+	"site": "https://github.com/SRI-CSL/yices2",
+	"title": "Yices SMT solver now open source",
+	"author": "d3jan",
+	"date": "2017-06-13T13:56:41.145Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"satisfiability-modulo-theories",
+			"satisfiability",
+			"theorem-prover",
+			"smt-solver",
+			"sat-solver"
+		],
+		"languages": [
+			"smt",
+			"c",
+			"c++",
+			"shell",
+			"objective-c",
+			"makefile",
+			"other"
+		]
+	},
+	"content": "readme.md yices 2 distribution includes source yices, documentation, tests, examples.yices 2 is developed bruno dutertre, dejan jovanovic, ian . mason the computer science laboratory, sri international. contact ,or get more information yices, please visit website.simple examplesyices is solver satisfiability modulotheories(smt) problems. below are few typical small examples illustrate use yices using smt2 language.linear real arithmetic;; qf_lra = quantifier-free linear real arithemtic(set-logic qf_lra);; declare variables x, y(declare-fun x () real)(declare-fun y () real);; find solution (x + y > 0), ((x < 0) || (y < 0))(assert (> (+ x y) 0))(assert ( (< x 0) (< y 0)));; run satisfiability check(check-sat);; print model(-model)running yices the above problem gives solution> yices-smt2 lra.smt2sat(= x 2)(= y (- 1))bit-vectors;; qf_bv = quantifier-free bit-vectors(set-logic qf_bv);; declare variables(declare-fun x () (_ bitvec 32))(declare-fun y () (_ bitvec 32));; find solution (signed) x > 0, y > 0, x + y < x(assert (bvsgt x #x00000000))(assert (bvsgt y #x00000000))(assert (bvslt (bvadd x y) x));; check(check-sat);; the model(-model)running yices the above problem gives> yices-smt2 bv.smt2sat(= x #b01000000000000000000000000000000)(= y #b01000000000000000000000000000000)non-linear arithmetic;; qf_nra = quantifier-free nonlinear real arithemtic(set-logic qf_nra);; declare variables(declare-fun x () real)(declare-fun y () real);; find solution x^2 + y^2 = 1, x = 2*y, x > 0(assert (= (+ (* x x) (* y y)) 1))(assert (= x (* 2 y)))(assert (> x 0));; check(check-sat);; the model(-model)running yices the above problem givessat(= x 0.894427)(= y 0.447214)prerequisites build yices the source, need:gcc version 4.0.x newer ( clang 3.0 newer)gperf version 3.0 newer gmp library version 4.1 newer standard tools: (gnumake is required), sed, etc. build manual, also need: latex installation latexmk tool build on-line documentation, need install sphinxpython pacakge. simplest method is:sudo easy_install -u sphinxsphinx 1.3.x better is needed.quick instalation this:autoconf./configuresudo install will install binaries libraries /usr/local/. canchange installation location giving option --prefix=... the ./configure script. more explanations, please check doc/compiling.support non-linear arithmeticyices supports non-linear real integer arithmetic, this is enabled default. you non-linear arithmetic, follow instructions:install sri's library polynomial manipulation. 's available github (https://github.com/sri-csl/libpoly). you've installed libpoly, add option --enable-mcsat the cofigure command. details, type in toplevelyices directory:autoconf./configure --enable-mcsatsudo install3 may need provide ldflags/cppflags ./configure fails find libpoly library. options may useful too. try./configure --help see 's .windows builds recommend compiling using cygwin. you a version worksnatively windows (.e., does depend the cygwin dlls), can compile cygwin using mingw cross-compilers. isexplained doc/compiling.documentation build manual the source, type doc will build ./doc/manual/manual.pdf. documentation is the ./doc directory:doc/compiling explains compilation process options detail.doc/notes gives overview the source code.doc/yices-language explains syntax the yices language, describes commands, functions, heuristic parameters. build sphinx documentation:cd doc/sphinx html will build documentation build/html (within directorydoc/sphinx). can do: epub you'll the doc build/epub/yices.epub.getting help reporting bugs further questions yices, please contact via yicesmailing lists yices-help@csl.sri.com. mailing list is moderated, you not need register post it. can register this mailing list you are interested helping others.please submit bug reports through github issues. please include enoughinformation your bug report enable to reproduce fix problem. is example a report: am experiencing segmentation fault yices. followingis small test case causes crash. am using yices 2.4.1 x86_64 statically linked against gmp ubuntu 12.04. is example a poor bug report: have downloaded yices. i compile code link with yices, is segmentation fault i run executable. you help?please try include answers the following questions: version yices are using? which hardware os? can reproduce bug? possible, include input file program fragment."
+}

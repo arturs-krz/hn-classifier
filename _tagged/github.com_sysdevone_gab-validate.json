@@ -1,0 +1,16 @@
+{
+	"_id": "14480289",
+	"site": "https://github.com/sysdevone/gab-validate",
+	"title": " Gab-validate – Java validation library",
+	"author": "sysdevone",
+	"date": "2017-06-13T13:04:45.706Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md master: integration: gab-validate gab social validation library java. purpose this project is analyze examine i create validation library java. comments are welcome. thank .required project requires following:* java 7+* mavenbuild maven build - mvn package.usage order validate, need call definexxxxxx() method validate.definestring(\"helloworld\"). once is done, can perform tests chain calling test methods.validate.definestring(\"helloworld\").testmaxlength(10).throwvalidationexceptiononfail().validate();boolean retval = validate.defineinteger(5000).testmaxvalue(max).testminvalue(min).validate();example validate boolean: validate.defineboolean(name != null && name.length() > 0) .testtrue() .throwvalidationexceptiononfail() .validate(); boolean retval = validate.defineboolean(name != null && name.length() > 0) .testtrue() .validate(); validate string: validate.definestring(\"helloworld\").testequalsnocase(\"helloworld\") .testmaxlength(10) .throwvalidationexceptiononfail() .validate(); boolean retval = validate.definestring(\"helloworld\") .testmaxlength(10) .testequalsnocase(\"helloworld\") .validate();more documentationcheck project wiki [].copyright[copyright 2015 gregory brown] copyrightlicense codebase is licensed under [apache v2.0 license] license.feedbackcomments feedback are greatly appreciated!!!"
+}

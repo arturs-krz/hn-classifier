@@ -1,0 +1,28 @@
+{
+	"_id": "14185982",
+	"site": "https://github.com/Wolox/wor-authentication",
+	"title": " Auth for your app with expirable, renewable and customizable tokens",
+	"author": "Atixx",
+	"date": "2017-06-13T13:33:34.813Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rails",
+			"jwt",
+			"authentication",
+			"api",
+			"wolox",
+			"wor",
+			"ruby",
+			"ruby-on-rails",
+			"ruby-gem"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md wolox rails - authenticationgem add authentication your application using jwt, expirable, renewable customizable tokens!installationadd line your application's gemfile:gem 'wor-authentication' then execute:$ bundle install yourself :$ gem install wor-authenticationusagebasic configuration first step is define parent controller which other controllers have extend have -authenticated routes. , let's that our applicationcontroller.rb:class applicationcontroller < actioncontroller::base include wor::authentication::controller before_action :authenticate_requestend know exceptions be thrown the gem, please check exceptions file.second last step, have define routes achieve authentication a controller handle .# routes.rbrails.application.routes.draw # your routes here post '/' => 'authentication#create' post '/renew' => 'authentication#renew' post '/invalidate_all' => 'authentication#invalidate_all'end# authentication_controller.rbclass authenticationcontroller < applicationcontroller include wor::authentication::sessionscontroller skip_before_action :authenticate_request, : [:create]endnote our controller extends applicationcontroller. entity tracking custom validationsvalidations before giving a token? override authenticate_entity:# application_controller.rbdef authenticate_entity(params) entity = entity.find_by(some_unique_id: params[:some_unique_id]) return nil unless entity.present? && entity.valid_password?(params[:password]) entityendreturning value false won't create authentication token.keeping track entities? override: entity_payload:# application_controller.rbentity_key = :entity_iddef entity_payload(entity) { entity_key => entity.id }enddef find_authenticable_entity(entity_payload_returned_object) entity.find_by(id: entity_payload_returned_object.fetch(entity_key))endvalidations every request? override entity_custom_validation_value get verified the following:# application_controller.rbdef entity_custom_validation_value(entity) entity.some_value_that_shouldnt_changeend method be called before creating token in every request compare the returned values are same. values mismatch, token won't valid anymore. values are same, expiration validations be checked. it is desired update value renewing token, override: entity_custom_validation_renew_value.invalidating tokens an entity? override entity_custom_validation_invalidate_all_value the following:# application_controller.rbdef entity_custom_validation_invalidate_all_value(entity) entity.some_value_that_shouldnt_change = '-new-value' entity.saveend method is one executed we to invalidate sessions the authenticated entity. option achieve can to override value will then compared every request entity_custom_validation_value method, that initial stored value mismatch the different value. works if entity_custom_validation_value has been overridden. other useful configurations to modify tokens ttl maximum useful days? set initializer:# config/initializers/wor_authentication.rbwor::authentication.configure |config| config.expiration_days = 5 config.maximum_useful_days = 20end, even easier, run rails generate wor:authentication:install your root folder.contributingfork create feature branch (git checkout -b -new-feature)commit changes (git commit -am 'add feature')run rubocop lint (rubocop -r --format simple)run rspec tests (bundle exec rspec)push branch (git push origin -new-feature)create new pull requestthis project is maintained alejandro bezdjian along michel agopian it was written wolox.licensewor-authentication is available under mit license.copyright (c) 2017 woloxpermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings the software."
+}

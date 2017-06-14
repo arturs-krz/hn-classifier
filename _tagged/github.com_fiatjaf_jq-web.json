@@ -1,0 +1,19 @@
+{
+	"_id": "14400051",
+	"site": "https://github.com/fiatjaf/jq-web",
+	"title": " The JSON processor jq in the browser with emscripten",
+	"author": "fiatjaf",
+	"date": "2017-06-13T13:07:22.926Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"jq",
+			"json",
+			"emscripten"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md jq-web is build jq, command-line json processor javascript using emscripten along a wrapper making usable a library. runs the browser.install usenpm install jq-webvar jq = require('jq-web')jq({ : { big: { json: [ 'full', '', 'important', 'things' ] } }}, '..big.json | [\"empty\", .[1], \"useless\", .[3]] | join(\" \")') code above returns string \"empty useless things\".webassembly's wasm version available jq.wasm[.min].js, is much faster. the target browser supports webassembly can include normally. will automatically for binary code ./jq.wasm.wasm, make sure is available. can import with browserify require('jq-web/jq.wasm.js') you .referencejq(<object>, <filter>) <object> take javascript object, scalar, whatever, dump to json, it return whatever filter outputs try convert into js object.jq.raw(<json-string>, <filter>) <raw-output> take string will passed it is jq ( if were doing echo '<json-string>' | jq <filter> the command line) return string the raw stdout response."
+}

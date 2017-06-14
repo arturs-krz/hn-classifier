@@ -1,0 +1,17 @@
+{
+	"_id": "14151439",
+	"site": "https://github.com/joer14/hackers-doorbell",
+	"title": " Hacker's Doorbell",
+	"author": "jrowley",
+	"date": "2017-06-13T13:34:47.177Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"arduino"
+		]
+	},
+	"content": "readme.md hackers doorbell one button device emulates keyboard mutes audio alert headphone wearing user another person's physical presence. it does: someone pushes button, device simulates pause button being pushed the keyboard, the mute button. that quickly inverts uninverts colors the screen using built apple shortcut. finally unmutes volume. should alert computer user the presence someone else.demo: addition muting audio, screen flashes the music app goes playing paused.why: work an open office, have issues focusing people are talking around , so often wear large overear headphones listen music. is fine except when need get attention often either tap on shoulder have stand talk loudly my (headphone covered) ears, wave something awkwardly close me (since sit a corner can't walk front my desk). 'm fine the physical contact it's still little jarring you're deep flow it be awkward other . with device, coworkers simply push button lays next my desk not startle .how: use teensy 3.1 microprocessor connected a push button emulate keyboard. the button is pushed series keyboard shortcuts is executed.cool thing this approach: don't need special software running your mac, the ability enable default keyboard shortcut.materials:teensy 3.1 ($20) - microprocessor supports hid keyboard emulation should . i had of laying around. teensy lc is $12 should work. sparkfuns promicro ($20) should work.push button (~$2). a few arcade style buttons around, this should (keep mind case space constraints).10k pullup resistor case. used glass nug jug cbcb berkeley. sometimes need buy top shelf stuff get glass jars, ymmv.miscellaneous connectors ( recommend using headers you reuse board a later project potentially)break away headers - need male female (spacing: 0.1\"/ 2.54 mm)wire terminal connectors connect your buttonsolderusb cabletools:soldering ironpen trace cutscase cutting tool(s). used soldering iron cut the case, i love smell chlorine / am lazy a bad person. recommend use vice + drill press + rotary tool + little sandpaper. cleaner looking results your eyes won't hurt the smell burning chlorine.software:arduino ide (1.8.2 time writing)teensy loader app (1.33 time writing)teensy arduino install package (1.36 time writing):image gallery including schematic a few tipsbuying doorbell: you one these devices, yourself a coworker? maybe department pack? please send an email (gh username @ gmail.com). enough express interest, may into reducing cost, either selling kits preassembled units. could add dip switch that could easily change shortcuts work their os choice.bonus: you've read far deserve bonus! this repo included doorbell.py, small flask app allows similar functionality the physical button. run server your local machine give your ip address your peers, let bookmark . they click link you aren't responding your chat.pip install flaskpython doorbell.py get current ip address:ifconfig | grep inet server runs port 5000, pass the ip your coworkers it appended, e.g. http://192.168.1.137:5000. may to background app using tmux /or add as startup item. , a warning, is rate limiting this simple app it's pretty easy get dosed a funny coworker.thanks reading!"
+}

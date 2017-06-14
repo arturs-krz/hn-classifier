@@ -1,0 +1,21 @@
+{
+	"_id": "14321382",
+	"site": "https://github.com/aviggiano/reroaring.git",
+	"title": " Roaring Bitmaps for Redis",
+	"author": "aviggiano",
+	"date": "2017-06-13T13:08:18.587Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"redis",
+			"redis-module",
+			"roaring-bitmaps"
+		],
+		"languages": [
+			"c",
+			"shell",
+			"cmake"
+		]
+	},
+	"content": "readme.md redis-roaring roaring bitmaps redisintro project uses croaring library implement roaring bitmap commands redis.pull requests are welcome.dependenciescroaring (redis module)cmake (build)redis (integration tests)hiredis (performance tests)buildrun configure.sh script it compile source code a static library will linked redis-roaring. alternatively initialize update croaring git submodule follow build instructions their repository. build project cmake it generate redis module shared library.mkdir -p buildcd buildcmake ..testsrun test.sh script unit tests integration tests.apicurrently following operations are supportedr.setbit (same setbit)r.getbit (same getbit)r.bitop (same bitop)r.bitcount (same bitcount without start end parameters)r.bitpos (same bitpos without start end parameters)r.setintarray (create roaring bitmap an integer array)r.getintarray ( an integer array a roaring bitmap)r.setbitarray (create roaring bitmap a bit array string)r.getbitarray ( a bit array string a roaring bitmap)missing commands:r.bitfield (same bitfield)performancetested using croaring's census1881 dataset the travis build 241662381:op/op ()r.setbit34.07setbit30.43r.getbit30.17getbit28.92r.bitcount31.34bitcount188.66r.bitpos30.30bitpos50.83r.bitop 100.33bitop 291.32r.bitop 43.32bitop 454.93r.bitop 51.34bitop 368.58r.bitop xor52.74bitop xor402.81"
+}

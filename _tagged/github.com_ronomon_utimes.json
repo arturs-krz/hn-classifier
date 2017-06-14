@@ -1,0 +1,18 @@
+{
+	"_id": "14438313",
+	"site": "https://github.com/ronomon/utimes",
+	"title": "Preserve file creation timestamps on Windows and Mac",
+	"author": "jorangreef",
+	"date": "2017-06-13T13:55:38.639Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"c++",
+			"python"
+		]
+	},
+	"content": "readme.md utimeschange birth (btime), modified (mtime) /or access (atime) a file windows, macos linux.installationnpm install @ronomon/utimesusagetimestamps btime, mtime, atime should passed unix millisecond timestamps. timestamps are undefined not changed. linux does support setting btime timestamp. file descriptors are supported present.var utimes = require('@ronomon/utimes');var btime = 447775200000; // 1984-03-10t14:00:00.000zvar mtime = undefined;var atime = undefined;utimes.utimes(path, btime, mtime, atime, callback);testsnode test.js"
+}

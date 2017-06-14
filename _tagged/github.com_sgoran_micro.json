@@ -1,0 +1,16 @@
+{
+	"_id": "14437981",
+	"site": "https://github.com/sgoran/micro",
+	"title": "Fluent single page application in 2 mins",
+	"author": "sgoran",
+	"date": "2017-06-13T13:55:34.190Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md micro client side single page library: http://micro-js.comgoal is use fast improve ux fragment application without need learn angular, react etc.installing$ npm install micro-spa by embedding directly page<script src=\"https://unpkg.com/micro-spa@latest\"></script>running examples run examples the following install dev dependencies run example express server:$ git clone https://github.com/sgoran/micro.git$ cd micro/examples/blog$ npm install$ cd micro/examples/blog$ npm start$ open http://localhost:8080simple api micro({ config: { container: '#app', tpldir: '/tpl', enteranimation: 'fadein' }, router: [{ match: '/', title: 'home page', src: \"home.html\" },{ match: '/example', title: 'example page', src: \"examples.html\" }] });"
+}

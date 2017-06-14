@@ -1,0 +1,27 @@
+{
+	"_id": "14413735",
+	"site": "https://github.com/newspipe/newspipe",
+	"title": "Newspipe 8.0 –  a web news aggregator – Now with management of bookmarks",
+	"author": "cedricbonhomme",
+	"date": "2017-06-13T13:56:32.788Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"javascript",
+			"news-aggregator",
+			"news-reader",
+			"rss",
+			"react",
+			"newspipe"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"html",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.rst newspipe presentationnewspipe is web-based newsaggregator reader.main features be easily deployed heroku on traditional server;multiple users use newspipe instance; restful api manage articles ( connect own crawler);data liberation: export import your account a json file;export import feeds opml files;favorite articles;detection inactive feeds;share articles google +, pinboard reddit;personal management bookmarks ( import pinboard). core technologies are flask,asyncio ,sqlalchemy react.python >= 3.5 is required.documentation documentation is available here provides different ways install newspipe.test newspipe heroku: is important specify application name the url your instance(platform_url) through heroku form.licensenewspipe is under gnu affero general public license version 3.contactcédric bonhomme"
+}

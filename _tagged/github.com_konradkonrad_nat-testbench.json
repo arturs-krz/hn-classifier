@@ -1,0 +1,14 @@
+{
+	"_id": "14184838",
+	"site": "https://github.com/konradkonrad/nat-testbench",
+	"title": " NAT testbench",
+	"author": "konradkonrad",
+	"date": "2017-06-13T13:33:34.771Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md nat-testbench-- vagrant configuration testing stun nat do test nat traversal methods? my surprise, could find anything useful the internet, here is take it. repository contains vagrantfile sets a stun server simulates several clients behind most common nat settings (via iptables). use :vagrant (note: will need roughly 9gb storage) starts following vms:namepublic ipprivate ipcommentstun192.168.42.10,192.168.42.20-stun server, running stundfullcone192.168.42.10010.10.44.2full cone natrestrictedcone192.168.42.11010.10.45.2restricted cone natportrestrictedcone192.168.42.12010.10.46.2port restricted cone natsymmetric192.168.42.13010.10.47.2symmetric nateach nat'ted machine has host entries :my-lan-ip: points the \"private\" ip behind nat-public-ip: points the \"public\" ip the natstun.server.local: points the stun server other nat hosts their name (e.g. fullcone)per default, vms pystun installed. test different nat types, can vagrant ssh <box name>pystun -h stun.server.local - my-lan-ipwhere <box name> is of fullcone, restrictedcone, portrestrictedcone, symmetric. you to adjustments the installed packages (.e. install different stun clients, test own traversalmethods, ...), find general provisioning section the vagrantfile."
+}

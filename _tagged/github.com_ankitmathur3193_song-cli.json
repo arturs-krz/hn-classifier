@@ -1,0 +1,36 @@
+{
+	"_id": "14445643",
+	"site": "https://github.com/ankitmathur3193/song-cli",
+	"title": "Cli for downloading songs by just typing its name",
+	"author": "ankitmathur3193",
+	"date": "2017-06-13T13:55:20.884Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"song-downloader",
+			"python",
+			"bollywood",
+			"songs",
+			"tqdm",
+			"music",
+			"music-download",
+			"song-download-script",
+			"music-download-script",
+			"song-pypi",
+			"mr-jatt",
+			"web-scraper",
+			"python-script",
+			"hollywood",
+			"download-songs",
+			"mp3",
+			"singer",
+			"youtube",
+			"top-songs",
+			"movie"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md song downloader command line interface downloading songs/mp3 internet type name the song it download song youfeaturessong download music https://www.youtube.com/ https://mr-jatt.com/song query google finding link associated https://mr-jatt.com/ then parses mr-jatt.com finding download link the mp3 file downloads .for installingpip install song upgradingpip install --upgrade song uninstallingpip uninstall songusage:song -y [ song_name ]song -d [ song_name | singer_name | movie_name ]song -d --download- [ singer_name | movie_name ]song --ty [ textfile.txt ]song --td [ textfile.txt ]song --versionoptional arguments are:-y : downloading mp3 youtube-d : downloading mp3 mr-jatt--ty : downloading songs specified text file youtube mp3 format--td : downloading songs specified text file mr-jatt mp3 format--download- : for downloading songs a movie top songs a singer--version : printing song versionexample: downloading song youtubesong -y roar downloading song ( will download file current working directory)song -d tum hi ho downloading songs a movie top songs a singersong -d --download- dhoom listing songs a movie song -d dangal listing top songs an artistsong -d sunidhi chauhan todo add support hollywood/english songs implement unit testing option downloading songs a movie option downloading top songs a artistdisclaimerdownloading copyrighted material may illegal your country. at own risk. to contributeclone repository$ git clone https://github.com/ankitmathur3193/song-cli.gitbuild source$ cd song-cli-master$ python setup.py develop"
+}

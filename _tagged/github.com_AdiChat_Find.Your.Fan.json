@@ -1,0 +1,29 @@
+{
+	"_id": "14461285",
+	"site": "https://github.com/AdiChat/Find.Your.Fan",
+	"title": "Where does your fans live?",
+	"author": "adichat",
+	"date": "2017-06-13T13:55:02.858Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"fansite",
+			"fans",
+			"github",
+			"github-api",
+			"github-stars",
+			"github-followers",
+			"github-forks",
+			"map",
+			"world",
+			"enjoy"
+		],
+		"languages": [
+			"javascript",
+			"python",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md where does fans live?here is map my followers:usageadd access token github api main.py drive the terminal : > git clone https://github.com/adichat/find..fan.git > cd find..fan/code > python main.py adichat # a human > python main.py google 1 # an organization > python main.py adichat repository-hunter 2 # forks a repository > python main.py adichat repository-hunter 3 # stars a repositoryopen map.html a browser enjoy! to add/ at map an organization/ human?tell by opening issue here we add right away. here is comparison members 2 search engine organizations:here is map members google:here is map duckduckgo: contributions are welcomed. you enjoyed, consider giving repository"
+}

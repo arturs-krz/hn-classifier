@@ -1,0 +1,26 @@
+{
+	"_id": "14400238",
+	"site": "https://github.com/omaralbeik/HNClient",
+	"title": "HNClient is a super easy to use client for Hacker News API written in Swift 3",
+	"author": "omaralbeik",
+	"date": "2017-06-13T13:56:41.521Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"swift",
+			"hackernews",
+			"api-client",
+			"ios",
+			"alamofire",
+			"objectmapper",
+			"cocoapods",
+			"ycombinator"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": "readme.md hnclientsuper easy use client hacker news apiusage hacker news items, user profiles, much more few lines codeitemsfetch story, comment, job, ask hn, poll poll part a given id:hnmanager.shared.fetchitem(id: 9127232) { item, error // returns optional hnitem object}usersfetch user profile public activity a given id:hnmanager.shared.fetchuser(id: \"jl\") { user, error // returns optional hnuser object}live datafetch max item id:hnmanager.shared.fetchmaxitemid { id, error // returns current largest item id // example: 9127232}fetch , top best stories:hnmanager.shared.fetchnewstoriesids { ids // returns array up 500 stories ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}hnmanager.shared.fetchtopstoriesids { ids // returns array up 500 top stories ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}hnmanager.shared.fetchbeststoriesids { ids // returns array up 500 best stories ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}fetch ask, show job stories:hnmanager.shared.fetchaskids { ids, error // returns array up 200 latest ask hn ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}hnmanager.shared.fetchshowids { ids, error // returns array up 200 latest show hn ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}hnmanager.shared.fetchjobsids { ids, error // returns array up 200 latest jobs hn ids // example: [ 9127232, 9128437, 9130049, 9130144, 9130064 ]}fetch changed items profiles:hnmanager.shared.fetchupdates { items, profiles, error // return arrays changed items ids profiles ids // items = [ 8423305, 8420805, 8423379, 8422504, 8394339, 8421900, 8420902, 8422087 ], // profiles = [ \"thefox\", \"mdda\", \"plinkplonk\", \"arram\", \"mrzongle2\", \"bogdanp\" ]}structuremodel:hnitem.swifthnitemtype.swifthnuser.swiftservices:hnmanager.swifthacker news api: project relies hacker news apidependencies:hnclient uses alamofireobjectmapper networking mapping json native objects.requirements:ios 8.0+xcode 8.1+swift 3.0+installationcocoapodscocoapods is dependency manager cocoa projects. can install with following command:$ gem install cocoapods integrate hnclient your xcode project using cocoapods, specify in podfile:source 'https://github.com/cocoapods/specs.git'platform :ios, '8.0'use_frameworks!target '< target name>' pod 'hnclient'end, run following command:$ pod installmanuallyadd source folder your xcode project.licensehnclient is released under mit license. license details.special thanksspecial thanks mert akengin starting initiative supporting data modeling!"
+}

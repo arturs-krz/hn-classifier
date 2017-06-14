@@ -1,0 +1,23 @@
+{
+	"_id": "14487823",
+	"site": "https://github.com/dosaygo-coder-0/dosy",
+	"title": " A family of 8-bit, memorizable RNGs that pass PractRand",
+	"author": "19eightyfour",
+	"date": "2017-06-13T13:04:45.299Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rng",
+			"prng",
+			"random-generation",
+			"random-number-generators",
+			"csprng",
+			"simple",
+			"npm-package"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md dosymemorizable, simple 8-bit random number generators pass dieharder practrand.latest newsdosy passes dieharder practrand. oooh yeah!testing 1 gb initially produced 1 failed ( rgb_lagged_sums 31 ), i concluded was the test was looping 1 gb input many times finding correlations otherwise were present. i truncated input a large prime less 1 gb test passed, adding support my theory to why failed. oooh yeah!simplicity design round function is a few lines long. function round() { let j = 44; let sum = 1; ( let = 0; < 45; ++ ) { s[j] ^= (s[] >> 1) ^ (sum << 1); s[] += s[j] + 1; j = ( j + 1 ) % 45; sum += s[]; } return sum & 255; }'s .dosy defines family truly superb, super-simple, variable-state prngs ( pseudorandom number generators ) / csprngs ( cryptogrpahically secure pseudorandom number generators ), are both extraordinarily simple, pass practrand.install & using you're using node can npm install dosy const dosy = require('dosy');const rng = dosy.d451();console.log( rng.round() ); rngs are wrapped iterators, you easily :let count = 0;rng.length = 100; // note special length property puts limit a single iteration( const rvar rng ) { console.log( rvar );} run in browser, download index.js file, save as dosy.js, host somewhere load as script <script src=/dosy.js></script> <script> const rng = dosy.d451(); </script> casesdosy is super fast ( iterates entire state once each output byte ), it was designed mostly generate short keystreams encrypt short messages, under 4k length.test resultsdosy was tested using practrand is top-notch bias finder rngs. despite being simple implement, both d451 d453 passed practrand ( 16 mb, 32 mb 64 mb, other sequence lengths were generated ). far following values are tested:{ d31: \"fails\", // 24 bit d41: \"passes\", // 32 bit d51: \"passes\", // 40 bit d81: \"passes\", // 64 bit d451: \"passes\", // 360 bit d452: \"passes\", d453: \"passes\", d454: \"passes\", d455: \"passes\"}naming dosy structure defines family generators specified their state length ( bytes ) a bit shift ( bits ). each algorithm is named d451 - 45 bytes state, 1 bit shift, more generally , dxxy.where xx ( xxx xxxx so , is state length ) y is bit shift.customization can set own parameters: const rng = dosy.custom( 123, 2 );iteration rngs created dosy respect normal javascript iteration protocol. they can run simple calling round() function the rng object well.rng[symbol.iterator]().next().value; // okrng.round(); // ok these rngs have extension the iterator protocol. you set .length property can control length the iteration be whatever like. without setting length a number, iteration is infinite.rng.length = 10;( const rvar rng ) console.log( rvar ); // 10 valueskey scheduling can access interal state the generator ( the value has been generated ). can whatever like this state. state is typed array standard typed array apis apply. can implement own key scheduling algorithm include key seed generator, i did. used \"sponge\" construction, the 5 bytes set absorb key, successive rounds, the last 40 bytes set the \"spare capacity\". key scheduling algorithm worked , and 's the way can seed family generators.linksdosy npm"
+}

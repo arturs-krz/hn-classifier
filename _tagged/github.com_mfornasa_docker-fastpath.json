@@ -1,0 +1,23 @@
+{
+	"_id": "14187930",
+	"site": "https://github.com/mfornasa/docker-fastpath",
+	"title": " Docker FastPath: Only Build Your Images Once",
+	"author": "mfornasa",
+	"date": "2017-06-13T13:33:34.915Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"devops",
+			"travis-ci",
+			"jenkins",
+			"continuous-integration",
+			"continuous-deployment"
+		],
+		"languages": [
+			"c",
+			"cmake"
+		]
+	},
+	"content": "readme.md docker fastpathdocker fastpath is command line utility interacts your git repo your docker image registry allow to avoid building image the same codebase more once. analyzes git history check an image suitable your current codebase is already available your docker image registry. an introduction docker fastpath, please read blog post.examples deployment examples are provided:docker-fastpath-jenkins, based jenkins pipelinesdocker-fastpath-travis, based travis ci. should easy use those examples adapt fastpath your existing software project based docker.usage fastpath [<options>] <revspec> <image-name>description <revspec> be reference (\"head\") a sha commit id. <image-name> is name the docker image (without tag). you `docker login` before running command, docker registry credentials are taken docker client local configuration. credentials also specified using docker_username docker_password environment variables.options -v, --verbose verbose -q, --quiet quietinstallingprerequisitesdocker >= 1.7linuxfastpath is available binary form 64-bit linux systems.download latest releaserun tar xzvf docker-fastpath-linux-amd64-latest.tgz extract executable filerun ./fastpath can find old releases here.macosdownload latest releaserun unzip docker-fastpath-osx-latest.zip extract executable filerun ./fastpath can find old releases here.buildingfastpath is available a binary macos for linux. you prefer build source, the following build instructions.linux linux version is statically linked libgit2 v.0.25.1 to libcurl 7.53.1 provide recent versions usually available -of--box common distributions. following procedure has been tested ubuntu precise, the package should buildable most recent distributions.apt- updateapt- install build-essential cmakemkdir build && cd buildcmake ..the executable is availble build/fastpath.macos macos version is statically linked libgit2 v.0.25.1 (approach reccomended libgit2 maintainers) to libcurl 7.53.1 ( provide recent version usually available xcode.brew install libssh2brew install cmakebrew install opensslmkdir build && cd buildcmake ..the executable is availble build/fastpath."
+}

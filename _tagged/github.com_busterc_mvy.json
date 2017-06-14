@@ -1,0 +1,16 @@
+{
+	"_id": "14509869",
+	"site": "https://github.com/busterc/mvy",
+	"title": " Mvy = mkdirp and mv // a cli for moving to a new directory",
+	"author": "busterc",
+	"date": "2017-06-13T13:04:19.820Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md mvy mvy = mkdirp + mv // cli moving a directoryinstallation$ npm install mvy --globalusage# major key alert:## 1. the <target> has trailing slash, # <source> be placed inside <target>## 2. both <source> <target> trailing slashes, # *entire* <source> path be appended the <target> path# the <source> files be placed inside appended <target> path# move file a directory$ mvy somewhere/exists/.file yet//be/created/directory/# => yet//be/created/directory/.file# move file a directory rename file$ mvy somewhere/exists/.file yet//be/created/directory/b.file# => yet//be/created/directory/b.file# move directory a directory$ mvy somewhere/exists yet//be/created/directory/# => yet//be/created/directory/exists/# => yet//be/created/directory/exists/.file# move directory a directory rename directory$ mvy somewhere/exists yet//be/created/directory# => yet//be/created/directory/# => yet//be/created/directory/.file# move directory a directory *appending source path*$ mvy somewhere/exists/ yet//be/created/directory/# => yet//be/created/directory/somewhere/exists/# => yet//be/created/directory/somewhere/exists/.filelicenseisc © buster collings"
+}

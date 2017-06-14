@@ -1,0 +1,28 @@
+{
+	"_id": "14512834",
+	"site": "https://github.com/stormcat24/protodep",
+	"title": "Protocol Buffers IDL(.proto file) vendoring tool",
+	"author": "stormcat24",
+	"date": "2017-06-13T14:09:56.573Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"protocol-buffers",
+			"grpc",
+			"idl",
+			"dependencies",
+			"dependency-manager",
+			"tool",
+			"cli",
+			"microservices",
+			"toml",
+			"vendoring"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": "readme.md protodepdependency tool protocol buffers idl file (.proto) vendoring tool.motivation building microservices architecture, grpc protocol buffers is effective. using grpc, application depend many remote services. you manage proto files a git repository, will do? remote services are managed git they be versioned. need control dependency service version application uses.install get$ get github.com/stormcat24/protodep binarysupport follows:protodep_darwin_amd64.tar.gzprotodep_linux_386.tar.gzprotodep_linux_amd64.tar.gzprotodep_linux_arm.tar.gzprotodep_linux_arm64.tar.gz$ wget https://github.com/stormcat24/protodep/releases/download/0.0.1/protodep_darwin_amd64.tar.gz$ cp protodep /usr/local/bin/usageprotodep.tomlproto dependency management is defined protodep.toml.proto_outdir = \"./proto\"[[dependencies]] target = \"github.com/stormcat24/protodep/protobuf\" branch = \"master\"[[dependencies]] target = \"github.com/grpc-ecosystem/grpc-gateway/examples/examplepb\" revision = \"v1.2.2\"protodep in same directory, execute command.$ protodep if succeeded, protodep.lock is generated.protodep -f (force update) if protodep.lock exists, can force update dependenies.$ protodep -flicense license.copyright © stromcat24. rights reserved."
+}

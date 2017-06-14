@@ -1,0 +1,19 @@
+{
+	"_id": "14437036",
+	"site": "https://github.com/oknoorap/weft",
+	"title": "Simple Google Fonts API Wrapper in Node.js",
+	"author": "oknoorap",
+	"date": "2017-06-13T13:55:34.466Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"google-fonts",
+			"api-wrapper",
+			"nodejs"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md weftnodejs api wrapper google web fontsinstallationusing npmnpm install weft --saveusing yarnyarn add weftusageconst weft = require('weft')// set api keyweft.apikey(/* api_key here */)// current api keyconsole.log(weft.apikey())// display google fonts complete listweft.list().(result => { console.log(result)})/** * display google fonts custom fields * fields sortby api section below */weft.list(fields, sortby).(result => { console.log(result)})// view open sans infoweft.view('open sans').(result => { console.log(result)})/** * search fonts * options api section below */weft.search('monts', options).(result => { console.log(result)})// font urlconsole.log(weft.embedurl('montserrat', options))apitable contentssort constantcategories constantset get api key font listview font informationsearch font criteria embed urlweft.sortbyconstant variables sorting list.keyvaluealphaalphadatedatesylestyletrendingtrendingpopularpopularityexampleweft.list(options, weft.sortby.trending)weft.categoriesconstant variables categories.keyvalueemptyserifserifsans_serifsans-serifdisplaydisplay,handwritinghandwritingmonospacemonospaceweft.apikey (key: string = '')set get api key. you leave key empty, will used getter.weft.list (fields?: object = '', sortby?: string = weft.sortby.alpha) google fonts list. first argument fields is see hide result google fonts api. second argument is sorting function.default fieldskeydescriptiondefault valuecategoryfont categoryfalsefilesfile list google serverfalsefamilyfont family nametruelastmodifiedlast modified datefalsesubsetsfont subsetsfalsevariantsfont variantsfalseversionfont versionfalseexample// font family font variantsconst yofields = { category: false, files: false, family: true, lastmodified: false, subsets: false, variants: true, version: false}weft.list(yofields).(result => { // pssst, hey kids wanna result?})weft.view (fontname: string)view individual font information.weft.search (query: string = '', options?: object = {})search font criteria. query be empty.default options { fields: { // default fields weft.list section above }, category: weft.categories., sortby: weft.sortby.trending, subsets: { latin: false, latinextended: false, sinhala: false, greek: false, hebrew: false, vietnamese: false, cyrillic: false, cyrillicextended: false, devanagari: false, arabic: false, khmer: false, tamil: false, greekextended: false, thai: false, bengali: false, gujarati: false, oriya: false, malayalam: false, gurmukhi: false, kannada: false, telugu: false, myanmar: false }, variants: { thin: false, thinitalic: false, extralight: false, extralightitalic: false, light: false, lightitalic: false, regular: false, italic: false, medium: false, mediumitalic: false, semibold: false, semibolditalic: false, bold: false, bolditalic: false, extrabold: false, extrabolditalic: false, black: false, blackitalic: false }})weft.embedurl (fontname: string = '', options?: object = {}) google fonts embed urllicensemit © oknoorap"
+}

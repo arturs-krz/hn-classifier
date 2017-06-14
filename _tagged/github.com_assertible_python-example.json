@@ -1,0 +1,21 @@
+{
+	"_id": "14471384",
+	"site": "https://github.com/assertible/python-example",
+	"title": " Codeless API Integration Testing on Travis CI Using Assertible",
+	"author": "creichert",
+	"date": "2017-06-13T13:04:45.986Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"qa",
+			"api",
+			"continuous-delivery",
+			"continuous-integration",
+			"api-testing"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md api integration testing python flask app travis ci repository contains example app uses assertible run automated apiintegration tests a python flask app a continuous integrationbuild using travis ci.assertible is web service testing tool developers focuses creating simple deterministic tests combined flexibleautomation.basically, ngrok is used create dynamiclocalhost tunnel your app is built run ci. dynamic ngrok url is passed anassertible trigger will run api tests executed. testing technique is specific python, flask, travis ci can used anycontinuous integration system web application framework. setup is 4 steps:create flask appcreate travis ci configcreate assertible web servicecopy trigger url a travis variablecheck the full blog post1. create flask appcreate new directory the code repository:mkdir myapp && cd myappsave following code a file named app.py: flask import flaskapp = flask(__name__)@app.route(\"/\")def hello(): return \"hello assertible!\" __name__ == \"__main__\": app.run()save code push to github repository:git add app.pygit commit - -m \"checkin app.py\"git push code above assumes have github repository setup thistutorial. not, check here: https://docs.travis-ci.com/user/-beginners2. create travis ci config steps assumes have created travis account enabled repo.save travis configuration .travis.yml file:language: pythonpython: - \"2.7\"addons: apt: packages: - ca-certificatesinstall: \"pip install flask\"script: - echo \"unit tests\"after_script: # start web app - | python app.py & app_pid=$! # download install ngrok - curl -s https://bin.equinox.io/c/4vmdza7iahb/ngrok-stable-linux-amd64.zip > ngrok.zip - unzip ngrok.zip - ./ngrok http 5000 > /dev/null & # sleep allow ngrok initialize - sleep 2 # extract ngrok url - ngrok_url=$(curl -s localhost:4040/api/tunnels/command_line | jq --raw-output .public_url) # execute api tests - | curl -s $trigger_url -d'{ \"environment\": \"'\"$travis_branch-$travis_job_number\"'\", \"url\": \"'\"$ngrok_url\"'\", \"wait\": true }' - kill $app_pidgit add .travis.ymlgit commit - -m \"checkin .travis.yml\"git push3. create assertible web servicenext, need create assertible account create new webservice. simply sign- to assertible. first you log-, you be prompted a form create web service:4. copy trigger url a travis variable creating web service the assertible dashboard, navigate your web service's settings tab click trigger url theleft side navigation. copy trigger url your clipboard. the travis ci interface, navigate your repository. the lefthand side, click more options click settings.add new variables named trigger_url paste trigger url the value input.finally, click restart build push changes your app initiate build. navigate to assertible web servicedashboard click results. should see result yourapi integration tests:"
+}

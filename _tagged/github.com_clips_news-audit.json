@@ -1,0 +1,17 @@
+{
+	"_id": "14469346",
+	"site": "https://github.com/clips/news-audit",
+	"title": "News-audit: Fake news detection",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T13:55:01.749Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"javascript"
+		]
+	},
+	"content": "readme.md news-auditfake news detection, google summer code 2017"
+}

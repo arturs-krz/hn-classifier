@@ -1,0 +1,22 @@
+{
+	"_id": "14436592",
+	"site": "https://github.com/cagataycali/university-news-notifier",
+	"title": "University news notifier – Like feedly but open source",
+	"author": "cagataycali",
+	"date": "2017-06-13T13:55:34.142Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"university",
+			"telegram",
+			"telegram-bot-api",
+			"telegram-bot",
+			"notifier",
+			"notification-service"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md university news notifier any announcement your university, notifier notify via telegram.node.js module interact official telegram bot api. bot token is needed, obtain , talk and create new bot. usagestart conversation your botbot notify when announcement your university contribution guideline guide show how build contribute the project.clone install dependenciesgit clone https://github.com/cagataycali/university-news-notifier.gitcd university-news-notifiernpm installadd parser sites directoryexample parser json file,{ \"university\": \"pamukkale üniversitesi\", \"faculity\": \"computer engineering\", \"home\":\"http://www.pamukkale.edu.tr\", \"url\": \"http://www.pamukkale.edu.tr/bilgisayar/tr/haberler\", \"scrape\": { \"news\": { \"listitem\": \"tr\", \"name\": \"announcement\", \"data\": { \"url\": { \"selector\": \".tumunugorlink\", \"attr\": \"href\" }, \"title\": \"div.tumunugorbaslik\", \"publishedat\": \"div.tumunugortarih\" } } }} you add rss listener,{ \"university\": \"yildiz teknik üniversitesi\", \"faculity\": \"computer engineering\", \"rss\": \"https://ytuce.maliayas.com/?type=rss\"} you add university parser native javascript,check :sites/kou.jsupdate university listcheck heretest parsercheck hererun end end test resultsnpm run test deploy your own notifier statusuniversitycrawling sitestatusanadolu universitesihttps://www.anadolu.edu.tr/duyurularokboaziç universitesihttp://bogazici.edu.tr/tr-tr/content/duyurular/duyurularokdokuz eylülhttp://www.eng.deu.edu.trokege üniversitesihttp://bilmuh.ege.edu.tr/okeskiehir osmangazi üniversitesihttps://www.ogu.edu.trokstanbul teknik universitesihttp://www.itu.edu.tr/duyuruokondokuz mays universitesihttp://www.omu.edu.tr/tr/tum-haberlerokpamukkalehttp://www.pamukkale.edu.tr/bilgisayarokyildiz technicalhttps://ytuce.maliayas.com/oklets parse university feeds maybe help for rss parsing feature. you support your server, don't run heroku. contributorsçatay çalemre gülermurat bastasbar esenmustafa kaan demirhansinan ülkerburak özkrdenizhosting backed pluscloudsthanks sponsorships"
+}

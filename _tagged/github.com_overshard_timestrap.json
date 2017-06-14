@@ -1,0 +1,25 @@
+{
+	"_id": "14180673",
+	"site": "https://github.com/overshard/timestrap",
+	"title": " Timestrap – Self-hosted online time tracking",
+	"author": "overshard",
+	"date": "2017-06-13T13:33:36.029Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"django",
+			"web",
+			"timetracking",
+			"invoicing"
+		],
+		"languages": [
+			"python",
+			"vue",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md timestrap tracking invoicing can host anywhere. full export support multiple formats easily extensible. warning app is currently very unstable. everything may, probably , change.demo is demo instance timestrap heroku resets every 10 minutes. default credentials are:username: adminpassword: changeme123quickstart to up running quickly? heroku deployment has default username password superuseraccess, please change via admin panel:username: adminpassword: changeme123 manual deployments heroku without using deploy button, sure create settings before pushing using heroku config:set:heroku config:set django_settings_module=timestrap.settings.herokuheroku config:set secret_key=changemetosomethingrandom a successful push, create super user allow login:heroku run python manage.py createsuperusermanual installationfollow steps below install timestrap locally on server. process installs minimal requirements run timestrap. developmentrequirements procedures, development installation.install requirements:python 2.7+initiate virtual environment. pip install pipenv && pipenv installbootstrap database. python manage.py migrate create super user. python manage.py createsuperuserrun server! python manage.py runserver timestrap application should be running http://localhost:8000. it is , feel free create issue seek assistance report bug! development installation important note: node is required timestrap function. node isused building timestrap's static files improving developmentworkflow. installation procedure is necessary making changes static files.install requirements:python 2.7+node 6+initiate virtual environment the development requirements. pip install pipenv && pipenv install --devinstall node dependencies. npm install -g yarn && yarn installbootstrap database. gulp migrate create super user. gulp createsuperuserrun server! gulp timestrap application should be running http://localhost:8000.gulp automatically recognize recompile changes any staticfiles, allowing quick modification review without starting stopping application. pull requestsare welcome encouraged!further reading additional documentation configuration options, installing requirements,testing more, please https://timestrap.readthedocs.io/."
+}

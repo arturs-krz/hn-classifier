@@ -1,0 +1,26 @@
+{
+	"_id": "14490351",
+	"site": "https://github.com/mil-tokyo/webdnn",
+	"title": "Fastest DNN Execution Framework on Web Browser",
+	"author": "pplonski86",
+	"date": "2017-06-13T14:10:07.658Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"deep-neural-networks",
+			"accelerate",
+			"optimization",
+			"javascript",
+			"webgpu"
+		],
+		"languages": [
+			"python",
+			"jupyter notebook",
+			"javascript",
+			"typescript",
+			"html",
+			"shell"
+		]
+	},
+	"content": "readme.md webdnn: fastest dnn execution framework web browserwebdnn is open source software framework executing deep neural network (dnn) pre-trained model web browser.japanese() readmewebsitedocumentwhy is webdnn needed?deep neural network (dnn) is getting much attention use many applications. however, requires lot computational resources, there are many tremendous processes setup execution environment based hardware acceleration such gpgpu. therefore providingdnn applications end-users is very hard.webdnn solves problem using web browser installation-free dnn executionframework. framework optimizes trained dnn model compress model data accelerate execution, executes with novel javascript api such webassembly webgpu achieve zero-overhead execution. empirical evaluations showed itachieved more 200x acceleration.performancecompared processing with keras.jstest environment:mac book pro early 2015macos 10.12.4 sierraintel core i5 2.7 ghz cpu16 gb memoryintel iris graphics 6100 gpusafari technology preview 30model: vgg16[1], inception-v3[4], resnet50[2].input shape: (1, 299, 299, 3) inception-v3, (1, 224, 224, 3) others.elapsed per image are shown vertical axis logarithmic scale.webdnn webgpu backend was significantly faster keras.js.webdnn webassembly backend was comparable gpu backend keras.js. each dnn model backend, webdnn obtained better results terms speed.more speed improvement is observed the optimizations are applied the graph transpiler.getting started 30 secondslet's convert execute resnet50 pre-trained keras model[3] your web browser., save resnet50 pre-trained model provided keras. keras.applications import resnet50model = resnet50.resnet50(include_top=true, weights='imagenet')model.save(\"resnet50.h5\")next, convert model cli. this phase, model is optimized.python ./bin/convert_keras.py resnet50.h5 --input_shape '(1,224,224,3)' -- output, generated files (called descriptor) be loaded executed javascript follows,let runner;async function init() { // initialize descriptor runner runner = await webdnn.prepareall('./output');}async function run() { // set value input variable. runner.inputviews[0].set(loadimagedata()); // run await runner.run(); // show result console.log('output', webdnn.math.argmax(runner.outputviews[0]));}webdnn supports caffemodel chainer model. more information, please documents.setupplease documents.[1] karen simonyan andrew zisserman. 2014. very deep convolutional networks large-scale image recognition. proceedings the international conference learning representations (iclr).[2] kaiming , xiangyu zhang, shaoqing ren, jian sun. 2015. deep residuallearning image recognition. proceedings the conference computer vision pattern recognition (cvpr).https://github.com/kaiminghe/deep-residual-networks[3] applications - keras documentation[4] christian szegedy, vincent vanhoucke, sergey ioffe, jon shlens, zbigniew wojna. 2016.rethinking inception architecture computer vision. proceedings the conference computer vision pattern recognition (cvpr)."
+}

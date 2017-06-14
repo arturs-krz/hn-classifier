@@ -1,0 +1,16 @@
+{
+	"_id": "14323313",
+	"site": "https://github.com/dvwallin/ippygo",
+	"title": " IPpyGo – Go version of IPpy",
+	"author": "dvwallin",
+	"date": "2017-06-13T13:08:17.709Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md ippygo is re-write https://github.com/shivammathur/ippy is parallel testing ip addresses domains python. reads ip addresses domains a csv file gives lists working not working ones.did just fun have go -version maybe benchmark little bit.written gotesting ips domains is done parallel.currently mac linux are supported (haven't tried windows)supports both ipv4 ipv6 ips domain names.examples127.0.0.1::1localhostinstallcd $gopath get -u github.com/dvwallin/ippygorun$gopath/bin/ippygo"
+}

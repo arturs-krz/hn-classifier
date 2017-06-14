@@ -1,0 +1,22 @@
+{
+	"_id": "14527119",
+	"site": "https://github.com/vladimirmarkelov/clui#clui-",
+	"title": "CLUI: Command Line User Interface (Console UI Inspired by TurboVision)",
+	"author": "ingve",
+	"date": "2017-06-13T14:09:47.999Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"gui",
+			"terminal",
+			"golang",
+			"go",
+			"user",
+			"ui"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md clui command line user interface (console ui inspired turbovision) built- theme support. please screenshots working examples the end the readme.current version current version is 0.5.0 it has lot breaking changes comparing previous . please details changelog.documentation list available controlswindow (main control container - maximize, window order other window features)label (horizontal vertical basic color control tags)button (simple push button control)editfield ( line text edit control basic clipboard control)listbox (string list control vertical scroll)textview (listbox-alike control vertical horizontal scroll, wordwrap mode)progressbar (vertical horizontal. latter supports custom text control)frame ( decorative control can a container other controls well)checkbox (simple check box)radio (simple radio button. useless alone - should used along radiogroup)radiogroup (non-visual control manage group a few radiobuttons)confirmationdialog (modal view ask user confirmation, button titles are custom)selectdialog (modal view ask user select item the list - list be listbox radiogroup)barchart (horizontal bar chart without scroll)sparkchart (show tabular data a bar graph)gridview (table show structured data - virtual readonly mode scroll support)screenshots main demo (theme changing radio group control) screencast demo: library is the very beginning it be used create working utilities: below is example my dilbert comix downloader:"
+}

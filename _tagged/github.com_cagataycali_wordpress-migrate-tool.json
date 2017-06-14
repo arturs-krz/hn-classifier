@@ -1,0 +1,16 @@
+{
+	"_id": "14426764",
+	"site": "https://github.com/cagataycali/wordpress-migrate-tool",
+	"title": "Wordpress Migration Tool, Server to Server",
+	"author": "cagataycali",
+	"date": "2017-06-13T13:56:32.365Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md is wordpress migrate tool? migrated tons wordpress blog.'s really painful do job. this tool will able carry the transport without pain. 's super simple,npm -g wordpress-migrate-tool; # install wpmwpm; # init wpm migrate!wpm migrate db; # migrate mysql database remote serverwpm migrate files; # migrate wordpress files remote server thats . usage examples create mysql database remote server.wpm mysql create remotedelete mysql database remote server.wpm mysql delete remoteexport mysql database remote server.wpm mysql export remoteimport mysql database remote server.wpm mysql import remotecreate mysql database local server.wpm mysql create localdelete mysql database local server.wpm mysql delete localexport mysql database local server.wpm mysql export localimport mysql database local server.wpm mysql import localmigrate mysql database another server.wpm migrate dbmigrate wordpress files another server.wpm migrate dblicense mit © çatay çal"
+}

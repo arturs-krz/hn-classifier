@@ -1,0 +1,19 @@
+{
+	"_id": "14433351",
+	"site": "https://github.com/letfly/cau-book",
+	"title": "Cau-book-py",
+	"author": "letfly",
+	"date": "2017-06-13T13:55:34.640Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"mako",
+			"html"
+		]
+	},
+	"content": "readme.md dev environmentfront-endcd book/static/jsnpm installwebpack-enddependenciesmkvirtualenv bookpip install -r requirements.txtrunpython manage.py serverdbsudo -u postgres psql -c \"create user book password 'book';\"sudo -u postgres psql -c \"create database book owner book;\"sudo -u postgres psql -c \"grant privileges database book book;\"migratepython manage.py db upgrade"
+}

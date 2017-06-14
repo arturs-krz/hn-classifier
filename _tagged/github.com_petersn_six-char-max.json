@@ -1,0 +1,16 @@
+{
+	"_id": "14465535",
+	"site": "https://github.com/petersn/six-char-max",
+	"title": "Introducing the max6 standard for Python",
+	"author": "rdw",
+	"date": "2017-06-13T13:55:02.258Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md a stance against long lines.clearly, program should ever more 80 characters per line, a whole host reasons. and foremost, readability maintainability, is important have solid standard, we adjust width our text editors appropriately. a secondary benefit, code easily transferred onto media may restrictions, where adding line-breaks be distracting, print pages review a meeting, punch cards. is 80 characters too high? suggest 79, even low 75, allow an 80 character wide terminal fit code a few columns devoted line numbers.clearly, ultimately, lower is better, lower limits allow the code be used more situations without reformatting.introducing max6 standard. python is excuse ever more six characters per line. is plenty width code conceivable program, , in practice, is overly restrictive.provided is linter, max6.py, will clean your python codebase comply the max6 recommendation.using max6 is incredibly easy:$ python max6.py input.py compliant_output.py eat own dogfood. show how easy freeing is code max6 python style, entire max6 codebase is written max6 style. a at max6 source, i'm sure 'll compelled this formatting style is more freeing it is restricting."
+}

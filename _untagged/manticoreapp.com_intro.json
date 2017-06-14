@@ -1,0 +1,9 @@
+{
+	"_id": "14521869",
+	"site": "https://manticoreapp.com/intro",
+	"title": " Manticore – Visual dependencies between projects with meaningful colors",
+	"author": "alain_gilbert",
+	"date": "2017-06-14T12:56:16.113Z",
+	"tags": [],
+	"content": "* download * pricing * faq * contact * sign * sign manticoremanticore is visual tool help track inter projects dependencies.problem hadwhere work, deploy api once every week everything goes , and sometime can more .as full stack engineer, often to develop features our frontend requires endpoints the backend. i 't deploy new features (frontend side) until new endpoints are deployed (backend side). is hard keep track what feature branches or cannot deployed. solution made i made manticore. manticore is single binary file can deployed any server/computer. first thing want know facing problem is: is commit the backend deployed production ?manticore solve pain point coloring green the commits are under production branch. you quickly lookup commit sha instantly visualize the commit is production not. is great, not enough. i really is being able create dependencies. work properly, commit the frontend needs commit the backend.manticore solve by letting drag & drop commit one repository the .this create dependency., the dependant be colored red (cannot merged) the dependee is under production branch. colored blue ( be merged) the dependee is production. is still enough.manticore fetch repositories every 10min (configurable) verify every dependencies. a dependee is newly merged production, will receive notification, letting know your frontend feature be merged well.teaserconclusion you comments suggestions, 'll more happy answer on hacker news discussion. feel free use contact form communicate thoughts! you what 'm doing, can follow on github | twitter. tl;drvisualize dependencies state between projects meaningful colors. © 2017 manticore about"
+}

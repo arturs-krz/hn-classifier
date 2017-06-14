@@ -1,0 +1,17 @@
+{
+	"_id": "14428308",
+	"site": "https://github.com/bulenkov/Darcula",
+	"title": "The official Darcula Look and Feel for programming environments by K Bulenkov",
+	"author": "gjvc",
+	"date": "2017-06-13T13:55:34.496Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java",
+			"css"
+		]
+	},
+	"content": "readme.md darcula theme official darcula and feel programming environments konstantin bulenkov.darcula is look-n-feel java desktop application a theme code editors. repository focused mainly java -n-feel contains ready use library here https://github.com/bulenkov/darcula/blob/master/build/darcula.jardarcula -n-feel is licensed under apache 2.0 license can used commercial products free charge. however, strongly ask to original theme name \"darcula\" your product. links this project your products a simple mention are very welcome, not necessary.list projects darcula theme:jetbrains ides: intellij idea, pycharm, phpstorm, webstorm, appcode, datagrip, rubymine, gogland, rider, cliongoogle android studionetbeansjalbummapollagejotasyncplease send your project add hereresources how create own and feel be found oracle's official website:http://docs.oracle.com/javase/tutorial/uiswing/index.html"
+}

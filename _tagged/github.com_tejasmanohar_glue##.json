@@ -1,0 +1,16 @@
+{
+	"_id": "14344606",
+	"site": "https://github.com/tejasmanohar/glue##",
+	"title": " Glue – Generate typed Golang RPC clients from server code",
+	"author": "tejasmanohar",
+	"date": "2017-06-13T13:08:16.519Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md glueglue generates client code your rpc server. currently supportsnet/rpcgorilla/rpcinstallation get github.com/tejasmanohar/glue/cmd/glue, glue should available $gopath/bin/glue (ideally, your $path).usageglue -name=service -service=math [path] traverse provided path ( workingdirectory none is provided) generate clients rpc methods(pointed math.*) declared type service.given following is a *. file your working directory,package math//:generate glue -name service -service mathtype service struct{}type sumarg struct {values []int}type sumreply struct {sum int}func (s *service) sum(arg sumarg, reply *sumreply) error { _, v := range arg.values {reply.sum += v}return nil} generate output following clients/service.package clientimport (\"github.com/tejasmanohar/glue/example/stl/math\")type client interface {call(method string, args interface{}, reply interface{}) error}func newmathclient(rpcclient client) *math {c := (math)c.rpc = rpcclientreturn c}type math struct {rpc client}func (c *math) sum(args math.sumarg) (*math.sumreply, error) {reply := (math.sumreply)err := c.rpc.call(\"math.sum\", args, reply)return reply, err}gorilla you gorilla/rpc, 're luck! specify -gorilla.optionsoutputglue always outputs code client package. default, is ./client, you change output directory via -.to output code stdout instead files, supply -print.faq do use glue rpc implementation x?glue is modular. you'd support another popular ( interesting, -maintained)rpc implementation, open pr add new glue provider/.unfortunately, doesn't allow dynamic loading packages if 'd glue support internal experimental rpc framework, fork glue supply anotherprovider cmd/glue/main.."
+}

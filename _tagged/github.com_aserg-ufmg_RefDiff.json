@@ -1,0 +1,17 @@
+{
+	"_id": "14475932",
+	"site": "https://github.com/aserg-ufmg/RefDiff",
+	"title": "RefDiff:compare different Java source versions  code 2 find refactoring changes",
+	"author": "based2",
+	"date": "2017-06-13T13:55:01.867Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java",
+			"html"
+		]
+	},
+	"content": "readme.md refdiffrefdiff is tool detect refactorings applied java code git repositories. following types refactoring are supported:rename typemove typemove rename typeextract supertyperename methodchange method signaturepull methodpush down methodmove methodextract methodinline methodpull fieldpush down fieldmove fieldusage easiest to refdiff is the mavel central. declare as dependency your build system (maven, gradle, etc). example:<dependency> <groupid>com.github.aserg-ufmg</groupid> <artifactid>refdiff-core</artifactid> <version>0.1.1</version></dependency>, you detect refactoring a certain repository/commit using following code:refdiff refdiff = refdiff();gitservice gitservice = gitserviceimpl(); try (repository repository = gitservice.cloneifnotexists(\"c:/tmp/clojure\", \"https://github.com/refdiff-data/clojure.git\")) { list<sdrefactoring> refactorings = refdiff.detectatcommit(repository, \"17217a1\"); (sdrefactoring refactoring : refactorings) { system..println(refactoring.tostring()); }} more details this tutorialexample following figure shows number refactorings detected refdiff executed all commits junit4.building the source coderefdiff uses gradle the build system. you like work the source code refdiff, clone repository run following command inside folder:./gradlew eclipse will create eclipse metadata the project. , you import project refdiff-core eclipse ide work the source code.publications algorithm refdiff uses is described details the following paper:danilo silva, marco tulio valente. refdiff: detecting refactorings version histories. 14th international conference mining software repositories (msr), 2017. data used the evaluation is available this spreadsheet.learn more our research group http://aserg.labsoft.dcc.ufmg.br/"
+}

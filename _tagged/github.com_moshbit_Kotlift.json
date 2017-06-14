@@ -1,0 +1,18 @@
+{
+	"_id": "14365980",
+	"site": "https://github.com/moshbit/Kotlift",
+	"title": "Kotlift: Language Transpiler from Kotlin to Swift",
+	"author": "hbbio",
+	"date": "2017-06-13T13:57:07.207Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"kotlin",
+			"swift",
+			"html"
+		]
+	},
+	"content": "readme.md kotliftkotlift is first source--source language transpiler kotlin swift.kotlift helps to write business logic once, reuse of code ios.porting app android ios be faster less error-prone. kotlift, kotlin truly is swift android. program is intended support full kotlin swift language, most the generated swift code bevalid. framework interfacing code android ios/cocoa is supported.many functions the kotlin stdlib are same swift, therefore less logic has be rewritten.supported versions: kotlin 1.0.1, swift 2.2supported features following language features are currently transpiled, some edge cases might produce invalid swift code.variables, arrays listsbasic types (string, boolean, double, float, long, int, short, byte)functions parameters and elvis operator and while loopsstring interpolationmain function calling ( swift playground)custom rewrites (comment preceding line // swift: .will(.replaced) replace following line)null safety, safe calls, null coalescingbasic try-catch@throws annotation / throwscastingranges iteration / switch caseclasses none one constructorinheritanceabstract classesinterfaces / protocolsdata classes (constructor description be generated)genericsextension functionscompanion objects / static class propertiesproperties getters setters / backing fields / computed propertiesvisibility modifiersbasic lambdas / closuresmaps / dictionariessetsvery basic smart castsenums also testcases kotlin the generated swift files.unsupported features following features are currently unsupported, are ordered likelihood be implemented soon:(data) classes, functions getters & setters opening & closing brackets same line without brackets allline-wrapped function class definitionsunnamed constructor parameterunnamed function parameters (except first )auto inferred function return typesfinally / deferfull support smart casts...usage repository contains intellij project. usage the precompiled jar:java -jar moshbit.kotlift.jar test-src dest replacementfile.json test-destparameter: folder kotlin source files. (mandatory)parameter: destination folder where swift code should written . (mandatory)parameter: replacement file, used standard language replacements may customized. (mandatory)parameter: swift testcase folder. given, files the destination folder are compared the files thisfolder. (optional)kotlift uses various regular expressions a simple structure tree. advanced kotlift usage your project, modify replacementfile.json customizereplacements (such .tostring() .myswiftytostringfunction()). include kotlift.swift file your project a basic mapping the important kotlin std-lib functions are different swift.dependencieskotlin 1.0.1contribution guidelines every transpiled language feature is kotlin test file test-src a swift file test-dest.executing kotlift a fourth argument only transpiles test files, also checks for differences.pull requests are welcome. you add features, please add kotlin swift test files.please contact valentin.slawicek@moshbit.com any inquiries."
+}

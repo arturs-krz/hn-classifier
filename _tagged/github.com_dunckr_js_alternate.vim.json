@@ -1,0 +1,20 @@
+{
+	"_id": "14387873",
+	"site": "https://github.com/dunckr/js_alternate.vim",
+	"title": " Vim JavaScript plugin to navigate between alternate files – source/test",
+	"author": "dunckr",
+	"date": "2017-06-13T13:07:23.360Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"vim",
+			"vim-plugins",
+			"vim-plugin"
+		],
+		"languages": [
+			"vim script",
+			"makefile"
+		]
+	},
+	"content": "readme.md js_alternate.vim easy navigation between javascript alternate files (source test). inspired the amazing vim-rails. is command, : (alternate) easy jumping between javascript source file its corresponding test.looks a variety different test file paths including:root level folders e.g. tests/component/example.js, test/component/example.js, spec/component/example.jssub-folder level folders e.g. src/component/__tests__/example.jssuffixed extensions e.g. example.tests.js, example.test.js, example.spec.jsunderscored folders e.g. src/component/__tests__/example.js, src/component/__test__/example.js, src/component/__spec__/example.jsdifferences file types between source tests files e.g. example.js, example.jsx a full list paths checked against the tests.installation your favourite plugin manager.using vim-plug:plug 'dunckr/js_alternate.vim'usage: \" switches between javascript source it's test file\" mapping js_alternate#run <leader>tnnoremap <leader>t :call js_alternate#run()<cr>extend\" source folder names used construct source file paths:let g:js_alternate#src_types = ['lib', 'src', 'app', 'scripts', 'js', 'javascript', 'frontend']\" test names used construct test file paths:let g:js_alternate#test_types = ['tests', 'test', 'spec', 'features']\" extension name types used look :let g:js_alternate#extension_types = ['js', 'jsx', 'coffee', 'ts', 'elm', 'purs']licensemit © duncan beaton"
+}

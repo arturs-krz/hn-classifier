@@ -1,0 +1,21 @@
+{
+	"_id": "14481805",
+	"site": "https://github.com/spaghetti-/pam-touchid",
+	"title": "Pluggable Authentication Module (PAM) Using Touch-Id to Authenticate Sudo",
+	"author": "dhbx9",
+	"date": "2017-06-13T14:10:06.783Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"pam-module",
+			"touchid",
+			"macos",
+			"touchbar"
+		],
+		"languages": [
+			"objective-c",
+			"makefile"
+		]
+	},
+	"content": "readme.md pluggable authentication module using touch-id module allows to authenticate services via touch-id using apple'slocalauthentication api. am using module authenticate sudo it'ssomething run frequently. module be dropped to authenticate other pam enabled service well.compilationcompile module the user has touchid active. otherwise manually edit user id's inside .m file. allcaveats compiled module must installed /usr/lib/pam is systemdirectory protected system integrity protection (sip). install module have disable (no worries, can enabled later).reboot while holding command-r, into recovery mode spawn new shell. the shell runcsrutil disablereboot, copy module by doing sudo cp pam_touchid. /usr/lib/pam/next, add line the top /etc/pam.d/sudoauth sufficient pam_touchid.this allows fallback standard password authentication your fingerfails.reboot into recovery enable sip againcsrutil enablescreenshothere's shows the touchbar you try sudo the moduleinstalled"
+}

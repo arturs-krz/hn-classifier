@@ -1,0 +1,21 @@
+{
+	"_id": "14423686",
+	"site": "https://github.com/arbazsiddiqui/rSlashVideos",
+	"title": "“Watch” any subreddit, includes filters like hot, top of all time, top of year",
+	"author": "paashabhai",
+	"date": "2017-06-13T13:56:32.339Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"reddit",
+			"video",
+			"angular"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md rslashvideos\"watch\" subreddit. fetches videos any subreddit includes filters hot, top all , top year etc.livemotivation intent pursuing project was easily quickly gain access the cool videos without deliberately looking for while having meal. hence, rslashvideosfeaturessupport every video domain youtube, vimeo etc.support gifsload videos any subredditreddit sorting filters : hot, topplay random videoshuffle playlistusagehosted using github pages here.though, some reason, you find unaccessable, here are steps run locally your machine :clone repo git clone git clone https://github.com/arbazsiddiqui/rslashvideos && cd rslashvideosserve app using python -m simplehttpserver to http://localhost:8000 your browserenjoy :)contributing love . create new issue send pr.todo autoplay feature implement oauth user related features add tests improve ui"
+}

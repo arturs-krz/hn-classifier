@@ -1,0 +1,20 @@
+{
+	"_id": "14391899",
+	"site": "https://github.com/LuqmanSahaf/Play-Livy-Module",
+	"title": " Play Framework Module for Apache Livy Sessions to Run Code on Spark",
+	"author": "luckysahaf",
+	"date": "2017-06-13T13:07:23.255Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"play-framework",
+			"livy",
+			"play-module",
+			"spark"
+		],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": "readme.md play livy module - scalaapache livy is rest service apache spark. livy can create remote spark interactive sessions using livy's rest api. livy has scala client can used submit scala code run livy session.play livy module be used your play app submit code livy scala client. apart submitting jobs, can do following using livymanagerupload jar files related code other files livy session, that code run smoothly remote session without errors (class found mainly).schedule refresh job pings livy session keep alive.change specific spark configurations related the livy session created.stop remote contexts related spark livy session the app stops automatically.usagesbt:librarydependencies += \"com.github.luqmansahaf\" % \"play-livy_2.11\" % \"1.0\"maven:<dependency> <groupid>com.github.luqmansahaf</groupid> <artifactid>play-livy_2.11</artifactid> <version>1.0</version></dependency>configurations can find configurable options application.conf sample project. discuss below.livy uri must specify livy uri your play configuration file. uri is used contact livy server. property set is livy.uri, it must of form: http://address.livy.server http://ip:port.refresh job refresh job be used keep remote session alive while app is still running. might a situation where app receives request where livy session is used a long period, the livy server decides shut down session. therefore, refresh job keep session if is request submitting sample job every 900 seconds (15 minutes is default) so. can change configurations properties:livy{ refreshjob{ start=true # interval seconds interval = 900 }}upload files can upload files this module two different ways:using livymanager.uploadfile function programmatically giving a path.giving paths a list play app configuration using following properties:livy{ files{ # whether upload jar other files start toupload = true list = [ \"/users/username/.ivy2/cache/com.github.luqmansahaf/play-livy_2.11/jars/play-livy_2.11-1.0.jar\", \"/users/username/.ivy2/local/com.github.luqmansahaf/sample_2.11/1.0-snapshot/jars/sample_2.11.jar\" ] # wait files upload livy session seconds: wait = 120 }}spark configurations can control number executors your livy session, memory cores, etc. via following configurations:# spark optionsspark{ driver { # extraclasspath = \"\" # memory = \"512m\" } executor{ # extraclasspath=\"\" # memory = \"512m\" # cores = 1 instances=1 }} format these option is same used configurations spark-defaults.conf spark project. configurations than those specified above not any effect.example run example follow guide sample project.logger logger play livy module is: com.github.luqmansahaf.playlivy, can set logback.xml."
+}

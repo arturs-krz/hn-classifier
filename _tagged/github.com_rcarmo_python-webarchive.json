@@ -1,0 +1,19 @@
+{
+	"_id": "14285685",
+	"site": "https://github.com/rcarmo/python-webarchive",
+	"title": " Create WebKit/Safari .webarchive files on any platform",
+	"author": "rcarmo",
+	"date": "2017-06-13T13:31:14.760Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webarchive",
+			"python3",
+			"asyncio"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md python-webarchive is quick hack demonstrating to create webkit/safari .webarchive files, inspired pocket-archive-stream.usagetarget_url=http://foo.com python3 main.pywhy .webarchive?.webarchive is native web page archive format the mac, is essentially serialized snapshot safari/webkit state. a mac, files are spotlight-indexable can opened just anything takes \"webpage\" input.despite rising prominence warc the standard web archiving format ( to day requires plug-ins be viewable a browser) quite .webarchive, built in order both demonstrate to it have minimally viable archive creator can deploy a service.anatomy a .webarchive file file format is nested binary .plist, roughly following structure:{ \"webmainresource\": { \"webresourceurl\": string(), \"webresourcemimetype\": string(), \"webresourceresponse\": nskeyedarchiver(nsobject)), \"webresourcedata\": bytes(), \"webresourcetextencodingname\": string(optional=true) }, \"websubresources\": [ {item, item, item...} ]} creating .webarchive turns to fairly straightforward you simply build dict the right structure then serialize using biplist ( works any platform). only hitch be webresourceresponse ( uses rather more complex to encode http result headers), fortunately appears to necessary all.next steps tie into pocket-archive-stream convert /from warc into integrating warcprox"
+}

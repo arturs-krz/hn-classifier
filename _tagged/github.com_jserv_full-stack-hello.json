@@ -1,0 +1,19 @@
+{
+	"_id": "14415874",
+	"site": "https://github.com/jserv/full-stack-hello",
+	"title": "Full-stack-hello: VM design for output classic hello world",
+	"author": "lulouie",
+	"date": "2017-06-13T13:56:32.252Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"python",
+			"assembly",
+			"makefile"
+		]
+	},
+	"content": "readme.md full-stack-helloimplement minimal instruction set assembler/compiler order allow execution classic hello world program.instruction setopcodedescriptionop_addsum operandsop_subsubtract operandsop_mulmultiply operandsop_divdivide two operandsop_modmodulo, remainder operand 1 divided operand 2op_printprint integer stringop_jltjump specified address ( operand 2) operand 1 is less 0op_jlejump specified address ( operand 2) operand 1 is less or equal 0op_jzjump specified address ( operand 2) operand 1 is equal 0op_jgejump specified address ( operand 2) operand 1 is greater or equal 0op_jgtjump specified address ( operand 2) operand 1 is greater 0op_jnzjump specified address ( operand 2) operand 1 is equal 0op_jmpjump specified addressop_haltterminate vmbuild verify$ cc -wall -std=gnu99 -g -c -o vm.o -mmd -mf .vm.o.d vm.ccc -wall -std=gnu99 -g -c -o .o -mmd -mf ..o.d .ccc -wall -std=gnu99 -g -c -o driver.o -mmd -mf .driver.o.d driver.ccc -wall -std=gnu99 -g -o as_exec vm.o .o driver.o$ check42tests/halt.s passhello worldtests/hello.s pass4250150tests/test.s pass$ testpython tests/run_tests.py..----------------------------------------------------------------------ran 4 tests 0.002sokassembler usagespecify -h obtain description the assembler.$ ./as_exec -husage: as_exec [-w] [-x] [-o <out_file>] <in_file> -w assemble <in_file> write an elf file, -o below -o -w is specifed, <out_file> is used store object code -x load <in_file> execute <in_file> file name be used commands above example, the assembly file concern is tests/coverage.sassemble assembly source file evaluate (execute) ../as_exec tests/hello.sassemble assembly source file write default elf file tests/hello.o../as_exec -w tests/hello.sassemble assembly source file write default elf file tests/temp.o../as_exec -o tests/temp.o -w tests/hello.slaod assembled elf file tests/hello.o evaluate (rexcute) ../as_exec -x tests/hello.o common elf tools, such objdump, be applied the output elf file.objdump -x tests/hello.ocurrently, elf support is very limited could improved volunteer shows .licensingfull-stack-hello is freely redistributable under two-clause bsd license. of source code is governed a bsd-style license can found the license file."
+}

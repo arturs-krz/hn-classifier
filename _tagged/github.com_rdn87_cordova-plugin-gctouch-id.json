@@ -1,0 +1,29 @@
+{
+	"_id": "14376240",
+	"site": "https://github.com/rdn87/cordova-plugin-gctouch-id",
+	"title": "Cordova Touch ID Plugin for iPhone and iPad in Objective-C",
+	"author": "rdn87",
+	"date": "2017-06-13T13:57:07.550Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"objective-c",
+			"javascript",
+			"cordova-plugin",
+			"cordova-ios-plugin",
+			"touchid",
+			"touch-id",
+			"cordova-plugin-touch-id"
+		],
+		"languages": [
+			"objective-c",
+			"javascript",
+			"html",
+			"batchfile",
+			"css",
+			"shell",
+			"c"
+		]
+	},
+	"content": "readme.md cordova-plugin-gctouch-idtouch id plugin (cordova) iosauthor: giulio caruso aka rdnindexdescriptiontechnical documentationscreenshotsadding pluginsample code dolicense1. description this plug- cordova can the touchid sensor (iphone 5s/iphone 6/iphone 6 plus/iphone 7/iphone 7 plus/ipad touch id sensor) authenticate your app plugin is ios platform.requirementsios8.0+2. technical documentation this plugin are 3 basic methods:isavailableauthwithtouchidsetpassword[isavailable]: returns flag true false the touch id is available that type device. ( input parameters)[authwithtouchid]: method tries access touch id are input parameters:insertpwd: this parameter can enter string true false, set false u basic authentication only touch id (optional u basic authentication touch id)textvalue: this parameter can enter string label button (required)message: this parameter can enter string touch id popup text (required)security: this parameter can enter string true false, false auth nsusersdefaults instead is true use keychain (optional u basic authentication touch id)[setpassword]: method allows to save nsusersdefaults keychain password you chosen fallback. are input parameters:password: this parameter can enter string your passwordsecurity: this parameter can enter string true false, false auth nsusersdefaults instead is true use keychain3. screenshot    4. adding plugin the cordova cli type the following command:cordova plugin add https://github.com/rdn87/cordova-plugin-gctouch-id.git5. sample code can find in demo folder.6. do add basic authentication touch id add nsusersdefaults support add uitextfield input text support add keychain support improve code add npm repo7. licensecordova-plugin-gctouch-id is available under mit license. the license file more info."
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "14508778",
+	"site": "https://github.com/gspansky/runit",
+	"title": "Runit 1.4.0",
+	"author": "gspansky",
+	"date": "2017-06-13T14:09:56.519Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"runit",
+			"launch",
+			"launcher",
+			"portable",
+			"comfort",
+			"office",
+			"file",
+			"search"
+		],
+		"languages": [
+			"java",
+			"css"
+		]
+	},
+	"content": "readme.md runit windows tool quick launch apps, directories stored web sites.runit is small, portable program, increase comfort running apps, files, directories web sites.runit allows to quick search term file, defined web site directory, then quickly launch .runit ishandy - runit gives quick access your programs, files, directories, web aliases.quick - runit optimize 's query searches smart cache. your will quicker more comfortable.user friendly - runit is easy use its minimalistic interface. can start work runit immediately.accessible - type alt + q display runit search resource.portable - runit does require instalation, thus can move from place place. can the same instance runit your and home!configurable - user friendly settings interface allows to configure runit. can set program your needs.free - runit is being developed passion, thus is completely free!start use runit right !how use alt + q key combination show/hide runit.enter key triggers search term.esc key clear search term.screenshots requirementswindows system installed jre (minimum version 1.8.0_92).additional inforunit icon (sitting rabbit) made freepik www.flaticon.comjnativehook library windows global key registering"
+}

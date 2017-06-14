@@ -1,0 +1,22 @@
+{
+	"_id": "14523232",
+	"site": "https://github.com/restic/restic",
+	"title": "Restic – Fast, secure, efficient backup program",
+	"author": "mental_",
+	"date": "2017-06-13T14:09:47.917Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"restic",
+			"backup",
+			"deduplication",
+			"dedupe",
+			"secure-by-default"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.rst introductionrestic is backup program is fast, efficient secure. detailed usage installation instructions check the documentation.quick startonce 've installed restic, startoff creating repository your backups:$ restic init --repo /tmp/backupenter password new backend:enter password again:created restic backend 085b3c76b9 /tmp/backupplease note knowledge your password is required access repository.losing password means your data is irrecoverably lost. add data:$ restic -r /tmp/backup backup ~/enter password repository:scan [/home/user/]scanned 764 directories, 1816 files 0:00[0:29] 100.00% 54.732 mib/s 1.582 gib / 1.582 gib 2580 / 2580 items 0 errors eta 0:00duration: 0:29, 54.47mib/ssnapshot 40dc1520 saved more options check the manual guide.design principlesrestic is program does backups right was designed thefollowing principles mind:easy: doing backups should a frictionless process, otherwise might tempted skip . restic should easy configure use, that, the event a data loss, can restore. likewise, restoring data should be complicated.fast: backing your data restic should be limited your network hard disk bandwidth that can backup filesevery . nobody does backups it takes too much . restoringbackups should transfer data is needed the files are be restored, that process is fast.verifiable: much more important backup is restore, resticenables to easily verify all data be restored.secure: restic uses cryptography guarantee confidentiality integrity your data. location backup data is stored isassumed to a trusted environment (e.g. shared space whereothers system administrators are able access backups).restic is built secure data against such attackers.efficient: the growth data, additional snapshots should take storage the actual increment. more, duplicatedata should de-duplicated before is actually written thestorage end save precious backup space.reproducible builds binaries released each restic version starting 0.6.1 arereproducible, means you easily reproduce byte identical version the source code thatrelease. instructions how do are contained thebuilder repository.news can follow restic project twitter @resticbackup by subscribing the development blog.licenserestic is licensed under \"bsd 2-clause license\". can find complete text license."
+}

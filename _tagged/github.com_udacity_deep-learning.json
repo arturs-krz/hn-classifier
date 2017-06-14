@@ -1,0 +1,17 @@
+{
+	"_id": "14440516",
+	"site": "https://github.com/udacity/deep-learning",
+	"title": "A collection of 15+ tutorials and projects for Udacity's deep learning program",
+	"author": "mcleonard",
+	"date": "2017-06-13T13:55:21.603Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"jupyter notebook",
+			"python"
+		]
+	},
+	"content": "readme.md deep learning nanodegree foundation repository contains material related udacity's deep learning nanodegree foundation program. consists a bunch tutorial notebooks various deep learning topics. most cases, notebooks lead through implementing models such convolutional networks, recurrent networks, gans. are topics covered such weight intialization batch normalization. are notebooks used projects the nanodegree program. the program itself, projects are reviewed udacity experts, they are available here well.table contentstutorialssentiment analysis numpy: andrew trask leads through building sentiment analysis model, predicting some text is positive negative.intro tensorflow: starting building neural networks tensorflow.weight intialization: explore initializing network weights affects performance.autoencoders: build models image compression denoising, using feed-forward convolution networks tensorflow.transfer learning (convnet). practice, people don't train own large networkd huge datasets, use pretrained networks such vggnet. here 'll vggnet classify images flowers without training network the images themselves.intro recurrent networks (character-wise rnn): recurrent neural networks are able use information the sequence data, such the sequence characters text.embeddings (word2vec): implement word2vec model find semantic representations words use natural language processing.sentiment analysis rnn: implement recurrent neural network can predict a text sample is positive negative.tensorboard: tensorboard visualize network graph, well how parameters change through training.reinforcement learning (q-learning): implement deep q-learning network play simple game openai gym.sequence sequence: implement sequence--sequence recurrent network.batch normalization: learn to improve training rates network stability batch normalizations.generative adversatial network mnist: train simple generative adversarial network the mnist dataset.deep convolutional gan (dcgan): implement dcgan generate images based the street view house numbers (svhn) dataset.intro tflearn: couple introductions a high-level library building neural networks.projects first neural network: implement neural network numpy predict bike rentals.image classification: build convolutional neural network tensorflow classify cifar-10 images.text generation: train recurrent neural network scripts the simpson's (copyright fox) generate scripts.machine translation: train sequence sequence network english french translation ( a simple dataset)face generation: a dcgan the celeba dataset generate images novel realistic human faces.dependencieseach directory has requirements.txt describing minimal dependencies required run notebooks that directory.pip install dependencies pip, can issue pip3 install -r requirements.txt.conda environments can find conda environment files the deep learning program the environments folder. note environment files are platform dependent. versions tensorflow-gpu are labeled the filename \"gpu\"."
+}

@@ -1,0 +1,28 @@
+{
+	"_id": "14408468",
+	"site": "https://github.com/hirako2000/polypack",
+	"title": "Webpack 2 starter kit for high performance webapp development",
+	"author": "meed2000",
+	"date": "2017-06-13T13:56:42.101Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webpack",
+			"inferno",
+			"webpack2",
+			"furtive",
+			"skeleton",
+			"starter-kit",
+			"purecss",
+			"mincss",
+			"redux",
+			"xo"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md polypackpolypack is boilerplate configuration build most lightweight front end assets webapp static pages. motivation behind project started observation most not boilerplates are either bloated heavyweight libs, incomplete order develop ship production applications.featuresready use build bundling system webpack lightweight libraries performanceweb application, react- skeletonstate storestatic web page setupsupport either both {less}/sasssupport various web fonts formatshot module replacement rapid developmentes6/7lintingproduction build minified, concat gzipped contentroadmap base bundler webpack 2 & babel multi spa bundler config hot module reload production build cross environment variables gzip less support sass support fonts support inferno js skeleton redux skeleton purecss skeleton mincss skeleton inferno sample webapp linter jesttv program roll webapp example inferno/redux & mincsshbo & feel mincsslive demosize asset size chunks chunk names bcff9e9b7b53122acb52df67cd5f4d4f.svg 1.99 kb [emitted] photo.js 14.6 kb 0 [emitted] photo photo.vendor.js 114 kb 4 [emitted] photo.vendor photo.css 3.97 kb 0 [emitted] photo photo.vendor.css 1.95 kb 4 [emitted] photo.vendor photo.html 398 bytes [emitted]size (gzipped)bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz 901 bytes [emitted] photo.js.gz 2.88 kb [emitted] photo.vendor.js.gz 27.9 kb [emitted] photo.css.gz 1.32 kb [emitted] photo.vendor.css.gz 850 bytes [emitted] photo.html 398 bytes [emitted] potato shoplanding page inferno & basscsslive demo | sourcesize asset size chunks chunk names potatoes.css.map 89 bytes 0 [emitted] potatoes potatoes.js 21.9 kb 0 [emitted] potatoes potatoes.vendor.js 51.4 kb 1 [emitted] potatoes.vendor potatoes.css 4.65 kb 0 [emitted] potatoes potatoes.vendor.css 9.89 kb 1 [emitted] potatoes.vendor potatoes.vendor.css.map 96 bytes 1 [emitted] potatoes.vendor index.html 418 bytes [emitted] size (gzipped) asset size chunks chunk names potatoes.js.gz 3.09 kb [emitted] potatoes.css.gz 1.98 kb [emitted] potatoes.vendor.css.gz 2.31 kb [emitted] potatoes.vendor.js.gz 15.4 kb [emitted] index.html 418 bytes [emitted] folder structure. src # applications source code inferno # inferno app components # components styles # styles | index-template.html # html template | index.js # entry point mincss # mincss landing page img # images styles # styles | index-template.html # html template | index.js # entry point photo # inferno app tv roll example components # components img # images styles # styles | index-template.html # html template | index.js # entry point purecss # purecss landing page img # images styles # styles index-template.html # html template index.js # entry point static # output prod assets webpack.config.js # webpack config both dev prod buildshowtosimply fork, download zip content this repo.prerequisitenode.jsrunnpm install # installs depsnpm start # starts app dev modenpm run build # builds app productionbrowse are multiple web apps built defaulthttp://localhost:3000/mincss.html - mincss starterhttp://localhost:3000/purecss.html - purecss starterhttp://localhost:3000/inferno.html - inferno/redux starterhttp://localhost:3000/photo.html - tv roll exampe (inferno/redux fetching tvmaze schedules)contributingpr are welcome"
+}

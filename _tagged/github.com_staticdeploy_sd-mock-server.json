@@ -1,0 +1,19 @@
+{
+	"_id": "14346247",
+	"site": "https://github.com/staticdeploy/sd-mock-server",
+	"title": " An easy to use mock server for front end development",
+	"author": "pscanf",
+	"date": "2017-06-13T13:08:16.366Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mock-server",
+			"frontend",
+			"tooling"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md sd-mock-servereasy use, frills http mock server.suppose 're developing frontend app talks one more api services. running locally - your development environment - need somehowprovide those services the app: can either rely a remote deployment,start services locally, mock .sd-mock-server is command line tool helps take third approach,allowing to easily create run mock http server run duringdevelopment ( not !).installnpm --save-dev sd-mock-serverquickstartcreate directory mock-servercreate first handler file mock-server/.jsmodule.exports = (req, res) => res.send(\"ok\");start mock server$ node_modules/.bin/sd-mock-servercall mocked route$ curl http://localhost:3456/ add routes the mock server adding handler files the correspondingpath under mock-server directory. example:mock-server .js -> handler get / users {userid} | .js -> handler get /users/1 | put.js -> handler put /user/1 .js -> handler get /users post.js -> handler post /usersdocumentationuser guidewhy should sd-mock-serverrecipes:writing handler files a compile--js languagemocking graphql servermocking selenium testsexamples:react appselenium tests"
+}

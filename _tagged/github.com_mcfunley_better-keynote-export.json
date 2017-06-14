@@ -1,0 +1,18 @@
+{
+	"_id": "14302659",
+	"site": "https://github.com/mcfunley/better-keynote-export",
+	"title": " Idlewords-inspired improved export for Keynote presentations",
+	"author": "mcfunley",
+	"date": "2017-06-13T13:08:58.590Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md better-keynote-export is script can export keynote presentations formats are better sharing as standalone documents. natively,keynote export slides presenter notes a pdf. the resulting formatting is terrible, giving 50% each page the pdf to notes.keynote export html document, it won't include presenter notes it. script addresses both these issues. generates nicely-formatted pdf this , suitable uploading speakerdeck others. generates html presentation a minimalist, reader-friendly format inspired maciej cegowski.examples screenshotshere is example the html site generated. also pdf presentation slides look this:instead the crappy ones keynote gives :a full pdf sample be found here.setuppyenv virtualenv is reasonable to isolated python environments. follow instructions setting up then this:$ pyenv virtualenv 3.6.1 better-keynote-export$ pyenv activate better-keynote-export$ pip install -r requirements.txtusage ./export.py --help see of available options. basically,./export.py \\ --keynote=< keynote file> \\ --outdir=< path> \\ --title=< name the presentation> \\ --twitter-username=< twitter username> output path gets both pdf file a self-contained website you easily host (for example) github pages.notes must keynote installed use .fundamentally, works scripting keynote using applescript. details this helpfully change keynote version version. if script isn't working, might that haven't updated recently minor tweaks are needed the latest version keynote. pull requests welcome!"
+}

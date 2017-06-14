@@ -1,0 +1,29 @@
+{
+	"_id": "14413406",
+	"site": "https://github.com/flatlogic/react-dashboard",
+	"title": "React Dashboard – isomorphic dashboard built with React, Bootstrap and GraphQL",
+	"author": "PhilipDaineko",
+	"date": "2017-06-13T13:56:32.708Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"dashboard",
+			"bootstrap",
+			"graphql",
+			"hmr",
+			"browsersync",
+			"webpack",
+			"react-router",
+			"react-router-v4",
+			"redux",
+			"sass",
+			"react-bootstrap"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md react dashboard \"isomorphic\" dashboard templatebuilt react, bootstrap, react router,redux graphql based react starter kit latest industry best practices.demo. following credentials: user/password. seed project is sort a free version a template may found themeforest wrapbootstrap (affiliate link) working backend integration. may it bootstrap development your next web app.featuresreactmobile friendly layout (responsive)react routerbootstrap3graphqlnodejs backend inegrationsass styleswebpack buildstylish, clean, responsive layoutlots utility css classes rapid development (flatlogic css set)authenticationcrud operations examplesbrowsersync the ease developmentquick start1. the latest version can start cloning latest version react dashboard yourlocal machine running:$ git clone -o react-dashboard -b master --single-branch \\ https://github.com/flatlogic/react-dashboard.git myapp$ cd myapp2. run yarn install will install both run- project dependencies developer tools listed package.json file.3. run yarn start command build app the source files (/src) the output/build folder. soon the initial build completes, will start node.js server (node build/server.js) browsersync hmr top it.http://localhost:3000/ node.js server (build/server.js)http://localhost:3000/graphql graphql server idehttp://localhost:3001/ browsersync proxy hmr, react hot transformhttp://localhost:3002/ browsersync control panel (ui) you open web app a browser, mobile devices starthacking. whenever modify of source files inside /src folder, module bundler (webpack) recompile app the fly refresh the connected browsers. more info please refer getting started guide download run project (node.js >= 6.5)credits project is heavily based (is fork ) react starter kit konstantin tarkus (@koistya). difference is bootstrap & react router integration.support any additional information please refer flatlogic homepage.communitytweet it.follow @flatlogic twitter.subscribe flatlogic newsletter flatlogic.comlet's discuss: premium themeslooking premium themes templates? check our products flatlogic.com.licensemit another mit rsk."
+}

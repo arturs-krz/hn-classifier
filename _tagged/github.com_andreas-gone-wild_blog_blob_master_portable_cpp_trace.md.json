@@ -1,0 +1,14 @@
+{
+	"_id": "14406548",
+	"site": "https://github.com/andreas-gone-wild/blog/blob/master/portable_cpp_trace.md",
+	"title": "Portable stack traces in C++",
+	"author": "andreasgonewild",
+	"date": "2017-06-13T13:56:41.194Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "simple, portable stack traces c++posted may 23rd, 7:00 pmbackground am currently deep the process porting 5-kloc system golang c++; since 's reasonably complex system a custom database-engine, encryption, networking, ui etc.; assistance tracking down errors is more welcome. golang, c++ doesn't provide standard of attaching stack-traces errors. while are various more less involved libraries floating around; prefer simpler, more portable approach.traces c compiler worth 's name provides support getting current filename line via __file__ __line__ macros. code below implements trace struct provides macro simplify user code, raii is used keep thread-local stack updated traces are allocated/freed.#include <sstream>#include <string>#include <vector>#define _concat(x, y)\\ x ## y\\#define concat(x, y)\\ _concat(x, y)\\#define unique(prefix)\\ concat(prefix, __counter__)\\#define trace(msg)\\ trace unique(trace)(msg, __file__, __line__)\\struct trace { const std::string msg; const char *file; const int line; trace(const std::string &msg, const char *file, int line); ~trace();};thread_local std::vector<const trace *> stack; trace::trace(const std::string &msg, const char *file, int line): msg(msg), file(file), line(line) { stack.push_back();}trace::~trace() { stack.pop_back();} std::string stack_trace() { std::stringstream ; for (const trace *t: stack) { << t->msg << \" file \" << t->file << \", line \" << t->line << \":\"; } return .str();}errors general purpose tracing-facility is usable enough itself, the focus this post is adding stack-traces errors. error macro traces current stack-frame and throws specified error type, xerror naming convention is adopted error-types simplify user code.#include <stdexcept>#include <string>#define error(type, msg) {\\ trace(\"error thrown\");\\ throw concat(type, error)(msg);\\ } while (false)\\struct error: public std::runtime_error { error(const std::string &msg);};error::error(const std::string &msg): std::runtime_error(stack_trace() + msg) { }examplegiven facilities described above, a custom error type: struct imaperror: public error { imaperror(const std::string &msg); }; imaperror::imaperror(const std::string &msg): error(std::string(\"imaperror: \") + msg) { } following lines code:trace(\"running email_tests\");...error(imap, std::string(\"failed fetching: \") + curl_easy_strerror(res));throws exception a message this:running email_tests file /home//projects/snackis/src/main.cpp, line 66:error thrown file /home//projects/snackis/src/snackis/net/imap.cpp, line 112:imaperror: failed fetching: couldn't resolve host nameuntil next ; be ,a"
+}

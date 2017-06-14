@@ -1,0 +1,16 @@
+{
+	"_id": "14202456",
+	"site": "https://github.com/adtac/commento",
+	"title": " Commento: Lightweight, open source, tracking-free alternative to Disqus",
+	"author": "adtac",
+	"date": "2017-06-13T13:33:06.990Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md commento lightweight, open source, tracking-free comment engine alternative disqus.check a live demo commento here.installation need have instance commento running your server. commento is written go you'll need install first. once 's done, can build server. get source:$ get -v github.com/adtac/commento go the directory run:$ build . should generate commento binary. build frontend need install node.js npm. install build dependencies, run:$ npm install build frontend files, run:$ npm run build start server, run ./commento the build directory. default server started port 8080. you to change , you provide environment variable. example, you the server running port 1234:$ port=1234 ./commento you embed commento your webpage. trivial page look :<html> <head> <script src=\"http://127.0.0.1:8080/assets/commento.min.js\"></script> </head> <script> commento.init({ serverurl: \"http://127.0.0.1:8080\" }) </script> <div id=\"commento\"> <!-- commento populate div comments --> </div></html> can run entire server inside docker container too. do , run:$ docker build . -t adtac/commento$ docker run -d -p 8080:8080 adtac/commento you should the server available port 8080 the ip address the container.options commento.init function takes object parameters. is documented below:optiondescriptionserverurl server url the form https://example.com without trailing slash. will used all api requests all data be stored this server. default: same server the webpagehoneypot boolean determines whether want honeypot field. is spam-protection technique where comment posts a non-empty honeypot field are rejected silently. default: falsewhy?let's a at couple options ( why each is non-ideal) you to embed comments your blog:disqus: disqus is probably biggest commenting system. 2011 disqus had 500 million unique visitors every month[1]. however, recent blog post[2] revealed every embedded disqus frame made 90 network requests increasing load by full 4 seconds. make matters worse, was discovered they used tens third-party tracking services all pages. is obvious violation user privacy: simple commenting system should never need many requests, handing user data that many third-party tracking services.facebook comments: facebook is of biggest data collecting companies the world - every share button every facebook comments box tracks every move do. just opened random website embedded facebook comments requests facebook.com accounted 1.5 mb the 2.4 mb transferred load whole page. included 87 network requests 35 javascript files -- this didn't load the comments!while open source solutions exist, didn't find attractive enough -- either were discontinued development was virtually non-existant. open source is choice i figured 'd write own software.contributingplease read commento manifesto understand the project is what isn't. commento is extremely simplistic comparison disqus. does have voting, spam-protection, moderation, some the more advanced stuff. patches are more welcome!licensemit license. the license file more information."
+}

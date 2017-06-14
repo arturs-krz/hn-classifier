@@ -1,0 +1,18 @@
+{
+	"_id": "14190908",
+	"site": "https://github.com/bexp/textai",
+	"title": " HackerNews NLP client",
+	"author": "hntop",
+	"date": "2017-06-13T13:33:34.684Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md textairest api text summarization keywords extraction a given urlproject contains major pieces:rest api - built top python's klein/twisted server frameworkfrontend - written pure jquery utilizes hn realtime feed generatesummaries help rest endpointeverything has been wrapped docker container ( dockerfile) can deployed using simpledocker cli tool:git clone https://github.com/bexp/textai.git && cd textaidocker build -t bexpace/hntop .docker run -d -p 8000:8080 --restart -failure --ulimit nofile=4096:4096 bexpace/hntop run without docker:python 2.7.12+ requiredgit clone https://github.com/bexp/textai.git && cd textaipip install -r requirements.txtpython app.pyview action http://hn10.org"
+}

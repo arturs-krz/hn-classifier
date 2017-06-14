@@ -1,0 +1,20 @@
+{
+	"_id": "14341065",
+	"site": "https://github.com/rdn87/awesome-cordova-plugins",
+	"title": "A curated list of awesome Cordova Apache Plugins",
+	"author": "rdn87",
+	"date": "2017-06-13T13:58:18.508Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"awesome",
+			"cordova",
+			"apache",
+			"cordova-apache",
+			"cordova-plugin",
+			"awesome-list"
+		],
+		"languages": []
+	},
+	"content": "readme.md awesome-cordova-plugins curated list awesome cordova apache plugins https://cordova.apache.org/plugins/indexgetting startedplatformslist pluginslicensea curated list awesome cordova plugins, components much more. list is divided categories such cordova plugins, components. is pre-established order items each category.getting started is cordova apache wikistarting developing cordova apachebuilding cordova apps iosbuilding cordova apps androidbuilding cordova apps windows phonebuilding cordova apps firefox osplatformsiosandroidwindows phonelist pluginscamerasqlitecompatcontactsinapp browserfile transfergeo locationsplash screenmediafiledevice infomedia capturestatus barwkwebview enginedialogwhitelistglobalizationvibrationbattery statusdevice orientationscreen orientationtouch idtouch id spotlightgoogle analyticsbarcode scannerpush notificationlocal notificationclipboardnsusersdefaults ios smsadmobkeyboardwebsql windows phoneprivacy screenqr code scannerlicenseawesome-cordova-plugins is available under mit license. the license file more info."
+}

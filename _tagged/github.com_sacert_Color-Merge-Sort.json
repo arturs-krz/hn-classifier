@@ -1,0 +1,18 @@
+{
+	"_id": "14361206",
+	"site": "https://github.com/sacert/Color-Merge-Sort",
+	"title": " Color Merge Sort",
+	"author": "sacert",
+	"date": "2017-06-13T13:07:42.256Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md color merge sort attempt using d3 library.applying merge sort a range colors sort in visually appealing .demo : https://sacert.github.io/color-merge-sort/"
+}

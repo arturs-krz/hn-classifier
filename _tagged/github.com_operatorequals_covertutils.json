@@ -1,0 +1,22 @@
+{
+	"_id": "14356595",
+	"site": "https://github.com/operatorequals/covertutils",
+	"title": "Framework for Creating Backdoors",
+	"author": "operatorequals",
+	"date": "2017-06-13T13:57:47.269Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"agent",
+			"crypto",
+			"stego",
+			"rce",
+			"shell"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md covertutils framework remote code execution agent programming. documentation pageblog post securosophy describing internals is ?this python package automatically handles communication channel options, encryption, chunking, steganography, etc. all those set a few lines code, programmer spend creating actual payloads, persistense mechanisms, shellcodes generally more creative stuff!! security programmers stop re-inventing wheel implementing encryption mechanisms both agent-side handler-side spend time develop more versatile agents, generally feature-full shells!python?yes, python, more specifically python 2.7 , for time being...dependencies?! absolutely dependencies, pure python built-ins! entropy package is required the tests though. is package's requirement, ensure flow compiling executable binaries.summary entities messagemessages are things mean something the listener. messages travel through communication channels, they to unaware the channel are travelling . in words, messages to independent the mean their transportation. the communication channel handle low length byte-chunks per \"burst\", message has be chunked. the communication channel filters certain byte arrays (ids/ips, nextgen firewalls). stream stream is tag gives certain context the message. be defined used arbitrary reasons. streams, example, be used separate shell commands shellcode messages. organizers orchestratororchestrators are core data manipulation covertutils. handle data transformation methods translate raw chunks data stream-message pairs. handlerhandlers tie together raw byte input/output the orchestrators provide interface :onchunk()onmessage()onnotrecognized()example :def onmessage( message, stream ) : stream == 'shell' : os.system( message )networkingnetworking is handled covertutils, python provides great built- networking api (directly inherited c). only requirements covertutils handlers are 2 functions wrapping raw data sending receiving. pass send( raw ) a recv() function a handler you a working -time-pad encrypted, bandwidth aware, protocol independent, password protected channel.further examples:sample tcp/udp reverse shells tcp bind shell scripts be found examples/ directory.pull requests?certainly! pull requests are tested do break existing tests be accepted!especially pull requests towards python2/python3 compatibility be greatly appreciated!"
+}

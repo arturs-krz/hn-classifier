@@ -1,0 +1,16 @@
+{
+	"_id": "14425126",
+	"site": "https://github.com/secrary/InjectProc",
+	"title": "InjectProc – Process Injection Techniques",
+	"author": "sr2",
+	"date": "2017-06-13T13:56:31.904Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": "readme.md injectprocprocess injection is very popular method hide malicious behavior code are heavily used malware authors. are several techniques, are commonly used:dll injection, process replacement (.k. process hollowing), hook injection apc injection. of use same windows api functions:openprocess, virtualallocex, writeprocessmemory, detailed information those functions, msdn.dll injection:open target process.allocate space.write code the remote process.execute remote code.process replacement:create target process suspend .unmap memory.allocate space.write headers sections the remote process.resume remote thread.hook injection:find/create process.set hookapc injection:open process.allocate space.write code remote threads.\"execute\" threads using queueuserapc.downloadwindows x64 binary - x64 bit demodependencies:vc_redist.x64 - microsoft visual c++ redistributabledemoinjectproc demo - process injection techniquescontributorsnullbiteswarningworks windows 10 build 1703, 64bit.'ve enough to test systems make portable you enough please contribute. create project me better understand process injection works i it be helpful many beginner malware analysts too."
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14432160",
+	"site": "https://github.com/ArunMichaelDsouza/tensorflow-image-detection",
+	"title": "An image classifier built with Tensorflow",
+	"author": "amdsouza92",
+	"date": "2017-06-13T13:55:33.934Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"image-detection",
+			"machine-learning",
+			"deep-learning",
+			"deep-neural-networks",
+			"convolutional-neural-networks",
+			"tensorflow"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md tensorflow-image-detection generic image detection program uses google's machine learning library, tensorflow a pre-trained deep learning convolutional neural network model called inception. model has been pre-trained the imagenet large visual recognition challenge using data 2012, it differentiate between 1,000 different classes, dalmatian, dishwasher etc. program applies transfer learning this existing model re-trains to classify new set images. is generic setup can used classify almost kind image. created small demo classifies image data sets - photos my girlfriend's photos, returns prediction score denoting possibility it being image my girlfriend's image.installation sure have python installed, install tensorflow your system, clone repo.usageprepare image data sets order start transfer learning process, folder named training_dataset needs be created the root the project folder. folder contain image data sets all subjects, whom classification is be performed.create training_dataset folder add images all data sets the following manner -/||---- /training_dataset| || || ---- /arun| | arun1.jpg| | arun2.jpg| | ...| || || ---- /erica| erica1.jpg| erica2.jpg| ...|| enables classification images between arun erica data sets. sure include multiple variants the subject (side profiles, zoomed images etc.), more images, better is result.initiate transfer learning to project directory run -$ bash train.sh script installs inception model initiates re-training process the specified image data sets.once process is complete, will return training accuracy somewhere between 85% - 100%. training summaries, retrained graphs retrained labels be saved a folder named tf_files.classify objectspython classify.py image.jpgwhere image.jpg is input file is be classified. classifier output predictions each data set. prediction score between 0.8 1 is considered be optimal.resultslicensemit licensecopyright (c) 2017 arun michael dsouzapermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

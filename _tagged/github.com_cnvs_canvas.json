@@ -1,0 +1,21 @@
+{
+	"_id": "14184340",
+	"site": "https://github.com/cnvs/canvas",
+	"title": " Canvas – Simple, Powerful Blog Publishing Platform",
+	"author": "austintoddj",
+	"date": "2017-06-13T13:33:34.996Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"php",
+			"laravel",
+			"blog",
+			"canvas"
+		],
+		"languages": [
+			"php",
+			"apacheconf"
+		]
+	},
+	"content": "readme.md canvascanvas is simple, powerful blog publishing platform lets to share stories the world. beautifully designed interface completely customizable framework allows to create publish own blog, giving tools make easy even fun do. canvas includes of most popular web packages today, such :google material design.simplemde markdown publishing.syntax highlighting prismjs.full-site searching tntsearch.native google analytics integration.powered laravel 5.canvas sponsorscanvas is mit-licensed open source project. ongoing development is made possible thanks the support these awesome backers. you are interested becoming sponsor, please visit canvas patreon page.contributingthank for considering contributing canvas! contribution guide be found the canvas documentation.changelogdetails changes each release are documented the changelog.licensecanvas is open-sourced software licensed under mit license."
+}

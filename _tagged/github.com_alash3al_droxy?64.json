@@ -1,0 +1,19 @@
+{
+	"_id": "14528032",
+	"site": "https://github.com/alash3al/droxy?64",
+	"title": "Nginx-docker-proxy alternative with roundrobin and autossl",
+	"author": "alash3al",
+	"date": "2017-06-13T14:09:47.521Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"reverse-proxy",
+			"nginx"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md droxy transparent standalone http reverse proxy docker containers .downloadgoto releases. open terminal cmd .usage run , just run downloaded binary it !# type ./droxy linux ./droxy.exe windows$ ./droxy you need run container(s), examples, will the default nginx container.docker run --name service1 -v /var/www/:/usr/share/nginx/html:ro -d -p 8081:80 -e droxy_host=service1.mysite.com -e droxy_letsencrypt=service1.mysite.com nginx open service1.mysite.com maps your server's ip, will the nginx service . is droxy_host droxy_letsencrypt ?droxy_host tells droxy route requests match droxy_host this container .droxy_letsencrypt tells droxy enable auto ssl based let'sencrypt this container that hostname .features dependencies, a small single binary ! .watches docker realtime add/remove containers our own internal service discovery .automatically generate renew ssl certs created containers .single multiple hosts allowed both droxy_host droxy_letsencrypt can specifiy whether use http https connecting the backend droxy_host=host1.com,https://host2.com. can choose backend port (docker private port) be used each hostname droxy_host=host1.com,host2.com:8080 can run multiple containers the same hostname droxy use roundrobin distribute traffic between .you use wildcards hostnames both droxy_host droxy_letsencrypt. caches let'sencrypt certs the current working directory under ./droxy-certs/, can change starting following ./droxy --certs-dir=/path//custom/dir. can change default listening ports both 80 443 ./droxy --http=:8080 --https=:44303installing source$ get -u github.com/alash3al/droxy$ install github.com/alash3al/droxy$ droxy --help"
+}

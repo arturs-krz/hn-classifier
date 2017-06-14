@@ -1,0 +1,25 @@
+{
+	"_id": "14482680",
+	"site": "https://github.com/cprogrammer1994/ModernGL",
+	"title": "Modern OpenGL binding for python",
+	"author": "cprogrammer1994",
+	"date": "2017-06-13T14:10:06.896Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"opengl",
+			"python",
+			"modern-opengl-functions",
+			"moderngl",
+			"pyopengl",
+			"graphical-applications",
+			"pypi",
+			"rtdocs"
+		],
+		"languages": [
+			"c++",
+			"python"
+		]
+	},
+	"content": "readme.md modernglmoderngl is python3 module encapsulates opengl a pythonic moderngl pypidocumentationexampleschangeloginstallationpip install modernglwhy moderngl? you prefer gpu accelerated high quality graphics you should develop applications using moderngl. is much simpler pyopengl capable rendering the same quality performace.full linting support - (using vscode pylint)create glsl shaders only few lines codecreate framebuffers validate with single callaccess cool opengl features writing clean self-explaining codevscode snippets fast prototypingrender pillow image - ( window required)why is simpler? the original opengl api have write couple lines achieve simple task compiling shader running computation the gpu. moderngl will need a few lines achieve same result.using pyopenglvbo1 = glgenbuffers(1)gl.glbindbuffer(gl_array_buffer, vbo1)gl.glbufferdata(gl_array_buffer, b'hello world!', gl_static_draw)vbo2 = glgenbuffers(1)gl.glbindbuffer(gl_array_buffer, vbo2)gl.glbufferdata(gl_array_buffer, b'\\x00' * 1024, gl_dynamic_draw)using modernglvbo1 = ctx.buffer(b'hello world!')vbo2 = ctx.buffer(reserve=1024, dynamic=true) cool features# read content>>> vbo1.read()b'hello world!'# copy between buffers>>> ctx.copy_buffer(vbo2, vbo1)>>> vbo2.read(5)b'hello'# buffer re-specification>>> vbo2.orphan()>>> vbo2.write(b' other data')is moderngl faster pyopengl? some cases yes, core functions moderngl are written c++, opengl functions are called quick succession these calls together count a single python function call. version opengl is used? of calls require opengl 3.3 subroutines compute shaders require opengl 4.0 opengl 4.3is old pc supported?opengl 3.3 came in february 2010. up date drivers will able use most the moderngl functions, on integrated graphics cards. (, compute shaders won't )render pillow imagesize = (256, 256)fbo = ctx.framebuffer(ctx.renderbuffer(size))fbo.()# render sceneimage.frombytes('rgb', size, fbo.read(components=3))render pillow image (multisample)size = (256, 256)fbo1 = ctx.framebuffer(ctx.renderbuffer(size, samples=8))fbo2 = ctx.framebuffer(ctx.renderbuffer(size))fbo1.()# render scenectx.copy_framebuffer(fbo2, fbo1)image.frombytes('rgb', size, fbo1.read(components=3))render pillow image (larger screen) change size (4096, 4096) will require much more video ram.working uniforms attributes# declaration the program is omitted.>>> prog.uniforms{ 'matrix': <uniform: 0>, 'lights': <uniform: 1>, 'color': <uniform: 2>,}>>> prog.uniforms['lights'].value[(0.0, 0.0, 100.0), [(10.0, 10.0, 90.0)]>>> prog.attributes{'vertex': <attribute: 0>,'normal': <attribute: 1>,'texcoord': <attribute: 2>,}>>> ctx.detect_format(prog, ['vertex', 'normal'])'4f3f'>>> color_uniform = prog.uniforms['color']>>> color_uniform.value = (0.0, 1.0, 0.0)don't read uniform values too often force gpus sync. can start using moderngl? a at examples docs.where i moderngl?anywhere where opengl is supported. moderngl is capable rendering using standalone_context well. rendering a window requires valid opengl context. moderngl create window?, window creation is to . you choose a large variety modules can create window: pyqt5, pyglet, pygame, glut many others.limitations using moderngl pyopengl? the neccessary calls are ( can ) implemented moderngl. however can interract the moderngl objects pyopengl. something is missing write issue raise pr.supported platforms windows linux macinstalling sourceinstalling ubuntu sourceapt- install python3-dev libgl1-mesa-dev libx11-devpython3 setup.py installbuilding shinx documentationpip install -r docs/requirements.txtpython setup.py build_sphinxrunning testspytest of tests may skipped the supported opengl version is below requirements the given test.code qualitycode is tested pep8, flake8, prospector pylint"
+}

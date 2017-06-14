@@ -1,0 +1,18 @@
+{
+	"_id": "14424753",
+	"site": "https://github.com/ThatDan/sonic_fiber",
+	"title": " Using city permits to map Sonic.net fiber",
+	"author": "ThatDan",
+	"date": "2017-06-13T13:06:43.597Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"python"
+		]
+	},
+	"content": "readme.md sonic fiber map map highlighting sonic.net fiber deployments generated publicly-available street permits.demo map itself be found https://thatdan.github.io/sonic_fiber/ data within is recent of june 8, 2017. (except permit 17toc-3140. 've left as exercise the user figure why )disclaimer map is purely speculative based street permits. have verified whether sonic's fiber service is available every street highlighted. quote samstave hackernews:having permit doesnt mean fiber is pulled. can check addresses https://www.sonic.com/availabilitytodo street centerlines instead intersecion points add central office points write single script pulling/updating data include permit number date map add timelapse permits topermit data be found http://bsm.sfdpw.org/reports/public/permitsearch.aspx search \"sonic telecom\" the agency \"temporary occupancy\" the permit type returns list permits mostly ( not always) associated pulling aerial fiber and down streets.pdfs the permits contain detailed street information can downloaded the print link next each permit. number plugins tools be used download en masse.once the permits are downloaded, can run through tabula-extractor try convert info csvs:java -jar tabula-0.9.2-jar--dependencies.jar -b . -l -p -r -u;'s lot cruft the csvs, the important rows (street, start end intersections) be found looking rows containing \"rw :\" the 6th column. included python script clean_tabula_csv.py be run against the csvs filters lines this rule while adding current street name every column:echo \"permit,streetname,from_st,to_st\" > sonic_intersections.csv;ls 1*toc*.csv | xargs -l1 python clean_tabula_csv.py >> sonic_intersections.csv; city san francisco provides street intersection data data.sfgov.org. used list streets intersections basemap street centerlines datasets. list streets contains every intersection every street the city name printed the permits while basemap contains street geometry \"cnn\" is referenced the list streets.exporting both sets csvs, imported and permit csv an sqlite database:rm sonic.sqlite;echo \".separator ','.import sonic_intersections.csv sonic_intersections.import list_of_streets_and_intersections.csv sf_intersections.import san_francisco_basemap_street_centerlines.csv sf_cnn\" | sqlite3 sonic.sqlite importing csvs, can a few joins get geometry the streets covered the permits. could used postgresql spatialite generate proper geospatial data, it's easier just the wkt city includes their cnn data.echo \"select sf_cnn.cnn, sonic.permit, sonic.streetname, sonic.from_st, sonic.to_st, sf_cnn.geometry sonic_intersections sonicleft join sf_intersections sf sonic.streetname = sf.streetname sonic.from_st = sf.from_st sonic.to_st = sf.to_stleft join sf_cnn sf.cnn = sf_cnn.cnn;\" | sqlite3 sonic.sqlite > sonic_fiber.csv included index.html contains basic leaflet map the wicket plugin parse draw sonic_fiber.csv.central office locationsper request phillijw added markers highlighting sonic's central offices found this post dane jasper. csv coordinates is sonic_cos.csv."
+}

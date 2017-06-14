@@ -1,0 +1,21 @@
+{
+	"_id": "14405039",
+	"site": "https://github.com/enotcode/flask-starter",
+	"title": "Flask Starter Pack",
+	"author": "tg-bot-creator",
+	"date": "2017-06-13T13:56:41.009Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"flask",
+			"flask-staterapp",
+			"starter-template",
+			"python3"
+		],
+		"languages": [
+			"html",
+			"python"
+		]
+	},
+	"content": "readme.md flask starterflask starter pack to start?git clone https://github.com/enotcode/flask-starter.gitcd flask-starterpip install -r requirements.txtpython run.py will need see * running http://127.0.0.1:5000/ (press ctrl+c quit)* restarting stat* debugger is active!* debugger pin: 187-362-163licensemit"
+}

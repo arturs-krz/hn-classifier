@@ -1,0 +1,23 @@
+{
+	"_id": "14518328",
+	"site": "https://github.com/TranslucentTB/TranslucentTB",
+	"title": " Translucent/Transparent taskbar program for Windows 10",
+	"author": "__ethanhs__",
+	"date": "2017-06-13T13:04:19.273Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"taskbar",
+			"visual-studio",
+			"gitter",
+			"windows",
+			"windows-10",
+			"customization",
+			"aero"
+		],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": "readme.md translucenttb | | | lightweight (uses few mb ram almost cpu) utility makes windows taskbar translucent/transparent. sadly compatible windows 10, translucenttb uses windows 10 apis. can how use command line the usage file. can examples the customizations can in image below:add startup add translucenttb startup, run application through command line translucenttb.exe --startup automatically add to windows registry thus it start automatically subsequent boots. also possible do via tray icon's context menu.featurestranslucenttb supports multiple taskbar states dynamic taskbar states.normal taskbar states (choose ):blurred, makes taskbar, , blurred.transparent, makes taskbar transparent. will display whole desktop background.opaque, makes taskbar opaque.dynamic taskbar states ( can used together):dynamic window states (dynamic-ws), will the taskbar blurred a window is maximised the current monitor transparent otherwise.dynamic start menu (dynamic-sm), will your taskbar match system theme the start menu is open. does change start menu.translucenttb supports custom tints, make taskbar color want. can it action here (thanks @gunny123!).download can download program (prebuilt executables source snapshots) via releases tab. you to the latest bleedging edge build, can grab over the appveyor artifacts. note these build may work, include features are partially complete. at own risk.security antiviruses are eager, they might flag program malicious. is ! over 50 thousand users downloaded program safely. source is open, can compile yourself, i welcome and security reviews.speaking compiling...building source have options here: can checkout either the develop master branches. is highly recommended you checkout master it is stable, develop may contain non-working code.via git:$ git clone -b master https://github.com/translucenttb/translucenttb.git can download zip each branch clicking the clone download button. that have source, will need visual studio 2015. can the free community edition here.once have installed ( sure have c++ components, are included default). you open translucenttb.sln, press ctrl+shift+b build solution. output be either release debug folder. you don't to open visual studio ( install ), you (if haven't installed vs) install visual c++ build tools microsoft. open visual c++ msbuild command prompt cd the root directory this project, before running msbuild.thanks definitly not done without help several :@charlesmilette, @mraksel, @olliethepikachu, last certainly least @pfckrutonium. you like contribute, everyone is welcome ! if are considering major feature, need guidance, want talk idea , don't hesitate jump discord gitter ( above), file issue. main contributors are often discord, gitter github, we should reply fairly quickly., at time have plans expanding beyond taskbar.similar programs you are looking something modifies more just taskbar, are several programs there.taskbar tools is similar program written c#. elestriel plans expanding beyond taskbar, explorer start last heard. may seen similar translucency abilities programs such start is ++ and classic shell. both these are great programs, i don't need start-replacement features, i wrote .also dynamic states allow more customisability the taskbar.known issues build 14986, windows defender's real protection sometimes seems cause explorer freeze. are work-arounds: temporarily disable defender starting , or start via command line. do know this is fixed build 15002.dynamic windows (dynamic-ws) occaison has issue uwp windows. fix problem, try ending applicationframehost process ( will close open uwp programs!), restart translucenttb. are working a solution this. alternative this is uncomment applicationframehost line the blacklist, this cause dynamic-ws fail uwp windows.license program is free software under gpl v3. please the copying file more."
+}

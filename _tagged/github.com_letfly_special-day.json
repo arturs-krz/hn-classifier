@@ -1,0 +1,18 @@
+{
+	"_id": "14380346",
+	"site": "https://github.com/letfly/special-day",
+	"title": "Special-day",
+	"author": "letfly",
+	"date": "2017-06-13T13:57:07.623Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md dev environment-endnpm installnpm run app"
+}

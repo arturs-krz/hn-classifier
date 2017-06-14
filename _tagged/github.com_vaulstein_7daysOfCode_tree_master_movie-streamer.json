@@ -1,0 +1,14 @@
+{
+	"_id": "14119197",
+	"site": "https://github.com/vaulstein/7daysOfCode/tree/master/movie-streamer",
+	"title": " Cli movie streaming tool",
+	"author": "vaulstein",
+	"date": "2017-06-13T13:35:13.564Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md movie streamerlet's choose movies streaminstallationrequirements sure have npm vlc media player installed. script requires following dependencies downloads automatically.requestsbeautiful souppeerflixinstall using pip globally:$ sudo pip install mstream build source:$ git clone https://github.com/vaulstein/7daysofcode.git$ cd 7daysofcode/movie-streamer$ python setup.py installrunmstream <movie-name>select movie want watch:todousing proxy server scrape magnet linksprovide advance search options search movies/tv series"
+}

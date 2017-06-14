@@ -1,0 +1,18 @@
+{
+	"_id": "14469426",
+	"site": "https://github.com/techfort/LokiJS",
+	"title": "LokiJS: Lightweight JavaScript in-memory database",
+	"author": "onderkalaci",
+	"date": "2017-06-13T13:55:02.802Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md lokijsoverviewlokijs is document oriented database written javascript, published under mit license. purpose is store javascript objects documents a nosql fashion retrieve with similar mechanism.runs node (including cordova/phonegap node-webkit), nativescript the browser.lokijs is ideal the following scenarios:client-side -memory db is ideal (e.g., session store)performance critical applicationscordova/phonegap mobile apps where can leverage power javascript avoid interacting native databasesdata sets loaded a browser page synchronised the end the sessionnode-webkit desktop appsnativescript mobile apps mix power ubiquity javascript native performance uilokijs supports indexing views achieves high-performance through maintaining unique binary indexes (indices) data.demo following demos are available:[sandbox / playground] (https://rawgit.com/techfort/lokijs/master/examples/sandbox/lokisandbox.htm) node-webkit small demo the folder demos/desktop_app. can launch by running `/path//nw demos/desktop_app/'wikiexample usage be found the wikimain featuresfast performance nosql -memory database, collections unique index (1.1m ops/s) binary-index (500k ops/s)runs multiple environments (browser, node, nativescript)dynamic views fast access data subsetsbuilt- persistence adapters, the ability support user-defined oneschanges apijoinscurrent statelokijs is version 1.3 [eostre]. lokijs is written javascript can run any environment supporting javascript such browsers, node.js/node-webkit, nativescript mobile framework hybrid mobile apps (such phonegap/cordova).made @techfort, the precious help dave easterday.leave tip give a star you find lokijs useful!installation browser environments simply need lokijs.js file contained src/ can bower install lokijs bower install lokijs node nativescript environments can install through npm install lokijs.roadmapexactindexkey-value datastoremru cachemongodb api compatibilityserver standalone (tcp http servers clients)replication horizontal scalingcontact help / enquiries contact joe.minichino@gmail.comcommercial support commercial support contact info.techfort@gmail.comlicensecopyright (c) 2015 techfort joe.minichino@gmail.compermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sell copies the software, to permit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "14399399",
+	"site": "https://github.com/yegor256/sixnines",
+	"title": "Website Availability Monitor, 0.18 released",
+	"author": "rultor",
+	"date": "2017-06-13T13:56:41.548Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ruby",
+			"availability",
+			"monitoring",
+			"hosted"
+		],
+		"languages": [
+			"ruby",
+			"xslt",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": "readme.md does do?sixnines.io is hosted service validate prove availability your web service sites. read blogpost more details:sixnines.io, website availability monitor. badge is available :http://www.sixnines.io/b/3b05e836?style=flat&format=pnghere, style parameter be either round flat. format parameter be either svg (106x20) png (424x80).dynamodb schema sn-endpoints table contains registered end-points:fields: login/h: github login the owner uri/r: uri the endpoint, e.g. \"http://www.google.com/?q=hello\" id: unique id the endpoint active: \"yes\" it's alive, \"\" otherwise created: epoch number when was added hostname: host name the uri, e.g. \"google.com\" pings: total amount ping's 've done far failures: total amount failed attempts state: either \"\" or \"down\" updated: epoch of most recent update this record flipped: epoch of recent state change expires: epoch when has be pinged again log: detailed log the recent failure favicon: uri the faviconsn-endpoints/unique: (index) id/hsn-endpoints/hostnames: (index) active/h hostname/rsn-endpoints/flips: (index) active/h flipped/rsn-endpoints/expires: (index) active/h expires/r sn-pings table contains recent pings:fields: uri/h: uri the endpoint pinged /r: epoch of ping local: ip address where were pinging remote: ip address the endpoint reached msec: many milliseconds took code: http response code (2xx means success) delete_on: ttl attribute dynamodb ( to delete item) to contribute? submit pull request. sure rake passes.prerequisites:ruby 2.0+bundlermaven 3.2+ run locally:$ rake run, point browser http://localhost:9292 enjoy.license( mit license)copyright (c) 2017 yegor bugayenkopermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( 'software'), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided ' is', without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

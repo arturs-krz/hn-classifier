@@ -1,0 +1,17 @@
+{
+	"_id": "14147597",
+	"site": "https://github.com/s9w/headcache",
+	"title": " Headcache, a note program featuring markdown, search, external editing",
+	"author": "s9w",
+	"date": "2017-06-13T13:34:48.526Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"css"
+		]
+	},
+	"content": "readme.md headcacheheadcache is note program written python(3) pyqt (5).'s based normal markdown files notes, uses database program-specific format renders markdown instantly.headcache was designed have minimal intuitive interface, quick navigation instant search.installation useinstall pip install headcache run in directory your choice headcache the command line ( an appropriate shortcut). looks .md files the working directory have h1 headline, splits content each file h2 chunks.since text editing is very personal choice, headcache does contain text editor! add change notes, an external editor. file changes are instantly loaded the program. double click any file open in default text editor. saving trigger instant update navigation, preview the search index. escape key be used quickly jump search ( back). file contents are indexed, searches are instant a return key press any match jump the appropriate information. search index is being kept to date file changes. initial indexing program start may a second so, is done a separate thread doesn't block main program.navigation between search bar, file list, part list preview also done tab/shift-tab. tiny red line the bottom each pane indicates current focus. the usual markdown is supported, including tables images. links are opened the default system browser.headcache writes headcache_config.json exit can edited. search_text_weight search_title_weight set relative search weights body title the markdown files. big title weight push search matches the title higher .todo file dialoghandle file renamesicon, styling (light theme?)tag support?better context search matcheslatex support?maybe reuse search index"
+}

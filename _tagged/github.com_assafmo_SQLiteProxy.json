@@ -1,0 +1,19 @@
+{
+	"_id": "14421899",
+	"site": "https://github.com/assafmo/SQLiteProxy",
+	"title": " SQLiteProxy – A Simple HTTP JSON Proxy for SQLite",
+	"author": "assafmo",
+	"date": "2017-06-13T13:06:43.970Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"sqlite",
+			"http-server",
+			"json"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md sqliteproxy simple http json proxy sqlite. probably should be exposed end users. :-)  installationnpm install -g sqliteproxyoptionsusage: sqliteproxy [options]options: --db: db file path (default: \"\") --[]readonly: open database readonly (default: false) --port: tcp port listen (default: 2048) ( number)usage examplesexisting db$ sqliteproxy --db ./examples/vt.sqlite ^z[1] + 23436 suspended sqliteproxy --db ./examples/vt.sqlite$ bg[1] + 23436 continued sqliteproxy --db ./examples/vt.sqlite$ curl 'http://localhost:2048' \\-d sql='select * vt where md5 = \"0060cc2e24f259545558ebd8834dc345\"' -l | jq . # post /[ { \"md5\": \"0060cc2e24f259545558ebd8834dc345\", \"av_score\": \"7/61\" }]$ curl 'http://localhost:2048' -g \\--data-urlencode sql='select * vt where md5 = \"0060cc2e24f259545558ebd8834dc345\"' -l | jq . # /[ { \"md5\": \"0060cc2e24f259545558ebd8834dc345\", \"av_score\": \"7/61\" }]$ curl 'http://localhost:2048' -d sql='create table x()' -l[]$ curl 'http://localhost:2048' -d sql='drop table x' -l []$ fg[1] + 23436 running sqliteproxy --db ./examples/vt.sqlite^cread $ sqliteproxy --db ./examples/vt.sqlite --readonly ^z[1] + 23447 suspended sqliteproxy --db ./examples/vt.sqlite --readonly$ bg[1] + 23447 continued sqliteproxy --db ./examples/vt.sqlite --readonly$ curl 'http://localhost:2048' -d sql='create table x()' -l{\"errno\":8,\"code\":\"sqlite_readonly\"}$ fg[1] + 23447 running sqliteproxy --db ./examples/vt.sqlite --readonly^c db$ sqliteproxy --db mynewdb.sqlite ^z[1] + 23453 suspended sqliteproxy --db mynewdb.sqlite$ bg[1] + 23453 continued sqliteproxy --db mynewdb.sqlite$ curl 'http://localhost:2048' -d sql='create table x()' -l[]$ curl 'http://localhost:2048' -d sql='insert x values (1),(2),(3)' -l []$ curl 'http://localhost:2048' -d sql='select * x' -l[ { \"\": 1 }, { \"\": 2 }, { \"\": 3 }]$ fg[1] + 23453 running sqliteproxy --db mynewdb.sqlite^clicensemit"
+}

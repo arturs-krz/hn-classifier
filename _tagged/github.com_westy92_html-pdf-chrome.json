@@ -1,0 +1,34 @@
+{
+	"_id": "14496211",
+	"site": "https://github.com/westy92/html-pdf-chrome",
+	"title": "HTML to PDF converter via headless Chrome (optionaly from Node.js)",
+	"author": "nwrk",
+	"date": "2017-06-13T14:10:07.297Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chrome",
+			"chromium",
+			"html",
+			"html-pdf-chrome",
+			"pdf",
+			"pdf-generation",
+			"typescript",
+			"javascript",
+			"headless-chrome",
+			"headless-chromium",
+			"headless-browsers",
+			"headless",
+			"windows",
+			"macos",
+			"linux",
+			"nodejs",
+			"node-js"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md html-pdf-chromehtml pdf converter via chrome/chromium.prerequisiteschrome/chromium 59 higher (60 higher some features)windows, macos, linuxnode.js v6 laterinstallationnpm install --save html-pdf-chromeusagenote: is strongly recommended you keep chrome running side--side node.js. is significant overhead starting chrome each pdf generation can easily avoided.'s suggested use pm2 ensure chrome continues run. it crashes, will restart automatically. of writing, headless chrome uses 65mb ram while idle.# install pm2 globallynpm install -g pm2# start chrome be sure specify port use the html-pdf-chrome options.pm2 start google-chrome \\ --interpreter none \\ -- \\ --headless \\ --disable-gpu \\ --disable-translate \\ --disable-extensions \\ --disable-background-networking \\ --safebrowsing-disable-auto-update \\ --disable-sync \\ --metrics-recording- \\ --disable-default-apps \\ ---first-run \\ --remote-debugging-port=<port goes here># run node.js app.typescript:import * htmlpdf 'html-pdf-chrome';const html = '<p>hello, world!</p>';const options: htmlpdf.createoptions = { port: 9222, // port chrome is listening };// asyncconst pdf = await htmlpdf.create(html, options);await pdf.tofile('test.pdf');const base64 = pdf.tobase64();const buffer = pdf.tobuffer();// promisehtmlpdf.create(html, options).((pdf) => pdf.tofile('test.pdf'));htmlpdf.create(html, options).((pdf) => pdf.tobase64());htmlpdf.create(html, options).((pdf) => pdf.tobuffer());javascript:const htmlpdf = require('html-pdf-chrome');const html = '<p>hello, world!</p>';const options = { port: 9222, // port chrome is listening };htmlpdf.create(html, options).((pdf) => pdf.tofile('test.pdf'));htmlpdf.create(html, options).((pdf) => pdf.tobase64());htmlpdf.create(html, options).((pdf) => pdf.tobuffer());view full documentation the source code.using external siteimport * htmlpdf 'html-pdf-chrome';const options: htmlpdf.createoptions = { port: 9222, // port chrome is listening };const url = 'https://github.com/westy92/html-pdf-chrome';const pdf = await htmlpdf.create(url, options);using template enginepug (formerly known jade)import * htmlpdf 'html-pdf-chrome';import * pug 'pug';const template = pug.compile('p hello, #{noun}!');const templatedata = { noun: 'world',};const options: htmlpdf.createoptions = { port: 9222, // port chrome is listening };const html = template(templatedata);const pdf = await htmlpdf.create(html, options);licensehtml-pdf-chrome is released under mit license."
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "14370153",
+	"site": "https://github.com/sozu-proxy/sozu",
+	"title": "sōzu: Rust hot reconfigurable reverse HTTP proxy",
+	"author": "guifortaine",
+	"date": "2017-06-13T13:57:07.646Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"proxy",
+			"http-proxy",
+			"http",
+			"rust",
+			"security",
+			"performance"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": "readme.md szu http reverse proxy will awesome it be readygoalsbuild most reliable reverse proxy ever: should never crash (currently fixing remaining panics) should need restart it receive configuration changes a unix socket runtime should able upgrade without downtime should have exploitable memory errors if has , workers be sandboxed set a limit the number concurrent connections a worker reverse proxy refuse connections that limit, instead requesting unavailable ressources memorybuilding startingrequirements:openssl 1.0.1 above can create required executables this:cd ctl && cargo build; cd ../bin && cargo build will create sozu executable the reverse proxy, sozuctl command .to start reverse proxy:cd bin;../target/debug/sozu start -c config.toml can edit reverse proxy's configuration the config.toml file. can declare applications, frontends backends through file, for more flexibility, should the command socket ( can find end that unix socket the pathdesigned command_socket the configuration file).sozuctl has few commands can to interact the reverse proxy:soft shutdown (wait active connections stop): sozuctl -c config.toml shutdownhard shutdown: sozuctl -c config.toml shutdown --harddisplay list current configuration messages: sozuctl -c config.toml state dumpsave configuration state a file: sozuctl -c config.toml state save -f state.json osx buildmac os uses old version openssl, we need use from homebrew:brew install opensslbrew link --force openssl it does work, set following environment variables before building:export openssl_lib_dir=/usr/local/opt/openssl/lib/export openssl_include_dir=/usr/local/opt/openssl/include/logging reverse proxy uses env_logger. can select module displays logs which level an environment variable. here is example display logs info level, use trace level the http parser module:rust_log=info,sozu_lib::parser::http11=trace ./target/debug/sozuexploring sourcelib/: sozu_lib reverse proxy library contains event loop management, parsers protocolsbin/: sozu executable wraps library worker processes, handle dynamic configurationctl/: sozuctl executable send commands the reverse proxylicensecopyright (c) 2015-2016 geoffroy couprie, clément delafargue program is free software: can redistribute and/ modify under terms the gnu affero general public license published the freesoftware foundation, version 3. program is distributed the hope it be useful, without warranty;without the implied warranty merchantability fitness a particular purpose. the gnu affero general public license more details."
+}

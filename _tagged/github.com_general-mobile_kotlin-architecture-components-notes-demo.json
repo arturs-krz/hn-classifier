@@ -1,0 +1,24 @@
+{
+	"_id": "14417408",
+	"site": "https://github.com/general-mobile/kotlin-architecture-components-notes-demo",
+	"title": "Android Architecture Components Notes Demo App",
+	"author": "dtunctuncer",
+	"date": "2017-06-13T13:56:31.244Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"android",
+			"android-architecture-components",
+			"kotlin",
+			"dagger2",
+			"databinding",
+			"mvvm",
+			"notes"
+		],
+		"languages": [
+			"kotlin",
+			"java"
+		]
+	},
+	"content": "readme.md android architecture components notes demo application is example android architecture components implements mvvm pattern.screenshotslibrariesdagger 2buildgradlew assembledebuglicense mit license (mit)copyright (c) 2017 general mobilepermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

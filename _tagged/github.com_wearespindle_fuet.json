@@ -1,0 +1,16 @@
+{
+	"_id": "14437196",
+	"site": "https://github.com/wearespindle/fuet",
+	"title": " Fuet, simple and fast template compiler for Vue.js",
+	"author": "jvanveen",
+	"date": "2017-06-13T13:06:18.578Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md fuetsimple fast vue 2 template compiler using reference template compiler.usagenpm -g fuet# produces commonjs module `module.exports.tabs_tablist`./fuet.js - '../tabs/src/*.vue' -s src -coptions--namespace, -n changes default namespace. [text]-c, --commonjs commonjs format [boolean] [default: false]-, --input glob pattern vue templates. [text] [required]-o, --output output file use. [text]-s, --skip skip parts the template path name. [lijst]-h show help [boolean]devhouse spindle, https://wearespindle.com"
+}

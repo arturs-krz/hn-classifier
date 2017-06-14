@@ -1,0 +1,27 @@
+{
+	"_id": "14481758",
+	"site": "https://github.com/k0shk0sh/FastHub",
+	"title": "FastHub 3.0 released",
+	"author": "dikiaap",
+	"date": "2017-06-13T14:10:07.090Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"github-client",
+			"android-github",
+			"github-mvp",
+			"github-android",
+			"android-application",
+			"mvp-architecture",
+			"mvp-android",
+			"android-app"
+		],
+		"languages": [
+			"java",
+			"kotlin",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.md fasthubyet another open-source github client app unlike other app, fasthub was built scratch.fossgrab fasthub here maintained thermatkfeaturesapp login types (basic auth), (access token) via (browser)themes modeoffline-modemarkdown code highlighting supportnotifications overview \"mark as read\"search users/orgs, repos, issues/prs & code.pinned repostrendingrepositoriessearch reposbrowse search repos your public, private forked reposfilter branches commitswatch, star fork reposdownload releases, files branchesissues pull requestssearch issues/prsfilter issues/prslong click peak issues/prs & add comments otg.open/close issues/prscomment issues/prsmanage issue/pr commentsreact comments reactionsedit issues/prslock/unlock conversation issues/prsassign and add labels milestones issues/prsmanage milestonesmerge prsprs reviews(reply, react emojies, delete & edit comment)prs statusescommits gistssearch code/gistsview gists their filescomment commits/gistsmanage commit/gist commentscreate/delete gistsreact commit comments reactionsorgsoverviewfeedsteams & teams reposreposusersfollow/unfollow usersview user feedscontribution graph.search users, repos, issues,pull requests codemuch more...fasthub is actively developed. more features come!> fasthub contain ads, are disabled default. could enable if 'd to support development.ads are longer available until further noticespecs / open-source libraries:minimum sdk 21, appcompat is used the ;-)kotlin new modules starting 2.5.3 be written #kotlin.mvp-architecture: thirtyinch its thirtyinch.rxjava2 & rxandroid retrofit & background threadsretrofit constructing rest apirequery offline-modestream api dealing collectionsbutterknife view bindingandroid state saving instance stateslombok getters settersmaterial-bottomnavigation bottombar tabsandroid-universal-image-loader loading imagescommonmark markdown conversion htmltoasty displaying error/success messagesshapedimageview round avatarsmaterialtaptargetprompt displaying tips throughout appfabric analytics & crash reporting.android support libraries, almighty ;-)contribution love fasthub? want features bug fixes?please contribute the project either creating pr submitting issue github.read contribution guide more detailed information.language contributorsturkish @kutsangerman @failex234chinese @devifishindonesian @dikiaaprussian @dedepetejapanese @rintanitalian @raffaele74lithuanian @mistermantaslicensecopyright (c) 2017 kosh.licensed under gpl-3.0 license.( the license file the whole license text.)screenshotsmobile lightmobile darktablet lighttablet darkfasthub logofasthub logo is designed kevin aguilar google+ twitterdesigner 221 pixelslaus deo semper"
+}

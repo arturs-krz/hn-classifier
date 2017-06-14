@@ -1,0 +1,26 @@
+{
+	"_id": "14415985",
+	"site": "https://github.com/guokr/swagger-py-codegen",
+	"title": "Swagger Py Codegen – A Python Framework Generator Supports Flask/Tornado/Falcon",
+	"author": "jizhouli",
+	"date": "2017-06-13T13:56:32.741Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"swagger",
+			"flask",
+			"tornado",
+			"falcon",
+			"pypi"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"python",
+			"smarty",
+			"html"
+		]
+	},
+	"content": "readme.md restful web framework generator overviewswagger py codegen is python web framework generator, can help generate python web framework automatically based a given swagger specification doc. currently, following languages/frameworks are supported:flask (python)tornado (python)falcon (python)alpha version now, may handle validation properly. you found bug, feel free contact .installpip install swagger-py-codegenusagecreate :swagger_py_codegen --swagger-doc api.yml example-appcommand options:-s, --swagger, --swagger-doc swagger doc file. [required]-f, --force force overwrite.-p, --package package name / application name.-t, --template-dir path your custom templates directory.--spec, --specification generate online specification json response.--ui generate swagger ui.-j, --jobs integer parallel jobs processing.-tlp, --templates gen flask/tornado/falcon templates, default flask.--version show current version.--help show message exit.examples:generate example-app api.yml:flask example$tree.|__ api.yml$ swagger_py_codegen -s api.yml example-app -p demo$ tree (flask-demo).|__ api.yml|__ example-app |__ demo | |__ __init__.py | |__ v1 | |__ api | | |__ __init__.py | | |__ oauth_auth_approach_approach.py | | |__ oauth_auth_approach.py | | |__ users_token.py | | |__ users_current.py | | |__ users.py | |__ __init__.py | |__ routes.py | |__ schemas.py | |__ validators.py |__ requirements.txttornado example$ swagger_py_codegen -s api.yml example-app -p demo -tlp=tornado$ tree (tornado-demo).|__ api.yml|__ example-app |__ demo | |__ __init__.py | |__ core | |__ __init.py | |__ v1 | |__ api | | |__ __init__.py | | |__ oauth_auth_approach_approach.py | | |__ oauth_auth_approach.py | | |__ users_token.py | | |__ users_current.py | | |__ users.py | |__ __init__.py | |__ routes.py | |__ schemas.py | |__ validators.py |__ requirements.txtfalcon example$ swagger_py_codegen -s api.yml example-app -p demo -tlp=falcon$ tree (falcon-demo).|__ api.yml|__ example-app |__ demo | |__ __init__.py | |__ v1 | |__ api | | |__ __init__.py | | |__ oauth_auth_approach_approach.py | | |__ oauth_auth_approach.py | | |__ users_token.py | | |__ users_current.py | | |__ users.py | |__ __init__.py | |__ routes.py | |__ schemas.py | |__ validators.py |__ requirements.txtrun web serverinstall example-app requirements:$ cd example-app$ pip install -r requirements.txtstart example-app:$ cd demo$ python __init__.py generate example-app-ui api.yml ui:$ swagger_py_codegen -s api.yml example-app-ui -p demo-ui --ui --spec you visit http://127.0.0.1:5000/static/swagger-ui/index.html a browser.compatibilitycomponentcompatibilityopenapi spec2.0python2.*, 3.*authors the authors.licensemit"
+}

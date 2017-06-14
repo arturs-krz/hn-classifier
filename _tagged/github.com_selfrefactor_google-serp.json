@@ -1,0 +1,21 @@
+{
+	"_id": "14522944",
+	"site": "https://github.com/selfrefactor/google-serp",
+	"title": " Google-serp – scrape Google search results with headless browser",
+	"author": "self_refactor",
+	"date": "2017-06-13T13:04:19.017Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"scrape",
+			"google",
+			"serp",
+			"google-search",
+			"nightmarejs"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md google-serpscrape google search results using phobetor nightmare.js to it?// yarn add google-serpconst googleserp = require(\"google-serp\")const serpresults = await googleserp({ query:\"led zeppelin\"})output:{ type:\"result\", payload:[ { url:\"https://ledzeppelin.com\", title: \"homepage one rock blues legend\", description:\"led zeppelin is a misic will easily forget\", position: 1 }, ... ]}typingtype serpresult = { url: string, title: string, description: string, position: number,}type result = { payload:array<serpresult> | error, type: \"result\" | \"error\"}googleserp({ query: string, showhundredflag?: boolean, show?: boolean,}): promise<result> there is error during scraping, library return object type equal \"error\" the error a payload. process is successful, library return object type equal \"result\" array results payload.argumentsquerygoogle search queryscrapehundredflag set true, will request 100 search result instead 10default value - falseshow set true, will show browserdefault value - falserequirementselectron compatible environment, .e. either system graphic interface you need use xvfb. the latter case need do something that https://gist.github.com/omarusman/1af968d9b96fc5b0cd39599db3f2b9bdchangelog0.1.7 fix error occuring there is element no description0.1.6 fix error exporting unexisting file v0.1.5"
+}

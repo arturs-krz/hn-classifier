@@ -1,0 +1,26 @@
+{
+	"_id": "14379032",
+	"site": "https://github.com/tastejs/hacker-news-pwas",
+	"title": "Hacker News as Progressive Web Apps – A Spiritual Successor to TodoMVC",
+	"author": "MrAwesomeSauce",
+	"date": "2017-06-13T13:57:07.506Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"hacker",
+			"news",
+			"progressive-web-app",
+			"prpl",
+			"code-splitting",
+			"lighthouse",
+			"hacker-news-reader"
+		],
+		"languages": [
+			"css",
+			"html",
+			"ruby",
+			"other"
+		]
+	},
+	"content": "readme.md hacker news readers progressive web apps. spiritual successor todomvc. implementations our site the site/apps directory the currentlist implementations.specificationeach implementation must include:views: hacker news top stories, , show, ask, jobs & threaded commentsapp must display 30 items per-page story list viewsapp must a progressive web appapp must score a 90/100 using lighthouseapp must become aim be interactive under 5 seconds a moto g4 3g. webpagetest using auto-selected moto g4 + faster 3g setting validate \" to interactive\" look numeric lighthouse scores tti well a manual inspection the application's timeline \"trace\" filmstrip a sanity check.app must the application shell pattern instantly load skeleton the ui repeat visitsapp must its best work cross-browseroptionally:app supports offline caching hn data (e.g similar the 'offline mode' reacthn)app may server-side rendering displaying content is resilient js loading the networkuser interface: this , hnpwa does prescribe specific stylesheet theme implementations. will aiming provide in near future similar how do todomvc.data sourcesofficial real- hacker news api powered firebaseunofficial hacker news api cheeaun using firebase powered api please 30 stories per-page ensure consistency between implementations using unofficial api well the actual hacker news websitenetwork settingsemerging markets: chrome beta a motorola g (gen 4) tested dulles, virginia a 400 kbps 3g connection 400ms latency. tested webpagetest using auto-selected moto g4 + emerging markets setting.faster 3g: chrome beta a motorola g (gen 4) tested dulles, virginia a 1.6 mbps 3g connection 300ms latency. tested webpagetest using auto-selected moto g4 + faster 3g setting. to interactive readings taken linked lighthouse results webpagetest.licenseeach implementation preserves license noted the linked applications."
+}

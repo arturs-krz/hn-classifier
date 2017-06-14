@@ -1,0 +1,17 @@
+{
+	"_id": "14444103",
+	"site": "https://github.com/foodora/kong-plugin-jwt-crafter",
+	"title": "JWT Crafter Kong plugin",
+	"author": "aelesbao",
+	"date": "2017-06-13T13:55:21.537Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"lua",
+			"shell"
+		]
+	},
+	"content": "readme.md jwt crafter kong plugin plugin adds possibility generate jwt token within kong itself, eliminating need a upstream service doing token generation. jwt plugin included kong has main features: storing jwt secrets per consumer verifying tokens proxying upstream services. is missing capability generate token based successful authentication. plugin needs other plugins work: jwt plugin itself, uses to fetch jwt credential where consumer's signing secret is stored authentication plugin (e.g. basic authentication, jwt, oauth2); consumer must authenticated generate token also uses acl plugin embeds the consumer acls inside token claims section. upstream services then decode token use acls the token authorize users within app code.tests run against kong 0.9.x 0.10.x.examplecreate api a consumer a jwt credential ( token), add basic auth the api:# create sign apicurl -xpost -h 'content-type: application/json' -d '{\"uris\": \"/sign_in\", \"upstream_url\": \"http://localhost\", \"name\": \"sign_in_api\"}' localhost:8001/apis# create consumercurl -xpost -h 'content-type: application/json' -d '{\"username\": \"test\"}' localhost:8001/consumers# create jwt credential consumercurl -xpost -h 'content-type: application/json' localhost:8001/consumers/{consumer_id_from_above}/jwt# create basic auth credentials consumercurl -xpost -d 'username=user' -d 'password=pass' localhost:8001/consumers/{consumer_id_from_above}/basic-auth# enable basic auth sign apicurl -xpost -d 'name=basic-auth' localhost:8001/apis/{api_id_from_above}/pluginsnote: upstream_url the api is irrelevant, plugin short circuits response returns token directly kong. make sure enter url can resolve dns, otherwise kong complains. is known limitation kong.enable jwt crafter plug-:curl -x post -d 'name=jwt-crafter' localhost:8001/apis/{api_id_from_above}/pluginsputting all together, calling created api authenticated using basic authentication yield following response:# user:pass is base64 encodedcurl -h 'authorization: basic dgvzddp0zxn0' localhost:8000/sign_in{ \"token_type\": \"bearer\", \"expires_in\": 28800, \"access_token\": \"eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9.eyjuyw0ioij0zxn0iiwic3viijoiyzniodmzmdgtmwyyns00m2vmlwexn2mtownjntblogi3owq2iiwiaxnzijoinmizowyznzhjnzqznguymmizzjg4n2q2ztmzndgwotkilcjlehaioje0otu5mtawodmsinjvbci6wyjhyweilcjiymiixx0.ymuftufi7akpjedygiir0en035w3g_mnhtqo4xkikdu\"}decoded token:{ \"alg\": \"hs256\", \"typ\": \"jwt\"}{ \"nam\": \"test\", // credential username user id \"sub\": \"c3b83308-1f25-43ef-a17c-9cc50e8b79d6\", // consumer id \"iss\": \"6b39f378c7434e22b3f887d6e3348099\", // jwt credential key (issuer) \"exp\": 1495910051, // valid until \"rol\": [ // acls the consumer kong \"aaa\", \"bbb\" ]}installationinstall rock building kong image/instance:luarocks install kong-plugin-jwt-crafteradd plugin your custom_plugins section kong.conf, kong_custom_plugins is available.custom_plugins = jwt-crafterconfiguration configuration options are optionalkeydefault valuedescriptionexpires_in8 * 60 * 60validity token secondslimitationscurrently, plugin loads first hs256 jwt credential the consumer. does include signing algorithms a possibility specify consumer jwt credential should used sign key the consumer has multiple credentials."
+}

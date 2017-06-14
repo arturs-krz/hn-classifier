@@ -1,0 +1,14 @@
+{
+	"_id": "14286225",
+	"site": "https://github.com/poofyleek/jp/blob/master/README.md",
+	"title": " JSON Pathos – simpler jq",
+	"author": "poofyleek",
+	"date": "2017-06-13T13:31:14.432Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "jp (json pathos)command line tool grok json: quite jsonpath jq , easier use.ideas: subset xpath json-path features. program is meant be used unix pipes command line. each part the pipeline should a json subset it pass along the next part the pipeline. each section pipe be jp any unix command line tool. package jp:jp/main. shows to the package jp. jp/main. can compiled produce jp.usage: simplest case is a pretty printer.cat .json | python -m json.toolis equivalent cat .json | jp can print print specific node the json. docker inspect commandoutputs json can piped jp then select particular path node the json. - before print indicates json input is stdin.$ docker inspect a6a2 | jp - print /[0]/config/env[\"path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"] lshw program produces comprehensive machine information can told output json.$ lshw -json | jp - print /idmachine1 can save json output parse conditionally. following prints memory capacity the system.$ lshw -json > /tmp/x$ jp /tmp/x 'children[0]/children[0]/id == memory' print /children[0]/children[0]/size3.3663483904e+10 can foreach print elements an array:$ jp /tmp/x foreach 'children[0]/children' print |wc -l3 following lists array children[0]/children[]. each line is piped again another jp check cpu 0 capabilities capacity.$ jp /tmp/x foreach 'children[0]/children' print | \\while read line; echo $line | \\jp - 'businfo == cpu@0' list /capabilities/vmx /capacity ;done true 3.400132e+09"
+}

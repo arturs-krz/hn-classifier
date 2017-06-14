@@ -1,0 +1,20 @@
+{
+	"_id": "14366220",
+	"site": "https://github.com/kotlintest/kotlintest/",
+	"title": "KotlinTest – flexible and comprehensive testing tool",
+	"author": "cryptos",
+	"date": "2017-06-13T13:57:07.333Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kotlin",
+			"matchers",
+			"assertions",
+			"testing"
+		],
+		"languages": [
+			"kotlin"
+		]
+	},
+	"content": "readme.md kotlintest is flexible comprehensive testing tool kotlin.full documentation latest updates changelogcommunityforumstack overflow (don't forget use tag \"kotlintest\".)contribute to for latest updates changelog.test stylewrite simple beautiful tests the stringspec style:class mytests : stringspec() { init { \"length should return size string\" { \"hello\".length shouldbe 5 } }} can choose testing style fits needs.let computer generate test data property based testing test code automatically generated test data:class propertyexample: stringspec() { init { \"string size\" { forall { : string, b: string -> ( + b).length == .length + b.length } }}check the tricky cases table testinghandle an enormous amount input parameter combinations easily table driven tests:class stringspecexample : stringspec() { init { \"should add\" { val mytable = table( headers(\"\", \"b\", \"result\"), row(1, 2, 3), row(1, 1, 2) ) forall(mytable) { , b, result -> + b shouldbe result } } }}test exceptionstesting exceptions is easy kotlintest:val exception = shouldthrow<illegalaccessexception> { // code here you expect throw illegalaccessexception}exception.message should startwith(\"something went wrong\")fine tune test execution can specify number threads, invocations, a timeout each test for tests. you group tests tags disable conditionally. you need is config:class myspec : stringspec() { override val defaulttestcaseconfig = testcaseconfig(invocations = 3) init { \"should config\" { // ... }.config(timeout = 2.seconds, invocations = 10, threads = 2, tags = setof(database, linux)) }} more ... page gives just short overview kotlintest. are more useful things:check whole collections inspectors.write elegant conditions the matcher dsl: \"hello\" should havesubstring(\"ell\").reuse test logic, e. g. setup tear down, interceptors.let kotlintest close resources automatically: val reader = autoclose(stringreader(\"xyz\"))test asynchronous code eventually. full documentation.gradle:testcompile 'io.kotlintest:kotlintest:xxx'maven:<dependency> <groupid>io.kotlintest</groupid> <artifactid>kotlintest</artifactid> <version>xxx</version> <scope>test</scope></dependency>"
+}

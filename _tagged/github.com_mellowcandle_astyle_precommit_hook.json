@@ -1,0 +1,16 @@
+{
+	"_id": "14135560",
+	"site": "https://github.com/mellowcandle/astyle_precommit_hook",
+	"title": " AStyle Git precommit hook for code beautification enforcement",
+	"author": "stdcall83",
+	"date": "2017-06-13T13:35:12.747Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md astyle_precommit_hookastyle git precommit hook code beautification enforcementfeatures:deletes trailing whitespaces defaultcreates backup a folder date/two styles defined: linux kernel, user space.prerequisites:astyle (artistic style) installed added path.installation:copy file .git/hooks desired repository.add execution mode (chmod +x)usefull notes: bypass hook, add -n the git commit command ( git commit -n)"
+}

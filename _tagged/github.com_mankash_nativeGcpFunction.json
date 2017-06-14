@@ -1,0 +1,20 @@
+{
+	"_id": "14339504",
+	"site": "https://github.com/mankash/nativeGcpFunction",
+	"title": "Lambda Function in C / Google Cloud Function – Native C Demo",
+	"author": "mankash666",
+	"date": "2017-06-13T13:58:21.066Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cloud-functions",
+			"gcp",
+			"lambda"
+		],
+		"languages": [
+			"javascript",
+			"c"
+		]
+	},
+	"content": "readme.md google cloud function - native c demo this a template write lambda/gcp function a language your choosing. only requirement is the native binary be compliant gcp's function's environment debian linux (latest lts).specific aim this demo is :parse json params incoming http/s gcp request, pass to native process (written c)echo the params received the native process, demostrating ability act them.receive response the native code js, parse response code std-. frame appropriate http/s response the original invoker the gcp function.inspiration this demo is here.building locally gcp functions emulator:follow giidelines gcp's official emulator setup guide. repo contains .c file. while local emulator is agnostic os, gcp's servers a debian distro. is noteworhty keep mind, your dev setup is latest ubuntu/debian lts release, compiled binary (attached this repo) is fully compatible gcp's servers.compile .c file: gcc -o test_func test_func.cdeploy .js funtion the local emulator:functions deploy hellocontent --trigger-httptrigger function:curl -x post -h \"content-type:application/json\" -h \"x-myheader: 123\" http://localhost:8010/heroic-icon-167622/-central1/hellocontent -d '{\"name\":\"neil\"}' everything works expected, output should as follows:hello neil std_out: { \"msg\": \"hello arbitrary c program!\", \"args\": hello neil! } exit_code: 0!building the actual gcp functions environment :note - be fully compliant gcp's platform, of may 2017, compile native binary ubuntu 16.04 lts ( updates) /or 's debain counterpart. though untested, other x86_64 linux-es (latest lts) may generate compliant binaries.compile .c file ubuntu 16.04 x86_64 : gcc -o test_func test_func.c attached binary this repo is compliant gcp's servers, case dev machine is winows mac.deploy .js funtion gcp functions:gcloud beta functions deploy hellocontent --stage-bucket func_bucket --trigger-httptrigger function (example url below):curl -x post -h \"content-type:application/json\" -h \"x-myheader: 123\"https://-central1-heroic-icon-167622.cloudfunctions.net/hellocontent?foo=baz -d '{\"name\":\"neil\"}' everything works expected, output should as follows:hello neil std_out: { \"msg\": \"hello arbitrary c program!\", \"args\": hello neil! } exit_code: 0!happy native coding!!!"
+}

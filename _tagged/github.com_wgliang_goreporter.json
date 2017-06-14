@@ -1,0 +1,26 @@
+{
+	"_id": "14091948",
+	"site": "https://github.com/wgliang/goreporter",
+	"title": " GoReporter, Generate Golang Code Quality Test Report",
+	"author": "01walid",
+	"date": "2017-06-13T13:35:28.033Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"codereview",
+			"reporter",
+			"golang",
+			"golang-tools",
+			"test",
+			"staticcheck",
+			"linter",
+			"unit-testing",
+			"static-analysis"
+		],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": "readme.md goreporter golang tool does static analysis, unit testing, code review generate code quality report. is tool concurrently runs whole bunch those linters normalizes output a report:branch featuressupported linterssupported templatetodo listinstallingrequirementsrun creditsquickstartexamplereport-examplecreditssupported lintersunittest - golang unit test status.deadcode - finds unused code.gocyclo - computes cyclomatic complexity functions.varcheck - find unused global variables constants.structcheck - find unused struct fields.aligncheck - warn un-optimally aligned structures.errcheck - check error return values are used.copycode(dupl) - reports potentially duplicated code.gosimple - report simplifications code.staticcheck - statically detect bugs, both obvious subtle ones.godepgraph - godepgraph is program generating dependency graph go packages.misspell - correct commonly misspelled english words... quickly.countcode - count lines files project.supported templatehtml template file can loaded via -t <file>.todo listdevelop more linter, such code line count statistics, function statistics, project information layer structure display, etc. are still many shortcomings the presentation the report, showing the model is perfect, hope someone help optimize .installingrequirements 1.6+graphviz are options installing goreporter.install stable version, eg. get -u github.com/wgliang/goreporter/tree/version-1.0.0. will generally tag new stable version it has passed travis regression tests. downside is the binary be called goreporter.version-1.0.0.install head : go -u github.com/wgliang/goreporter. has downside changes goreporter may break.quickstartinstall goreporter ( above).run :$ goreporter -p [projectrelativepath] -r [reportpath] -e [exceptpackagesname] -f [json/html] {-t templatepathifhtml}-p must a valid golang project path.-r save path the report.-e exceptional packages (multiple separated commas, example: \"linters/aligncheck,linters/cyclo\" ).-f report format json html.-t template path, not specified, default template be used. default, default template is used generate reports html format.example$ goreporter -p ../goreporter -r ../goreporter -t ./templates/template.html can result detail:online-example-reportexample:github.com/wgliang/logcoolcreditstemplates is designed liufeifeilogo is designed xuri"
+}

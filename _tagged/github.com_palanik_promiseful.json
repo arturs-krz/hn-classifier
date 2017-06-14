@@ -1,0 +1,18 @@
+{
+	"_id": "14424924",
+	"site": "https://github.com/palanik/promiseful",
+	"title": " Useful patterns with Promise functions",
+	"author": "palanik",
+	"date": "2017-06-13T13:06:43.829Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"promise",
+			"promise-library"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md promisefuluseful patterns promise functionsinstallation$ npm install promiseful --save use the browser, download library dist folder.usagenode.jspromiseful uses native es2015 promise. use non-native, 3rd-party promise libraries, bluebird promise polyfill, call promiseful.promise() the promise object, before using api.e.g.:var promise = require('bluebird');// var promise = require('es6-promise');// var promise = require('pinkie-promise');var promiseful = require('promiseful');promiseful.promise(promise); examplebrowserpromiseful uses native es2015 promise. use non-native, 3rd-party promise libraries, bluebird promise polyfill, include library, before including promiseful.e.g.:<script src=\"https://cdn.jsdelivr.net/bluebird/latest/bluebird.min.js\"></script><!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.0/es6-promise.min.js\"></script> --><script src=\"promiseful.js\"></script> exampleapi promiseful function is function returns promise.e.g.:function readpasswd() { return promise((resolve, reject) => { fs.readfile('/etc/passwd', (err, data) => { (err) { reject(err); } else { resolve(data); } }); });} api works promiseful functions. not pass promise objects.methods follow pattern, similar the excellent caolan/async library.api documentationapiexamplesnode.jsserver-es5browserfetch-image-dimensionbluebirdlicensemit"
+}

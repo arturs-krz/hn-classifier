@@ -1,0 +1,17 @@
+{
+	"_id": "14154218",
+	"site": "https://github.com/leonardkore/scrabble",
+	"title": " Scrabble",
+	"author": "waterwise77",
+	"date": "2017-06-13T13:34:47.105Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"scrabble"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md scrabble"
+}

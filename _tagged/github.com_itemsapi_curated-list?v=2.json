@@ -1,0 +1,19 @@
+{
+	"_id": "14167115",
+	"site": "https://github.com/itemsapi/curated-list?v=2",
+	"title": " Build nice list with faceted, full text search by editing yaml file",
+	"author": "cigol",
+	"date": "2017-06-13T13:34:46.585Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": "readme.md curated listbuild nice client-side curated list editing yaml file. demo movies - https://imdb.netlify.com/.featuresfaceted & full search db dependencies (search engine written js)website powered editing simple yaml filesimple template engine (similar twig)getting startedgit clone https://github.com/itemsapi/curated-list.gitnpm installedit config.yaml:website: title: list movies layout: name: table columns: - image - name - tagssearch: searchablefields: ['name', 'tags', 'genres', 'actors'] aggregations: tags: size: 15 title: tags genres: size: 10 title: genres actors: size: 10 title: actorsdata: type: url url: https://storage.googleapis.com/imdb-list/imdb.jsonnpm run buildnpm startresult: another examplesshort guide running npm run build html, css js files are generated docs folder. can docs files github pages netlify deployment maybe aws s3.generate website different config:npm run build --config databases.yamldeploymenthttps://www.netlify.com/ (incredibly easy free hosting open source)https://pages.github.com/ (free intuitive hosting static websites)https://zeit.co/ (realtime deployments cli)# install npm install -g# deploy app now technologiesexpress (minimalist web framework node.js)itemsjs (full text, faceted search engine javascript)contributions help talented with design programming skills is very welcome."
+}

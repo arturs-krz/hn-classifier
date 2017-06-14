@@ -1,0 +1,28 @@
+{
+	"_id": "14255540",
+	"site": "https://github.com/s4cha/Komponents",
+	"title": " React-like Components for iOS",
+	"author": "sachadso",
+	"date": "2017-06-13T13:32:49.654Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"component",
+			"declarative",
+			"ui-components",
+			"swift",
+			"uikit",
+			"layout-engine",
+			"ios",
+			"declarative-ui",
+			"component-architecture",
+			"render"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": "readme.md komponentskomponents is swift framework building component-oriented interfaces. it's unfair need javascript enjoy components ! komponentspure swift ( js, xml)declarative apihot reload injectionforxcodediff algorithm running background be used incrementally your app external dependenciesbuilding loading screen hot reload class loadingvc: uiviewcontroller, statelesscomponent { override func loadview() { loadcomponent() } func render() -> tree { return view([ horizontalstack(layout: .center, [ label(\"loading...\"), activityindicatorview(.gray) ]) ]) }} is we need render loading view !getting started to components? fear ! facebook's react guide is gold mine information get started :) easiest to started feel power komponents is take look the example project komponentsexample.xcodeproj play around ! an better experience, strongly recommend enabling hot reload can learn , like react, komponents tries be smart what rerenders the state changes patching section. can find more detailed information guides the wikiinstallationkomponents be installed manually, via carthage, cocoapods swift package manager.detailed installation steps the wiki herecontributorsyannickdot,s4cha, ?!we'd love hear you so don't hesitate reach through issue via twitter@sachadsolicensekomponents is released under mit license. license details.inspirationfacebook's react, componentkit,preact, vue.js alexdrone's render, angular... great libraries're the to tackle great endeavor swift components here are other very cool projects :alexdrone's renderjoshaber's few.swiftbendingspoons' katana v 0.2 please aware this is still very experimental . actual api and change. is battle-tested we advise against using in appstore apps ( now)declarative styling via props applying styles directly the uikit elements was super handy v0.1 came major strings attached. indeed, styles blocks the nodes only called the main thread, uikit is meant be accessed the ui thread ( the part)., in order compare styles, needed create duplicate uikit element (heavy) look differences it.'s where props in! idea is have props layer, aka structure defines element's style, is equatable.being equatable, becomes trivial compare buttons styles. instance, can write :let styleisthesame = (button.props == newbutton.props)being value-typed, is safe process diff background ! we all goodness free? course , welcome engineering. major drawback is we to bridge every uikit element property its corresponding props struct.however properties supported only better time classic escape hatch through refs always accessible access uikit elements a property is yet supported. is worth !a dead-simple declarative layout coming version is switching autolayout ( stevia) a declarative layout. new layout system is based a super simple layout struct, , combined classic stackviews enables 99.9% layout cases. is value type, meaning will thread safe thus enable comparison a background thread :)diffing the virtual dom. elements, styling, layout purely declarative, value-type equatable, can safely put the heavy duty stuff off a background thread !!! v0.2, diffing algorithm ( known reconciliation) run the virtual dom, a background thread only schedule ui changes the ui thread."
+}

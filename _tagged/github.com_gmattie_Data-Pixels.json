@@ -1,0 +1,18 @@
+{
+	"_id": "14475836",
+	"site": "https://github.com/gmattie/Data-Pixels",
+	"title": "Data-Pixels: Create pixel art programmatically",
+	"author": "based2",
+	"date": "2017-06-13T13:55:02.378Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md data pixels create pixel art programmatically datapixels.js source code facilitates production pixel art is entirely generated programmatically runtime. additionally, accompanying desktop application, data pixels playground, may used write execute code displaying both customized automated pixel art.datapixels.js datapixels.js source code features modular, es2015 class design accessible effortless construction new instances. each instance contains both htmlcanvaselement htmlimageelement public accessors whose sources consist the programmatically generated pixel art. datapixels.js constructor requires 2 arguments:pixeldata: array containing or more arrays equal length, consisting strings composed 0-255 integer values per 24-bit rgb color channel (e.g., 255, 255, 255) 32-bit rgba color channel (e.g., 255, 255, 255, 255). additionally, strings may optionally contain kind descriptive text (e.g., red: 255, g - 128, 64 blue, transparency = 32) only number values within string be parsed rgb / rgba order. strings contain more 4 numbers throw error.pixelsize: size each color data unit pixels. value represents size each perceived pixel forms pixel art.data pixels playgrounddata pixels playground is lightweight, cross-platform, desktop application windows, mac linux, may used write execute datapixels.js instances previewing testing purposes. application features built- example code via help menu well the ability parse pixel data image files produce automatically generated code through file > open image file menu item through drag--drop gestures.note: pixel color values are automatically interpreted image files an embedded color space may differ slightly the images intended color values.desktop application release buildscreating release builds windows, mac /or linux is 2-step process: code compilation, application packaging, both which are accomplished running command-line npm scripts execute gulp tasks.compilationproduction code compilation be executed entering following cli command the project root folder [~/datapixels/ ]:npm run prod more detailed information concerning code compilation please refer project foundation.packagingapplication packaging be executed either or individual deployment targets entering of following cli commands the project build folder [~/datapixels/resources/build/ ]:npm run packagenpm run package-linuxnpm run package-macnpm run package-windowsnote: order avoid problems code signing other build issues is highly recommended execute packaging scripts an individual platform its own operating system. more detailed information concerning application packaging please refer electron packager.licensemit licensecopyright © 2017 geoffrey mattie"
+}

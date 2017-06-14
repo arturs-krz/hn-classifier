@@ -1,0 +1,17 @@
+{
+	"_id": "14489046",
+	"site": "https://github.com/njones/xcp",
+	"title": " A Simple Cross Network, OS and Application Copy-Paste Written in Golang",
+	"author": "nikajon_es",
+	"date": "2017-06-13T13:04:45.146Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md xcp cross application, network os copy-paste w/ web-browser viewusagexcp [<name>]-p <port>-v verbose -p specify port number, -v turn logging stdout. no <name> is specified, one automatically generated.start xcp one machine start another machine, copy paste the xcp commandline open browser on machine running xcp view contents a web browser.http://localhost:<port>/<name> multicast is setup things work across network, otherwise tcp host need be setup. second server need same port name connect directly. browser only used between or more connections."
+}

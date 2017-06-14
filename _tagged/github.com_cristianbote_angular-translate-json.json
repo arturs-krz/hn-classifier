@@ -1,0 +1,25 @@
+{
+	"_id": "14113657",
+	"site": "https://github.com/cristianbote/angular-translate-json",
+	"title": " Angular Translate Json",
+	"author": "cristianbote",
+	"date": "2017-06-13T13:35:25.954Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"angular",
+			"angular2",
+			"angular4",
+			"translation",
+			"json",
+			"javascript",
+			"typescript",
+			"angular-translate"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md angular translate jsontranslations module latest version angular. 's built support latest angular version, a friendly use api.inspired https://github.com/angular-translate/angular-translate to it's on npm, you do:npm install --save angular-translate-json it works1. define module configurations// importsimport { angulartranslatejsonmodule, translateservice } 'angular-translate-json';// import @ngmodule({ imports: [ angulartranslatejsonmodule.forroot( // can either define settings here { locale: 'en', path: '/path//translations' } ), ]})class myangularmodule { constructor( private translateservice: translateservice ) { // here translateservice.setconfig({ locale: 'en', path: '/path//translations' }); }}2. translation file this is en.json file{ \"common\": { \"hello\": \"hello mate!\", \"hello_user\": \"hello {{username}}!\" }, \"page_title\": \"page title\"}3. usage component, we're ready use inside components.@component({ template: ` <div class=\"page\"> <div class=\"title\" translate=\"page_title\"></div> <div class=\"greet\" translate=\"common.hello\"></div> <div class=\"greet\" translate=\"common.hello_user\" [translatevalues]=\"userdata\"></div> </div> `})class mycomponent { userdata = { username: 'johnsnow' }}4. more options use you either it a atttribute(directive) pipe, simply calling service directly.directive<div class=\"greet\" translate=\"common.hello\"></div>pipe filter<div class=\"greet\">{{'common.hello' | translate}}</div>using serviceimport { translateservice } 'angular-translate-json';@component({ template: `{{mynameis}} {{name}}`})class namebadgecomponent { mynameis = ''; name = 'john snow'; constructor( private translateservice: translateservice ) { translateservice.gettranslation('common.hello') .subscribe(res => { .mynameis = res; }); } }feedbacklet know there's something broken i'll more happy address ."
+}

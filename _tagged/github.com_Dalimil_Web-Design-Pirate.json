@@ -1,0 +1,22 @@
+{
+	"_id": "14195684",
+	"site": "https://github.com/Dalimil/Web-Design-Pirate",
+	"title": " Web Design Pirate – DevTools extension for copying full web components",
+	"author": "dalimil_",
+	"date": "2017-06-13T13:33:07.823Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chrome-extension",
+			"chrome-devtools",
+			"web-design",
+			"chrome"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md web design pirate chrome devtools extension fast easy to copy full html widgets, components, parts web design.chrome web store: https://chrome.google.com/webstore/detail/web-design-pirate/pdplijceapgnjafgenmlijejmjgplbhm motivation & description is hard look a website copy a small part it (widget/component/element). could copy full html all css files then try filter things don't need, that take too much ...web design pirate is devtools extension allows to select html node, then gives only css styles you need render full component. optionally, copying wrapper-style components also allows to specify level inner html content can thrown away ( further reduce number needed css styles).examples instance like mdn's header navigation widget. select using developer tools inspector, switch my web design pirate tab, tweak settings, finally copy result.screenshotscurrent state:outdated ( still demonstrates basic idea):devpull requests welcomefirefox version: apis used are supported of firefox 54 bug-1300590 is fixed firefox 55.todo large chunks html (e.g. expedia html body) is too slow (devtools freeze) - maybe remove deep level innerhtml already content scripts (assume user interest the wrapper element)replace uncss online api a custom offline script using jquery selectors parsed css ast"
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "14184311",
+	"site": "https://github.com/raymestalez/vertex",
+	"title": " Open source Node/React/Redux blog that I've made",
+	"author": "rayalez",
+	"date": "2017-06-13T13:33:34.865Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"react",
+			"redux",
+			"docker",
+			"isomorphic",
+			"blog"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md is simple blog built node/react/redux. is dockerized, has server-side rendering auth. will be federated activitypub(still in progress). can useful an example integrating technologies, a starter project, as beautiful simple blogging tool =) have tried extensively comment code, you easily understand 's going , and apply to own projects. is first project built all tech, if have suggestions how improve - i'd really appreciate . i keep gradually improving blog adding more features. feel free contribute this project, report bugs, fork and it your purposes. hope will find useful! can always contact at raymestalez@gmail.com, you check the stuff 'm working over here.installationinstalling running blog is very simple. clone repo, then simply run:docker-compose (use -d flag run in background) that, blog be running the localhost:3000. isn't docker amazing? =) will need create user yourself:docker-compose run --rm web node ./server/admin.js createsuperuser youremail@gmail.com yourpassword you go localhost:3000/login, login begin blogging! deploy online, to digital ocean, create docker droplet, point domain it, repeat same commands. security, will need enter unique secret key config/config.js. can modify file config/settings.js enter information your site - title, description, page, etc. serve blog the port 80, recommend setting nginx proxy the requests port 3000. can an example nginx config here. config is setup serve blog https, you also need follow simple tutorial configure ssl your domain.backup database data is configured a volume, you see in folder /data/db/. can run commands export things db:docker exec - -t vertex_db_1 /bin/bashmongoexport --db vertex --collection posts -- /data/db/posts_backup.json --host=127.0.0.1:27017 will generate file data/db/posts_backup.json containing of posts.modifying posts modify posts edit db, can sh the db container:docker exec - -t vertex_db_1 /bin/bash open mongo shell:mongoswitch our db: vertex execute mongo shell commands. example one find post slug modify :db.posts.updateone({slug:\"old-ugly-slug-sadfopij\"},{ $set: { \"slug\": \"-handsome-sexy-slug\"},)todobasic features basic node/react blog. auth, create/update/delete posts, page. pagination. email/rss subscriptions. filter tags. main categories dropdown the header. configure page, meta info, etc. settings.js drafts. dockerize. server-side rendering.upcoming featuressmall awesome nginx settings. compression, caching, etc. conveniently modify slugs readmore... longer posts google analytics config author username url post title should a link.(firstline) post has image, it social media image. proper nice 404 pages, error messages, etc. save email subscribers source(?source=hackernews). remove unused dependencies.bugs sets new posts draft some reason sometimes? combined the tags one editing. not always? tags should stripped spaces. tab title should be markdown. remove link about page. used get errors submitting posts sometimes. 't replicate?clean pass the speed tests.https://developers.google.com/speed/pagespeed/insights/https://tools.pingdom.com/https://gtmetrix.com/ pass mobile testshttps://search.google.com/search-console/mobile-friendly pass seo testshttps://seositecheckup.com test social media cards.https://cards-dev.twitter.com/validatorhttps://developers.facebook.com/tools/debug/write testsdecentralizationmvp activitypub prototype.person, inbox, outbox.save followers, notify of posts. clean ap utility functions. lookup info person, send message, generate activity, that. activitypub checklist, test it works. federate mastodon. can find by url, follow , see posts their home feed.futurebasic: receive likes reposts info. receive comments. ++ threadedadvanced: home feed. can subscribe other blogs see in home feed.++ rankable likes. follow by clicking button my site(remote follow). favorite, reblog, posts using buttons my site. comment my site, federated(?). can reply comments. many users may a common publicinbox(hub). post it once, it notifies the users follow .small/maybe: client endpoints. ap format client-server. readme link demo-video an image.future/maybeproper form validation.auto saving.code syntax highlighting? ipython? mathjax?create page allows to send emails subscribers? just automatically notify of posts. sendgrid settings config.jsthemesadd nested comments?image upload.upload image, automatically insert markdown link, periodically remove unused images.custom easily editable style themes.export/import data.dropbox sync/backup?"
+}

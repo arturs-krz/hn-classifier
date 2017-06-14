@@ -1,0 +1,21 @@
+{
+	"_id": "14447390",
+	"site": "https://github.com/gbonacini/trollfs",
+	"title": " Trollfs, a FUSE prank: even the Unix programmers just want to have fun",
+	"author": "gbon",
+	"date": "2017-06-13T13:06:17.725Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++",
+			"makefile",
+			"shell",
+			"java",
+			"html",
+			"c"
+		]
+	},
+	"content": "readme.md description:yes, know, sometimes 'm horrible person, even unix programmers want have fun. :-)features:\" trollfs permits create \"overmount\" fake -memory file system (using fuse) reproduce almost exactly structure the sub-tree present the mount point, , for each read request returns fake data instead the real content, payload is freely configurable creating o modifying files present the payloads' directory. file created that directory, an extension related one more real files present the original directory, be used fake data\".prerequisites:c++11 compiler;libfuselibmagictested :ubuntu 16.10debian 7.11 (wheezy)installation:launch configure script:./configurecompile program:install program the man page (optional):sudo installinstructions: the man page included the release."
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14455544",
+	"site": "https://github.com/kwent/aws-launcher",
+	"title": " AWS Launcher for macOS",
+	"author": "kwent",
+	"date": "2017-06-13T13:05:04.013Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"aws",
+			"macos",
+			"launcher",
+			"productivity"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md aws launcherlaunch aws services your macos dock.installation install module using npm.$ npm install aws-launcherdrag drop generated folder (located your home directory) yourmacos dock right the trash item.customization default, aws-launcher generates shortcuts all aws services. can customize launcher folder deleting files the aws-launcherfolder. will need drag drop folder again your macos dock see updated launcher.spotlightsince aws-launcher is basically a folder, can the macos spotlight use shortcuts well.historyview changelogauthorsquentin rousseaulicensecopyright (c) 2017 quentin rousseau <contact@quent.>permission is hereby granted, free charge, any personobtaining copy this software associated documentationfiles ( \"software\"), deal the software withoutrestriction, including without limitation rights use,copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software is furnished do , subject the followingconditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind,express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyrightholders liable any claim, damages other liability,whether an action contract, tort otherwise, arising, out or connection the software the or dealings the software."
+}

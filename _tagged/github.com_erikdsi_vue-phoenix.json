@@ -1,0 +1,19 @@
+{
+	"_id": "14371862",
+	"site": "https://github.com/erikdsi/vue-phoenix",
+	"title": " Vue-cli simple webpack template for Phoenix",
+	"author": "erik14th",
+	"date": "2017-06-13T13:07:42.100Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"vue",
+			"css"
+		]
+	},
+	"content": "readme.md vue2.x boilerplate phoenixvue2.x+webpack2 setup phoenix you a standalone vue+webpack check webpackusage is project template vue-cli. is recommended use yarn npm 3+ a more efficient dependency tree.$ mix phoenix. my-project ---brunch$ yarn global add vue-cli$ vue init erikdsi/vue-phoenix -project$ cd -project$ yarn install still to manually change line your config/dev.exs get to watchers: [npm: [\"run\", \"watch\"]] then finally:$ mix phoenix.server's includedwebpack + vue-loader single file vue components.babel configured transpile js works old devices(ios 7)scss extractionpug templates(former jade)vue-resource you make http requestsvue-routeruseful linkswebpack docsvuephoenix"
+}

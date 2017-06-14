@@ -1,0 +1,22 @@
+{
+	"_id": "14438788",
+	"site": "https://github.com/shelomentsevd/telegramgo",
+	"title": " TelegramGo. Simple Command-Line Telegram Client on Go",
+	"author": "HissinSound",
+	"date": "2017-06-13T13:06:18.428Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mtproto",
+			"telegram",
+			"telegram-cli",
+			"telegram-client",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md telegram messenger clicommand-line interface telegram. uses readline interface.builddependenciesmtproto - library working telegram apireleasedebug debugcommandspress ctrl-c input command.availables commands:\\ - shows information current account\\contacts - shows contacts list\\umsg - sends message user \\cmsg - sends message chat \\help - shows available commands\\quit - quit programenglish documentationcoming shortlynote russian speaking users telegram api api , telegram api . , . telegram', . http://github.com/sdidyk/mtproto .: telegram api telegram' json python, tl( ) . , go / , api.https://github.com/shelomentsevd/mtproto telegram api telegram rpc , tl-. tl(type language time limit) . 23- telegram api:chat#6e9c9bc7 id:int title:string photo:chatphoto participants_count:int date:int left:bool version:int = chat; 4 , , . \"6e9c9bc7\". tl-. : https://core.telegram.org/mtproto/tl , core.telegram.org tl- telegram api , .https://core.telegram.org/mtproto/tl - tlhttps://github.com/telegramdesktop/tdesktop/blob/dev/telegram/resources/scheme.tl - tl- . telegram apihttps://github.com/telegramdesktop/tdesktop - telegram'. c++.https://github.com/drklo/telegram - android . api ++, java.https://github.com/qtgram/libqtelegram - qt telegram api. c++.https://github.com/sdidyk/mtproto - . .https://github.com/zerobias/telegram-mtproto - javascript'.contactsfeel free ping in telegram drop email. you are moscow, feel free invite for coffee quick chat your office ;)))email: shelomentsev@protonmail.comtelegram: @shelomentsevdlicensemit"
+}

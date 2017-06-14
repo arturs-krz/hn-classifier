@@ -1,0 +1,24 @@
+{
+	"_id": "14471224",
+	"site": "https://github.com/treethought/flask-assistant",
+	"title": " Flask-Assistant – Building Virtual Assistants with API.AI and Python",
+	"author": "treethought",
+	"date": "2017-06-13T13:04:45.840Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"google-home",
+			"actions",
+			"api-ai",
+			"assistant",
+			"framework",
+			"google-assistant",
+			"bots",
+			"chatbot"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst create virtual assistants python flask extension serving an api.ai sdk provide easy to create virtual assistants may integrated platforms such actions google (google assistant).flask-assistant allows to focus building core business logic conversational user interfaces while utilizing api.ai's natural language processing interact users.recent updates: providing rich messages the google assistant!support flask blueprintsconvenient home assistant integration project is heavily inspired based john wheeler's flask-ask the alexa skills kit.featuresmapping user-triggered intents action functionscontext support crafting dialogue dependent the user's requestsdefine prompts missing parameters they are present the users request past active contexts convenient syntax resembling flask's decoratored routinginternal api.ai schema generation registrationhello world flask import flask flask_assistant import assistant, askapp = flask(__name__)assist = assistant(app)@assist.action('demo')def hello_world(): speech = 'microphone check 1, 2 is ?' return ask(speech) __name__ == '__main__': app.run(debug=true)-tocreate assistant object a flask app the route your webhook url. action decorators map intents the proper action function. action view functions return ask tell responses.documentationcheck the quick start jump right view full documentation"
+}

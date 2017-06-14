@@ -1,0 +1,16 @@
+{
+	"_id": "14452942",
+	"site": "https://github.com/indatawetrust/object-resolve",
+	"title": "Promise resolver for the objects",
+	"author": "cond289123",
+	"date": "2017-06-13T13:55:20.986Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md object-resolvepromise resolver the objectsusageimport from 'object-resolve'({ user: promise(resolve => { resolve({name: 'foo', surname: 'bar'}) }), posts: promise(resolve => { resolve([1,2,3,4,5]) })}).(obj => { // obj { user: {name: 'foo', surname: 'bar'}, posts: [1,2,3,4,5] }})"
+}

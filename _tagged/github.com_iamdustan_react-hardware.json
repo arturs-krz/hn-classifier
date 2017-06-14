@@ -1,0 +1,17 @@
+{
+	"_id": "14365973",
+	"site": "https://github.com/iamdustan/react-hardware",
+	"title": "React Hardware – A React Renderer for Hardware",
+	"author": "Profan",
+	"date": "2017-06-13T13:57:07.863Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": "readme.md react hardwarereact hardware enables to build firmata-based hardware applications using consistent developer experience based javascript react. focus react hardware is developer efficiency across the platforms care - learn once, write anywhere.react hardware is iot robotics programming framework developed dustankasten. being based firmata, is capable providing feature parity alternative tools such johnny-five.note this is currently alpha software hasnt been tested have manyfeatures implemented. currently supports firmatas digitalwrite analogwrite methods. full support firmata is coming including eventsystem receive feedback the board manipulate state a result that.hello world \"hello world\" program microcontrollers is \"blink led\". following code demonstrates this is done naively react hardware howreacts programming model brings composability the hardware world.import react 'react';import reacthardware, {led} 'react-hardware';const high = 255;const low = 0;class application extends react.component { constructor(props) { super(props); .state = {value: 0}; ._timer = null; } componentdidmount() { ._timer = setinterval(_ => ( .setstate(prevstate => ({value: prevstate.value === high ? low : high})) ), .props.interval); } componentdidunmount() { clearinterval(._timer); ._timer = null; } render() { return ( <led pin={10} value={.state.value} /> ); }}var port = '/dev/tty.usbmodem1411';reacthardware.render(<application interval={1000} />, port);while is unquestionably more code its johnny-five sketchequivalents, now gives the ability extract parts your board self-contained components compose together. this application introduced concept a flashing led, hard-coded naively the globalstate. lets extract idea a flashing led something can share our team even npm.import react 'react';import reacthardware, {board, led} 'react-hardware';const high = 255;const low = 0;class flashingled extends react.component { constructor(props) { super(props); .state = {value: 0}; ._timer = null; .defaultprops = { interval: 1000, }; } componentdidmount() { ._timer = setinterval(_ => ( .setstate(prevstate => ({value: prevstate.value === high ? low : high})) ), .props.interval); } componentwillunmount() { clearinterval(._timer); ._timer = null; } render() { return ( <led {....props} value={.state.value} /> ); }}class application extends react.component { render() { return ( <board> <flashingled pin={9} /> <flashingled pin={10} /> <flashingled pin={11} /> <flashingled pin={12} /> </board> ); }}var port = '/dev/tty.usbmodem1411';reacthardware.render(<application />, port);community should #react-hardware channels created bothhttps://reactiflux.com/ irc.contributing codebase is written es6 (sporadic) types compiled babel.follow existing style creating changes. eslint the flow typechecker be set shortly. while project is under heavy activedevelopment would useful make issue discussing change beforemaking pr ensure arent duplicating effort.licensecopyright (c) 2015 dustan kasten | dustan.kasten@gmail.comlicensed under mit license."
+}

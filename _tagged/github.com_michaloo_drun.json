@@ -1,0 +1,19 @@
+{
+	"_id": "14207628",
+	"site": "https://github.com/michaloo/drun",
+	"title": " Drun – bash alias for one time commands in Docker",
+	"author": "michaloo",
+	"date": "2017-06-13T13:33:06.013Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"containers",
+			"bash-alias"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md drunbash alias simplify running -off commands using selected docker images.installationadd alias you ~/.bash_profile file source (alternatively restart terminal):curl https://raw.githubusercontent.com/michaloo/drun/master/alias.bash >> ~/.bash_profilesource ~/.bash_profileusagerun -off command current directory mounted the container:drun [options] image[:tag|@digest] [command] [arg...]notice the form the command is compatible docker run. options be passed docker.exampleslist current files using official node image:drun node node -e \"console.log(require('fs').readdirsync('.'))\"list current files using official alpine image:drun alpine lsconnect a selected mysql/mariadb database:drun mariadb mysql -h localhost -u testserve php files using built php serverdrun php php -s 0.0.0.0:80serve static files using python2drun python:2-alpine python -m simplehttpserver 8000serve static files using python3 ( are plenty options here)drun python:3-alpine python -m http.server 8000init npm package:drun node npm initneeds node version? nothing easier:drun node:5 npm startstart irc client:drun irssi:alpineissue let's enrypt cert ( override user setting):drun -u root:root --net host neilpang/acme.sh --issue -d localhost --standaloneview top hacker news posts:drun ondrejmo/haxor-news topview comments drun hacker news submission:drun ondrejmo/haxor-news view -c 13283774check weather:drun appropriate/curl wttr.more? you any more interesting examples using docker images context current directory, let know forking repo adding to readme :) it does exactly?runs container selected image interactive options passedmounts current directory inside container sets workdir itmakes sure the container be removed it exitssets container user the current user (thanks leynos)mounts host ~/.drun directory the container sets home it - 's simple support caching"
+}

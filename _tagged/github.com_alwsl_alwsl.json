@@ -1,0 +1,21 @@
+{
+	"_id": "14451704",
+	"site": "https://github.com/alwsl/alwsl",
+	"title": "ALWSL (arch on bash on Windows) now sponsored by Fastly",
+	"author": "overtarn",
+	"date": "2017-06-13T13:55:21.736Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"wsl",
+			"linux",
+			"archlinux",
+			"gnu",
+			"windows-10"
+		],
+		"languages": [
+			"batchfile"
+		]
+	},
+	"content": "readme.md project provides easy to install custom, minimal, arch linux distribution the wsl host. you to try right , clone run alwsl batch file a non-admin command prompt.update mar 2017 are happy announce fastly a sponsor a reliable global delivery alwsl root images future updates. fastly commited monthly four-figure credit the alwsl project will help alwsl's transition a version later month.checkout fastly's open-source efforts here."
+}

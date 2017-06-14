@@ -1,0 +1,27 @@
+{
+	"_id": "14439058",
+	"site": "https://github.com/frranck/asm2c",
+	"title": "Tool to convert DOS Assembly code to C code",
+	"author": "webhat",
+	"date": "2017-06-13T13:55:34.406Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"swift",
+			"assembly",
+			"c",
+			"conversion",
+			"dos",
+			"dosbox"
+		],
+		"languages": [
+			"assembly",
+			"c",
+			"makefile",
+			"swift",
+			"batchfile",
+			"shell"
+		]
+	},
+	"content": "readme.md asm2c a swift tool transform dos/pmodew 386 tasm assembly code c code.made port mr.boom bugs.md"
+}

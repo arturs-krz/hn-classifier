@@ -1,0 +1,21 @@
+{
+	"_id": "14360597",
+	"site": "https://github.com/ousmanedev/wikitopdf",
+	"title": "Export GitHub Wiki as PDF E-book",
+	"author": "ousmanedev",
+	"date": "2017-06-13T13:57:47.238Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"wiki",
+			"pdf",
+			"pandoc",
+			"export",
+			"latex"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md wikitopdf bash script export github repo's wiki a -structured pdf ebook.requirementsgitpandoclatexinstallationdownload script file make executable:curl https://raw.githubusercontent.com/ousmanedev/wikitopdf/master/wikitopdf.sh -o wikitopdf.sh && chmod +x wikitopdf.shusage's very simple. example, export plataformatec/devise repository's wiki, just to :./wikitopdf.sh plataformatec/devisecontributionscontributions are more welcome."
+}

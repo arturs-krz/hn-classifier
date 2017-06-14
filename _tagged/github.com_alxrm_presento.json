@@ -1,0 +1,22 @@
+{
+	"_id": "14447000",
+	"site": "https://github.com/alxrm/presento",
+	"title": "Presento: Remote control for presentations written in Go",
+	"author": "im_dario",
+	"date": "2017-06-13T13:55:20.660Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"go",
+			"websocket",
+			"gin-gonic",
+			"remote-control"
+		],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": "readme.md presento simplest possible cross-platform remote control the presentationssetupprecompiled binaries you simply need working product, go here download executable binary file your platformmanual building those want build manually. presento is written go you'll need install first. once 's done, can build app. get source:$ get -v github.com/alxrm/presento go the directory:$ cd $gopath/src/github.com/alxrm/presento run:$ build . should generate presento binary. if use goxc, sure, why , but check contribution chapter that html file, is served via static server is included the binary, use $ generate before build everytime change html file, more that hereusagenote: only requirement is cellphone has be the same wi-fi network your laptop, simply not otherwise you (or cannot) on gif above, flow is pretty simple: launch executable file, will open command line app this text it: to http://192.168.0.**:5000/**** control link is generated the 4-letter random sequence the end was made there might those cases someone sitting the room might the local address try spoil presentation, this should prevent such situations happeningopen presentation the fullscreen link should opened your cellphone's browser, by clicking those huge buttons can simulate keyboard press the left/right buttons the laptop is showing presentation thus changing slides coolreason most the , when need show presentation goes this: launch from laptop, is connected the projector run my laptop change slide (repeat part) this thought came:\" it be nice have ability change slides, all those guys usually on conferences\"contributionpresento has problems building linux goxc the os x, whilst seems be fine the windows/os x. problem comes this awesome library, if can help , you're more welcome!licensemit license. the license file more information."
+}

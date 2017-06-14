@@ -1,0 +1,16 @@
+{
+	"_id": "14143292",
+	"site": "https://github.com/roman01la/babel-plugin-react-hyperscript",
+	"title": " Babel plugin for React components in HyperScript syntax",
+	"author": "roman01la",
+	"date": "2017-06-13T13:35:12.369Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md babel-plugin-react-hyperscripthyperscript syntax react components without runtime overhead.compiles react-hyperscript react.createelement.exampleinputh('h1#boom.whatever.foo', [ h('span'), h(mycomponent, { text: 'hello!' })]);outputreact.createelement('h1', { id: 'boom', classname: 'whatever foo'},react.createelement('span'),react.createelement(mycomponent, { text: 'hello!' }));installationnpm babel-plugin-react-hyperscriptplugin optionspragma default calls h be replaced react.createelement, you override with custom pragma (including h itself used preact).{ \"plugins\": [\"react-hyperscript\", { \"pragma\": \"yo\" }]}// inputh('h1#boom.whatever.foo', [ h('span'), h(mycomponent, { text: 'hello!' })]);// outputyo('h1', { id: 'boom', classname: 'whatever foo'},yo('span'),yo(mycomponent, { text: 'hello!' }));usagevia .babelrc (recommended).babelrc{ \"plugins\": [\"react-hyperscript\"]}via clibabel --plugins react-hyperscript script.jsvia node apirequire(\"babel-core\").transform(\"code\", { plugins: [\"react-hyperscript\"]});licensemit"
+}

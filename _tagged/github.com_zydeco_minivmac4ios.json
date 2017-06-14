@@ -1,0 +1,23 @@
+{
+	"_id": "14426258",
+	"site": "https://github.com/zydeco/minivmac4ios",
+	"title": "Mini vMac for iOS",
+	"author": "tambourine_man",
+	"date": "2017-06-13T13:56:32.461Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"macintosh",
+			"emulator",
+			"m68k",
+			"mini-vmac"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"objective-c",
+			"makefile"
+		]
+	},
+	"content": "readme.md mini vmac iosfeaturesemulates mac plus, mac ii mac 128kfull simulated keyboard (including mac keys)full sound outputuses external keyboard availableregulable emulation speedeasy(ish) import/export disk imagesrequirementsios 7 laterrom image mac plus, mac ii /or mac 128kdisk images mac softwareusagerom disk images can import rom (vmac.rom) disk images ( .dsk .imgextension) mini vmac other apps (icloud storage, dropbox, etc), usingairdrop, via itunes file sharing. insert disk images, swipe left two fingers the list disks appear. icons are automatically generated based the contents the disk.tap hold a file delete, rename sharetap edit button show files, the create disk image option disk image menu attempt find icon the following sources (descending order priority):volume icon (system 7)application icon, the disk contains one applicationapplication matching name the volume ( the disk image)application name written the comment field the volume no icon is found, will show standard floppy disk icon.keyboardswipe with fingers show keyboard, down hide .the emulated keyboard features the keys an apple extended keyboard(except power key). command, option, control shift keys aresticky, make keyboard shortcuts easier type. can change appearance the emulated keyboard the settings. you an external keyboard attached, can it too, although shortcuts may interfere ios.mouse can choose use screen a touchscreen, where tapping the screenacts mouse click, as trackpad. trackpad mode, dragging is done tapping twice fast holding down. you a jailbroken device btc mouse & trackpad,mini vmac use bluetooth mouse trackpad.settingsswipe right two fingers show settings dialog, where can change following:speed: the emulated machine faster a mac plusmouse type: switch between touchscreen trackpad modekeyboard layout: change layout the emulated keyboardemulated machine: changes take effect, close relaunch mini vmaccreditsmini vmac ios jesús . álvarezmini vmac ©2001-2016 paul c. prattvmac ©1996-1999 philip cummins & al.hfsutils ©1996-2000 robert leslielibmfs libres jesús . álvarez"
+}

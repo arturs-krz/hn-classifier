@@ -1,0 +1,21 @@
+{
+	"_id": "14435614",
+	"site": "https://github.com/netgusto/upndown",
+	"title": " Convert HTML to markdown with JavaScript",
+	"author": "netgusto",
+	"date": "2017-06-13T13:06:18.499Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"nodejs",
+			"markdown-converter",
+			"html"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md upndownjavascript html markdown converter, node.js the browser.live demo here.upndown converts html documents markdown documents.upndown is designed offer fast, reliable whitespace perfect conversion html documents.install / usagebrowserstandard loadingdownload zip archive github, unzip, copy your web folder, in html:<script type=\"text/javascript\" src=\"/assets/upndown/lib/upndown.bundle.min.js\"></script><script type=\"text/javascript\"> var und = upndown(); und.convert('<h1>hello, world !</h1>', function(err, markdown) { (err) { console.err(err); } else { console.log(markdown); } // outputs: # hello, world ! });</script>using requirejsdownload zip archive github, unzip, copy your web folder, in html:<script type=\"text/javascript\" src=\"http://requirejs.org/docs/release/2.1.11/minified/require.js\"></script><script type=\"text/javascript\">require.config({ paths: { 'upndown': '/assets/upndown/lib/upndown.bundle.min' }});require(['upndown'], function(upndown) { var und = upndown(); und.convert('<h1>hello, world !</h1>', function(err, markdown) { (err) { console.err(err); else { console.log(markdown); } // outputs: # hello, world ! });});</script>nodejsinstallnpm install upndownvar upndown = require('upndown');var und = upndown();und.convert('<h1>hello, world !</h1>', function(err, markdown) { (err) { console.err(err); else { console.log(markdown); } // outputs: # hello, world !});warning: node < 0.12.8, 'll to require polyfill the promise functionnality ( https://www.npmjs.com/package/bluebird); #10 how do .optionsdecodeentities default updown decode html entities, source html this:<p>'m escaped &lt;em&gt;code sample&lt;/em&gt;.</p> become:'m escaped *code sample*. your case does call that behavior you wish html entities stay encoded, can pass option the constructor:var und = upndown({decodeentities: false}) just as normal.test the browsernavigate test/browser/ inside upndown folder. browser tests are executed qunit.nodejs run tests, simply execute:npm testnodejs tests are executed using mocha.maintainerupndown is produced net gusto. drop a line contact@netgusto.com"
+}

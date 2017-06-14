@@ -1,0 +1,16 @@
+{
+	"_id": "14263937",
+	"site": "https://github.com/deepanprabhu/netty-twoway-tcp-client-server",
+	"title": " Simple Two Way Communication Client Server Using Netty",
+	"author": "bootcat",
+	"date": "2017-06-13T13:32:05.916Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md netty way tcp client serversample code, how use netty build simple tcp server/client, exchanging string messages.since don't find simple example the internet, to practice using netty, have code snippet. feel free modify reuse. had lot help atomix guys !"
+}

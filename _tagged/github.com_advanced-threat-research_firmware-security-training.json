@@ -1,0 +1,14 @@
+{
+	"_id": "14429041",
+	"site": "https://github.com/advanced-threat-research/firmware-security-training",
+	"title": "Security of BIOS/UEFI System Firmware from Attacker and Defender Perspectives",
+	"author": "adulau",
+	"date": "2017-06-13T13:55:33.898Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md training: security bios/uefi system firmware attacker defender perspectives repository contains materials a hands- training security bios/uefi system firmware attacker defender perspectives variety attacks targeting system firmware been discussed publicly, drawing attention the pre-boot firmware components the platform such bios smm, os loaders secure booting. training detail organize objectives, attack vectors, vulnerabilities exploits against various types system firmware such legacy bios, smi handlers uefi based firmware, mitigations well tools methods available analyze security such firmware components. will detail protections available hardware in firmware such secure boot implemented modern operating systems against bootkits. training includes theoretical material describing structured approach system firmware security analysis mitigations well many hands- exercises test system firmware vulnerabilities. the training should basic understanding platform hardware components various types system firmware, security objectives attacks against system firmware, mitigations available hardware firmware. should able apply knowledge practice identify vulnerabilities bios perform forensic analysis the firmware.materialsmodule 0 introduction firmware securitymodule 1 bios uefi firmware fundamentalsmodule 2 bootkits uefi secure bootmodule 3 hands- platform hardware firmwaremodule 4 system firmware attack vectorsmodule 5 hands- efi environmentmodule 6 mitigationsmodule 7 system firmware forensicsmiscellaneous materials"
+}

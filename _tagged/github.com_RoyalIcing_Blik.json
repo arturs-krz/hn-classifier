@@ -1,0 +1,18 @@
+{
+	"_id": "14414383",
+	"site": "https://github.com/RoyalIcing/Blik",
+	"title": " File organization app for Mac, open source",
+	"author": "burntcaramel",
+	"date": "2017-06-13T13:06:44.504Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"objective-c",
+			"swift",
+			"other"
+		]
+	},
+	"content": "readme.md blikeasy file organisation mac. organize projects, quickly open of files the status bar.organizationprojects top level unit organization, usually coressponding a particular product brief a client.alternatively, could a single project per client.master folders primary folders your project. adding lets quickly open . it gives blik access all files inside.collectionsgroups files folder, grouped their role.highlights most important files folders within collections. been wanting come with simpler model here, integrate live spotlight searches.user experience goal bliks organization model was have something mapped how think. not necessarily mirroring folder structure. files often to live a specific place, saying in shared dropbox, others a git repo. blik allows disparate files be organized together. future goal is make setting a project ever quicker it is . just point at folder, the important files & folders are detected organized you. have thought integrating tags a while, havent landed the right ui yet. want balance simplicity useful functionality.code code was originally objective-c. have since been adding code swift, currently swift 3.1. leads architecting using light-weight structs enums instead broader nsobject subclasses. is still transition.dependenciesmantle 1.x: not updated mantles latest version, am replacing with something swiftier.syrup: asynchronous data processingburntcocoaui: used swiftier menus"
+}

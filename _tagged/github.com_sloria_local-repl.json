@@ -1,0 +1,21 @@
+{
+	"_id": "14243363",
+	"site": "https://github.com/sloria/local-repl",
+	"title": " Customize the REPL in your Node.js projects",
+	"author": "sloria",
+	"date": "2017-06-13T13:32:49.194Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"repl",
+			"shell",
+			"nodejs",
+			"node",
+			"configuration"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md local-replproject-specific repls node.js. local-repl allows to automatically import modules values your repl sessions simple configuration your project's package.json /or .replrc.js.add local-repl your project$ npm install local-repl --save-dev# $ yarn add local-repl --devadd following package.json.{ \"scripts\": { \"repl\": \"local-repl\" }, \"devdependencies\": { \"local-repl\": \"^2.0.1\" }, \"dependencies\": { \"lodash\": \"^4.17.4\", }, \"repl\": [ \"lodash\", ]}run $ npm run repl will start repl session lodash already imported.specifying aliases can pass array objects containing keys \"name\" (required), \"module\" ( imports), \"value\" ( values).{ \"repl\": [ {\"name\": \"l\", \"module\": \"lodash\"}, {\"name\": \"meaningoflife\", \"value\": 42} ]}importing local moduleslocal modules be imported, too.{ \"repl\": [ {\"name\": \"project\", \"module\": \"./\"}, {\"name\": \"utils\", \"module\": \"./lib/utils\"} ]}using .replrc.js addition configuration \"package.json\", may optionally define configuration a .replrc.js file. is useful you to dynamically compute modules values your repls..// .replrc.jsconst user = require('./myapp/models/user');module.exports = { context: [ 'lodash', 'myapp/utils', {name: '', value: user.getbyemail('sloria')}, ]}note: configuration defined .replrc.js takes precedence configuration defined package.json.defining context an objectcontext be defined an object rather an array.// .replrc.jsconst user = require('./myapp/models/user');module.exports ={ context: { l: require('lodash'), utils: require('myapp/utils'), : user.getbyemail('sloria'), }}promises context valuescontext values are promises be resolved before repl starts.// .replrc.jsconst promise = promise((resolve) => { settimeout(() => { resolve(42); }, 500);});module.exports = { // repl have meaningoflife value 42 context context: { meaningoflife: promise, }};more configurationconfiguring prompt package.json:{ \"repl\": { \"prompt\": \"myproject $\" }} .replrc.js:// .replrc.jsmodule.exports = { prompt: 'myproject $'} can define prompt a function .replrc.js. function receive repl context the parsed package.json object.// .replrc.jsmodule.exports = { prompt: (context, pkg) => { return `${pkg.name} ${pkg.version} $` }}configuring banner package.json:{ \"repl\": { \"banner\": \"welcome the myapp repl. happy hacking!\" }} can define banner a function .replrc.js. function receive repl context the parsed package.json object.// .replrc.jsconst _ = require('lodash');const chalk = require('chalk');module.exports = { context: [ {name: 'l', value: _}, {name: 'meaningoflife', value: 42}, ], banner: (context, pkg) => { console.log(chalk.bold(`welcome the repl myapp ${pkg.version}.`)); console.log(chalk.green('happy hacking!')); console.log(chalk.cyan('context:'), _.keys(context).sort().join(', ')); }}programmatic usagelocal-repl be used programatically. .start(options) function takes same options node's built- repl.start(options) returns promise resolves a replserver instance.const repl = require('local-repl');repl.start({ prompt: '< -_- > ' });inspirationlocal-repl is inspired number other great projects:konch - repl configuration pythonn_ - node.js repl lodashlicensemit licenses. license more details."
+}

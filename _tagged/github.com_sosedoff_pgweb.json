@@ -1,0 +1,26 @@
+{
+	"_id": "14439143",
+	"site": "https://github.com/sosedoff/pgweb",
+	"title": "PgWeb - web-based client for PostgreSQL databases",
+	"author": "type0",
+	"date": "2017-06-13T13:55:34.888Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"postgresql",
+			"golang",
+			"pgweb",
+			"cross-platform"
+		],
+		"languages": [
+			"go",
+			"plpgsql",
+			"javascript",
+			"css",
+			"html",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": "readme.md pgwebweb-based postgresql database browser written go.overviewpgweb is web-based database browser postgresql, written go works osx, linux windows machines. main idea behind using for backend developmentis utilize ability the compiler produce zero-dependency binaries multiple platforms. pgweb was created an attempt build very simple portableapplication work local remote postgresql databases. application screenshotsfeaturescross-platform support osx/linux/windows 32/64-bitsimple installation (distributed a single binary)zero dependenciesworks postgresql 9.1+ssh connectionsmultiple database sessionssimple database browserexecute analyze custom sql queriestable query data export csv/json/xmlquery historyserver bookmarksvisit wiki more detailsdemovisit https://pgweb-demo.herokuapp.com see pgweb action.installationprecompiled binaries supportedoperating systems are available.more installation optionsusagestart server:pgweb can provide connection flags:pgweb --host localhost --user myuser --db mydbconnection url scheme is supported:pgweb --url postgres://user:password@host:port/database?sslmode=[mode]multiple database sessions enable multiple database sessions pgweb, start server :pgweb --sessions set environment variable:sessions=1 pgwebdeploy herokutestingbefore running tests, sure have postgresql server running localhost:5432interface. , you must postgres user could create databases your local environment. pgweb server should be running the same .execute test suite: test you're using docker locally, might run pgweb test suite against supported postgresql version a single command: test-contributefork repositorycreate new feature branch a functionality bugfixcommit changesexecute test suitepush code open new pull request issues any questionscheck wiki extra documentationcontactdan sosedoffdan.sosedoff@gmail.comhttp://twitter.com/sosedofflicense mit license (mit)copyright (c) 2014-2017 dan sosedoff, dan.sosedoff@gmail.com"
+}

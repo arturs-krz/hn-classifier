@@ -1,0 +1,28 @@
+{
+	"_id": "14522577",
+	"site": "https://github.com/mysticmode/LibreRead",
+	"title": "LibreRead: Self-Hosted Free(Libre) Ebook Reader",
+	"author": "ak1991",
+	"date": "2017-06-13T14:09:48.143Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ebook-reader",
+			"ebook",
+			"elasticsearch",
+			"epub",
+			"pdf",
+			"go",
+			"gin",
+			"libre",
+			"self-hosted"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"go"
+		]
+	},
+	"content": "readme.md librereadfree(libre) ebook reader coming soon. you what 'm building is promising, could sponsor development. will help continue working this software full-.features goals:self-hosted.simple setup script.privacy is primary focus.browser based, responsive design.full-text search through the ebooks find relevant content.highlight favorite content.add annotations your favorite content.group books collections.currently supports pdf files. epub support coming soon."
+}

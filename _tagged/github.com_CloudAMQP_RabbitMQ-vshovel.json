@@ -1,0 +1,20 @@
+{
+	"_id": "14520289",
+	"site": "http://github.com/CloudAMQP/RabbitMQ-vshovel",
+	"title": "RabbitMQ vshovel plugin forwards messages to dif. protocol endpoints",
+	"author": "ErlangSolutions",
+	"date": "2017-06-13T14:09:48.205Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rabbitmq",
+			"rabbitmq-plugin",
+			"webhook"
+		],
+		"languages": [
+			"erlang",
+			"makefile"
+		]
+	},
+	"content": "readme.md rabbitmq variable shovelrabbitmq vshovel is wan-friendly tool moving messages a queue residing an amqp source broker, a remote endpoint any desired type, such an http endpoint.each endpoint is implementation the rabbit_vshovel_endpoint behaviour. following message shovelling operations protocol endpoints are currently supported, more be introduced the plugin further grows:amqp 0.9.1 (rabbitmq) an amqp 0.9.1 endpoint.amqp 0.9.1 an http 1.1 endpoint.supported rabbitmq versions plugin is compatible rabbitmq 3.5.x 3.6.x.usagepackagingdownload pre-compiled versions https://github.com/cloudamqp/rabbitmq-vshovel/releasesbuildclone build plugin executing . to create package, execute dist find .ez package file the plugins directory.dynamic configurationrabbitmqctl set_parameter vshovel -vshovel \\ '{\"src-uri\": \"amqp://fred:secret@host1.domain/my_vhost\", \"src-queue\": \"-queue\", \"dest-type\":\"http\", \"dest-uri\":\"http://remote-host1.domain\", \"dest-vsn\": \"1.1\", \"dest-args\": {\"method\": \"post\", \"keep_alive_timeout\" : 10000}}'static configuration[{rabbitmq_vshovel, [{vshovels, [{my_first_vshovel, [{sources, [{brokers, [\"amqp://harry:secret@host1.domain/my_vhost\", \"amqp://john:secret@host2.domain/my_vhost\"]}, {arguments, [{declarations, [{'exchange.declare', [{exchange, <<\"my_fanout\">>}, {type, <<\"fanout\">>}, durable]}, {'queue.declare', [{arguments, [{<<\"x-message-ttl\">>, long, 60000}]}]}, {'queue.bind', [{exchange, <<\"my_direct\">>}, {queue, <<>>}]} ]}]}]}, {destinations, [{protocol, http}, {address, \"https://56.12.331.123/server\"}, {arguments, [{keepalive, 10}, {method, post}, {ssl, []}]}]}, {queue, <<>>}, {prefetch_count, 10}, {ack_mode, on_confirm}, {publish_properties, [{delivery_mode, 2}]}, {add_forward_headers, true}, {publish_fields, [{exchange, <<\"my_direct\">>}, {routing_key, <<\"from_shovel\">>}]}, {reconnect_delay, 5}]} ]}]}].license copyright(c) 84codes ab erlang solutions ltd. 2016-2017https://www.cloudamqp.comhttps://www.erlang-solutions.com/"
+}

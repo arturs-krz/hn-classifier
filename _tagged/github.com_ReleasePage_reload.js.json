@@ -1,0 +1,22 @@
+{
+	"_id": "14184389",
+	"site": "https://github.com/ReleasePage/reload.js",
+	"title": " Reload your webpage when a new version is available",
+	"author": "jivings",
+	"date": "2017-06-13T13:33:34.928Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"reload",
+			"releases",
+			"github-api",
+			"version",
+			"new-release"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md reload.js reload.js show popup refresh app there is new github version released basic demoinstallationcustomisationmessagesversionsforce refreshcustom htmlreleasepage integrationspecific projectamdinstallationreload.js uses version.js library fetch release versions, you must include both libraries.provide github repository you to as data-repo attribute the script tag. a version the repository is released, reload.js show customisable popup optionally refresh page.<script src=\"//cdn.releasepage.co/js/version.js\" data-repo=\"releasepage/version\"></script><script src=\"//cdn.releasepage.co/js/reload.js\"></script> we provide combined library our cdn convenience.<script src=\"//cdn.releasepage.co/js/reload.combined.js\" data-repo=\"releasepage/version\"></script> you to our default styles also include reload-basic.css, is we on releasepage on basic demo.<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.releasepage.co/css/reload-basic.css\">reload.js exposes window.reload you use following customisation options.customisationintervalreload.js check github new release information every 60 seconds. you to change then pass interval argument:reload.options({ interval: 10000 // 10 seconds});note; requests github's api are rate limited per ip address, allowing 60 requests per hour. bear in mind setting interval. you need higher rate-limit, a at using reload.js a releasepage integration.messages default reload.js show popup your version changes a short message. can customise messages will displayed using options function.reload.options({ content: ' new version is available!'});reload.options({ content: (version) => `version ${version} has been released!`});versions can specify arguments specific version changes. reload.js is built semver any changes supported the diff function are supported (major, premajor, minor, preminor, patch, prepatch, prerelease).reload.options({ major: { content: ' new version is available!' }, minor: { content: ' a at new features' }, patch: { content: ' bugs are fixed' }}); default message box only shown major, minor patch changes. you don't reload.js do anything minor patch version changes simply pass falsereload.options({ major: { content: ' new version is available!' }, minor: false, patch: false});force refreshsometimes want force user refresh there are big breaking changes (passing 0 show popup force refresh immediately).reload.options({ major: { content: ' new version is available!', autorefresh: 30 // seconds }});custom html can completely override html inside reload.js popup you const $contents = document.createelement('<div>');$contents.innertext = ' stuff!';reload.options({ html: $contents});releasepage integrationreload.js also used a releasepage integration allowing to advantage extra cool features:private reposgroup releases different repos one combined version more generous rate limitenable api access you don't an account yet, can create on homepage. creating first beautiful release page, need grab api key.learn more releasepage api keys here.installation use reload.js your release page, provide page id you api key instead a github repo<script src=\"//cdn.releasepage.co/js/reload.combined.js\" data-api-key=\"<api_key>\" data-page-id=\"<page_id>\"></script>specific project you want show popup a version change a specific project the release page.reload.options({ repo: 'releasepage/api'});amd also provide amd module use npm webpack et al.npm install release-page-version release-page-reload --save-devconst version = require('release-page-version');const reload = require('release-page-reload');// set `version.js` using github apiversion.options({ github: { repo: repo_name }});// ... set `version.js` using releasepage apiversion.options({ pageid: rp_page_id, apikey: rp_api_key});reload.options({ // tell reload use `version.js` instead the on `window` versionjs: version, major: { content: ' new version is available!' }});stay touchfollow on twitter: @releasepageemail : hi@releasepage.co"
+}

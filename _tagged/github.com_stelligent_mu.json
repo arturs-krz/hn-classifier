@@ -1,0 +1,24 @@
+{
+	"_id": "14097421",
+	"site": "https://github.com/stelligent/mu",
+	"title": " Mu – makes it simple to use AWS as a platform for running microservices",
+	"author": "cplee",
+	"date": "2017-06-13T13:35:27.267Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"microservice",
+			"pipeline",
+			"golang",
+			"continuous-delivery",
+			"docker",
+			"ecs"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": "readme.md why?amazon ecs (ec2 container service) provides excellent platform deploying microservices containers. challenge however is there is significant learning curve microservice developers deploy applications an efficient manner. specifically, must learn use cloudformation orchestrate management ecs, ecr, ec2, elb, vpc, iam resources. additionally, tools codebuild codepipeline must mastered create continuous delivery pipeline their microservices. address challenges, tool was created simplify declaration administration the aws resources necessary support microservices. similar how serverless framework improved developer experience lambda api gateway, tool makes easier developers use ecs a microservices platform. mu tool uses cloudformation stacks manage resources creates. additionally, mu not create databases other aws resources support itself. will create resources (via cloudformation) necessary run microservices. means any point can stop using mu continue manage aws resources it created via aws tools such the cli the console.demowatch 90 second demo below see mu action! started!install latest version /usr/local/bin ( for additional options, wiki):curl -s https://getmu.io/install.sh | shassuming project already has dockerfile, can initialize mu.yml file : mu init. more details available the quickstart.'s next?check the examples see snippets mu.yml configuration files you use your own project:basic - simple website continuous delivery pipeline deploying dev prod environmentsservice discovery - service discovery via consul registratortest automation - automating end--end testing via newmanrds database - defining database a serviceenv variables - defining environment variables the servicehttps - enable https the alb an environmentdns - associate route53 resource record alb an environmentvpc target - targeting existing vpc an environmentcustom cloudformation - demonstration adding custom aws resources via cloudformationrefer the wiki complete details the configuration mu.yml the cli usage:environments - managing vpcs, ecs clusters, container instances albsservices - managing ecs service configurationdatabases - managing database configurationpipelines - managing continuous delivery pipelinescli - details using clicustom cloudformation - details customizing cloudformation is generated mu.service discovery - details configuring using service discoverycontributing to contribute mu? awesome! check the contributing guidelines get involved.building sourceinstall tools 1.7+ - (https://golang.org/doc/install)install glide via curl https://glide.sh/ | shclone repo git clone git@github.com:stelligent/mu.git $gopath/src/github.com/stelligent/mu to src cd $gopath/src/github.com/stelligent/muensure aws cli is configured an access key, secret access key, region.build make"
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "14371100",
+	"site": "https://github.com/junyanz/interactive-deep-colorization",
+	"title": "Deep learning software for colorizing black and white images with a few clicks",
+	"author": "swappro",
+	"date": "2017-06-13T13:57:08.481Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"colorization",
+			"automatic-colorization",
+			"deep-learning",
+			"deep-learning-algorithms",
+			"computer-vision",
+			"caffe",
+			"interactive"
+		],
+		"languages": [
+			"jupyter notebook",
+			"python"
+		]
+	},
+	"content": "readme.md interactive deep colorization[project page] [paper] [demo video] [seminar talk]richard zhang*, jun-yan zhu*, phillip isola, xinyang geng, angela s. lin, tianhe yu, alexei . efros.real- user-guided image colorization learned deep priors. acm transactions graphics (siggraph 2017).(*indicates equal contribution) first describe system (0) prerequisities steps (1) getting started. then describe interactive colorization demo (2) interactive colorization (local hints network). are demos: () a \"barebones\" version ipython notebook (b) full gui used our paper. then provide example the (3) global hints network.(0) prerequisiteslinux osxcaffecpu nvidia gpu + cuda cudnn.(1) getting startedclone repo:git clone https://github.com/junyanz/interactive-deep-colorization ideepcolorcd ideepcolordownload reference modelbash ./models/fetch_models.shinstall caffe python libraries (opencv)(2) interactive colorization (local hints network) provide \"barebones\" demo ipython notebook, does require qt. also provide full gui demo.2() barebones interactive colorization demorun ipython notebook click demointeractivecolorization.ipynb.2(b) full demo guiinstall qt4 qdarkstyle. ( [requirements](## () requirements))run ui: python ideepcolor.py --gpu [gpu_id]. arguments are described below:--win_size [512] gui window size--gpu [0] gpu number--image_file ['./test_imgs/mortar_pestle.jpg'] path the image fileuser interactionsadding points: left-click somewhere the input padmoving points: left-click hold a point the input pad, drag desired location, let changing colors: currently selected point, choose recommended color (middle-left) choose color the ab color gamut (top-left)removing points: right-click a point the input padchanging patch size: mouse wheel changes patch size 1x1 9x9load image: click load image button choose desired imagerestart: click the restart button. points the pad be removed.save result: click the save button. will save resulting colorization a directory where image_file was, along the user input ab values.quit: click the quit button.(3) global hints network include example usage our global hints network, applied global histogram transfer. show usage an ipython notebook.add ./caffe_files your pythonpathrun ipython notebook. click ./demoglobalhistogramtransfer.ipynb() requirementscaffe ( caffe installation document)opencvsudo apt- install python-opencvqt4sudo apt- install python-qt4qdarkstylesudo pip install qdarkstyle(b) cat paper collection of authors objects the inclusion this list, due an allergy. another author objects the basis cats are silly creatures this is serious, scientific paper. however, you love cats, love reading cool graphics, vision, learning papers, please check the cat paper collection: [github] [webpage]"
+}

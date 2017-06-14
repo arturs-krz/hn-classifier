@@ -1,0 +1,26 @@
+{
+	"_id": "14415062",
+	"site": "https://github.com/ajitsing/gocd",
+	"title": "GoCD: Rubygem to fetch various information using go's APIs",
+	"author": "ajitsing",
+	"date": "2017-06-13T13:56:32.146Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ci",
+			"continuous-integration",
+			"continuous-delivery",
+			"continuous-deployment",
+			"ruby",
+			"gem",
+			"rubygem",
+			"gocd",
+			"goconfig",
+			"pipeline"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": "readme.md gocdinstallationgem 'gocd'gem install gocdcode documentationhttp://www.rubydoc.info/gems/gocd/1.2.1usagegocd.server = gocd::server. 'http://goserverurl.com'gocd.credentials = gocd::credentials. 'username', 'password' check pipelines:gocd::allpipelines.red_pipelines check group pipelines:pipelines = gocd::pipelinegroup. ['pipeline1 :: stage1', 'pipeline1 :: stage2', 'pipeline2 :: stage1']pipelines.red_pipelinespipelines.statuspipelines.any_red? to create own gocd dashboard? easy !require 'sinatra'require 'gocd' '/' do gocd.server = gocd::server. 'http://goserverurl.com' gocd.credentials = gocd::credentials. 'username', 'password' gocd::allpipelines.red_pipelines.map {|pipeline| pipeline.to_hash}.to_jsonend agents get the idle agents:idle_agents = gocd::agents.idleidle_agents.each { |agent| agent.name } get the missing agents:gocd::agents.missing get the disabled agents:gocd::agents.disabledpipeline configuration all environmentsinclude gocd::pipeline_configenvironments #returns the environments the whole hierarchy it all pipelinesinclude gocd::pipeline_configpipelines = environments.map(&:pipelines).flatten all stagesinclude gocd::pipeline_configstages = environments.map(&:pipelines).flatten.map(&:stages).flatten all jobsinclude gocd::pipeline_configjobs = environments.map(&:pipelines).flatten.map(&:stages).flatten.map(&:jobs).flattenhistory fetcher can fetch history a job using historyfetcher apisrequire 'gocd'gocd.server = gocd::server. 'http://goserverurl.com'gocd.credentials = gocd::credentials. 'username', 'password'include gocd::pipeline_confighistories = []runs = 1000jobs = environments.map(&:pipelines).flatten.map(&:stages).flatten.map(&:jobs).flattenjobs.each |job| histories << gocd::historyfetcher.fetch_job_history(job, runs)endlicensecopyright (c) 2016 ajit singhlicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

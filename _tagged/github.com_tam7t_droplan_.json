@@ -1,0 +1,20 @@
+{
+	"_id": "14488464",
+	"site": "https://github.com/tam7t/droplan/",
+	"title": "Droplan: Manage iptable rules for the private interface on DigitalOcean droplets",
+	"author": "mreithub",
+	"date": "2017-06-13T14:10:06.668Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"digitalocean",
+			"iptables"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": "readme.md droplan digitalocean firewalls!exciting news! digitalocean has native firewall option integrates with tagging. please consider using instead droplan!https://blog.digitalocean.com/cloud-firewalls-secure-droplets--default/this utility helps secure network interfaces digitalocean droplets adding iptable rules only allow traffic your droplets. droplanqueries digitalocean api automatically updates iptable rules.installation latest release is available the github release page. can setup cron job run every 5 minutes /etc/cron.d*/5 * * * * root path=/sbin do_key=readonly_key /usr/local/bin/droplan >/var/log/droplan.log 2>&1usagedo_key=<read_only_api_token> /path//droplan iptables rules added droplan are equivalent :-n droplan-peers # create new chain- input - eth1 -j droplan-peers # add chain private interface- input - eth1 -m conntrack --ctstate established,related -j accept- input - eth1 -j drop # add default drop rule private interface- droplan-peers -s <peer>/32 -j accept # allow traffic peer ip addresstagsaccess be limited a subset droplets using tags. do_tag environment variable tells droplan only allow access droplets the specified tag.public interfaceadd public=true environment variable droplan maintain iptables chain droplan-peers-public the public ip addresses peers add default drop rule the eth0 interface.note: will prevent from being able directly ssh your droplet.developmentdependenciesdependencies are vendored govendor.build makefile is included:test - runs unit testsbuild - builds droplan the current platformrelease - builds releasable artifactsdocker image: provide prebuilt docker imageexample usage:docker run -d --restart=always --net=host --cap-add=net_admin -e do_key=$your_digitalocean_api_key -e do_interval=300 tam7t/droplan-d --restart=always starts container the background restarts on error ( on reboot)--net=host is required we to affect host's firewall rules, the container's--cap-add=net_admin allow changing host's firewall rulesspecify -e do_interval=300 change delay ( seconds) between droplan invocations (default: execute once exit) have specify digitalocean api key (using -e do_key) can add -e public=true -e do_tag=tagname described above manually start droplan (.e. skip 5 minute delay between invocations), simply docker restart $container-name"
+}

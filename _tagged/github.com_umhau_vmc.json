@@ -1,0 +1,17 @@
+{
+	"_id": "14144094",
+	"site": "https://github.com/umhau/vmc",
+	"title": " Voice model creator for CMU Sphinx",
+	"author": "umhau",
+	"date": "2017-06-13T13:35:12.317Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"shell",
+			"python"
+		]
+	},
+	"content": "readme.md voice model creator cmu sphinx tool contains basic tools creating custom domain voice model use the pocketsphinx decoder. is possible use voice modelscreated this tool the basis a test--speech engine.note tool has been tested linux mint 17.3 & 18.please the license file terms use.todo sure if work prerecorded audio files, can add a set files already recorded.linux/unix installation should install dependencies ; this ensures python-dev,pocketsphinx, etc. are available. second, install vmc. of packagesneed be installed within user's home directory; ~/tools is recommended. should specified installing dependencies. full installation an amd64 computer running mint 18 look this:commands:$ cd ~/downloads$ git clone https://github.com/umhau/vmc.git$ cd ./vmc$ sudo bash ./installdependencies.sh ~/tools$ sudo bash ./installvmc.sh use examples the next section.usage instructionsexample usage, recording audio 5 repetitions each sentence:$ vmc.sh new_model -record ~/downloads/sentences.txt ~/projects/new_model 5example usage, importing previously created audio files:$ vmc.sh ccmodel -import audio_files cc.list ~/tools/ccmodelnote the model name the name the model folder should the same. note repetitions specification is optional; defaults 1. model folder contain necessary files run pocketsphinx thenewly created custom voice model.note dependencies are checked running vmc.sh. checkdependencies, the section above.background tools brings together number disparate data files are needed creating voice model. graph illustrates data process involved: word domain + | v +-------+ sentence list+----------+ | + | | | | v v vdictionary grammar: lm voice samples + + + | | | | v | +--------> voice model <----------+ training + | v voice modeleach these steps, starting the sentence list (given) ending the voice model are contained within tool."
+}

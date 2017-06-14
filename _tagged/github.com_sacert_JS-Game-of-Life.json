@@ -1,0 +1,18 @@
+{
+	"_id": "14266770",
+	"site": "https://github.com/sacert/JS-Game-of-Life",
+	"title": " Simple Game of Life",
+	"author": "sacert",
+	"date": "2017-06-13T13:32:04.519Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md js game lifevery imple js game life implementation uses 100x100 grid randomizes cell location. may modified create certain pieces such a glider gun left to place random cells see the universe is created. may tested https://sacert.github.io/js-game--life/"
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "14404178",
+	"site": "https://github.com/iogf/ameliabot",
+	"title": "Show HN; the last of the ircbots",
+	"author": "iogf",
+	"date": "2017-06-13T13:07:23.110Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md ameliabot flexible ircbot written top untwisted framework.featuresinterface wollframalpharun python, c, c++, d, haskell, lua, ocalml, php, perl, ruby, scheme, tcl code inline multiline share files friends irc translator plugin real translator pluginquick searches googleurl tittle extractiondatabase tons philosophical quotespipe channel messages other channels note system leave msgs friends last seen plugin nifty help system neat plugin apiinstallnote:ameliabot demands python2.pip2 install -r requirements.txtpip2 install ameliabotdocumentationwiki"
+}

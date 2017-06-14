@@ -1,0 +1,19 @@
+{
+	"_id": "14383081",
+	"site": "https://github.com/utkarshohm/mf-nav-data",
+	"title": " Time-series data of mutual funds open sourced for First time in India",
+	"author": "utkarshohm",
+	"date": "2017-06-13T13:07:23.867Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mutual-funds",
+			"fintech",
+			"time-series",
+			"price-ticker",
+			"india"
+		],
+		"languages": []
+	},
+	"content": "readme.md mf-nav-datahistorical nav (price) data mutual funds popular benchmark indices indiacontextreal-life application library built operated mutual fund investing platform an amfi licensed mutual fund distributor a . i used data analyse visualise mutual funds.open source fintech?! finance industry wants exclusive access data be barrier entry competition. believe , on contrary, data should universally accessible differentiation product distribution be barriers. is why am open-sourcing the data collected.data source have obtained data aggregating data multiple sources, collected crawling websites having access transaction portals an amfi licensed mutual fund distributor.data stats~45 mb compressed datamf_nav: daily nav data mutual funds 45 mf companies incl few have since been closed down all funds each company all schemes (growth/dividend/bonus, direct/regular etc) each fundsince start each schemetill 2016 (feb some funds, jun others)index_values: daily closing value benchmark indices 13 popular stock indices bse sensex, nse nifty etc sbi fdsince start each indextill apr 2016play data used mongodb store this series data. other github repo talks more it.related reposlibrary build mutual fund transaction platform using bombay stock exchange starmf platform apihistorical nav/price/-series data mutual funds popular benchmark indices indianeed help setting up want contribute?feel free raise issue i get asap"
+}

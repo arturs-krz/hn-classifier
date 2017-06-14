@@ -1,0 +1,20 @@
+{
+	"_id": "14171338",
+	"site": "https://github.com/esad/lot",
+	"title": " Constaints-based spreadsheet prototype in Elm",
+	"author": "adnanh",
+	"date": "2017-06-13T13:33:36.017Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"elm",
+			"javascript",
+			"css",
+			"go",
+			"html"
+		]
+	},
+	"content": "readme.md lot is work--progress a constraint based spreadsheet, implemented elm, part my bsc thesis tu vienna. it grows it should able solve sudokus. can the latest version action http://try-lot.appspot.com/"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14527020",
+	"site": "https://github.com/bougarfaoui/ng-socket-io",
+	"title": "Socket.IO module for Angular 2 and 4",
+	"author": "bougarfaoui",
+	"date": "2017-06-13T14:09:47.190Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"angular",
+			"typescript",
+			"javascript",
+			"angular2",
+			"angular4"
+		],
+		"languages": [
+			"typescript"
+		]
+	},
+	"content": "readme.md ng-socket-iosocket.io module angular 2 4installnpm install ng-socket-io to import configure socketiomodule//...import { socketiomodule, socketioconfig } 'ng-socket-io';const config: socketioconfig = { url: 'http://localhost:8988', options: {} };@ngmodule({ declarations: [ appcomponent ], imports: [ browsermodule, socketiomodule.forroot(config) ], providers: [], bootstrap: [appcomponent]})export class appmodule { } need configure socketiomodule module using object config type socketioconfig, object accepts optional properties are same used here io(url[, options]). we pass configuration the static method forroot socketiomoduleusing socket instance socketiomodule provides a configured socket service can injected anywhere inside appmodule.import { injectable } '@angular/core';import { socket } 'ng-socket-io';@injectable()export class chatservice { constructor(private socket: socket) { } sendmessage(msg: string){ .socket.emit(\"message\", msg); } getmessage() { return .socket .fromevent(\"message\") .map( data => data.msg ); }}using multiple sockets different end points this case do configure socketiomodule directly using forroot. we to is: extend socket service, call super() the socketioconfig object type (passing url & options any).import { injectable, ngmodule } '@angular/core';import { socket } 'ng-socket-io';@injectable()export class socketone extends socket { constructor() { super({ url: 'http://url_one:portone', options: {} }); }}@injectable()export class sockettwo extends socket { constructor() { super({ url: 'http://url_two:porttwo', options: {} }); }}@ngmodule({ declarations: [ //components ], imports: [ socketiomodule, //... ], providers: [socketone, sockettwo], bootstrap: [/** appcomponent **/]})export class appmodule { } you inject socketone, sockettwo any services / or components.api of functionalities here are already familiar .the addition is fromevent method, returns observable you subscribe .socket.(eventname: string)takes event name callback.works same in socket.io.socket.removelistener(eventname: string, callback: function)takes event name callback.works same in socket.io.socket.removealllisteners(eventname: string)takes event name.works same in socket.io.socket.emit(eventname:string, message: , [callback: function])sends message the server.optionally takes callback.works same in socket.io.socket.fromevent<t>(eventname: string): observable<t>takes event name returns observable you subscribe .you should keep reference the observable subscription unsubscribe you're done it. prevents memory leaks the event listener attached be removed (using socket.removelistener) and /if unsubscribe. you multiple subscriptions an observable the last unsubscription remove listener.example can see example express.js.import { browsermodule } '@angular/platform-browser';import { ngmodule } '@angular/core';import { appcomponent } './app.component';import { socketiomodule, socketioconfig, socket} 'ng-socket-io';const config: socketioconfig = { url: 'http://localhost:8988', options: {} };@injectable()class chatservice { constructor(private socket: socket) { } sendmessage(msg: string){ .socket.emit(\"message\", msg); } getmessage() { return .socket .fromevent<>(\"message\") .map(data => data.msg ); } close() { .socket.disconnect() }}@ngmodule({ declarations: [ appcomponent ], imports: [ browsermodule, socketiomodule.forroot(config) ], providers: [chatservice], bootstrap: [appcomponent]})export class appmodule { }licensemit"
+}

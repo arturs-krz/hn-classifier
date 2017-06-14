@@ -1,0 +1,16 @@
+{
+	"_id": "14201255",
+	"site": "https://github.com/avoronkin/req-res-logger",
+	"title": " Req-res-logger – logger for express apps",
+	"author": "avoronkin",
+	"date": "2017-06-13T13:33:07.092Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md var express = require('express')var rrlogger = require('req-res-logger');var app = express()app.(rrlogger(function(req, res) { res.__start = process.hrtime() }, function (err, req, res) { var end = process.hrtime(req.__start) var responsetime = (end[0]*1e9 + end[1])/1e6 console.log('response ', responsetime) }))var express = require('express')var rrlogger = require('req-res-logger');var app = express()app.(rrlogger(function (err, req, res) { console.log('response status', res.statuscode)}))"
+}

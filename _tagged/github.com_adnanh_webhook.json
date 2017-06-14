@@ -1,0 +1,37 @@
+{
+	"_id": "14151839",
+	"site": "https://github.com/adnanh/webhook",
+	"title": " Webhook – A lightweight configurable tool written in Go",
+	"author": "adnanh",
+	"date": "2017-06-13T13:34:47.219Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webhook",
+			"go",
+			"devops",
+			"sysadmin",
+			"deploy",
+			"redeploy",
+			"github",
+			"bitbucket",
+			"shell",
+			"web",
+			"server",
+			"incoming",
+			"execute",
+			"http",
+			"https",
+			"hook",
+			"hooks",
+			"webhooks",
+			"integration",
+			"ci"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md donate via paypal | patreon pagehookdoo you don't time waste configuring, hosting, debugging maintaining webhook instance, offer saas solution has of capabilities webhook provides, plus lot more, all packaged a nice friendly web interface. you are interested, find more hookdoo website. you any questions, can contact at info@hookdoo.com is webhook?webhook is lightweight configurable tool written go, allows to easily create http endpoints (hooks) your server, you use execute configured commands. can pass data the http request (such headers, payload query variables) your commands. webhook allows to specify rules have be satisfied order the hook be triggered. example, you're using github bitbucket, can webhook set a hook runs redeploy script your project your staging server, whenever push changes the master branch your project. you mattermost slack, can set an \"outgoing webhook integration\" \"slash command\" run various commands your server, can report directly you your channels using \"incoming webhook integrations\", the appropriate response body.webhook aims do nothing more it should , and is:receive request,parse headers, payload query variables,check the specified rules the hook are satisfied, finally, pass specified arguments the specified command viacommand line arguments via environment variables.everything else is responsibility the command's author.getting startedinstallationbuilding source get started, make sure 've properly set your golang environment then run $ go github.com/adnanh/webhook get latest version the webhook.using package managerdebian \"sid\" you are using unstable version debian linux (\"sid\"), can install webhook using apt- install webhook will install community packaged version (thanks @freeekanayaka) https://packages.debian.org/sid/webhookdownload prebuilt binariesprebuilt binaries different architectures are available github releases.configurationnext step is define hooks want webhook serve. begin creating empty file named hooks.json. file contain array hooks webhook serve. check hook definition page see detailed description what properties hook contain, how use .let's define simple hook named redeploy-webhook will run redeploy script located /var/scripts/redeploy.sh. hooks.json file now like :[ { \"id\": \"redeploy-webhook\", \"execute-command\": \"/var/scripts/redeploy.sh\", \"command-working-directory\": \"/var/webhook\" }] can run webhook using$ /path//webhook -hooks hooks.json -verbose will start on default port 9000 will provide with http endpointhttp://yourserver:9000/hooks/redeploy-webhookcheck webhook parameters page see to override ip, port other settings such hook hotreload, verbose output, etc, starting webhook. performing simple http or post request that endpoint, specified redeploy script be executed. neat!however, hook defined that pose security threat your system, anyone knows endpoint, send request execute command. prevent , you use \"trigger-rule\" property your hook, specify exact circumstances under the hook be triggered. example, can them add secret you must supply a parameter order successfully trigger hook. please check the hook rules page detailed list available rules their usage.using httpswebhook default serves hooks using http. you webhook serve secure content using https, can the -secure flag while starting webhook. files containing certificate matching private key the server must provided using -cert /path//cert.pem -key /path//key.pem flags. the certificate is signed a certificate authority, cert file should the concatenation the server's certificate followed the ca's certificate.cors headers you to set cors headers, can the -header name=value flag while starting webhook set appropriate cors headers will returned each response.interested running webhook inside a docker container? can almir/webhook docker image, create own (please read discussion).examplescheck hook examples page more complex examples hooks.contributing form contribution is welcome highly appreciated.big thanks all current contributors their contributions!community contributions the webhook-contrib repository a collections tools helpers related webhook have been contributed the webhook community.license mit license (mit)copyright (c) 2015 adnan hajdarevic adnanh@gmail.compermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings the software."
+}

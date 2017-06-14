@@ -1,0 +1,29 @@
+{
+	"_id": "14298105",
+	"site": "https://github.com/dude-pa/dude",
+	"title": " Dude PA – Personal assistant based on the command line",
+	"author": "manparvesh",
+	"date": "2017-06-13T13:31:14.649Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"dude",
+			"personal-assistant",
+			"cli",
+			"diary",
+			"vocabulary",
+			"money",
+			"python",
+			"love",
+			"chat",
+			"chatbot",
+			"devtools",
+			"learn",
+			"learning"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md yoda personal assistant, based the command line. herh herh install, torequirementspythonvirtualenv ( for testing development)run, to# clone repo, should.$ git clone https://github.com/yoda-pa/yoda# create virtualenv$ virtualenv venv# activate virtualenv$ . venv/bin/activate# install package, must! case want edit source code# 'pip install --editable .'$ pip install .# time has $ yoda# exit virtualenv, type 'deactivate' without quotes this package, tosetup command helps create setup configuration you save information locally. password is saved the config file encrypting, you need worry it.# create configuration$ yoda setup # to delete configuration$ yoda setup delete# check current configuration$ yoda setup checkchat package contains simple chatbot well! chat command be used chat it# simply write messages more one word$ yoda chat are yoda speaks:here make life easier ever, am.$ yoda chat are yoda speaks: be better . yeesssssss. can test chat functionality api.ai agent website heredev command group contains sub-commands may helpful developers tech-geeks.speedtest# run speed test your internet connection$ yoda speedtestspeed test results:ping: 3.04 msdownload: 144.90 mb/supload: 203.13 mb/surl# url shortener expander$ yoda url shorten manparvesh.comhere's shortened url:https://goo.gl/evvpzk$ yoda url expand https://goo.gl/evvpzkhere's original url:http://manparvesh.com/diary command be used maintain personal diary, roughly based the concept bullet journal.# note$ yoda diary nninput entry note:hey # view notes$ yoda diary notestoday's notes:---------------- | note--------|-----12:54:22| hey 12:54:45| hi, is yoda# task$ yoda diary ntinput entry task: office# view tasks$ yoda diary taskstoday's agenda:----------------status | | text-------|---------|----- o | 15:50:48: office----------------summary:----------------incomplete tasks: 1completed tasks: 0# view tasks$ yoda diary cttoday's agenda:----------------number | | task-------|---------|----- 1 | 15:50:48: officeenter task number you like set completed1# analyze current month tasks$ yoda diary analyze love command be used maintain profile someone.# create configuration$ yoda love setup# view config$ yoda love status# write note them$ yoda love note# view notes$ yoda love notesmoney tracking money, is.# create configuration$ yoda money setup# view config$ yoda money status# add expense using natural language$ yoda money expspent 30 dollars shoes# view expenses$ yoda money exps2017-05-04 16:06:00 sgd 30 shoeslearn command group contains commands , helpful learning things, be. yeesssssss.vocabulary: enhancing vocabulary tracking progress.# a random word$ yoda vocabulary wordsinecure:<enter> show meaning job pays salary requires little did know / remember meaning?# view progress$ yoda vocabulary accuracywords asked the past:sinecure-- times used: 8 accuracy: 50.0squalid-- times used: 6 accuracy: 66.0flashcards: learning anything! (inspiration)# create set (remember keep name one word)$ yoda flashcards sets english# modify set$ yoda flashcards sets modify english# list sets$ yoda flashcards sets list# select study set$ yoda flashcards select english# create card selected set (card name length be more 1 word)$ yoda flashcards cards oxford comma# which set is selected its information$ yoda flashcards status# study selected study set. will show all cards a study set# by .$ yoda flashcards studydefine: get different meanings a word. definition search be automatically saved, that while are working your vocabulary, can through new word well.$ yoda define car few definitions the word \"car\" their parts speech are given below:#---------------------------------noun: motor vehicle four wheels; usually propelled an internal combustion enginenoun: compartment is suspended an airship that carries personnel the cargo the power plantnoun: where passengers ride and downnoun: wheeled vehicle adapted the rails railroadnoun: conveyance passengers freight a cable railwayfeedback create issue the github repository simple thing shows link. yeesssssss.$ yoda feedback: 1. reporting bug 2. suggesting feature 3. general suggestion questionplease create issue the github repository:https://github.com/yoda-pa/yoda/issues/packages services usedclick: building command line applicationpychalk: colors terminalapiai: api-ai natural language understandingpyyaml: parsing yaml filesemoji: emojis!lepl: formatted parsingpycrypto: encrypt / decrypt passwordpyspeedtest: test network bandwidthforex-python: foreign exchange rates currency conversiondulwich: gitpygithub: using github api v3gravit: creating logoyoda's illustration svg was taken herecontribute, mustplease refer the contributing guidelines contributing this project."
+}

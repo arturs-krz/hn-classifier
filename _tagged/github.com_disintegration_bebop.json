@@ -1,0 +1,24 @@
+{
+	"_id": "14401431",
+	"site": "https://github.com/disintegration/bebop",
+	"title": "Bebop: simple web forum written in Go",
+	"author": "api",
+	"date": "2017-06-13T13:56:41.315Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"forum",
+			"discussion-board",
+			"web-app",
+			"rest-api",
+			"vuejs",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md bebopbebop is simple discussion board / forum web application.featuresrest api backend written govue.js-based frontend databases are supported:postgresqlmysqlthree file-storage backends are supported store user-uploaded files (e.g. avatars):local filesystemgoogle cloud storageamazon s3social login (oauth 2.0) via three providers:googlefacebookgithubjson web tokens (jwt) are used user authentication the apisingle binary deploy. the static assets (frontend javascript & css files) are embedded the binarymarkdown commentsavatar upload, including animated gifs. auto-generated letter-avatars user creationgetting startedcreate new empty database (mysql r postgresql) will used a data store a database user all privileges granted this database.obtain oauth 2.0 credentials (client_id secret) at least of providers (google, facebook, github) users log the web application. oauth callback url be <base_url>/oauth/end/<provider>. <base_url> is where bebop web app be mounted your site the <provider> is lowercase provider name. example, base_url is https://.website.com/forum/, the oauth callback url google be https://.website.com/forum/oauth/end/google.download compile bebop binary:$ get -u github.com/disintegration/bebop/cmd/bebopinside empty directory run:$ bebop init will generate initial configuration file \"bebop.conf\" inside current dir.edit configuration file set server listen address, base url, database file storage parameters, oauth credentials, etc.run following command start bebop web server.$ bebop startsign into web application using of social login providers. run following command grant admin privileges your user.$ bebop add-admin <-username>screenshotstopicscomments"
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14199299",
+	"site": "https://github.com/bcherny/json-schema-to-typescript",
+	"title": " JSONSchema to TypeScript compiler",
+	"author": "bcherny",
+	"date": "2017-06-13T13:33:07.948Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"json-schema"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md json-schema--typescript compile json schema typescript typingsexampleinput:{ \"title\": \"example schema\", \"type\": \"object\", \"properties\": { \"firstname\": { \"type\": \"string\" }, \"lastname\": { \"type\": \"string\" }, \"age\": { \"description\": \"age years\", \"type\": \"integer\", \"minimum\": 0 }, \"haircolor\": { \"enum\": [\"black\", \"brown\", \"blue\"], \"type\": \"string\" } }, \"additionalproperties\": false, \"required\": [\"firstname\", \"lastname\"]}output:export interface exampleschema { firstname: string; lastname: string; /** * age years */ age?: number; haircolor?: (\"black\" | \"brown\" | \"blue\");}installationnpm install json-schema--typescript --saveusageimport { compile, compilefromfile } 'json-schema--typescript'// compile filecompilefromfile('foo.json') .(ts => fs.writefilesync('foo.d.ts', ts)// , compile js objectlet myschema = { properties: [...]}compile(myschema, 'myschema') .(ts => ...) server demo browser demo full examples.optionscompilefromfile compile accept options their last argument ( keys are optional):keytypenotecwdstringroot directory resolving $refsdeclarereferencedbooleandeclare schemas referenced via $ref?enableconstenumsbooleanprepend enums const?enabletrailingsemicolonfortypesbooleanenabletrailingsemicolonforenumsbooleanenabletrailingsemicolonforinterfacepropertiesbooleanenabletrailingsemicolonforinterfacesbooleanindentwithstringtabs spaces?cli simple cli utility is provided this package.cat foo.json | json2ts > foo.d.ts# json2ts foo.json > foo.d.ts# json2ts foo.json foo.d.ts# json2ts --input foo.json --output foo.d.ts# json2ts - foo.json -o foo.d.tstestsnpm testtodo title => interface primitive types: array homogeneous array boolean integer number null object string homogeneous enum heterogeneous enum non/extensible interfaces custom json-schema extensions nested properties schema definitions schema references local (filesystem) schema references external (network) schema references add support running browser default interface name infer unnamed interface name filename allof (\"intersection\") anyof (\"union\") oneof (treated anyof) additionalproperties type extends required properties objects (eg) validaterequired (eg) literal objects enum (eg) referencing schema id (eg) expressible typescript:dependencies (single, multiple)divisibleby (eg)format (eg)multipleof (eg)maximum (eg)minimum (eg)maxitems (eg)minitems (eg)maxproperties (eg)minproperties (eg)/disallowoneof (\"xor\", anyof instead)pattern (string, regex)patternproperties (eg)uniqueitems (eg)further readingjson-schema spec: https://tools.ietf.org/html/draft-zyp-json-schema-04json-schema wiki: https://github.com/json-schema/json-schema/wikijson-schema test suite: https://github.com/json-schema/json-schema-test-suite/blob/nodetypescript spec: https://github.com/microsoft/typescript/blob/master/doc/spec.md"
+}

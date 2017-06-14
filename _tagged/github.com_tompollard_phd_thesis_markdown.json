@@ -1,0 +1,24 @@
+{
+	"_id": "14347517",
+	"site": "https://github.com/tompollard/phd_thesis_markdown",
+	"title": "Template for writing a PhD thesis in Markdown",
+	"author": "orschiro",
+	"date": "2017-06-13T13:57:47.190Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"thesis-template",
+			"markdown",
+			"pandoc"
+		],
+		"languages": [
+			"html",
+			"tex",
+			"makefile",
+			"css",
+			"javascript",
+			"gcc machine description"
+		]
+	},
+	"content": "readme.md template writing phd thesis markdown repository provides framework writing phd thesis markdown. used template my phd submission university college london (ucl), it should straightforward adapt suit universities too.citing template you used template your , please cite following publication:tom pollard et al. (2016). template writing phd thesis markdown. zenodo. http://dx.doi.org/10.5281/zenodo.58490why write thesis markdown?markdown is super-friendly plain text format can easily converted a bunch other formats pdf, word latex. 'll enjoy working markdown :it is clean, plain-text format...... you use latex you need (for example, laying mathematical formula). doesn't suffer the freezes crashes some us experience working large, image-heavy word documents. automatically handles table contents, bibliography etc pandoc.comments, drafts text, etc be added the document wrapping in <!-- --> works with git, keeping backups is straightforward. commit changes then push to repository. is lock-. if decide markdown isn't you, just output word, whatever, continue working the format.are any reasons to markdown? are minor annoyances: you haven't worked markdown before you'll find yourself referring the style-guide fairly often first. isn't possible add short caption tables figures (figures are fixed, thanks @martisak). means /listoftables includes long-caption, probably isn't you . if want include list tables, you'll need write manually. style documents this framework be improved. pdf html (thanks @arcomul) outputs are acceptable, html word needs if plan output this format. is straightforward of specifying image size the markdown right , though functionality is coming (: https://github.com/tompollard/phd_thesis_markdown/issues/15) (image size now specified. thanks @rudolfbyker highlighting ).... if are more, please add here. is template organised?readme.md => instructions.license.md => terms reuse (mit license).makefile => contains instructions using pandoc produce final thesis.output/ => directory hold final version.source/ => directory hold thesis content. includes references.bib file.source/figures/ => directory hold figures.style/ => directory hold style documents. do get started?install following software: text editor, sublime, is you'll write thesis. latex distribution ( example, mactex mac users).pandoc, converting markdown the output format your choice. may need install pandoc cite-proc create bibliography.install @martisak's shortcaption module pandoc, pip install pandoc-shortcaptiongit, version control.fork repository githubclone repository onto local computer ( download zip file).navigate the directory contains makefile type \" pdf\" ( \"make html\") the command line update pdf ( html) the output directory. case an error (e.g. : *** [pdf] error 43) run following commands:sudo tlmgr install truncatesudo tlmgr install tocloftsudo tlmgr install wallpapersudo tlmgr install morefloatssudo tlmgr install sectstysudo tlmgr install siunitxsudo tlmgr install threeparttablesudo tlmgr update l3packagessudo tlmgr update l3kernelsudo tlmgr update l3experimentaledit files the 'source' directory, goto step 4. else i need know? useful points, a random order:each chapter must finish at least blank line, otherwise header the following chapter may be picked .add spaces the end a line force line break. template uses john macfarlane's pandoc generate output documents. refer this page markdown formatting guidelines.pdfs are generated using latex templates the style directory. fonts etc be changed the tex templates. change citation style, overwrite ref_format.csl the style. style files be obtained citationstyles.org/ fellow web developers, is grunt task file (gruntfile.js) can used 'watch' markdown files. running $ npm install then $ npm run watch pdf html export is done automatically saving markdown file. can automatically reload html page your browser using livereload the command $ npm run livereload. html page automatically reload saving markdown file the export is done.contributingcontributions the template are encouraged! are lots things could improved, :finding way add short captions the tables, that lists tables be automatically generated.cleaning the latex templates, are messy the moment.improving style word tex outputs.please fork edit project, send pull request."
+}

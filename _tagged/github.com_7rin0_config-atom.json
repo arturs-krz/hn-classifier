@@ -1,0 +1,25 @@
+{
+	"_id": "14339413",
+	"site": "https://github.com/7rin0/config-atom",
+	"title": "Atom App/Web IDE",
+	"author": "7rin0",
+	"date": "2017-06-13T13:58:18.994Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"atom",
+			"atom-packages",
+			"config-atom",
+			"cli",
+			"makefile",
+			"export",
+			"import"
+		],
+		"languages": [
+			"shell",
+			"makefile",
+			"css"
+		]
+	},
+	"content": "readme.md atom web/apps ideinclude main dependencies, configurations, linters, languages, autocompletes, etc. atom oriented web development.screenshotrequirementsgitcomposersass ( for sass development)phpcs / phpmd ( for php development) dependencies can the main required dependencies executing following command: wget -qo- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/dependencies.sh | bashinstallationinstall centos wget -qo- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/centos/atom_centos_install.sh | bashinstall fedora wget -qo- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/fedora/atom_fedora_install.sh | bashinstall ubuntu/debian wget -qo- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/distros/ubuntu-debian/atom_ubuntu-debian_install.sh | bashupdate atomupdate config (attention, config be replaced). wget -qo- https://raw.githubusercontent.com/7rin0/web-atom-ide/master/bin/update_atom_config.sh | bashupdate atom packages apm upgradeapm: operations/actionsimport atom's dependencies file apm install --packages-file packages.listexport atom's dependencies file apm list --installed --bare > packages.listremove packages apm remove $(apm list --installed --bare | cut -d'@' -f1)"
+}

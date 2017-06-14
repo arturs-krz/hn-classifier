@@ -1,0 +1,17 @@
+{
+	"_id": "14365889",
+	"site": "https://github.com/leohotfn/Reuzel",
+	"title": "Reuzel – A tiny C++ thread pool",
+	"author": "leohotfn",
+	"date": "2017-06-13T13:57:06.611Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": "readme.md reuzelreuzel is tiny c++ thread pool these features: runs linuxc++11 syntax posix threadssimple apistarts threads creation the thread poolstops joins threads destroybuild example thread pool uses c++11 syntax posix threads if compile g++ linux have use flags '-lpthread', '-std=c++11' this:g++ -std=c++11 threadpool.cpp thread.cpp example.cpp -lpthread -o example run executable this:./example you to run test example:./reuzelbasic usageinclude header file your source file:#include \"threadpool.h\"create thread pool:threadpool thpool;set max size task queue, create worker threads:setmaxqueuesize(), start();add task the pool:addtask();contribution are very welcome contibute!"
+}

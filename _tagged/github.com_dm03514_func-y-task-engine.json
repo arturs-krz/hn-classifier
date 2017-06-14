@@ -1,0 +1,23 @@
+{
+	"_id": "14188092",
+	"site": "https://github.com/dm03514/func-y-task-engine",
+	"title": " E2E Test Framework MVP",
+	"author": "dm03514",
+	"date": "2017-06-13T13:33:34.761Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"unit-test",
+			"testing",
+			"testing-tools",
+			"test-automation",
+			"functional-testing",
+			"acceptance-testing"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md functional (func-y) task engine extensible asynchronous task execution framework, aimed supporting functional (e2e) testing.allows modeling tasks statemachines, using delcaritive yaml syntax.schedules, executes instructions, applies task state transitions, reports task statuses.problemwriting reliable functional (e2e) tests is hard. are notorious being flaky, consuming, difficult maintain they require:multiple protocolsmultiple systemswaiting (timing)asynchronous systemscomplex test logicfunc-y task engine aims separate task definition, how is executed, how each step the task is transitioned. should allow complex multi-step functional (e2e) tests, often involving concurrent operations, be staticallydefined a list state definitions.goalsprovide simple easy task definitiondefine tasks yamlflexible plugins written pythonprovide module plugin system easily allows addition new service clientsvarious task runnersinput yamlreports stdout/junit xml casesfunctional/e2e live service repo along side codesla e2e latencies (future api release)getting startedright the easiest to how func-y task engine works may to read tutorial.https://github.com/dm03514/func-y-task-engine/wiki/tutorial---creating--taskmore depth documentation come."
+}

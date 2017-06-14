@@ -1,0 +1,16 @@
+{
+	"_id": "14417335",
+	"site": "https://github.com/Setfive/fanduel-api",
+	"title": " TypeScript library to access Fanduel.com",
+	"author": "adatta02",
+	"date": "2017-06-13T13:06:44.383Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"typescript"
+		]
+	},
+	"content": "readme.md unofficial fanduel api you ever wanted programmatic access fanduel.com?maybe automatically import player data your daily fantasy sports model. automatically contests match set criteria. now can. is typescript library allows to access restendpoints fanduel.com itself uses. library enables to perform the core functionality fanduel programmatically.note: is definitely against fanduel tos be careful account use with.demogetting started, check the repository somewhere you should able create nodejs script containing:\" strict\";const fanduel = require(\"./fanduel-api\").default;const auth = {username: \" fanduel userame\", password: \" fanduel password\"};const fd = fanduel(auth);fd.getavailableslates().(slates => { console.log(slates); process.exit(0);});replacing placeholders your fanduel credentials.run , and 'll the currently available slates output your console.pretty cool huh?examplescheck the https://github.com/setfive/fanduel-api/tree/master/examplesfolder sample code around can done this library.things note no particular order: noted above, using is explicitly against fanduel tos. have been warned (twice). created typescript classes mirror data comes from fanduel. those are https://github.com/setfive/fanduel-api/blob/master/models.ts tried use those types make clear library's code be stitched together.fanduel uses websocket power \"lobby\", streams updates your browser normally parses the ui.https://github.com/setfive/fanduel-api/blob/master/examples/websocket.ts has example how can listen on https://github.com/setfive/fanduel-api/blob/master/lineupgenerator.ts is very naivete line generator performs brute force search looking a line with highest projected fanduel points. no, unfortunately haven't used to build bot mint money fanduel...yet ;)development is written typescript you'll definitelyneed typescript (http://www.typescriptlang.org/index.html#download-links) installed. you to run typescript without compiling you'll need ts-node (https://github.com/typestrong/ts-node).'d recommend ts-node since tightens development feedback loop. build javascript, run \"tsc\" the root folder it'll the tsconfig.json settings build files dist/documentation really isn't . but are auto generated doxygen style class definitions https://github.com/setfive/fanduel-api/blob/master/docs/index.htmlthose were generated http://typedoc.org/ running:typedoc -- docs/ --target es5 --exclude tests/ index.ts models.ts lineupgenerator.ts the root the project."
+}

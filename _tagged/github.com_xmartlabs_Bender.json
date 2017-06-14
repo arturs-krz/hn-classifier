@@ -1,0 +1,30 @@
+{
+	"_id": "14487259",
+	"site": "https://github.com/xmartlabs/Bender",
+	"title": " Bender – a Deep Learning framework for iOS",
+	"author": "bryant1410",
+	"date": "2017-06-13T13:04:45.646Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"machine-learning",
+			"neural-networks",
+			"metal",
+			"apple",
+			"iphone",
+			"ios",
+			"convolutional-neural-networks",
+			"deep-learning",
+			"swift",
+			"deep-neural-networks",
+			"residual-networks"
+		],
+		"languages": [
+			"swift",
+			"metal",
+			"protocol buffer",
+			"other"
+		]
+	},
+	"content": "readme.md benderbender is abstraction layer metalperformanceshaders useful working neural networks.contentsintroductionwhy did need benderbasic usagerequirementsgetting involvedexamplesinstallationchangelog documentation be found under documentation folder:api contains most important information get started.supported layers explains layers are supported how map tensorflow ops.importing explains to import models other frameworks such tensorflow. can find information how enhance functionality custom implementations.introductionbender is abstraction layer metalperformanceshaders is used work neural networks. is growing interest the ai environment execute neural networks mobile devices if training process has been done previously. want make easier everyone execute pretrained networks ios.bender allows to easily define run neural networks using most common layers convolution, pooling, fullyconnected some normalizations among others. is flexible the it receives parameters these layers. also to support loading models trained other frameworks such tensorflow caffe2. currently bender includes adapter tensorflow loads graph variables \"translates\" to bender layers. feature supports subset tensorflow's operations we plan enhance to cover more cases.bender is functional still under active development we want see where needs the community drive . please, note the api is stable yet.why did need bender? xmartlabs were to start machine learning project investigated frameworks use ios. found metalperformanceshaders useful not very user friendly we saw ourselves repeating lot code information. is why starting building framework handle kind stuff. also found ourselves creating scripts translate models had training tensorflow ios. means transposing weights the mpscnn format also mapping parameters the different kinds layers tensorflow the parameters used the mpscnn kernels. tensorflow be compiled ios currently does support running gpu we wanted do. also did want include tensorflow's static library our project. is why also started work an adapter would parse tf graph translate to bender layers.usage can define own network bender using custom operator you load model exported tensorflow. defining network loading model be done this:import bender// define network how will load weights / parameterslet randomloader = randomparameterloader(maxsize: 7*7*64*1024)network = network(device: device, inputsize: layersize(f: 3, w: 256), parameterloader: randomloader)// convert graph tensorflowlet url = bundle.main.url(forresource: \"mygraph\", withextension: \"pb\")!let converter = tfconverter.default()network.nodes = converter.convertgraph(file: url, type: .binary)// initialize networknetwork.initialize()// run networklet inputimage = ...network.run(inputimage: image, queue: commandqueue) { output ...}you read more information this importing. you to define network yourself can it this:let network = ...network.start ->> convolution(convsize: convsize(outputchannels: 16, kernelsize: 3, stride: 2)) ->> instancenorm() ->> convolution(convsize: convsize(outputchannels: 32, kernelsize: 3, stride: 2), neurontype: .relu) ->> instancenorm() ->> fullyconnected(neurons: 128) ->> neuron(type: .tanh) ->> fullyconnected(neurons: 10) ->> softmax()... know more this a at api.requirementsios 10.0+xcode 8.3+getting involved you to contribute please feel free submit pull requests. you a feature request please open issue. you found bug need help please check older issues, faq threads stackoverflow (tag 'bender') before submitting issue..before contribute check contributing file more info. you bender your app would love hear it! drop a line twitter.examplesfollow steps run examples:clone bender repository ( download ).run carthage update --platform ios the downloaded folder.open bender workspace run example project.installationcocoapods install bender, simply add following line your podfile:pod 'metalbender', :git => 'https://github.com/xmartlabs/bender.git'remember bender compiles ios 10. you must add platform :ios, '10.0' your podfileauthorxmartlabs srl (@xmartlabs)change log can found the changelog.md file."
+}

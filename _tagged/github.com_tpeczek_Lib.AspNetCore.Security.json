@@ -1,0 +1,20 @@
+{
+	"_id": "14487075",
+	"site": "https://github.com/tpeczek/Lib.AspNetCore.Security",
+	"title": " Lib.AspNetCore.Security – Security Headers and Reports for ASP.NET Core",
+	"author": "tpeczek",
+	"date": "2017-06-13T13:04:45.457Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"asp-net-core",
+			"security",
+			"hsts",
+			"csp"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md lib.aspnetcore.security lib.aspnetcore.security is library provides security features content security policy, strict transport security expect-ct asp.net coregetting started can lib.aspnetcore.security lib.aspnetcore.mvc.security nuget.pm> install-package lib.aspnetcore.securitypm> install-package lib.aspnetcore.mvc.securitydocumentation documentation is available here. are blog posts available describing key features the library ( of have been written context asp.net mvc previous versions this library the core idea haven't changed):preparing chrome's certificate transparency policy - expect-ct reporting asp.net corecontent security policy asp.net core mvc - taghelpercontent security policy asp.net mvcstrict transport security asp.net mvcdemos demo project is available here.donatinglib.aspnetcore.security is personal open source project. lib.aspnetcore.security has been helpful you, consider donating. donating helps support lib.aspnetcore.security.copyright licensecopyright © 2016 - 2017 tomasz pczeklicensed under mit license"
+}

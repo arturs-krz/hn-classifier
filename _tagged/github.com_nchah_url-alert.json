@@ -1,0 +1,21 @@
+{
+	"_id": "14394970",
+	"site": "https://github.com/nchah/url-alert",
+	"title": " URL Alert – Chrome extension to detect internationalized domain names",
+	"author": "apple-py",
+	"date": "2017-06-13T13:07:23.099Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"idn-homograph-attack",
+			"chrome-extension",
+			"punycode",
+			"unicode-domain"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": "readme.md url alerturl alert is chrome extension parse urls internationalized domain names warn against url phishing attacks.available the chrome web store.usage internationalized domain name (idn) may a sign the url is part an internationalized domain name (idn) homograph attack (wikipedia). example, may find url looks \"https://www..com\", it's actually unicode domain: https://www.xn--e1awd7f.com/ (written punycode). using similar looking cyrillic letters, url \"www..com\" is made look \"www.epic.com\" spelled ascii characters.check site (unicode lookup) details the unicode characters are used.screenshotexample: navigate this hacker news post \"phishing attack uses unicode characters domains clone known safe sites\" where few unicode urls be found. try site: https://www..com/ the associated blog post where author demonstrates \" flaw the unicode domains are handled browsers\".tips you prefer hide extension icon, right click the icon next the chrome address bar select \"hide chrome menu\". icon should be hidden the \"hamburger menu\" ( three vertical dots). default chrome extensions are enabled \"incognito\" browsing. enable , go \"chrome://extensions/\" a tab check \"allow incognito\" box.dependencies modal displays warning uses jquery (jquery ui). url unicode check is done punycode.js (github: bestiejs/punycode.js)."
+}

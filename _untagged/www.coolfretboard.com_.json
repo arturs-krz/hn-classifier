@@ -1,0 +1,9 @@
+{
+	"_id": "14532601",
+	"site": "https://www.coolfretboard.com/",
+	"title": " Cool Fretboard – A simple tool to learn guitar scales online",
+	"author": "kryptogeist",
+	"date": "2017-06-13T10:39:14.285Z",
+	"tags": [],
+	"content": "cool fretboard open string note root note note scale {{ vm.selected.scale }} {{ vm.selected.root }}notes {{ note }} formula {{ step }} w = whole step h = half step wh = whole a half step view more privacy | sitemap code favorite @kryptogeist"
+}

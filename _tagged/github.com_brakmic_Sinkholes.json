@@ -1,0 +1,19 @@
+{
+	"_id": "14353650",
+	"site": "https://github.com/brakmic/Sinkholes",
+	"title": " Malware Sinkhole List in different formats (xls, xlsx, csv, ods)",
+	"author": "brakmic",
+	"date": "2017-06-13T13:07:42.672Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"malware",
+			"infosec",
+			"sinkhole",
+			"csv",
+			"xlsx"
+		],
+		"languages": []
+	},
+	"content": "readme.md malware sinkhole list different formats (xls, xlsx, csv, ods)based data lesley carhart's article consolidated malware sinkhole list.'s work mine!'ve transferred data different formats. table below was created this nice online conversion tool.organizationip rangeswhoisnotesanubis195.22.26.192/26anubisnetworks.comhttps://www.proofpoint.com//daily-ruleset-update-summary-2015-08-14arbor networks asert23.253.126.58 168.181.184.35arbor-sinkhole.nethttp://www.malwareurl.com/ns_listing.php?ns=ns1.arbor-sinkhole.netblacklab.io67.215.255.139sinkhole.blacklab.ioblacklistthisdomain106.187.96.49 81.166.122.234sinkhole.blacklistthisdomain.combotnet hunter52.5.245.208ec2-52-5-245-208.compute-1.amazonaws.comcert polska148.81.111.111 148.81.111.91 148.81.111.114sinkhole.cert.plconficker working group136.161.101.53conficker-sinkhole.comdr. web91.233.244.106http://doc.emergingthreats.net/bin/view/main/2016997endgame166.78.144.80s01.snkhole.mal-ware.susp-nded.domainhttp://www.kleissner.orgfarsight104.244.12.0/22sinkhole-iad1-2.cwg.fsi.iofbi142.0.36.234volumedrivefitsec193.166.255.171funet certgeorgia tech143.215.130.0/24georgia institute technologygeorgia tech198.61.227.6rackspacewww.kleissner.orggeorgia tech50.57.148.87slicehostwww.kleissner.orggladtech74.200.48.169sinkhole.gladtech.nethelse csirt91.186.66.36norwegian-health-networkhyas192.169.69.25sinkhole.hyas.comkaspersky93.159.228.22 95.211.172.143sinkhole.kaspersky.commalwaredomains139.146.167.25computer problem solving (cps)microsoft131.253.18.11-12microsofthttp://doc.emergingthreats.net/bin/view/main/2016101microsoft199.2.137.0/24microsofthttps://lists.emergingthreats.net/pipermail/emerging-sigs/2013-june/022148.htmlmicrosoft204.95.99.59microsofthttps://lists.emergingthreats.net/pipermail/emerging-sigs/2013-june/022148.htmlmicrosoft207.46.90.0/24microsofthttps://lists.emergingthreats.net/pipermail/emerging-sigs/2013-june/022148.htmlpublicdomainregistry109.74.196.143 50.116.56.144 50.116.32.177 178.79.190.156linodewww.kleissner.orgshadowserver87.106.24.200sinkhole-00.shadowserver.orgshadowserver87.106.26.9sinkhole-01.shadowserver.orghttp://marc.info/?l=emerging-sigs&m=135764068231008&w=2shadowserver74.208.64.145sinkhole-02.shadowserver.orgshadowserver74.208.64.191sinkhole-03.shadowserver.orgshadowserver74.208.164.166sinkhole-04.shadowserver.orgshadowserver212.227.55.84sinkhole.shadowserver.orgshadowserver74.208.15.160sinkhole.shadowserver.orgshadowserver74.208.15.97sinkhole.shadowserver.orgshadowserver87.106.250.34sinkhole.shadowserver.orghttp://marc.info/?l=emerging-sigs&m=135764068231008&w=2shadowserver87.106.86.28sinkhole.shadowserver.orghttp://marc.info/?l=emerging-sigs&m=135764068231008&w=2sidn labs176.58.104.168sinkhole.sidnlabs.nlsinkhole.dk212.227.20.19sinkhole.dksinkhole.86.124.164.25sinkhole.sinkhole.tech79.137.66.14http3.sinkhole.techsinkhole.tech95.211.174.92sinkhole.techsinkhole.tech144.217.254.3http4.sinkhole.techsinkhole.tech217.182.172.139http1.sinkhole.techsinkhole.tech144.217.74.156http2.sinkhole.techsisra / abuse.ch104.155.11.149-domain-is-sinkholed-.abuse.chspamhaus208.43.245.213 173.192.192.10 199.231.211.108 198.98.120.157 192.42.116.41 87.255.51.229sl-reverse.comteam cymru38.102.150.29 38.229.70.125conficker-sinkhole.nettorpig-sinkhole212.227.55.84 87.106.240.162 87.106.140.254 87.106.141.15torpig-sinkhole.orgwapack labs23.253.46.64https://wapacklabs.blogspot.com/2016/07/wapack-labs-sinkhole-results-18.htmlzinkhole.org176.31.62.76 178.32.140.251 94.23.175.2suspended-domain.orglicensemit"
+}

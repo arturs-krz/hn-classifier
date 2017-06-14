@@ -1,0 +1,20 @@
+{
+	"_id": "14148907",
+	"site": "https://github.com/zeebo/goof",
+	"title": " Goof: Go object finder (runtime binary introspection)",
+	"author": "zeeboo",
+	"date": "2017-06-13T13:34:47.874Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"unsafe",
+			"golang",
+			"go",
+			"dwarf"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md goofgoof lets call functions your binary just string theirname. ?var troop goof.troop, err := troop.call(\"fmt.printf\", \"hello %s\", []interface{}{\"world\"}) err != nil { // error calling functionreturn err}n, err := [0].(int), [1].(error) err != nil {return err}fmt.printf(\"wrote %d bytes\", n)caveat: have have called fmt.printf elsewhere your binary.goof lets get access globals your binary just string their name. ?var troop goof.trooprv, err := troop.global(\"net/http.defaultservemux\") err != nil { // couldn't find return err}// rv contains addressable reflect.value the default servemux!caveat: global must used elsewhere the binary somehow.goof lets get access all the reflect.types your binary. ?var troop goof.trooptypes, err := troop.types() err != nil { // something went wrong getting return err} _, typ := range types {fmt.println(typ)}caveat: types must possible outputs reflect.typeof(val) your binary.usage should probably make single troop your binary use everywhere since does lot caching work first .how? loads the dwarf information any binary 's loaded and does bunch unsafe tom foolery perform dirty deeds. unsafe is ?reusing needles unsafe.jumping a shark tank a steak swimming suit unsafe.carnival ride unsafe.driving the wrong side the highway blindfolded unsafe.should use ?do really to ask? course! you , please let know terribleidea enabled. 'm very interested.testimonials\" can't wait get goof my manhole!\" - @jtolds\"readme is hilarious \"\" i need come with something horrendously risky use for...\""
+}

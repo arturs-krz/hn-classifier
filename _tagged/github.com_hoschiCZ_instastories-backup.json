@@ -1,0 +1,23 @@
+{
+	"_id": "14178118",
+	"site": "https://github.com/hoschiCZ/instastories-backup",
+	"title": " Backup your friends Instagram stories",
+	"author": "hoschicz",
+	"date": "2017-06-13T13:33:35.605Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python-3-6",
+			"python",
+			"python3",
+			"instagram",
+			"instagram-stories",
+			"crawler",
+			"backup"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md instagram stories backupcrawl stories select instagram users backup .setup install, clone repo.obtain cookies will need get cookie: header be sent instagram authenticate 's . instagram allows authenticated users watch stories. obtain cookie, login http://instagram.com.chrome: open developer tools, change the network tab, reload instagram.com, scroll in request list, click instagram.com, find cookie: under request headers the headers pane. copy contents cookie:, paste into prefs.json place whatever was cookie: field .setup users backup will need obtain ids ig users whose stories want backup. can this service find .edit \"ids:\" section prefs.json, replacing examples ids usernames users whose stories want backup.install python dependencies requires python 3 pip3 be installed. can download python 3 python.org/downloads. pip3 should installed automatically python.next, run in terminal the directory where cloned to.# pip3 install -r requirements.txtrunning run program:$ python3 main.py will to run every 24 hours order catch stories the you follow before disappear. can set quiet prefs.json suppress program output except errors. useful running via cron.navigating program outputexclamation marks (!) mean a stories entry tried crawl is already the database dots (.) mean an entry has been successfully added the database.working collected data script saves metadata the sqlite3 database stories.sqlite3 by default downloads media files/username, where username is whatever specified prefs.json. doesn't check username against ig, only instructs program what directory should media downloaded."
+}

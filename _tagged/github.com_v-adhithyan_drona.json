@@ -1,0 +1,23 @@
+{
+	"_id": "14530558",
+	"site": "https://github.com/v-adhithyan/drona",
+	"title": " Keep up with current trends in management (Android app)",
+	"author": "v_adhithyan",
+	"date": "2017-06-13T13:23:08.712Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mba",
+			"marketing",
+			"finance",
+			"leadership",
+			"android",
+			"rss"
+		],
+		"languages": [
+			"kotlin",
+			"java"
+		]
+	},
+	"content": "readme.md drona android app helps mba student/grad any management guy keep with current trends management.topics screenfeeds screenview url screen the app does?simply put app aggregates rss feeds management topics various sites listed below. you to add site category, open pull request.credits app aggregates rss feeds various sources.categories the respective feed sources are given below.marketingducttapemarketingfinanceprof. jayanth varma financial markets blognytimeseconomics economists view money illusionleadership things workplaceothersmitkellog institute managementtodo progress bar reader activity add section add share option reader activity integrate ads integrate firebase notifications style down cards feeds display notify app updates option add feeds. crashlytics cache implementation background check new feeds notify userlicensemit."
+}

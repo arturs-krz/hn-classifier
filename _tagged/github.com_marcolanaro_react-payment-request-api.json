@@ -1,0 +1,20 @@
+{
+	"_id": "14498814",
+	"site": "https://github.com/marcolanaro/react-payment-request-api",
+	"title": "React payment request API",
+	"author": "marcolanaro",
+	"date": "2017-06-13T14:10:07.409Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"payment-request",
+			"credit-card"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md react high order component drive payment request widget react applications . browser support the moment payment request api is supported chrome android android webview v. ^53.0.demo can find working demo here. sure use supported browser.npm installnpm install react-payment-request-api --saveusageconsume ui component the hight order component button.js:import react \"react\";import paymentrequest 'react-payment-request-api';const button = ({ show, issupported }) => issupported ? <button onclick={show}>pay !</button> : <span>payment request supported</span>;export default paymentrequest<ownprops>()(button);pass configuration the high order component smartcomponent.js:import react \"react\";import button \"./button\";const smartcomponent = (config) => <button config={config} foo=\"bar\" />;export default smartcomponent;faq does work? takes configuration prop define the native widget should behave any property want pass the ui component. spread the properties part the configuration the enhanced ui component. ui component also receive props will help improving experience allowing complete control the renderer on action handler. does support browser were implementing first draft payment request?chrome v. 53.0 - 55.00 was implementing draft the standard payment request. since , there been evolutions how define paymentmethods the configuration. specifically, payment methos should be defined :{ supportedmethods: ['basic-card'], data: { supportednetworks: ['visa', 'mastercard'], },} library de-normalize configuration be able support old standard looks :{ supportedmethods: ['visa', 'mastercard']}does support redux any flux implementation?yes, version 1.0 have changed interface allowing user inject configuration the parent component. this it does matter flux implementation are using. the same , we are preserving high order component pattern you complete control the renderer on action handler.does support typescript?yes, don't need install typescript dependecies types with library. export paymentrequestparams (injected configuration) paymentrequestinterface (ui component extended props) typescript interfaces. the examples are written typescript.api wrapped component be decorated this injected props:parametertypedescriptionissupportedbooleantrue the payment request api is supported the browser.showfunction: () => paymentrequest will begin process the merchant site to create new paymentrequest.abortfunction: () => void can intentionally abort paymentrequest calling abort method show has been called.configuration the high order component:parametertypedescriptionmethoddataobjectrequired payment method data.detailsobjectrequired information transaction.optionsobjectoptional parameter things shipping, etc.onshowsuccesspromise based callback: (result, resolve, reject) handler be executed the filling the form is successfull. should post payment request then resolve reject promise.onshowfailpromise based callback: (error) handler be executed the filling the form is successfull ( when user dismiss form).onshippingaddresschangepromise based callback: (request, resolve, reject) handler be executed the shipping address has change. can change request then resolve promise.onshippingoptionchangepromise based callback: (request, resolve, reject) handler be executed the shipping option has change. can change request then resolve promise.license the license file license rights limitations (mit)."
+}

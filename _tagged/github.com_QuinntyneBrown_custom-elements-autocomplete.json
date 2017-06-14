@@ -1,0 +1,27 @@
+{
+	"_id": "14507115",
+	"site": "https://github.com/QuinntyneBrown/custom-elements-autocomplete",
+	"title": "Autocomplete: Custom Elements v1, ShadowDOM, TypeScript and Webpack",
+	"author": "quinntyne",
+	"date": "2017-06-13T14:09:56.880Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"custom-elements-v1",
+			"typescript",
+			"webpack2",
+			"npm-scripts",
+			"async-await",
+			"shadow-dom",
+			"fetch",
+			"rxjs5"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md custom-elements-autocompletecustom-elements-autocomplete"
+}

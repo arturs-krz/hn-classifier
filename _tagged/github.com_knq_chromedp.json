@@ -1,0 +1,29 @@
+{
+	"_id": "14397259",
+	"site": "https://github.com/knq/chromedp",
+	"title": "Chromedp: A faster, simpler way to drive browsers in Go",
+	"author": "vially",
+	"date": "2017-06-13T13:56:41.951Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"chrome",
+			"chrome-debugging-protocol",
+			"testing",
+			"unit-testing",
+			"chrome-devtools",
+			"headless",
+			"selenium",
+			"phantomjs",
+			"microsoft-edge",
+			"safari",
+			"android-webview"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": "readme.md chromedp package chromedp is faster, simpler to drive browsers go using chrome debugging protocol( chrome, edge, safari, etc) without external dependencies (ie, selenium, phantomjs, etc).note: chromedp's api is currently unstable, may change a momentsnotice. are likely extremely bad bugs lurking this code. caveat user.installationinstall the usual :go -u github.com/knq/chromedpusagebelow is simple google search performed using chromedp (taken examples/simple): example shows logic a simple search a known website, clicking the right link, then taking screenshot a specific element theloaded page saving to local file disk.package mainimport (\"context\"\"fmt\"\"io/ioutil\"\"log\"\"\"cdp \"github.com/knq/chromedp\"cdptypes \"github.com/knq/chromedp/cdp\")func main() {var err error// create contextctxt, cancel := context.withcancel(context.background())defer cancel()// create chrome instancec, err := cdp.(ctxt) err != nil {log.fatal(err)}// run task listvar site, res stringerr = c.run(ctxt, googlesearch(\"site:brank.\", \"easy money management\", &site, &res)) err != nil {log.fatal(err)}// shutdown chromeerr = c.shutdown(ctxt) err != nil {log.fatal(err)}// wait chrome finisherr = c.wait() err != nil {log.fatal(err)}log.printf(\"saved screenshot #testimonials search result listing `%s` (%s)\", res, site)}func googlesearch(q, text string, site, res *string) cdp.tasks {var buf []bytesel := fmt.sprintf(`//[text()[contains(., '%s')]]`, text)return cdp.tasks{cdp.navigate(`https://www.google.com`),cdp.sleep(2 * .second),cdp.waitvisible(`#hplogo`, cdp.byid),cdp.sendkeys(`#lst-ib`, q+\"\", cdp.byid),cdp.waitvisible(`#res`, cdp.byid),cdp.text(sel, res),cdp.click(sel),cdp.sleep(2 * .second),cdp.waitvisible(`#footer`, cdp.byquery),cdp.waitnotvisible(`div.v-middle > div.la-ball-clip-rotate`, cdp.byquery),cdp.location(site),cdp.screenshot(`#testimonials`, &buf, cdp.byid),cdp.actionfunc(func(context.context, cdptypes.framehandler) error {return ioutil.writefile(\"testimonials.png\", buf, 0644)}),}}please the examples directory some more examples, please refer the godoc api listing a summary the api actions.todomove timeouts context (defaults)implement more query selector options (allow riding context timeouts)contextual actions \"dry run\" ( via accumulator?)network loader / managerprofiler"
+}

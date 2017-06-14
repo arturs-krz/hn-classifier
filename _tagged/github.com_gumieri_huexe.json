@@ -1,0 +1,22 @@
+{
+	"_id": "14505885",
+	"site": "https://github.com/gumieri/huexe",
+	"title": " exe (Go Lang) to Turn On/Off Hue Lamp",
+	"author": "garou",
+	"date": "2017-06-13T13:04:20.009Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"hue-lights",
+			"go",
+			"philips-hue",
+			"executable",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": "readme.md huexe group executables turn / off (switch) dim (dimmer) / bright (brighter) specific philips hue lamp.installationdownload package your operating system huexe/releases extract where prefer. the setup executable generate config.yml. will search the philips hue bridge your network using meethue.com/api/nupnp. the others executables this same config.yml. will need open file a text editor configure manualy rest. you to control lamps, create copy this installation edit id the desired .configurationsidrefers the lamp id the philips hue bridge api. requesting api all lamps 's key refering json object, state, type, etc.. is the uniqueid, modelid nor luminaireuniqueid.address philips hue bridge ip address.username's hash key / token generated the philips hue bridge api registered device / user.follow official getting started guide get username.stepsrefers how much execution dimmer / brighter dim / bright. brightness a hue lamp goes 1 254, it accept integer values. this the default value steps is 25, a total 10 executions minimum maximum bright.exampleid: 1address: 192.168.1.2username: 249ba36000029bbe97499c03db5a9001f6b734ecsteps: 25code statuslicensehuexe is released under mit license."
+}

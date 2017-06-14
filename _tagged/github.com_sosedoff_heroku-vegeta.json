@@ -1,0 +1,18 @@
+{
+	"_id": "14281570",
+	"site": "https://github.com/sosedoff/heroku-vegeta",
+	"title": " Using Heroku as a distributed load testing platform",
+	"author": "sosedoff",
+	"date": "2017-06-13T13:32:02.403Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"ruby",
+			"shell"
+		]
+	},
+	"content": "readme.md heroku-vegetarun vegeta a distributed load testing tool heroku free. project has goals: explore diffent ways deployapplications heroku platform provide simple tool easily run variousload testing scenarios.usageclone repository:git clone https://github.com/sosedoff/heroku-vegeta.gitcd heroku-vegeta sure heroku cli is working:heroku appscopy example configuration file:cp config.json.example config.json you changes config file, run setup command:./script/setuponce done, can start test:./script/run sure remove test apps you're done:./script/teardownconfigexample configuration testing:{ \"nodes\": 3, \"targets\": \" https://mywebsite.com\", \"duration\": \"30s\", \"rate\": \"50\"}options:nodes - number heroku applications spawntargets - list urls hitduration - test duration. 10s, 30s, 1m, 5m, etcrate - number requests per second per nodelicense mit license (mit)copyright (c) 2017 dan sosedoff dan.sosedoff@gmail.com"
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14272998",
+	"site": "https://github.com/egcodes/raceCarSelfDrivingAndManuelControl",
+	"title": " SelfDriving and ManuelControl Arduino code",
+	"author": "egcodes",
+	"date": "2017-06-13T13:32:02.941Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"arduino",
+			"self-driving-car",
+			"dc-motor-driver"
+		],
+		"languages": [
+			"arduino"
+		]
+	},
+	"content": "readme.md racecarselfdrivingandmanuelcontroldemo video: http://egcodes.blogspot.com/2017/03/arduinomotorshield-bluetooth-pingsensor.htmlrequired librarynewpingafmotor"
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "14520101",
+	"site": "https://github.com/yangshun/mac-terminal-shortcuts",
+	"title": "Mac Terminal Shortcuts for Hackers",
+	"author": "yangshun",
+	"date": "2017-06-13T14:09:47.337Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"terminal",
+			"macos",
+			"shortcuts",
+			"keyboard"
+		],
+		"languages": []
+	},
+	"content": "readme.md mac terminal shortcuts list useful terminal shortcuts macos. obscure shortcuts capitalizing words are purposely omitted.note: use alt key shortcuts macos:open terminal > preferences > profiles tab > keyboard tab > check \" option meta key\"cursor movementshortcutdescriptionctrl + emove cursor end the linectrl + move cursor start the linectrl + fmove cursor character forwardctrl + bmove cursor character backwardalt + f / alt + rightmove cursor word forwardalt + b / alt + leftmove cursor word backwardalt + clickmove cursor clicked characterctrl + xxtoggle between start line cursor positioneditingcommands \"cut\" add cut portion the clipboard.shortcutdescriptionctrl + lclears screenctrl + ddelete character under cursorctrl + hdelete character before cursorctrl + kcut everything the cursor end the linectrl + w / alt + backspacecut current word before cursoralt + ddelete word the cursorctrl + ucut line before cursorctrl + ypaste previous cut textctrl + _undo last key press. can repeat to undo multiple timesctrl + tswap last characters before cursoresc + tswap last words before cursorhistoryshortcutdescriptionctrl + pprevious commandctrl + rnext commandctrl + sforward searchctrl + rreverse searchctrl + oend search execute commandctrl + gabort search (restores original line)processshortcutdescriptionctrl + ckills current task (sigint)ctrl + dinserts eofctrl + zpauses current taskctrl + sstop output the screen ( long running verbose commands)ctrl + qallow output the screen ( previously stopped using stop output command)"
+}

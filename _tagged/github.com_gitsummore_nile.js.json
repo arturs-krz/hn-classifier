@@ -1,0 +1,24 @@
+{
+	"_id": "14401393",
+	"site": "https://github.com/gitsummore/nile.js",
+	"title": "Introducing Nile.js, a Peer-To-Peer Live Video Streaming Library",
+	"author": "kbbqiu",
+	"date": "2017-06-13T13:56:41.779Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webtorrent",
+			"webrtc",
+			"livestream",
+			"distributed",
+			"peer-to-peer",
+			"torrent"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md nile.js tool scalable peer--peer video streaming using webtorrent.why webtorrent? using collective power webtorrent, video streams progressively stronger more peers contribute a torrent. torrents, is possible users access previous parts a stream unlike traditional webrtc video streaming.server is plug--play middleware receives torrent link the broadcasting client sets the proper socket.io connections the viewing clients.broadcaster is client component records video a device's camera, saving to generated torrent files, sending those torrents' magnet link to viewing clients.viewer is client views the broadcaster is recording. receives torrent magnet link renders video that torrent an injected video tag using webtorrent.usageservernile.js utilizes express middleware socket.io receive torrent information, broadcast to many clients can comfortably handle will send out the rest the clients. use , require nileserver our package pass the node server instance 're using. express, can this instance calling app.listen.'ll need pass the number websockets server has maintain. let's 10 now.here's you use in server:const server = app.listen(8000);const socketlimit = 10;const nileserver = require('nile.js/nileserver')(server, 10); add nile.js middleware w/ app.:app.('/', nileserver);note this middleware use \"magnet\" route accept post requests the magnet link the broadcaster.clientbroadcaster using file bundler e.g. (webpack), may import module.import { broadcaster } 'nile.js' you want test module without bundling, is currently being hosted unpkg cdn. it a script your html file.https://unpkg.com/nile.js@1.0.11/client/dist/nile.broadcaster.min.js4 parameters:recordinterval - interval the webcam recording should seed each segment the video (ms)videonodeidforplayback - id the video node the html where broadcaster see own recordingstartstreamid - id the button node begins recording/live streamingstopstreamid - id the button node ends recording/live streaming broadcaster object is used stream video a torrent send torrent link the server then the network viewers. torrents are immutable, approximate streaming torrents setting recordinterval, milliseconds. sets long each clip be before being sent via torrent. our experience, recommend interval 6000-10000 (6-10 seconds).next, pass the id the video tag 'd to view recording playback as as button ids the starting stopping stream.example:const broadcaster = broadcaster(8000, 'video', 'button-play-gum', 'button-stop-gum');viewer using file bundler e.g. (webpack), may import module.import { viewer } 'nile.js' you want test module without bundling, is currently being hosted unpkg cdn. it a script your html file.https://unpkg.com/nile.js@1.0.11/client/dist/nile.viewer.min.js2 parameters:id_of_nodetorendervideo - id dom element render live feed addediceservers - array extra webrtc ice servers, based this interface laid by w3c viewer object receives torrent links socket.io rtcdatachannel connections progressively renders videos the torrents the supplied id, id_of_nodetorendervideo.example:const viewer = viewer('videos'); viewer maintains webrtc connections, to parent (client closest server) a child client (farther server). two connections create chain clients propagate server-sent torrent information down subsequent viewers down chain. the event a client disconnecting, disconnecting viewer let immediate child client and tell to reconnect its parent. maintains network integrity ensures the stream still reach every client that chain."
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14367662",
+	"site": "https://github.com/flang-compiler/flang",
+	"title": "Flang – A Fortran compiler targeting LLVM",
+	"author": "swills",
+	"date": "2017-06-13T13:57:06.982Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"fortran",
+			"roff",
+			"other"
+		]
+	},
+	"content": "readme.md flangflang is fortran compiler targeting llvm.prerequisitesbuilding llvm requires fairly modern compiler toolchain cmake, check getting started llvm building llvm cmake the full list.dependenciesllvmopenmp-llvmmodified clang latest llvm version support is 3.9buildingcustom install location command-line examples provided below install everything the default system location. specify custom install location, add -dcmake_install_prefix=//directory each the cmake commands given below. using custom install location, must sure the bin directory is your path building running flang.flang is developed outside the llvm source tree.step--step instructions llvm 3.9, build install according instructionscd where//want//buildgit clone https://github.com/llvm-mirror/llvm.gitcd llvmgit checkout release_39mkdir build && cd buildcmake .. sudo install the modified clang flang, build install (3.9)cd where//want//buildgit clone https://github.com/flang-compiler/clang.gitcd clanggit checkout flang_release_39mkdir build && cd buildcmake ..sudo installbuild install openmp-llvm (3.9)cd where//want//buildgit clone https://github.com/llvm-mirror/openmp.gitcd openmp/runtimegit checkout release_39mkdir build && cd buildcmake ..sudo installbuild install flang componentscd where//want//buildgit clone https://github.com/flang-compiler/flang.gitcd flangmkdir build && cd buildcmake -dcmake_cxx_compiler=clang++ -dcmake_c_compiler=clang -dcmake_fortran_compiler=flang ..sudo installusing flang test installation, create simple \"hello world\" program, the following:program hello print *, 'hello world' endnext, compile program the following manner. will assume program is called hello.f90% flang hello.f90 the build succeeds, you execute program the following manner:% ./.outcompiler options a list compiler options, enter% flang -help flang compiler supports accepts clang 3.9 compiler options supports many, well the following flang-specific compiler options:-noflanglibs not link against flang libraries-mp enable openmp link with openmp library libomp-nomp not link openmp library libomp-mbackslash treat backslash character a c-style escape character-mno-backslash treat backslash any character-mbyteswapio swap byte-order unformatted input/output-mfixed assume fixed-format source-mextened allow source lines to 132 characters-mfreeform assume free-format source-mpreprocess run preprocessor fortran files-mrecursive generate code allow recursive subprograms-mstandard check standard conformance-msave assume variables save attribute-module path module file (- also works)-mallocatable=95 select fortran 95 semantics assignments allocatable objects (default)-mallocatable=03 select fortran 03 semantics assignments allocatable objects-static-flang-libs link using static flang libraries-m[]daz treat denormalized numbers zero-m[]flushz set sse flush--zero mode-mcache_align align large objects cache-line boundaries-m[]fprelaxed option is ignored-fdefault-integer-8 treat integer logical integer*8 logical*8-fdefault-real-8 treat real real*8-i8 treat integer logical integer*8 logical*8-r8 treat real real*8-fno-fortran-main don't link fortran main"
+}

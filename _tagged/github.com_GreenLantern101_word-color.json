@@ -1,0 +1,21 @@
+{
+	"_id": "14414871",
+	"site": "https://github.com/GreenLantern101/word-color",
+	"title": "Cool word-color association",
+	"author": "8food",
+	"date": "2017-06-13T13:56:31.731Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"color",
+			"color-palette",
+			"words",
+			"association"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md word-color creates word-color associations.examples:try out!live demo locally:$ npm install$ npm start to http://localhost:8000 your browser. ahead. type a word. its associated color palette. it worksscrapes top images the word search engines. each image, mmcq (modified median cut quantization) extract palette dominant colors.average palettes all images get final palette.somewhat slow. don't worry, optimizations are coming."
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "14276043",
+	"site": "https://github.com/kingreza/UIDiagonal",
+	"title": " UIDiagonal, a tvOS controller inspired by Hulu's splash screen",
+	"author": "rezashirazian",
+	"date": "2017-06-13T13:32:02.828Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": "readme.md uidiagonaluidiagonal is interactive tvos controller inspired hulu's tvos splash screen. user select item the uidiagonalview using siri remote.uidiagonal uses focus engine navigate one cell another.original hulu tvos splash screen:uidiagonal controller implementation:uidiagonal automatically resizes depending the number cells:3 items:14 items:"
+}

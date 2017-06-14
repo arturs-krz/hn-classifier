@@ -1,0 +1,21 @@
+{
+	"_id": "14421991",
+	"site": "https://github.com/csurfer/gitsuggest",
+	"title": " Gitsuggest – Suggest GitHub repositories based on your interests",
+	"author": "c5urf3r",
+	"date": "2017-06-13T13:06:43.880Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"github",
+			"repository",
+			"suggestion-engine",
+			"lda-model",
+			"nltk"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst gitsuggest tool suggest github repositories based the repositories have showninterest .whats happening here?programs must written people read, only incidentally machines execute. ~ hal abelson quick to become better programmer is reading code written smart. github makes finding such code/repositories easy. the end the we are interested our own specific areas we express interest \"starring\" repositories /or \"following\" who contribute suchrepositories. is tool uses repositories have starred the repositories people follow starred help discover repositories might of interest you. fast is ?it totally depends the number repositories have, people follow starred. based this number might anywhere between minute two minutes give the list suggested repositories.setupusing pippip install gitsuggestdirectly the repositorygit clone --recursive https://github.com/csurfer/gitsuggest.gitpython gitsuggest/setup.py installpost setup you a stopwords error, means you not the corpusstopwords downloaded nltk. can download using command below.python -c \"import nltk; nltk.download('stopwords')\"usage a command# help usagegitsuggest --help# just username command provide password secretlygitsuggest <username># password be skipped means chose go unauthenticated# which may raise ratelimitexceeded exception.# note: using this generates static html page the search# results. gets opened in default browser. a module gitsuggest import gitsuggestgs = gitsuggest(<username>, <password>)# use without authenticating# gs = gitsuggest(<username>)# get iterator suggested repositories.gs.get_suggested_repositories()faqwhy we need authenticate ( password) get suggestions, browsegihub the without authenticating? don't. v0.0.4 can choose procure suggestions without actuallyauthenticating a password, know access github through api ishighly rate limited it is much lesser unauthenticated requests compared authenticated ones. more details ratelimits. this means is when used without password (unauthenticated) mayfail ratelimitexceeded exception.contributingbug reports feature requestsplease issue tracker reporting bugs feature requests.developmentpull requests are welcome."
+}

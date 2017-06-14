@@ -1,0 +1,23 @@
+{
+	"_id": "14437703",
+	"site": "https://github.com/gogits/gogs",
+	"title": "Gogs is a painless self-hosted Git service",
+	"author": "loppers92",
+	"date": "2017-06-13T13:55:34.580Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"gogs",
+			"go",
+			"git"
+		],
+		"languages": [
+			"go",
+			"css",
+			"javascript",
+			"shell",
+			"other"
+		]
+	},
+	"content": "readme.md gogs current tip version: .version ( releases binary versions)webuipreviewimportant notes must read contributing code before starting work a pull request.due testing purpose, data try.gogs.io was reset jan 28, 2015 will reset multiple times . please not put important data the site. demo site try.gogs.io is running under develop branch. you there are vulnerabilities the project, please talk privately u@gogs.io, the name want be credited . thanks! you're interested using apis, have experimental support documentation. your team/company is using gogs would to put logo our website, contact by means.purpose goal this project is make easiest, fastest, most painless of setting a self-hosted git service. go, can done an independent binary distribution across platforms go supports, including linux, mac os x, windows arm.overviewplease the documentation common usages change log. to try before doing anything else? it online!having trouble? help troubleshooting user forum. to help localization? check the guide!featuresactivity timelinessh http/https protocolssmtp/ldap/reverse proxy authenticationreverse proxy sub-pathaccount/organization/repository managementadd/remove repository collaboratorsrepository/organization webhooks (including slack discord)repository git hooks/deploy keysrepository issues, pull requests, wiki protected branchesmigrate mirror repository its wikiweb editor repository files wikijupyter notebook-factor authenticationgravatar federated avatar custom sourcemail serviceadministration panelsupports mysql, postgresql, sqlite3, mssql tidb (via mysql protocol)multi-language support (25 languages)hardware requirements raspberry pi $5 digital ocean droplet is more enough get started. even 64mb ram docker caas.2 cpu cores 512mb ram be baseline teamwork.increase cpu cores your team size gets significantly larger, memory footprint remains low.browser supportplease semantic ui specific versions supported browsers. smallest resolution officially supported is 1024*768, however ui may still right smaller resolutions, no promises fixes.installation sure install prerequisites .there are 5 ways install gogs:install binaryinstall sourceinstall packagesship dockerinstall vagranttutorials to set gogs ubuntu 14.04run own github- service the help dockerdockerized gogs git server alpine postgres 20 minutes lesshost own private github gogs gogs git (chinese) ubuntu 14.04 64 gogs (chinese)installing gogs freebsdgogs raspberry picloudflare full ssl gogs using nginxscreencasts to install gogs a linux server (digitalocean)instalando gogs ubuntu (português)deploy cloudopenshiftcloudronscalewaysandstormsloppy.ioyunohostdplatformsoftware service supportdrone (ci)jenkins (ci)fabric8 (devops)taiga (project management)puppet ()kanboard (project management)bearychat (team communication)hiwork (team communication)gitpitch (markdown presentations)product supportsynology (docker) space (app store)acknowledgmentsthanks egon elbre designing logo.thanks crowdin providing open source translation plan.thanks digitalocean hosting home demo sites.thanks keycdn qiniu providing cdn service.contributors contributors page top 100 contributors. translators public list translators.license project is under mit license. the license file the full license text."
+}

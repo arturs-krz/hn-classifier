@@ -1,0 +1,22 @@
+{
+	"_id": "14163647",
+	"site": "https://github.com/vovkos/doxyrest",
+	"title": " Extreme makeover for Doxygen",
+	"author": "vovkos",
+	"date": "2017-06-13T13:34:46.883Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++",
+			"lua",
+			"cmake",
+			"python",
+			"batchfile",
+			"shell",
+			"tex"
+		]
+	},
+	"content": "readme.rst doxyrestabstractdoxyrest is compiler doxygen xml restructuredtext -- hence, name. parses xml databases generated doxygen, feeds those the lua-based string template engine produces restructuredtext suitable being passed further to python documentation generator sphinx. elaborate pipeline allows building beautiful documentation c/c++ apis little--no changes the existing -source doxygen documentation.samplescheck the results doxyrest' handiwork application a few open-source projects:libusbsphinx_rtd_themesphinxdocvsoriginallibsshsphinx_rtd_themesphinxdocvsoriginalalsa librarysphinx_rtd_themesphinxdocvsoriginalapache portable runtimesphinx_rtd_themesphinxdocvsoriginal best part doxyrest approach is: 's modular 100% customizable! can play sphinx themes change visual appearance (fonts, colors, page layout, etc). you adjust lua frames more drastic effects -- tweaking declaration coding style changing whole structure documentation! can replace doxygen your own generator doxygen-style xml database then apply very same approach documenting apis any languages:jancy standard librarysphinx_rtd_themequick howtohere is list steps required apply doxyrest existing doxygen-based projects: your doxygen configuration file doxyfile add:generate_xml = yes is recommended turn off xml program listing it vastly increses size xml databases. do , add:xml_programlisting = prepare sphinx configuration file conf.py -- either an existing and fine tune to liking, generate new with sphinx-quickstart. add doxyrest extensions doxyrest cpplexer:sys.path.insert(1, os.path.abspath('$doxyrest_sphinx_dir'))extensions += ['doxyrest', 'cpplexer']usually, doxygen-based documentation has main page (created the \\mainpage directive). that's case, add to avoid build warnings ( page be force-included):exclude_patterns += ['page_index.rst']run doxygen generate xml database. exact of doing depends the project; may like: doc:cmake --build . --target doc simply:doxygenrun doxyrest build restructuredtext documentation the xml database obtained the previous step:doxyrest $doxygen_xml_dir/index.xml -o $tmp_rst_dir/index.rst -f $doxyrest_frame_dir -f c_index.rst.if project has main page, add following the command line: -d g_introfile=page_index.rst force-include contents the main page index.rst.finally, run sphinx build html pages:sphinx-build -b html $tmp_rst_dir $output_html_dir open $output_html_dir/index.html enjoy new awesome of documentation! course, can follow build logs travis ci -- always great to reproduce build steps.documentationfollow links below additional information:doxyrest manualdoxyrest build guide"
+}

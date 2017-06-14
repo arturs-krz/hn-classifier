@@ -1,0 +1,23 @@
+{
+	"_id": "14534387",
+	"site": "https://github.com/hchasestevens/xpyth",
+	"title": " Writing XPath expressions using native Python syntax",
+	"author": "hchasestevens",
+	"date": "2017-06-13T13:23:08.477Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"xpath-expression",
+			"python",
+			"comprehension",
+			"python-comprehension-syntax",
+			"lxml",
+			"dsl",
+			"metaprogramming"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md xpyth module querying dom tree writing xpath expressions using native python syntax.disclaimerxpyth is poorly tested, has known issues, in general should be used production.example usage>>> xpyth import xpath, dom, x>>> xpath(x x dom x.name == 'main')\"//*[@name='main']\">>> xpath(span div dom span div div.id == 'main')\"//div[@id='main']//span\">>> xpath( for in dom '.com' in .href)\"//[not(contains(@href, '.com'))]\">>> xpath(.href a dom any(p p a.ancestors p.id))\"//[./ancestor::p[@id]]/@href\">>> xpath(x.data-bind x dom x.data-bind == '1')\"//*[@data-bind='1']/@data-bind\">>> xpath(... form.action ... form dom ... all(... input ... input form.children ... input.value == ''... )... )\"//form[(./input[(@value='')])]/@action\">>> allowed_ids = list('abc')>>> xpath(x x dom x.id allowed_ids)\"//*[@id='' or @id='b' @id='c']\"motivationxpath is de facto standard querying xml html documents. python ( most languages), xpath expressions are represented strings; not constitutes potential security threat, also means developers are denied standard text-editor ide features such syntax highlighting autocomplete writing xpaths. furthermore, having become familiar xpath ( css selectors) presents barrier entry developers want interact the web.great inroads been made various programming languages allowing use native list-comprehension- syntax generate sql queries. xpyth piggybacks off such effort, pony, extend functionality xpath. anyone familiar python comprehension syntax query xml/html documents quickly easily. moreover, xpyth integrates the popular lxml library enable developers go beyond querying capabilities xpath ( necessary).installationeasy_install xpythxpyth has following dependencies:lxml (3.4.2)pony (0.6.1) with lxmlxpyth supports querying lxml elementtrees using query function. example, given document<html> <div id='main' class='main'> < href='http://www.google.com'>google</> <a href='http://www.chasestevens.com'> google</> <p>lorem ipsum</p> <p id='123'> numbers here</p> <p id='numbers_only'>123</p> </div> <div id='123' class='secondary'> < href='http://www.google.org'>google charity</> <a href='http://www.chasestevens.org'>broken link!</> </div></html>accessible the elementtree tree, following be executed:>>> len(query( for in tree))4>>> query( for in tree 'not google' in .text)[0].attrib.('href')\"http://www.google.com\">>> next(... node ... node ... query(... p ... p ... tree ... p.id... ) ... re.match(r'\\d+', node.attrib.('id'))... ).text\"123\"known issueshtml tag names contain special characters (dashes) cannot selected, they violate python's generator comprehension syntax. html attributes containing dashes, e.g. data-bind, normally. use all is quite buggy, e.g. following return incorrect expressions:>>> xpath(x x dom all(p.id ('a', 'b') p x))\"//*[(.//p/@id='' or //p/@id='b')]\" # expected \"//*[(.//p/@id='' or .//p/@id='b')]\">>> xpath(x x dom all('x' p.id p x))\"//*[(.contains(@id, //p))]\" # expected \"//*[(.//p[(contains(@id, 'x'))])]\"contactsname: h. chase stevenstwitter: @hchasestevens"
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "14438359",
+	"site": "https://github.com/rasbt/deep-learning-book/tree/master/code/model_zoo",
+	"title": "A collection of standalone TensorFlow models in Jupyter Notebooks",
+	"author": "rbanffy",
+	"date": "2017-06-13T13:55:34.841Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md model zoo collection standalone tensorflow models jupyter notebooksclassifiersperceptronlogistic regressionsoftmax regression (multinomial logistic regression)multilayer perceptronmultilayer perceptron dropoutmultilayer perceptron batch normalizationmultilayer perceptron backpropagation scratchconvolutional neural networkconvolutional neural network vgg-16autoencodersautoencoderconvolutional autoencoder deconvolutionsconvolutional autoencoder nearest-neighbor interpolationgeneral adversarial networksgeneral adversarial networksconvolutional general adversarial networkssaving loading trained models -- tensorflow checkpoint files numpy npz archiveschunking image dataset minibatch training using numpy npz archives"
+}

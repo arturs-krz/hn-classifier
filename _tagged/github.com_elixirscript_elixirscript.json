@@ -1,0 +1,21 @@
+{
+	"_id": "14339007",
+	"site": "https://github.com/elixirscript/elixirscript",
+	"title": "Elixirscript: Convert Elixir Code to JavaScript",
+	"author": "neya",
+	"date": "2017-06-13T13:58:20.120Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"elixir",
+			"javascript",
+			"transpiler",
+			"compiler"
+		],
+		"languages": [
+			"elixir",
+			"javascript"
+		]
+	},
+	"content": "readme.md elixirscript goal is convert subset ( full set) elixir code javascript, providing ability write javascript elixir. is done taking elixir ast converting into javascript ast then javascript code. is done using elixir-estree library.requirementselixirnode ( for development)usageplease check getting started guide usagefaq, limitationsplease check faqdevelopmentclone repogit clone git@github.com:bryanjos/elixirscript.git dependenciesmix deps.yarncreate elixir.bootstrap.jsyarn buildcompilemix compiletestmix testyarn testbuildmix_env=prod mix clean, compile, dist will build tarball the dist folder. default escript built look the folder above for core javascript files needed elixirscript. change location,update lib_path config variable the :elixir_script config block the path look and do clean build.communicationgitter room#elixirscript the elixir-lang slackcontributingplease check contributing.mdexample projectshello shows using phoenix + elixirscript file watchingelixirscript frontend boilerplate boilerplate project elixirscript frontendselixirscript react example example using reactelixirscript aws lambda exampleusing brunch is plugin using elixirscript your brunch projecthereusing webpack is loader using elixirscript your webpack projecthere1.0 roadmap is 1.0.0 milestone defined includes issues are needed be cleared before 1.0 be reached."
+}

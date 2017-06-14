@@ -1,0 +1,18 @@
+{
+	"_id": "14194655",
+	"site": "https://github.com/macadev/Gibbon-Tabs",
+	"title": " Gibbon Tabs – A simple Chrome extension to help you manage your tabs",
+	"author": "climber_mac",
+	"date": "2017-06-13T13:33:07.444Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md gibbon tabs chrome extension help navigate tab jungle ease. click this image see 1 minute demo gibbon tabs.featurestab managementsearch jump tabs title url, across your windows.quickly delete tabs while being able see title url.keyboard shortcuts navigation tab deletion make very fast.save tabs latertab snapshots let save your open tabs you close and open later. can a snapshot all windows, just currently active .snapshots are synchronized across your devices running chrome gibbon tabs. a snapshot ...the internal sites open work every morning! the websites use procrastinate. waste lots time more effectively! giant hairy ball tabs don't to close, you sure hell don't to home the end the either. free mind!snapshots are synchronized your google profile using chrome.storage.sync - don't access your history. data is stored securely google's servers.requirements you need is google chrome. pretty much version work!installation to chrome store page install extension. is highly recommended you assign keyboard shortcut the gibbon tabs extension. order do open chrome://extensions (type url a tab)scroll the bottom the page click \"keyboard shortcuts\" ( image below). assign gibbon tabs keyboard shortcut shown the image below. refresh chrome://extension page the shortcut become active!usagepress shortcut assigned click the extension icon your browser activate .type begin searching. search box is always highlighted.press enter activate tab. click it. the and down keys navigate tabs list.press shift+backspace delete currently highlighted tab the tabs list. can delete tabs clicking the x the right side each tab the list.press ctrl while extension is open highlight currently active tab. you haven't entered search query list shows tabs ordered left right by window. lets quickly find neighbouring tabs the active window. are shortcuts \"tab snapshots\". use once you'll learn it works!why i need ?if suffer one the following:having dozens tabs open one multiple windows.constantly fiddling keyboard shortcuts find tab need, worse, using mouse/trackpad. horrible confusion ensues the tab favicons disappear you too many open tabs. below: welcome tab hell. can throw yourself the lava pit .heartache wrist pain. gibbon tabs is you! using gibbon tabs. technical detailsfuzzy search library used: fuse wanted implement without using javascript frameworks. 's pure javascript. parts the code got bit sphagetti-ed along way. don't tons experience frontend. learned lot! css is bit a hack. also learned ton here. was hardest part this project? writing damn readme.donate you love project want help continued development, consider donating bitcoin the following address 19r4f9gas9s1wa7rw8uhppn5ebxycldpr2 donations help buy coffee train rides montreal ( large chunk this project was completed the train montreal toronto, believe or . i am amazingly productive while trains). have many ideas developer tools i can a pretty big impact your workflow, you expect more awesome things come.thanks the stranger sent 0.00123977 btc. made first dollar the internet! woah!"
+}

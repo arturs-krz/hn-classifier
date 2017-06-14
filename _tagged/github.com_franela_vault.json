@@ -1,0 +1,22 @@
+{
+	"_id": "14412543",
+	"site": "https://github.com/franela/vault",
+	"title": " A secure cross-platform KV store wrapped around GPG",
+	"author": "xetorthio",
+	"date": "2017-06-13T13:06:44.395Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"gpg",
+			"password",
+			"git",
+			"vault"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md vault is vault?vault is secure cross-platform kv store wrapped around gpg makes team collaboraion extremely easy. can define many vaults needed use rightaway without changing configuration all.why vault? security is something really important us we it seriously really simplifies friction work gpg between multiple teams recipients needed something was easy use platform agnostic was fun do and learn during process can do vault?using vault is super easy. below is list all possible operations:vault init - creates new vault the directory 're locatedvault add - adds or more recipients your vault. vault automatically re-encrypt your files the recipientvault set - stores something (text file) your vault encrypts for of vault recipientsvault - retrieves encrypted file your vault decrypts .vault edit - decrypts file opens in default editor re-encrypts after save exit.vault remove - removes specified recipients the vault. will automatally keep te integrity your vault upgrading encrypted recipientsvault import - imports the current recipients your vault. alternatively can specifiy keyserver import vault recipients - lists vault recipients it's current status the user keyring (missing / untrusted / trusted) .e: sounds cool, where i it? can find vault your favorite distrution below: more distributions source code be found hereinstallingdownload correct binary your distribution (clck images above) your path check gpg installed.contributing're always working improve vault, if find bug you want collaborate can send your pr (include tests possible)."
+}

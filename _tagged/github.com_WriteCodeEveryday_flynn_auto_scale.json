@@ -1,0 +1,19 @@
+{
+	"_id": "14445608",
+	"site": "https://github.com/WriteCodeEveryday/flynn_auto_scale",
+	"title": " FlynnAutoScale – A Rails Gem for Flynn Auto Scaling",
+	"author": "WrtCdEvrydy",
+	"date": "2017-06-13T13:06:17.761Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md warning: gem is active development may some serious bugs.flynnautoscale gem allows rails apps self-scale they need more more resources under flynn. comes an automated mode can used \"day day\" web hosting operations a manual mode where can control scaling operations place ( scripts, background jobs anything else)installationadd line your application's gemfile:gem 'flynn_auto_scale' then execute:$ bundle sure migrate installing gem ( makes of activerecord keep autoscaler working) order get and running quickly, please set the following env variables.failure set some these cause \"bad things happen\", ensure read section.# are minimum required items [connecting a cluster](https://flynn.io/docs/cli#adding-clusters)flynn_setup_cluster_pinflynn_setup_cluster_nameflynn_setup_cluster_controller_domainflynn_setup_cluster_controller_keyflynn_setup_cluster_app_name - app name be scaled.# are configuration variables are used customize flynnautoscale handle scaling events.flynn_auto_scale - present, flynnautoscale attempt auto scaling operations -> (default: nothing)flynn_auto_scale_ram - amount ram mb 'd flynnautoscale consider scaling -> (default: 256)flynn_auto_scale_cooldown - long wait you scaled ( seconds) before scaling again -> (default: 0)flynn_limit_instances_manual_mode - present, whether manual mode should follow instance limits -> (default: ignore limits)flynn_min_instances - minimum number instances -> (default: 1)flynn_max_instances - maximum number instances -> (default: 2)add following the top your application_controller.rb get started auto scaling.# should a single linearound_action def scale; yield; flynnautoscale::scaler.auto_scale('web'); endusage a more advanced of scaler, can directly call manual scaler yourself.# can pass process name: 'console', 'web', 'worker'.flynnautoscale::scaler.scale_manual('web', 2)contributing's open source repo, fork thing, some changes, i'll put on list cool making flynn + rails great again. am looking a partner crime two turn database scaling changes a nice dashboard ( la sidekiq's web_ui). can it, it's gonna super butt ugly i it alone.license gem is available open source under cc0 terms."
+}

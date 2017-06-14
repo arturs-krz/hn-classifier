@@ -1,0 +1,26 @@
+{
+	"_id": "14514670",
+	"site": "https://github.com/shaohua0116/SSGAN-Tensorflow",
+	"title": "Tensorflow Semi-Supervised Learning Generative Adversarial Networks",
+	"author": "j_s",
+	"date": "2017-06-13T14:09:57.464Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tensorflow",
+			"ssgan",
+			"semi-supervised-learning",
+			"gan",
+			"generative-adversarial-network",
+			"image-classification",
+			"mnist",
+			"mnist-classification",
+			"cifar10",
+			"svhn"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md semi-supervised learning gan tensorflow part the implementation series joseph lim's group usc, motivation is accelerate ( sometimes delay) research the ai community promoting open-source projects. this end, implement state--the-art research papers, publicly share with concise reports. please visit group github site other projects. project is implemented shao-hua sun the codes been reviewed jiayuan mao before being published.descriptions project is tensorflow implementation semi-supervised learning generative adversarial networks proposed the paper improved techniques training gans. intuition is exploiting samples generated gan generators boost performance image classification tasks improving generalization. sum, main idea is training network playing both roles a classifier performing image classification task well a discriminator trained distinguish generated samples produced a generator the real data. be more specific, discriminator/classifier takes image input classified into n+1 classes, where n is number classes a classification task. true samples are classified the n classes generated samples are classified the n+1-th class, shown the figure below. loss this multi-task learning framework be decomposed the supervised loss, the gan loss a discriminator,during training phase, jointly minimize total loss obtained simply combining two losses together. implemented model is trained tested three publicly available datasets: mnist, svhn, cifar-10.note this implementation follows main idea the original paper while differing lot implementation details such model architectures, hyperparameters, applied optimizer, etc. , some useful training tricks applied this implementation are stated the end this readme.* code is still being developed subject change.prerequisitespython 2.7 python 3.3+tensorflow 1.0.0scipynumpyusagedownload datasets :$ python download.py --dataset mnist svhn cifar10train models downloaded datasets:$ python trainer.py --dataset mnist$ python trainer.py --dataset svhn$ python trainer.py --dataset cifar10test models saved checkpoints:$ python evaler.py --dataset mnist --checkpoint ckpt_dir$ python evaler.py --dataset svhn --checkpoint ckpt_dir$ python evaler.py --dataset cifar10 --checkpoint ckpt_dir ckpt_dir should like: train_dir/default-mnist_lr_0.0001_update_g5_d1-20170101-194957/model-1001train test own datasets:create directory$ mkdir datasets/your_datasetstore data an h5py file datasets/your_dataset/data.hy each data point contains'image': has shape [h, w, c], where c is number channels (grayscale images: 1, color images: 3)'label': represented an -hot vectormaintain list datasets/your_dataset/id.txt listing ids all data pointsmodify trainer.py including args, data_info, etc.finally, train test models:$ python trainer.py --dataset your_dataset$ python evaler.py --dataset your_datasetresultsmnistgenerated samples (100th epochs) 40 epochssvhngenerated samples (100th epochs) 160 epochscifar-10generated samples (1000th epochs) 200 epochstraining detailsmnist supervised loss loss discriminatord_loss_reald_loss_faked_loss (total loss) loss generatorg_lossclassification accuracysvhn supervised loss loss discriminatord_loss_reald_loss_faked_loss (total loss) loss generatorg_lossclassification accuracycifar-10 supervised loss loss discriminatord_loss_reald_loss_faked_loss (total loss) loss generatorg_lossclassification accuracytraining tricks avoid fast convergence the discriminator network generator network is updated more frequently.higher learning rate is applied the training the generator.-sided label smoothing is applied the positive labels.gradient clipping trick is applied stablize trainingreconstruction loss an annealed weight is applied an auxiliary loss help generator rid the initial local minimum.utilize adam optimizer higher momentum.please refer the codes more details.related worksunsupervised semi-supervised learning categorical generative adversarial networks springenbergsemi-supervised learning generative adversarial networks odena semi-supervised learning requires bad gan dai et. al. implementation deep convolutional generative adversarial networks tensorflow architecture diagram is modified the drawn unsupervised representation learning deep convolutional generative adversarial networksacknowledgementpart codes is an unpublished project jongwook choi"
+}

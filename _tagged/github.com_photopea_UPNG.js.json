@@ -1,0 +1,16 @@
+{
+	"_id": "14429184",
+	"site": "https://github.com/photopea/UPNG.js",
+	"title": "UPNG.js – Fast and advanced PNG encoder and decoder",
+	"author": "asaibx",
+	"date": "2017-06-13T13:55:35.130Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md upng.js small, fast advanced png encoder decoder. is main png engine photopea image editor.examples pngs minified upng.jstry upng.js photopea - open image press file - save web, play the qualitysupport by making donation.encoderupng.encode(rgba, w, h, cnum)rgba: arraybuffer containing pixel data (rgba, 8 bits per channel)w, h : width height the imagecnum: number colors the result; 0: colors (lossless png)returns arraybuffer binary data a png fileupng.js do lossy minification png files, similar tinypng other tools. performs color quantization using k-means algorithm.lossy compression is allowed the last parameter cnum. set to zero a lossless compression, write number allowed colors the image. smaller values produce smaller files. just 0 lossless / 256 lossy.decodersupports color types (including grayscale palettes), channel depths (1, 2, 4, 8, 16), interlaced images etc. opens pngs other libraries not open (tested pngsuite).upng.decode(buffer)buffer: arraybuffer containing png filereturns image object following properties:width: width the imageheight: height the imagedepth: number bits per channelctype: color type the file (truecolor, grayscale, palette ...)tabs: additional chunks the png filedata: pixel data the imagepng files may a various number channels a various color depth. interpretation data depends the current color type color depth ( the png specification).upng.torgba8(img)img: png image object (returned upng.decode())returns uint8array the image rgba format, 8 bits per channel (ready use ctx.putimagedata() etc.)examplevar img = upng.decode(buff); // put arraybuffer upng.decodevar rgba = upng.torgba8(img).buffer; // upng.torgba8 returns uint8array, size: width * height * 4 bytes.png format uses inflate algorithm. right , upng.js calls pako.js the inflate deflate method."
+}

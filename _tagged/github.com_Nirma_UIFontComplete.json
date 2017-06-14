@@ -1,0 +1,18 @@
+{
+	"_id": "14512494",
+	"site": "https://github.com/Nirma/UIFontComplete",
+	"title": " UIFontComplete",
+	"author": "nirma",
+	"date": "2017-06-13T13:04:19.620Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": "readme.md uifontcomplete working uifont faster less error-proneusage more wasting searching names uifont fonts no more surprises runtime a font name was mistyped. library is simply extension uifont one font enum a case each system font ios.custom font support is available, please keep reading details!instead using string based constructor native uifont:let font = uifont(name: \"arial-bolditalicmt\", size: 12.0) can simply start typing name the font enum let code completion help :this library currently provides different options creating uifont objects. first is calling font name off the provided font enumeration then calling (size:) provide desired size.let myfont = font.helvetica.(size: 12.0) other uifont creation method offered this library is similar the normal uifontconstructor except instead providing string the desired font, case the font enum is provided instead.let font = uifont(font: .arialbolditalicmt, size: 12.0) about custom fonts?custom fonts be added the help the fontrepresentable protocol.simply create own customfont string based enumeration adapts fontrepresentable add case per font you to add so:// your project using custom fontsenum customfont: string, fontrepresentable { case alexbrushregular = \"alexbrush-regular\"}customfont.alexbrushregular.(size: 12.0) // => uifontinstallationcarthage you carthage manage dependencies, simply adduifontcomplete your cartfile:github \"nirma/uifontcomplete\" you carthage build dependencies, sure have added uifontcomplete.framework the \"linked frameworks libraries\" section your target, have included uifontcomplete.framework your carthage framework copying build phase.cocoapods you cocoapods manage dependencies, simply adduifontcomplete your podfile:pod 'uifontcomplete'requirementsxcode 8.0swift 3.0+contribution maintenancefonts available ios are surely subject possible change, when do font enum this library need be updated well. you like help maintain improve library please feel free do .licenseuifontcomplete is free software, may redistributed under terms specified the license file."
+}

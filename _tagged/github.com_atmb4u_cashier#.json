@@ -1,0 +1,24 @@
+{
+	"_id": "14110851",
+	"site": "https://github.com/atmb4u/cashier#",
+	"title": " Persistent caching for python functions",
+	"author": "atmb4u",
+	"date": "2017-06-13T13:35:26.583Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cache",
+			"python",
+			"functions",
+			"persistent",
+			"cashier",
+			"python-functions",
+			"python3",
+			"python2"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md cashierpersistent caching python functionssimply add decorator a python function cache results future . extremely handy you are dealing i/o heavy operations seldom changes cpu intensive functions well.anatomically, once function is called, result the function is cached an sqlite3 database locally, an expiry . there is maximum length the cache prevent cache flooding file system.installationpip install cashier you clone source run setup.pygit clone git@github.com:atmb4u/cashier.gitcd cashierpython setup.py installusage cashier import cache@cache()def complex_function(,b,c,d): return complex_calculation(,b,c,d)advanced usage cashier import cache@cache(cache_file=\"sample.db\", cache_time=7200, cache_length=1000, retry_if_blank=true)def complex_function(, b, c, d): return complex_calculation(, b, c, d)cache_file : sqlite3 file name which cached data should written (defaults .cache)cache_time : long should data cached seconds (defaults 1 )cache_length : many different arguments corresponding data should cached (defaults 10000)retry_if_blank : true, retry the data blank data is cached ( default is false)performance benchmark reproducing results, run python test.py the project root. cache run: 9.932126 seconds caching run: 9.484081 secondscached run: 0.606016 seconds (16 x faster)"
+}

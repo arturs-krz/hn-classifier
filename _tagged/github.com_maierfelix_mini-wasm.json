@@ -1,0 +1,17 @@
+{
+	"_id": "14508285",
+	"site": "https://github.com/maierfelix/mini-wasm",
+	"title": " A tiny WebAssembly compiler",
+	"author": "Schampu",
+	"date": "2017-06-13T13:04:19.853Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md mini-wasm let play itdescription: is small compiler, offering basic c- language compiles webassembly.syntax:i32 fact(i32 n) { (n == 0) { return 1; } return (n * fact(n - 1));};export i32 main(i32 , i32 b) { return (fact( + b));};pipeline:scanner: creates token array of inputparser: eats tokens generates ast of emitter: recursively walks ast (luke astwalker) clumps together uint8 array gets passed into webassemblyapi:contribution:feel free send kind pull request"
+}

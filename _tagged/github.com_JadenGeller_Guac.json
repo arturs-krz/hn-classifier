@@ -1,0 +1,22 @@
+{
+	"_id": "14420827",
+	"site": "https://github.com/JadenGeller/Guac",
+	"title": "Monadic do-notation in Python",
+	"author": "jadengeller",
+	"date": "2017-06-13T13:56:31.482Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"monads",
+			"do-notation",
+			"pypy3",
+			"coroutines",
+			"decorators",
+			"burrito"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md guacguac is package provides monadic -notation,inspired haskell, python. monads provide\"programmable semicolons\" which behavior programs be changed. common, useful monad is list monad, represents non-deterministic computations. list monad makes very easy writebacktracking searches.examplehere's example computes the possible ways can $0.47 change pennies, nickels, dimes, quarters: guac import *@monadic(listmonad)def make_change(amount_still_owed, possible_coins): change = [] # keep adding coins while owe money there are still coins. while amount_still_owed > 0 possible_coins: # \"nondeterministically\" choose whether give anther coin this value. # aka, try both branches, return both results. give_min_coin = yield [true, false] give_min_coin: # coin min_coin = possible_coins[0] change.append(min_coin) amount_still_owed -= min_coin else: # never this coin value again ( this branch!) del possible_coins[0] # did charge the right amount? yield guard(amount_still_owed == 0) # lift result into monad. yield lift(change) print(make_change(27, [1, 5, 10, 25]))running program print list lists, each list containing different set numbers add to 27. can imagine lots cool ways could used, unification parsing! you ever used python's asyncio package, may feelfamiliar. 's asyncio is actually monad! course, don't formalize as such, it be implemented one, it uses coroutines the exact same . unlike asyncio, simply continuescomputation a result is available, library makes possible repeat computation arbitraryyields the coroutine.building own monadsguac comes a few simple monads, it's super easy implement own monad. don't need worry any the coroutine logic---guac handles for . you have implement simplefunctions, lift bind:class listmonad(monad): @staticmethod def lift(x): return [x] @staticmethod def bind(m, f): result = [] elem m: result += f(elem) return result definitions should ideally follow monad laws, though lack types make a bit janky reason .unspecialized monadic computations might noticed you the @monadic decorated turn coroutine a function runs monad. specialize compuation a specific monad instance, pass instance an argument thedecorator. otherwise, create unspecialized monadic computation will inherit instance the caller.here's implementation the guard function used above:@monadicdef guard(condition): condition: yield unit() else: yield empty()handy helper functions unit empty are defined guac. functions require little bitmore a monad. example, empty must implemented addition lift bind your monadclass use functions.usagerequirementsguac requires implementation python 3 supports copy.deepcopy generator functions. mostcommon distribution, cpython, is lacking feature, pypy implements !installation you already the pypy distribution python 3, can install package pip:pypy3 -m pip install guac you don't yet pypy, can download install here. alternatively, you homebrew macos, can run :brew install pypy3"
+}

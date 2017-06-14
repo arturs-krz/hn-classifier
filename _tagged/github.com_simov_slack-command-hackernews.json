@@ -1,0 +1,17 @@
+{
+	"_id": "14475802",
+	"site": "https://github.com/simov/slack-command-hackernews",
+	"title": "HackerNews /slash Command for your Slack team",
+	"author": "simov",
+	"date": "2017-06-13T13:55:02.522Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"slack"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md slack-command-hackernews hackernews slash command slack be used standalone server as middleware any http server framework.table contentsoauth appstandalone serverapimiddlewareoauth appadd slash command your oauth app configure like :command: /hackernewsrequest url: https://something.com/hackernewsshort description: query hackernewsusage hing: [|top|best] [count] is additional argument available:/hackernews help the result is:/hackernews /hackernews 5 displays 5 newest stories/hackernews top 3 displays top 3 stories/hackernews best 10 displays 10 best storiesstandalone servernpm install -g slack-command-hackernewsslack-command-hackernews \\ --config /path//config.json \\ --port 3000 \\ --env productionconfig.json{ \"development\": { \"token\": \"[verification token your oauth app]\" }, \"production\": { \"token\": \"[verification token your oauth app]\" }}apivar hackernews = require('slack-command-hackernews')var config = {token: '[verification token your oauth app]'}var hackernews = hackernews(config)hackernews(input, log) .((attachments) => {}) hackernews constructor accepts config object should contain verification token your oauth app. the hackernews instance is called the input request body object slack sends a user triggers command. log argument should a function logs your server. can pass empty function () => {} suppress logging, pass console.log log everything stdout, implement own wrapper function. example error messages are instanceof error you log those stderr console.error you .lastly returned attachments argument is array slack attachments ready be sent. error occurs is some related the user error attachment be generated, other errors are logged using log function.middleware module be embedded existing http server. here is example how use in express:var hackernews = require('slack-command-hackernews')var express = require('express')var parser = require('body-parser')var config = {token: '[verification token your oauth app]'}var hackernews = hackernews(config)var server = express()server.(parser.urlencoded({extended: true}))server.(parser.json())server.('/hackernews', (req, res) => { hackernews(req.body, console.log) .((attachments) => { res.json({attachments}) })})server.listen(3000)'s important note the module catches errors either returns appropriate error message attachment to user slack, /or logs out the server."
+}

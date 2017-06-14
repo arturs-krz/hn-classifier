@@ -1,0 +1,30 @@
+{
+	"_id": "14486974",
+	"site": "https://github.com/danielsz/certificaat",
+	"title": "Certificaat: General-purpose ACME client",
+	"author": "tosh",
+	"date": "2017-06-13T14:10:07.499Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"acme",
+			"clojure",
+			"bootstrap",
+			"letsencrypt",
+			"acme4j",
+			"certificate",
+			"https",
+			"ssl",
+			"certificate-generation",
+			"certificates",
+			"certificate-request",
+			"command-line",
+			"command-line-tool",
+			"java"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": "readme.org certificaatdefinitioncertificaat is general-purpose acme client, fully compatible the lets encrypt ca.installationdownload latest release, extract archive drop self-contained binary your path.note: java is system requirement.usagecommand linetype certificaat -h familiarize yourself the input expects. default, certificaat talk lets encrypts staging server. resulting certificates be fake. is you practice until are ready issue production certificate. staging uriproduction uri acme://letsencrypt.org/stagingacme://letsencrypt.org get certificate a domain, need run certificaat twice different options: certificaat authorize certificaat requestforever thereafter, certificate be renewed one pass certificaat renew.authorizationcertificaat authorize -m example.com -n www.example.com - joe@example.com -c http-01during phase, certificaat , if needed, register user account the acme ca, gather information the domain want authorize. -m option indicates domain want authorize. will feature the subject name the final x.509 certificate. - option is email address used the ca send expiry reminders. -n option is additional domain name want authorize. will feature the subject alternative name (san) the certificate. repeat option all required names. caution: is hard limit imposed the ca. -c option is challenge want complete. repeat option you to offer ca multiple challenges. -u option is uri the acme ca.before exiting, certificaat display instructions pertaining the challenge. is time satisfy requirements ( example, configuring dns records preparing web server). are ready the second phase.requestcertificaat request -m example.com -n www.example.com -o \"example corp.\" during phase, challenges be triggered , if successfully completed, certificate downloaded saved disk.infocertificaat info -m example.comcertificaat display summary the certificate.renewcertificaat renew -m example.com command be integrated an automated workflow. example, a cron job.5 8 1 * * certificaat renew -m example.com && /usr/sbin/service nginx reloadchallengescertificaat honor challenges defined the acme specification, please note lets encrypt ca does support oob challenge that tls-sni comes two flavors. challengeoption identifierlets encryptcertificaat httphttp-01 dnsdns-01 tls server name indication (sni)tls-sni-01 & tls-sni-02 & -of-bandoob-01data foldercertificaat follows xdg base directory specification. configuration folder is determined querying value xdg_config_home the environment, if set, default $home/.config/certificaat.clojure library addition the command line, certificaat is available clojars a regular clojure library you require your projects.note: single namespace exposes core api is made available all interfaces.bootcertificaat comes boot tasks you integrate your builds. interface offers same functionality the binary, you find the certificaat.interface.boot namespace. a build.boot file, define following tasks use the you fit.(deftask authorize [] (comp (certificaat-setup :domain \"example.com\") (certificaat-authorize :domain \"example.com\" :challenges #{\"dns-01\"} :san #{\"www.example.com\"} :contact \"mailto:joe@example.com\")))(deftask request [] (comp (certificaat-challenge :domain \"example.com\") (certificaat-request :domain \"example.com\" :organisation \"example corp.\" :san #{\"www.example.com\"})))(deftask renew [] (comp (certificaat-renew :domain \"example.com\") (certificaat-info :domain \"example.com\")))contributions you plan submit enhancements beyond bug fixes, please coordinate me beforehand order save everybodys and effort.credits wish thank richard körber wrote java client the acme protocol, acme4j, serves the foundation certificaat. only is well written, is exquisitely documented.licenselicensing terms be revealed shortly. the meantime, what want it."
+}

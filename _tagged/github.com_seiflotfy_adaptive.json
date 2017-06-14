@@ -1,0 +1,16 @@
+{
+	"_id": "14466944",
+	"site": "https://github.com/seiflotfy/adaptive",
+	"title": " Time Adaptive Count-Min Sketches for Summarizing Data Streams",
+	"author": "seiflotfy",
+	"date": "2017-06-13T13:05:02.771Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md adaptive probabilistic datastructure estimate many times did see item \"x\" within timerange \"t\", using set adaptive count-min sketches. adaptive count-min sketch algorithm (ada-cms), is cms with update query mechanisms adapted use pre-emphasis de-emphasis mechanism. more information read post adrian colyer adaptive sketches (ada-sketches) summarizing data streams the official paper the same title anshumali shrivastava, arnd christian könig, mikhail bilenko)usageduration := .duration(720 * .hour) // 720 hours rangeunit := .hour// create sketch queryable // duation = 720 hours range// unit = 1 hour// width per sketch = 2^9// depth per sketch = 8// alpha = 1.004 (used emphasizing de-emphasizing)sks := newsketches(duration, unit, 9, 7, 1.004)item := []byte(\"foo\")t1 := .date(2017, 06, 03, 0, 0, 0, 0, .utc)t2 := t1.add(.hour)t3 := t2.add(.hour)t4 := t3.add(.hour)count1 := uint64(1337)count2 := uint64(100000)// update item given timestampssks.insert(item, t1, count1)sks.insert(item, t3, count2)// estimate count item within range [t1, t2]got, _ := sks.estimate(item, t1, t2)fmt.printf(\"expected count \\\"%s\\\" timerange [%v, %v] be %d, got %d\", string(item), t1.format(.kitchen), t2.format(.kitchen), count1, got)// estimate count item within range [t1, t3]got, _ = sks.estimate(item, t1, t3)fmt.printf(\"expected count \\\"%s\\\" timerange [%v, %v] be %d, got %d\", string(item), t1.format(.kitchen), t3.format(.kitchen), count1+count2, got)// estimate count item within range [t1, t3]got, _ = sks.estimate(item, t3, t4)fmt.printf(\"expected count \\\"%s\\\" timerange [%v, %v] be %d, got %d\", string(item), t3.format(.kitchen), t4.format(.kitchen), count2, got)// output:// expected count \"foo\" timerange [12:00am, 1:00am] be 1337, got 1337// expected count \"foo\" timerange [12:00am, 2:00am] be 101337, got 101337// expected count \"foo\" timerange [2:00am, 3:00am] be 100000, got 100000"
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "14475777",
+	"site": "https://github.com/QuinntyneBrown/simple-custom-element",
+	"title": "Simple Custom Element v1 Using TypeScript and Webpack",
+	"author": "quinntyne",
+	"date": "2017-06-13T13:55:02.095Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"custom-elements-v1",
+			"webpack2",
+			"sass",
+			"web-components",
+			"shadow-dom"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md simple-custom-elementsimple custom element using custom elements v1, typescript 2.x, webpack 2.x."
+}

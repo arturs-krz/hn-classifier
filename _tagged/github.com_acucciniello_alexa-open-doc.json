@@ -1,0 +1,21 @@
+{
+	"_id": "14513735",
+	"site": "https://github.com/acucciniello/alexa-open-doc",
+	"title": " Edit Google Docs in the Shower via Amazon Echo",
+	"author": "acucciniello",
+	"date": "2017-06-13T13:04:19.437Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"alexa",
+			"google-drive",
+			"amazon-alexa-skill",
+			"node",
+			"amazon-echo"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md alexa-open-doc amazon alexa skill open edit google docs through voiceview videos skill usedonate you like donate help keep skill updated improving please donate here:##getting startedmust an amazon echo use skill.open amazon echo companion mobile application.click the top left button open menuclick skillssearch \"edit docs\"click enable skillenter information the google drive account would to click allow to amazon echo \"alexa, open edit docs\"##usage###list filessample phrase say alexa list last ten files google drive:\"alexa, ask edit docs list files please\"alexa's response:\"here is list files ...\"###create filesample phrase say alexa create new file your google drive:\"alexa, ask edit docs create file called {filename}\"alexa's response:\" created file named {filename}\"###add a filesample phrase say alexa add text a file your google drive:\"alexa, ask edit docs update {filename} {inputtext}\"alexa's response:\" updated file named {filename} your input {inputtext}\"##licensemit"
+}

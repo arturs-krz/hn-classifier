@@ -1,0 +1,22 @@
+{
+	"_id": "14434635",
+	"site": "https://github.com/0x13a/tinder-api",
+	"title": " Java tinder's API client",
+	"author": "hidiegomariani",
+	"date": "2017-06-13T13:06:18.692Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tinder",
+			"tinder-api",
+			"java",
+			"java-api-wrapper",
+			"java-http-client",
+			"java-library"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md java implementation tinder's http api minimal handy java sdk tinder's http apigetting started can maven install package. add to pom.xml file<dependency> <groupid>com.github.0x13a</groupid> <artifactid>tinder-api</artifactid> <version>1.0-snapshot</version></dependency>quick guide is example how want use . first need retrieve facebook access token the tinder app. you are ready start.getting profile informationimport com.djm.tinder.*;public class app { public static void main(string[] args) { try { final tinder tinder = tinder.fromaccesstoken(\"afd4c0jkqyf1y1nwejzaz8vv0r4knaxd\"); profile profile = tinder.getprofile(); system..println(string.format(\" me: %s\", profile.getname())); } catch (authenticationexception e) { system..println(\"whoops, unable authenticate the tinder api. check facebook access token / app's permissions.\"); } }}retrieve list recommendationsimport com.djm.tinder.*;public class app { public static void main(string[] args) { try { final tinder tinder = tinder.fromaccesstoken(\"afd4c0jkqyf1y1nwejzaz8vv0r4knaxd\"); final arraylist<user> users = tinder.getrecommendations(); (user user : users) { system..println(string.format(\" %s\", user.getname())); } } catch (authenticationexception e) { system..println(\"whoops, unable authenticate the tinder api. check facebook access token / app's permissions.\"); } }} userimport com.djm.tinder.*;public class app { public static void main(string[] args) { try { final tinder tinder = tinder.fromaccesstoken(\"afd4c0jkqyf1y1nwejzaz8vv0r4knaxd\"); final arraylist<user> users = tinder.getrecommendations(); like = tinder.(users.(0)); (like.ismatch() == true) { system..println(string.format(\"matched %s!\", user.getname())); } } catch (authenticationexception e) { system..println(\"whoops, unable authenticate the tinder api. check facebook access token / app's permissions.\"); } }}many more come. check api doc more. your facebook access token order work, tinder java client ( your tinder app) needs access token. access token is gonna used each call the tinder api. obtain tinder access token have call https://gotinder.com/v2/auth endpointwhere need provide facebook access tokengranted the tinder app. will allow tinder access facebook info (name, pics, email, friends, likes). facebook access token is only thing need get started. you are smart enough, can find here facebook's tinder app permissiondocumentation can check javadoc here https://0x13a.github.io/tinder-api/license software is licenced under beerware license. more insights, please check license file"
+}

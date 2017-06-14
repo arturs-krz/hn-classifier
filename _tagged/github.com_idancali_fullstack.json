@@ -1,0 +1,22 @@
+{
+	"_id": "14349818",
+	"site": "https://github.com/idancali/fullstack",
+	"title": "The Full Stack Product Development Journey (20 Weeks)",
+	"author": "idancali",
+	"date": "2017-06-13T13:57:48.943Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"fullstack",
+			"javascript",
+			"react",
+			"react-native",
+			"html",
+			"css",
+			"material",
+			"aws"
+		],
+		"languages": []
+	},
+	"content": "readme.md full stack product development journeyfollow along we create end--end software product scratch 20 weeks. will start the product story, value proposition, we work way to landing page, mobile apps (ios android), web app, api, cloud infrastructure even blogging creating newsletter.roadmapweek 1: product storyweek 2: landing pageweek 3: mobile app user experience designweek 4: mobile app primary user experienceweek 5: mobile app secondary user experienceweek 6: web app user experience designweek 7: web app primary user experienceweek 8: web app secondary user experienceweek 9: api services designweek 10: api primary servicesweek 11: api secondary servicesweek 12: api release candidateweek 13: mobile app primary services integrationweek 14: mobile app secondary services integrationweek 15: mobile app release candidateweek 16: web app primary services integrationweek 17: web app secondary services integrationweek 18: web app release candidateweek 19: official product releaseweek 20: first product production iteration"
+}

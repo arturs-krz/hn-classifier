@@ -1,0 +1,24 @@
+{
+	"_id": "14429450",
+	"site": "https://github.com/github/hub",
+	"title": "Hub: Wraps Git with extra features that make working with GitHub easier",
+	"author": "loppers92",
+	"date": "2017-06-13T13:55:34.805Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"homebrew",
+			"git",
+			"github-api"
+		],
+		"languages": [
+			"go",
+			"gherkin",
+			"shell",
+			"ruby",
+			"other"
+		]
+	},
+	"content": "readme.md git + hub = githubhub is command line tool wraps git order extend with extrafeatures commands make working github easier.$ hub clone rtomayko/tilt# expands :$ git clone git://github.com/rtomayko/tilt.github is best aliased git, you type $ git <command> the shell get the usual hub features. \"aliasing\" below.installationdependencies:git 1.7.3 newerhomebrewhub be installed through homebrew:$ brew install hub$ hub versiongit version 1.7.6hub version 2.2.3chocolateyhub be installed through chocolatey windows.> choco install hub> hub versiongit version 2.7.1.windows.2hub version 2.2.3standalonehub be easily installed an executable. download latestcompiled binaries put anywhere your executable path.source install hub source:$ git clone https://github.com/github/hub.git$ cd hub$ install prefix=/usr/localprerequisites compilation are:go 1.8+ruby 1.9+ bundler - generating man pages you don't make, ruby, want skip man pages ( example, youare windows), can build the hub binary:$ ./script/build can move bin/hub somewhere your path.finally, you've done development before your $gopath/bin directoryis already your path, is alternative installation method fetcheshub your gopath builds automatically:$ get github.com/github/hubaliasingusing hub feels best it's aliased git. is dangerous; normal git commands all . hub merely adds sugar.hub alias displays instructions the current shell. the -s flag, outputs script suitable eval. should place command your .bash_profile other startup script:eval \"$(hub alias -s)\"powershell you're using powershell, can set alias hub placing following your powershell profile (usually~/documents/windowspowershell/microsoft.powershell_profile.ps1):set-alias git hub simple to this is run following the powershell prompt:add-content $profile \"`nset-alias git hub\"note: 'll need restart powershell console order the changes be picked .if powershell profile doesn't exist, can create by running following:-item -type file -force $profileshell tab-completionhub repository contains tab-completion scripts bash zsh. scriptscomplement existing completion scripts ship git.installation instructionshub bash completionhub zsh completionhub fish completionmetahome: https://github.com/github/hubbugs: https://github.com/github/hub/issuesauthors: https://github.com/github/hub/contributors"
+}

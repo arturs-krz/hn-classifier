@@ -1,0 +1,21 @@
+{
+	"_id": "14443319",
+	"site": "https://github.com/angular-redux/store",
+	"title": "Angular 2+ bindings for Redux",
+	"author": "qHydra",
+	"date": "2017-06-13T13:55:21.278Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ng2-redux",
+			"redux-store",
+			"redux",
+			"angular"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md @angular-redux/storeangular bindings redux. angular 1 ng-redux is redux?redux is popular approach managing state applications. emphasises: single, immutable data store.-way data flow. approach change based pure functions a stream actions. can find lots excellent documentation here: redux. is @angular-redux? provide set npm packages help integrate redux store your angular 2+ applications. approach helps by bridging gap some angular's advanced features, including:change processing rxjs observables.compile optimizations ngmodule ahead--time compilation.integration the angular change detector.getting started already what redux rxjs are. me tl;dr.'m learning redux. break down me!talk is cheap. show a complete code example. me the api docs.exampleshere are examples the angular-redux family packages action:zoo animals combined example appsimple systemjs example (angular quickstart)companion packagesreduxify routing @angular-redux/routerreduxify forms @angular-redux/formresourcesusing redux angular - js toronto meetup 2016-07-12getting started reduxawesome redux: community resources-depth usage@angular-redux/store uses approach redux based rxjs observables select transformdata its out the store into ui side-effect handlers. observablesare efficient analogue reselect the rxjs-heavy angular world.read more here: select pattern also a number 'cookbooks' specific angular topics:using angular's dependency injector action creatorsusing angular's dependency injector middlewaresmanaging side-effects redux-observable epicsusing redux devtools chrome extension@angular-redux/store immutablejsstrongly typed reducershacking angular-redux/store to hack angular-redux/store any the related packages? feel free do , but please test changes before making prs.here's to that:write unit tests. can check they by runningnpm test.run linter. your editor doesn't it automatically, itmanually npm run lint.test changes a 'real world scenario'. use example-app this, using npmfakery 'publish package locally':clone example app (git clone https://github.com/angular-redux/example-app.git)generate 'local package' (cd your angular-redux/store clone run npm pack). will create .tgz file.hook 'local package' to example-app (cd your example-app clone run npm install --save /path//the/tgz/file//above)run ng serve --aotplease sure changes pass angular's aot compiler, it's bit finicky ts syntax."
+}

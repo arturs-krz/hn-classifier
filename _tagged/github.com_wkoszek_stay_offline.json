@@ -1,0 +1,19 @@
+{
+	"_id": "14426593",
+	"site": "https://github.com/wkoszek/stay_offline",
+	"title": " Stay Offline",
+	"author": "wkoszek",
+	"date": "2017-06-13T13:06:18.841Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"ruby",
+			"shell",
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": "readme.md stay_offlinescripts help stay productive offline repository has scripts will you more productive offline.each individual directory is named a site name. can enter , type '', and site's content downloaded offline viewing.right pdf format is supported .this stuff has been tested ipad pro, is primary readingplatform. don't support illegal scrubbing (stealing content repurposing without giving credit), this repo is for reader's convenience, that can read blog articles essays offline, you're the train a crappy internet connection. you to support offline website a paid content, remember makescript parametrizable, remove login/password credentials beforesubmitting stuff here.example: nsscreencasts are nice, don't support offline mode . so nsscreencast/ has script will your user name password. to to workaround homebrew gs_init.ps bug, download ghostscript 9.19 _gsdirectory unpack there, then set:export gs_lib=`pwd`/_gs/ghostscript-9.19/resource/init/currently supportedwebsitedescriptionalertbox/nielsen norman group \"alertbox\" articlesalistapart list apart articlesindiehackersindie hackers interviewsbitfountainbitfountain autolayout tutorials (incomplete; didn't a patience figure what do)nsscreencastnsscreencasts"
+}

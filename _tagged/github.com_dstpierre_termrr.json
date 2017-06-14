@@ -1,0 +1,17 @@
+{
+	"_id": "14381951",
+	"site": "https://github.com/dstpierre/termrr",
+	"title": " Termrr see your Stripe MRR in terminal",
+	"author": "dstpierre",
+	"date": "2017-06-13T13:07:23.713Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": "readme.md termrr ( terminal mrr) wanted have quick answer the question: \"'s current mrr\" roadmap. kind pass majority my in terminal, i built simple tool. is sample the output:mrr is 425.00month month stats=====================================2017-05 customers: 1 mrr: 25.002017-04 customers: 1 mrr: 50.002017-03 customers: 1 mrr: 55.002017-02 customers: 2 mrr: 80.002017-01 customers: 1 mrr: 95.002016-12 customers: 2 mrr: 120.00's showing mrr month month customers added mrr that month.installationbinary can download binary your platform the releases page. you go installed get github.com/dstpierre/termrrusage only need pass stripe key (live test).termrr -key stripe_key_here may have environment variable stripe_key.export stripe_key=sk_test_1234567termrr"
+}

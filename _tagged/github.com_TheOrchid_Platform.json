@@ -1,0 +1,28 @@
+{
+	"_id": "14436130",
+	"site": "https://github.com/TheOrchid/Platform",
+	"title": "The Laravel CMS for website",
+	"author": "tabuna",
+	"date": "2017-06-13T13:55:35.003Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"laravel",
+			"php",
+			"orchid",
+			"cms",
+			"platform",
+			"cmf",
+			"cms-framework",
+			"admin",
+			"dashboard"
+		],
+		"languages": [
+			"php",
+			"html",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.md official documentationdocumentation be found orchid website.system requirements sure server meets following requirements.apache 2.2+ nginxmysql server 5.7.8+ postgresqlphp version 7.0+learn morelearn more these links:websitedocumentationsupportlaravelsecurity you discover security related issues, please email bliz48rus@gmail.com instead using issue tracker.contributingfork !create feature branch: git checkout -b -new-featurecommit changes: git commit -am 'add feature'push the branch: git push origin -new-featuresubmit pull request :dcreditsalexandr chernyaev contributorslicense mit license (mit). please license file more information."
+}

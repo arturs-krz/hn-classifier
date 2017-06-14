@@ -1,0 +1,30 @@
+{
+	"_id": "14475786",
+	"site": "https://github.com/sualeh/SchemaCrawler",
+	"title": "SchemaCrawler: Free database schema discovery and comprehension tool",
+	"author": "based2",
+	"date": "2017-06-13T13:55:02.585Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"database-schemas",
+			"schemacrawler",
+			"jdbc",
+			"metadata",
+			"database-diagrams",
+			"e-r-diagrams",
+			"schema",
+			"java"
+		],
+		"languages": [
+			"java",
+			"html",
+			"javascript",
+			"css",
+			"clean",
+			"plsql",
+			"other"
+		]
+	},
+	"content": "readme.md schemacrawlerplease the schemacrawler website more details.schemacrawler is free database schema discovery comprehension tool. schemacrawler has good mix useful features data governance. can search database schema objects using regular expressions, output schema data a readable text format. output serves database documentation, is designed be diff-ed against database schemas. schemacrawler generates schema diagrams. can execute scripts any standard scripting language against database. can find potential schema design issues lint. schemacrawler is available under number licenses.schemacrawler supports almost database has jdbc driver, for convenience is bundled drivers some commonly used rdbms systems. schemacrawler works any operating system supports java se 8 better.schemacrawler is a java api makes working database metadata easy working plain old java objects. schemacrawler jars are the central repository. can used dependencies gradle apache maven projects, with other build system supports central repository. pre-packaged docker images are docker hub. download releases tutorials github. (unsupported) -port schemacrawler java 7 is available sualeh/schemacrawler-java7-backport."
+}

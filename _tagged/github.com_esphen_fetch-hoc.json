@@ -1,0 +1,20 @@
+{
+	"_id": "14416540",
+	"site": "https://github.com/esphen/fetch-hoc",
+	"title": " Fetch-hoc – A dead simple way of data fetching in React",
+	"author": "esphen",
+	"date": "2017-06-13T13:06:44.237Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"hoc",
+			"react",
+			"composition",
+			"fetch-api"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md fetch-hoc react higher order component fetching data a server passing result props.using hoc fetching data is easier learn understand redux, while the same being more clear consise writing utilities extending components. resource be either string a function. the resouce is function, the hoc automatically re-fetch resouce the resource urlchanges.installationyarn add fetch-hoc# npm -s fetch-hoc you don't yet npm a bundler webpack, can a umd bundle unpkg. simply add of following links your app, the library be accessible fetchhoc window. remember replace [version] the version want.minified: https://unpkg.com/fetch-hoc@[version]/dist/fetch-hoc.min.jsnon-minified: https://unpkg.com/fetch-hoc@[version]/dist/fetch-hoc.js<script src=\"https://unpkg.com/fetch-hoc@[version]/dist/fetch-hoc.min.js\"></script>usage it's job tell why library is cool.simply wrap component the result the fetch function get started.using method enables of components be written functionalstateless components, is great legibility testabiliy.fetch('//static/resource')(component)// fetch(props => `//resource/${props.someprop}`)(component)here is more complete example:const foocomponent = props => { (props.error) { return <div classname=\"error\"> error occured! {error.tostring()}</div>; } (props.loading) { return <div classname=\"loading\">loading...</div>; } return ( <div> {props.data.map(row => <div>{row.text}</div>)} </div> );}// feeds props used renderfetch('http://foo.com/bar')(foocomponent); you need more flexibility your component, can use function reduce url the component's props. props be redux props you have used connect the component.// props parentfetch(props => `/user/${props.user}/cart`)(foocomponent);// reduxcompose( mapstatetoprops(state => ({ user: state.user })), fetch(props => `/user/${props.user}/cart`),)(foocomponent);example: composition is king composition compose behaviors upon props hoc provides! example, add easily reusable loading icon error message:// withloadinganimation.jsexport default component => props => ( props.loading ? <yourloadingcomponent /> : <component {...props} />);// witherrormessage.jsexport default message => component => props => ( props.error ? <div classname=\"error\">{message}</div> : <component {...props} />);// foocomponent.jsimport withloadinganimation './withloadinganimation';import witherrormessage './witherrormessage';const foocomponent = ({ data }) => ( <div> <h1> will render a successfully completed fetch!</h1> <pre>{data.tostring()}</pre> </div>);export default compose( fetch('/foo'), withloadinganimation, witherrormessage('failed fetch thing'),)(foocomponent);example: normalizing data about you need subset the data, the entire dataset is convenient work ? simple, add hoc that:const normalize = func => component => ({ data, ..rest }) => ( <component data={func(data)} {...rest} />);export default compose( fetch('/foo'), normalize(data => data.rows.filter(row => row.enabled)));api// @flowtype options = { /* same the fetch api options, * https://developer.mozilla.org/en-/docs/web/api/windoworworkerglobalscope/fetch */};fetch(url: string|function, options: options)(component: react.component) hoc inject following props:proptypedescriptiondataobject data returned the servererrorerror error occured while fetching dataloadingbooleanwhether request is currently flightsuccessbooleanwhether request was successfully fetched"
+}

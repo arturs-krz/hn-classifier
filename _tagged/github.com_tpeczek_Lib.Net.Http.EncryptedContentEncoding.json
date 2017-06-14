@@ -1,0 +1,20 @@
+{
+	"_id": "14286843",
+	"site": "https://github.com/tpeczek/Lib.Net.Http.EncryptedContentEncoding",
+	"title": " Encrypted Content-Encoding (aes128gcm) Support for .NET HttpClient",
+	"author": "tpeczek",
+	"date": "2017-06-13T13:31:21.058Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"httpclient",
+			"aes128gcm",
+			"aes-encryption",
+			"http"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md lib.net.http.encryptedcontentencodinglib.net.http.encryptedcontentencoding is library adds encrypted content-encoding (aes128gcm) support httpclient.getting startedlib.net.http.encryptedcontentencoding is available nuget.pm> install-package lib.net.http.encryptedcontentencodingimplementation details usage samples are blog posts available describing implementation details showing usage samples:supporting encrypted content-encoding httpclient (part 1 2) - encodingsupporting encrypted content-encoding httpclient (part 2 2) - decodingbouncy castle dependencylib.net.http.encryptedcontentencoding has dependency bouncy castle. .net framework version is using bouncycastle package is known widely downloaded, the .net core version is using bouncycastle.coreclr package is quite and comes different author. those packages provide cryptography routines sure want use and remember you always download source code run own build.copyright licensecopyright © 2017 tomasz pczeklicensed under mit license"
+}

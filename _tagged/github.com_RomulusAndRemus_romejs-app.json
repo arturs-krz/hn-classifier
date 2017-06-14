@@ -1,0 +1,18 @@
+{
+	"_id": "14402468",
+	"site": "https://github.com/RomulusAndRemus/romejs-app",
+	"title": "A Visualized IDE for React Developers, RomeJS",
+	"author": "MrCigue",
+	"date": "2017-06-13T13:56:41.719Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md romejs app startednpm installnpm start1. begin open romejs! will taken the home page the application, it ask your entry file.2. select entry files entry file may ask? is file which root component renders top ! for react router users s file, contains router attribute. convention, entry file is usually called app.js index.js.3. boom. loaded , you have access two views.component hierarchy viewonce loaded, will automatically sent the component hierarchy view. , if deter this view click route tree tab get back the tree! this view, solid node means child has children yet be un-collapsed. addition, you hover the name, will reveal nodes particular component has links routes , via lasers! nodes fill red you see all once.1. add component this view, will able add component just right-click! do , just right-click component will to add component , and will reveal options through pop- window. select add component, type the name the component. ba-da-bing ba-da-boom, check code have new component!2. add routeadditionally, this same component tree view, will able add routes just right-click! click component which would route come and tell the name the route, which component render a user hits route! tree automatically re-render, you see new link, route animation you mouse- the name the component clicked!code editor view gives access your files, lets edit in-app. editor is based monaco, like beloved vs code. explore files, changes, edit shiny components more!coming soonstate store, seo optimization, component statistics coming soon!"
+}

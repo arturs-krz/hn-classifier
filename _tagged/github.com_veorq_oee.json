@@ -1,0 +1,16 @@
+{
+	"_id": "14408880",
+	"site": "https://github.com/veorq/oee",
+	"title": "One-End Encryption (OEE): Stronger Than End-To-End Encryption",
+	"author": "savara",
+	"date": "2017-06-13T13:56:41.840Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": "readme.md -end encryption (oee): stronger end--end encryptiontoday everybody uses end--end encryption, it's secure enough you! powerful state-sponsored attackers the ability breakend--end encryption. -end encryption (oee) solves problem, sending ciphertexts literally impossible decrypt, by advancedcyber criminals the nsa.specifically:oee is secure against hostile endpoints, while end--end encryptionis secure against hostile networksoee is post-quantum, quantum-safe, quantum-resilientoee is secure if p=np, alien technologies won't break oeeoee is secure against anthropic computing attacksoee is post-snowden nsa-proofoee is memory-efficient, terabytes data encrypted a32-byte ciphertextoee software is safe, it's coded rustoee is gluten-free non-gmo ( 99% vegan)oee is provably secureoee is fully constant-: the runtime oee doesn't depend the input lengthoee is theresa may approvedoee guarantees total forward secrecy, backward secrecy, frontward secrecy, meaning your messages are safe againstfuture, past, present attacksoee has backdoor (really) no front door either, thefbi 't that. are no windows, skylights, cat flaps,gates, other ingress points human-sized lifeforms lifeformstrained humans retrieve cryptographic keys warrants try oee, our reference implementation:cargo run file--encrypt use in-place feature ( aware, is to used the very-braves):cargo run -- - file--encrypt"
+}

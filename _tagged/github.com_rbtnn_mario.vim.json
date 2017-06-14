@@ -1,0 +1,16 @@
+{
+	"_id": "14419168",
+	"site": "https://github.com/rbtnn/mario.vim",
+	"title": "Mario on vim",
+	"author": "stsewd",
+	"date": "2017-06-13T13:56:32.197Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": "readme.md mario vimusage \" play mario.vim :mario-tospace key : jump mario.h key : move mario the left.l key : move mario the right.q key : exit mario.vim(same gameover).dependency pluginrbtnn/game_engine.vim"
+}

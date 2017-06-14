@@ -1,0 +1,23 @@
+{
+	"_id": "14512668",
+	"site": "https://github.com/sharkdp/fd",
+	"title": "fd – a simple, fast and user-friendly alternative to find",
+	"author": "nachtigall",
+	"date": "2017-06-13T14:09:56.547Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"command-line",
+			"tool",
+			"filesystem",
+			"search",
+			"regex",
+			"rust"
+		],
+		"languages": [
+			"rust",
+			"shell"
+		]
+	},
+	"content": "readme.md fdfd is simple, fast user-friendly alternative find.while does seek mirror of find's powerful functionality, provides sensible(opinionated) defaults 80% the cases.featuresconvenient syntax: fd pattern instead find -iname '*pattern*'.smart case: search is case-insensitive default. switches case-sensitive the pattern contains uppercasecharacter*.colorized terminal output (similar ls).ignores hidden directories files, default.ignores patterns your .gitignore, default.regular expressions.unicode-awareness. command name is 50% shorter* find :-).democolorized outputfd colorize files extension, like ls. order this work, environmentvariable ls_colors has be set. typically, value this variable is set the dircolors command provides convenient configuration format define colors different file formats. most distributions, ls_colors should set already. you are looking alternative, morecomplete ( more colorful) variants, here here.benchmark search my home folder ~150.000 subdirectories ~1m files. given options fd are needed a fair comparison (otherwise fd is faster a factor 5 itdoes have search hidden ignored paths):benchmarking bench/fd --hidden ---ignore --full-path '.*[0-9]\\.jpg$' ~ 2.800 s (2.722 s .. 2.895 s) 1.000 r² (1.000 r² .. 1.000 r²)mean 2.821 s (2.810 s .. 2.831 s)std dev 16.52 ms (0.0 s .. 17.02 ms)variance introduced outliers: 19% (moderately inflated)benchmarking bench/find ~ -iregex '.*[0-9]\\.jpg$' 5.593 s (5.412 s .. 5.798 s) 1.000 r² (0.999 r² .. 1.000 r²)mean 5.542 s (5.502 s .. 5.567 s)std dev 37.32 ms (0.0 s .. 42.77 ms)variance introduced outliers: 19% (moderately inflated)(benchmarking tool: bench)both tools found exact same 14030 files. note we used -iregex option find order both tools perform regular expression search. both tools are comparably fast -iname '*[0-9].jpg' is used find.install cargo, can clone, build install fd a single command:cargo install --git https://github.com/sharkdp/fdnote rust version 1.16.0 later is required. release page this repository includes precompiled binaries linux.developmentcargo build --release"
+}

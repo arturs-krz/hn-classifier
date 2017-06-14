@@ -1,0 +1,24 @@
+{
+	"_id": "14425077",
+	"site": "https://github.com/PeculiarVentures/pvpkcs11",
+	"title": "Pvpkcs11 – Input validation library and a set of PKCS#11 implementations",
+	"author": "sr2",
+	"date": "2017-06-13T13:56:32.669Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"pkcs11",
+			"cryptoapi",
+			"nss",
+			"osx",
+			"cross-platform"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md pvpkcs11pvpkcs11 consists an input validation library call core a set pkcs#11 implementations wrap operating system browser cryptographic certificate store implementations. wanted solution provides unified access the underlying certificate stores associated cryptographic implementations. pkcs#11 was natural choice an api enable scenario given broad adoption. make development these platforms user agents easier to ensure runtime behavior is uniform, utilize core perform input validation. is similar how architected node-webcrypto-ossl, node-webcrypto-p11 webcrypto-liner where share webcrypto-core. this library will able access many different underlying cryptographic implementations certificate stores:approacheach implementation be compiled one library, pvpkcs11.dll/., and each will exposed via own slot.rsa keys, ecdsa keys, x509 certificates, pkcs10's be persisted.certificate store operations be exposed cko_x509certificate requests be stored via cko_data.both cko_x509 cko_data be manageable via c_createobject, c_destroyobject, c_cloneobject.aes keys only supported session objects.capabilitiesbasic certificate store management enabling access certificates, certificate requests well installation removal.basic cryptographic operations where supported underlying cryptographic certificate store implementation (typically rsa pkcs1, rsa-pss, ecdsa, ecdh, aes).where ecc is supported secp256r1, secp384r1 secp521r1 are supported.where rsa is supported rsa 1024, 2048, 3072 4096 are supported.where aes is supported key lengths 128, 192 256 are supported.class designwarning this this solution should considered suitable research experimentation, further code security review is needed before utilization a production application.usingbuilding this only mscapi support is implemented. this only windows is supported. package does have build script this .to build need visual studio you follow following steps:build.batopen build/binding.snlrun buildtestinginstall dependenciesnpm installrun testsnpm testenviroment variablesnamevaluedescriptionpv_pkcs11_errortrueprints stdout additional information errors pkcs#11 modulesupported algorithmsmscapifunctionalgorithmshashsha1; sha2; sha384; sha512signrsa /w sha1; rsa pkcs1 /w sha1, sha2; rsa pss /w sha1, sha2; ecdsa /w sha1, sha2exchangeecdh /w sha1encryptionrsa oaep; aes modes cbc, cbc-pad, gcm, ecbrelatednode-webcrypto-p11attacking fixing pkcs#11 security tokens"
+}

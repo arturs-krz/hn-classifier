@@ -1,0 +1,26 @@
+{
+	"_id": "14401710",
+	"site": "https://github.com/francisck/DanderSpritz_docs",
+	"title": "Document the Equation Group's DanderSpritz Post-Exploitation Framework",
+	"author": "j_s",
+	"date": "2017-06-13T13:56:42.276Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nsa",
+			"shadowbrokers",
+			"equationgroup",
+			"danderspritz",
+			"leak"
+		],
+		"languages": [
+			"python",
+			"xslt",
+			"postscript",
+			"perl",
+			"xs",
+			"batchfile"
+		]
+	},
+	"content": "readme.md danderspirtz documentation goal this project is document different capabilities functionality the danderspirtz post-exploitation framework / application examining contents the \"resources\" folder included the shadowbrokers leak doing live testing the system.note: respository does contain of fuzzbunch code, exploits, binaries, etc. repository contains files found the windows/resources/ directory included the leak. you're interested viewing entire contents the leak this repo:eqgrp_lost_in_translationpython bytecode has been decompiled original shadowbrokers leak had of python scripts compiled optimized bytecode (.pyo). order make reversing / documentation effort easier 've decompiled code uploaded \"raw\" python code this repository original python bytecode files been left intactresource codenames capabilities sub-directories the \"resources\" directory contain different modules are used danderspirtz provide capabilities such packet capture, memory dumps, etc.below are codenames correspond the differrent modules the potentail capabilities based examining python code, comments, xml, available \"command\" txt filesfoldercode namedescription / functionalitydskydarkskylinepacketcapture tooldapudarkpulsar??darkskyline??contains tools parse filter traffic captured darkskylinedemi????dfdoublefeature??dmgzdoormangauze??dszdanderspritzseveral danderspritz specific files such command descriptions ( xml), several scripts dss (debug script interface?) / dsi extensions?. seem be scripts run danderspritzepexpandingpulley- implant similar peddlecheap. danderspirtz communicate this. should investigate furtherexternallibrariesn/well..flavflewavenueappears related doormangauze (based flav/scripts/_flewavenue.txt)grdogreaterdoctorappears parse / process greatersurgeon (based grdo/tools/i386/greatersurgeon_postprocess.py & analyzemft.py)grok??appears be keylogger (based ops/pyscripts/overseer/plugins/keylogger.py)grcl??appears dump memory a specific process (based grcl/commands/commandline/processmemory_command.xml)gathgangstertheifappears parse data gathered greaterdoctor identify (malicious) software may installed persistently (based gath/commands/commandline/grdo_processscanner_command.xml)gezu??appears dump memory (based gezu/commands/commandline/gezu_kernelmemory_command.xml)guin/resources used the danderspirtz guilegacywindowsexploitsn/well..opsn/contains lot awesome tools python / dss scripts used danderspritz. deserves lot investigation. includes tools gather data chrome, skype, firefox (ripper) gather information the machine / environment (survey)pfreepassfreelyoracle implant bypasses auth oracle databasespacupapercut??pcpeddlecheap main implant (loaded via doublepulsar) performs of actions communciates the c2 (danderspirtz)pc2.2peddlecheapresources peddlecheap including different dlls / configs call to c2pythonn/python libraries / resources being usedscre??interacts sql databases (based scre/commands/commandline/sql_command.xml)stlastrangelandkeylogger (based stla/tools/i386-winnt/strangeland.xsl)taskingn/handles collection \"tasks\" danderspritz has requested the same (collection windows, network data, etc)tediterritorialdispute- looks it's script determine other (malicious) software may persistently installed (based tedi/pyscripts/sigs.py)utbuutilityburstappears be mechanism persistence via driver install unsure (based utbu/scripts/include/_utilityburstfunctions.dsi)zbngzippybanglooking this quickly, appears be nsa's version mimikatz. can duplicate tokens (kerberos tokens?) \"remote execute commands\" well logon users (based files zbng/commands/commandline)"
+}

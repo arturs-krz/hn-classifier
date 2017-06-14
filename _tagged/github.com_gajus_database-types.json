@@ -1,0 +1,21 @@
+{
+	"_id": "14498905",
+	"site": "https://github.com/gajus/database-types",
+	"title": " A Flowtype generator for Postgres",
+	"author": "gajus",
+	"date": "2017-06-13T13:04:44.975Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"flow",
+			"flowtype",
+			"postgresql",
+			"postgres",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md database-types generic type generator various databases. current supported database backend is postgres. track #1 issue mysql support. case you are developing applications javascript using either the strict type systems, you use database-types generate types describing database.example usagegenerating flow typesexport database_types_database_connection_uri=postgres://postgres:password@127.0.0.1/testexport database_types_column_filter=\"return !['raster_overviews', 'raster_columns', 'geometry_columns', 'geography_columns', 'spatial_ref_sys'].includes(tablename)\"export database_types_dialect=flowdatabase-types generate > ./types.js generates file containing flow type declarations the following format:export type reservationseatrecordtype = {| +createdat: string, +id: number, +reservationid: number, +seatid: number|};export type tickettyperecordtype = {| +cinemaid: number, +id: number, +name: string, +nid: string, +policy: string | null|};// ...clinpm install database-types -goptions: --help show help [boolean] --column-filter function used filter columns. function is constructed using ` function`. function receives table name the parameter column name the second parameter (parameter names are \"tablename\" \"columnname\").[string] --property-name-formatter function used format property name. function is constructed using ` function`. function receives column name the parameter (parameter name is \"columnname\"). default behaviour is (lower) camelcase column name. [string] --type-name-formatter function used format type name. function is constructed using ` function`. function receives table name the parameter (parameter name is \"tablename\"). default behaviour is (upper) camelcase table name suffix with \"recordtype\". [string] --database-connection-uri [required] --dialect [required] [choices: \"flow\"] --include-materialized-views [boolean] [default: true]"
+}

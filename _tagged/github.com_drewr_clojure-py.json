@@ -1,0 +1,17 @@
+{
+	"_id": "14439276",
+	"site": "https://github.com/drewr/clojure-py",
+	"title": "Clojure-py",
+	"author": "tosh",
+	"date": "2017-06-13T13:55:34.058Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"clojure"
+		]
+	},
+	"content": "readme.md clojure-py implementation clojure pure python.why python? is belief static virtual machines very poor runtimes dynamic languages. constrain languages their view what \"world should like\" limit options available language implementors. are attempting prove by writing implementation clojure runs the python vm. believe with proper dynamic jit ( pypy) version clojure running a dynamic vm outperform jvm clr counterparts.basic conceptspython builtins are available under py/ namespace. actual python bytecodes be injected via py.bytecodes/opviewing code https://github.com/halgari/clojure-py/blob/master/clojure/core.clj is probably best to a feeling what is possible, how clojure-py implements certain functions. can help?check the wiki more information the roadmap this project. check the issues list any items marked \"isolated change\". are changes should somewhat easy a newcommer pick and not involve messing around the internals the implementation much. feel free join mailing listblog time time, 'll post status updates, ideas plans this blog http://clojure-py.blogspot.com/installation./setup.py develop # ./setup.py install 'production'unit tests# (must 'easy_install nose' 'pip install nose' )nosetestsrunningclojurepylicense endorsed rich hickey, this project contains code based his clojure-pycopyright (c) rich hickey. rights reserved. use distribution terms this software are covered theeclipse public license 1.0 (http://opensource.org/licenses/eclipse-1.0.php) can found the file epl-v10.html the root this distribution. using software any fashion, are agreeing be bound the terms this license. must remove notice, any , from software."
+}

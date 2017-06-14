@@ -1,0 +1,22 @@
+{
+	"_id": "14130054",
+	"site": "https://github.com/RD17/ambar",
+	"title": " Integrated ElasticSearch and Tika and PdfBox with REST API",
+	"author": "sochix",
+	"date": "2017-06-13T13:35:12.703Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"search",
+			"search-engine",
+			"search-in-text",
+			"self-hosted",
+			"ocr",
+			"pdf",
+			"smb",
+			"dropbox"
+		],
+		"languages": []
+	},
+	"content": "readme.md ambar: document search system you ambar please !landing page | cloud | blog is ambarambar is document search engine automated crawling, ocr, deduplication ultra-fast full-text search. imagine having billion files different formats xls, doc, txt, pdf, ppt, etc..., any encoding. ambar securely stores and gives an ability search through content metadata milliseconds. is very lightweight, simple intuitive, yet very fast powerful terms data amount scaling. the rocket-science is hidden behind simple ui.featuressearchtutorial: mastering ambar search queriesfuzzy search (john~3)phrase search (\"john smith\")search author (author:john)search file path (filename:*.txt)search date (: yesterday, today, lastweek, etc)search size (size>1m)search tags (tags:ocr)search you typesupported language analyzers: english ambar_en, russian ambar_ru, german ambar_de, italian ambar_it, polish ambar_pl, chinese ambar_cn, cjk ambar_cjkcrawlingsmb crawlingftp crawlingmail crawlingdropbox crawlingscheduled crawling (cron schedule syntax)content extractionextract content large files (>30m)zip archivesms office documents (word, excel, powerpoint, visio, publisher)ocr imagesemail messages attachmentsadobe pdf ( ocr)ocr languages: eng, rus, ita, deu, fra, spa, pl, nldopenoffice documentsrtf, plaintexthtml / xhtmlmultithread processing ( ee)generalambar features overview (vimeo)files tagginghiding irrelevant search resultsfiles preview ( google docs view)real- statisticsweb uirest apimultiple user accounts ( ee)installationambar cloud's full-featured latest ambar, hosted our servers. the accounts data is secured carefully stored. can connect ambar directly your dropbox account enjoy ambar powerful search your dropbox. trying ambar cloud is perfect to the taste ambar is.signup's !self-hosted ambarself-hosted ambar be installed a set docker images. community edition is available free. 's tiny version enterprise edition limited number pipelines crawlers disabled authentication, though preserving full functionality. you request trial enterprise edition, drop an email hello@ambar.cloudinstallation instructionsdocker images be found docker hub it worksunder hoodrest api documentationmanagement script source code is freely available under fair source license 1. (frontend, crawler, elasticsearch, rabbit, mongo, installer)faqis open-source?yes, almost every ambar's module is published github under fair source license 1is free?yes, community edition is forever free. will charge penny you use . basic cloud account is forever free.does perform ocr?yes, performs ocr images (jpg, tiff, bmp, etc) pdf's. ocr is perfomed well-known open-source library tesseract. tuned to achieve best perfomance quality scanned documents. can easily find files which ocr was perfomed tags:ocr query languages are supported ocr?supported languages: eng, rus, ita, deu, fra, spa. you miss language, please create issue github we'll add asap.does support tagging?yes! about searching pdf?yes, can search through pdf, badly encoded with scans inside. did best make search any kind pdf document smooth. miss xxx language analyzer. you add ?yes, please create issue github.are going add ui localizations?'re working it. patient. is maximum file size can handle?'s limited amount ram your machine, typically 500mb. 's awesome result, typical document managment systems offer 30mb maximum file size be processed. is difference between ambar ce ambar ee?basically ambar ce is downscaled ambar ee. more details check can anyone else my documents?nope, check privacy policy. have problem should do?submit issue chat us https://ambar.cloudchange logchange logcontributorshartmchbdevelopsprivacy policyprivacy policylicensefair source 1 license v0.9"
+}

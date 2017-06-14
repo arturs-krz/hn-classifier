@@ -1,0 +1,21 @@
+{
+	"_id": "14500659",
+	"site": "https://github.com/Zhouzi/contrib-awakens",
+	"title": "GitHub contribution graph transformed into a random game",
+	"author": "Gabin",
+	"date": "2017-06-13T14:09:56.377Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"github",
+			"game",
+			"contribution-graph",
+			"browser-extension"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": "readme.md contrib-awakensplay games github's contribution graph.install chrome extension to github profile page, e.g github.com/zhouzi contribution graph is replaced a random game everytime load pagecontrib-awakens is chrome extension uses github's contribution graph a rendering layer.among few games available, random is picked every you load profile page. instructions how play are logged the console.chrome extensioncontributing"
+}

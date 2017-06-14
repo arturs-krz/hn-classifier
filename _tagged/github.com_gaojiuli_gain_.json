@@ -1,0 +1,22 @@
+{
+	"_id": "14468473",
+	"site": "https://github.com/gaojiuli/gain/",
+	"title": " Python web crawling framework for everyone based on asyncio",
+	"author": "gaojiuli",
+	"date": "2017-06-13T13:05:02.888Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"crawler",
+			"spider",
+			"asyncio",
+			"uvloop",
+			"aiohttp"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md web crawling framework everyone. written asyncio, uvloop aiohttp.everyone write own web crawler easily gain framework. gain framework provide pretty simple api.requirementspython3.5+installationpip install gainpip install uvloop ( linux)usagewrite spider.py: gain import css, item, parser, spiderclass post(item): title = css('.entry-title') content = css('.entry-content') async def save(self): open('scrapinghub.txt', '+') as f: f.writelines(self.results['title'] + '')class myspider(spider): concurrency = 5 headers = {'user-agent': 'google spider'} start_url = 'https://blog.scrapinghub.com/' parsers = [parser('https://blog.scrapinghub.com/page/\\d+/'), parser('https://blog.scrapinghub.com/\\d{4}/\\d{2}/\\d{2}/[-z0-9\\-]+/', post)]myspider.run()run python spider.pyresult:example examples are the /example/ directory.contributionpull request.open issue."
+}

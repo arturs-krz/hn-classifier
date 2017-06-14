@@ -1,0 +1,20 @@
+{
+	"_id": "14363569",
+	"site": "https://github.com/peterpme/create-simple-icon",
+	"title": "Create Simple Icon – Download and Colorize Branded SVG Icons in a Snap",
+	"author": "thegreatpeter",
+	"date": "2017-06-13T13:57:50.530Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"cli",
+			"svg-icons",
+			"generator"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md create simple icondownload colorize branded svg icons a snap!create simple icon leverages power simple icons then colorizes anyway 'd .installation$ yarn global add create-simple-icon you're using yarn yet:$ npm install -g create-simple-iconusage, options examplesusage $ csi <icon-name> <icon-color>examples csi twitter red csi facebook '#eee' (zsh requires quotes) csi reddit (returns default color) csi reddit -p (opens reddit your browser) csi -b (opens simpleicons.org your browser)requirementsnode 6+"
+}

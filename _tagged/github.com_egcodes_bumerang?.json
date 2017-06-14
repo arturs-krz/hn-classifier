@@ -1,0 +1,19 @@
+{
+	"_id": "14263881",
+	"site": "https://github.com/egcodes/bumerang?",
+	"title": " A file transfer tool for your local network (encrypted)",
+	"author": "egcodes",
+	"date": "2017-06-13T13:32:05.853Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"socket-programming",
+			"filetransfer"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md bumerang-transferfilestool command line tool transfer filesscreenshot"
+}

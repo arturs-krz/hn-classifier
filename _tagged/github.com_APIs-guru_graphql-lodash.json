@@ -1,0 +1,21 @@
+{
+	"_id": "14245261",
+	"site": "https://github.com/APIs-guru/graphql-lodash",
+	"title": " Data manipulation for GraphQL queries with Lodash syntax",
+	"author": "romanhotsiy",
+	"date": "2017-06-13T13:32:49.238Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"graphql",
+			"functional-programming",
+			"api",
+			"lodash"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md graphql lodash unleash power lodash inside graphql queriestable contentswhy?example queriesapiusage examplesfetchcaching clientsusage react-apollousage server-side (tl;dr don't)why?graphql allows ask what need get exactly . but about shape?graphql lodash gives the power lodash right inside graphql query using @_ directive.note: is experimental project created explore concept query transformation collocation. encourage to try inside demo check detailed walkthrough.example querieshere are few query examples can run against startwars api:find a pannet the biggest population gender statisticsmap characters films are featured installnpm install --save graphql-lodashyarn add graphql-lodashapigraphqllodash(query, [operationname])query (required) - query string query astoperationname (optional) - required if query contains multiple operationsreturns{ query: string|object, transform: function}query - original query stripped @_ directivestransform - function recieves response.data a single argument returns same data the intended shape.usage examples simplest to integrate graphql-lodash is write wrapper function graphql client you choice:import { graphqllodash } 'graphql-lodash';function lodashquery(querywithlodash) { let { query, transform } = graphqllodash(querywithlodash); // a graphql call using 'query' variable a query // place result 'result' variable ... result.data = transform(result.data); return result;}fetch example example a simple client based fetch api:function executegraphqlquery(url, query) { return fetch(url, { method: 'post', headers: headers({\"content-type\": 'application/json'}), body: json.stringify({ query: query }) }).(response => { (response.ok) return response.json(); return response.text().(body => { throw error(response.status + ' ' + response.statustext + '' + body); }); });}function lodashquery(url, querywithlodash) { let { query, transform } = window.gqllodash.graphqllodash(querywithlodash); return executegraphqlquery(url, query).(result => { result.data = transform(result.data); return result; });}// use bellowlodashquery('https://swapi.apis.guru', `{ planetwithmaxpopulation: allplanets @_(: \"planets\") { planets @_(maxby: \"population\") { name population } }}`).(result => console.log(result.data));caching clients caching clients relay apollo recommend apply transformation the caching layer.here is proposed solution relay: are still figuring how do and feedback is welcome.usage react-apollo using apollo can props option apply transformations:const rawquery = gql` # query @_ directives`;const {query, transform} = graphqllodash(rawquery);export default graphql(query, { props: (props) => ({...props, rawdata: props.data, data: transform(props.data)})})(component); can write simple wrapper simplicity:import { graphql } 'react-apollo';import { graphqllodash } 'graphql-lodash';export function gqllodash(rawquery, config) { const {query, transform} = graphqllodash(rawquery); let origprops = (config && config.props) || ((props) => props); return (comp) => graphql(query, {...config, props: (props) => origprops({ ...props, rawdata: props.data, data: transform(props.data) }) })(comp);}// use bellowexport default gqllodash(query)(component); replace graphql gqllodash you are ready use lodash your queries.check react-apollo-lodash-demo repo.usage server side theory, tool be used the server. this break contract , most likely, break the graphql tooling use. it server-side if know you ."
+}

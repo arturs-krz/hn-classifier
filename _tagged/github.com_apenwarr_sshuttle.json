@@ -1,0 +1,17 @@
+{
+	"_id": "14366852",
+	"site": "https://github.com/apenwarr/sshuttle",
+	"title": "SSHuttle: Transparent proxy server that works as a poor man's VPN",
+	"author": "remx",
+	"date": "2017-06-13T13:57:07.323Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.rst sshuttle: where transparent proxy meets vpn meets ssh far i , sshuttle is only program solves followingcommon case: client machine ( router) is linux, freebsd, macos. have access a remote network via ssh. don't necessarily admin access the remote network. remote network has vpn, only stupid/complex vpnprotocols (ipsec, pptp, etc). maybe are admin you got frustrated the awful state vpn tools. don't to create ssh port forward everysingle host/port the remote network. hate openssh's port forwarding it's randomlyslow /or stupid. can't openssh's permittunnel feature it's disabled default openssh servers; plus doestcp--tcp, has terrible performance ( below).obtaining sshuttle pypi:pip install sshuttleclone:git clone https://github.com/sshuttle/sshuttle.git./setup.py installdocumentation documentation the stable version is available :http://sshuttle.readthedocs.org/ documentation the latest development version is available :http://sshuttle.readthedocs.org/en/latest/"
+}

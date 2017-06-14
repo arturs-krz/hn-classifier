@@ -1,0 +1,24 @@
+{
+	"_id": "14431870",
+	"site": "https://github.com/mitghi/lfring",
+	"title": " Lock-Free MRMW Ring Buffer for Go",
+	"author": "mitghi",
+	"date": "2017-06-13T13:06:18.614Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ringbuffer",
+			"lock-free",
+			"golang",
+			"go",
+			"circular-buffer",
+			"ring-buffer",
+			"data-structures-algorithms"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": "readme.md lfringlock-free mrmw ring buffer. uses implementation multi-word compare--swap atomic operation, removes references setting associated slot nil without losing consistency; ensures ordering garbage collection."
+}

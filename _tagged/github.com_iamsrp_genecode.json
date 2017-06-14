@@ -1,0 +1,17 @@
+{
+	"_id": "14494518",
+	"site": "https://github.com/iamsrp/genecode",
+	"title": " Auto-generated algorithms",
+	"author": "iamsrp",
+	"date": "2017-06-13T13:04:45.018Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java",
+			"makefile"
+		]
+	},
+	"content": "readme.md genecodegenetic algorithms are dead, 're resting...overview genecode package is genetic algorithms implementation aims mimic way biological viruses behave the real world. uses different set underlying principles \"classic\" genetic algorithms the overall idea is roughly same. requires java8 ant build , aside that, should need anything special. the javadoc, the example package, more information. currently works a cut-down type system supports various primitive java types within basic functional programming language.examples package supports small number primitive types (boolean, number, strings arrays). the numerical front, can solve quadractics quartics reasonably . as example, though, here's something solves string--string mapping. example a function written the package is which attempts create mapping \"firstname lastname\" \"lastname, f.\"; comes the namingsolver class the example package happens be pretty optimal. resultant code has been formatted annotated clarity.# join together last pair strings, \"lastname, \" \"f.\",# produce final valuestringconcat( # join together \"lastname,\" \" \" stringconcat( # join together \"lastname\" \",\" stringconcat( getat( stringsplit( accessor[string:\"name\"], \" \" ), -1 ), \",\" ), \" \" ), # join together initial \".\" stringconcat( # pick first character \"firstname\" substring( accessor[string:\"name\"], 0, 1 ), \".\" )) above solution took 20hrs 474,300 iterations (producing nearly 6 billion genomes) desktop computer.here's earlier attempt. one happened find, exploit, bug an early implementation stringsplit(). took 7hrs 162,311 iterations (producing around 2 billion genomes):# concatenate the string array elements a stringreduce[stringconcat]( # put '.' at end the (singleton) array insertat( # map operations eventually yield singleton # array the contents [\"surname, n\"] map[stringconcat]( map[stringconcat]( # the \"name surname\" string # turn into [\"surname\", \"name\"] array reverse( stringsplit(accessor[\"name\"],\" \") ), # create singleton array [\", \"] map[stringconcat]( # contrived to turn string # a singleton array that string stringsplit(\",\",\".\"), stringsplit(\" \",\"u\") ) ), # exploit bug(!) stringsplit whereby splitting # string itself yields array the # character it: \"name surname\" -> [\"n\"] stringsplit( accessor[\"name\" <string>], accessor[\"name\" <string>] ) ), 1, \".\" ))"
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "14469418",
+	"site": "https://github.com/ac1235/python-QuickUI",
+	"title": "Python-QuickUI: Scientific One-Liner Interactive GUI Library",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T13:55:02.433Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ui",
+			"science",
+			"library",
+			"python",
+			"tkinter",
+			"matplotlib"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md python quickuiquickui is gui toolkit ui library wrapperaround tkinter matplotlib interactive -liner toplevel uis. encourages scientists developers experiment prototypeusing full fledged gui applications. length programs quickui is designed are basically simple-liners entered a repl, thus is possible generate structured modern looking gui windows just single line code., the standard python 3 repl ipython both automatically display quickui application without need explicitly state \"show-ui\" command. though quickui excels interactive -liner experiences, can be used build more complex production-ready applications is highly extendable.examplecode>>> import numpy np>>> quickui import *>>> forall( = slider(1,10,0.1), b = slider(1,10,0.1)).show(... plot(lambda ,b: [np.arange(1,10), np.sin(np.arange(1,10)**) + b/]))outputdocumentationbasic application structure quickui api is built fit one line code,therefore structure an application is utterly concise.each ui begins a forall declaration stating variables are defined be represented which gui component.forall(varname = input_widget, ...) single forall statement is enough represent whole gui application consisting of inputs. __repr__ is called a quickui object, gui automatically displays. behavior was set, that interactive toplevels instantly show uis.alternatively, display_ui method be called without arguments show gui object. behavior is needed writing scripts using quickui. the forall call, show method be invoked several output widgetsattached it.forall( varname = input_widget, ...).show( output_widget, ...) # optionally: .display_ui()each output widget takes callback function an argument taking every single \"foralled\" variable an argument.output_widget_constructor(lambda var1, var2, ... : ...)inputwidgeteach inputwidget subclass defines method the following api:self.do_your_thing(tk_root_widget, my_name, state)where state represents quickuistate object. within method, object should invoke state.put_silent(my_name, initial_value) set initial value the variable assigned the inputwidget. the tkinter callbacks should invoke state.put(my_name, updated_value) change only variable silently, to allow outputwidgets react that state change.subclassesslider(start, end, steps = none)entry(type, default = none)outputwidgeteach outputwidget subclass defines methods the following api:self.init_ui(tk_root_widget)self.update(variable_dict) init_ui method should used set tkinter widgets,whereas within update state those widgets should changed respect the passed variable dictionary containing varname/current_value pairs.subclasseslabel(lambda *vars: string)plot(lambda *vars: [xaxis, yaxis])"
+}

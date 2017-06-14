@@ -1,0 +1,20 @@
+{
+	"_id": "14439121",
+	"site": "https://github.com/KrisYu/Octobook",
+	"title": " Octobook – simple Gitbook client app",
+	"author": "xueyu666",
+	"date": "2017-06-13T13:06:18.171Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"swift3",
+			"cocoapods",
+			"alamofire"
+		],
+		"languages": [
+			"swift",
+			"ruby"
+		]
+	},
+	"content": "readme.md octobookoctobook is simple app offers offline/online gitbooks reading.featurescheck most popular booksonline reading/check authors' booksdownload book offline readingsearchwhy this is an experiment learning more ios development cocopods 3rd party library usage. the ui related thing is done using storyboard.buildrequirementsios 10.0xcode 8.3.2build your device xcodegit clone open octobook.xcworkspacep.s. can test ios app your device without paid apple developer program jailbreak -> https://stackoverflow.com/questions/4952820/test-ios-app--device-without-apple-developer-program--jailbreak anything 3rd party libraries goes wrong, try update pod pod (re)install, google is friend.issues good code, mix network model controller.didn't follow rule - dry(don't repeat yourself), to seperate network didn't find good , so code are repeated the popular books controller searh controller you any idea how organize seperate code more elegantly, welcome pull requests contact .thankscocoapodsalamofirefuzibryxbannerfolioreaderkit"
+}

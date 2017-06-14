@@ -1,0 +1,21 @@
+{
+	"_id": "14434393",
+	"site": "https://github.com/braind/adventure",
+	"title": "Adventure – Simple WebSocket Client",
+	"author": "Drawinchi",
+	"date": "2017-06-13T13:55:34.260Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"websocket",
+			"client",
+			"simple",
+			"adventure",
+			"reconnect"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md adventure simple websocket clientfeaturesreconnect implementedhandle errors messages + redux your simple functionsinstallation# yarnyarn add @braind/adventure# npmnpm install @braind/adventure --saveusageimport adventureclient '@braind/adventure';import store './redux/store';const adventure = adventureclient({ debug: true, handlemessage, maxreconnectattempts: 5, reconnect: true, reconnectinterval: 5000, reduxdispatcher, responsetype: 'json', url: 'ws://localhost:3000'});function handlemessage(message) { console.log(message); (message === 'ping' || message.type === 'ping') { adventure.send('pong'); }}function reduxdispatcher(message) { const { type, data: payload } = message; switch(type) { case 'received_info': store.dispatch({ type: 'received_info', payload }); default: console.log('received unspecified action type'); }}const currentsocketnumber = adventure.socketnumber();const nextsocketnumber = adventure.nextsocketnumber();const lastsocketnumber = adventure.lastsocketnumber();apiadventureclient([opts])creates adventure clientoptionsdebug: boolean - default is false,handleerror: function - optional,handlemessage: function - optional,maxreconnectattempts: number - default is 3,reconnect: boolean - default is false,reconnectinterval: number - default is 5000ms,reduxdispatcher: function - optional,responsetype: [json, text] - default is json,url: string -> 'ws://localhost:3000' - required"
+}

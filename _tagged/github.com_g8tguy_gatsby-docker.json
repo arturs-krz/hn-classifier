@@ -1,0 +1,20 @@
+{
+	"_id": "14464680",
+	"site": "https://github.com/g8tguy/gatsby-docker",
+	"title": "Minimal Automated GatsbyJS Docker Images",
+	"author": "Liriel",
+	"date": "2017-06-13T13:55:01.968Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"gatsby",
+			"docker",
+			"gatsbyjs",
+			"g8tguy"
+		],
+		"languages": [
+			"powershell"
+		]
+	},
+	"content": "readme.md gatsby-dockersupported tags respective dockerfile linksv0.12.44, v0.12.45, v0.12.46 ... v0.12.{x}, latest legacy dockerfilev1.0.0-alpha14, v1.0.0-alpha15 ... v1.0.0-alpha{x}, next next dockerfilecanary dev dockerfile 1.0.0-alpha.22-alpha.96b0b727 created automated gatsby docker images simplify overall working experience., now requires zero configuration start working your project. need install nodejs, python, git etc your local machine - docker handle for . the images are extremely compact include latest nodejs, yarn globally preinstalled gatsbyjs. actually, takes less two minutes start working your project! a start point automated basic images, which can inherit more complex behaviors. are multiple precompiled gatsby images:latest, legacy 0.x, ( each release starting v0.12.44)next, 1.x ( each release starting v1.0.0-alpha14)dev - canary dev-cli embedded. (rebuild once day)right i'm working detailed tutorials, explaining more streamlined experience using docker compose.simple workflowcheck docker versiondocker run --rm -ti g8tguy/gatsby:latest gatsby --versiondocker run --rm -ti g8tguy/gatsby:next gatsby --versiondocker run --rm -ti g8tguy/gatsby:canary gatsby --versioncreate project's named volumedocker volume create project-volumeclone gatsby starterdocker run --rm -ti -v project-volume:/project -w /project paasmule/curl-ssl-git git clone https://github.com/gatsbyjs/gatsby-starter-default.git . --depth 1install node_modulesdocker run --rm -ti -v project-volume:/project -w /project g8tguy/gatsby yarnstart gatsby develop local linuxdocker run --rm -ti -p 8000:8000 -v project-volume:/project -w /project g8tguy/gatsby gatsby develop --host 0.0.0.0start gatsby develop docker windows remotedocker run --rm -ti --network host -p 8000:8000 -v project-volume:/project -w /project g8tguy/gatsby gatsby develop --host 10.0.75.2"
+}

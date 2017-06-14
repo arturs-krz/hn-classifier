@@ -1,0 +1,22 @@
+{
+	"_id": "14520429",
+	"site": "https://github.com/railsware/upterm",
+	"title": "Railsware/upterm: A terminal emulator for the 21st century",
+	"author": "mt_caret",
+	"date": "2017-06-13T14:09:48.040Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tty",
+			"terminal",
+			"terminal-emulators",
+			"console",
+			"pty"
+		],
+		"languages": [
+			"typescript",
+			"other"
+		]
+	},
+	"content": "readme.md is ?upterm (formerly black screen) is ide the world terminals. strictly speaking, 's both terminal emulator an interactive shell based electron., unlike of emulators can meet nowadays uses html css its ui (exactly atom does), means can stop misusing unicode characters make better looking terminal appropriate tools.autocompletionupterm shows autocompletion box you type tries be smart what suggest.often can find useful additional information the right side the autocompletion, e.g. expanded alias value,command descriptions, value the previous directory (cd -), etc.compatibility aim be compatible least vt100. the programs (emacs, ssh, vim) should as expected.installmacosbrew cask install uptermbeware the version homebrew might outdated. visit releases page download latest version.linux (arch linux)yaourt -s upterm with macos's brew install, aur may be outdated. install latest version, refer the install guide linux (others).linux (others)git clone https://github.com/railsware/upterm.gitcd uptermnpm installnpm run packwindowswindows is officially supported the moment. windows support issue explains potential experimental support.technologieselectrontypescriptreactjsmore screenshotsdevelopment setupgit clone https://github.com/railsware/upterm.git && cd uptermnpm startinstructions are available debugging application visual studio code. create standalone application, execute npm run pack the project directory.contributing contributing guide.license mit license."
+}

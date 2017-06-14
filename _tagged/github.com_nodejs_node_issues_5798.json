@@ -1,0 +1,14 @@
+{
+	"_id": "14459526",
+	"site": "https://github.com/nodejs/node/issues/5798",
+	"title": "Use system random generator in crypto",
+	"author": "sr2",
+	"date": "2017-06-13T13:55:09.775Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": ""
+}

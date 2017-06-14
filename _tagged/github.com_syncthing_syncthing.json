@@ -1,0 +1,26 @@
+{
+	"_id": "14443229",
+	"site": "https://github.com/syncthing/syncthing",
+	"title": "Open Source Continuous File Synchronization",
+	"author": "loppers92",
+	"date": "2017-06-13T13:55:21.809Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"synchronization",
+			"go",
+			"peer-to-peer",
+			"p2p"
+		],
+		"languages": [
+			"go",
+			"html",
+			"javascript",
+			"css",
+			"protocol buffer",
+			"shell",
+			"batchfile"
+		]
+	},
+	"content": "readme.md goalssyncthing is continuous file synchronization program. synchronizesfiles between or more computers. strive fulfill goals below. goals are listed order importance, most important being first. is summary version the goal list - morecommentary, the full goals document.syncthing should :safe data lossprotecting user's data is paramount. take every reasonableprecaution avoid corrupting user's files.secure against attackersagain, protecting user's data is paramount. regardless our goals must never allow user's data be susceptible eavesdropping modification unauthorized parties.easy usesyncthing should approachable, understandable inclusive.automaticuser interaction should required when absolutely necessary.universally availablesyncthing should run every common computer. are mindful thelatest technology is always available any given individual. individualssyncthing is primarily empowering individual user safe,secure easy use file synchronization.everything else are many things care that don't it to list. is fine optimize these values, long they are in conflict the stated goals above.getting started a at getting started guide. are few examples keeping syncthing running the background your system the etc directory. are several guiimplementations windows, mac linux.vote features/bugs'd to encourage to vote issues matter you. helps team understand are biggest pain points our users, could potentially influence is being worked next.getting touch first best point contact is forum. is an ircchannel, #syncthing freenode ( a web client), talkingdirectly developers users. you've found something is clearly bug, feel free report in github issue tracker.buildingbuilding syncthing source is easy, there's guide describes for both unix windows systems.signed releases of v0.10.15 onwards release binaries are gpg signed the keyd26e6ed000654a3e, available https://syncthing.net/security.html most key servers. is a built automatic upgrade mechanism (disabled somedistribution channels) uses compiled ecdsa signature. mac osx binaries are properly code signed.documentationplease the syncthing documentation site. code is licensed under mplv2 license."
+}

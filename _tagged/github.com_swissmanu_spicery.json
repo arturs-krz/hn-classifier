@@ -1,0 +1,21 @@
+{
+	"_id": "14209475",
+	"site": "https://github.com/swissmanu/spicery",
+	"title": " Runtime type safety for JSON data with TypeScript and spicery",
+	"author": "swissmanu",
+	"date": "2017-06-13T13:33:04.768Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"parser",
+			"typesafe",
+			"runtime",
+			"typescript",
+			"json"
+		],
+		"languages": [
+			"typescript"
+		]
+	},
+	"content": "readme.md spiceryruntime type safety json/untyped data.typescript gives compile- type safety your javascript code. external data you through, example, xhr calls is checkable runtime. spicery allows to handle runtime checks one place using easy use api. examples// know typescript interfaces:interface todo { userid: number; id: number; title: string; completed: boolean; }// is : define todo parser spicery:const todos: parserfn<todo> = x => ({ userid: frommap(x, 'userid', anumber), id: frommap(x, 'id', anumber), title: frommap(x, 'title', astring), completed: frommap(x, 'completed', aboolean)});// define another parser an array containing todos using spicery array parser:const jsonplaceholdertodos = anarraycontaining(todos);// fetch todos parse :window.fetch('https://jsonplaceholder.typicode.com/todos') .(r => parse(jsonplaceholdertodos)(r.body)) .(t => console.log(t)) further examples refer the examples/ directory. execute locally, clone repository run following commands your command line choice:yarnyarn run example:simpleyarn run example:complexthough first yarn command is used install module dependencies once contribution master branch contains latest stable release.development efforts are integrated the develop branch . changes then merged master soon a release should published. opening new pull request sure point to develop. use proper commit messages: spicery loves commitizen, take look and git cz the simple workflow :-)thank for contribution!"
+}

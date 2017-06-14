@@ -1,0 +1,21 @@
+{
+	"_id": "14359589",
+	"site": "https://github.com/withspectrum/micro-open-graph",
+	"title": " Micro-open-graph, a tiny node microservice to scrape open graph data",
+	"author": "mxstbr",
+	"date": "2017-06-13T13:07:42.244Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"micro",
+			"microservices",
+			"opengraph",
+			"scraper"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md micro-open-graph tiny node.js microservice scrape open graph data joy.running microservice won't need backend solely get meta information links users submit. press deploy button below show users the links 're clicking contain!deployment own micro-open-graph is click away: can deploy a single command the terminal (assuming have installed): withspectrum/micro-open-graphusage get data a given url, example mxstbr.blog, simply add url (safely escaped) the url query parameter:https://-url..sh/?url=http://mxstbr.blog you get parsed data the following format:{\"author\": null,\"date\": \"2017-02-16t11:00:00.000z\",\"description\": \"fresh thinking expert tips html, css, javascript other web technologies.\",\"image\": \"http://mxstbr.blog/social_media.png\",\"publisher\": \"<mxstbr/>\",\"title\": \"<mxstbr/>\",\"url\": \"http://mxstbr.blog/\"}note: all this, even more, data might available depending the meta tags page has its html. ( metascraper the full list supported properties) infer data more places just open graph meta tags, also support twitter meta tags fallback standard html tags e.g. title tag no open graph data was specified. results are cached memory 24 hours, means calling with same url repeatedly won't a large impact your server!developmentgit clone git@github.com:withspectrum/micro-open-graph.gitnpm run dev server then listening localhost:3000.updating master branch this repository is you be deploying. update a version potential bugfixes, you to is run now command again change url call your app! licensecopyright (c) 2017 maximilian stoiber, licensed under mit license. license.md more information."
+}

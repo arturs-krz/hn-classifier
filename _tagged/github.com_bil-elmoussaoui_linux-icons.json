@@ -1,0 +1,16 @@
+{
+	"_id": "14457333",
+	"site": "https://github.com/bil-elmoussaoui/linux-icons",
+	"title": "Native linux icons using Node.js",
+	"author": "bil-elmoussaoui",
+	"date": "2017-06-13T13:55:02.441Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md linux-icons native linux icons nodejsimprove linux support your nodejs application using system icon themes. icons should placed under of freedesktop icons location standards /usr/share/icons/hicolor/status current version supports:inheritssizes (svg icons are resized using geticonbuffer)icon contexts to install packagenpm install --save linux-icons order get full path an iconconst icons = require('linux-icons')let iconpath = icons.geticon.sync('myicon-name', 22, icons.context.status)asyncconst icons = require('linux-icons')icons.geticon('myicon-name', 22, icons.context.status, iconpath => { console.log(iconpath)}) to the buffer itconst icons = require('linux-icons')let icon = icons.geticonbuffer.sync('myicon-name', 22, icons.context.status)asyncconst icons = require('linux-icons')icons.geticonbuffer('myicon-name', 22, icons.context.status, buffer => { console.log(buffer)})note: electron tray icons does support svg icons. will to geticonbuffer nativeimage.createfrombuffer. the examples folder.todo auto-detect de get right icon theme name async version clean code! scaling factor"
+}

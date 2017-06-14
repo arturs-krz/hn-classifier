@@ -1,0 +1,20 @@
+{
+	"_id": "14529870",
+	"site": "https://github.com/codelion/gramtest",
+	"title": "GramTest: A tool for Grammar based Test case generation",
+	"author": "asankhs",
+	"date": "2017-06-13T14:09:48.219Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"grammar",
+			"java",
+			"bnf"
+		],
+		"languages": [
+			"java",
+			"antlr"
+		]
+	},
+	"content": "readme.md gramtest tool allows to generate test cases based arbitrary user defined grammars. input grammar is given bnf notation. potential applications include fuzzing automated testing.instructions use maven our build tool. you compile project using maven will generate single jar, can run the command line follows:java -jar gramtest.jar -file grammar.bnf take look all additional options, can run java -jar gramtest.jar -h will print details below.usage: gramtest [options] -dep <depth rules> maximum depth recursive rules -ext <extension> file extension generated tests -file <grammar file> path the grammar file ( bnf notation) -h,--help prints message -max <max size test> maximum size each generated test -min <min size test> minimum size each generated test -mingen <minimal generator> minimal sentence generation (true/false) -num <number tests> maximum number test cases -tests <test folder> path the folder store generated testsbugs found using gramtestprojectreferencestatusapache commons validatorhttps://issues.apache.org/jira/browse/validator-410opensegmentio/is-urlhttps://github.com/segmentio/is-url/issues/15opengajus/url-regexphttps://github.com/gajus/url-regexp/issues/6openarticlescontinuous fuzzing java projects gramtest does grammar-based test case generation ?practical tips implementing grammar-based test case generationfaq i this particular grammar gramtest? long the input grammar is described bnf is possible use with gramtest generate random strings. several grammars you find online are given proper bnf format, comments/text some productions, do have complete clauses. verify the grammar are using doesn't any bugs before using .why did choose bnf not ebnf/abnf/etc. the input format gramtest?bnf was simplest all formats use, is certainly possible implement another input format it is going be non-trivial excercise. will need implement own generator can create strings based each type production the grammar.where i find sample bnf grammars use?several examples are available the test folder. can refer the unit tests see they be used."
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "14441836",
+	"site": "https://github.com/cagataycali/xss-listener",
+	"title": "️ XSS Listener is a penetration tool for easy to steal data with various XSS",
+	"author": "cagataycali",
+	"date": "2017-06-13T13:55:21.367Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"xss",
+			"xss-attacks",
+			"security-hardening",
+			"security-tools",
+			"xss-harvest",
+			"xss-harvester"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md xss listener is penetration tool easy steal data various xss. now , you not need xss listeners! xss listener records data have stolen the remote site the database, gives instant notification telegram. -how background is xsssteal cookie xss without redirecting another pagetr | to xss listener usagelistener accepts http methods parameters, save database. example: https://yourapp.com/?cookie=phpsessid=889c6594db2541db1666cefca7537373post https://yourapp.com/form: { cookie:'phpsessid=889c6594db2541db1666cefca7537373' } will notify telegram bot. detailed usage list previous requestshttps://yourapp.com/list delete previous request idhttps://yourapp.com/delete/[id] you use telegram/list/delete [id] run local environment terminal,git clone https://github.com/cagataycali/xss-listener.git; # clonecd xss-listener; # change directory.npm install; # install dependencies.# fill bot token user id.telegram_token=[bot token] telegram_user_id=[user id] node index.jslicensemit © çatay çal"
+}

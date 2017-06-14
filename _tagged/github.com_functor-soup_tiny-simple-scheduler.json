@@ -1,0 +1,18 @@
+{
+	"_id": "14108995",
+	"site": "https://github.com/functor-soup/tiny-simple-scheduler",
+	"title": " No-brainer trivial job scheduler in haskell",
+	"author": "gokusaaaan",
+	"date": "2017-06-13T13:35:27.869Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"haskell",
+			"job-scheduler"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": "readme.md advanced example show case tinyscheduler libraryarchitecture players (client server)server serves page a status randomly changes certain intervalsclient periodically pulls down page check status changes if notices status change outputs status else outputs \"nothing found yadada\" lineeditscouldn't include twilio the twilio library has weird tight constraints"
+}

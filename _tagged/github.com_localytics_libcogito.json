@@ -1,0 +1,21 @@
+{
+	"_id": "14507879",
+	"site": "https://github.com/localytics/libcogito",
+	"title": " A different syntax for AWS IAM",
+	"author": "kddeisz",
+	"date": "2017-06-13T13:04:19.646Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cogito"
+		],
+		"languages": [
+			"c",
+			"yacc",
+			"shell",
+			"makefile",
+			"other"
+		]
+	},
+	"content": "readme.md libcogitocogito allows to define aws iam policies using smaller, easier--read format. writing:allow dynamodb:batch*, dynamodb:deleteitem dynamodb:::table/push*;allow s3:putrecord kinesis:::stream/push*;cogito generate:[ { \"effect\": \"allow\", \"action\": [ \"dynamodb:batch*\", \"dynamodb:deleteitem\" ], \"resource\": [ \"arn:aws:dynamodb:::table/push*\" ] }, { \"effect\": \"allow\", \"action\": [ \"s3:putrecord\" ], \"resource\": [ \"arn:aws:kinesis:::stream/push*\" ] }]installation get started mac, host cogito a homebrew formula, to install run:brew tap localytics/formulaebrew install cogito other debian-based systems, can install with:file=$(mktemp)wget 'https://s3.amazonaws.com/public.localytics/artifacts/libcogito_0.2.0-1_amd64.deb' -qo $filesudo dpkg - $file && rm $file amazon linux, can download appropriate object file our s3 bucket here:wget https://s3.amazonaws.com/public.localytics/artifacts/cogito/amazon/libcogito.to install source, checkout repository run:autoreconf -./configuremake installbinary usage can convert between json cogito syntax the command line:$ cogito -json 'allow ec2:describeinstances *;'[ { \"effect\": \"allow\", \"action\": [ \"ec2:describeinstances\" ], \"resource\": [ \"*\" ] }]$ cogito -iam '[{ \"effect\": \"allow\", \"action\": \"ec2:describeinstances\", \"resource\": \"*\" }]'allow ec2:describeinstances *;library usage can link against libcogito it has been installed including cogito.h your c program. will you buffer struct:typedef struct { size_t length; size_t capacity; char *content;} cg_buf_t; two functions: cg_to_json cg_to_iam. call signature these functions is:int cg_to_json(cg_buf_t *buffer, char *str);int cg_to_iam(cg_buf_t *buffer, char *str);where return value be 0 the case success an error code otherwise.dependencies need install autoconf automake the autoreconf - command work, so:$ brew install autoconf automake program depends gnu bison flex. mac osx can install using homebrew so:$ brew install flex bison may need link manually depending your configuration, you do :$ brew link flex --forcetesting order work the tests, ensure have check installed your system:$ brew install check you run:$ check run unit tests. order run integration tests, run:$ tests/integration/testbuilding build necessary artifacts, sure docker is running your machine. , ensure you've built necessary autotools files autoreconf - and ./configure. , to build debian package, run:$ debian-build to build amazon linux package, run:$ amazon-buildreleasingreleasing new version requires updating things a couple places - follow below script:update amazon rpm spec the debian changelog.merge changes master.tag release off master the version update github release docs.build packages artifacts ( building above).upload artifacts s3 under public.localytics bucket.update homebrew formula point the latest version.credits ccan json library is used libcogito uses parsing generating json."
+}

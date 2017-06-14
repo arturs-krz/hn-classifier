@@ -1,0 +1,18 @@
+{
+	"_id": "14493305",
+	"site": "https://github.com/Kyubyong/numpy_exercises",
+	"title": "NumPy exercises based on each of NumPy's functions",
+	"author": "kyubyong",
+	"date": "2017-06-13T14:10:06.454Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"numpy",
+			"numpy-exercises"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md numpy exercises numerical computing python, numpy is essential. 'm writing simple ( few lines each problem) hopefully helpful exercises based each numpy's functions. outline be follows.array creation routines (done)array manipulation routines (done)string operations (done)numpy-specific help functions (done)indexing routines (wip)input output (done)linear algebra (numpy.linalg) (done)logic functions (done)mathematical functions (done)random sampling (numpy.random) (done)set routines (done)sorting, searching, counting (done)statistics (done)nov., 2016kyubyong"
+}

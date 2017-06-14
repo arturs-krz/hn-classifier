@@ -1,0 +1,16 @@
+{
+	"_id": "14454976",
+	"site": "https://github.com/rafrex/simplemark",
+	"title": " Simplemark – a smaller version of Markdown",
+	"author": "rafrex",
+	"date": "2017-06-13T13:05:04.035Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md simplemark smaller version markdown~1kb gzippedcode styled prettierlive examplewhy? markdown parsers are large. commonmark js parser is 36kb gzipped others are a similar size, makes markdown bad format saving, parsing, presenting lightly formatted text single page apps. idea is create format where parser be easily incorporated single page apps the raw string be loaded the backend rendered html the frontend the app. format be used user generated content (posts, comments, etc...), can created using gui text editor written directly.fast - parser is single pass runs o(n) where n is number characters the string.current statesupports heading, paragraph, link, emphasis, strong, inlinebreak, blockbreak elements only pre-built renderer is react (part react-simplemark)todoadd support list, image, blockquote, inlinecode, thematicbreak elementscreate plain html renderercreate gui text editor generating simplemark formatted textadd fundamentals the simplemark format the readme (blocks, inlines nesting)create definitions each type elementusage$ yarn add simplemark# $ npm install --save simplemarksimplemark export's single function takes arguments, source string simplemark format a renderer object render functions each type element (heading, paragraph, link, etc...).import simplemark 'simplemark';const source = '# string simplemark format';const renderer = { heading({ level, children, key }) {/*return rendered element*/}, paragraph({ children, key }) {/*return rendered element*/}, ...};const treeofrenderedelements = simplemark(source, renderer);renderer renderer is object render functions each type element (heading, paragraph, etc... list below).each render function receives it's sole argument object keys :children array element's children (already rendered).key unique id among parent's children ( a number). properties specific the element type (e.g. href title links). creating renderer react, each render function be react component the object receives are props.currently only pre-built renderer is react (part react-simplemark).// list all element types created simplemark// keys are requiredconst renderer = { heading({ level/*number 1 6*/, children/*array*/, key/*number*/ }) {/*return rendered element*/}, paragraph({ children, key }) {/*return rendered element*/}, link({ href/*string*/, title/*string*/, children, key }) {/*return rendered element*/}, emph({ children, key }) {/*return rendered element*/}, strong({ children, key }) {/*return rendered element*/}, inlinebreak({ key }) {/*return rendered element*/}, blockbreak({ key }) {/*return rendered element*/},};"
+}

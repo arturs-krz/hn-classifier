@@ -1,0 +1,16 @@
+{
+	"_id": "14418337",
+	"site": "https://github.com/toji/semilive",
+	"title": "A Sublime Text Plugin for “Live” Coding",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T13:56:32.333Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md semilivesemilive is really simple sublime text 3 plugin advances through series text injection steps, making appear if are typing you and highlighting injected text afterwards. useful doing \"live code\"walkthroughs where want build a code file you narrate have be runnable, didn't time practice are panicking a fridaynight how could possible memorize of code time. ahem plugin has nice properties visually \"typing\" injected strings that observers are visually drawn the motion more easily follow along. also highlights typed text each step help stand .i used for demo coding section my 2017 google /o talkis cheating?yes, absolutely. that probably doesn't matter. you're \"live coding\" show off typing skills you shouldn't this. chances are your audience is more interested hearing explain 's happening each step watching hammer away a keyboard. to drop semilive.py semilive.sublime-settings your sublime text 3\"packages/user\" directory. (find by going the\"preferences->browse packages\" menu item). you run plugin commands the console (more usefully) bind to shortcut keys.semilive_next: play next step the scriptsemilive_reset: reset step counter 0 script is defined the semilive.sublime-settings file. script arraydefines series json objects use following keys:: a string search which insert text be inserted replace: string search which be replaced the insert textinsert: string list strings be inserted the string which replace replace stringinstant: true not simulate typing character characterhighlight: false not highlight insert strings insertion examples the default semilive.sublime-settings"
+}

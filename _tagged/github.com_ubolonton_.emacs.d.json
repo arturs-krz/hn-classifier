@@ -1,0 +1,21 @@
+{
+	"_id": "14418703",
+	"site": "https://github.com/ubolonton/.emacs.d",
+	"title": "Emacs config for Dvorak layout",
+	"author": "scapbi",
+	"date": "2017-06-13T13:56:32.762Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"emacs lisp",
+			"roff",
+			"python",
+			"tex",
+			"html",
+			"forth"
+		]
+	},
+	"content": "readme.md emacs config parts are reusable, highly customized hard use -of--box.highlights:extensive of variable-width font ( non-code texts) improve readability.custom fontset multi-lingual texts.obsessively home-grown color theme.vim navigation/editing through evil.heavily tweaked key bindings dvorak layout. git clone --recursive https://github.com/ubolonton/.emacs.d"
+}

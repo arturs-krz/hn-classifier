@@ -1,0 +1,20 @@
+{
+	"_id": "14266104",
+	"site": "https://github.com/GoogleCloudPlatform/cloud-functions-go",
+	"title": " Unofficial Native Go Runtime for Google Cloud Functions",
+	"author": "iangudger",
+	"date": "2017-06-13T13:32:04.573Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"c++",
+			"makefile",
+			"python"
+		]
+	},
+	"content": "readme.md unofficial native runtime google cloud functionsdisclaimer: is an official google product. is and not maintained google, is part google cloud functions project. is guarantee any kind, including it work continue work, that will supported any .background the of writing, google cloud functions supports node.js based runtime. running non-javascript code is officially supported the form native node modules running subprocesses. node always handling requests. wrapping code a native node module require writing complicated foreign function interfaces (ffis). ffis are notoriously difficult get right are easy to introduce memory leaks well security stability issues. using subprocess is much easier get right, it introduces overhead interprocess communication (ipc) context switches. both cases, requests are proxied between node go typically involves extra copies translations.100% pure request path an initial bootstrap step, only thing running is pure binary. project works completely replacing node process lets go process directly handle requests. is cgo no proxying. means it is faster potentially more secure other projects typically use both. it works native module calls execve(2) without normal preceding fork(2) call the user module is imported. open socket fds are preserved handled the go process ensure smooth transition. new process pretends be node.requirementslinux macos development environment ( native node module depends linux/macos specific behavior.) 1.5 abovenode.js v0.10 above node-gyp and gcc you are using macos as right you need full xcode installed. command line tools alone not .hello, world! demo hello world example is included. try out, simply skip the deployment section.making changes normal development, should be necessary modify main. file. although file probably shouldn't live your gopath, feel free import libraries your gopath (including libraries downloaded go ).local testingrun test compile code start test server. open http://localhost:8080/req your browser. page should display user function is ready. refresh page talk your code.deploymentrun to compile package code. upload generated function.zip file google cloud functions an http trigger function.limitations has been tested http trigger functions. non-http trigger functions use different endpoint ( /req).logging is supported (yet).troubleshooting versions node.js (especially those packaged ubuntu) name main binary nodejs instead node. symptom this problem is error the node binary being found the path though node.js is installed. can fixed sudo ln -s $( nodejs) /usr/local/bin/node.licensecopyright 2017, google, inc.licensed under apache license, version 2.0 license."
+}

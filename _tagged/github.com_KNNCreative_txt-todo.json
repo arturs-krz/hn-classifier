@@ -1,0 +1,19 @@
+{
+	"_id": "14479622",
+	"site": "https://github.com/KNNCreative/txt-todo",
+	"title": " Txt-todo – Super SIMPLE text file todo",
+	"author": "knncreative",
+	"date": "2017-06-13T13:04:45.905Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"todo",
+			"electron-app"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": "readme.md txt-todosuper simple text file todo. will create todo.txt text file your desktop you the app delete item off it.video demodownloadmacos version:https://github.com/knncreative/txt-todo/releases/download/v0.0.1/txt-todo-darwin-x64.zipwindows version:https://github.com/knncreative/txt-todo/releases/download/v0.0.1/txt-todo-win32-x64.ziplinux version:https://github.com/knncreative/txt-todo/releases/download/v0.0.1/txt-todo-linux-x64.zip you to contribute, please :)# install packagesyarn install# build appyarn run build# start app without buildingyarn startlicensemitcreditsicon: https://thenounproject.com/search/?q=txt&=929125part kien's side projects: https://github.com/kienpham2000/side-projects"
+}

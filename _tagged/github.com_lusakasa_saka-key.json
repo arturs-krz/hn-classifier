@@ -1,0 +1,27 @@
+{
+	"_id": "14139590",
+	"site": "https://github.com/lusakasa/saka-key",
+	"title": " Saka Key – a configurable, extensible, keybinding chrome extension",
+	"author": "eejdoowad",
+	"date": "2017-06-13T13:35:12.513Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chrome-extension",
+			"keyboard",
+			"chrome",
+			"javascript",
+			"saka",
+			"saka-key",
+			"keyboard-interface",
+			"firefox-addon",
+			"web-extension"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md saka key keyboard interface the web.install the chrome web store firefox marketplace. read saka key handbook.indexintroinstalldevelopment tipscreditsintrosaka key lets navigate web just keyboard. differs existing vi-inspired chrome extensions four fronts: state machine architecture is modular, extensible, simple. is designed be easy possible add complex features minimal effort understanding the codebase.'s vim. aesthetics matter graphical menus takes preference text configuration. 's friendly non-developers.'s engineered configurability. settings gui is generated simple json files encourage authors make modes configurable. changes a setting are automatically propogated all tabs without requiring page refresh. saka key supports settings profiles are easy switch between sensible default settings profiles are supported. per-domain profiles coming soon.'s built modern web tooling ( of 2017): es6+, webpack, preact... coffeescript be seen. tools weren't selected because 're hip new. saka key be something entirely different without native asynchronous support, es6 modules, functional ui libraries.note: is developing project has bugs lacks features. you're looking a robust experience, try of more mature options vimium cvim.installrun following commands your terminal clone build saka keygit clone https://github.com/lusakasa/saka-key.gitcd saka-keynpm installnpm run build# if use firefoxnpm run build:firefox extension can run be generated the 'dist' directory.open chrome navigate chrome://extensionsenable developer mode select 'load unpacked extension'select dist directory, .development tipssave yourself trouble read developer guide. explains basics how saka key works.check the doc folder learn saka key's design.saka key is developed and reliant the following libraries:saka-actions: github, npmmosi: github, npm may to debug modify libraries contributing saka key. use local copy these libraries building saka-key:navigate their root directories.run npm linknavigate the root saka key.run npm link saka-actions /or npm link mosicreditsmit licensed, copyright (c) 2017 sufyan dawoodjeesaka key is inspired and derives vimiumvimaricvimsurfingkeysvimfx"
+}

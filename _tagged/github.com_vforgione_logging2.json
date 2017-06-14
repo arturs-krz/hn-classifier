@@ -1,0 +1,19 @@
+{
+	"_id": "14240893",
+	"site": "https://github.com/vforgione/logging2",
+	"title": " Logging2, An Improved Python Logging Utility",
+	"author": "vforgione",
+	"date": "2017-06-13T13:32:49.465Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python36",
+			"logging-library",
+			"log4j-sucks"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst logging2 more pythonic logging system; , you deserve better log4j basic contract logginglogging should simple intuitive. most cases, want quickly instantiate logger dump text a stream. would expect common workflow based a minimum level verbosity the log entries for those entries be formatted somefashion is both human readable machine parseable. should be set common metadata can used provide context the entry. context should be easily extended suit everyone's cases.additionally, values passed that context should pliable - users should the option override those values they deem necessary.common meta information should conform as widely adopted standards possible - .e. iso 8601 timestamps full unicode supported messages. stated foremost, interface this system should simple intuitive. means complexity the system should minimized,configuration should sane defaults the supporting library should packed expressive documentation.implementation the contract user should be concerned three components:verbosity (loglevel)message producers (handler)message creation (logger)installationlogging2 is available through pypi, thus be installed via pip:$ pip install logging2quickstartlogging should simple intuitive. that mind, easiest to up running is instantiate logger start producing entries:>>> logging2 import logger>>> logger = logger('app')>>> logger.info('hello, world!')2017-04-29t17:08:23.156795+00:00 info app: hello, world! default logger dump log entries stdout a minimum verbosity info. are numerous configurations, with simple easy rationalize behavior:log entry verbositylog producers (handlers)intuitive interface creating log entries (loggers)logger s a handful ways creating log entries via:debug the verbose level messagesinfo typical informational messageswarning calling user attention a potentially hazardous conditionserror altering users captured recovered error conditionsexception capturing exception tracebacks the log mechanism producing log entries the output streams is via handler s. handlersare broken three groups:streaming common io messaging (typically stdout stderr)files file system based iosockets network based messaging of are found the logging2.handlers package.caveats logging utility is designed python 3.6 better. will bebackported support earlier versions python."
+}

@@ -1,0 +1,28 @@
+{
+	"_id": "14415051",
+	"site": "https://github.com/crazychicken/checkbox-radio",
+	"title": " Checkbox Radio",
+	"author": "HuyPhamNguyen",
+	"date": "2017-06-13T13:06:44.478Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"checkbox",
+			"radio",
+			"html",
+			"css",
+			"javascript",
+			"tuds",
+			"crazychicken",
+			"checkbox-radio",
+			"html5",
+			"css3"
+		],
+		"languages": [
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md checkbox&radioquick startclone repo: git clone git@github.com:crazychicken/checkbox-radio.gitinstall npm: npm install --save-dev crazychicken/checkbox-radioinstall npm: npm install --save-dev checkbox-radio download latest releasedemohttp://tuds.ninja/checkbox-radio/dist/ to first, include css files your html head:<link type=\"text/css\" rel=\"stylesheet\" href=\"./dist/css/checkbox_radio_img_sprite.css\">set html checkbox<label class=\"checkbox\"> <input type=\"checkbox\"> < class=\"icon-checkbox\"></> default</label><br><label class=\"checkbox\"> <input type=\"checkbox\" checked> < class=\"icon-checkbox\"></> checked</label>set html radio<label class=\"radio\"> <input type=\"radio\" name=\"group-radio\"> < class=\"icon-radio\"></> default</label><br><label class=\"radio\"> <input type=\"radio\" name=\"group-radio\" checked> < class=\"icon-radio\"></> checked</label>treedist/ css/ | checkbox_radio.css | checkbox_radio_bootstrap.css | checkbox_radio_font.css | checkbox_radio_img_sprite.css fonts/ images/sass/ checkbox_radio.css checkbox_radio_bootstrap.css checkbox_radio_font.css checkbox_radio_img_sprite.cssoptions stylecheckbox_radio.csscheckbox_radio_bootstrap.csscheckbox_radio_font.csscheckbox_radio_img_sprite.csstemplate full feature listsemantically correct / valid html codehtml5, css3full project seed project (build : gulp, sass)cross browser compatible ( internet explorer 8+, firefox, safari, opera, chrome etc. )w3c valid source code, properly formatted commentedanimations css3creatorstudswebsite: http://tuds.ninja/github: https://github.com/crazychicken/checkbox-radiofacebook: https://www.facebook.com/tudscss/youtube: https://www.youtube.com/channel/ucdace-7bfgducqoxtdfpotwtwitter: https://twitter.com/mtu_truongcopyright licensecode documentation copyright 2016, mit license."
+}

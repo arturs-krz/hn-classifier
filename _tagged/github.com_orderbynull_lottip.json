@@ -1,0 +1,22 @@
+{
+	"_id": "14445793",
+	"site": "https://github.com/orderbynull/lottip",
+	"title": "Proxy for MySQL RDBMS for query tracking with simple and clean GUI",
+	"author": "orderbynull",
+	"date": "2017-06-13T13:55:21.670Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"mysql",
+			"proxy"
+		],
+		"languages": [
+			"go",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md lottiplottip is proxy mysql rdbms web gui. will show what's happening under hood your database layer. it sits between application mysql server 's need use tools wireshark see queries are being executed. comes single binary zero dependencies consists 2 parts: proxy server embedded gui.screenshotshere's query list looks :each query be expanded detailed view:bottom query freezed 10 seconds:ooops, query returned error:main featureslottip is it's early stage development. now can: all queries sent your application mysql grouped connection belongs .track query execution result: success(green indicator), pending(yellow indicator) error(red indicator).expand/collapse each query see more/less details. query execution .filter queries stringinstallationbinary binaries releases page sources mac/linux get github.com/orderbynull/lottip install github.com/mjibson/esccd $gopath/src/github.com/orderbynull/lottip$gopath/bin/esc -o static/static. -pkg=\"static\" -prefix web -include=\".*\\.css|.*\\.js|.*\\.html|.*\\.png\" web build./lottip to run're 4 simple steps get everything and running:run binary terminal this: ./lottip_darwin_386.'ll something this:forwarding queries '127.0.0.1:4041' '127.0.0.1:3306'web gui available 'http://127.0.0.1:9999'tell app connect mysql via port 4041 instead 3306. to http://127.0.0.1:9999 you'll nice gui.play your app see sql-queries flowing between app mysql. need page refresh websockets are used communicate between frontend backend. caseshere're few cases use my everyday basis it may helpful someone. locally run lottip your local machine point app it. can run few lottip instances each it's own port. is easy to keep multiple app separated view queries independently. remotelylet's you're writing php code locally run on dev server do want expose lottip outside world. this case here's you may :upload lottip binary remote dev server run like : ./lottip_darwin_386create ssh tunnel your local machine remote dev server this: ssh -nnt -l 9999:127.0.0.1:9999 user@-devserver.com. command map local :9999 remote :9999tell remote app use mysql port :4041open http://127.0.0.1:9999 locally.options can change default values whatever need.option availabledefault valuedescription--proxy127.0.0.1:4041<ip>:<port> proxy server. code should connections that address make proxy . example: --proxy=127.0.0.1:4045--mysql127.0.0.1:3306<ip>:<port> mysql server. example: --mysql=192.168.0.195:3308--gui127.0.0.1:9999<ip>:<port> embedded gui. example: --gui=127.0.0.1:8080todo write unit tests implement more features mysql protocol add query filtering string add query filtering it's status add sql code highlighting add sql code formatting add possibility execute/explain query right gui see results add support postgresql protocol ... moreknown problemscurrently lottip does support secure connections via ssl. workaround is disable ssl mysql server connect option --ssl-mode=disabledcontribute're very welcome report bugs, pull requests, share thoughts ideas!licencemit"
+}

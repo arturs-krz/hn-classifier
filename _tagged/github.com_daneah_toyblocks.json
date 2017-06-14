@@ -1,0 +1,17 @@
+{
+	"_id": "14472549",
+	"site": "https://github.com/daneah/toyblocks",
+	"title": "Toyblocks: A toy blockchain implementation in Python",
+	"author": "daneah",
+	"date": "2017-06-13T13:55:01.829Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"blockchain"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md toyblocksgetting started>>> import block>>> my_block = block.block(' data')>>> my_blockblock<hash: 4ce505..., nonce: none>>>> my_block.mine()>>> my_blockblock<hash: 00006a..., nonce: 3763>import blockimport blockchainchain = blockchain.blockchain() = block.block('')second = block.block('second')third = block.block('third')chain.add_block()chain.add_block(second)chain.add_block(third).update_data(' broke')print(chain.broken) # truechain.repair()print(chain.broken) # falsecreditsimplementation based behavior observed anders brownworth'sblockchain demo"
+}

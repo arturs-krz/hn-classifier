@@ -1,0 +1,14 @@
+{
+	"_id": "14363320",
+	"site": "https://github.com/dpinney/ocrThisImage",
+	"title": " OcrThisImage.app, optical character recognition macOS app",
+	"author": "maliker",
+	"date": "2017-06-13T13:07:42.178Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md ocrthisimage.app is macos app will perform optical character recognition any image open it.installation usage a copy tesseract. easiest is get homebrew then run \"brew install tesseract\" the terminal.download ocrthisimage.app.drop image the app, open image it using \"open ...\"\" menu the finder). .txt file the same name the image show in folder image was .source code app was built applescript apple's script editor. you to the source code open in script editor."
+}

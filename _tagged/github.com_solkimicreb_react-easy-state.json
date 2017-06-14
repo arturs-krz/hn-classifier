@@ -1,0 +1,23 @@
+{
+	"_id": "14475518",
+	"site": "https://github.com/solkimicreb/react-easy-state",
+	"title": " Easy State: simplified state management for React (learn in a minute)",
+	"author": "thenewestkid",
+	"date": "2017-06-13T13:04:45.869Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"javascript",
+			"reactive-programming",
+			"state-management",
+			"es6-proxies",
+			"setstate",
+			"autobind"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md react easy stateeasy state aims make react's state management simpler without adding syntax. achieve it makes following modifications. replaces react's setstate() plain native javascript. auto binds component's methods.installationnpm react-easy-state --saveusageadd @easystate decorator all your components - except stateless (function) components - enjoy benefits.import react, { component } 'react'import easystate 'react-easy-state'@easystateclass counter extends component { state = { value: 0 } increment () { .state.value++ } decrement () { .state.value-- } render () { return ( <div> {.state.value} <button onclick={.increment}>+</button> <button onclick={.decrement}>-</button> </div> ) }} decorators@easystate is decorator, is yet part the js language. can learn to enable decorators babel here you use older easystate(comp) function syntax.key features state use valid javascript. feel free use nested objects, arrays, expando properties, getters/setters, inheritance es6 collections directly. state is an object, updates synchronously you update . you don't to worry the asynchronous nature setstate.state mutations are picked and trigger render method appropriate. render method is triggered it is affected state mutations. it doesn't the mutated part the state the mutation doesn't change state, render method is triggered. render method is never executed immediately. triggered renders are collected executed asynchronously one batch.duplicates renders are removed. render never runs twice one batch - matter many times got triggered. renders run first trigger order.renders may trigger others renders mutating state. this case loops are automatically resolved.renders always run before next repaint.easy state implements optimal shouldcomponentupdate your components, you don't to worry doing by hand. a result state is always fresh a stable fresh view is always achieved before next repaint the minimal number required renders.examples live demoshello world (source)simple todos (source)todomvc (source)performance can compare easy state plain react other state management libraries the below benchmarks. generally seems easy state performs bit better mobx, bit worse plain optimized react similarly redux.js-framework-benchmark (source) (results) list benchmarks expand the future.platform supportnode: 6 abovechrome: 49 abovefirefox: 38 abovesafari: 10 aboveedge: 12 aboveopera: 36 abovereact native is yet supportedie is supported does work?under hood uses @nx-js/observer-util library, relies es6 proxies observe state changes. thanks the proxies doesn't edge cases limitations. can write js code without worrying the render function. blog post gives little sneak peek under hood the observer-util.contributingcontributions are always welcome. send pr against master branch open new issue. please sure the tests the linter pass the coverage remains 100%. thx! nx framework library is side effect the front-end framework have been working in past . please a at nx framework you some . have nice !"
+}

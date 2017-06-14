@@ -1,0 +1,32 @@
+{
+	"_id": "14373491",
+	"site": "https://github.com/kiok46/Track-Stargazers",
+	"title": " Track-Stargazers: Plot any GitHub project's stargazers on the world map",
+	"author": "kiok46",
+	"date": "2017-06-13T13:07:42.021Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"beautifulsoup",
+			"geocoder",
+			"python3",
+			"javascript",
+			"d3js",
+			"datamaps",
+			"stargazer",
+			"multithreading",
+			"threading",
+			"github-api",
+			"d3-js",
+			"stargazers-count",
+			"github-stars"
+		],
+		"languages": [
+			"javascript",
+			"python",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md track--stargazers fun tracking project's stargazers.inspiration saw post codementor ionic bizu lead to project, i decided create something cool my own. have used?pythonbeautifulsoup & github's api get user data.geocoder get country location.javascriptdatamaps d3.js build map. the world map showing project's stargazers just 2 steps.step 1run following command replacing url your own.python3 main.py https://github.com/kivy/plyer 3 0 1arguments:url: url the project/ repo 's stargazers want track.e.g: http://github.com/kivy/plyernumber_of_threads (+ve integer): number python threads want run. will divide entire users list smaller lists equal number_of_threads create new thread each.python3 main.py http://github.com/kivy/plyer 3example:l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]print (chunk_stargazers(l, 3))print (chunk_stargazers(l, 2))output[[1, 2, 3], [4, 5, 6], [7, 8, 9, 10]][[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]while parallel cpu computation is possible, parallel io operations are possible using threads python. is performing io operations releases gil. network io, of time is spent waiting the response the url, this is use case where using threads improves performance, why use ? :duse_api (binary): choose whether want use github's user api get user data use scraper. use api enter 1 else 0python3 main.py http://github.com/kivy/plyer 3 0read_from_stargazers_json (binary): there is stargazers.json file aleady present list users want plot you skip scraping users the project's stargazer's page e.g http://github.com/kivy/plyer/stargazers?page=2 setting value this argument 1.python3 main.py http://github.com/kivy/plyer 3 0 1step 2python3 merge_data.py 2arguments:number_of_files: let number equal number_of_threads since each thread create new json file.jsons/ data_0.json data_1.json the command should python3 merge_data.py 2 command merge the json files generate new stargazers.js the data/ directory. stargazers.js file later used data source plotting map.open browser index.html get surprised. to contribute need see improvements? would love , please create issue send pr."
+}

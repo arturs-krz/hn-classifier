@@ -1,0 +1,20 @@
+{
+	"_id": "14396232",
+	"site": "https://github.com/StackExchange/dnscontrol",
+	"title": "Synchronize your DNS to multiple providers from a simple DSL by StackOverflow",
+	"author": "NicoJuicy",
+	"date": "2017-06-13T13:56:41.414Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"dns"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"powershell"
+		]
+	},
+	"content": "readme.md dnscontroldnscontrol is system maintaining dns zones. has parts: domain specific language (dsl) describing dns zones plussoftware processes dsl pushes resulting zones dns providers such route53, cloudflare, gandi. can talk microsoft activedirectory it generates most beautifulbind zone files ever. runs anywhere runs (linux, macos,windows). provider model is extensible, more providers be added.currently supported dns providers:active directorybindcloudflarednsimplegandigooglenamecheapname.comroute 53 stack overflow, use system manage hundreds domains subdomains across multiple registrars dns providers. can of as dns compiler. configuration files arewritten a dsl looks lot javascript. is compiled an intermediate representation (ir). compiler -ends their update dns zones services such route53, cloudflare, gandi, systems such bind activedirectory. examplednsconfig.js:// define registrar providersvar namecom = newregistrar(\"name.com\", \"namedotcom\");var r53 = newdnsprovider(\"r53\", \"route53\")d(\"example.com\", namecom, dnsprovider(r53), (\"@\", \"1.2.3.4\"), cname(\"www\",\"@\"), mx(\"@\",5,\"mail.myserver.com.\"), (\"test\", \"5.6.7.8\"))running dnscontrol preview talk the providers (here name.com registrar route 53 the dns host), determine changes need be made.running dnscontrol push make those changes the provider my dns records be correctly updated. getting started page documentation site.benefitsediting zone files is error-prone. clicking buttons a webpage is irreproducible.switching dns providers becomes no-brainer. dnscontrollanguage is vendor-agnostic. you it maintain dnszone records, can switch between dns providers easily. fact,dnscontrol upload dns records multiple providers, means can test while switching another. 've switchedproviders 3 times three years we've never lost dns record.adopt ci/cd principles dns! stackoverflow maintain dnscontrol configurations git use ci system roll changes. keeping dns information a vcs means have fullhistory. using ci enables to include unit-tests system-tests.remember you forgot include \".\" at end an mx record? haven't had problem since included test make suretom doesn't that mistake... again.variables save ! assign ip address a constant use variable name throughout file. need change ip addressglobally? change variable \"recompile.\"macros! define spf records, mx records, other repeateddata once re- them all domains.control cloudflare a single location. enable/disablecloudflare proxying ( \"orange cloud\" button) directly yourdnscontrol files.keep similar domains sync transforms other features. one domain is supposed be same is extendable! the dns providers are written plugins.writing plugins is very easy.installation sourcednscontrol be built go version 1.7 higher. install, simply run get github.com/stackexchange/dnscontroldnscontrol should installed $gopath/binvia packages prebuilt binaries github releases"
+}

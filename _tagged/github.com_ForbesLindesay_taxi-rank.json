@@ -1,0 +1,17 @@
+{
+	"_id": "14434348",
+	"site": "https://github.com/ForbesLindesay/taxi-rank",
+	"title": "Taxi Rank: A fast, webdriver-compatible headless browser built entirely in JS",
+	"author": "mxstbr",
+	"date": "2017-06-13T13:55:34.368Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md taxi-rank super fast jsdom based selenium webdriver api. write end end tests once run against super fast, headless browser built node.js, once those tests pass can run against real browsers the cloud!installationnpm install taxi-rank -gusage a separate terminal, run taxi-rank, you use cabbie ( your webdriver client choice), connect this super-fast virtual driver:import assert 'assert';import cabbie 'cabbie-sync';// connect taxi-rank, adding {debug: true} makes cabbie log each method call.const driver = cabbie('http://localhost:9516', {debug: true});try { // navigate a url the currently active window driver.browser.activewindow.navigateto('http://example.com'); // an element, check its text equals expected value assert.equal( driver.browser.activewindow.getelement('h1').gettext(), 'example domain', );} finally { // whether tests pass fail, dispose the driver driver.dispose();}licensemit"
+}

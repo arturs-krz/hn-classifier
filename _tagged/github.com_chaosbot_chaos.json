@@ -1,0 +1,22 @@
+{
+	"_id": "14399610",
+	"site": "https://github.com/chaosbot/chaos",
+	"title": "A social coding experiment that updates its own code democratically",
+	"author": "qznc",
+	"date": "2017-06-13T13:56:42.065Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"html",
+			"css",
+			"shell",
+			"ruby",
+			"other"
+		]
+	},
+	"content": "readme.md chaosbotchaos, vacant infinite space existed according the ancientcosmogonies previous the creation the world, out which gods,men, all things arose.chaosbot is social coding experiment see happens the absolutedirection a software project is turned to open source community. it worksfork code make changes wish. ( development)open pull request. there is general approval* the community, pr be mergedautomatically chaosbot.chaosbot automatically update own code your changes restart itself. to #1 declaration the independence cyberspace have freed ourselves the chains shackles project admins owners, diminishing value work there needs. are making fully equal community, where everyone has equal . (please independence.md)join .in effect, get change basic purpose functionality chaosbot, your discretion. will chaosbot ? it's to . the thing does is updateitself your changes. as long the code connecting itself newchanges remains intact, chaosbot continue grow change according your .some things could provide useful service people. malicious.recreate itself a different programming language.break itself die. is set purpose. chaosbot makes itself is entirely to imagination the open source community.wondering to contribute? try implementing feature requested here.votingvotes a pr are determined through following mechanism: comment contains emoji signifying vote somewhere the body counts a vote or against pr.same reactions the pr itself pr itself counts from owner, unless vote otherwise.voting goes for duration the voting window - currently 2 3 hours,depending the local server .while voting process is going, users change reactions edit comments, effectively changing vote.emoji count votes are:+1: -1: developmentdockervagrantdeath counterchaosbot has died 16 times. counter is incremented whenever trunkbreaks the server must restarted manually. last broken #309rulerschaosbot has been ruled :democracyanarchy #48democracy, the anarchy commit crashed server was reverted@plasmapower #138democracy, plasmapower relinquished control #153direct democracy + meritocracy #377server detailschaosbot runs python 3.6.1 ubuntu 14.04 trusty. process is managed under supervisor. avoidwriting own process-management tooling unless is going replacesupervisor completely. has root access its server. means are able installpackages perform privileged operations, provided can initiate thosechanges through pull request. domain name is chaosthebot.com.'s hosted a low-tier machine the cloud. means aren't ton resources available it: 2tb network transfer, 30gb storage, 2gb memory, 1 cpu core. try to deliberately dos .mysql is installed locally.faqq: happens chaosbot merges bad code doesn't start again?: errors happen, in interest keeping things interesting, chaosbot manually restarted the death counter be incremented.q: is \"general approval\" the community?: users must vote your pr, through either comment reaction, a accept/reject pull request review. voting. addition, member the meritocracy must approve most recent commit the pr a review. member the meritocracy approving own pr does count. meritocracy is determined combining top 10 contributors the top 10 voters. current meritocracy be viewed here.q: if chaosbot has problem can't solved a pr?: please open project issue areal live human take look it."
+}

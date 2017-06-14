@@ -1,0 +1,20 @@
+{
+	"_id": "14430292",
+	"site": "https://github.com/ryanml/NotHotDog",
+	"title": " A Flask/AWS Rekogniton Implementation of Silicon Valley's 'Not Hot Dog'",
+	"author": "palferrari",
+	"date": "2017-06-13T13:06:18.564Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"flask"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md nothotdognothotdog is flask/aws rekognition implementation silicon valley's ' hot dog' app.building locallynothotdog runs python 2.7.* install setuptools you don't it, it running (pip):pip install setuptoolsclone repo:git clone https://github.com/ryanml/nothotdognavigate the project root, run:python setup.py install the label detection relies aws' rekognition service, 'll need have aws cli client installed. may install information hereonce is installed, 'll enter aws iam creds running:aws configure project serve locally port 5000 running:python -m nothotdog is work progress, front-end contributions welcome!demo:http://nothotdog.ryanlane.se"
+}

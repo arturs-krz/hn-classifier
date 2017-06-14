@@ -1,0 +1,17 @@
+{
+	"_id": "14352386",
+	"site": "https://github.com/sacert/Genetic-Hello-World",
+	"title": " Genetic Hello World",
+	"author": "sacert",
+	"date": "2017-06-13T13:07:42.557Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md genetic hello worldsimple attempt genetic programming. demo here: https://sacert.github.io/genetic-hello-world/"
+}

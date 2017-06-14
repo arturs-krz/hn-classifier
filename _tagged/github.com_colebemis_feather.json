@@ -1,0 +1,21 @@
+{
+	"_id": "14488880",
+	"site": "https://github.com/colebemis/feather",
+	"title": "Feather: Simply beautiful open source icons",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T14:10:07.610Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"icons",
+			"svg"
+		],
+		"languages": [
+			"html",
+			"css",
+			"ruby",
+			"shell"
+		]
+	},
+	"content": "readme.md feathersimply beautiful open source iconsdesigned a 24x24 grid an emphasis functionality, consistency simplicity.change log changelog.mdlicensefeather is licensed under mit license."
+}

@@ -1,0 +1,32 @@
+{
+	"_id": "14411416",
+	"site": "https://github.com/istio/istio",
+	"title": "Istio – An open platform to connect, manage, and secure microservices",
+	"author": "adieu",
+	"date": "2017-06-13T13:56:41.663Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"microservices",
+			"service-mesh",
+			"lyft-envoy",
+			"kubernetes",
+			"api-management",
+			"circuit-breaker",
+			"istio",
+			"polyglot-microservices",
+			"enforce-policies",
+			"proxies",
+			"microservice"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"html",
+			"python",
+			"lua",
+			"protocol buffer"
+		]
+	},
+	"content": "readme.md istio open platform connect, manage, secure microservices.introductionistio authorsrepositoriescontributing the projectcommunity supportintroductionistio is open platform providing uniform to integratemicroservices, manage traffic flow across microservices, enforce policies aggregate telemetry data. istio's control plane provides abstractionlayer the underlying cluster management platform, such kubernetes,mesos, etc.visit istio.io in-depth information using istio.istio is composed three main components:envoy - sidecar proxies per microservice handle ingress/egress trafficbetween services the cluster from service externalservices. proxies form secure microservice mesh providing richset functions discovery, rich layer-7 routing, circuit breakers,policy enforcement telemetry recording/reportingfunctions.note: service mesh is an overlay network. simplifies enhances microservices an application talk each over network provided the underlying platform.mixer - central component is leveraged the proxies microservices enforce policies such acls, rate limits, quotas, authentication, requesttracing telemetry collection.pilot - component responsible configuring envoy mixer runtime.istio currently supports kubernetesplatform, although plan support additional platforms such cloud foundry, mesos the near future.istio authorsistio is open source project an active development community. project was started teams google ibm, partnership the envoy team lyft.repositories istio project is divided across multiple github repositories. eachrepository contains information how build test .istio/api. repository definescomponent-level apis common configuration formats the istio platform.istio/istio. is repo arecurrently looking . it hosts various istio sample programsalong the various documents govern istio open sourceproject.istio/pilot. repositorycontains platform-specific code populate abstract service model, dynamically reconfigure proxies the application topology changes, well translaterouting rules proxy specific configuration. istioctl command line utility is available this repository.istio/mixer. repositorycontains code enforce various policies traffic passing through proxies, collect telemetry data proxies microservices. are plugins interfacing various cloud platforms, policymanagement services, monitoring services.istio/mixerclient. client libraries the mixer api.istio/proxy. istio proxy containsextensions the envoy proxy ( the form envoy filters), allow proxy delegate policy enforcementdecisions the mixer.contributing the project the contribution guidelines information how participate the istio project submitting pull requests issues. can check how setup development.community support are several communication channels available getsupport istio to participate its evolution."
+}

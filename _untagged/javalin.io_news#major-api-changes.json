@@ -1,0 +1,9 @@
+{
+	"_id": "14532666",
+	"site": "https://javalin.io/news#major-api-changes",
+	"title": " Javalin, a Kotlin/Java REST API framework (big api changes)",
+	"author": "javalin",
+	"date": "2017-06-13T10:39:12.581Z",
+	"tags": [],
+	"content": "* download * docs * tutorials * newsnewsrelease notes minor releases be posted here.major api changesjavalin 0.3.0 changes core api dealing request/response pairs, just dealing a single context( ctx) object. context-object contains the methods belonged request response previously, a few adjustments:comparison: * java * kotlinapp.(\"/\", ctx -> ctx.result(\"hello world\")); // syntaxapp.(\"/\", (req, res) -> res.body(\"hello world\")); // old syntaxapp.(\"/\") { ctx -> ctx.result(\"hello world\") } // syntaxapp.(\"/\") { req, res -> res.body(\"hello world\") } // old syntax getters (header(name), cookie(name), etc) operate the underlying request, while setters (header(name, value), cookie(name, value), etc) operate the underlying response. since request response dont share methods, approach seems work .kotlin rewrite of javalin was re-written kotlin version 0.2.0. sam interfaces were left java, well the main javalin-class has method-declarations sam parameters. had be done due limitations kotlin itself (https://youtrack.jetbrains.com/issue/kt-14151,https://devnet.jetbrains.com/thread/461516) rest the library be ported kotlin this issue is resolved, and alternative solution is discovered.hello world! first javalin version is available (0.0.1). javalin try follow semantic versioning, be prepared breaking changes.javalin is free open source java rest api library, released under apache 2 license"
+}

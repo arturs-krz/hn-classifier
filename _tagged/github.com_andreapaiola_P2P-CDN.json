@@ -1,0 +1,20 @@
+{
+	"_id": "14303618",
+	"site": "https://github.com/andreapaiola/P2P-CDN",
+	"title": " WebTorrent CDN with graceful degradation",
+	"author": "andreapaiola",
+	"date": "2017-06-13T13:08:57.595Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webtorrent",
+			"cdn",
+			"php"
+		],
+		"languages": [
+			"javascript",
+			"php"
+		]
+	},
+	"content": "readme.md p2p-cdn webtorrent cdn graceful degradation to it? examples folder, can try here: that 's heavy page images video (30mb)!why? lamp hosting is most popular choice you to public the web.'s cheap it's fast, if want publish heavy contents high quality photos, audio videos manyusers become problem. maybe want reduce hosting bill. is easy accessible (lazy load graceful degradation) fix: can stream you're heavy files (pdfs included, examples!) much less bandwidth, sharing bandwidth your users.without javascript webrtc the contents load normally: 's seo friendly. is webtorrent?bittorrent webrtc (data channels) stream the browser. webtorrentfaq webtorrent@github.generate torrent phptorrent.php used examples adrien gibrat... ?submit suggestion!torrent announce trackersdefault torrent announce/trackers:udp://tracker.openbittorrent.com:80udp://tracker.internetwarriors.net:1337udp://tracker.leechers-paradise.org:6969udp://tracker.coppersurfer.tk:6969udp://exodus.desync.com:6969wss://tracker.btorrent.xyzwss://tracker.openwebtorrent.comwss://tracker.fastcast.nz can setup private tracker bittorrent-tracker what prefer.apache notesdisabled gzip compression .mp4 files setoutputfilter deflatesetenvifnocase request_uri .mp4$ -gzip dont-vary the .htaccess you this errortodo - wish listconfigurable torrent trackerscomposer.jsondocumentationcheck/enforce drupal 8 / symfony 2 coding standardhttps://www.drupal.org/docs/develop/development-tools/configuring-phpstormhttps://www.drupal.org/docs/develop/standards/coding-standardshttps://confluence.jetbrains.com/display/phpstorm/drupal+development+using+phpstorm#drupaldevelopmentusingphpstorm-coderandphpcodesnifferintegrationdefine expand compatibilityexplore platforms than lamp, maybe node.js?webtorrent-hybridtests (phpunit? karma? jasmine?)integration popular frameworks cms laravel, symfony, wordpress drupal, plugins modules logo maybe? :plicensemit. copyright (c) andrea paiola."
+}

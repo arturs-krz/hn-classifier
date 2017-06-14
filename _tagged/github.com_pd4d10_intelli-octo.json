@@ -1,0 +1,23 @@
+{
+	"_id": "14098420",
+	"site": "https://github.com/pd4d10/intelli-octo",
+	"title": " IntelliOcto: IntelliSense for GitHub, GitLab and Bitbucket",
+	"author": "pd4d10",
+	"date": "2017-06-13T13:35:27.182Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"browser-extension",
+			"intellisense",
+			"github",
+			"gitlab",
+			"bitbucket"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md intelli-octo intelli-octo is browser extension adds intellisense github, gitlab bitbucket.installationchromeinstall from chrome web store:https://chrome.google.com/webstore/detail/intelli-octo/hbkpjkfdheainjkkebeoofkpgddnnbpkmannual install: to release page, find chrome.zip file download .safarisince have apple developer program account, safari users should install mannually, maybe little complicated.download zip file, double click unpack in finderenable develop tools safari top menubar, click develop -> show extension builder, click '+' the bottom left corner popup window, choose 'add extension', select unpacked folder step 1.click 'install' button the top right, done.featureshover see quick informationclick show occurrences[] + click show definition ( windows linux user, [ctrl])supported languagestypescript javascriptcss, less, scsshtmllicensemit"
+}

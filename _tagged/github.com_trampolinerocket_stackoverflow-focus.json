@@ -1,0 +1,16 @@
+{
+	"_id": "14440373",
+	"site": "https://github.com/trampolinerocket/stackoverflow-focus",
+	"title": " Stackoverflow-focus: a chrome extension to clean up Stack Overflow",
+	"author": "bfe",
+	"date": "2017-06-13T13:06:18.748Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md // -minute hack promote focus stackoverflow// e.g. remove mostly ridiculous -called 'hot network questions'// v0.0.1 does block ad job panel// inspired twitteropt/main.js via andrej karpathy// https://karpathy.github.io/2013/11/23/chrome-extension-programming/super hacky i already love fork ak's instructions:place folder anywhere your system, go tools / extensions chrome sure developer mode (top right) is checkedclick button \"load unpacked extension...\" ( top)navigate stackopt folder open . extension gets added!reopen stackoverflow tab, 're to !blog post ak's twitter extension:http://karpathy.ca/myblog/2013/11/23/chrome-extension-programming-illustrating--basic-survival-skill--a-twitter-case-study/"
+}

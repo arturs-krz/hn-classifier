@@ -1,0 +1,18 @@
+{
+	"_id": "14374149",
+	"site": "https://github.com/holyjs/holyjs",
+	"title": "HolyJS – Node.js Server Project Starter",
+	"author": "erayaydin",
+	"date": "2017-06-13T13:57:07.195Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md holyjs project based hackathon starterproject starter node.js web applications.features.env environment variableslocal authentication using email passwordauthentication via twitter, facebook, google, github, instagramflash notifications success, error infomvc project structureready, account managementgravatarprofile detailschange passwordforgot password (reset)linking multiple social accounts one accountdelete accountcsrf protectionyeoman generator generator-holyjsprerequisitesmongodbnodejsproject structurenamedescriptionconfig/passport.jspassport strategies serialize/deserialize usercontrollers/home.jscontroller home pagecontrollers/user.jscontroller user account managementmodels/user.jsuser modelmiddlewares/middlewares folderstrategies/passport's strategies folderstrategies/local.jspassport's local strategypublic/static files (fonts, css, js, images)views/template filesviews/layout.jademain layout templateviews/partials/flash.jadeflash notifications success info errortest/app.jsapplication test casestest/models.jsmodel test cases.travis.ymltravis ci integration.env.exampleexample file api keys, tokens, passwords database info.envmust created manually exampleapp.js main application filepackage.jsonnpm dependencies project infopackagespackagedescriptionasynclibrary asynchronous control flow.bcrypt-nodejshashing salting passwords.connect-mongomongodb session store express.dotenv.env file environment variables.expressnode.js web framework.body-parserexpress 4 middleware parse request bodies.express-sessionexpress 4 middleware session store.morganhttp request logger.compressiondeflate gzip compressions.errorhandlerexpress 4 middleware error handling.serve-faviconexpress 4 middleware serving favicon. ( caching)express-flashexpress 4 flash messages.express-validatorexpress 4 middleware string validation sanitization.jadetemplate engine.luscacsrf middleware.mongoosemongodb orm.nodemailernode.js library sending emails.passportauthentication library.passport-facebooksign- with facebook.passport-githubsign- with github.passport-google-oauthsign- with google.passport-twittersign- with twitter.passport-instagramsign- with instagram.passport-localsign- with username password.passport-oauthoauth 1.0a oauth 2.0 strategies.requesthttp request library.lodashjavascript utilities library.socket.ioreal- communication engine.development packagespackagedescriptionmochatest framework.supertesthttp assertion library.chaibdd/tdd assertion library.install yeoman generator install yeoman generator-holyjsnpm install -g yonpm install -g generator-holyjs generate new project:yo holyjsideas - todo adding socket.io custom middleware support middlewares/ folder. adding test scripts user login register. add bower support add sass public js assets support minify. environment dotenv config files. (.env.production .env.testing, .env) example crud routes controller. separated passport strategies strategies/ folder. cli helper secret key generate, listing routes, listing controllers etc. yeoman generator holyjs project eslint tests reformat code standart es ( eslint errors, such const)"
+}

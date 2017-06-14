@@ -1,0 +1,18 @@
+{
+	"_id": "14518891",
+	"site": "https://github.com/nofluxjs/noflux",
+	"title": "Noflux released, the new Simple, stupid state management for React",
+	"author": "malash",
+	"date": "2017-06-13T14:09:47.306Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"noflux",
+			"redux",
+			"flux",
+			"mobx"
+		],
+		"languages": []
+	},
+	"content": "readme.md nofluxsimple, stupid state management javascript apps.packagespackageversiondependenciesdevdependenciesbuild@noflux/state@noflux/reactexampleonline debugging: https://codesandbox.io/s/z47wlwp8.import react, { component } 'react';import { connect, state } '@noflux/react';state.set({ name: 'jack',});@connectexport default class app extends component { render() { return ( <div> <input onchange={e => state.set('name', e.target.value)} /> <p> hello, name is {state.('name')} </p> </div> ) }}documentationsenglish"
+}

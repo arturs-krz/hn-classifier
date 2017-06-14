@@ -1,0 +1,24 @@
+{
+	"_id": "14321080",
+	"site": "https://github.com/shivammathur/IPpy?show=true&ref=yc",
+	"title": " IPpy – Parallel testing of IP addresses and domains in python",
+	"author": "marlynm",
+	"date": "2017-06-13T13:08:17.688Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ip",
+			"ip-address",
+			"domain",
+			"ping",
+			"parallel",
+			"ipv4",
+			"ipv6"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md ippyparallel testing ip addresses domains python.reads ip addresses domains a csv file gives lists accessible inaccessible ones.compatible both python 2 3.testing ips domains is done parallel. default are 4 workers. workers on input queue a output queue.modesverbose - true, ping output be displayed.output - json csvsupportcurrently windows linux are supported.supports both ipv4 ipv6 ips, domain names.# examples127.0.0.1::1localhostinstall$ pip install ippyusage# create ippy instanceippt = ippy.ippy()# set config - verbose, output, num_workers# verbose - true false# output - csv jsonippt.set_config(true, 'csv', 4)# set input fileippt.set_file(file='ip_list.csv')# run ippyippt.run()# resultsoutput = ippt.result()print(output)tests run tests, install tox.$ pip install tox run tox the project root directory.$ tox"
+}

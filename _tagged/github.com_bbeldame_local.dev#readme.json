@@ -1,0 +1,23 @@
+{
+	"_id": "14304794",
+	"site": "https://github.com/bbeldame/local.dev#readme",
+	"title": " Local.dev – a npm package that simplifies localhost:port rewriting",
+	"author": "bbeldame",
+	"date": "2017-06-13T13:08:57.433Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"localhost",
+			"npm",
+			"rewrite-urls",
+			"port",
+			"forwarding",
+			"proxy",
+			"port-forwarding"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md local.dev works windows multiple port forwarding mac users, please read known issues part before installing package.port forwarding renaming localhost made easylocal.dev offers a simple command line improve node workflow providing easy persistant port forwading localhost.did already struggled remember of those localhost:port you juste create ? don't want rename boring localhost:8080 whatever.dev ? i did ! local.dev, can rename localhost:port any name possible, don't need add domain dot you don't feel it. installationnpm install -g local.dev usageevery command be made localdev instead local.dev.add new local.dev url. will need root priviliges this local.dev add 8080 -cool-urllist of local.dev activelocal.dev listremove local.devlocal.dev rm -cool-url future updates windows compatibility linux compatibility remove command persistant host mac multiple port forward mac known issues local.dev is reset the mac shutdown. set again, have delete first local.dev rm -site . 's work progress this , i to find good solution edit pf.conf file.mutliple local.dev doesn't on mac, still problem pf.conf.renaming one localhost a makes package useless mac, wouldn't recommend using for moment. in progress."
+}

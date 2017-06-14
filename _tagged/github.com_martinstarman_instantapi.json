@@ -1,0 +1,22 @@
+{
+	"_id": "14299782",
+	"site": "https://github.com/martinstarman/instantapi",
+	"title": " Instantapi – Instant API for development",
+	"author": "shjt",
+	"date": "2017-06-13T13:08:58.837Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"api",
+			"mock",
+			"random",
+			"data",
+			"micro"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md instantapi.js ( in action)usagestart server npm startrequest$.(\"http://localhost:3210/\" + encodeuricomponent(json.stringify( { users: { firstname: \"@str(10, 20)\", lastname: \"@str(10, 20)\", age: \"@num(0, 100)\", \"@repeat\": 5 } } ))) response{ \"users\": [ { \"firstname\": \"xsrktirhjd\", \"lastname\": \"sckmfvdgtxieoozhf\", \"age\": 28 }, { \"firstname\": \"rcpwguxktn\", \"lastname\": \"sbcefivvrpmbeulmu\", \"age\": 89 }, { \"firstname\": \"zoabougvgag\", \"lastname\": \"hrpbineget\", \"age\": 90 }, { \"firstname\": \"ccpblpszhsqoktve\", \"lastname\": \"hnwfzabkhpo\", \"age\": 37 }, { \"firstname\": \"tserpbcjhaagmxbgsp\", \"lastname\": \"zuwqlknpfyiysqnl\", \"age\": 13 } ]}@num(min, max)returns integer between min (inclusive) max@str(min, max)returns string between min (inclusive) max@word(count, maxwordlength = 8)returns string sentence- form count words where each word 't longer maxwordlength@repeatreturn array repeated objectrun servernpm startrun testsnpm test"
+}

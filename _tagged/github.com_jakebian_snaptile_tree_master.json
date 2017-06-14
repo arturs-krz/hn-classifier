@@ -1,0 +1,18 @@
+{
+	"_id": "14510677",
+	"site": "https://github.com/jakebian/snaptile/tree/master",
+	"title": " Grid-based window tiling for X11 with powerful keyboard controls",
+	"author": "dbranes",
+	"date": "2017-06-13T13:04:19.843Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"x11",
+			"productivity"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md snaptileversatile, mouse-free window tiling x11.grid system grid system divides screen 12 sectionsctl + alt +qwersdfzxcv can snap window any rectangle, any arbitrary size, this grid specifying 2 corners. example:ctl + alt + e + dxxexxxdxxxxx looks the keys needs \"span\" rectangle. example:ctl + alt + x + dxxxxx+dxxx+x looks requirementspython3x11-based desktoppython3-gipython3-xlibinstallation guidesinstall ubuntu to directory want store snaptile:cd <place--want--store-snaptile>install run:sudo apt- install git python3-gi python3-xlibgit clone https://github.com/jakebian/snaptile.gitcd snaptile && ./snaptile.pyinstall arch / manjaro snaptile-git arch linux packaged is created & maintained @madnight.install run:yaourt snaptile-gitsnaptileinstall fedora to directory want store snaptile:cd <place--want--store-snaptile>install run:sudo dnf install git python3-gobject python3-xlibgit clone https://github.com/jakebian/snaptile.gitcd snaptile && ./snaptile.pystart boot start boot, add script startup applications invoking python script/usr/bin/python3 <full-path>/snaptile/snaptile.pycreditssnaptile is rewrite pygrid, supporting more powerful shortcuts system."
+}

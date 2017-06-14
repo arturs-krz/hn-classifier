@@ -1,0 +1,19 @@
+{
+	"_id": "14454218",
+	"site": "https://github.com/Parassharmaa/Colorido.JS",
+	"title": "Colorido.JS",
+	"author": "paraazz",
+	"date": "2017-06-13T13:55:01.600Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"flexible",
+			"colour-themes",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md colorido.jscolorido.js is awesome , flexible cross-browser dynamically color changing tool web projects.example colorido colors be dynamically generated, many options:autochangechromtab colorrefresh color change etcinstallationinstall colorido via bower:$ bower install colorido.js --saveinstall colorido via npm:$ npm install colorido.js basic usageinclude colorido bottom file above</body> <script src=\"scripts/colorido.min.js\" type=\"text/javascript></body></html>2.initiate colorido.js script the file following json: var config = {opacity: 0.5, // background opacity colorido-o (0-1)choice: ['rgb(138, 43, 43)','rgb(98, 162, 40)','rgb(40, 162, 162)', 'rgb(40, 66, 162)', 'rgb(121, 40, 162)', //color array random colors, add color rgb more'rgb(121, 40, 162)', 'rgb(40, 100, 162)', 'rgb(230, 74, 25)'], gradmix : \"#d6d26f\", // color value type random, update : grad mix colorautochange: true, // auto color change settings true = yes, false= autoduration: 4, // auto color change duration secondsanimationduration: 0.3, //color changing animation durationanimationtype:\"ease--out\", //animation typechrometab: true // color change settings chrome tabs android, wp ios}opacity: background opacity colorido-o (0-1)choice: array colors.autochange: true|false, auto color change settingsautoduration: auto color change duration secondsgradmix: optional mixing color gradient bganimationduration:color changing animation durationanimationtype:animation typechrometab: color change settings chrome tabs android, wp ios3.colorido.js simply works upon 7 css classes:colorido: applies dynamic background colorcolorido-o: applies background color opacitycolorido-t: applies dynamic text-colorcolorido-gr: applies dynamic radial gradientcolorido-gl: applies dynamic linear gradientcolorido-gd: applies dynamic diagonal gradientcolorido-gh: applies dynamic horizontal gradientapplies classes your webcomponents see magiccheck demo herelicensecolorido.js is licensed under mit license. (http://opensource.org/licenses/mit)contribution are free contribute colorido.js. is built javascript, would love upgrade to jquery any"
+}

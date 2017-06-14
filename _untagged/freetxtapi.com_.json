@@ -1,0 +1,9 @@
+{
+	"_id": "14537465",
+	"site": "http://freetxtapi.com/",
+	"title": " FreeTxtAPI: Free SMS Texting API",
+	"author": "wichcraft",
+	"date": "2017-06-13T10:39:05.024Z",
+	"tags": [],
+	"content": "send text message an http request!(support united states canada carriers) command line: $ curl -x post http://freetxtapi.com \\ --data-urlencode phone='5557727420' \\ --data-urlencode message='hello world' \\ python: import requests requests.post('https://freetxtapi.com', { 'phone': '5557727420', 'message': 'hello world' }) ruby: require 'net/http' require 'uri' uri = uri.parse(\"https://freetxtapi.com\") net::http.post_form(uri, { :phone => '5557727420', :message => 'hello world' }) javascript: var request = require('request'); request('https://freetxtapi.com', { body: { phone: '5557727420', message: 'hello world' }, }) c#: var response = http.post(\"https://freetxtapi.com\", namevaluecollection() { { \"phone\", \"5557727420\" }, { \"message\", \"hello world\" } }); php: $ch = curl_init('https://freetxtapi.com'); $data = array( 'phone': '5557727420', 'message': 'hello world' ); curl_setopt($ch, curlopt_post, 1); curl_setopt($ch, curlopt_postfields, http_build_query($data)); curl_setopt($ch, curlopt_returntransfer, true); $response = curl_exec($ch); curl_close($ch); java: request.post(\"https://freetxtapi.com\").bodyform(form.form() .add(\"phone\", \"5557727420\") .add(\"message\", \"hello world\") .build()) .execute().returncontent(); status response {\"status\":\"check parameters\"} {\"status\":\"limit reached\"} {\"status\":\"failed\"} {\"status\":\"delivered\"}"
+}

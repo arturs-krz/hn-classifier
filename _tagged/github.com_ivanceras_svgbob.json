@@ -1,0 +1,19 @@
+{
+	"_id": "14422777",
+	"site": "https://github.com/ivanceras/svgbob",
+	"title": "Convert ASCII scribbles to SVG",
+	"author": "laktak",
+	"date": "2017-06-13T13:56:32.577Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"elm",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.md important: project has been rewritten rust .--..--..--..--..--..--. .' \\ (`._ (_) _ \\ .' | '._) (_) | \\ _.')\\ .----..---. / |(_.' | / .-\\-. \\ | \\ 0| | ( o| o) | o| | _ | .--.____.'._.-. | \\ (_) | o -` .-` | | \\ |`-._ _ _ _ _\\ / \\ | | `. |_||_| | | o | \\_ \\ | -. .-. |.-. \\ `--..-' o | `.`-' .' _.' .' | `-.-' /-.__ ' .-'.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'`-._ `. |________/\\_____| `-.' .' ).| '=' '='\\/ '=' | `._.` '---------------' //___\\ //___\\ || || ||_.-. ||_.-. (_.--__) (_.--__)svgbob converts ascii scribbles an svgdemo user code ^ ^ os code \\ / \\ .--' \\ / user code <--- mode ----> os code / \\ .--' \\___ / \\ v v user code os code | | | | | | v v | v | v .------------. | .-----------. | .-----. | filesystem | | | scheduler | | | mmu | '------------' | '-----------' | '-----' | | | | v | | v .----. | | .---------. | io |<----' | | network | '----' | '---------' | | | v v v .---------------------------------------. | hal | '---------------------------------------' .--> base::class::derived_a / .----> base::class::derived_b something -------. / \\ \\ / .---> base::class::derived something::else \\ / \\ \\ \\ / '--> base::class::derived \\ \\ / \\ \\ .-----------> base::class::derived_c \\ \\ / '------ base::class / \\ \\ \\ ' \\ \\ \\ | \\ \\ \\ . \\ \\ '--- ::latest /| \\ \\ \\ ::some::fantasy ' \\ \\ '---- ::latest::greatest /| \\ \\ more::stuff ' \\ '- ::am::running::::of::ideas /| \\ more::stuff ' \\ / '--- last:: more::stuff v outputdemoascii gotten"
+}

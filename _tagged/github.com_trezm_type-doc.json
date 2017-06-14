@@ -1,0 +1,23 @@
+{
+	"_id": "14192628",
+	"site": "https://github.com/trezm/type-doc",
+	"title": " TypeDoc – Static type checking for vanilla JavaScript using comments",
+	"author": "trezm",
+	"date": "2017-06-13T13:33:34.618Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cli",
+			"javascript",
+			"generic-types",
+			"types",
+			"type-safe",
+			"type-safety",
+			"vanillajs"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md typedoctype checking valid javascripttable contentsintroductionsetupclitype comments works?introductionwarning: typedoc is still very much development there are definitely plenty bugs.typedoc aims provide static type checking without changing javascript. is accomplished adding type annotations via comments near declarations., for example, following function apply transform an input. is error that results is defined a string, yet is getting assigned number. typedoc aims catch errors this during static analysis rather waiting until run .function transform(input /* t: */, translationfunction /* t: -> b */) /* t:b */ { return translationfunction(input);}const anumber /* t:number */ = 4const results /* t:string */ = transform(anumber, (thenumber) => thenumber);still sure? check the vs-code extension!setupinstall dependencies> yarn> npm install, to build,> ./node_modules/.bin/gulp build:devclitypedoc has basic cli testing files. can run like . note: type-doc must compiled prior running cli.> bin/type-doc <-file> example,> bin/type-doc ./examples/importdirectory.test.jsfunctional testingsimply add -f, --functional, argument also check strictly functional, .e.> bin/type-doc --functional ./examples/functional.test.jstype commentstypes are recognized capitalized words, example number is type. types not need be existing types the javascript system, type be capitalized word, example, jedi.function method types are formatted capitalized words separated ->, for example, function tells the color a jedi's lightsaber have type this:jedi -> colorunions are allowed, example, you wanted know would win a jedi vs sith fight, could write function the signaturejedi -> sith -> jedi | sithtypedoc allows generic types. word does begin a capital be considered generic type. example get apprentice associated a certain jedi sith lord look something :alignment -> apprentice alignmentbelow 'll find list comment formats typedoc recognizes.inline variablesconst astring /* t:string */ = 'hi';function declarationstypedoc style:function maytheforcebewithyou(name /* t:string */) /* t:string */ { return ' with , ' + name;}jsdoc style:/** * let's know it's trap * * @param {string} - the thing 're tryinig figure * @returns {boolean} - whether not argument is trap */function isita(thing) { return thing === 'trap';}class declarationstypedoc style:/** * class :: testclass * astring :: string * agoodmethod :: string -> string */class testclass { constructor() { .astring = 'hello'; } agoodmethod(s /* t:string */) /* t:string */ { return s; }}jsdoc style:/** * @class testclass */class testclass { constructor() { const s /* t:string */ = .add(1, 2); } /** * add numbers * * @memberof testclass * @param {number} - the number * @param {number} b - second number * @returns {number} - sum the arguments */ add(, b) { return + b; }} works right ?here's highlights view what typedoc do far. a more complete list, please check src/integrationtests!type checking: generic types multiple files assignment checking checking vs literals param checking return checking class checking class method checking (params returns.)functional: prevent of scope variable changes prevent modifying properties immutable objects prevent calling push, pop, shift, unshift outside the declared scope (.e. child scopes)."
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14395129",
+	"site": "https://github.com/rickyhan/autocompletex",
+	"title": " Autocomplete with Redis and Elixir",
+	"author": "greato",
+	"date": "2017-06-13T13:07:23.040Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"elixir",
+			"autocomplete",
+			"typeahead",
+			"completion",
+			"redis"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": "readme.md autocompletexautocompletex is low-latency plug--play autocomplete tool using redis sorted set. written pure elixir, focuses rapid prototyping using existing stack: simply start redis instance, start_link genserver.currently, provides implementation:google- query prediction based popularity. e.g. ne -> netflix, york timeslexicographic. sorted alphabetical order (faster) are ways run :use as standalone microservice http connection.genserverinstallationadd :autocompletex your mix.exs file:def deps [{:autocompletex, \"~> 0.1.0\"}]end add to applications:defp application() [applications: [:logger, :autocompletex]]end, run mix deps. in shell fetch new dependency.usageoverviewcurrently, types autocompletion are supported:lexicographicpredictive you to suggest another scheme, please post issue. are 3 ways run .standalone http serviceusing genserversupervision treemanual start genserver manually:# lexicographic:{:ok, conn} = redix.start_linkdb = \"testdb\"{:ok, worker} = autocompletex.lexicographic.start_link(conn, db, autocompletex.lexicographic)# predictive:{:ok, conn} = redix.start_linkdb_prefix = \"autocompletex\"{:ok, worker} = autocompletex.predictive.start_link(conn, db_prefix, autocompletex.predictive)alternatively, can it a supervision tree.add to config.exs:config :autocompletex, redis_host: \"localhost\", redis_port: 6379, redis_string: nil, http_server: true, http_port: 3000, debug: false, # runs :observer.start true type: :lexicographic #:predictive callautocompletex.lexicographic.upsert(autocompletex.lexicographic, [\"test\", \"example\"]) http_server is set true, http endpoints be accessible the designated http_port(default: 3000).upsert -> /add?term=elixircomplete -> /complete?term=teapi are functions: upsert complete.upsert/2 means insert update. lexicographic, a query is already inserted, will nothing. predictive, will increment score the query.complete/3 returns list matched results. takes 3 parameters: pid, prefix, rangelen. rangelen is number results be returned. defaults 50.:ok = autocompletex.lexicographic.upsert(worker, [\"test\", \"example\"]){:ok, val} == complete(worker, \"te\") # assert val == [\"test\"]miscimport file redis you a list user-generated search queries, can a mix task index provision redis instance.simply :mix autocompletex.import --filename [path//file] [--predictive]internals predictive autocompletion, tool create keys [dbname]:[prefixes] sorted sets. example, dbname autocompletex, word test:autocompletex:tautocompletex:teautocompletex:tes lexicographic autocompletion, under sorted set [dbname].docs be updated. the meantime, 'm happy answer questions issues."
+}

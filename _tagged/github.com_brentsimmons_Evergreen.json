@@ -1,0 +1,22 @@
+{
+	"_id": "14460604",
+	"site": "https://github.com/brentsimmons/Evergreen",
+	"title": "Evergreen: an open source feed reader for MacOS",
+	"author": "tambourine_man",
+	"date": "2017-06-13T13:55:02.225Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"objective-c",
+			"html",
+			"swift",
+			"c",
+			"css",
+			"roff",
+			"other"
+		]
+	},
+	"content": "readme.md evergreens feed reader macos., it doesnt support json feed yet. s the -do list.s not actually usable this point.more info: https://ranchero.com/evergreen/"
+}

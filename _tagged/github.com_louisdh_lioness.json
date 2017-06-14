@@ -1,0 +1,24 @@
+{
+	"_id": "14456767",
+	"site": "https://github.com/louisdh/lioness",
+	"title": "The Lioness Programming Language",
+	"author": "louisdh",
+	"date": "2017-06-13T13:55:02.359Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"lexer",
+			"parser",
+			"compiler",
+			"interpreter",
+			"bytecode",
+			"ast",
+			"virtual-machine"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": "readme.md lioness programming languagelioness is high-level programming language designed mathematical purposes. project includes lexer, parser, compiler interpreter. of are 100% written swift without dependencies. syntax lioness is inspired swift, its feature set is akin shader languages such glsl. standard library (abbreviated: stdlib) contains basic functions number manipulation, including: max/min, ceil, floor, trigonometry, etc. however, more trivial functions, such to calculate prime numbers, are considered relevant the standard library.source examples following lioness code calculates factorials recursively:func factorial(x) returns { x > 1 { return x * factorial(x - 1) } return 1} = factorial(5) // = 120 following lioness code uses do times loop: = 1n = 10 n times { += a}// = 1024more examples be found here.featuresminimalistic, yet expressive, syntax types are inferred5 basic operators: +, -, /, * ^^ means \" the power \", e.g. 2^10 equals 1024 operators a shorthand, e.g. += +numbers numbers are floating pointbooleans be evaluated comparison be defined literal: true falsefunctionssupports parameters, returning recursion be declared inside functionsstructs contain type, including structsloopswhile timesrepeat whilebreakcontinue / else / else statementsrunningsince project does rely any dependencies, running requires setup.macosopen lioness.xcworkspace (preferably the latest non-beta version xcode) run macos example target. example run code a.lion. output be printed the console.installing framework add lioness a framework:using swift package manageradd your package.swift file's dependencies section:.package(url: \"https://github.com/louisdh/lioness.git\", majorversion: 0, minor: 5)please note: swift package manager currently does allow inclusion non .swift files, means lioness standard library is currently unavailable a swift package manager installation.standard libraryplease note: lioness is currently beta standard library is currently under active development. currently is one document everything the stdlib. best place look what's available is the source files.roadmap structs stdlib documentation (dash?) compiler warnings compiler optimizations faster lexer (without regex) support emoticons identifier names guard statement lot more unit testsxcode file templatelioness source files easily created xcode, xcodetemplate.md instructions.architecture detailed explanation the project's architecture be found here.license project is available under mit license. the license file more info."
+}

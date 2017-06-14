@@ -1,0 +1,19 @@
+{
+	"_id": "14348701",
+	"site": "https://github.com/develersrl/git-externals",
+	"title": " Git-externals: SVN externals emulated in git",
+	"author": "giovannibajo1",
+	"date": "2017-06-13T13:08:16.802Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"perl6",
+			"perl"
+		]
+	},
+	"content": "readme.md git externalsgit-externals is command line tool helps throw svn away migrate git projects make heavy of svn:externals. somecases 's impossible use git submodules subtrees emulate svnexternals, they aren't flexible svn externals. example svnlets handle single file dependency through svn external, whereas gitdoesn't. windows requires admin privileges, under hood usessymlinks. the same reason script is meant be used the oldwindows xp. to install$ pip install https://github.com/develersrl/git-externals/archive/master.zipusage:content git_externals.jsononce main project repository is handled git, git-externals expects find file called git_externals.json the project root. here is to fill:let's an hypothetical project , under subversion, having 2dependencies, b c, declared svn:externals follows.$ svn propget svn:externals .^/svn/libraries/b lib/b^/svn/libraries/c src/c lib   b src conce , b c all been migrated different gitrepositories, fill git_externals.json running following commands. describe, each dependency, remote location, the destinationdirectory, relative the project root. check all possibilities running git externals add --help.$ git externals add --branch=master git@github.com:username/libb.git . lib/b$ git externals add --branch=master git@github.com:username/libc.git . src/c is the content git_externals.json:{ \"git@github.com:username/libb.git\": { \"branch\": \"master\", \"ref\": null, \"targets\": { \"./\": [ \"lib/b\" ] } }, \"git@github.com:username/libc.git\": { \"branch\": \"master\", \"ref\": null, \"targets\": { \"./\": [ \"src/c\" ] } }}git externals update you to:download externals a freshly cloned git repository creates symlinks, order have wanted directory layout.checkout latest version all externals ( defined git_externals.json file)run:$ git externals updategit externals status$ git externals status [--porcelain|--verbose]$ git externals status [--porcelain|--verbose] [external1 [external2] ...]shows working tree status one, multiple, all externals:add --verbose you are interested see externals haven'tbeen modifiedadd --porcelain you the output easily parsable ( non-humans).$ git externals status$ git externals status deploy$ git externals status deploy qtwidgetsgit externals foreach$ git externals foreach [--] cmd [arg1 [arg2] ...]evaluates arbitrary shell command each checked external.$ git externals foreach git fetchnote: some arguments the shell command starts --, like git rev-parse --, you must pass -- foreach order stopgit externals argument processing, example:$ git externals foreach -- git rev-parse --example usage$ git externals add --branch=master https://github.com/username/projecta.git shared/ foo$ git externals add --branch=master https://github.com/username/projectb.git shared/ bar$ git externals add --branch=master https://github.com/username/projectc.git readme.md baz/readme.md$ git externals add --tag=v4.4 https://github.com/torvalds/linux.git makefile makefile$ git add git_externals.json$ git commit -m \"let git-externals handle externals ;-)\"$ git externals update$ git externals diff$ git externals info$ git externals list$ git externals foreach -- git diff head~1note: append / the source path it represents directory.bash command-line completion installation instructions gitext.completion.bash."
+}

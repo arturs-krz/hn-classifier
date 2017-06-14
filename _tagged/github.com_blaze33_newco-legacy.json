@@ -1,0 +1,23 @@
+{
+	"_id": "14247754",
+	"site": "https://github.com/blaze33/newco-legacy",
+	"title": " Newco-legacy, open sourcing a failed startup",
+	"author": "blaze33",
+	"date": "2017-06-13T13:32:48.536Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"postmortem",
+			"startup",
+			"ecommerce"
+		],
+		"languages": [
+			"python",
+			"html",
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.md newco legacynewco was startup project worked between 2012 2013. goal was provide place where consumers share informations the products used loved.while technical aspects building website did materialize, financial aspects never did. 've since worked other projects you follow openbloc.fr site is still online a testimony what was tried make impact that .it's part my portfolio it maybe reused (don't this, tech is too old ;) ) serve inspire projects. development was mostly done agass007 me (blaze33).advice future entrepreneurstechnology matters long it doesn't in way all rest.design, ux, marketing, communication matters lot ! don't call yourself newco, in company, really ;) don't read, much less contribute the internet. can't build success asking to stuff you. build around they naturally with right tool ( build one).choose co-founders wisely. your co-founder show one with another associatewithout having consulted first, run ! trust is everything.making money is necessary evil, 've got rent pay, food buy. sooner can break , the better. fun !deploy own forknothing's nicer working code can actually play . the stack is old, django 1.4 was the rage 2013. app has been designed be easily hosted heroku as such followed twelve-factor app guidelines. recent updates been made let run the cedar-14 stack, cedar-10 used in 2013 being deprecated. will need postgresql database hstore installed, redis-server needs be installed too.git clone git@github.com:blaze33/newco-legacy.gitpip install -r requirements.txt # strongly advise use virtualenvexport django_settings_module=newco.settings.devexport database_url=postgres://user:pass@localhost:5432/newcoforeman startrequest comments the above run / deploy part: feedback is welcome issue 1 heroku add-ons used production are following ones:heroku postgres devlogentries tryitmemcachier developer relic apm wayneredis go nanosendgrid startersentry developer app is mainly configured environment variables, main ones being django_settings_module=newco.settings.{production,dev} database_url. full list the variables ( may may need be configured) is follow:gunicorn_max_requests=1000sendgrid_username=<username>pythonunbuffered=truememcachier_password=<password>maintenance_page_url=<url>aws_associate_tag=<tag>redistogo_url=<url>aws_locale=frcolumns=112new_relic_license_key=<key>sentry_dsn=<url>google_api_key=<key>pythonhashseed=randomweb_concurrency=02_=/usr/bin/envmixpanel_key_id=<key>pwd=/appdjango_settings_module=newco.settings.productionaws_secret_access_key=<key>aws_product_secret_access_key=<key>gunicorn_workers=5memcachier_username=<username>aws_access_key_id=<key>aws_product_access_key_id=<key>sendgrid_password=<password>new_relic_app_name=<appname>aws_storage_bucket_name=<bucket-name>heroku_postgresql_navy_url=<postgres_url>port=<port number>new_relic_id=<id>memcachier_servers=<url>database_url=<postgres_url>"
+}

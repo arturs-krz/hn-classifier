@@ -1,0 +1,16 @@
+{
+	"_id": "14402452",
+	"site": "https://github.com/knpwrs/babel-plugin-remove-bugs",
+	"title": " A Babel plugin which removes all bugs from your code automatically",
+	"author": "kpthunder",
+	"date": "2017-06-13T13:07:22.804Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md babel-plugin-remove-bugs babel plugin removes bugs your code.usage install save plugin a development dependency:npm -d babel-plugin-remove-bugs if are using yarn:yarn add --dev babel-plugin-remove-bugs just add plugin your .babelrc file equivalent babelconfiguration:{ \"plugins\": [\"remove-bugs\"]}exampleconsider following code. you spot bug?let counter = 0;const output = document.getelementbyid('output');const addonebutton = document.getelementbyid('add--button');const render = () => { output.textcontent = counter;};addonebutton.addeventlistener('click', () => { counter += 0; render();});render();babel-plugin-remove-bugs ! with plugin enabled, babel output following: more bugs!limitationsbeing babel plugin, can remove bugs files babel parse. said, plugin is unable fix syntax errors cause babel crash.licensemit"
+}

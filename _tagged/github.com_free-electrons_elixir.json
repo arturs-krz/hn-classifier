@@ -1,0 +1,20 @@
+{
+	"_id": "14428829",
+	"site": "https://github.com/free-electrons/elixir",
+	"title": "A new Linux kernel source code cross-referencer inspired by LXR",
+	"author": "kerneldeveloper",
+	"date": "2017-06-13T13:55:34.105Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"css",
+			"javascript",
+			"shell",
+			"html"
+		]
+	},
+	"content": "readme.md elixir cross referencerelixir is source code cross-referencer inspired lxr. 's written python its main purpose is index every release the linuxkernel while keeping minimal footprint. uses git a source-code file store berkeley db cross-referencedata. internally, indexes git blobs rather trees files avoidduplicating and data. has straightforward data structure(reminiscent older lxr releases) keep queries simple fast.requirementspython 3 jinja2 pygments python librariesberkeley db ( its python binding)exuberant ctagsperl ( non-greedy regexes)installationelixir has following architecture:.---------------.| cgi interface ||---------------|----------------.| query command | update command ||---------------|----------------|| shell script |'--------------------------------' shell script (\"script.sh\") is lower layer provides commands interact git other unix utilities. python commands the shell script's services provide access the annotated sourcecode identifier lists (\"query.py\") to create update databases (\"update.py\"). finally, cgi interface (\"web.py\") uses query interface generate html pages. installing system, should test each layer manually makesure works correctly before moving to next .two environment variables are used tell elixir where find local git repository its database directory:lxr_repo_dir ( directory contains git project)lxr_data_dir ( directory will contain databases) both are set , you should able test the scriptworks:$ ./script.sh list-tags generate databases:$ ./update.py verify the queries :$ ./query.py file v4.10 /kernel/sched/clock.c$ ./query.py ident v4.10 raw_spin_unlock_irqgenerating full database take long : it takes 15 hours a xeon e3-1245 v5 index 1800 tags the linux kernel. that reason, may to tweak script ( example, limiting number tags a \"head\") order test update query commands. cgi interface (\"web.py\") is meant be called your webserver. since includes support indexing multiple projects, expects different variable (\"lxr_proj_dir\") points adirectory a specific structure:<lxr_proj_dir><project 1>datarepo<project 2>datarepo<project 3>datarepo will generate other variables upon calling querycommand. now, three projects are hard-coded the shell script( handle version grouping display): linux, u-boot busybox.here is example configuration apache:<directory /usr/local/elixir/http/> options +execcgi allowoverride none require granted setenv pythonioencoding utf-8 setenv lxr_proj_dir /srv/elixir-data</directory>addhandler cgi-script .py<virtualhost *:80> servername elixir.example.com documentroot /usr/local/elixir/http rewriteengine rewriterule \"^/$\" \"/linux/latest/source\" [r] rewriterule \"^/.*/(source|ident|search)\" \"/web.py\" [pt]</virtualhost>note: documentation applies version 0.2 elixir."
+}

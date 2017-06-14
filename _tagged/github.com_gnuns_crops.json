@@ -1,0 +1,23 @@
+{
+	"_id": "14304254",
+	"site": "https://github.com/gnuns/crops",
+	"title": " Crops – thumbnails with custom size, position, and quality via API",
+	"author": "hezag",
+	"date": "2017-06-13T13:08:57.416Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"crop",
+			"imagemagick",
+			"thumbnails",
+			"thumbnail",
+			"image",
+			"crop-image",
+			"image-processing"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md cropssimple thumbnail generation serverclone & install dependenciessudo apt- install imagemagick graphicsmagickgit clone git@github.com:gnuns/crops.gitcd crops/npm installusage:set .env variables:port=1337base_server=http://cdn.example.com/run!npm start crop image:http://cdn.example.com/blah/awsome/potatoe.jpg just to accesshttp://localhost:1337/crop/200/400/blah/awsome/potatoe.jpg can set crop gravity:http://localhost:1337/crop/200/400/blah/awsome/potatoe.jpg?gravity=north http://localhost:1337/crop/200/400/blah/awsome/potatoe.jpg?gravity=2 quality (1-100):http://localhost:1337/crop/200/400/blah/awsome/potatoe.jpg?quality=70 default, crops quality = 100 smartcrop define best gravityvalid gravity values:codename0center1northwest2north3northeast4west5east6southwest7south8southeast9smart (default)live demo setup live demo heroku base_server param http://, you view cropped version any image the web using url without http://address: https://crops.herokuapp.com/crop/example:image: http://68.media.tumblr.com/4e097c1aba3644c09121b28c3fc2d468/tumblr_mgtkitzs2i1qlp8dho1_1280.jpg70% quality 300x300 image: https://crops.herokuapp.com/crop/300/300/68.media.tumblr.com/4e097c1aba3644c09121b28c3fc2d468/tumblr_mgtkitzs2i1qlp8dho1_1280.jpg?quality=70creditsinspired zooniverse/static-crop"
+}

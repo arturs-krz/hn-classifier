@@ -1,0 +1,22 @@
+{
+	"_id": "14340854",
+	"site": "https://github.com/mitnk/cicada",
+	"title": "Cicada – a simple, semi-toy Unix shell written in Rust",
+	"author": "mitnk",
+	"date": "2017-06-13T13:58:18.429Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rust",
+			"shell",
+			"cicada",
+			"unix",
+			"linux"
+		],
+		"languages": [
+			"rust",
+			"makefile"
+		]
+	},
+	"content": "readme.md cicada unix shellcicada is simple, semi-toy unix shell written rust. i it my default login shell.features farrun programs pipelines$ ls | head -n3desktopdocumentsdownloads$ echo foo bar | awk -f \" \" '{print $2, $1}'bar foo redirections$ ls file--exist 2>&1 | wc > e.txt$ cat e.txt 1 7 46command substitution$ ls -l ` sh`-r-xr-xr-x 1 root wheel 630464 mar 23 07:57 /bin/shrun multiple commands ( logical)$ echo foo; echo barfoobar$ echo foo && echo barfoobar$ echo foo || echo barfooshell expansions$ echo sp{el,il,al}lspell spill spall$ echo $shell/usr/local/bin/cicada$ echo *cargo.lock cargo.toml license makefile readme.md src target math arithmetic directly the shell!$ 1 + 2 * 3 - 43$ (1 + 2) * (3 - 4) / 8.0-0.375rc filecicada rc file: \"~/.cicadarc\". currently support envs aliases:# sample rc fileexport rust_backtrace='full'export copyfile_disable=1export path=\"/usr/local/bin:$path\"alias ls=\"ls -g\"alias ll=\"ls -lh\"completionspath completion is available of box. addition this, cicada supports simplifed customized completion using yaml file. put completionfiles under ~/.cicada/completers/. completion files like :$ ls ~/.cicada/completers/brew.yaml git.yaml pip.yaml vox.yaml$ cat ~/.cicada/completers/brew.yaml- doctor- info- install- list- search- uninstall- update- upgrade$ brew u<tab><tab>uninstall update upgradecurrently, cicada supports maximum 2 level completion:$ cat ~/.cicada/completers/pip.yaml- install: - --force-reinstall - -u - --upgrade - -r - --requirement - --user- download- uninstall- freeze- list- show- check- search: - ---cache-dir - --timeout- wheel- hash- completion- help$ pip ins<tab>$ pip install$ pip install --re<tab>$ pip install --requirementhistoryshell history items are stored sqlite database. bash, can ctrl-r, ctrl-p, ctrl-n, arrow-, arrow-down keys access history. can modify settings history related value ~/.cicadarc. values the right side are default ones.export history_file=\"~/.local/share/cicada/history.sqlite\"export history_size=9999export history_table=\"cicada_history\"install cicadanote: rust environment is needed installation. can try cicada without installing by checking the repository run cargo run its root directory.$ git clone https://github.com/mitnk/cicada$ cd cicada$ cargo runinstall code repository you've checked the cicada repository, can this:$ install will install cicada under /usr/local/bin. sudo needed.install via cargo crates$ cargo install -f cicada will install cicada ~/.cargo/bin/.set cicada your login shellappending /usr/local/bin/cicada your /etc/shells, run$ chsh -s /usr/local/bin/cicada do listjob controls (ctrl-z, fg, bg etc) less...won't listfunctionswindows support more..."
+}

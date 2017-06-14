@@ -1,0 +1,19 @@
+{
+	"_id": "14375360",
+	"site": "https://github.com/indatawetrust/mongo-to-rethink",
+	"title": "RethinkDB transfer tool for MongoDB database",
+	"author": "cond289123",
+	"date": "2017-06-13T13:57:06.705Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mongodb",
+			"rethinkdb",
+			"transfer-data"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md mongo--rethinkrethinkdb transfer tool mongodb database. is safer every transaction is kept a promise queue.installnpm install mongo--rethink -g collections are transferred unless collection is defined. define more one collection;mongo--rethink -db app -c user -c postusageusage: mongo--rethink [options]options: --mongo-host, --mh mongodb host (default localhost) --mongo-port, --mp mongodb port (default 27017) --database, --db mongodb database --collection, -c mongodb collection --rethink-host, --eh rethinkdb host (default localhost) --rethink-port, --ep rethinkdb port (default 28015) --rethink-user, --ru rethinkdb username --rethink-pass, --rp rethinkdb password --concurrency, --con promise concurrency (default 250) --help show help"
+}

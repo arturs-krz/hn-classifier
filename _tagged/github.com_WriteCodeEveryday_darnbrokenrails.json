@@ -1,0 +1,25 @@
+{
+	"_id": "14434208",
+	"site": "https://github.com/WriteCodeEveryday/darnbrokenrails",
+	"title": " DarnBrokenRails, a 'broken by design' Rails teaching tool",
+	"author": "WrtCdEvrydy",
+	"date": "2017-06-13T13:06:18.853Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rails",
+			"learning-by-doing",
+			"learning-by-building",
+			"learning-by-examples",
+			"learning-by-refactoring"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript",
+			"coffeescript"
+		]
+	},
+	"content": "readme.md darnbrokenrails attempt a cybersecurity / code quality teaching tool rails. 'sqlite3' gem is used prevent rails project being hosted most major online hosts, this application is 'insecure design', care should taken enabling application any internet connected computer. care has been taken ensure 'broken sections' are executed this is a warranty, is merely 'helping hand'. make guarantees code quality reliability.project goals objectives repository plus accompanying documentation be used developers wanting improve code a security / quality perspective. data contained within should need 'computer science' degree order be understood. developers technical management should able comprehend 'nerd talk' within project without having issues. following goals are unofficial goals the project. more goals may added contributors.violates many bundler-audit cves possible.violates every warning under brakeman whenever possible.violates many suggestions under rails_best_practices possible.tutorials tutorial section has been created the wiki show to download repository, install tooling execute tools each example within code should documentation linking to original source the developers may the available free tools further knowledge write better rails software. is reason have insecure / non-functional software the 21st century, any level any company. sort software tools used within project should free, open source have trial, commercial software be considered based price.attributionsinspired the damn vulnerable linux project, original idea esteban garcia he teach himself security proper coding he taught himself rails, initial implementation lazaro herrera, contributions you, maybe? following contributors helped achieve project's goals: name go here the low cost helping developers write safer better code.pull requests issuespull requests are welcome any changes, additions, tooling just general feedback. issues are welcome; however, build issues take low priority, since project's dependencies are too old successfully build some configurations i don't the resources dedicate fixing build issues current .i not accept pull requests fix security issues. will accept pull requests make rails application less secure (proper documentation is required). aware, may to manually increase version rails beyond set 3.2.22.5 order use fancy features generators making changes the code.license code is licensed under cc0 the understanding you were warned was secure you may credit and contributors you please."
+}

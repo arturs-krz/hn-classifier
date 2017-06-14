@@ -1,0 +1,24 @@
+{
+	"_id": "14400135",
+	"site": "https://github.com/hyperhq/hyperd",
+	"title": "HyperContainer – Hypervisor-Agnostic Docker Runtime",
+	"author": "gtirloni",
+	"date": "2017-06-13T13:56:41.289Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"hypervisor",
+			"containers"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"protocol buffer",
+			"perl",
+			"makefile",
+			"m4",
+			"html"
+		]
+	},
+	"content": "readme.md hypercontainer - hypervisor-agnostic docker runtime repo contains parts: daemon hypercontainer hyperd the clihyperctl. is hypercontainer?hypercontainer is hypervisor-agnostic technology allows to run docker images plain hypervisor.why hypercontainer?hypercontainer combines best both worlds: vm container.-containervmhypercontainerisolationweak, shared kernelstrong, hw-enforcedstrong, hw-enforcedportableyes, kernel dependent sometimes, hypervisor dependentyes, hypervisor agnostic portable imagebootfast, sub-secondslow, tens secondsfast, sub-secondperformancegreatok, minimal resource footprint overheadimmutableyes, configuration management requiredyes, kernel+imageimage sizesmall, mbsbig, gbssmall, mbscompatibility, need toolsgreat, everything works, it is still \"machine\", much less changesmature yetproduction ready, sdn, sds, livemigration, etc.yes, plug-&-playroirebuild everything container-reuse virtual infrastructure*byok = bring own kernelrequirementsqemu 2.0 later (qemu 2.6 later arm64 architecture)xen 4.5 vt enabled host ( xen support)installationensure are running linux (kernel 3.8 later) have qemu (version 2.0 later) installed. download binaries install (hyper-container hyperstart) directly. the detail installation, please refer the documents. information using command line, type hyperctl. may hyperctl <command> --help detailed information any specific command.build sourceclone hyperd gopath> mkdir -p ${gopath}/src/github.com/hyperhq> cd ${gopath}/src/github.com/hyperhq> git clone https://github.com/hyperhq/hyperd.git hyperd make sure have (>= 1.7) , device-mapper-devel, autotools, into hyperd dir> ./autogen.sh> ./configure> then can find binaries hyperd daemon hyperctl cmdline tool current directory. before running those commands, config file needs be placed /etc/hyper/config directory, you find sample under ${top}/package/dist/etc/hyper/config. kernel initrd are required starting hyperd daemon, can find those files hyperstart project.find moredocumentation startedreferencerelease notescontact found bug, to suggest feature, have question?file issue. reporting bug, please include version hyperd are running, shown hyperctl --version.twitter: @hyper_shblog: https://hyper.sh/blog.htmlslack: #hyper ( irc has been migrated slack.)"
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14446160",
+	"site": "https://github.com/krisk/fuse-swift",
+	"title": "Fuzzy searching using Swift",
+	"author": "krisk",
+	"date": "2017-06-13T13:55:21.411Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"weighted-search",
+			"bitap",
+			"fuzzy-search",
+			"fuzzy-matching"
+		],
+		"languages": [
+			"swift",
+			"shell",
+			"objective-c",
+			"ruby"
+		]
+	},
+	"content": "readme.md fuse is fuse?fuse is super lightweight library provides simple to fuzzy searching.usageexample 1let fuse = fuse()let result = fuse.search(\"od mn war\", : \"old man's war\")print(result?.score) // 0.44444444444444442print(result?.ranges) // [countableclosedrange(0...0), countableclosedrange(2...6), countableclosedrange(9...12)]example 2let books = [\" silmarillion\", \" lock artist\", \" lost symbol\"]let fuse = fuse()// improve performance creating pattern oncelet pattern = fuse.createpattern(: \"te silm\")// search the pattern every bookbooks.foreach { let result = fuse.search(pattern, : $0) print(result?.score) print(result?.ranges)}example 3class book: fuseable { dynamic var name: string dynamic var author: string var properties: [fuseproperty] { return [ fuseproperty(name: \"title\", weight: 0.3), fuseproperty(name: \"author\", weight: 0.7), ] }}let books: [book] = [ book(author: \"john x\", title: \"old man's war fiction\"), book(author: \"p.d. mans\", title: \"right ho jeeves\")]let fuse = fuse()let results = fuse.search(\"man\", : books)results.foreach { item print(\"index: \" + item.index) print(\"score: \" + item.score) print(\"results: \" + item.results) print(\"---------------\")}// output://// index: 1// score: 0.015// results: [(key: \"author\", score: 0.015000000000000003, ranges: [countableclosedrange(5...7)])]// ---------------// index: 0// score: 0.028// results: [(key: \"title\", score: 0.027999999999999997, ranges: [countableclosedrange(4...6)])]optionsfuse takes following options:location: approximately where the text is pattern expected be found. defaults 0distance: determines close match must to fuzzy location (specified above). exact letter match is distance characters away the fuzzy location score a complete mismatch. distance 0 requires match at exact location specified, distance 1000 require perfect match be within 800 characters the fuzzy location be found using 0.8 threshold. defaults 100threshold: what point does match algorithm up. threshold 0.0 requires perfect match ( both letters location), threshold 1.0 match anything. defaults 0.6maxpatternlength: maximum valid pattern length. longer pattern, more intensive search operation be. the pattern exceeds maxpatternlength, search operation return nil. why is important? read . defaults 32iscasesensitive: indicates whether comparisons should case sensitive. defaults falseexample project run example project, clone repo, run pod install the example directory .requirementsinstallationfuse is available through cocoapods. install, simply add following line your podfile:pod \"fuse\"licensefuse is available under mit license. the license file more info."
+}

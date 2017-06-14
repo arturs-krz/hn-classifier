@@ -1,0 +1,21 @@
+{
+	"_id": "14442227",
+	"site": "https://github.com/chakki-works/chakin",
+	"title": " Simple Downloader for Public Word Embeddings",
+	"author": "hironsan",
+	"date": "2017-06-13T13:06:18.239Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"machine-learning",
+			"natural-language-processing",
+			"word-embeddings",
+			"word-vectors",
+			"datasets"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md chakinchakin is downloader pre-trained word vectors. supported many vectors library lets download pre-trained word vectors without troublesome . installation install chakin, simply:$ pip install chakinusage can download pre-trained word vectors follows:$ python>>> import chakin>>> chakin.search(lang='english') name dimension corpus vocabularysize 2 fasttext(en) 300 wikipedia 2.5m 11 glove.6b.50d 50 wikipedia+gigaword 5 (6b) 400k 12 glove.6b.100d 100 wikipedia+gigaword 5 (6b) 400k 13 glove.6b.200d 200 wikipedia+gigaword 5 (6b) 400k 14 glove.6b.300d 300 wikipedia+gigaword 5 (6b) 400k 15 glove.42b.300d 300 common crawl(42b) 1.9m 16 glove.840b.300d 300 common crawl(840b) 2.2m 17 glove.twitter.25d 25 twitter(27b) 1.2m 18 glove.twitter.50d 50 twitter(27b) 1.2m 19 glove.twitter.100d 100 twitter(27b) 1.2m 20 glove.twitter.200d 200 twitter(27b) 1.2m 21 word2vec.googlenews 300 google news(100b) 3.0m >>> chakin.download(number=2, save_dir='./') # select fasttext(en)test: 100% || | : 0:00:02 60.7 mib/s'./wiki.en.vec'supported vectors far, chakin supports following word vectors:namedimensioncorpusvocabularysizemethodlanguagefasttext(ar)300wikipedia610kfasttextarabicfasttext(de)300wikipedia2.3mfasttextgermanfasttext(en)300wikipedia2.5mfasttextenglishfasttext(es)300wikipedia985kfasttextspanishfasttext(fr)300wikipedia1.2mfasttextfrenchfasttext()300wikipedia871kfasttextitalianfasttext(ja)300wikipedia580kfasttextjapanesefasttext(ko)300wikipedia880kfasttextkoreanfasttext(pt)300wikipedia592kfasttextportuguesefasttext(ru)300wikipedia1.9mfasttextrussianfasttext(zh)300wikipedia330kfasttextchineseglove.6b.50d50wikipedia+gigaword 5 (6b)400kgloveenglishglove.6b.100d100wikipedia+gigaword 5 (6b)400kgloveenglishglove.6b.200d200wikipedia+gigaword 5 (6b)400kgloveenglishglove.6b.300d300wikipedia+gigaword 5 (6b)400kgloveenglishglove.42b.300d300common crawl(42b)1.9mgloveenglishglove.840b.300d300common crawl(840b)2.2mgloveenglishglove.twitter.25d25twitter(27b)1.2mgloveenglishglove.twitter.50d50twitter(27b)1.2mgloveenglishglove.twitter.100d100twitter(27b)1.2mgloveenglishglove.twitter.200d200twitter(27b)1.2mgloveenglishword2vec.googlenews300google news(100b)3.0mword2vecenglishword2vec.wiki-neologd.50d50wikipedia335kword2vec + neologdjapanese"
+}

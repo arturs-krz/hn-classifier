@@ -1,0 +1,20 @@
+{
+	"_id": "14249028",
+	"site": "https://github.com/fatiherikli/malevich",
+	"title": " Reproduction of one of Malevich's paintins with Particles",
+	"author": "fatiherikli",
+	"date": "2017-06-13T13:32:48.198Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"particle-systems",
+			"generative-art"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md malevichreproduction malevich's suprematism, 18th construction particle systemsdemohttps://fatiherikli.github.io/malevich/outputs"
+}

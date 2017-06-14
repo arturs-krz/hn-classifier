@@ -1,0 +1,20 @@
+{
+	"_id": "14440844",
+	"site": "https://github.com/rodrigogs/express-seed",
+	"title": " Minimal Node.js express based application for project kickstarting",
+	"author": "rodrigogs",
+	"date": "2017-06-13T13:06:18.002Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"express",
+			"seed",
+			"node",
+			"minimal"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md express-seedminimal node.js express based application project kickstarting.setup$ npm install yarn -g$ yarn installenvironmentdotenv is supported, create .env filenode_envnode environment, defaults developmentporthttp server port, defaults 3000http_log_configmorgan log configuration, defaults devusagestart:$ yarn starttest:$ yarn testcoverage:$ yarn run coveragelicenselicence © rodrigo gomes da silva"
+}

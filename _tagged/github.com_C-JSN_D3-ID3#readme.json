@@ -1,0 +1,28 @@
+{
+	"_id": "14488620",
+	"site": "https://github.com/C-JSN/D3-ID3#readme",
+	"title": "iD3: An Integrated Development Environment for D3.js",
+	"author": "sebg",
+	"date": "2017-06-13T14:10:06.106Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"d3",
+			"data-visualization",
+			"react",
+			"redux",
+			"electron",
+			"python",
+			"integrated-development-environment",
+			"monaco-editor"
+		],
+		"languages": [
+			"html",
+			"css",
+			"javascript",
+			"python"
+		]
+	},
+	"content": "readme.md id3 - ide dedicated development d3.jsid3 is open-source, cross-platform desktop application geared simplify data visualization d3 non-javascript javascript data scientists analysts. our integrated python based data management system custom generated attribute controls, id3 supports full process importing data exporting final presentation.id3 is active development. please follow repo contribution guidelines upcoming updates. usefork download# clone repositorygit clone https://github.com/c-jsn/d3-id3.git# into repositorycd d3-id3# install dependenciesnpm install # run webpacknpm run webpack# run app npm start please sure have python 3.6 installed.click here install python 3.6keyboard shortcuts:ctrl + s (main app editor) = run code renderctrl + s (data management editor) = run code control your visualizationupload own d3 code see visualized immediately the renderer. modify data visualization straight the editor, through custom generated attribute controls your right see changes reflected the renderer you .new d3? a templateselect template our library start creating right away.export filesexport finalized code be used your projects!note: refresh attribute panel clicking generate attr you upload new file run new template manage data your custom data processing algorithms top d3's built- functions our integrated python based data management system. system allows to feed .csv .json files through personal python script check data the print statement window before sending back the main application render your visualization.resourcesfind on www.d3-id3.comspecial thanks mike bostock creating d3.jscontributorschristian pascual | jeffrey ma | steve meads | naomi lai"
+}

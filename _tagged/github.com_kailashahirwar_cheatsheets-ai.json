@@ -1,0 +1,21 @@
+{
+	"_id": "14489003",
+	"site": "https://github.com/kailashahirwar/cheatsheets-ai",
+	"title": "Essential Cheat Sheets for deep learning and machine learning researchers",
+	"author": "happy-go-lucky",
+	"date": "2017-06-13T14:10:06.055Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"deep-learning",
+			"artificial-intelligence",
+			"machine-learning",
+			"keras",
+			"matplotlib",
+			"scipy",
+			"numpy"
+		],
+		"languages": []
+	},
+	"content": "readme.md cheatsheets-aiessential cheat sheets deep learning machine learning researcherstensorflowkerasneural networks zoonumpyscipypandas-1pandas-2pandas-3scikit-learnmatplotlibggplot2-1ggplot2-2pysparkr studio(dplyr & tidyr)-1r studio(dplyr & tidyr)-2deep learning cheat sheet cheat sheets(pdf)https://medium.com/@kailashahirwar/essential-cheat-sheets--machine-learning--deep-learning-researchers-efb6a8ebd2e5"
+}

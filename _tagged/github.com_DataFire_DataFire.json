@@ -1,0 +1,26 @@
+{
+	"_id": "14454424",
+	"site": "https://github.com/DataFire/DataFire",
+	"title": " DataFire – Framework for Building APIs and Integrations",
+	"author": "bbrennan",
+	"date": "2017-06-13T13:05:04.153Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"integration",
+			"api",
+			"api-client",
+			"rest-api",
+			"restful-api",
+			"rest-client",
+			"rss",
+			"openapi"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"html"
+		]
+	},
+	"content": "readme.md datafiredatafire is open source framework building integrating apis. provides 350 pre-built integrations, including:mongodb slack github twilio trello spotify instagram gmail google analytics youtubeeach integration provides set composable actions. actions be built combining existing actions, javascript, external libraries.actions are driven javascript promises, can triggered an http endpoint, a schedule, manually.sample projectscreate api backed google sheetse-mail yourself news headlinessync github issues a trello boardcreate spotify playlist r/listentothisinstallation sure install datafire both globally as project dependency.npm install -g datafirenpm install --save datafirehello worldview full example learn input validation,custom http responses, scheduled tasks, more../hello.jsmodule.exports = { handler: function(input) { return \"hello, world!\"; }};./datafire.ymlpaths: /hello: : action: ./hello.js we run:datafire serve --port 3000 &# datafire listening port 3000curl http://localhost:3000/hello# \"hello, world!\"kill $! # stop serverintegrations integrations.md the full documentationintegrations are available the @datafire scope npm. example, install hacker_news:npm install @datafire/hacker_newseach integration comes a set actions. example, hacker_news integrationcontains getstories, getitem, getuser actions.datafire run hacker_news/getuser -.username norvig can create api call runs of actions adding path datafire.yml:paths: /hn/profile: : action: hacker_news/getuser input: username: 'norvig'datafire serve --port 3000 &curl http://localhost:3000/hn/profile# {# \"\": \"http://norvig.com\",# \"created\": 1190398535,# \"id\": \"norvig\",# \"karma\": 640# } can run actions javascript - action return promise:var hackernews = require('@datafire/hacker_news').actions;hackernews.getuser({ username: 'norvig',}).(user => { console.log(user);}).catch(e => { console.log('error', e);})flowsread more flowsflows allow to chain actions together make series calls differentapis services. flows keep track results each step you reference at step.tasks can schedule tasks datafire.yml specifying rate cron expression.tasks: send_database_report: action: ./send-db-report.js schedule: rate(1 ) // or cron(0 0 * * * *) accounts: google_gmail: lucy mongodb: mongo_read_onlystart running tasks :datafire serve --tasksauthenticationread more authentication can the datafire authenticate command add credentials your project. can specify credentials yaml, programmatically (e.g. environment variable). example, datafire.yml:paths: /github_profile: : action: github/user. accounts: github: access_token: \"abcde\"commandsrun datafire --help datafire <command> --help more infodatafire serve --port 3000 # start api serverdatafire serve --tasks # start api server start running tasksdatafire list # view installed integrationsdatafire list - # view available integrationsdatafire list - -q news # search integrations keyworddatafire integrate --name petstore --openapi http://petstore.swagger.io/v2/swagger.jsondatafire integrate --name reddit --rss http://www.reddit.com/.rssdatafire describe hacker_news # show info actionsdatafire describe hacker_news/getitem # show action detailsdatafire authenticate google_gmail # store credentials datafire-auth.yml# run actiondatafire run ./sendmessage.js# run integration actions [integration]/[action]datafire run github/repositories.# pass parameters --inputdatafire run github/search.repositories. --input.q java# credentials --accountsdatafire run github/user. --accounts.github.access_token \"abcde\"cookbookcheck the cookbook common patterns, includingpaginated responses mocking/testing."
+}

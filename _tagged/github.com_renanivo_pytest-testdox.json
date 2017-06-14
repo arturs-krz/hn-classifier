@@ -1,0 +1,22 @@
+{
+	"_id": "14368714",
+	"site": "https://github.com/renanivo/pytest-testdox",
+	"title": " A TestDox reporter for pytest",
+	"author": "renanivo",
+	"date": "2017-06-13T13:07:42.087Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"pytest",
+			"bdd",
+			"reporting",
+			"test-reporting",
+			"testing"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.rst pytest-testdox testdox format reporter pytestinstallpip install pytest-testdoxusageadd parameter --testdox running pytest. ex:pytest --testdox -tests/tip: you don't to type --testdox every you run pytest, add to addopts your ini file. ex:# content pytest.ini# ( tox.ini setup.cfg)[pytest]addopts = --testdoxconfiguration file optionstestdox_formatspecifies testdox report format, plaintext utf8 (default:utf8). ex:# content pytest.ini# ( tox.ini setup.cfg)[pytest]testdox_format = plaintext$ pytest test_demo.py============================= test session starts ==============================platform darwin -- python 3.5.0, pytest-3.0.7, py-1.4.33, pluggy-0.4.0rootdir: /private/tmp/demo, inifile: pytest.iniplugins: testdox-devcollected 2 itemstest_demo.pypytest testdox [x] prints bdd style output your tests [x] lets focus the behavior"
+}

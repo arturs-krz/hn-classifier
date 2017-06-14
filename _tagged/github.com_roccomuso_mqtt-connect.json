@@ -1,0 +1,25 @@
+{
+	"_id": "14182886",
+	"site": "https://github.com/roccomuso/mqtt-connect",
+	"title": " MQTT framework to glue together middlewares to handle incoming msg",
+	"author": "roccomuso",
+	"date": "2017-06-13T13:33:35.440Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mqtt",
+			"connect",
+			"middlewares",
+			"plugins",
+			"mqttjs",
+			"nodejs",
+			"iot",
+			"framework",
+			"broker"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md mqtt-connect mqtt high level framework glue together various \"middleware\" handle incoming messages. works both mqtt broker client.heavily inspired the http connect module form-factor.broker examplevar mosca = require('mosca')var mqttconnect = require('mqtt-connect')var settings = { port: 1883, backend: { type: 'mongo', url: 'mongodb://localhost:27017/mqtt', pubsubcollection: 'ascoltatori', mongo: {} }}var server = mosca.server(settings);var app = mqttconnect.broker(server)server.('clientconnected', function(client) { console.log('client connected', client.id)})app.('/topic', function(broker, client, packet, next){ // middleware console.log(packet.payload) next()})// fired a message is receivedserver.('published', app.stack) // fn(packet, client)client examplevar mqtt = require('mqtt')var mqttconnect = require('mqtt-connect')var client = mqtt.connect('mqtt://test.mosquitto.org')client.('connect', function () { client.subscribe('presence') client.publish('presence', 'hello mqtt')})var app = mqttconnect.client(client)app.(function middleware1(client, msg, next) { // middleware 1 next()})app.(function (client, msg, next) { // middleware 2 console.log(msg.topic) console.log(msg.data) // buffer client.publish('boop/', 'boop')})client.('message', app.stack) // fn(topic, msg)mount middleware .use() method takes optional path string is matched against beginning the incoming request topic. allows basic msg routing:app.('/topic1', function foomiddleware(client, msg, next) { // middleware logic next()})apiapp.(fn) a function the app, where function represents middleware. function be invoked every request the order app. is called. functionis called three arguments the client 4 arguments the broker:// clientapp.(function (client, msg, next) { // client is mqtt client instance // msg is object 2 property: topic <string>, data <buffer> // next is function call invoke next middleware})// brokerapp.(function(broker, client, packet, next){ // broker is reference our broker. // client is sender mqtt client. // packet is incoming packet, containes: .topic, .payload etc. // next is function call invoke next middleware})app.(topic, fn) a function the app, where function represents middleware. function be invoked every packet received which topic match the given topic string the order app. is called.app.('/foo', function (client, msg, next) { // client is mqtt client instance // msg is object 2 property: topic <string>, data <buffer> // next is function call invoke next middleware})app.('/bar/+', brokercb) topic be terminated a path separator (/) an mqtt wildcard character (+ #).this means given topic /foo/ /foo are the same both not match same messages.moreover topic is matched a case-sensitive manor!check mqtt-match module the mqtt protocol documentation better understand topic matching.app.stackexpose function will iterate through added middlewares instances. the client be called 2 params (topic,msg). the broker be called 2 params (packet,client).common usage:// clientclient.('message', app.stack) // fn(topic, msg)// brokerserver.('published', app.stack) // fn(packet, client)'s built be compatible the mqtt.js module the mosca broker. it also used together an eventemitter class emits messages following same function signature.app.getcount()returns number middlewares currently inside mqttconnect client broker instance.app.reset()removes the middlewares our app.authorrocco musolino (@roccomuso)licensemit"
+}

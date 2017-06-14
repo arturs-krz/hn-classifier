@@ -1,0 +1,21 @@
+{
+	"_id": "14495830",
+	"site": "https://github.com/gajus/eslint-plugin-sql",
+	"title": "ESLint SQL plugin with automated formatting, eslint-plugin-sql",
+	"author": "gajus",
+	"date": "2017-06-13T14:10:06.331Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"eslint",
+			"eslint-plugin",
+			"sql",
+			"postgresql",
+			"postgres"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md eslint-plugin-sqlsql linting rules eslint. its current form, plugin has been designed tested work postgres codebase.eslint-plugin-sqlinstallationconfigurationsettingsplaceholderrulerulesformat-unsafe-queryinstallationinstall eslint.install eslint-plugin-sql plugin.npm install eslint --save-devnpm install eslint-plugin-sql --save-devconfigurationadd plugins section specify eslint-plugin-sql a plugin.enable rules.{ \"plugins\": [ \"sql\" ], \"rules\": { \"sql/format\": [ 2, { \"ignoreexpressions\": false, \"ignoreinline\": true, \"ignoretagless\": true } ], \"sql/-unsafe-query\": [ 2, { \"allowliteral\": false } ] }}settingsplaceholderrule regex used ignore placeholders other fragments the query 'd it invalid sql query, e.g. you are using ? placeholders your queries, must ignore \\? pattern otherwise string is going be recognized a valid sql query. configuration is relevant sql/-unsafe-query match queries containing placeholders well for sql/format used {ignoretagless: false} configuration.rulesformat --fix option the command line automatically fixes problems reported this rule.matches queries template literals. warns query formatting does match configured format ( options). rule is used format queries using pg-formatter.options first option is object the following configuration.configurationformatdefaultdescriptionignoreexpressionsbooleanfalsedoes format template literals contain expressions.ignoreinlinebooleantruedoes format queries are written a single line.ignoretaglessbooleantruedoes format queries are written without using sql tag. second option is object the pg-formatter configuration. following patterns are considered problems:`select 1`// options: [{\"ignoreinline\":false,\"ignoretagless\":false}]// message: format query// fixed code: // `// select// 1// ``select 2`// options: [{\"ignoreinline\":false,\"ignoretagless\":false},{\"spaces\":2}]// message: format query// fixed code: // `// select// 2// `sql`select 3`// options: [{\"ignoreinline\":false}]// message: format query// fixed code: // sql`// select// 3// ``select ${'foo'} ${'bar'}`// options: [{\"ignoreinline\":false,\"ignoretagless\":false}]// message: format query// fixed code: // `// select// ${'foo'}// // ${'bar'}// ` following patterns are considered problems:sql`select 1`// options: [{\"ignoreinline\":true}]`select 2`// options: [{\"ignoretagless\":true}]`select ${'foo'} ${'bar'}`// options: [{\"ignoreexpressions\":true,\"ignoreinline\":false,\"ignoretagless\":false}]-unsafe-querydisallows of sql inside template literals without sql tag. sql tag be anything, e.g.https://github.com/seegno/sql-taghttps://github.com/gajus/mightyql#tagged-template-literalsoptions first option is object the following configuration.configurationformatdefaultdescriptionallowliteralbooleanfalsecontrols whether sql tag is required template literals containing literal queries, .e. template literals without expressions. following patterns are considered problems:`select 1`// message: \"sql\" tag`select ${'foo'}`// message: \"sql\" tagfoo`select ${'bar'}`// message: \"sql\" tag`select ?`// message: \"sql\" tag following patterns are considered problems:`select 1`// options: [{\"allowliteral\":true}]sql`select 1`sql`select ${'foo'}`"
+}

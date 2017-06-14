@@ -1,0 +1,24 @@
+{
+	"_id": "14279653",
+	"site": "https://github.com/mitul45/expense-manager",
+	"title": " An expense manager built using Google Sheets",
+	"author": "mitul_45",
+	"date": "2017-06-13T13:32:02.590Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"expense-tracker",
+			"sheets-api",
+			"service-worker",
+			"progressive-web-app"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": "readme.md expense-manager \" you 't measure , you 't improve .\" - peter drucker control . introducing expense manager, app track daily spendings. is made two main components:main application: used add expenses the sheetexpense sheet: is where can all kinds analysis/summarization your expenses.why? google sheets is really with numbers, entering data the mobile app is very convenient. idea is make adding expense simple it be. should add at same moment make transaction. it a habit.detailed analysis the sheet be deferred till get access a computer. can plot fancy charts end the month, set budget next week, etc. i feel of need necessarily done small screen.featuresbuilt the web - works cross-platform (ios, android, mac, windows, linux).uses google sheet a database store expenses. why?privacy. 's personal data. should belong you.sheets is better handling numbers me. can all kinds analysis using graphs, formulas, etc. didn't to write backend progressive web app - quick load, be installed a standalone app phone.easier sharing. sharing expenses someone (wife, family)? share expense sheet all your combined data belongs the single sheet.backup. didn't tell it uses google sheets store expenses? data is always backed on mobile friendly layout.[] supports internal amount transfer enteries (things withdrawing cash, investing an retirement account, etc) to startedcopy sheet your google drive. sign , choose file -> a copy....don't rename . it should named expense sheet.update categories, account names, initial values data sheet. clear sample expenses the sheet.'s ! you start adding expenses .permissionsread access google drive find expense sheet.read write access google sheets add expenses.check outhttps://mitul45.github.io/expense-manager/"
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14097206",
+	"site": "https://github.com/BelkaLab/Swiperoo/",
+	"title": " Swipe to delete done right in Android",
+	"author": "HipstaJules",
+	"date": "2017-06-13T13:35:27.222Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"android",
+			"adapter",
+			"factory-pattern",
+			"swipe-to-delete"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md swiperoo adapter extandable adapter provides swipe delete your row item.live demoinspired : https://github.com/nemanja-kovacevic/recycler-view-swipe--deleteinstallationgradleadd gradle dependency:dependencies { compile '.belka:swiperoo-library:1.0.0'}maven<dependency> <groupid>.belka</groupid> <artifactid>swiperoo-library</artifactid> <version>1.0.0</version> <type>pom</type></dependency>usage the app folder will find working example the library need do 3 things make library works:1. create viewholder public class myviewholder extends swiperooviewholder<string> { static class factory implements swiperooviewholder.factory { @override public swiperooviewholder createviewholder(context context, viewgroup parent, int viewtype) { return myviewholder((context).inflate(your_item_layout, parent, false), context); } } public myviewholder(view itemview, context context) { super(itemview, context); } @override public void bindviewholder(string data) { } }pay attention the factory class, need return instance your viewholder (factory pattern)2. create adapter public class myadapter extends swiperooadapter<string> { public myadapter(context context, list<string> items, listener listener, swiperooviewholder.factory factory) { super(context, items, listener, factory); } }3. put all togheter mswiperoorecyclerview.setlayoutmanager( linearlayoutmanager()); myadapter adapter = myadapter(, items, , new myviewholder.factory()); mswiperoorecyclerview.setadapter(adapter); adapter.addsupporttoswipetodelete(, mswiperoorecyclerview); can \"this\" third parameter the adapter you directly pass an implementation the listener, both ways will implement interface handle item deletelisteners@override public void onitemdeleted(string item) { /// your stuff the deleted item }pay attention item layout container must a relative layout, otherwise holder throw a notsupportedexceptionlicenseswiperoo is copyright (c) 2017 belka, srl. is free software, may redistributed under terms specified the license file. belkabelka is digital agency specialized design, mobile applications development custom solutions. love open source software! can our projects look our case studies.interested? hire to help build next amazing project.www.belka."
+}

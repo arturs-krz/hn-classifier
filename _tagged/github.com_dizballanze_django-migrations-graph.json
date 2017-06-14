@@ -1,0 +1,20 @@
+{
+	"_id": "14332715",
+	"site": "https://github.com/dizballanze/django-migrations-graph",
+	"title": " \tDjango-admin command to display migrations with dependencies",
+	"author": "dizballanze",
+	"date": "2017-06-13T13:08:16.673Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"django",
+			"migrations"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.rst django-migrations-graphdjango-admin command display migrations dependencies.documentationrequirementspython 2.7, 3.4+django 1.8+quickstartinstall django-migrations-graph:pip install django-migrations-graphadd to installed_apps:installed_apps = ( ... 'migraph', ...)screenshotrunning testsdoes code actually ?source <yourvirtualenv>/bin/activate(myenv) $ pip install tox(myenv) $ toxcreditstools used rendering package:cookiecuttercookiecutter-djangopackagelicensemit"
+}

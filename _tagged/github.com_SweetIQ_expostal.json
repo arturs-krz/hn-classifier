@@ -1,0 +1,26 @@
+{
+	"_id": "14510496",
+	"site": "https://github.com/SweetIQ/expostal",
+	"title": " Parse street addresses in Elixir",
+	"author": "xiamx",
+	"date": "2017-06-13T13:04:19.587Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"libpostal",
+			"elixir",
+			"binding",
+			"nif",
+			"address",
+			"geocoding",
+			"parser"
+		],
+		"languages": [
+			"elixir",
+			"c",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": "readme.md expostalelixir binding libpostal - library parsing/normalizing street addresses around world.powered statistical nlp open geo data.installation package be installed adding expostal your list dependencies mix.exs:def deps [{:expostal, \"~> 0.1.0\"}]enddependenciesdepends system-wide installation libpostal.usageparsing address:iex> expostal.parser.parse_address(\"615 rene levesque ouest, montreal, qc, canada\")%{city: \"montreal\", country: \"canada\", house_number: \"615\", road: \"rene levesque ouest\", state: \"qc\"}expanding address:iex> expostal.expand.expand_address(\"781 franklin ave crown hts brooklyn ny\")[\"781 franklin avenue crown heights brooklyn york\", \"781 franklin avenue crown heights brooklyn ny\"]documentationview docs https://hexdocs.pm/expostal, generate docs locally mix docs."
+}

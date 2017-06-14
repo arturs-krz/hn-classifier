@@ -1,0 +1,23 @@
+{
+	"_id": "14504299",
+	"site": "https://github.com/nik-garmash/works-for-me",
+	"title": "Works for Me – project to discover useful apps and share setups",
+	"author": "harmash",
+	"date": "2017-06-13T14:09:57.020Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"parser",
+			"lexer",
+			"renderer",
+			"javascript",
+			"tokenizer"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md works me nice to discover tools share ones work you. contributed setups are compiled works me site.try playground see your setup look .subscribe rss-feed get setups updates existing ones.index to add setup?setup structure goes rss-feed to add setup?fork original repositorycreate new file within setups/ folder describe setup make pull requestsetup structurestart little information you.essentially, name is required make sense.name: john doeoccupation: software engineer location: berlin, germanylink: https://www.google.com/search?q=john+doeadd tools.> webstorm (https://www.jetbrains.com/webstorm/) main instrument.has pretty much everything of box, still have usefull plugins installed: ideavim markdown support...optionally add grouping titles.-- programming laptop is macbook pro (retina, 15-inch, mid 2015), 2,5 ghz intel core i7, 16gb ram.> iterm 2 (https://www.iterm2.com/), tmux (https://tmux.github.io/)> docker software more less heavy dependence goes containers not pollute system... can leave comment inside setup.// add description...such line won't rendered. goes rss-feedrss-feed is based commit-messages. you are to commit setup start commit-message new:: john doe (software engineer) can add few words you, commit-message goes the feed. major updates existing setup, update:, also goes rss.update: changed ide you to fix typos make minor chages, fix:, -one see one.fix: fixing typos"
+}

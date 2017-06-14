@@ -1,0 +1,16 @@
+{
+	"_id": "14537114",
+	"site": "https://github.com/chr15m/dreamtime",
+	"title": " Peer-to-peer for shell scripts",
+	"author": "chr15m",
+	"date": "2017-06-13T13:23:08.456Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md peer--peer networking shell scripts & os pipes.npm install chr15m/dreamtimerun./node_modules/.bin/dreamtime unique-room-identifierexample: aggregate output ping different servers:ping -n wikipedia.org | stdbuf -ol cut -b15- | dreamtime ping-partyimplementationdreamtime is built top webtorrent uses bittorrent extension protocol messaging.security notechannels are completely public. anybody join eavesdrop. don't share secrets them."
+}

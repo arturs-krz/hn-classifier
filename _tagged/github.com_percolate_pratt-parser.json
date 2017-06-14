@@ -1,0 +1,17 @@
+{
+	"_id": "14152279",
+	"site": "https://github.com/percolate/pratt-parser",
+	"title": " A Pratt Parser in Python",
+	"author": "otoolep",
+	"date": "2017-06-13T13:34:47.061Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md pratt-parser pratt parser implementation python. code accompanies talk given percolate, the april 2017 sf python meetup. presentation slides are available download."
+}

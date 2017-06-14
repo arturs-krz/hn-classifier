@@ -1,0 +1,18 @@
+{
+	"_id": "14440502",
+	"site": "https://github.com/taravancil/paste-dat",
+	"title": " PasteDat, a peer-to-peer gist alternative",
+	"author": "tbv",
+	"date": "2017-06-13T13:06:18.339Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md pastedatpastedat is peer--peer gist- tool. uses beaker browser's apis write files the dat protocol. file snippets created pastedat are hosted directly your device on peer--peer network, only who the secret url discover download files. learn more.install beaker, try outdat://b67dc95528a225086e4d0e8f0afce6e042796b1490999ee7fd9ca9d5c11bf48d"
+}

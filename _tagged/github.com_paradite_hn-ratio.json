@@ -1,0 +1,17 @@
+{
+	"_id": "14242588",
+	"site": "https://github.com/paradite/hn-ratio",
+	"title": " Hn-ratio – Hacker News top 50 stories ranked by Comment/Score ratio",
+	"author": "paradite",
+	"date": "2017-06-13T13:32:49.132Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"hacker-news"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md hn ratiohacker news top 50 stories ranked comment/score ratio.whybeing long- hacker news reader, realized most interesting hn submissions me are two categories:stories attract lot attention comments, signaling active extended debatesstories attract lot attention few comments, signaling very insightful post requires further commentshence, used comment/score ratio sort top hn submissions locate stories the top the bottom the list.resultsresults datenote new \"promoted\" stories low votes hn-backed job listings are filtered. to run script$ pip install -r requirements.txt$ python hn-ratio.py > results/result-xxx.txt"
+}

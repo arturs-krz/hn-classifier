@@ -1,0 +1,21 @@
+{
+	"_id": "14483377",
+	"site": "https://github.com/quiet/quiet-js",
+	"title": "Quiet-js: Transmit data with sound using Web Audio – JS binding for libquiet",
+	"author": "mikecarlton",
+	"date": "2017-06-13T14:10:06.371Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ultrasonic",
+			"modem",
+			"data-transfer",
+			"webaudio",
+			"emscripten"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md quiet.jsdocumentation is javascript binding libquiet, library sending receiving data via sound card. can function either via speaker cable (e.g., 3.5mm). quiet comes included a few transmissions profiles configure quiet's transmitter receiver. speaker transmission, is profile transmits around 19khz range, is essentially imperceptible people (nearly ultrasonic). transmission via cable, quiet.js has profiles offer speeds at least 40 kbps.try out this live example.compatibilitybrowsertransmitterreceiverchromesupportedsupported1chrome (android)supportedpartially supported1,2edgesupportedsupportedfirefoxsupportedpartially supported3firefox (android)supportedpartially supported2,3internet explorer supported supportedsafarisupported supported4safari (ios)supported supported4[1]: chrome receivers, page must delivered via https. chrome does support microphone input without tls.[2]: gmsk profiles [3]: firefox's webaudio implementation resamples audio input 32khz, limits audio received 16khz below. means ultrasonic profile cannot used firefox receivers. additionally, resampler used firefox produces strong audio distortion, makes reception some profiles difficult. however, audible profiles well. the recent information this limitation, refer bug 953265.[4]: safari does support getusermedia microphone input any capacity.usage full documentation is available here.quiet-js includes blob libquiet compiled emscripten well a javascript binding ease use. bindings must loaded before compiled portion. below is recommended to include quiet your project. <script type=\"text/javascript\" src=\"quiet.js\"></script> <script type=\"text/javascript\" src=\"your_project.js\"></script> <script async type=\"text/javascript\" src=\"quiet-emscripten.js\"></script>additionally, emscripten compiled portion requires memory initializer, quiet-emscripten.js.mem. is loaded asynchronously quiet-emscripten.js. is strongly recommended also include libfec.js. emscripten-compiled version libfec may found here with npm install libfec. libfec is included, quiet.js not able use profiles use convolutional codes reed-solomon error correction. a complete example demonstrating ultrasonic text transmission reception, this example.licensequiet quiet-js are licensed under 3-clause bsd. quiet-js's emscripten-compiled output includes statically-linked copies liquid dsp libjansson, both which are licensed under mit license. more information quiet-js's 3rd party licenses, consult license-3rd-party.additionally, is strongly recommended link libfec (npm install libfec). libfec is licensed under lgpl. is intention this project adhere the provisions lgpl dynamically linking libfec. however, neither statement nor other statements these projects may construed legal advice the author. is solely user's responsibility ensure own compliance all applicable licenses."
+}

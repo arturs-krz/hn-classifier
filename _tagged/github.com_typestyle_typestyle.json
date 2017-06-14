@@ -1,0 +1,21 @@
+{
+	"_id": "14434559",
+	"site": "https://github.com/typestyle/typestyle",
+	"title": "Typestyle: Making CSS Typesafe",
+	"author": "activatedgeek",
+	"date": "2017-06-13T13:55:35.033Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"css",
+			"typestyle",
+			"css-in-js"
+		],
+		"languages": [
+			"typescript",
+			"other"
+		]
+	},
+	"content": "readme.md typestylemaking css type safe.writing css typestyle be as fluent writing javascript typescript. are quite few css js frameworks there. one is different:provides great typescript developer experience. custom ast transform module loader support needed.works any framework (react, angular2, cyclejs, whatever, doesn't matter).zero config. use.super small (~6k gz) project is powered github s ^ ahead star please.checkout awesome list reviews .overviewquickstartguide: pseudo classes, animations, media queries, server side renderingwhyquickstart it you use css modules css general webpack etc, this you to typescript / javascript!installnpm install typestyle --save/** import */import {style} \"typestyle\";/** convert style object a css class name */const classname = style({color: 'red'});/** the class name a framework choice */// e.g. reactconst mybutton = ({onclick,children}) => <button classname={classname} onclick={onclick}> {children} </button>// angular2@component({ selector: '-component', template: `<div class=\"${classname}\">tada</div>`})export class mycomponent {}guide really really to css maintainable simple. we wrote free open source book, covering super simple core api, handful utility styles typestyle/lib/csx tons other goodness . jump the guidevideo course guide contains everything need know. if prefer watch video have free course on egghead.why are probably here cause are unhappy your current workflow. why just jump the guide give a . if still need reasons have quite few."
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "14527341",
+	"site": "https://github.com/curiositylab/curiosity/tree/v2",
+	"title": "Curiosity: Find Amazing GitHub Projects",
+	"author": "mubaris",
+	"date": "2017-06-13T14:09:47.666Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"github",
+			"github-api",
+			"explore",
+			"curious",
+			"project",
+			"curiosity",
+			"chrome-extension"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md curiosityfind amazing github projects a feed. peek curiosity chrome extensioncuriosity chrome extension is available . which is made aswanth chrome extension a at repo it's done've collected usernames amazing stargazers github. using github api, curiosity collect stars will show a feed. you need need submit github token access github api.getting startedpre-installation requirementsnodedownload install latest stable version node. app is tested node version v6.10.3mongodbdownload install [mongodb community edition] (https://docs.mongodb.com/manual/installation/#mongodb-community-edition). app is tested mongodb version v3.4.1create data directory mondodb.mkdir -p </path//mongodb-data>run mongodbmongod --dbpath </path//mongodb-data> you should mongodb server running. any issue please visit mongodb doc.open another terminal/command prompt clone app.installing running curiosity# rest the guide assumes already mongodb installed mongodb server is running.# the latest versiongit clone https://github.com/curiositylab/curiosity# change directorycd curiosity # time install yarn install# start appyarn run start installation is successful should following message. visit 'http://localhost:3000' view website.node_env -> devmongodb_uri -> mongodb://127.0.0.1:27017/curiositystarting server port 3000. scripts developement testing.# run test the appyarn run test-node# start app watch (10s delay)yarn run watchtools usedsweetalert2infinite-scrollaxios"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14439135",
+	"site": "https://github.com/truffls/storybook-addon-intl",
+	"title": "Use react-intl inside of storybook with a language switcher",
+	"author": "floriangosse",
+	"date": "2017-06-13T13:55:34.795Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"storybook",
+			"storybook-addon",
+			"react-intl",
+			"i18n",
+			"l10n"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md intl addon intl addon be used provide locale switcher react-intl.getting started, install addonnpm install -d storybook-addon-intlnote: following peer dependencies are required: @storybook/react, react react-intl.add line your addons.js file (create file inside storybook config directory needed).import 'storybook-addon-intl/register'; your config.js import setintlconfig withintl function. setintlconfig set configuration react-intl `withintl´ decorator.import { adddecorator, configure } '@storybook/react';import { setintlconfig, withintl } 'storybook-addon-intl/preview';// load locale data all defined localesimport { addlocaledata } 'react-intl';import enlocaledata 'react-intl/locale-data/en';import delocaledata 'react-intl/locale-data/de';addlocaledata(enlocaledata);addlocaledata(delocaledata);// provide messagesconst messages = { 'en': { 'button.label': 'click !' }, 'de': { 'button.label': 'klick mich!' }};const getmessages = (locale) => messages[locale];// set intl configurationsetintlconfig({ locales: ['en', 'de'], defaultlocale: 'en', getmessages});// register decoratoradddecorator(withintl);// run storybookconfigure(() => require('./stories'), module);"
+}

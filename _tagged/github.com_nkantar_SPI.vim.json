@@ -1,0 +1,19 @@
+{
+	"_id": "14156093",
+	"site": "https://github.com/nkantar/SPI.vim",
+	"title": " SPI.vim – A Vim plugin for sorting Python import statements",
+	"author": "nkantar",
+	"date": "2017-06-13T13:34:46.875Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"vim",
+			"python",
+			"plugin"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": "readme.md spi.vimsort python imports module/package name. + whyspi provides easy to sort python imports module/package name.vim's built- :sort is great alphabetically sorting lines, the inevitable combination import... from... means 're gonna' a bad .installationvim-plugplug 'nkantar/spi.vim'usage\" select import lines:spi"
+}

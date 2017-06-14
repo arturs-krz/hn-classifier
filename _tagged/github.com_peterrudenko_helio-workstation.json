@@ -1,0 +1,26 @@
+{
+	"_id": "14212054",
+	"site": "https://github.com/peterrudenko/helio-workstation",
+	"title": " An attempt to rethink a music sequencer design",
+	"author": "peterrudenko",
+	"date": "2017-06-13T13:33:04.030Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"audio-applications",
+			"music-composition",
+			"sequencer",
+			"vst",
+			"music-sequencer"
+		],
+		"languages": [
+			"c++",
+			"makefile",
+			"java",
+			"c",
+			"objective-c++",
+			"inno setup"
+		]
+	},
+	"content": "readme.md helio workstation is free open-source music sequencer, designed be used all major platforms.why another sequencer? of daw interfaces often seem overcomplicated, they tend get more more bloated time. most the daws are commercial, proprietary-licensed almost none them support major operating systems the same .helio aims be modern music creation tool, featuring linear-based sequencer a clean interface, high-performance c++ core, integrated version control providing intelligent synchronization between devices, saved undo history, translations many languages more.buildinglinuxwindowsmacosiosmasterdevelopbasic build instructionsgit clone, juce submodule, not yet done: git submodule update --init, vst asio sdks ( can't redistributed this project due licensing restrictions, you may thirdparty/get_asio_and_vst_sdks.sh script download extract sdks sources they're found), may skip step macos ios projects, the download script be invoked automatically the pre-build phase, linux, 'll need have following packages installed: libfreetype6-dev libx11-dev libxinerama-dev libxrandr-dev libxcursor-dev libxcomposite-dev mesa-common-dev freeglut3-dev libcurl4-openssl-dev libasound2-dev libjack-dev,pick right project your os projects directory build.linkshomepage all latest builds: https://helioworkstation.com.project page kvr database. screencasts youtube.contributinghelio is work progress still are many essential features missing, pull requests are appreciated. ideas are welcome: friendly lightweight ui is main development priority this project, if have vision how improve user experience music composing, feel free share .you also a translation your native language improve of existing translations, include english, german, french, italian, spanish russian.licensegnu gpl v3 © peter rudenko license more information.built- piano samples are part salamander grand piano alexander holm, distributed under cc- license.used fonts icons taken various free icon fonts ( icomoon) are licensed under sil open font license cc-.all helio logos translations are distrubuted under cc-."
+}

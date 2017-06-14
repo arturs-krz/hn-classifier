@@ -1,0 +1,19 @@
+{
+	"_id": "14459281",
+	"site": "https://github.com/LukaszWiktor/slack-status-based-on-wifi-name",
+	"title": " Slack status based on WiFi name",
+	"author": "sedzia",
+	"date": "2017-06-13T13:05:03.995Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"slack",
+			"status",
+			"automation"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md slack-status-based--wifi-nameset status slack based the wifi network are connected .how run ?you need obtain slack token your account https://api.slack.com/custom-integrations/legacy-tokens.copy paste token a file called .env set as environment variable slack_token.set slack_token=xoxp-... also need have node.js installed run script. currently works windows macos .node app.js does work? script checks periodically wifi network name (ssid) are connected and sets status slack according the mapping defined config.js."
+}

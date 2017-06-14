@@ -1,0 +1,16 @@
+{
+	"_id": "14271891",
+	"site": "https://github.com/SamuelGabriel/markout",
+	"title": " Print to STDOUT using Markdown",
+	"author": "ersiees",
+	"date": "2017-06-13T13:32:03.372Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md installationpip install markoutusage./something | markoutpython main.py | markout something else stdoutresultprint(\"## case 1\")print (\"*result*\",1)print(\"______\")print(\"** sam**\")becomescase 1result 1 sam"
+}

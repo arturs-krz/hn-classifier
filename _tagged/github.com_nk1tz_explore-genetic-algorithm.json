@@ -1,0 +1,18 @@
+{
+	"_id": "14397236",
+	"site": "https://github.com/nk1tz/explore-genetic-algorithm",
+	"title": " Genetic Algorithm Explorer",
+	"author": "nk1tz",
+	"date": "2017-06-13T13:07:23.132Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md http://nk1tz.com/explore-genetic-algorithm/genetic algorithm explorerexplore genetic algorithm (evolutionary search) playing the parameters during solution landscape search. it workstype name ( anything) the input box, click 'evolve '. change parameters the fly hitting enter observe effects the algorithm. top 10 individuals each generation are displayed along their respective score ( fitness function).fitness function score an individual is found comparing char--char ascii code values a string against target string.mutation ratechance mutating given char during mating.parents per child many individuals' contribute part their genome during single mating event.population size many individuals are generated every generational event.selection bias heavily weighted is selection process towards best individuals.elites many the top individuals are cloned the next generation."
+}

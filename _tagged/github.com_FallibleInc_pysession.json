@@ -1,0 +1,20 @@
+{
+	"_id": "14206562",
+	"site": "https://github.com/FallibleInc/pysession",
+	"title": " A way to save your python interpreter code automatically to GitHub",
+	"author": "mkagenius",
+	"date": "2017-06-13T13:33:06.061Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ipython",
+			"gist",
+			"python",
+			"terminal"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md pysessionautomatically save python interpreter code a file secret gist. can turn off any session. helpful you to share piece code just hacked the shell wanted save in file use later.tested ipython, python2 & python3 default shells.installation stepspip install pysessionecho 'export pythonstartup=$home/.pysession/pysession.py' >> ~/.bashrc you are using zsh replace .bashrc the above line .zshrc similarly any shell. macos, should append to ~/.bash_profile to by default, pysession record each shell run save a gist. however can instructed turn off recording save a file locally instead github. turn off saving a session>>> pysession.off()alternatively, persist choice not saving sessions some extended period time, set environment variable pysession_save_off true.export pysession_save_off=true turn on saving a session>>> pysession.()to save a local file instead gist>>> pysession.local() always save sessions local file, set environment variable pysession_save_locally true.export pysession_save_locally=true file is saved a name session.py can change by setting environment variable pysession_filename your desired filename.export pysession_filename=some_file_name.py"
+}

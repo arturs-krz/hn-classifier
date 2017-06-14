@@ -1,0 +1,22 @@
+{
+	"_id": "14288136",
+	"site": "https://github.com/euvl/vue-js-modal",
+	"title": " Vue.js modal plugin",
+	"author": "yev",
+	"date": "2017-06-13T13:31:14.564Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"vue",
+			"vuejs",
+			"vue-modal",
+			"vue-plugin",
+			"vuejs-modal"
+		],
+		"languages": [
+			"vue",
+			"javascript"
+		]
+	},
+	"content": "readme.md vue.js 2.0+ modalsimple use, highly customizable, mobile friendly vue.js 2.0+ modal. http://vue-js-modal.yev.io/ demo: http://vue-js-modal.yev.io/installnpm install vue-js-modal --save to include plugin your main.js file.import vmodal 'vue-js-modal'vue.(vmodal)create modal<modal name=\"hello-world\"> hello, world!</modal>call from anywhere the appmethods: { show () { .$modal.show('hello-world'); }, hide () { .$modal.hide('hello-world'); }}propertiesnamerequiredtypedefaultdescriptionnametrue[string, number]name the modaldelayfalsenumber0delay between showing overlay actual modal boxresizablefalsebooleanfalse true, allows resize modal window, keeping in center the screen.adaptivefalsebooleanfalse true, modal box try adapt the window sizedraggablefalse[boolean, string]false true, modal box be draggable.transitionfalsestringtransition nameclassesfalse[string, array]'nice-modal'classes will eb applied the actual modal box, specified specified, default 'nice-modal' class eb appliedwidthfalsenumber600heightfalsenumber300minwidthfalsenumber0 minimum width which modal be resizedminheightfalsenumber0 minimum height which modal be resizedpivotxfalsenumber (0 - 1.0)0.5horizontal position %, default is 0.5 (meaning modal box be the middle (50% top) the windowpivotyfalsenumber (0 - 1.0)0.5eventsnamedescriptionbefore-openemits while modal is still invisible, was added the domopenedemits modal became visible started transitionbefore-closeemits before modal is going be closed. be stopped the event listener calling event.stop() (example: are creating text editor, want stop closisng ask user correct mistakes text is valid)closedemits right before modal is destoyedexample:<template> <modal name=\"example\" :width=\"300\" :height=\"300\" @before-open=\"beforeopen\" @before-close=\"beforeclose\"> <b>{{}}</b> </modal></template><script>export default { name: 'examplemodal', data () { return { : 0, duration: 5000 } }, methods: { beforeopen (event) { console.log(event) // set opening of modal .time = date.() }, beforeclose (event) { console.log(event) // modal was open less 5000 ms - prevent closing if (.time + .duration < date.()) { event.stop() } } }}</script> example, initializes variable every the modal is being opened. then forbits closing for next 5000 msclose button you to a close (x) button the top-right corner, can \"top-right\" slot it. is deliberately predefined close button style - will to implement/ your own button.example:<template> <modal name=\"foo\"> <div slot=\"top-right\"> <button @click=\"$modal.hide('foo')\">              </button> </div>    hello, ! </modal></template>draggable handlerdraggable property accept only boolean also string paramenters. string value, can specify css selector the element will a \"handler\" dragging.example:<modal name=\"bar\" draggable=\".window-header\"> <div class=\"window-header\">drag here</div> <div>     hello, ! </div></modal>developers run example:# clone repo git clone https://github.com/euvl/vue-js-modal.git# build main librarycd vue-js-modalnpm installnpm run build# build run democd demonpm installnpm run dev"
+}

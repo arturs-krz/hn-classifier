@@ -1,0 +1,16 @@
+{
+	"_id": "14418414",
+	"site": "https://github.com/luiz290788/actionz",
+	"title": "Small utility for creating Redux ducks",
+	"author": "lpiscello",
+	"date": "2017-06-13T13:56:31.204Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md actionzsmall utility creating redux ducks.apicreateaction(type: string, payloadcreator: function)builds actor creator funciton type a payloadcreator will receive arguments passed the action creator returns payload the action. no payloadcreator is provided, first argument the action creator be used the payload.exampleconst increment = createaction(increment);console.log(increment());/* { type: 'increment' }*/const incrementby = createaction(increment_by);console.log(incrementby(2));/* { type: 'increment_by', payload: 2 }*/const incrementthenmultiply = createaction(increment_then_multiply, (inc: number, mult: number) => ({ inc, mult }));console.log(incrementthenmultiply(2, 3));/* { type: 'increment_then_multiply', payload: { inc: 2, mult: 3 } }*/createreducer(defaultstate: object, actionhandlers: object)builds reducer function defaultstate actionhandlers;exampleconst reducer = createreducer(defaultstate, { [increment]: (payload, { count }) => ({ count: count + 1 }), [increment_by]: (inc, { count }) => ({ count: count + inc }), [decrement]: (payload, { count }) => ({ count: count - 1 }), [increment_then_multiply]: ({ inc, mult }, { count }) => ({ count: (count + inc) * multi }),});check examples folder full examples."
+}

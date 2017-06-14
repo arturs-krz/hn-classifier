@@ -1,0 +1,18 @@
+{
+	"_id": "14387087",
+	"site": "https://github.com/chr15m/thxgh",
+	"title": " CLI for GitHub user contrib graph and statistics",
+	"author": "chr15m",
+	"date": "2017-06-13T13:07:23.704Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"hy",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md cli github user contrib graph & statistics tool is intended facilitate archiving your public data hosted github.currently supported user stats:contributions graph.language statistics.total repos, stars, followers, following.pinned repositories.yearly contributions count.installpip install thxgh(hint: --user install ~/.local/bin/)run usage help:$ ./bin/thxgh usage: ./bin/thxgh [--contributions|--stats] github-username--contributions print svg contributions graph stdout.--stats print json formatted statistics the user stdout.--repos print json formatted list repositories.download contributions graph svg a user:$ ./bin/thxgh --contributions chr15m > chr15m-contributions.svg language statistics pinned repositories a user:$ ./bin/thxgh --stats chr15m{ \"languages\": [ { \"count\": 29, \"percent\": 23, \"language\": \"javascript\" }, ... ], \"timestamp\": \"2017-05-18t09:52:18.093690\", \"stats\": [ [ \"repositories\", \"135\" ], [ \"stars\", \"481\" ], [ \"followers\", \"109\" ], [ \"following\", \"294\" ] ], \"contributions-\": 2254, \"pinned-repos\": [ { \"name\": \"thxgh\", \"language\": \"hy\", \"url\": \"https://github.com/chr15m/thxgh\", \"stars\": 2, \"forks\": 1, \"description\": \"cli github user contrib graph & stats\" }, ... ]} list repositories a user:$ ./bin/thxgh --repos[ { \"fork\": false, \"open_issues_count\": 0, \"watchers\": 0, \"description\": \"cli github user contrib graph & language stats\", \"name\": \"thxgh\", \"forks\": 0, \"created_at\": \"2017-05-18t02:02:21z\", \"forks_count\": 0, \"updated_at\": \"2017-05-18t11:44:09z\", \"html_url\": \"https://github.com/chr15m/thxgh\", \"language\": \"hy\", \"clone_url\": \"https://github.com/chr15m/thxgh.git\", \"watchers_count\": 0, \"full_name\": \"chr15m/thxgh\", \"ssh_url\": \"git@github.com:chr15m/thxgh.git\", \"open_issues\": 0, \"stargazers_count\": 0, \"id\": 91637951, \"size\": 13 }, ...]"
+}

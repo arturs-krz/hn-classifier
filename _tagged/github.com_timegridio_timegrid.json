@@ -1,0 +1,22 @@
+{
+	"_id": "14517541",
+	"site": "https://github.com/timegridio/timegrid",
+	"title": "Timegrid.io: FOSS online appointments platform",
+	"author": "dannyrosen",
+	"date": "2017-06-13T14:09:48.084Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"appointment",
+			"reservation",
+			"reservation-system"
+		],
+		"languages": [
+			"php",
+			"javascript",
+			"html",
+			"other"
+		]
+	},
+	"content": "readme.md timegridtimegrid helps contractors customers find perfect meeting through online appointments. featuresbuilt laravel 5.3 framework phpclassic oauth2 sign-/sign- with socialitebusiness managementclients addressbookservicesstaffavailabilityappointmentscalendar sharing through icalendar linkscheduling view fullcalendarself-service reservation datepickerbasic email notificationsi18n supportmultiple timezones supportlive chat tidiochatadmin gui adminlte twitter bootstrap 3 based theme.future features heredocumentationuser manual (-in-progress help is welcome!)live demotest drive beta live demohint: may a maildrop.cc fake account testinginstallingread installing section. started 10 min a docker image development environment.localizationcurrent supported user interface languages are:american english (en_us)spanish (es_es es_ar)italian (it_it)future targeted translations might french arabic, however, feel free contribute your preferredtranslation!appointment librarytimegrid uses concierge package dealing appointments.authortimegrid is developed maintained ariel vallese.contributingcontributions are welcome. please read following notes.author notesimportant notedear tiny human-qualified community,timegrid was born a pet project aimed solve own needs a freelancer.'m happy hear timegrid helped solve problem others, least partially. said, 'm sorry mention currently overloaded other projects, won't able keep on timegrid development a fulltime basis before.pr's other contributions, well regular maintenance still place.thanks your patience thanks being around.special thanks & creditspega! infra supportmohamed g.hafez contributionsjohn ezekiel friendly hints creating really nice booking-appvictor testing documentation contributionsmohammad hossein mojtahedi doc reviewjose v herrera contributionsbruno gangemi useful feedbackcalvin roger s. canas contributionskhouadja achraf contributionsnick n. huynh contributionskashyap sharma contributionsniharika khanna contributionswebearit.com contribution italian translationdraganrakovic contributionsnerxo contributionssahil sharma contributions smart suggestionsusing modified icon originally made simpleicon www.flaticon.comlicensetimegrid is open-sourced software licensed under agplmay beings happy."
+}

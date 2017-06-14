@@ -1,0 +1,14 @@
+{
+	"_id": "14439467",
+	"site": "https://github.com/lipis/fix-the-web",
+	"title": "Let's fix it together.. One line at a time",
+	"author": "lipis",
+	"date": "2017-06-13T13:55:34.614Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md fix weblet's fix together.. line a !what is ?if are persnickety i am, can easily fix quite few things at same contribute your favorite project. 's never too late start contributing instead just consuming.contentseditorconfigsearch replacegithub => githubjavascript => javascriptosx, os x, macos => macosxcode => xcodeeditorconfig matter many contribute the code, should always like was written one person. with in mind 's good idea add editorconfig your favorite project.create new file the root called .editorconfig respecting coding styles already applied. here is example:# editorconfig.orgroot = true[*]charset = utf-8end_of_line = lfindent_size = 2indent_style = spaceinsert_final_newline = truetrim_trailing_whitespace = true ideas : react, visual studio code, angular js gae-init.search replacerecommended renames recommend submit each the following possible fixes a separate pull request.search replace githubgithubjavascriptjavascriptosx, os x, macosmacosxcodexcodeyes, how?find favorite project fork clone and open project your favorite editorsearch for exact match github replace with githubcreate new branch: git checkout -b fix-casecommit changes: git commit -am 'fix case: github github'push changes: git push origin fix-casecreate pull request the original project polite!"
+}

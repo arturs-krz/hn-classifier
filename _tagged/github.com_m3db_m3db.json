@@ -1,0 +1,17 @@
+{
+	"_id": "14412181",
+	"site": "https://github.com/m3db/m3db",
+	"title": "M3DB – A distributed time series database using M3TSZ compression",
+	"author": "gbrown_",
+	"date": "2017-06-13T13:56:41.251Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": "readme.md warning: is alpha software not intended use until stable release.m3db time series database. project is released under mit license."
+}

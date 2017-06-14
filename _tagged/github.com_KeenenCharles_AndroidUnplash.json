@@ -1,0 +1,16 @@
+{
+	"_id": "14360067",
+	"site": "https://github.com/KeenenCharles/AndroidUnplash",
+	"title": " Android Unsplash API Client",
+	"author": "kjcharles",
+	"date": "2017-06-13T13:07:42.340Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md android unsplash (unofficial) unofficial unsplash api library androidusageinitialize unsplash clientunsplash unsplash = unsplash(your_client_id); can sign for client id https://unsplash.com/developers a list photosunsplash.getphotos(1, 10, order.latest, unsplash.onphotosloadedlistener() { @override public void oncomplete(list<photo> photos) { int photocount = photos.size(); } @override public void onerror(string error) { log.v(\"error\", error); }}); a photo idunsplash.getphoto(photo_id, unsplash.onphotoloadedlistener() { @override public void oncomplete(photo photo) { string photourl = photo.geturls().getregular(); } @override public void onerror(string error) { log.v(\"error\", error); }});searchunsplash.searchphotos(query, unsplash.onsearchcompletelistener() { @override public void oncomplete(searchresults results) { log.d(\"photos\", \"total results found \" + results.gettotal()); list<photo> photos = results.getresults(); } @override public void onerror(string error) { log.d(\"unsplash\", error); }}); featuresgetcuratedphotos()getrandomphoto()getrandomphotos()getphotodownloadlinkgetcollections()getfeaturedcollections()getcuratedcollections()getrelatedcollections()getcollection()getcuratedcollection()getcollectionphotos()getcuratedcollectionphotos()getstats() a at api documentation what each call does detail https://unsplash.com/documentationgradleadd line below your build.gradle use:dependencies { compile 'com.kc.androidunsplash:androidunsplash:0.1.2'}-douser authenticationlicensemit licensecopyright (c) 2017 keenen charlespermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

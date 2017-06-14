@@ -1,0 +1,14 @@
+{
+	"_id": "14445142",
+	"site": "https://github.com/elm-lang/projects/blob/master/notes/on-general-purpose.md",
+	"title": "On “General-Purpose” Languages",
+	"author": "ProfDreamer",
+	"date": "2017-06-13T13:55:19.864Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "general-purpose languagesmany ask will elm become general-purpose language? do think elm is general-purpose language? are talking ?what is general-purpose language?, the definition wikipedia says: general-purpose programming language is programming language designed be used writing software a wide variety application domains is term useful any real question? i python a wide variety things? sure. it is very crucial know things make technical decision. would a mistake say, oh, python be used a wide variety things. great! will it this embedded system.examples general-purpose languages list wikipedia has quite few entries. lets examine few.languagestrong weak coperating systemsweb programmingjavaserversemdedded systemspythonscriptingiphone appswhy is that general-purpose languages such clear niches?language design choices how does memory management ? inherently select certain target domains. embedded systems, want manual memory management! a quick script, do !ecosystems form around certain domains. python may seem an odd choice scientific computing a performance perspective, it has great ecosystem that domain. without ecosystem, would silly do , and can observe this is true ruby perl php.relevance elm a young language says x is general-purpose language hear am sure x is but am making anyway. think languages elm, elixir, julia had success they focused a particular domain attempted understand people work those domains. why spend bunch time early the life a language transition great one domain weak three domains? many languages tried , and probably not heard them it is a opening strategy. historically, languages branch after establishing niche. clojure began servers branched to web apps. python began scripting branched to scientific computing, education, etc. prefer have coherent strategy expanding other domains. why expand another domain? strengths elm bring ? how much would be? should on web apps slow down this? is best the long-term health the project? etc. also it is important clearly inform what language is decent right . that they not waste time paths already that python erlang c do better right .if want experiment elm other domains, please (1) let folks on elm-dev soon possible (2) label work experimental very clearly. way can clearer everyone to their efficiently."
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "14442354",
+	"site": "https://github.com/Ldpe2G/DeepLearningForFun/tree/master/Mxnet-Scala/Pix2Pix",
+	"title": " MXNet implementation of Pix2Pix",
+	"author": "Ldpe2G",
+	"date": "2017-06-13T13:06:18.214Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md mxnet-scala pix2pixmxnet-scala module implementation pix2pix[1].based :https://github.com/phillipi/pix2pix reproduced results the 'edge2shoes' 'edges2handbags' datasets successfully. the results the 'cityscapes' 'facades' datasets were good enough, i did show results them.results:    requirementssbt 0.13 http://www.scala-sbt.org/mxnet https://github.com/dmlc/mxnetsteps1, compile mxnet cuda, compile scala-pkgdoc https://github.com/dmlc/mxnet/tree/master/scala-package2, under mxnet-scala/pix2pix folder mkdir lib;3, copy compiled mxnet-full_2.11-linux-x86_64-gpu-0.10.0-snapshot.jar lib folder;4, run sbt compile projectdatasets can download datasets the datasets/download_dataset.sh. can refer https://github.com/phillipi/pix2pix how use script.training models the train_pix2pix.sh script under scripts folder. you keep the default settings, just need provide dataset path, set direction 'atob' 'btoa'data_path=direction=testing did release pretrained models the model size is too large ~200m. you reproduce results using train_pix2pix.sh script train own model. the test_pix2pix.sh script under scripts folder. need provide input image path, pretrain model path set corresponding direction.prearein_g_model=input_image=# -1 cpugpu=0# \"atob\" \"btoa\"direction=\"btoa\"licensemitreference[1] isola, phillip, et al. \"image--image translation conditional adversarial networks.\" 2016."
+}

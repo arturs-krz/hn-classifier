@@ -1,0 +1,25 @@
+{
+	"_id": "14472278",
+	"site": "https://github.com/ashwin711/georaptor",
+	"title": " Georaptor – A Python Geohash Compression Tool v2.0.0",
+	"author": "ashwinnair",
+	"date": "2017-06-13T13:04:46.006Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"geohash",
+			"compression",
+			"utility",
+			"command-line-tool",
+			"geospatial",
+			"geolocation",
+			"optimization",
+			"performance"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst georaptor: python geohash compression toolgeohash is geocoding system invented gustavo niemeyer placed the public domain. is hierarchical spatial data structure subdivides space buckets grid shape, is of many applications what is known a z-order curve, generally space-filling curves.geohash creation a polygon a given precision level result a huge set geohashes.georaptor creates best combination geohashes across various levels represent polygon, starting the highest level iterating till optimal blend is brewed. result accuracy remains same that the starting geohash level, data size reduces considerably large polygons, thereby improving speed performance.following is sample what georaptor doesinput: 1096 geohashes precision 6 singapore.output: 414 geohashes a mix precision 5 6.performanceinput sample size: 18,992,425output: 220,375total execution : 35.8013219833 secondsusage$ georaptor <input> --output <output> --minlevel <minlevel> --maxlevel <maxlevel>example$ georaptor sample.csv$ georaptor sample.csv --output sample_out.csv --minlevel 3 --maxlevel 4installation install georaptor, simply:$ pip install georaptorlicense:licensed under apache license, version 2.0. copyright 2017 ashwin nair <https://www.linkedin.com//nairashwin7>licensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

@@ -1,0 +1,27 @@
+{
+	"_id": "14203848",
+	"site": "https://github.com/posquit0/node-identif",
+	"title": " Identif – Node.js Helper to verify one's identity via personal channels",
+	"author": "posquit0",
+	"date": "2017-06-13T13:33:06.896Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"identification",
+			"identity",
+			"identify",
+			"verification",
+			"sms",
+			"email",
+			"phone",
+			"sms-verification",
+			"email-verification",
+			"2fa",
+			"authentication"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md identif helper verify 's identity via personal channels identif is abstract helper class easily implement identity verification logic via personal channels sms, phone, e-mail, more. was written use carplat is platform service the car rental.installation# npm$ npm install --save identif# yarn$ yarn add identifdependenciesredis: you redisstore, connection redis server is required.usageconst { identif, redisstore } = require('identif');// create instance identif redisstoreconst identif = identif({ store: redisstore({ redis: { host: '.redis.com', port: 6379 }, ttl: 3 * 60 })});// request verificationconst { requestid, code, createdat } = await identif.request();/*output{ requestid: 'e89c3600-6ac7-469e-8d7e-e6e7847b346d', code: '1274', createdat: '2017-04-23t14:47:24.173z'}*/// respond the client including `requestid`, `createdat`// send `code` via personal secure channel sms, e-mail// verify requestconst data = await identif.verify(requestid, code); (!data) { // failed verify 's identity} else { // verifed 's identity}apiidentif([options])methodsrequest([extra])verify(requestid, code)memorystore()methods(key)set(key, data)redisstore([options])methods(key)set(key, data)contributing project follows contributor covenant code conduct.bug reports & feature requestsplease the issue tracker report bugs ask feature requests.contact you any questions, feel free join at #posquit0 freenode ask away. click here connect.licensemit © byungjin park"
+}

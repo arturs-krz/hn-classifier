@@ -1,0 +1,24 @@
+{
+	"_id": "14499723",
+	"site": "https://github.com/dollarshaveclub/furan",
+	"title": " Furan – build and push Docker images from GitHub to target",
+	"author": "briangonzalez",
+	"date": "2017-06-13T13:04:20.133Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"grpc",
+			"microservice",
+			"docker",
+			"golang",
+			"go",
+			"containers"
+		],
+		"languages": [
+			"go",
+			"protocol buffer",
+			"shell"
+		]
+	},
+	"content": "readme.md furanscale docker buildsfuran is horizontally-scalable docker build microservice (api) builds pushes docker images a specified github repository a specified target (registry s3).··· is furan's advantage?furan is fast! optimized build speed, furan runs operations memory instead disk. optionally, can configured run builds within ram disk. furan streams directly github a local docker daemon without temporary files.furan is stateless! furan is deployed an essentially stateless api application, allowing to scaled . furan does shell to execute docker commands. leverages docker engine api.furan is hookable! furan is triggered demand via grpc https. builds be triggered one node monitored any (allows round-robin load balancing).furan supports docker pushs s3 deploys! furan supports pushing docker registries (public private) well pre-squashing deploying tarballs directly s3.furan is secure! furan integrates vault secure storage service credentials (docker registries, aws). furan supports token appid authentication.furan is instrumented! furan has full datadog integration you monitor size your docker images time, build durations, build failures more. screenshotapi native api furan is based grpc supports number rpc calls. the protobuf definition details. https adapter isavailable testing convenience.docsquick startcli the help output full details: furan --help"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14506294",
+	"site": "https://github.com/paulknysh/sym",
+	"title": "A Mathematica package for generating symbolic models from data",
+	"author": "paulknysh",
+	"date": "2017-06-13T14:09:57.095Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"generation",
+			"symbolic",
+			"model",
+			"data",
+			"mathematica"
+		],
+		"languages": [
+			"mathematica"
+		]
+	},
+	"content": "readme.md sym: mathematica package generating symbolic models data is ?a monte carlo search a symbolic model fits given data. user needs provide error function ( how a model fits data) some basic building blocks (math operations, variables, constants), which random models be generated. procedure scales multicore cpus running several independent monte carlo loops parallel subsequently accumulating obtained results. do represent error function? mathematica function/module called error needs be defined. example, data is list points 2d ({{0.,1.},{2.,5.},...,{7.,8.}}) we to fit, following error function be used:error[model_]:=mean@table[abs[data[[,2]]-model/.{x->data[[,1]]}],{,length[data]}]model is symbolic expression. symbol x appears inside the error has be listed vars ( example below). error has return non-negative value is being minimized.since error is fully programmable, user is limited only fitting data points. is possible generate models more general kinds data. do run procedure? like :get[\"...\\\\my_folder\\\\sym.m\"] (*path sym.m*)error[model_]:=...=60; (* in seconds running procedure*)ncores=4; (*number cores be used*)uops={#^2&,sqrt[abs[#]]&,log[abs[#]]&}; (*list unary operations*)bops={plus,subtract,times,divide}; (*list binary operations*)vars:={x}; (*list variables/constants*)nops=7; (*max number operations used constructing model (~ max model size)*)output=search[,ncores,uops,bops,vars,nops]; (*runs procedure*)output[[1]]//tableform (*returns accumulated list best 100 models corresponding error values*)output[[2]] (*returns total number iterations*)constants vars be listed symbols (vars:={x,c}), are determined inside error. alternatively, can listed randominteger[]/randomreal[] ( proper arguments) appear random values the model. finally, don't to list constants vars you don't need .important: operations must protected. applying exp power large/small enough numbers, especially randomly generated model contains nestings exp[exp[exp[...]]], cause severe memory leaks (wolfram, wtf?). therefore, arguments these functions need be protected clip (cuts off large/small values). instance, instead listing exp uops user needs list something exp[clip[#,{10^-6,10^2},{0,infinity}]]&. , it's better use log[abs[#]]&/sqrt[abs[#]]& instead log/sqrt avoid nasty complex numbers. arithmetic operations (plus, subtract, times, divide) are safe, dividing 0 is ok. adding operations, sure are safe, otherwise proper safety!authorpaul knysh (paul.knysh@gmail.com)feel free email if have questions comments."
+}

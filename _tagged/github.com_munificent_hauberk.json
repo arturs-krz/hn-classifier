@@ -1,0 +1,18 @@
+{
+	"_id": "14372050",
+	"site": "https://github.com/munificent/hauberk",
+	"title": "Hauberk – A web-based roguelike written in Dart",
+	"author": "tosh",
+	"date": "2017-06-13T13:57:07.015Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"dart",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md hauberk is roguelike, ascii-art based procedurally-generated dungeon crawl game. 's written dart runs your browser.behold in of glory:running to it and running locally, 'll need have dart sdk installed. use latest dev channel release dart, you get here.once have dart installed its bin/ directory your path, :clone repo. the root directory it, run: $ pub serve your browser, open: http://localhost:8080pub automatically compile game javascript you hit url a production browser. leave pub serve running, whenever change dartcode, will notice and recompile js the fly. can iterate faster have much better debugging experience youbrowse the server using dartium, comes the dart sdk. hit same url it is smart enough serve raw dart code instead thecompiled js. usually run game dartium, if see bugs the compiled--jsversion please file issue.getting involved'd love have more involved. 're more welcome contribute hauberk itself. 's lots be done, both code game content(monsters, items, recipes, areas, etc.). you'd to hack code, search through codebase \"todo\". sprinkle those liberally mark things need fixing are open extension. you find that catches eye, let know i fill in the details, just send pull request. also had mind this codebase be used a springboard othergames. feel free fork hauberk make into own thing any you choose. uses very permissive mit license, you do pretty muchwhatever want it."
+}

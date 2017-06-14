@@ -1,0 +1,18 @@
+{
+	"_id": "14147833",
+	"site": "https://github.com/sacert/Snake-Star",
+	"title": " First Attempt at AI",
+	"author": "sacert",
+	"date": "2017-06-13T13:34:48.389Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md snake * simple attempt creating ai within game.background lunch right before long weekend, most , i was too lazy do real . i been interested understanding gaming ai quite time, mainly feeling frustration the dark souls ai, i decided 'd attempt get feet wet the field attempting create simple pathing ai the classic game snake.demo can try at: https://sacert.github.io/snake-star/ it looksimplementationgoing to i was taught university, thought using dijkstra's algorithm find shortest path the head the snake the item have read a* is very similar dijkstra's algorithm includes heuristic better estimating.solution: using * algorithmwhile did provide with snake did to item (apple) fastest, would make lot errors such not working all the snake's body was long enough prevent head reaching item.soltuion: move a direction furthest the item attempt 'stall' this move snake's body enough such there be path head item although lead another difficulty the snake's head sometimes move a direction would tunnel to immediate death.solution: * into factor number available spaces within calculation determining next node choose that net snake most amount available movements stallingwhile ai this point does moderately , it still make errors such going items will instantly cause to die when performing 'stalling', use available spaces.remarkswhile did this be easy experiment could completed within time frame roughly 4 hours, something as simple creating ai snake be challenging there are multiple measures account . i may spend when isn't much to strengthen ai for , it was fun little experiment get grasp ai implementation."
+}

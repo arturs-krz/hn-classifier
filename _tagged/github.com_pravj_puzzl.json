@@ -1,0 +1,21 @@
+{
+	"_id": "14376532",
+	"site": "https://github.com/pravj/puzzl",
+	"title": " Puzzle game I wrote to learn Golang and its concurrency primitives",
+	"author": "pravj",
+	"date": "2017-06-13T13:07:26.024Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"sliding-puzzle-game",
+			"game",
+			"concurrent-programming",
+			"pathfinding-algorithm",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md puzzl intelligent version the sliding-puzzle game your terminal built golangpuzzl is intelligent implementation the classical sliding-puzzle game.'s built top golang's concurrency primitives. uses goroutines channels inter process communications provide real notification experience unix terminals.puzzl comes an -built solver can solve puzzle configuration faster iron man. have written paper* describing technical details the game, a , in case want .implementing intelligent version the classical sliding-puzzle game unix terminals using golang's concurrency primitiveshttp://arxiv.org/abs/1503.08345installation get github.com/pravj/puzzl sure the workspace's bin directory is added your pathexport path=$path:$gopath/bincontrolsstart game the command puzzl. arrow keys move blank tile wherever want.press 'h' 'h' get hint next move.press esc key quit game.featurespuzzl comes an -built solver powers automation the game.puzzl gives some hope showing optimal possible moves solve board configuration.puzzl helps survive game giving hints next move.puzzl tracks the user moves accordingly generates score the game.puzzl shows notifications according the real game status.puzzl notifies whether last move was right wrong.-built solverpuzzl uses -star algorithm solve game board.puzzl's solver is enough fuel-efficient it solve hardest 3x3 puzzle 31 moves. exactly the ideal solvability condition asks .hints policy will a maximum 3 hints per game session. more cheatings. scoring policypuzzl has own scoring system. measures real game score using parameters, is total played game moves (t-score) another is accumulated correct score (-score) all moves.whenever user moves a correct direction the solver have moved, a-score increases 1 decreases 1 the user moves a wrong direction. score game any point time is calculated this function. [ score = -score / t-score ] way maximum score 1 be possible only situation the user traverse game's state space the right direction the .notification mechanismpuzzl uses combination goroutines channels deliver real notifications the game.here can all available notifications.dependenciestermbox- - text based graphic user interface the game.box-drawing characters drawing different sections.built muzi coffee pravendra singh"
+}

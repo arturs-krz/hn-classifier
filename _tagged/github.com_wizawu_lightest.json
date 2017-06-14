@@ -1,0 +1,18 @@
+{
+	"_id": "14458030",
+	"site": "https://github.com/wizawu/lightest",
+	"title": " lightest – A lite alternative to Mocha in 100 LOC",
+	"author": "wizawu",
+	"date": "2017-06-13T13:05:04.061Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": "readme.md lightest lite alternative mocha 100 loc.installationnpm install lightestusagecheck the example.$ node test/test_index.js suite 1) add minus (0ms) suite b multiply (0ms) 2) divide 2 passing (0ms) 2 failing 1) suite add: 2 deepstrictequal 1 2) suite b divide: infinity deepstrictequal 1"
+}

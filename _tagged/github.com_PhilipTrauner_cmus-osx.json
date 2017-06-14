@@ -1,0 +1,23 @@
+{
+	"_id": "14531423",
+	"site": "https://github.com/PhilipTrauner/cmus-osx",
+	"title": " Cmus-osx – Integrates media keys and macOS notification into cmus",
+	"author": "PhilipTrauner",
+	"date": "2017-06-13T13:23:09.129Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cmus",
+			"macos",
+			"osx",
+			"notifications",
+			"cmus-osx",
+			"media-keys",
+			"music"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md cmus-osxcmus-osx tightly integrates cmus macos. adds notification media key support par other media players such itunes.featuresmedia keysnotificationsinstallationattention! installing cmus-osx prevent from opening itunes until is uninstalled!since macos 10.12 launchctl not manipulate system services while system integrity protection is engaged.long story short: itunes always launched a media key is pressed unless is explicitly disabled.git clone https://github.com/azadkuh/cmus-osx.gitcd cmus-osxpip3 install -r requirements.txt./setup.py install can uninstall cmus-osx you really to: ./setup.py uninstallconfiguration config file is created first usage: ~/.config/cmus/cmus-osx/cmus-osx.configcreditsazadkuh ( versions to including v1.2.0)philiptrauner ( following versions)"
+}

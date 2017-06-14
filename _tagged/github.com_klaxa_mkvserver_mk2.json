@@ -1,0 +1,21 @@
+{
+	"_id": "14110992",
+	"site": "https://github.com/klaxa/mkvserver_mk2",
+	"title": " Mkserver mk2",
+	"author": "klaxa",
+	"date": "2017-06-13T13:35:26.784Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ffmpeg",
+			"matroska",
+			"http-server",
+			"video-streaming"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md matroska server mk2 project is result years thinking, trying finally succeeding. software makes possible stream (almost) anything remuxed matroska live real- over http multiple clients. is probably one the real world usages ffmpeg's http server component ( i wrote part gsoc 2015). second sentence basically said everything already, let's dive some usage examples: of , clone repo try build project:user@example~$ if successful will built server binary. let's some files stream!user@example~$ ./server somevideo.mkv will serve file somevideo.mkv all interfaces port 8080 ( far configurable server2.c) real-.you also stdin a live feed example:user@example~$ wget http://example.org/livestream -o - | ./server just read directly an http served file:user@example~$ ./server http://example.org/livestream you have easy screencasting setup: a server:user@remote~$ nc -l -p 12345 | ./server a client:user@example~$ ffmpeg -f x11grab -framerate 15 -s 1920x1080 - :0.0 -c libx264 tcp://remote:12345 will the server writing information, it is still quite verbose ( was more verbose earlier versions obvious reasons ;) ).architecture the latest iteration more sophisticated data structures been used. following structs up architecture:segmentcontains segment data. segment is always exactly gop, implies segments always start a keyframe.segments are refcounted.buffercontextcircular buffer manages segments takes care refcounting .publishercontextholds buffercontext new segments a buffercontext old segments should still sent new clients. makes streams clients start faster stutter less. holds list clients, in turn a buffercontext segments still to sent the client.dependenciesvery recent ffmpeg libraries ( bugs ffmpeg were found while writing project) fact recent you actually to patch current ffmpeg git-master build source. ( of 14th april 2017)git-format patches are the \"patches/\" directory.todoargument parsingconfigurationdocumentationmanagement interfaceknown issuesstill leaks very small amounts memory (valgrind reports few thousand bytes)thanksclément bsch <ubitux> kind \"triggering\" project a bugreportnicolas george mentoring during gsoc. would never familiar enough the codebase without and project."
+}

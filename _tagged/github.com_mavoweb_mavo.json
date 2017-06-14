@@ -1,0 +1,19 @@
+{
+	"_id": "14366693",
+	"site": "https://github.com/mavoweb/mavo",
+	"title": "Create web applications entirely by writing HTML and CSS",
+	"author": "Liriel",
+	"date": "2017-06-13T13:57:06.872Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"html5",
+			"css"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md please visit https://mavo.io info using mavo, read contributing.md info contributing mavo."
+}

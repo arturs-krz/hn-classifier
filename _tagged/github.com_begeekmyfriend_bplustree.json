@@ -1,0 +1,24 @@
+{
+	"_id": "14380869",
+	"site": "https://github.com/begeekmyfriend/bplustree",
+	"title": " B+tree Structure for Disk Storage with Graph Dump",
+	"author": "begeekmyfriend",
+	"date": "2017-06-13T13:07:23.856Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"storage",
+			"algorithm",
+			"data-structure",
+			"tree-structure",
+			"tree"
+		],
+		"languages": [
+			"c",
+			"cmake",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md b+tree minimal b+tree implementation key-value storage.demo./demo_build.shgeneral test./test_build.shcode coverage test./coverage_build.sh"
+}

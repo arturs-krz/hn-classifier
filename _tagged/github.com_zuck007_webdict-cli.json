@@ -1,0 +1,20 @@
+{
+	"_id": "14194406",
+	"site": "https://github.com/zuck007/webdict-cli",
+	"title": " A Dictionary CLI App Written in Nodejs",
+	"author": "zuck007",
+	"date": "2017-06-13T13:33:07.578Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"cli-app",
+			"unix",
+			"dictionary"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md webdict-clisearch dictionary.com urbandictionary cliinstall$ npm install -g webdict-cliusage$ webdict --helpusage: webdict [options] search dictionary.com urbandictionary cli options: -h, --help output usage information -v, --version output version number -d , --dictionary <word> search dictionary.com -u, --urbandictionary <word> search urbandictionary.comscreenshot"
+}

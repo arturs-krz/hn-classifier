@@ -1,0 +1,18 @@
+{
+	"_id": "14428946",
+	"site": "https://github.com/mps-youtube/mps-youtube",
+	"title": "Mps-YouTube: Terminal based YouTube player and downloader",
+	"author": "udkl",
+	"date": "2017-06-13T13:55:35.113Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"youtube",
+			"music"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst mps-youtubefeaturessearch play audio/video youtubesearch tracks albums album titlesearch import youtube playlistscreate save local playlistsdownload audio/videoconvert mp3 & formats (requires ffmpeg avconv)view video commentsworks python 3.xworks windows, linux mac os xrequires mplayer mpv project is based mps, terminal based program search, stream download music. implementation uses youtube a source content can play download video well audio. pafy library handles interfacing youtube.faq / troubleshooting common issuesscreenshotssearch standard search is performed entering / followed search terms.local playlistssearch result items easily stored local playlists.youtube playlistsyoutube playlists be searched played saved local playlists.downloadcontent be downloaded various formats resolutions.comments basic comments browser is available view youtube user comments.music album matching album title be specified mps-youtube attempt find matches each track the album, based title duration. type help search more info.customisationsearch results be customised display additional fields ordered various criteria. configuration was set using following commands:set order viewsset columns user:14 date comments rating likes dislikes category:9 viewstype help config help configuration optionsinstallationusing pip:[sudo] pip3 install mps-youtubeinstalling youtube_dl is highly recommended:[sudo] pip3 install youtube_dladditional linux installation notes mpris2 support, install python bindings dbus gobject:[sudo] pip3 install dbus-python pygobjectadditional mac os x installation notesinstall mpv (recommended player) homebrew:brew install mpvalternately, can install mplayer macports:sudo port install mplayer with homebrew:brew install mplayeradditional windows installation notes an alternative installing pip, is standalone binary available. to releases download mpsyt-version.exe under downloads the latest release.install python colorama module get colors (optional):pip3 install coloramampsyt requires player use a backend, either mpv mplayer supported. mpv is recommended option.mpv be downloaded https://mpv.srsfckn.biz/extract both mpv.exe mpv.com the same folder mpsyt.exe to folder the system path.alternately, mplayer be downloaded http://oss.netfarm./mplayerextract mplayer.exe file, saving to folder mpsyt.exe resides (usually c:\\pythonxx\\scripts\\) to folder the system path.run via docker containerusing docker, run :sudo docker run --device /dev/snd - --rm --name mpsyt rothgar/mpsytadditional docker notes you like locally build container can run following stepscheck this repo:git clone https://github.com/np1/mps-youtube.gitenter directory run docker build:cd mps-youtubesudo docker build -t mpsyt . run container interactively :sudo docker run -v /dev/snd:/dev/snd - --rm --privileged --name mpsyt mpsyt order have access the local sound device (/dev/snd) container needs be privileged.upgradingupgrade pip installation:[sudo] pip3 install mps-youtube --upgradeusagemps-youtube is run the command line using command:mpsytenter h within program help.irc irc channel #mps-youtube the project is available freenode (chat.freenode.net:6697)."
+}

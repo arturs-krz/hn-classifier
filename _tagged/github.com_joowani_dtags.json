@@ -1,0 +1,36 @@
+{
+	"_id": "14305457",
+	"site": "https://github.com/joowani/dtags",
+	"title": " Directory Tags for Lazy Programmers",
+	"author": "joowani",
+	"date": "2017-06-13T13:08:57.386Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"directories",
+			"tagging",
+			"bash",
+			"zsh",
+			"shell",
+			"productivity",
+			"parallel-processing",
+			"management",
+			"git",
+			"directory",
+			"fish-shell",
+			"fish",
+			"python",
+			"python-2",
+			"python-3",
+			"python2",
+			"python3",
+			"python-library",
+			"python-script",
+			"python-3-5"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst directory tags lazy programmersfeaturesdtags is lightweight command line tool lets :tag directories jump between quickly tag namesrun commands inside tagged directories paralleleasily manage git repositories, vagrant machines etc.installationcheck requirements:python 2.7.x, 3.4.x, 3.5.x 3.6.xsupported operating systems: linux, os x, ubuntu windowsrecent version piprecent version bash, zsh fish tab-completion enabledinstall package:# may need sudo depending your environment setup~$ pip install dtagsadd following line the end your shell runtime configuration reload shell:# zsh, place ~/.zshrc:command -v dtags-activate > /dev/null 2>&1 && eval \"`dtags-activate zsh`\"# bash, place ~/.bashrc ( ~/.bash_profile os x):command -v dtags-activate > /dev/null 2>&1 && eval \"`dtags-activate bash`\"# fish, place ~/.config/fish/config.fish:command -v dtags-activate > /dev/null 2>&1; dtags-activate fish | sourceonce installed, will the following your disposal:utility commands t, u, d, e, pmain command dtags commands with tab-completion.usagetag directories t:~$ t ~/app dev # tag ~/app 'dev' 'work'~$ t ~/app # tag ~/app its basename, 'app'un-tag directories u:~$ u ~/app dev # remove tag 'dev' ~/app~$ u ~/app # remove tags ~/appchange directories d (designed fully replace cd!):~$ d # to user's home directory~$ d - # to last directory~$ d app # to directory tagged 'app'~$ d ~/app # to directory ~/appexecute commands one more directories e:~$ e app git status # execute 'git status' all directories tagged 'app'~$ e ~/vm vagrant halt # regular directory paths are accepted well~$ e app,~/vm,~/foo ls # multiple tags /or paths be specified using commas~$ e - app myalias # -i (interactive shell) use functions, aliases etc.execute commands parallel p (same interface e):~$ p app git pull # execute 'git pull' all directories tagged 'app' parallel~$ p - app myalias # again, -i interactive shell (read below caveats)display, search manage tags dtags:~$ dtags # display directories--tags mapping~$ dtags list ~ ~/vm # list tags directories associated ~ and ~/vm~$ dtags list foo bar # list tags directories associated 'foo' 'bar'~$ dtags reverse # list tags--directories (reverse) mapping~$ dtags edit # edit tags directories via editor~$ dtags clean # remove invalid stale tags directories~$ dtags commands # display available dtags commands (e.g. t, u, d, e, p) a tag points a single directory, shell variables are automatically created:~$ t ~//dir foo # shell variable '$foo' is automatically created~$ ls $foo/sub/dir # $foo now used denote tagged directory ~//dir~$ rm $foo/file.sh # $foo now used denote tagged directory ~//dir can always the --help option find more each command!more examplesstreamline git workflows:# tag git directories~$ t ~/project/mobile app~$ t ~/project/backend app~$ t ~/project/frontend app~$ t ~/project/config app# save yourself time!~$ e app git status~$ p app git pull~$ e app git checkout v1.7.2control multiple vagrant machines the same :# tag the things~$ t ~/machines/web vm~$ t ~/machines/redis vm~$ t ~/machines/mysql vm~$ t ~/machines/compute vm# profit!~$ p vm vagrant status~$ p vm vagrant technical notesdtags is currently supported windows ( ubuntu windows) directory--tags mapping is stored ~/.dtags/mappingtags are stored their own ~/.dtags/tags tab-completionp cannot execute interactive commands wait inputp spawns child processes redirects output temp files then stdoutp does retain font colors due shell limitationsp sends sigterm its child processes killede ( p) uses environment variable $shell guess shell is usee ( p) redirects stderr stdout always returns exit status 0using - (interactive shell) has caveats: shell runtime configuration must \"sourced\" every command execution performance is affected the shell startup (beware oh--zsh users) errors thrown during \"sourcing\" be displayed the outputdtags edit uses environment variable $editord prefers tags subdirectories there are name conflicts go the subdirectory, put / the directory named expects ~/.dtags/mapping be correctly formatted:refrain editing ~/.dtags/mapping directly.instead, dtags edit does validation formatting youtab-completion expects ~/.dtags/tags be correctly formatted:refrain touching file file is auto-generated whenever dtags command is run. shell variable is created if name does conflict environment variables shell variables are created, disallowed characters the name are replaced underscores"
+}

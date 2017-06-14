@@ -1,0 +1,16 @@
+{
+	"_id": "14356623",
+	"site": "https://github.com/w-vi/ocidiet",
+	"title": " Building small docker images using ldd",
+	"author": "viw",
+	"date": "2017-06-13T13:07:42.373Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md ocidiet - container image minimizerexperimntal container image minimizer. uses ldd can possibly strace the future detect files needed a binary. minimizes image size it copies files needed a tar than be added for example busybox:uclibc image from scratch.prerequisitespython 2.7 python 3+ldd - ldd(1) can done it? are main cases.building smaller images other base imagesbuilding images local environmentbuild small node.js app offical node imageusing offical node 6 image$ docker run -ti -v $(pwd):/usr/src/app node:6 bashinside node:6 container install app> cd /usr/src/app> npm install> ./ocidiet.py -t myapp.tar -b ` node` -e /etc/nsswitch.conf \\ /etc/resolv.conf myapp/node_modules myapp/package.json myapp/index.js> exit finally the host build final app image# docker build -t myapp .using following dockerfile: busybox:uclibcadd myapp.tar /entrypoint [\"/usr/local/bin/node\"]cmd [\"/usr/src/app/myapp/index.js\"] you a node image has roughly 37 mb + size your app.create image local environmentanother option usefull quick shipping sharing is use forcreating images based local dev environment. usefull compiledc/c++ projects.taking hello world example#include <stdio.h>int main(void) { printf(\"hello world\"); return 0;} compiling with gcc hello.c -o hello now an app needs least libc. we install to let's /usr/local/bin can create container image first creating tar$ ./ocidiet.py -t hello.tar -b /usr/local/bin/hello then using following dockerfile busybox:uclibcadd hello.tar /entrypoint [\"/usr/local/bin/hello\"]building final image.$ docker build -t hello . contains really the busybox:uclibc files the hellobinary correct version libc. you don't need busybox poke around running container build from scratch. scratchadd hello.tar /entrypoint [\"/usr/local/bin/hello\"] save around 1.2 mb."
+}

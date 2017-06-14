@@ -1,0 +1,25 @@
+{
+	"_id": "14400146",
+	"site": "https://github.com/kubernetes/frakti",
+	"title": "Frakti – hypervisor-based container runtime for Kubernetes",
+	"author": "gtirloni",
+	"date": "2017-06-13T13:56:41.079Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kubernetes",
+			"hypervisor",
+			"containers",
+			"cri",
+			"hypercontainer"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"protocol buffer",
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.md frakti hypervisor-based container runtime kubernetesfrakti lets kubernetes run pods containers directly inside hypervisors via hypercontainer. is light weighted portable, can provide much stronger isolation independent kernel linux-namespace-based container runtimes. frakti serves a kubelet container runtime api server. endpoint should configured while starting kubelet.quickstartbuild frakti:mkdir -p $gopath/src/k8s.iogit clone https://github.com/kubernetes/frakti.git $gopath/src/k8s.io/frakticd $gopath/src/k8s.io/frakti && make installinstall docker hyperd:apt- install qemu libvirt0 docker.io -ycurl -ssl https://hypercontainer.io/install | bashconfigure hyperd grpc endpoint 127.0.0.1:22318:cat >/etc/hyper/config <<eof# boot kernelkernel=/var/lib/hyper/kernel# boot initrdinitrd=/var/lib/hyper/hyper-initrd.img# storage driver hyperd, valid value includes devicemapper, overlay, aufsstoragedriver=overlay# hypervisor run containers pods, valid values are: libvirt, qemu, kvm, xenhypervisor=qemu# tcp endpoint grpc apigrpchost=127.0.0.1:22318eofsystemctl restart hyperdsetup cni networking using bridge plugin$ sudo mkdir -p /etc/cni/net.d /opt/cni/bin$ git clone https://github.com/containernetworking/plugins $gopath/src/github.com/containernetworking/plugins$ cd $gopath/src/github.com/containernetworking/plugins$ ./build.sh$ sudo cp bin/* /opt/cni/bin/$ sudo sh -c 'cat >/etc/cni/net.d/10-mynet.conflist <<-eof{ \"cniversion\": \"0.3.1\", \"name\": \"mynet\", \"plugins\": [ { \"type\": \"bridge\", \"bridge\": \"cni0\", \"isgateway\": true, \"ipmasq\": true, \"ipam\": { \"type\": \"host-local\", \"subnet\": \"10.30.0.0/16\", \"routes\": [ { \"dst\": \"0.0.0.0/0\" } ] } }, { \"type\": \"portmap\", \"capabilities\": {\"portmappings\": true}, \"snat\": true } ]}eof'$ sudo sh -c 'cat >/etc/cni/net.d/99-loopback.conf <<-eof{ \"cniversion\": \"0.3.1\", \"type\": \"loopback\"}eof' start frakti:frakti --v=3 --logtostderr --listen=/var/run/frakti.sock --hyper-endpoint=127.0.0.1:22318 &finally, start kubernetes frakti runtime:cd $gopath/src/k8s.io/kuberneteshack/install-etcd.shexport path=$gopath/src/k8s.io/kubernetes/third_party/etcd:${path}export kubernetes_provider=localexport container_runtime=remoteexport container_runtime_endpoint=/var/run/frakti.sockhack/local--cluster.sh start using cluster, open another terminal run:cd $gopath/src/k8s.io/kubernetesexport kubeconfig=/var/run/kubernetes/admin.kubeconfigcluster/kubectl.shdocumentationfurther information be found :deployingend--end testingkubelet container runtime apihypercontainer blog k8s.io hypernetes differences between frakti other linux container runtimesbetter security isolationfrakti provides hardware virtualization based pod sandbox kubernetes kernel sharingevery pod frakti has own kernel (bring own kernel), linuxkit image support is the match k8s qos classesfrakti is best run pod resources.limits being set (.e. guaranteed most burstable pods), otherwise, frakti set default resource limit pod behavior is configurable --defaultcpunum --defaultmemorymb fraktimixed runtimes modefrakti support mixed runtimes the same node (hypercontainer docker). recommend user run besteffort pods, daemon pods docker runtime adding runtime.frakti.alpha.kubernetes.io/oscontainer annotation themadditionally, special cases privileged pods, host network pods etc be automatically run docker runtimepersistent volume k8s pvs are supported frakti are working another build- pv plugin frakti it attach block devices pod volumes directly achieve much higher performance.cross-host networkingfrakti is fully based cni (bridge mode for ), so 's big difference here are working making fannel & calico out--box frakti based kubernetesbesides lists above, behaviors frakti is 100% same other liunx container runtimes docker, please enjoy !license work done has been licensed under apache license 2.0. license file be found here. can find more license http://www.apache.org/licenses/license-2.0."
+}

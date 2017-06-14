@@ -1,0 +1,23 @@
+{
+	"_id": "14536392",
+	"site": "https://github.com/runfalk/spans",
+	"title": " Spans 1.0, a Pythonic library for working with intervals",
+	"author": "runfalk",
+	"date": "2017-06-13T13:23:08.287Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"datatype",
+			"python-2",
+			"python-3",
+			"interval",
+			"range",
+			"set"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.rst spans spans is pure python implementation postgresql'srange types.range types are convenient working intervals any kind. every you've found yourself working date_start date_end, interval may been you were actually looking .spans has successfully been used production since first release30th august, 2013.installationspans exists pypi.$ pip install spansdocumentation is hosted read docs.exampleimagine are building calendar want display weeks overlaps current month. normally have do date trickery achieve ,since month's bounds may any of week. spans' set-operations shortcuts problem becomes breeze. start importing date daterange>>> datetime import date>>> spans import daterangeusing daterange.from_month can range representing january the 2000>>> month = daterange.from_month(2000, 1)>>> monthdaterange([datetime.date(2000, 1, 1),datetime.date(2000, 2, 1))) we calculate ranges the weeks where first last ofmonth are>>> start_week = daterange.from_date(month.lower, period=\"week\")>>> end_week = daterange.from_date(month.last, period=\"week\")>>> start_weekdaterange([datetime.date(1999, 12, 27),datetime.date(2000, 1, 3)))>>> end_weekdaterange([datetime.date(2000, 1, 31),datetime.date(2000, 2, 7)))using union can express calendar view.>>> start_week.union(month).union(end_week)daterange([datetime.date(1999, 12, 27),datetime.date(2000, 2, 7))) you to more? head to documentation. with psycopg2 use range types psycopg2 psycospans.motivation a project mine started using postgresql's tsrange type needed equivalent python. range types attempt mimick postgresql'sbehavior every . deviating it is considered a bug should reported.contribute appreciate the help can ! some things think :if 's simple fix, such documentation trivial bug fix, please file issue submit pull request. sure only touch lines relevant the issue. don't accept pull requests simply reformat code bepep8-compliant. me history the repository is more important. it's feature request a non-trivial bug, always open issue todiscuss matter. would a shame good went waste apull request doesn't fit scope this project.pull requests are credited the change log is displayed pypi thedocumentaion read docs."
+}

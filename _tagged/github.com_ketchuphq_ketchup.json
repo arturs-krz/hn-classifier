@@ -1,0 +1,26 @@
+{
+	"_id": "14185236",
+	"site": "https://github.com/ketchuphq/ketchup",
+	"title": " Ketchup – Open-Source CMS in Go and Typescript",
+	"author": "tpwong",
+	"date": "2017-06-13T13:33:34.786Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"typescript",
+			"cms",
+			"mithril"
+		],
+		"languages": [
+			"go",
+			"typescript",
+			"css",
+			"protocol buffer",
+			"javascript",
+			"makefile",
+			"other"
+		]
+	},
+	"content": "readme.md ketchupketchup is cms aims be...easy install runpretty snappyextensible making custom buildseasy create use own templatesautomatic https via lets encryptusage youre interested using ketchup, please check the documentation ketchuphq.com/docs ( is itself built ketchup dogfood!). you to download latest release, visit releases page. you'd to some screenshots, here. readme focus how build develop ketchup.developmentgetting started instructions assume 're using os x, they should on linux well. only exception this is homebrew is used install protoc os x. won't need protoc unless 're planning modify api ( the protobuf section below). get started, ll need install and node. are used compile backend frontend respectively., run following download frontend backend dependencies: prepare-admin prepare-vendorcompiling you should able compile ketchup binary:this first run frontend compilation ( gulp task), embed frontend assets admin/bindata., and finally run build. result be ketchup binary the top-level. you to modify api, below instructions how update proto files regenerate corresponding structs typescript classes.development ongoing development, can a hassle keep recompiling. 's gulp watch task you run the admin folder recompile typescript sass output bindata. on changes frontend code. backend code, 's ./scripts/dev-watch.sh, will start ketchup server recompile/restart on changes .go files.releasing versions section is completeness; probably won't to this. release-nr # dry run, outputs ./dist# tag release, goreleaser uses latest taggit tag - v0.2.0 && git push origin v0.2.0 releaseketchup uses goreleaser create release builds. goreleaser.yml config file is dynamically generated order interpolate $gopath the config, is used remove $gopath would otherwise appear stack traces. version the release is read the latest git tag.protobuf apiprotobufs are used describe api well the serialization data stored boltdb. change api, ll need install protobuf compiler, protoc. you homebrew, running prepare install using brew, well a custom plugin generating output.workflow should never edit *.pb. and ./admin/src/js/lib/api.ts directly. instead, should edit relevant .proto protobuf file, then regenerate those files: protos regenerating, can recompile frontend backend view changes.extending ketchup is work progress. long-term goal is make easy swap , configure, add modules, using custom main. file. following features are intended be pluggable:authenticationdatabasetemplate rendering engineadditional api endpointsadmin/authoring interface module system is documented here.architectural decisions brief run through the things without this project not exist:, powerful its simplicity.typescript, types are great.sass, even writes css.mithril, simple yet batteries-included.protobufs, autogenerating structs typescript interfaces the api is kind magical (shameless plug). version 2 is used it is nice be able differentiate between missing fields set fields.boltdb, embeddable needs additional setup.licenseaslv2"
+}

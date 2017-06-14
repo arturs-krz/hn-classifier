@@ -1,0 +1,18 @@
+{
+	"_id": "14428246",
+	"site": "https://github.com/minaandrawos/OPCModbusUAServer",
+	"title": "An open source OPC UA server for Modbus devices",
+	"author": "minaandrawos",
+	"date": "2017-06-13T13:55:34.907Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"modbus-tcp",
+			"opc-ua"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md opcmodbusuaserver open source opc ua server modbus tcp devices. project makes of powerful open source nodeopcua (http://node-opcua.github.io/) package, combined the jsmodbus (https://github.com/cloud-automation/node-modbus) package build opc server. you are familiar opc, 's worth reading : http://www.minaandrawos.com/2016/12/18/thoughts_industrial_opc/, not familiar modbus, this be another read: http://www.minaandrawos.com/2014/11/26/-to-write--modbus-driver/#whatismodbusmain files the project:server.js => entry point the application, creates opc ua server, initializes address space, links modbus actionsmodbushandler.js => contains modbus communication code needed provide modbus actions reads writes the opc serverconfig.json => configuration file the application, is we to the tcp addresses the modbus devices, registers 'd to read...etc"
+}

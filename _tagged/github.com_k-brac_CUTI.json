@@ -1,0 +1,19 @@
+{
+	"_id": "14113812",
+	"site": "https://github.com/k-brac/CUTI",
+	"title": " Run cpp unit tests from Xcode and Visual studio GUI",
+	"author": "k-brac",
+	"date": "2017-06-13T13:35:26.405Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"objective-c",
+			"c++",
+			"cmake",
+			"c"
+		]
+	},
+	"content": "readme.md cuticuti stands c++ unit test integrated?cuti allows to easily integrate c++ unit tests visual studio xcode. is possible use cppunit's macros test runner through compatibility configuration.visual studioxcode20136.420157.320178.3why? can run tests within ide have visual feedback running tests is easier use ide tools your tests code coverage, profiling,... is easier debug code are more likely run testsprerequisite cmake >= 3.2 code test must compiled a library (static shared)?add cuti's cmake directory your cmake_module_pathlist(append cmake_module_path ${path_to_cuti_root_dir}/cmake)import cuti your cmakelists.txtfind_package(cuti required)create test targetcuti_creates_test_target(test_project_name project_to_test list_of_test_files_cpp)'s ! take look ./test/testdynamiclib/cmakelists.txt an examplecmake arguments default, cuti's creates test target its front end xcode visual studio unit test framework. behavior be customized compatibility.cuti_front_end be set cuti cppunitcuti: macros starting cuti_cppunit: allow use macros starting cppunit_. useful your codebase was using cppunit you don't to re-write everything.cuti_back_end be set cuti cppunitcuti: xcode visual studio unit test framework test runnercppunit: cppunit test runner. useful you to run unit tests a platform supported xcode visual studio.example project is toy project the test directory show to cuti.templatestemplates are available the test directorytemplatefreestanding.cpp : shows to write test class using cuti_front_end=cutitesttemplate.cpp : shows to write test class using cuti_front_end=cppunitcontributingissues merge requests are welcome !faq:visual studio\"message: 64-bit test cannot run a 32-bit process. specify platform x64 force test run x64 mode x64 machine.\" default visual studio tries run unit tests target a 32 bits test runner. if are compiling 64 bits will fail. fix go : test -> test settings -> default processor architecture -> x64xcode test case my test suitexcode show test cases starting \"test\". fix either rename test case define cuti_prepend_test. a at testlibint.cpp an example."
+}

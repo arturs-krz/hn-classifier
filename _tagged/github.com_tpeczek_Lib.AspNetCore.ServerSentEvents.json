@@ -1,0 +1,19 @@
+{
+	"_id": "14341232",
+	"site": "https://github.com/tpeczek/Lib.AspNetCore.ServerSentEvents",
+	"title": " Lib.AspNetCore.ServerSentEvents – Server-Sent Events for ASP.NET Core",
+	"author": "tpeczek",
+	"date": "2017-06-13T13:08:16.206Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"asp-net-core",
+			"sse",
+			"server-sent-events"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md lib.aspnetcore.serversenteventslib.aspnetcore.serversentevents is library provides server-sent events (sse) support asp.net core.getting startedlib.aspnetcore.serversentevents is available nuget.pm> install-package lib.aspnetcore.serversenteventsimplementation details is blog post available describing implementation details:server-sent events (sse) support asp.net coredemos is demo project available here.donatinglib.aspnetcore.serversentevents is personal open source project. lib.aspnetcore.serversentevents has been helpful you, consider donating. donating helps support lib.aspnetcore.serversentevents.copyright licensecopyright © 2017 tomasz pczeklicensed under mit license"
+}

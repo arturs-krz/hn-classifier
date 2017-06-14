@@ -1,0 +1,14 @@
+{
+	"_id": "14521025",
+	"site": "https://github.com/larvalabs/cryptopunks/blob/master/readme.md",
+	"title": " CryptoPunks, an experiment in digital collectibles on Ethereum",
+	"author": "pents90",
+	"date": "2017-06-13T13:04:18.862Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "cryptopunks: collectible characters the ethereum blockchaincryptopunks are 10,000 unique collectible characters proof ownership stored the ethereum blockchain. two are exactly alike, each of can officially owned a single person managed verified a contract running the ethereum blockchain. can which punks are still available along some more general information at https://www.larvalabs.com/cryptopunks repo contains ethereum contract used manage punks, verifiable image all punks, a unit test verify contract's functionality. questions much the punks cost? 're free! just need pay transaction fee assigns punk your address. much is punk worth? many things, 're worth whatever someone pay. somewhere the range $0 $1.8m, currently closer $0 end that range right .how were punk images created? a generator was programmed generate punks a range features rarity. example, are 88 zombie punks, 24 apes, 9 aliens exactly 1 alien punk smoking pipe. to the cryptopunks contract main cryptopunks contract be found address 0x6ba6f2207e343923ba692e5cae646fb0f566db8d. watch contract your ethereum wallet using address this abi file. you execute following functions the contract:getpunk(uint index) claim ownership a punk.transferpunk(address , uint index) transfer ownership a punk someone without requiring payment.offerpunkforsale(uint punkindex, uint minsalepriceinwei) offer of punks sale anyone willing pay minimum price specified ( wei).offerpunkforsaletoaddress(uint punkindex, uint minsalepriceinwei, address toaddress) offer of punks some minumum price, only the address specified. this sell punk a specific person.buypunk(uint punkindex) buy punk the specified index. punk needs be previously offered sale, you need have sent least amount ether specified the sale price the punk.withdraw() claim the ether have previously sent buy punks.verifying punks are 100% authentic legit cryptopunks is official genuine image all the cryptopunks have been created. allow verification the punks being managed the cryptopunks ethereum contract are same what see the image, have embedded sha256 hash the image file the contract. can generate hash the punks image file via command line similar openssl sha -sha256 punks.png compare to embedded hash the contract ac39af4793119ee46bbff351d8cb6b5f23da60222126add4268e261199a2921b."
+}

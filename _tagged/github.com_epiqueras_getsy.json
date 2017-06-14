@@ -1,0 +1,23 @@
+{
+	"_id": "14155347",
+	"site": "https://github.com/epiqueras/getsy",
+	"title": " Getsy – browser/client-side web scraper",
+	"author": "ep123",
+	"date": "2017-06-13T13:34:46.836Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"browser",
+			"client-side",
+			"scraper",
+			"web-scraper"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md getsy simple browser/client-side web scraper.try out a repl:http://www.getgetsy.comtodos: support websites infinite scroll. support websites click pagination.installation options:run npm install --save getsy yarn add getsydownload umd build link using script tag to :this library exposes single function:getsy(url: string, optionsobject?: options): promise<getsy>parameters:url: url the website wish scrape.optionsobject(optional):corsproxy(optional string): endpoint the corsproxy wish use. (read corsproxy more info)resolveurls(optional boolean): wether want getsy resolve relative urls the resource absolute urls they don't fail they load another page. (defaults true)iframe: boolean object width height properties indicating getsy should start iframemode not. iframe mode wait the resource be mounted a hidden iframe you extract more data through pagination infinite scrolling. (defaults false) function returns promise resolves a getsy object success rejects it was unable load requested page.getsy objects a method getme scraping resource's contents. method is a wrapper the jquery function you chain jquery methods it. you need use raw data can access 's content property. (more getsy below)example (promises):import getsy 'getsy'getsy('https://en.wikipedia.org/wiki/\"hello,_world!\"_program').(mygetsy => { console.log(mygetsy.getme('#firstheading').text())})example (async/await):import getsy 'getsy'async function testing() { const mygetsy = await getsy('https://en.wikipedia.org/wiki/\"hello,_world!\"_program') console.log(mygetsy.getme('#firstheading').text())}testing()here's you might it a website has infinite scrolling:async function infinitescrape() { mygetsy = await getsy('http://scrollmagic.io/examples/advanced/infinite_scrolling.html', { iframe: true }) console.log(`${mygetsy.getme('.box1').length} boxes.`) const { succesfultimes, totalretries } = await mygetsy.scroll(10) console.log(` content loaded ${succesfultimes} times ${totalretries} total retries.`) console.log(`${mygetsy.getme('.box1').length} boxes.`) // more content!}infinitescrape() getsy object: getsy object has following properties methods:corsproxy: same passed the options object the default value.content: original string data received the request.iframe: reference its iframe element in iframe mode.iframedoc: reference its iframe's document in iframe mode.content: original string data received the request.getme(selector: string): jquery: query resource's dom the iframe in iframe mode a jquery selector. returns jquery object.scroll(numberoftimes: number, element?: htmlelement, interval?: number, retries?: number): promise<scrollresolve>: scroll the bottom an element (defaults body) load data specified numberoftimes. interval (defaults 2000) is time milliseconds getsy waits before checking new content has loaded. no content has loaded will retry many times specified retries (defaults 5). no content has loaded scroll is of retries it resolve promise early avoid waiting the remaining numberoftimes. note: retries reset 0 every succesful content load. returns promise resolves an object the number .succesfultimes new content was loaded the .totalretries.hideframe(): void: hides iframe applicable.showframe(): void: shows iframe applicable.corsproxy: library uses corsproxy get the cors origin issue. you don't provide it default : https://crossorigin./.some node corsproxy servers:cors-anywherecors-proxy"
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "14108925",
+	"site": "https://github.com/Cloud-Player/web",
+	"title": " We build a SoundCloud player with Angular2 and open sourced it",
+	"author": "alexza",
+	"date": "2017-06-13T13:35:26.645Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"soundcloud",
+			"angular2",
+			"music",
+			"audio-player"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"css",
+			"javascript",
+			"php",
+			"shell"
+		]
+	},
+	"content": "readme.md cloud playercloud player is alternative soundcloud player. is using official soundcloud api.play the tracks soundcloud manage likes playlists. available native desktop app controll player your keyboard media keys.start webplayer the native desktop appcreatorscloud player is study project created htw berlin alexander zarges developer daniel reißner developer kai schulz developer prof. dr. zhang advisor why? created cloud player get started angular2. were interessted the html5 audio api. we were missing native desktop soundcloud player. soundcloud is providing nice api get access their data. is why decided build audio player use soundcloud the data source. optimised player work all major platforms smartphone, tablet desktop pcs. using service worker application is cached your device is downloaded every you start cloud player. web app manifest allows to install cloud player your android homescreenthanks the chrome mobile session api can control cloud player your android notification tray lock screen.electron allows to ship player a native desktop application. can install native desktop cloud player your mac windows pc control from keyboard media keys (play/pause, next/previous track).disclaimer are neither related soundcloud nor was build behalf soundcloud"
+}

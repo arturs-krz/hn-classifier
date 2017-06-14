@@ -1,0 +1,17 @@
+{
+	"_id": "14340560",
+	"site": "https://github.com/maxhallinan/my-clippings-to-json",
+	"title": " Kindle clippings to JSON",
+	"author": "noshbrinken",
+	"date": "2017-06-13T13:08:16.575Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md -clippings--jsonformat 'kindle/documents/ clippings.txt' json.example[{ \"body\": \" certain contexts least, transparency open code should a requirement.\", \"created_at\": 1462434461, \"title\": \"code version 2.0\", \"subtype\": \"highlight\", \"page\": 143, \"authors\": [\"lessig, lawrence\"], \"location_range\": [2618, 2619]}]installation install pipsi.pipsi install .usage-clippings--json [options] input_path output_pathargumentsinput_pathpath input file.output_pathpath output file.file existing output_path be overwritten.options-h, --helpshow help page.-s, --start integerstart line number input file (default: 1).integer should the line the target clipping the last line thepreceding clipping. integer falls the middle a clipping, clipping be skipped.-clippings--json writes last line number stdout. next , start this line number."
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "14454037",
+	"site": "https://github.com/kobeaerts/blrplt",
+	"title": "Webpack config written in modern JavaScript",
+	"author": "kobeaerts",
+	"date": "2017-06-13T13:55:01.636Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md blrpltjavascriptwrite es6+ react javascript get linted the airbnb eslint config.styles your styles autoprefixed sass compiled. even has lovely opinionated stylelint configgetting startedcreate entrypoint config/entrypoints.jscreate entrypoint file bundlesimport .scss/.js files the resources folderyarn run dev / npm run dev entrypoint files be compiled public/resourcesreference generated [bundle].js [bundle].css files your html files the public foldervisit hotreloading site localhost:8080run yarn run prod npm run prod get optized css javascript files."
+}

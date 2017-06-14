@@ -1,0 +1,19 @@
+{
+	"_id": "14139726",
+	"site": "https://github.com/nickpisacane/maybe-you-meant",
+	"title": " Catch deceptive prop typos in your react apps",
+	"author": "undefined89",
+	"date": "2017-06-13T13:35:12.382Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"prop-types",
+			"typos"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md maybe--meantfind deceptive typo's your react projects.are familiar the following?class foo extends component { static proptypes = { foobar: proptypes.string } static defaultprops = { foobar: 'whatever' }}// somewhere the app// oops! misspelled, we won't blow because a default prop type.<foo foobbar=' whatever' /> so, maybe--meant help. maybe meant patches react.createelement patch every single components componentdidmount, componentdidupdate(wraps functional components) issue console warnings whenever prop typeis similar ( not equal) one your defined proptypes. preceding, albeit contrived, example issue following: addition, maybe--meant warn components are passed props defined proptypes, when proptypes are defined. default, maybe--meantwhitelists react's internal properties (events, data-attributes, aria-attributes, html, svg). following... class foo extends component { static proptypes = {} } // following result a warning the `bar` prop. <foo bar='bang' data-foo='bar' aria-expanded='false' onclick={() => {}} />... result :installation yarn add -d maybe--meant # npm -d maybe--meantusage // somewhere the top your app import maybeyoumeant 'maybe--meant' maybeyoumeant() // maybeyoumeant({ maxdistance: 3, include: [/^include/, 'patchme'], exclude: [/^connect/, 'donotpatchme'] }) // don't warnings undeclared props? maybeyoumeant({ warnonundeclaredprops: false }) // to extend set whitelisted props ( warning undeclared props)? import maybeyoumeant, { whitelisted } 'maybe--meant' // maybe--meant exports whitelisted properies all the following // `` is combination the rest. const { , react, events, aria, data, html, svg } = whitelisted maybeyoumeant({ whitelistedprops: [ ...whitelisted., // don't warn these are passed not declared `proptypes` 'myprop', /^myprops/ ] })apimaybeyoumeant([opts])opts {object}opts.maxdistance {number} max distance between given prop prop-type ( levenshtein algorithm) warningsopts.include {string|regexp|array<string|regexp>} string regexp matching including components (tested displayname)opts.exclude {string|regexp|array<string|regexp>} string regexp matching excluding components (tested displayname)opts.warnonundeclaredprops {boolean} warn a component is passed props are declared proptypes (default is ture)note: warnings only issued the given component has defined proptypesopts.whitlistedprops {string|regexp|array<string|regexp>} props should ignored issuing warnings undeclared props. default is of reactinternal properties ( reactprops.js more info)inspiration awesome why-did--updatemodule."
+}

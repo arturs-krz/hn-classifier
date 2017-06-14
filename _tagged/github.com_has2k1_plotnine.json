@@ -1,0 +1,22 @@
+{
+	"_id": "14430447",
+	"site": "https://github.com/has2k1/plotnine",
+	"title": "Plotnine: A grammar of graphics for Python",
+	"author": "carlosgg",
+	"date": "2017-06-13T13:55:34.963Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"plotting",
+			"grammar",
+			"graphics",
+			"python",
+			"data-analysis"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.rst plotninelatest releaselicensebuild statuscoveragedocumentationplotnine is implementation a grammar graphics python, is based ggplot2. grammar allows users compose plots explicitly mapping data the visual objects make theplot.plotting a grammar is powerful, makes custom ( otherwisecomplex) plots easy think and create, while simple plots remain simple. find about building blocks you use create plot, check the documentation. since plotnine has apisimilar ggplot2, where lack coverage ggplot2 documentation may of help.examplebuilding complex plot piece piece.scatter plot(ggplot(mtcars, aes('wt', 'mpg')) + geom_point())scatter plot colored according variable(ggplot(mtcars, aes('wt', 'mpg', color='factor(gear)')) + geom_point())scatter plot colored according variable smoothed a linear model confidence intervals.(ggplot(mtcars, aes('wt', 'mpg', color='factor(gear)')) + geom_point() + stat_smooth(method='lm'))scatter plot colored according variable,smoothed a linear model confidence intervals plotted separate panels.(ggplot(mtcars, aes('wt', 'mpg', color='factor(gear)')) + geom_point() + stat_smooth(method='lm') + facet_wrap('~gear')) it playful(ggplot(mtcars, aes('wt', 'mpg', color='factor(gear)')) + geom_point() + stat_smooth(method='lm') + facet_wrap('~gear') + theme_xkcd())installationofficial release# using pip$ pip install plotnine # 1. should sufficient most$ pip install 'plotnine[]' # 2. includes extra/optional packages# using conda$ conda install -c conda-forge plotninedevelopment version$ pip install git+https://github.com/has2k1/plotnine.gitcontributing documentation use examples, we are looking something little bit special. have criteria:simple looking plots otherwise require trick two.plots are part a data analytic narrative. is, provide form clarity showing off geom, stat, ... theirdifferential best. you up something meets those criteria, would love see . see plotnine-examples. you discover bug checkout issues it has been reported,yet please file issue. if can fix bug, contribution is welcome."
+}

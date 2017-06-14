@@ -1,0 +1,22 @@
+{
+	"_id": "14445334",
+	"site": "https://github.com/ksmandersen/GoogleReporter",
+	"title": "Google Reporter – Easily Integrate Your App with Google Analytics",
+	"author": "michaelmior",
+	"date": "2017-06-13T13:55:21.643Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ios",
+			"google-analytics",
+			"swift",
+			"tvos"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": "readme.md google reportereasily integrate google analytics your ios, macos, tvos app without downloading of google sdks.read why created google reporter hereswift 4/xcode 9 support: please the swift-4 branch.set works carthage just put googlereporter.swift your project. your appdelegate's didfinishlaunchingwithoptions where initialize app. need configure googlereporter ua-xxxxx-xx tracker id.import googlereporter@uiapplicationmainclass appdelegate: uiresponder, uiapplicationdelegate { func application(_ application: uiapplication, didfinishlaunchingwithoptions launchoptions: [uiapplicationlaunchoptionskey: ]?) -> bool { googlereporter.shared.configure(withtrackerid: \"ua-xxxxx-xx\") return true }}usage can track event wish using event() method the googlereporter. example:func didcompletesignup() { googlereporter.shared.event(\"authentication\", action: \"sign completed\")} many cases 'll to track \"screens\" the user navigates . a natural place do is your viewcontrollers viewdidappear. can the screenview() method the googlereporter works same event().class beerviewcontroller: uiviewcontroller { override func viewdidappear(_ animated: bool) { super.viewdidappear(animated)googlereporter.shared.screenview(\"beer\") }}technical notes googlereporter uses native userdefaults.standard store random uuid uniquely identifies user/install. clearing otherwise tampering the userdefaults may cause user identifier be lost the googlereporter generate new unique identifier. googlereporter class is thread-safe. avoid bugs, always the googlereporter.shared accessor the same thread. suggest using main thread. network call log data still happen a background thread.roadmap're planning to add more functionality easily interact the measurement protocol.still be implemented: session tracking; start, end, duration. custom variable tracking screenviewslicensecopyright 2017 kristian andersenpermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sell copies the software, to permit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

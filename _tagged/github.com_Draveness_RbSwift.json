@@ -1,0 +1,22 @@
+{
+	"_id": "14340403",
+	"site": "https://github.com/Draveness/RbSwift",
+	"title": "Extensions for Swift with hundreds of handy methods",
+	"author": "Draveness",
+	"date": "2017-06-13T13:58:18.386Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ruby",
+			"swift",
+			"activesupport",
+			"convenience-methods",
+			"extension"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": "readme.md rbswift provides series swift struct/class extension including lots handy functions elaborate api reference. of apis test cases are ruby core libraries activesupport example.features transform functions support sequence, array, dictionary[1, 2, 3, nil, nil, 4, 5, 6, 7] .flatten() //=> [1, 2, 3, 4, 5, 6, 7] .select { $0 > 2 } //=> [3, 4, 5, 6, 7] .reject { $0.iseven } //=> [3, 5, 7] .count //=> 3 built- regex support string\"hello\".gsub(\"l\", \"abc\") //=> \"heabcabco\"\"hello\".gsub(\"l\", \"lll\") //=> \"lllllllllllllll\" \"hello world\" =~ \"hello\" { print(\" will match\")} convenient methods build date instancedate. + 1.           //=> 2017-01-01 12:00:00 +00002.years + 1. > 1. //=> true file io supports build top lowlevel c apifile.basename(\"/home//file.swift\") //=> file.swiftfile.open(\"empty.txt\", \"w\") { file file.write(\"content\")}dir.isempty(\"/empty/folder\") //=> truedir.entries(entriesdir) //=> [\".\", \"..\", \"file.swift\"]fileutils.mkdir_p(\"draveness/spool/mail\") // create folder recursively bridge between ns swift typelet str: nsstring = \"string\"\"string\".bridge //=> string\"string\".bridge.bridge //=> nsstringdocumentationfull documentation rbswift be found here.numberstringarraydateregexhash...installationcocoapodscocoapods is dependency manager cocoa projects. can install with following command:$ gem install cocoapods integrate rbswift your xcode project using cocoapods, specify in podfile:source 'https://github.com/cocoapods/specs.git'platform :ios, '8.0'use_frameworks!target '< target name>' pod 'rbswift', '~> 0.5.0'end, run following command:$ pod installcarthagecarthage is decentralized dependency manager builds dependencies provides with binary frameworks. can install carthage homebrew using following command:$ brew update$ brew install carthage integrate rbswift your xcode project using carthage, specify in cartfile:github \"draveness/rbswift\" ~> 0.5.0run carthage update build framework drag built rbswift.framework your xcode project.swift package manager swift package manager is tool automating distribution swift code is integrated the swift compiler. is early development, rbswift does support use supported platforms.once have swift package set , adding rbswift a dependency is easy adding to dependencies value your package.swift.dependencies: [ .package(url: \"https://github.com/draveness/rbswift.git\", majorversion: 0)]manually you prefer to either the aforementioned dependency managers, can integrate rbswift your project manually.contactfollow contact with email. you find issue, open ticket. pull requests are warmly welcome well.licenserbswift is released under mit license. license details."
+}

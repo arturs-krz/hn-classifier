@@ -1,0 +1,18 @@
+{
+	"_id": "14154697",
+	"site": "https://github.com/pardahlman/csharp-seven",
+	"title": " Play around with new C# 7 features (test suite)",
+	"author": "pardahlman",
+	"date": "2017-06-13T13:34:47.050Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"c-sharp",
+			"new-feature"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md features c# 7test suite new features c# 7 repo contains list new features c# 7. examples are heavily influenced stackoverflow documentation well this msdn blog post.topics coveredbinary literalslocal functions var declarationspattern matchingref local ref returnthrowing exceptionstuplesvaluetaskexamplesintroduces object deconstruction, expression bodies valuetuplesclass person{public string firstname { ; set; }public string lastname { ; set; }public (string , string last) fullname => (firstname, lastname);public void deconstruct( string , out string last){ = firstname;last = lastname;}}"
+}

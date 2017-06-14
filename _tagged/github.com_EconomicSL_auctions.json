@@ -1,0 +1,25 @@
+{
+	"_id": "14470196",
+	"site": "https://github.com/EconomicSL/auctions",
+	"title": " A functional API for auction simulations",
+	"author": "davidrpugh",
+	"date": "2017-06-13T13:05:02.549Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"scala",
+			"economics",
+			"auctions",
+			"multi-agent-systems",
+			"java-8",
+			"abm",
+			"agent-based-modeling"
+		],
+		"languages": [
+			"scala",
+			"java",
+			"shell"
+		]
+	},
+	"content": "readme.md auctions embedded domain specific language auction simulation written scala java 8.api design current api design is based loosely ideas gleaned the following.wurman et al (1998) flexible double auctions electronic commerce: theory implementationwellman walsh (2001) parametrization the auction design spacenisan et al (2007) algorithmic game theoryprimary focus version 0.1.0 is developing minimal api based around key ingredients discussed the wurman et al (1998) paper. rough road map should us through end 2017:version 0.2.0: extend api allow multi-unit auctions. incentive structures multi-unit auctions often differ important ways the incentive structures single unit auctions. multi-unit auctions are critical modeling electricity auctions are key case.version 0.3.0 extend api incorporate single unit combinatorial auctions. the longer term, would to generalize auctions api that auctions be thought as special types social choice mechanisms use \"money\" ( chapter 10 nisan et al (2007) discussion details). design imlementation our api is heavily influences functional programming principles techniques. particular strive ......minimize ( eliminate!) side effects;...maintain thread-safe api order maximally exploit concurrency parallelism where appropriate;... illegal program states unrepresentable (.e., programs would lead invalid states should compile!)....perhaps more succinctly, want push much the auction domain modeling the type system possible that can leverage compiler identify modeling errors compile (rather forcing user catch modeling errors during/ runtime).motivating casesdesign simulation electricity auctions (particularly peer--peer auctions); market simulation models \"economy things\" applications.design simulation electricity auctionsthree high-level uses cases: modeling wholesale electricity auctions are currently being used price allocate electricity many regions countries around world; modeling peer--peer electricity auctions are currently being developed price allocate (typically renewably generated!) electricity between individual households; combinatoric auctions could used price allocate bundles electricity services.wholesale electricity marketswholesale electricity auctions are discrete, multi-unit, reverse auctions; electricity auctions differ the duration which suppliers' bids are valid; suppliers operate under binding capacity constraints. order model wholesale electricity auctions need api supportsmulti-unit auctionsreverse auctionsdiscrete prices quantities (units matter!)orders can persist across multiple clearing eventsmuch ink has been spilt optimal pricing rules wholesale electricity auctions. particular, under circumstances uniform price auctions outperform ( underperfom!) discrimatory price auctions? order address question api needs support both uniform discriminatory pricing rules.intra-, real- electricity marketsintra-, real- electricity auctions are typically operated continuous double auctions (much financial markets). far obvious continuous double auctions are optimal auction design intra- electricity markets. real- auctions should clear continuously, is optimal clearing frequency intra- electricity markets?peer--peer electricity auctionscurrently number energy sector startups involved developing technologies allow individual households trade electricity one another using blockchain-based technologies process payments. non-exhaustive list examples be...power ledger perth, australia.grid singularity, vienna, austria.l03 energy, yoork, usa.... can optimally design auction mechanisms facilitate efficient pricing allocation electricity peer--peer markets? relevant is research done google, amazon, et al design ecommerce auctions?combinatoric electricity auctionscurrently auctions electricity are independent auctions ancillary energy services, such storage. the future, electricity auctions be combined that electricity well supporting ancillary services be auctioned together bundles. requires our api able handle multi-dimensional combinatorial auctions.\"economy things\" have started implementing proof--concept trading platform would allow internet--things (iot) enabled devices trade one another using auctions mechanisms."
+}

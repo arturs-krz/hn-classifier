@@ -1,0 +1,16 @@
+{
+	"_id": "14310674",
+	"site": "https://github.com/rafrex/fscreen",
+	"title": " Fscreen – vendor agnostic access to the Fullscreen API",
+	"author": "rafrex",
+	"date": "2017-06-13T13:08:56.029Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md fscreen - fullscreen apilive examplevendor agnostic access the fullscreen api. build the fullscreen api intended without worrying vendor prefixes.$ npm install --save fscreenimport fscreen 'fscreen';fscreen.fullscreenenabled === true / false;// boolean tell fullscreen mode is supported// replacement : document.fullscreenenabled// mapped : document.vendormappedfullscreenenabledfscreen.fullscreenelement === null / dom element;// null not fullscreen mode, the dom element 's fullscreen mode// replacement : document.fullscreenelement// mapped : document.vendormappedfullsceenelement// note fscreen.fullscreenelement uses getter retrieve element// each the property is accessed.fscreen.requestfullscreen(element);// replacement : element.requestfullscreen()// mapped : element.vendormappedrequestfullscreen()fscreen.requestfullscreenfunction(element);// replacement : element.requestfullscreen - without calling function// mapped : element.vendormappedrequestfullscreenfscreen.exitfullscreeen();// replacement : document.exitfullscreen()// mapped : document.vendormappedexitfullscreen()// note fscreen.exitfullscreen is mapped // document.vendormappedexitfullscreen - without calling functionfscreen.onfullscreenchange = handler;// replacement : document.onfullscreenchange = handler// mapped : document.vendormappedonfullscreenchange = handlerfscreen.addeventlistener(fullscreenchange, handler, options);// replacement : document.addeventlistener(fullscreenchange, handler, options)// mapped : document.addeventlistener(vendormappedfullscreenchange, handler, options)fscreen.removeeventlistener(fullscreenchange, handler);// replacement : document.removeeventlistener(fullscreenchange, handler)// mapped : document.removeeventlistener(vendormappedfullscreenchange, handler)fscreen.onfullscreenerror = handler;// replacement : document.onfullscreenerror = handler// mapped : document.vendormappedonfullscreenerror = handlerfscreen.addeventlistener(fullscreenerror, handler, options);// replacement : document.addeventlistener(fullscreenerror, handler, options)// mapped : document.addeventlistener(vendormappedfullscreenerror, handler, options)fscreen.removeeventlistener(fullscreenerror, handler);// replacement : document.removeeventlistener(fullscreenerror, handler)// mapped : document.removeeventlistener(vendormappedfullscreenerror, handler)usage it like spec api. (fscreen.fullscreenenabled) { fscreen.addeventlistener('fullscreenchange', handler, false); fscreen.requestfullscreen(element);}function handler() { (fscreen.fullscreenelement !== null) { console.log('entered fullscreen mode'); } else { console.log('exited fullscreen mode'); }}"
+}

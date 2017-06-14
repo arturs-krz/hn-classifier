@@ -1,0 +1,26 @@
+{
+	"_id": "14091758",
+	"site": "https://github.com/commodityvectors/scalatest-snapshot-matchers",
+	"title": " Scalatest Jest like snapshot matchers",
+	"author": "grillorafael",
+	"date": "2017-06-13T13:35:27.950Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"snapshot-testing",
+			"snapshot",
+			"scalatest",
+			"scala",
+			"json",
+			"play-json",
+			"scalatest-snapshot-matchers",
+			"fixture-test",
+			"matcher",
+			"unittest"
+		],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": "readme.md scalatest snapshot matchers getting startedinstallingtest requirementsusing matchersupdating expectationscustom serializersextensionsplayjsongetting startedinstallingadd library a test dependency your projectadd bintray resolverresolvers += resolver.bintrayrepo(\"commodityvectors\", \"commodityvectors-releases\")librarydependencies += \"com.commodityvectors\" %% \"scalatest-snapshot-matcher-core\" % \"2.0.0\"scalatest versionsnapshot matcher version2.2.x1.1.03.0.x2.0.0test requirementstests should run fork mode. they , prompting snapshots update won't and will to remove manually. ensure you do following:fork test := false is totally optional step you should add if have issues prompting an update. test needs be fixture test order the matcher have access an implicit testdata properly generate snapshots.using matcherspackage .pckgimport commodityvectors.snapshotmatchers.snapshotmatcherimport org.scalatest.{ matchers, fixture }class myspec extends fixture.wordspec matchers snapshotmatcher { case class stateprocessorvalue(value: int) class stateprocessor { private var value = stateprocessorvalue(10) def mutate(newvalue: int): unit = value = stateprocessorvalue(newvalue) def state: stateprocessorvalue = value } \"myspec\" should { \"mutate state properly\" { implicit test => // is very important val mystateprocessor = stateprocessor mystateprocessor.state should matchsnapshot() mystateprocessor.mutate(20) mystateprocessor.state should matchsnapshot() } }} output the run this test output snapshot files underproject_root/src/test/__snapshots__//package/myspec/myspec-mutate-state-properly.snap project_root/src/test/__snapshots__//package/myspec/myspec-mutate-state-properly-1.snapcontaining stateprocessorvalue(10) stateprocessorvalue(20) respectivelyupdating expectationsoften your tests of expectations stop complying the currently saved snapshot. means either cod is working expected the output is correct .when running tests locally, will prompted update snapshot soon one those expectations fails. choosing you generate failed results choosing yes will a result your updated snapshot.custom serializers can choose your data should serialized byt defining implicit snapshotserializer[t]case class complextype(label: string, count: int)implicit lazy val complextypeserializer = snapshotserializer[complextype] { def serialize(: complextype): string = s\"\"\"${.label}:${.count}\"\"\"} can a to handle non deterministic fields uuid datetime.extensionsplayjson is another project give ability work playjson. can add below:librarydependencies += \"com.commodityvectors\" %% \"scalatest-snapshot-matcher-play-json\" % \"2.0.0\" use just extend test playjsonsnapshotmatcher well snapshotmatcher can it same as before now snapshot be stored a pretty json.playjson matchers extensions comes another matcher facilitate deserialization. can this giving matchsnapshot id using matchsnapshot(\"myid\"\") thenchecking deserialization \"myid\" should deserializeas(yourthing)import commodityvectors.snapshotmatchers.snapshotmatcherimport commodityvectors.snapshotmatchers.playjson.playjsonsnapshotmatcherimport org.scalatest.{ matchers, fixture }case class mytype(value: int)class myspec extends fixture.wordspec matchers snapshotmatcher playjsonsnapshotmatcher { implicit lazy val formats: format[mytype] = json.format[mytype] \"myspec\" should { \"serialize\" { implicit test => json.tojson(mytype(1)) should matchsnapshot(\"simpleinstance\") } \"deserialize\" { implicit test => \"simpleinstance\" should deserializeas(mytype(1)) } }}future changes add support scalatest 3 remove requirement fixture tests add configurable snapshot folder improve base serialization improved diffs add support more extensions (json4s, circe, scalajs, etc)"
+}

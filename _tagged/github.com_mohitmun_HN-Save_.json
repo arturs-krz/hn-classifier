@@ -1,0 +1,17 @@
+{
+	"_id": "14532293",
+	"site": "https://github.com/mohitmun/HN-Save/",
+	"title": " Reddit like save feature on Hackernews",
+	"author": "mohitmun",
+	"date": "2017-06-13T13:23:08.536Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md hn-savereddit save feature (till time hn implements )installationclone repo to chrome extensions page (chrome://extensions/) click load unpacked extension, select folder you are to"
+}

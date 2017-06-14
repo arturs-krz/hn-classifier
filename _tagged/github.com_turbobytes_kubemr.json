@@ -1,0 +1,17 @@
+{
+	"_id": "14310827",
+	"site": "https://github.com/turbobytes/kubemr",
+	"title": " Kubernetes Native MapReduce Framework",
+	"author": "sajal83",
+	"date": "2017-06-13T13:08:56.069Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md kubemrmap reduce poc. working titlepoccreate s3 bucket, store credentials a secretkubectl create secret generic kubemr-operator ---literal=s3-secret=<s3_secret_access_key> ---literal=s3-access=<s3_access_key_id>create configuration...edit operator-cm.yaml applykubectl create -f manifests/operator-cm.yamllaunch operatorkubectl create -f manifests/operator-deployment.yaml this point operator might crash few times, it takes time tpr initialize. could write code wait it.create jobkubectl create -f manifests/wordcount.yaml output should something mapreducejob \"test-6vkjr\" created where 6vkjr portion is dynamically generated.important: not edit job once created bad things might happen.watch jobskubectl mapreducejobs ---namespaces -o=custom-columns=namespace:.metadata.namespace,name:.metadata.name,status:.status -wcheck the particular jobs progresskubectl mapreducejobs test-6vkjr -o json the status is complete, look the results list, fetch somehow, needed merge into single file.background few years ago did similar poc, using etcd locking/consensus, uploading/downloading worker binaries s3.kubemr is similar, we (ab) kubernetes third party resources state, docker images workers, optionally s3 storing stage outputs. currently only supports amazon s3, should trivial support s3- services.state state a job is stored a tpr. originally planned use etcd state, we decided use json patch functionality provided kubernetes make changes this state. test operation allows patch fail some condition is met.example lock using json patch :-[ { \"op\": \"test\", \"path\": \"/lockholder\", \"value\": none }, { \"op\": \"add\", \"path\": \"/lockholder\", \"value\": \"\" },]above operation fail the lockholder already had value. multiple users might try aquire lock only 1 succeed.worker imagesworker images are normal docker images must cmd entrypoint defined. wordcount example see the binary should implemented. the base level, map/reduce inputs/outputs results are strings. helper functions are provided upload/download from s3. worker code interpret as anything - database table/keys, other storage provider, shared filesystem, etc...operator operator registers tpr called mapreducejob deploys kubernetes job the worker image specified. once job is deployed, workers manage state. should safe run multiple replicas the operator. resources a mapreducejob is created the namespace mapreducejob is created .api servertodo: yet implemented was thinking making an endpoint read results , but since result be arbitrary string, am sure to handle .notes:- is robust code. not in production. not edit mapreducejob creation unless really what are doing. is failure retry.currently am cleaning after job is finished. testing deploy mapreducejob a namespace delete entire namespace done.2017-kubecon-eu - very helpful. came across talk i started kubemr.highly likely have backwards-incompatible changes. am completely sure atomic guarantees using json patch kubernetes apiserver. of , kubernetes does provide way enforce particular schema thirdpartyresources. if invalid schema is submitted, operator fail validate mapreducejob mark status fail."
+}

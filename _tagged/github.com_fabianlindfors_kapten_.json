@@ -1,0 +1,18 @@
+{
+	"_id": "14120120",
+	"site": "https://github.com/fabianlindfors/kapten/",
+	"title": " Kapten – Simple containerized development environments",
+	"author": "fabianlindfors",
+	"date": "2017-06-13T13:35:13.644Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ruby",
+			"environment"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": "readme.md kaptencreate simple containerized development environments the command line. goodbye dependency issues, language version management, complicated setups.supports:rubypythonnode.jselixirphphaskelljavaperlinstallation$ gem install kaptenkapten is built upon requires docker.usagecreating development environment kapten requires two commands. start navigating your project's root directory run:$ kapten init ruby|python|node|elixir|php||haskell|java|perl initialization can start environment running:$ kapten start isolated environment now set itself and once finished boot a shell all necessities your chosen language. you need more one shell simply run kapten start again.docker containerskapten environments are really barebones docker containers which projects files are mounted. containers continue running the background you disconnect. 's recommended stop environment $ kapten stop once finished.more commands:# info the current environment its status.$ kapten info# remove environment container. 'kapten start' start fresh.$ kapten destroy# fully remove kapten your project.$ kapten removelicensekapten is licensed under mit."
+}

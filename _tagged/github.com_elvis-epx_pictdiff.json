@@ -1,0 +1,20 @@
+{
+	"_id": "14530798",
+	"site": "https://github.com/elvis-epx/pictdiff",
+	"title": " Pictdiff, compare two pictures generating a diff image",
+	"author": "epx",
+	"date": "2017-06-13T13:23:08.809Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go",
+			"rust",
+			"javascript",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md pictdiff program implements image comparison generating image visual inspection. example, given images: difference image generated the utility looks this: can compare images inverse order, generates similar differentlytinted diff image: is python reference implementation, implementations other languages: rust, and node.js. to the python version:./pictdiff.py img1.png img2.png diff.pngapart the \"diff\" image, utility prints difference metric:pictdiff/img $ ../pictdiff.py old.png .png diff.png2089964 is very rough metric, the number gets big very fast. is mostly useful idenfity images are exactly equal:pictdiff/img $ ../pictdiff.py old.png old.png diff.png0 to interpret diff image diff \"blank\" image is white. colorization the diff imageis proportional: pixels are darker the differences aremore intense.differences are tinted reflect color changes. example, \"img1\"is generally more red \"img2\", \"diff\" be cyan. the hand, \"img2\" is more red \"img1\", \"diff\" be red-tinted.differences alpha (opacity) twofold effects. are added the total absolute difference, is rendered gray diffimage. guarantees alpha differences be clearly revealed, if color did change. , of course, number returned the utility be non-zero. top that, color channels are multiplied alpha, the color differencesare mitigated both images are quite transparent. the extreme case, completely transparent images (alpha=0) be considered equal, if is \"red\" another is \"blue\".example: two images are generally clear, except a transparent area.given white background this page, is difficult see images, they are : the map generated pictdiff reveals transparency differences clearly: this case inverse map (diff'ing two images inverse order) be equal the difference is colored, either positive negative differences create darker areas.rust version python version is quite slow, especially big imgaes. you install rust toolchain, can run rust version instead:cargo run --release img1.png img2.png diff.png it runs first successfully, can copy binary target/release/pictdiff /usr/local/bin another convenientlocation. versionassuming have go toolchain installed configured: build pictdiff../pictdiff old.png .png diff.pngrun executable \"pictdiff\" created the folder. command\" run\" runs , albeit more slowly.node.js versionassuming have node.js installed:npm installnode pictdiff.js old.png .png diffmap.pngmotivation 'compare' tool imagemagick almost does i , but marks difference a red pixel. threshold be configured, the generated diff image is all--nothing comparison. needed diff image quick inspection changes, the image should show magnitude these differences, well how color was affected.performance python version is slow, it was first , so serves thereference the others, must generate exactly same results given same images compare.right , the rust version is fastest: 100x speed reference impl. is 60x,node.js is 12x. running python version pypy yields 10-11x, roughly equivalent node.bugs tested 48-bit images. (python imaging library does open48-bit tiffs; rust image crate does support 48-bit yet.)contactelvis pfützenreuter - epxx@epxx.co - https://epxx.co"
+}

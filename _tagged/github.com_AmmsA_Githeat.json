@@ -1,0 +1,21 @@
+{
+	"_id": "14419092",
+	"site": "https://github.com/AmmsA/Githeat",
+	"title": "Interactive heatmap for your Git repos",
+	"author": "algorithmatic",
+	"date": "2017-06-13T13:56:32.500Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"git",
+			"interactive",
+			"visualization"
+		],
+		"languages": [
+			"python",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.rst you to how active is git project throughout year?githeat use own local machine parse git-log your repo allow to navigate through interactive heatmap your own terminal,showing what days are popular, what months are active. start interactive heatmap, run:$ githeat.interactive skip interactive part print heatmap directly running:$ githeat to merge the months? run$ githeat --month-merge to separate each block? run$ githeat --separate to change width each block? choose between thin, reg, thick:$ githeat --width {thick,reg,thin} to change color the graph? choose between grass, sky, fire$ githeat --color {grass,fire,sky} to show are top 10 committers? run it parse days you:$ githeat --stat --stat-number 10 to filter commits author? write regex the author argument:$ githeat --author=\"\"want filter commits keywords commit? write regex the grep argument:$ githeat --grep=\"fix\" a specific yaml configuration file want use? pass to config argument:$ githeat --config path_to_config.yamlneed help? run:$ githeat -husage: githeat.py [-h] [-c file] [--gtype {inline,block}] [--width {thick,reg,thin}] [--days days [days ...]] [--color {grass,fire,sky}] [--stat-number stat_number] [--stat] [--separate] [--month-merge] [--author author] [--grep grep] [-v] [--logging {critical,error,warning,info,debug,notset}]githeat: terminal heatmap your git reposoptional arguments: -h, --help show help message exit -c file, --config file specify yaml config file --gtype {inline,block} choose you the graph be displayed --width {thick,reg,thin} choose wide want graph blocks be --days days [days ...] choose days show. please enter list day abbreviations full name week --color {grass,fire,sky} choose type coloring want your graph --stat-number stat_number number top committers show stat --stat, -s show commits stat --separate, -b separate each --month-merge separate each month --author author, - author filter heatmap author. can write regex here --grep grep, -g grep filter keywords commits -v, --version print version exit --logging {critical,error,warning,info,debug,notset} logger level for interactive help$ githeat.interactive -h usage: githeat.py [-h] [-c file] [--width {thick,reg,thin}] [--days days [days ...]] [--color {grass,fire,sky}] [--month-merge] [--hide-legend] [--author author] [--grep grep] [-v] [--logging {critical,error,warning,info,debug,notset}] githeat: terminal heatmap your git repos optional arguments: -h, --help show help message exit -c file, --config file specify yaml config file --width {thick,reg,thin} choose wide want graph blocks be --days days [days ...] choose days show. please enter list day abbreviations full name week --color {grass,fire,sky} choose type coloring want your graph --month-merge separate each month --hide-legend hide legend --author author, - author filter heatmap author. can write regex here --grep grep, -g grep filter keywords commits -v, --version print version exit --logging {critical,error,warning,info,debug,notset} logger levelminimum requirementspython 2.7optional requirementspy.test 2.7 ( running test suite)sphinx 1.3 ( generating documentation)basic setupinstall using pip:$ pip install githeat to obtain latest -up--date version, clone repo install from source:$ git clone https://github.com/ammsa/githeat$ cd githeat && python setup.py installinstall the current user:$ python setup.py install --userrun application:$ python -m githeat --helprun test suite:$ py.test test/build documentation:$ cd doc && htmldeploy application a self-contained virtualenv environment:$ python deploy.py /path//apps$ cd /path//apps/ && githeat/bin/cli --help"
+}

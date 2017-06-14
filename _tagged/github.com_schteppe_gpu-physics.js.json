@@ -1,0 +1,20 @@
+{
+	"_id": "14438920",
+	"site": "https://github.com/schteppe/gpu-physics.js",
+	"title": "GPU accelerated physics in WebGL",
+	"author": "schteppe",
+	"date": "2017-06-13T13:55:34.914Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webgl",
+			"physics-simulation",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md gpu physics simulation webgllaunch demo watch video.note: works on desktops good gpus. the demo insane amount rigid bodies are waiting spawn. many your gpu handle? the gui tweak simulation parameters just shove sphere the container see happens. now, repo is a single demo, hopefully can become proper library usable three.js other webgl renderers.implementation demo is largely based gpu gems 3 ch. 29, real- rigid body simulation gpus. heavily relies the three.webglrendertarget class custom shaders. simulation loop is short:create float render targets size n*n bodies: position, quaternion, velocity, angular velocity, force, torque.create float render targets size m*m particles: local position, world position, relative position, force.create float render target size 4*m*m a broadphase grid.while running:calculate particle properties: world position, body-relative position, velocity.set \"broadphase render target\". stencil buffer is set for stencil routing ( this presentation, slide 24) clearing once ( set stencil values zero) drawing point clouds thrice set values 1, 2 3 the stencil buffer. alternative is using pbos set values, it doesn't seem be available webgl1.particles are drawn the \"broadphase render target\" using gl_points point-size 2. maps into correct \"grid bucket\" writes particle id's . the stencil routing guarantees four particle id's be drawn the same grid bucket this single draw call.particle forces are calculated using spring--dashpot model equations. neighboring particles are easily looked in broadphase render target.forces are added the bodies' force render target using gl_points additive blending. forces such gravity is added here too.torque is added bodies' torque render target the same .body velocities are updated: velocity += deltatime * force / inertia.body positions are updated: position += deltatime * velocity.render each body looking body position quaternion the correct render target texture.possible improvementsseems a lot the simulation loop is spent updating stencil buffer the large grid render target. using pbos drawpixels (available webgl2?) speed up.using single channel the grid texture save graphics memory."
+}

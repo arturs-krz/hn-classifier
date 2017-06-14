@@ -1,0 +1,22 @@
+{
+	"_id": "14145560",
+	"site": "https://github.com/ofek/bit#readme",
+	"title": " Bit – Python Bitcoin library now 10x faster than OpenSSL",
+	"author": "ofek",
+	"date": "2017-06-13T13:34:48.949Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"bitcoin",
+			"python",
+			"libraries",
+			"cryptocurrencies",
+			"payments"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.rst bit: bitcoin made easy.bit is python's fastestbitcoin library was designed the beginning feel intuitive, effortless use, have readable source code. is heavily inspired requests keras.bit is easy use, fact, can this:>>> bit import key>>>>>> my_key = key(...)>>> my_key.get_balance('usd')'12.51'>>>>>> # let's donate!>>> outputs = [>>> # wikileaks>>> ('1hb5xmlmzfvj8alj6mfbsbifrod4miy36v', 0.0035, 'btc'),>>> # internet archive>>> ('1archive1n2c579dmsau3ic6twzuqjz8dn', 190, 'jpy'),>>> # pirate bay>>> ('129tqvaroeehd9fzpzk51ndzgqt4tqifbg', 3, 'eur'),>>> # xkcd>>> ('14tr4hakkkuc1lmpr2ymauyvzrwqadrtcr', 2.5, 'cad')>>> ]>>>>>> my_key.send(outputs)'9f59f5c6757ec46fdc7440acbeb3920e614c8d1d247ac174eb6781b832710c1c'here is transaction https://blockchain.info/tx/9f59f5c6757ec46fdc7440acbeb3920e614c8d1d247ac174eb6781b832710c1c.featurespython's fastest available implementation (100x faster closest library)seamless integration existing server setupssupports keys cold storagefully supports 25 different currencies class support storing data the blockchaindeterministic signatures via rfc 6979access the blockchain ( testnet chain) through multiple apis redundancyexchange rate api, optional cachingoptimal transaction fee api, optional cachingcompressed public keys defaultmultiple representations private keys; wif, pem, der, etc.standard p2pkh transactions you are intrigued, continue reading. not, continue the same!installationbit is distributed pypi a universal wheel is available linux/macos windows supports python 3.5+ pypy3.5-v5.7.1+. pip >= 8.1.2 is required.$ pip install bitdocumentationdocs are hosted github pages are automatically built published travis every successful commit bit's master branch.creditslogo courtesy https://textcraft.netgregory maxwell (bitcoin core dev) teaching a bit ecc matharubi #bitcoin helping understand transaction gotchasfuzeman bestowing the name bit the python package index"
+}

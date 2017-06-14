@@ -1,0 +1,24 @@
+{
+	"_id": "14208969",
+	"site": "https://github.com/themotion/ladder",
+	"title": " Ladder, the new and easy way to autoscale",
+	"author": "odkq",
+	"date": "2017-06-13T13:33:04.980Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"autoscaling",
+			"cloud",
+			"automation",
+			"scale",
+			"aws",
+			"ecs",
+			"containers"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": "readme.md ladder ladder is simple flexible general purpose autoscaler. idea behind ladder is autoscale anything configuring combining reusable blocks different types a yaml file. blocks are flexible easy extend, anyone use develop kind scaling targets,policies inputs. examples ladder do this moment: number messages a sqs queue, apply constant factor this input, use quantity upscale downscale ec2 machines an aws autoscalinggroup the latency a service a prometheus metric, this latency is greater 800ms, add more instance the actual number instances that service running ecs, is less 200ms remove instance the running ones instead. want add more blocks the ones ladder provides default (ecs & ec2 asg), example:inputs: metrics datadog number messages rabbitmq queuefilters:apply statistic prediction based a metric, previous autoscaling result, etcscalers:kubernetes replicasinstance vms gceazure virtual machinesfeaturesvery flexible configurablesimple, light fastreliableeasy configure extendmetrics ready (prometheus)easy deploy set runningtons third party blocks ready use (aws, prometheus...)architectureinputter: gets data returns scaling quantity resultgatherer: gets data any resourcearranger: applies logic convert input an scaling quantity resultsolver: takes of multiple results inputters return.filter: applies logic changes( not) result the solverscaler: scales a target desired quantity received the last filter applied, from solver no filters where applied.statusladder has been autoscaling themotion platform production more 6 months. isstable production ready although needs more blocks scalers gatherers.documentationcheck the online documentation https://themotion.github.io/ladder offline:$ serve_docs to http://127.0.0.1:1313 the browserprometheus metricscontributing can ask expose kind information/question regarding ladder the mailing listchangelog changeloglicense ladder project license licenseladder logo is propery maite (maitea) antolín licensed under attribution 4.0 international (cc 4.0)authors authors & contributorsmaintainers maintainers know is/are person/ you need contact."
+}

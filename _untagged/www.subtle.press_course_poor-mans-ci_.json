@@ -1,0 +1,9 @@
+{
+	"_id": "14521750",
+	"site": "https://www.subtle.press/course/poor-mans-ci/",
+	"title": " Build your own CI",
+	"author": "navd",
+	"date": "2017-06-14T12:56:09.835Z",
+	"tags": [],
+	"content": "subscribe * * learn * chat slack * subscribepoor man's cilearn continuous integration platforms under hood, building of own top git node.js.cleaning bad code pushed a production environment.getting started continuous integration is software development practice where developers automatically test applications, merging code source control. start reading basic application unit tests 'll create simple service sorts numbers. , we'll write unit tests (using mocha chai) verify service's functionality programmatically. start reading running unit tests commit master git let's dig building ci pipeline setup git run unit tests we commit locally master. start reading setting a remote git repo handle pushes git's post-receive hook let's push a remote git repo run unit tests, mock deployment our application, save build history time. start reading conclusion let's a step and at everything 've accomplished this course, implications, what should about moving forward! start reading coming soongenerating deploying static site zeit with build deployment information our ci pipeline stored a previous chapter, whenever new push is made our remote repo let's generate static site our build history host on zeit/. notify when 's released"
+}

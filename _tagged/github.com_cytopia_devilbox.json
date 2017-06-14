@@ -1,0 +1,33 @@
+{
+	"_id": "14162467",
+	"site": "https://github.com/cytopia/devilbox",
+	"title": " Devilbox – all-purpose dockerized l[ae]m[ph]p stack for web development",
+	"author": "everythingcli",
+	"date": "2017-06-13T13:34:46.779Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"lamp",
+			"lemp",
+			"mysql",
+			"apache",
+			"nginx",
+			"devilbox",
+			"php",
+			"hhvm",
+			"mariadb",
+			"postgresql",
+			"redis",
+			"linux",
+			"osx",
+			"windows"
+		],
+		"languages": [
+			"php",
+			"shell",
+			"css"
+		]
+	},
+	"content": "readme.md devilboxusage |features |documentation |run- matrix |intranet |screenshots |contributing |license devilbox is modern highly customizable alternative xampp a few additional feature top. is based docker-compose presets all kinds versions webservers, database servers, php more.configuration is necessary, everything is pre-setup mass virtual hosting auto-dns.supported operating systems might run freebsd, i don't the status docker-compose .usagequick start are and running three simple steps:# create docker-compose environment file$ cp env-example .env# edit configuration$ vim .env# start containers$ docker-compose selective start above start containers, can however just start containers actually need. is achieved simply specifying in docker-compose command. here are few examples get started.$ docker-compose httpd php mysql redis$ docker-compose httpd php mysql pgsql redis memcd$ docker-compose httpd php pgsql memcdrun different versionsevery single attachable container comes many different versions ( runtime-matrix below). order select desired version a container, simply edit .env file uncomment version choice. following example shows to set memcached version 1.4.28:$ vim .env...#memcd_server=1.4.21#memcd_server=1.4.22#memcd_server=1.4.23#memcd_server=1.4.24#memcd_server=1.4.25#memcd_server=1.4.26#memcd_server=1.4.27memcd_server=1.4.28#memcd_server=1.4.29#memcd_server=1.4.30#memcd_server=1.4.31#memcd_server=1.4.32#memcd_server=1.4.33#memcd_server=1.4.34#memcd_server=1.4.35#memcd_server=1.4.36#memcd_server=latestenter container can work directly inside php container you need run tools such drush, drupal-console, composer, node etc. simply the prepared scripts the base directory enter (ps1 be populated current chosen php version):# enter user devilbox (normal operation / development)$ ./bash.shdevilbox@php-7.0.19 /shared/httpd $# enter root user ( root stuff)$ ./root_bash.shroot@php-7.0.19 /shared/httpd $ projects be found /shared/httpd ( is the place will land once entered). dns records are automatically available inside php container. every service be available 127.0.0.1 inside php container (tricky socat port-forwarding).feature overview devilbox has everything setup you. only thing will to install is docker docker-compose. virtual hosts dns entries be created automatically, by adding project folders.mass virtual hostcustom domains (*.loc, *.local, *.dev, ...)auto-dns (internal bind server running)email catch- (internal postfix catch-)log files (available host computer)config overwrites (.cnf, nginx.conf, httpd.conf php.ini)tools (git, composer, node, npm, drush, drupal-console, ...)xdebugbatteries included:phpmyadminadmineropcacheguimail viewerdocumentationvideo tutorialsdocumentation setup, usage examples detailed documentation.documentaiondescriptionoverviewgeneral overviewconfiguration to configure devilboxusage to the devilboxupdating to updateinfotechnical informationphp projects to manage projectsemails email catching workslogs to view log filesintranet built- intranetfaqfrequently asked questionsrun- matrixselect prefered version. ( editing .env file) need install configure different versions locally. simply choose required lamp/lemp stack versions during startup it is and running instantly.1/3 base stack (required)dnswebserverphp bind apache 2.2 php 5.4 apache 2.4 php 5.5 nginx stable php 5.6 nginx mainline php 7.0 php 7.1 hhvm latestnote: entries without links without build-status are planned, not yet available. roadmap tasks upcoming features.2/3 sql stack (optional)mysqlpostgresqlms sql mysql 5.5 pgsql 9.1ms sql 2017 mysql 5.6 pgsql 9.2 mysql 5.7 pgsql 9.3 mysql 8.0 pgsql 9.4 mariadb 5.5 pgsql 9.5 mariadb 10.0 pgsql 9.6 mariadb 10.1 mariadb 10.2 mariadb 10.3note: entries without links without build-status are planned, not yet available. roadmap tasks upcoming features.3/3 nosql stack (optional)cassandracouchdbmemcachedmongodbrediscassandra 2.1couchdb 1.6 latest 2.8 2.8cassandra 2.2couchdb 2.0 3.0 3.0cassandra 3.0 3.2 3.2 3.4 3.5note: entries without links without build-status are planned, not yet available. roadmap tasks upcoming features.intranet overview devilbox comes a pre-configured intranet http://localhost. will only show , your chosen configuration, also validate status your configuration, such do dns records exists ( host container), are directories properly set-. additionally provides external tools let interact databases emails.virtual host overview (validates directories dns)database overview (mysql, pgsql, redis, memcache, ...)email overviewinfo pages (httpd, mysql, pgsql, redis, memcache, ...)phpmyadminadmineropcacheguiscreenshotshomepage host / docker information homepage shows the status your current configured setup. versions are used directories are mountedwhere does dns point what settings been setdid errors occur?virtual host overview overview shows all available virtual hosts if need additional configuration ( the host)virtual hosts are considered valid the following requirements are met ( the host system):htdocs folder/symlink exists your project folder/etc/hosts has valid dns config your host: 127.0.0.1 <project-folder>.<tld_suffix> (alternatively bundle bind server be attached your host-computer).database overviewshows all databases are loadedemail overviewshows all emails have been sent. email actually sent outside, they are catched one account presented here.contributingcontributers are welcome any .first all, you the project, please star . starring is important measurement see number active users better allows to organize time effort can put this project.secondly, please report bugs. will only help get problem fixed, also help others they might encounter same. last not least, can get actively involved. clone project start improving whatever think is useful. is quite lot todo planned. you to contribute, view contributing.md roadmap.major contributors be credited within intranet on github page.licensemit license"
+}

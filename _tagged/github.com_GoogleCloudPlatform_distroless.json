@@ -1,0 +1,20 @@
+{
+	"_id": "14524016",
+	"site": "https://github.com/GoogleCloudPlatform/distroless",
+	"title": "“Distroless” Docker Images",
+	"author": "Cherad",
+	"date": "2017-06-13T14:09:47.820Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"bazel"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"go"
+		]
+	},
+	"content": "readme.md \"distroless\" docker images\"distroless\" images contain your application its runtime dependencies. do contain package managers, shells other programs would expect find a standard linux distribution. more information, this talk.why should use distroless images?restricting 's your runtime container precisely 's necessary your app is best practice employed google other tech giants have used containers production many years. improves signal noise scanners (e.g. cve) reduces burden establishing provenance just you need. do use distroless images? images are built using bazel tool, they also used through docker image build tooling.dockerdocker multi-stage builds using distroless images easy.follow steps get started:pick right base image your application stack publish following distroless base images gcr.io:gcr.io/distroless/basegcr.io/distroless/python2.7gcr.io/distroless/nodejsgcr.io/distroless/javagcr.io/distroless/java/jettygcr.io/distroless/ccwrite multi-stage docker file.note: requires docker 17.05 higher. basic idea is you'll one stage build application artifacts, insert into runtime distroless image. you'd to learn more, please the documentation multi-stage builds.here's quick example.# start building application. golang:1.8 buildworkdir //src/appcopy . .run -wrapper download # \" get -d -v ./...\"run -wrapper install# copy into base image. gcr.io/distroless/basecopy --=build //bin/app /cmd [\"/app\"]bazel full documentation how use bazel generate docker images, the bazelbuild/rules_docker repository.examples be found this repository the examples directory.examples have examples how run common application stacks the /examples directory. here :javapythongolangnode.js here examples how complete common tasks your image:adding running a non-root userincluding debian packagesincluding ca certificates here more information how images are built released."
+}

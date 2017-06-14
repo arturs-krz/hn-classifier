@@ -1,0 +1,16 @@
+{
+	"_id": "14281656",
+	"site": "https://github.com/andykamath/Caption-Generator",
+	"title": " An automated caption generator for images",
+	"author": "andykamath",
+	"date": "2017-06-13T13:32:02.629Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md rnn markov chain-based caption generation is result me being bored 3 am during exam week i 't sleep rem cycles something.anyway, is a rough sketch how captions be generated just image. it works, the image gets processed through clarifai returns tags describe image. then took hunkim's word-rnn repository take set encouraging messages generate heuristic a caption based the relevant captions.once rnn spits a garbage caption, combine with markov chain trained the original messages that grammar is too bad, there is slight relevancy the original image.installationstep 1:install clarifai python client. set up according their instructions, including getting own client id secret.step 2:install remaining dependencies, including markovify, numpy, tensorflow you don't them already.step 3:change line 33 index.py the url an image want caption.step 4:run train.py train rnn, run index.py test out!"
+}

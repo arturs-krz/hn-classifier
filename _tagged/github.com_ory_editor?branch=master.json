@@ -1,0 +1,23 @@
+{
+	"_id": "14417340",
+	"site": "https://github.com/ory/editor?branch=master",
+	"title": " ORY Editor – A rich editor for the browser, built with React and Redux",
+	"author": "jswizzard",
+	"date": "2017-06-13T13:06:44.341Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ory",
+			"editor",
+			"sites",
+			"wysiwyg-editor",
+			"react",
+			"ory-editor"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md ory is company building maintaining developer tools a safer, more accessible web. might like other open source projects! ory editor is smart, extensible modern editor (\"wysiwyg\") the web written react. you are fed with limitations contenteditable, are the right place. ory editor is used germany's largest (~800k uniques per month) e-learning websitewww.serlo.org improve wiki experience. use ory editor ory sites, tool creating websites. 's similar squarespace, it works offline, sites created are stored your device, you are able create own designs plugins.check the demo editor.ory.am!please note: ory editor is pre-release backwards compatibility is guaranteed. however, try best makebreaking changes visible easy recover !introduction makes different?ory sitesquickstartdocumentation to run, develop, contributeinstall dependenciesrun example(s)run toolchainrun documentationknown issuesintroduction have been running wikipedia learning almost decade .the experience the lessons learned made embark the journey build ory editor. wanted make content editing the web easy enrich open source community technology moves needle significantly how content is created edited the web.'s problem? had realize existing open source content editing solutions had of three flaws: produced markup was horrific, lot sanitation had take place xss is always threat. author must learn special mark , like markdown, before being able produce content. text-based solutions are usually unable specify layout complex data structures tables are annoying edit.promising libraries potentially solving above where abandoned their maintainers, it started a special case, a free- project. what's different? concluded a solution must meet following principles: state is normalized json object, html involved. is visual editor does require programming experience special training. is built a company, reducing likelihood abandonment.based reusable react components, gives developers, authors designers ways working together creating better richer experiences more easily. works mobile touch devices. these principles mind, went and implemented ory editor, you are looking right .ory sitesory sites is innovative desktop app combines latest technology ease use - creating beautiful,responsive websites is a matter minutes.quickstartcurrently focus is optimizing ory editor usage react. will on, ship versions do require react the future. please check reactjs tutorial!$ npm install --save ory-editornote: ory-editor package is metapackage. includes core, default ui some plugins officially support. this package primarily convenience.documentationcheck the user guide gitbook. to run, develop, contribute you to run, develop contribute the ory editor? that need node installed your system. git check this repository followed.$ git clone https://github.com/ory/editor.git$ cd editorinstall dependencies ory editor is monorepo you initialise :$ npm run example(s)here are examples are good starting point you to familiarize yourself the editor. run examples, one the following commands:$ npm run build$ cd examples$ npm run startrun toolchain toolchain contains tests, eslint flow types. highly recommend run toolchain while developing.# run tests watch mode$ npm run test:watch# run eslint watch mode$ npm run lint:watch# run flowtype watch mode$ npm run flow:watchrun documentation run guide watch mode, :$ npm run docs:guide generate api docs, run:$ npm run docs:apiknown issues keep track known issues the issues tab."
+}

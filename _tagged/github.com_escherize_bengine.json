@@ -1,0 +1,21 @@
+{
+	"_id": "14453177",
+	"site": "https://github.com/escherize/bengine",
+	"title": " Hiccup powered ClojureScript Blog engine",
+	"author": "escherize",
+	"date": "2017-06-13T13:05:04.334Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"blog-engine",
+			"pure-function",
+			"static-site-generator"
+		],
+		"languages": [
+			"clojure",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md welcome bengine!demo data oriented static site generator.why bengine? could the simple blog framework can find.static site generators ( some meaty source material (usually text) , and spit a carefully crafted website. bengine, will write easy, simple, powerful tags your thoughts turn into killer blog. waiting around bengine -- 's running clojurescript node, re-renders are fast.origin story really wanted use matthew butterick's amazing pollen build blog myself. i found nesting radcket's x-expressions too unweidly, didn't to learn to it . based the advice a friend, decided see i clone pollen's key ideas a clojurescript--node based site generator.philosophy are a lot moving parts here, folks.postsposts like hiccup style html. hiccup is verbose stays of way you think clearly.example:[:article [:h1 \"welcome fight club. ^_^\"] \" hope have fantastic ! :)\" \"glad could join today.\"]tagsposts contain tags ( few are included). are free create tag function want _tags/tags.cljs, use in posts.example 1 _tags/tags.cljs:(defn heading [s] [:h1 s]) one your posts _posts/any_post_name.edn:(/heading \"hello\")compile blog, see:\"<h1>hello</h1>\"example 2 your tags:(defn rules [& rs] ( [:ol] (map #(vector :li %) rs))), in post:[:article [:h1 \"hey friend!\"] (rules \" first rule fight club is: do talk fight club.\" \" second rule fight club is: do talk fight club!\" \"third rule fight club: someone yells stop!, goes limp, taps , the fight is .\" \"fourth rule: two guys a fight. \" \"fifth rule: fight a , fellas.\" \"sixth rule: fights are bare knuckle. shirt, shoes, weapons.\" \"seventh rule: fights go as long they to.\" \" the eighth final rule: this is first at fight club, have fight.\")]templates (optional) are 2 templates you use customize posts your index page . they're _tags/tags.cljs called post-template index-template respectively, can edited any tag.protip: don't remove those functions.prequisitesnode.js needs be installed run application.running development moderun following command the terminal install npm modules start figwheel:lein buildrun node another terminal:npm startconfiguring replonce figwheel node are running, can connect the remote repl localhost:7000.type (cljs) the repl connect figwheel clojurescript repl.building release versionlein packagerun release version:npm start"
+}

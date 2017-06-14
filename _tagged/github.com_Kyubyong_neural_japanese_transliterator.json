@@ -1,0 +1,16 @@
+{
+	"_id": "14528070",
+	"site": "https://github.com/Kyubyong/neural_japanese_transliterator",
+	"title": " Neural Japanese Transliteration",
+	"author": "kyubyong",
+	"date": "2017-06-13T13:23:08.875Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md neural japanese transliteration you better swiftkey keyboard?abstract this project, examine well neural networks convert roman letters the japanese script, .e., hiragana, katakana, kanji. accuracy evaluation results 896 japanese test sentences outperform swiftkey keyboard, well-known smartphone multilingual keyboard, a small margin. seems neural networks learn task easily quickly.requirementsnumpy >= 1.11.1tensorflow == 1.1regex (enables to convenient regular expression posix)janome ( morph analysis)romkan ( converting kana romaji)background modern japanese writing system employs three scripts: hiragana, katakana, chinese characters (kanji japanese).hiragana katakana are phonetic, while chinese characters are .in digital environment, mostly type roman alphabet (.k.. romaji) write japanese. basically, rely the suggestion transliteration engine returns. therefore, accurately engine predict word(s) user has mind is crucial respect a japanese keyboard. at animation the right. are type \"nihongo\", the machine shows the suggestion bar.problem formulation frame problem a seq2seq task.inputs: nihongooutputs: data training, used leipzig japanese corpus. evaluation, 896 japanese sentences were collected separately. data/test.csv.model architecture adopted encoder the decoder architecture tacotron, speech synthesis model.contentshyperparams.py contains hyperparameters. can change value necessary.annotate.py makes romaji-japanese parallel sentences.prepro.py defines makes vocabulary training data.modules.py has building blocks networks.networks.py has encoding decoding networks.data_load.py covers functions regarding data loading.utils.py has utility functions.train.py is training.eval.py is evaluation.trainingstep 1. download leipzig japanese corpus extract jpn_news_2005-2008_1m-sentences.txt data/ folder.step 2. adjust hyperparameters hyperparams.py necessary.step 3. run python annotate.py.step 4. run python prepro.py. download preprocessed files.step 5. run train.py. download pretrained files.testingstep 1. run eval.py.step 2. install latest swiftkey keyboard app manually test for same sentences. (don't worry. don't to i've done :))results training curve looks this. evaluation metric is cer (character error rate). formula isedit distance / # characters = cer. following is results five epochs. details are available results/*.csv.mine (greedy decoding)mine (beam decoding)swiftkey 6.4.8.571618/12057=0.131576/12057=0.131640/12057=0.13"
+}

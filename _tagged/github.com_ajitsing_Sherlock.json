@@ -1,0 +1,24 @@
+{
+	"_id": "14378603",
+	"site": "https://github.com/ajitsing/Sherlock",
+	"title": "Private detective for your android application",
+	"author": "ajitsing",
+	"date": "2017-06-13T13:57:07.313Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"sherlock",
+			"android-library",
+			"android",
+			"crash-reporting",
+			"crash-reports",
+			"crash-dump",
+			"library",
+			"crash-reporting-tool"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md sherlocksherlock reports crash occurres your application a notification. just need initialize sherlock the start your application it take care the rest.motivation motivation behind creating sherlock is make life developer tester easier. whenever tester is testing app he/ encounters crash, of time don't enough details their hand enable developer start fixing crash immediately. with help sherlock, tester have enough info report crash.demoinstallationdebugcompile('com.github.ajitsing:sherlock:1.0.2@aar') { transitive = true}releasecompile('com.github.ajitsing:sherlock--op:1.0.2@aar')usage start using sherlock add below line the oncreate() method application class.public class myapplication extends application { @override public void oncreate() { super.oncreate(); sherlock.init(); //intilializing sherlock }}once add sherlock.init() sherlock take care reporting the crashes you. all crashes can view the crashes starting crashlistactivity. all crashes captured sherlocksherlock provides a to all crashes are reported sherlock form java object. can themusing below line code.sherlock.getinstance().getallcrashes()before accessing getinstance() sure you initialized sherlock, otherwise will throw sherlocknotinitializedexception.app info default sherlock captures version your application shows as part crash details. you toprovide extra details regarding app, can so providing appinfoprovider the sherlock.sherlock.setappinfoprovider( appinfoprovider() { @override public appinfo getappinfo() { return appinfo.builder() .(\"version\", \"2.21\") // can the actual version using \"appinfoutil.getappversion(context)\" .(\"buildnumber\", \"221b\") .build(); }});contributing can contribute sherlock forking repo creating pull requests. can contribute reporting bugs/issues. you to a feature sherlock, add as issue enough details.licensecopyright (c) 2017 ajit singhlicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

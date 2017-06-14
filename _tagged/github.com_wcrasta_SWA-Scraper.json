@@ -1,0 +1,16 @@
+{
+	"_id": "14465305",
+	"site": "https://github.com/wcrasta/SWA-Scraper",
+	"title": "Programmatically finding the cheapest airplane tickets",
+	"author": "LonghornScooter",
+	"date": "2017-06-13T13:55:01.958Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md swa-scraperscreenshots: http://imgur.com//k8jnlinspired ezekg's swa-dashboard, created command line tool scrapes southwest airlines' website displays current lowest price airplane tickets. the current lowest price gets under threshold you specify, text message be sent you.while ezekg's tool was coded node, wanted use python + selenium a learning experience. you liked project, please consider starring repository. for programairlines often change prices random days/times. using program, 'll a text message notification the prices fallen a certain amount. southwest is known normally the cheapest rates, this program scrapes data southwest. can run script locally, you hook up digital ocean/aws ec2.installationclone repository. git clone https://github.com/wcrasta/swa-scraper.git sure have python (code was tested 3.x, might with 2.x) pip. install required modules pip install -r requirements.txtdownload phantomjs put phantomjs.exe your scripts folder (windows) /usr/bin folder (mac/linux).register a free account https://www.twilio.com get phone number.edit config.ini your twilio details.usagescrapes southwest website according the interval set. best results using program, recommend setting interval between 2-3 hours. more frequent interval that might excessive. the price goes under certain amount, will notified via text message.---way # optional. default, round trip is assumed.--depart, -d [airport code] # airport depart .--arrive, - [airport code] # airport arrive .--departure-date, -dd [date] # date leave.--return-date, -rd [date] # optional. date return.--passengers, -p [adults] # number passengers.--desired-total, -dt [dollars] # total fare one person should under amount ( dollars).--interval, - [minutes] # optional. often scrape southwest's website ( minutes). default value = 3 hours. more information the available command line arguments the following command.python app.py --helpsample commands:note: error checking is non-existent, make sure enter commands properly specified below.$ python app.py --depart hou --arrive mdw --departure-date 05/12 --return-date 05/14 --passengers 2 --desired-total 215 --interval 30$ python app.py ---way --depart hou --arrive mdw --departure-date 05/12 --passengers 2 --desired-total 215 --interval 30improvements/possible added featuresfeel free contribute this project! are many improvements can made, both terms code quality in terms whole ideas can implemented. thoughts have new features (may may ever implemented):add flags that user specify time day /she wants travel.instructions contributingfork repository!create feature branch: git checkout -b -new-featurecommit changes: git commit -am 'add feature'push the branch: git push origin -new-featuresubmit pull request you contribute, advised it may some to your pr merged . if 're interested being collaborator, e-mail . if don't how implement something, do an idea you like see implemented, feel free shoot an e-mail i try implement .creditsauthor: warren crasta (warrencrasta@gmail.com)"
+}

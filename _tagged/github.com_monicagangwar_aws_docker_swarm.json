@@ -1,0 +1,22 @@
+{
+	"_id": "14408877",
+	"site": "https://github.com/monicagangwar/aws_docker_swarm",
+	"title": "Docker Swarm Setup on AWS Using Terraform",
+	"author": "monicagangwar",
+	"date": "2017-06-13T13:56:42.157Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"aws",
+			"cluster",
+			"docker-swarm",
+			"terraform"
+		],
+		"languages": [
+			"hcl",
+			"shell"
+		]
+	},
+	"content": "readme.md aws docker swarm setupaws setup launching docker swarm cluster 3 nodes (1 master, 2 workers)quick demoinfrastructuredependenciesterraformaws cliconfigurationcreate iam user get access key & secret access key aws consolehit aws configure add access key & secret access keychange region availability zone variables.tf file you wish launch setup another region. currently defaults us-east-1usagerun init script will create s3 bucket storing terraform remote state. change bucket name setup./init_aws.shlaunch global resources contains ssh key. change key path ssh_key.tfcd globalterraform applylauch vpc. change accordingly variables.tfcd vpcterraform applylaunch nodes. change accordingly variables.tfcd nodesterraform applyoutput notemanager_ip the ip manager node belongs a swarm lanched bootup nodes.services launched via controller ui pe accessed manager_ip:port_specifiedcontroller_ipcontroller has portainer running port 9000 is ui docker engine.hit controller_ip:9000 loginenter manager_ip:2375 asked docker endpoint login"
+}

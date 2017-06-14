@@ -1,0 +1,17 @@
+{
+	"_id": "14446965",
+	"site": "https://github.com/Naltox/modelify",
+	"title": " JSON to Models Generator for JS, TS and Swift",
+	"author": "altox",
+	"date": "2017-06-13T13:06:17.371Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": "readme.md modelifymodelify is tool created models json.installation install stable version:npm install modelify -g will install modelify globally that may run the command line.usagemodelify -lang=lang_name -=/path//your.json -o=/path//out/dirlang_name output models language (js ts swift)/path//your.json path some json/path//out/dir output pathcurrently available languagesjavascripttypescriptswift"
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14145636",
+	"site": "https://github.com/ofek/privy",
+	"title": " Privy – Password-protected secrets made easy in Python",
+	"author": "ofek",
+	"date": "2017-06-13T13:34:48.587Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"secrets",
+			"passwords",
+			"encryption",
+			"keys",
+			"python",
+			"aes",
+			"hmac"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst privy: password-protected secrets made easyprivy is small fast utility password-protecting secrets such seeds digital signatures bitcoin wallets.usage for example are using gnupg. are to sign message it requires password. does password become input instantiate private key? , it is hashed a secure key derivation function. hash becomes input a symmetric cipher such aes then decrypts stored private key. is privy does.fear ! with privy, become trivially easy:>>> import privy>>>>>> # creating secret, immediately encrypt using privy.>>> secret = b'secret'>>>>>> hidden = privy.hide(secret, ask_for_password())>>> hidden'1$2$fl7xrh8wke...' you safely store transmit hidden secret. whenever user needs use secret again, ask their password take peek.>>> privy.peek(hidden, password)b'secret'installationprivy is available linux/macos windows supports python 2.7, 3.3+, pypy, pypy3.3-5.5+.$ pip install privyencryption schemesecrets are encrypted using fernet protocol. specifically, uses aes encryption has built- authentication using hmac. private key used encryption is derived the password using key derivation function. key derivation function used is argon2, winner the password hashingcompetition. both argon2i argon2d variants are supported.encrypted formatascii(argon2 algorithm || security level || base64(salt) || base64(fernet token))api are 2 functions: hide peek.hide(secret, password, security=2, salt=none, server=true)encrypts secret using password. returns hidden secret unicode.parameterssecret (bytes) - secret encrypt.password (bytes unicode) - password used access secret.security (int) - number 0-20 inclusive. higher values are more secure the cost slower computation greater of memory. security levels.salt (bytes) - salt used the password hash. defaults os.urandom(32).server (bool) - true, is assumed side-channel attack protection isneeded therefore argon2i algorithm be used. otherwise, password be hashed using argon2d algorithm.peek(hidden, password, expires=none)decrypts hidden using password. returns secret bytes.parametershidden (bytes unicode) - hidden secret decrypt.password (bytes unicode) - password used access secret.expires (int) - maximum number seconds since encryption is allowed. default is expiration. valueerror be raised the password is wrong, password was attempted adifferent hidden secret, the number seconds since encryption is > expires argument.security levels expected times were taken tests an intel core i7-2670qm @ 2.2 ghz decrypting 256 kib secret. is command, where sl is desired security level:$ python -m timeit -s \"import privy, os; pw = 'password'; s = os.urandom(1024 * 256); h = privy.hide(s, pw, sl)\" \"privy.peek(h, pw)\"levelsargon2 settingsexpected notes0m=8 kib, t=17 mseclowest possible1m=4 mib, t=1054 msec 2m=8 mib, t=1099 msecdefault3m=32 mib, t=10367 msec 4m=48 mib, t=10540 msec 5m=96 mib, t=101.1 sec choice6m=256 mib, t=103 sec 7m=512 mib, t=106 sec 8m=768 mib, t=109 sec 9m=1 gib, t=1012.2 sec 10m=2 gib, t=2048 sec use users' machines11m=3 gib, t=3010712m=4 gib, t=40?13m=5 gib, t=50?14m=6 gib, t=60?15m=7 gib, t=70?16m=8 gib, t=80?17m=9 gib, t=90?18m=10 gib, t=100?19m=11 gib, t=110?20m=12 gib, t=120?changelogimportant changes are emphasized.4.0.0breaking: saner conformity, security level 7 utilizes 512 mib ram instead 448.major improvements documentation.3.0.0added security levels 11-20. are quite resource intensive are therefore acceptable individual .2.0.1breaking: due requests, encrypted format uses url-safe base64 instead hex.1.0.0initial release"
+}

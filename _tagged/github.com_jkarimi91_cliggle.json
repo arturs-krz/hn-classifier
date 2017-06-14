@@ -1,0 +1,18 @@
+{
+	"_id": "14524801",
+	"site": "https://github.com/jkarimi91/cliggle",
+	"title": " Cliggle – A CLI for Kaggle competitions",
+	"author": "jkarimi91",
+	"date": "2017-06-13T13:23:08.942Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cli",
+			"kaggle"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md cliggle cli kaggle competitions.why? have more streamlined workflow especially working ssh.installationpip install cliggleusagelist list current competitions (shortened) title:cliggle listdownload download data a competition:cliggle download <title>submit make submission:cliggle submit <title> <filename>help see help strings cliggle:cliggle --help see help strings the commands:cliggle <command> --help"
+}

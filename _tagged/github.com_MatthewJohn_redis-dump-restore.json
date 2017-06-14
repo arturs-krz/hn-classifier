@@ -1,0 +1,21 @@
+{
+	"_id": "14506334",
+	"site": "https://github.com/MatthewJohn/redis-dump-restore",
+	"title": "Small snippet to dump and restore all data from/to redis",
+	"author": "mrmattyboy",
+	"date": "2017-06-13T14:09:56.846Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"redis",
+			"backup",
+			"restore",
+			"dump"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

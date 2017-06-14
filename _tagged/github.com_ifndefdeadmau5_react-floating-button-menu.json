@@ -1,0 +1,22 @@
+{
+	"_id": "14391298",
+	"site": "https://github.com/ifndefdeadmau5/react-floating-button-menu",
+	"title": " A Customizable React Material Floating Button",
+	"author": "trevorme91",
+	"date": "2017-06-13T13:07:23.268Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"demo",
+			"ui-components",
+			"material",
+			"floating-action-button"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md react floating button menu material floating button menu implementation made styled-component & reactinspired react-material-floating-buttoninstallationnpm install react-floating-button-menu --savedemo the project pageusage can customize opening direction, speed, styles each button via props. options be added soonimport { floatingmenu, mainbutton, childbutton } 'react-floating-button-menu/build';import mdadd 'react-icons/lib/md/add';import mdclose 'react-icons/lib/md/close';... <floatingmenu slidespeed={500} direction=\"left\" size={{ main: 56, child: 40 }}> <mainbutton iconresting={mdadd} iconactive={mdclose} iconcolor=\"white\" backgroundcolor=\"black\" /> <childbutton iconbutton={mdadd} iconcolor=\"black\" order={1} backgroundcolor=\"white\" /> <childbutton iconbutton={mdadd} iconcolor=\"black\" order={2} backgroundcolor=\"white\" /> </floatingmenu>...try demos locallygit clone https://github.com/ifndefdeadmau5/react-floating-button-menu.gitcd react-floating-button-menunpm installcd docsnpm installnpm startcontributingplease submit issues."
+}

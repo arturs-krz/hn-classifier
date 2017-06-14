@@ -1,0 +1,22 @@
+{
+	"_id": "14505828",
+	"site": "https://github.com/PascaleBeier/bootstrap-validate",
+	"title": "Form Validation approach for Bootstrap not depending or jQuery (or anything)",
+	"author": "examo",
+	"date": "2017-06-13T14:09:56.931Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"bootstrap",
+			"validation",
+			"form",
+			"validate",
+			"bootstrap3",
+			"form-validation"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md bootstrap-validate simple form validation utility bootstrap does depend jquery.usageinclude bootstrap-validate.js script:<script src=\"bootstrap-validate.js\"></script>setup validation your input elements:imagine following html:<div class=\"form-group\"> <label class=\"control-label\">enter name</label> <input id=\"name\"></div> you a name be max 30 characters long add following:<script> bootstrapvalidate( document.getelementbyid('name'), 'max:30: name must be longer 30 characters' );</script>validating email address couldn't easier! make of native validation whenever possible.<div class=\"form-group\"> <label =\"email\" class=\"control-label\">enter e-mail</label> <div class=\"input\" id=\"email\"></div><script>bootstrapvalidate(document.getelementbyid('email'), 'email');</script>api first argument bootstrapvalidate is element be validated. second argument is string rules, whereas:multiple rules are separated an amount sign |. rule starts its name, available rules. following arguments are required rule parameters: max requires number. last argument is string be displayed validation fails. should add custom text native rules.single rule options are separated a colon :.min:1:enter character|max:2:enter max 2 charactersavailable rulesinput elementsmin: (number) minimal number charactersmax: (number) maximal number charactersemail (**native**): requires valid e-mail address (thanks @cmckenzie6)adding rules is super easy! a at src/rules. how contribute.native ruleswhenever possible make of native browser side validation. should add custom error string these methods, browsers these localized bullet-proof.downloadmanually can download latest release rawgit.npmnpm bootstrap-validatebowerbower install bootstrap-validate --savebrowser supportworks all recent browsers, ie 8, may work below.contributingcontributing is easy pie.fork repositoryrun npm inside the repositoryrun npm dev view changesrun npm build build productioncommit changes, push to fork submit pr will notified styling errors - you npm check-style npm fix-style respectively check fixcode styling.testingtests are located under spec/. installing dependencies npm you may run npm test spin karma-powered tests.licenselicensed under mit license, license."
+}

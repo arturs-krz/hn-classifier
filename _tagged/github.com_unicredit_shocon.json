@@ -1,0 +1,16 @@
+{
+	"_id": "14475795",
+	"site": "https://github.com/unicredit/shocon",
+	"title": "Shocon: Simple Pure-Scala Typesafe HOCON Implementation Using FastParse",
+	"author": "based2",
+	"date": "2017-06-13T13:55:02.313Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": "readme.md shoconshocon is simple, pure-scala, alternative implementation the hoconspecification.shocon ships a native, scala-idiomatic api, a shim mimics typesafe config java api, making well-suited a drop- replacement wherever java implementation is available, such scala.js projects. implementation does cover of corner cases the original implementation. issues prs are welcome!usageadd lines your build.sbtscala project:librarydependencies += \"eu.unicredit\" %% \"shocon\" % \"0.1.8\"scala.js project:librarydependencies += \"eu.unicredit\" %%% \"shocon\" % \"0.1.8\"notessince implementation is unaware be a jvm classloader, such reference is ignored will null.default configuration is loaded \"application.conf\" resources statically compile (using macros) integrated a string target code."
+}

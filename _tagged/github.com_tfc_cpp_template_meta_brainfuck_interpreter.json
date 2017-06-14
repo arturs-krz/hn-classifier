@@ -1,0 +1,17 @@
+{
+	"_id": "14412646",
+	"site": "https://github.com/tfc/cpp_template_meta_brainfuck_interpreter",
+	"title": "C++ Template Meta Brainfuck Interpreter",
+	"author": "progval",
+	"date": "2017-06-13T13:56:42.264Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": "readme.md c++ template meta brainfuck interpreter exercise reasons, implemented brainfuck interpreter a long train ride. works completely compile , as is implemented a purely functional , expressed c++ template language. program user input is provided via type lists, the output is type list again. output string, well the brainfuck machine state be printed a compiler error message, on terminal launching program compilation.usageprogram user input are provided via preprocessor macros the command line:jacek.galowicz ~/src/tmp_brainfuck $ g++ -o main main.cpp -std=c++14 -dinput_str=\\\"z\\\" -dprogram_str=\\\",[.-]\\\"jacek.galowicz ~/src/tmp_brainfuck $ ./mainzyxwvutsrqponmlkjihgfedcba`_^]\\[zyxwvutsrqponmlkjihgfedcba@?>=<;:9876543210/.-,+*)('&%$#\"! brainfuck program output also printed compile , by producing error message the helper type debug_t:\"hello world\" example, printed compile :jacek.galowicz ~/src/tmp_brainfuck $ g++ -o main main.cpp -std=c++14 -dprogram_str='\"++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.+++.\"'main.cpp:31:51: error: implicit instantiation undefined template 'debug_t<char_tl<'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '!', '', '\\x0d'> >' debug_t<typename tl_to_varlist<output>::list> t; ^main.cpp:6:29: note: template is declared heretemplate <typename t> class debug_t; ^1 error generated.makefile:3: recipe target 'default' failed: *** [default] error 1 \"hello world\" example, printed runtime:jacek.galowicz ~/src/tmp_brainfuck $ g++ -o main main.cpp -std=c++14 -dprogram_str='\"++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.+++.\"'jacek.galowicz ~/src/tmp_brainfuck $ ./mainhello world!"
+}

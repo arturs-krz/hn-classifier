@@ -1,0 +1,19 @@
+{
+	"_id": "14493134",
+	"site": "https://github.com/Kyubyong/tensorflow-exercises",
+	"title": "TensorFlow Exercises – focusing on the comparison with NumPy",
+	"author": "kyubyong",
+	"date": "2017-06-13T14:10:07.896Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tensorflow",
+			"tensorflow-exercises",
+			"numpy"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md tensorflow exercisestensorflow is most popular deep learning library of (2016). is designed help those want familiarize themselves tensorflow functions. particulary focus comparing tensorflow functions the equivalent functions numpy, de facto standard numerical computation library. hope will help get comfortable tensorflow quickly. basic outline be follows, though is 100% fixed.constants, sequences, random values (done)graphs (done)variables (done)reading data (done)tensor transformations (done)math part 1 (done)math part 2 (done)math part 3 (done)strings (wip)control flow (done)images (wip)sparse tensors (wip)neural network part 1 (done)neural network part 2 (done)neural network part 3 (wip) my knowledge, tensorflow exercises are hard find. enjoy!"
+}

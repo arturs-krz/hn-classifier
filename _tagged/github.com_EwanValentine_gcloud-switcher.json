@@ -1,0 +1,16 @@
+{
+	"_id": "14416001",
+	"site": "https://github.com/EwanValentine/gcloud-switcher",
+	"title": "A CLI tool for switching between Google Cloud projects",
+	"author": "vegancap",
+	"date": "2017-06-13T13:56:32.643Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md google cloud switcher## switch between google cloud projects$ npm install -g gcloud-switcher$ gcswitchblog post explaining motivation"
+}

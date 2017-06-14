@@ -1,0 +1,24 @@
+{
+	"_id": "14326636",
+	"site": "https://github.com/compactr/compactr.js",
+	"title": " A rival to protobuf",
+	"author": "fed135",
+	"date": "2017-06-13T13:08:17.466Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"protocol-buffers",
+			"schema",
+			"serialization",
+			"javascript",
+			"json",
+			"buffer",
+			"compression",
+			"protobuf"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md compactr schema based serialization made easy is and why does matter?protocol buffers are awesome. having schemas deflate inflate data while maintaining kind validation is great concept. compactr's goal is build that better suit node development reduce repetition allowing to build schemas your data directly your scripting language. example, you a db schema a model, could that directly a schema compactr.install npm install compactrimplementationconst compactr = require('compactr');// defining schemaconst userschema = compactr.schema({ id: { type: 'number' },name: { type: 'string' }});// encodinguserschema.write({ id: 123, name: 'john' });// the schema header bytes ( partial loads)const header = userschema.headerbytes();// the partial load bytesconst partial = userschema.contentbytes();// the full header + content bytesconst buffer = userschema.bytes();// decoding (full)const content = userschema.read(buffer);// decoding (partial)const content = userschema.readcontent(partial);performances[array] json x 188 ops/sec ±2.47% (73 runs sampled)[array] compactr x 248 ops/sec ±3.16% (72 runs sampled)[boolean] json x 220 ops/sec ±5.04% (71 runs sampled)[boolean] compactr x 731 ops/sec ±7.57% (74 runs sampled)[float] json x 159 ops/sec ±3.41% (70 runs sampled)[float] compactr x 476 ops/sec ±1.58% (85 runs sampled)[integer] json x 264 ops/sec ±1.79% (79 runs sampled)[integer] compactr x 885 ops/sec ±1.36% (84 runs sampled)[object] json x 139 ops/sec ±1.89% (76 runs sampled)[object] compactr x 169 ops/sec ±1.52% (80 runs sampled)[string] json x 107 ops/sec ±6.86% (64 runs sampled)[string] compactr x 167 ops/sec ±4.86% (72 runs sampled)size comparisonjson: {\"id\":123,\"name\":\"john\"}: 24 bytescompactr (full): <buffer 02 00 01 01 04 7b 4a 6f 68 6e>: 10 bytescompactr (partial): <buffer 7b 4a 6f 68 6e>: 5 bytesprotocol detailscompactr protocol to help ? are awesome! open issue this project, identifying feature you to tackle we'll the discussion !licenseapache 2.0 (c) 2017 frederic charette"
+}

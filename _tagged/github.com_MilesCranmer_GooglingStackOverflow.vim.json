@@ -1,0 +1,26 @@
+{
+	"_id": "14485635",
+	"site": "https://github.com/MilesCranmer/GooglingStackOverflow.vim",
+	"title": "Automatic programming by scraping stack overflow answers",
+	"author": "dcjaxx",
+	"date": "2017-06-13T14:10:07.327Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"stackoverflow",
+			"vim",
+			"developer-tools",
+			"google",
+			"python",
+			"lxml",
+			"automation",
+			"editor-plugin",
+			"autocomplete"
+		],
+		"languages": [
+			"vim script",
+			"python"
+		]
+	},
+	"content": "readme.md gsogoogling stack overflowthank daniel,brionius, bytecode77!( newest version gso also prints answer url.)installation( you want try, are demo keys the bottom this page. are shared, play nice.) sure vim supports python scripting (vim --version | grep +python should return something). this doesn't , the vim-nox-py2 package ubuntu has (sudo apt- install vim-nox-py2),else, to .then, install python dependencies:pip install google-api-python-client cython py-stackexchange lxml there are issues installing lxml, 's probably do a missing libxml library. lxml site has help this. api keys google custom search(scroll api key), stack apps. is free, don't intimidated the forms!enter whatever the boxes, the key generated you be compatible this app.trust , it's worth .put intoenvironment variables google_key se_key, respectively (e.g., export google_key=\"......\").(vundle) add repo your .vimrc file:plugin 'milescranmer/gso', just :plugininstall vim.(optional) map ctrl-e type \":gso \" you, putting following your .vimrc:nnoremap <c-e> :gso usage:gso [(-l | --language) <language>] [-n | ---text] [<search>...] example, a file sort.py, run::gso a bubble sort watch python code dumped below cursor.gso append language your query the file extension, you set explicitly ::gso -l haskell generate fibonacci sequencetools is shell utility tools. simply calls gso command dumps result the /dev/stdout.copy to /usr/bin/gso ( anywhere the path), call as normally : gso to change url a git remotegso>>> cangit remote set-url origin git://.url.here( git help remote) you just edit .git/config change urls . you're in danger losing history unless do something very silly ( if 're worried, make copy your repo, since repo is history.)<<<gsodocker pull run ( your google stack apps api keys, the demo ones the bottom):docker run - -e google_key=$google_key -e se_key=$se_key mcranmer/gso, inside vim::gso flatten list lists it dump highest score answer below cursor.todo/ideasunit tests. apparently are uncommon among vim plugins, there is little built- testing functionality, since am using lot python, could write regular python unittests the gso module.automatic reading code, triggered a flag, that can dump current line code the search query help results. way, 's little bit an advanced man function.automatic piping error messages gso, it dump solution your error the code. might to linked the build command, e.g., . then, make produces nonzero error message, activate gso the cursor position. could something toggle and off. could just called, e.g., an empty :gso command an error. could add functionality turn specific errors off they are too basic (e.g., forgetting semi-colon), too common (e.g., generic seg fault).(#1 todo) multi answer/multi question, well easy keystroke swapping. would gso load a bunch answers/questions the quickfix list, you use unimpaired.vim quickly replace pasted text below cursor.answer preview, you see answers a pane, swipe between until like . then could hit keystroke dump in.general speedups (though isn't really needed an aws instance, i might work this a while).comments more languages built-.improve shell utility it doesn't to open vim, just calls python functions.(crazy idea) something recognizes variables are dealing , tries guess ones use the dumped code, does search replace. could so can rapid fire dump code without thinking much. wouldn't a negative, you likely to replace variables manually anyway. initial implementation do simple things, such seeing you are inside loop, taking looped variable, maybe replacing most common variable the pasted text your looped ... but again, is crazy idea.this is custom search engine gso uses: https://cse.google.com/cse/publicurl?cx=003962226882031433174:qk7rs-ca-bicurrently, searches stackoverflow, superuser, tex, unix forums.se: \"nexevkjzlom8zuagxlchqa((\"google: \"aizasyak7sxny_yhap2oidsorgf9jyso8e_xjro\""
+}

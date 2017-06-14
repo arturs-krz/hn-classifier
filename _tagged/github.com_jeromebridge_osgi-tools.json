@@ -1,0 +1,16 @@
+{
+	"_id": "14403431",
+	"site": "https://github.com/jeromebridge/osgi-tools",
+	"title": "OSGi Bundles that help diagnose issues on OSGi containers., 1.00.006 released",
+	"author": "rultor",
+	"date": "2017-06-13T13:56:41.373Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md osgi-toolsosgi bundles help diagnose issues osgi containers. encrypting files rultor to release maven centralgenerate keys. accept defaults enter required inputs. leave passphrase empty.gpg --gen-keycopy generated keys.cp ~/.gnupg/pubring.gpg .; cp ~/.gnupg/secring.gpg . sure include gpg properties your settings.xml<settings> <profiles> <profile> <id>ci</id> <activation><activebydefault>true</activebydefault> </activation> <properties> <gpg.homedir>/home/r</gpg.homedir> <gpg.keyname>924cf0d9</gpg.keyname> <gpg.passphrase></gpg.passphrase> </properties> </profile> </profiles></settings>encrypt files.rultor encrypt -p jeromebridge/osgi-tools pubring.gpgrultor encrypt -p jeromebridge/osgi-tools secring.gpgrultor encrypt -p jeromebridge/osgi-tools settings.xmllocal buildversion=1.00.004mvn versions:set \"-dnewversion=$version\"find . -name \"pom.xml\" -exec mvn versions:set \"-dnewversion=${version}\" -f {} \\;mvn clean install"
+}

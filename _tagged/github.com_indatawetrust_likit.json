@@ -1,0 +1,17 @@
+{
+	"_id": "14397421",
+	"site": "https://github.com/indatawetrust/likit",
+	"title": "Realtime request/response monitoring middleware for Koa, Koa2 and Express",
+	"author": "cond289123",
+	"date": "2017-06-13T13:56:42.147Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md likitrealtime request/response monitoring middleware koa, koa2 expressinstallnpm likit@latest -skoaapp.(likit.koa({ app, port: 3001 // default}))koa2app.(likit.koa2({ app, port: 3001 // default}))expressapp.(likit.express({ app, port: 3001 // default}))"
+}

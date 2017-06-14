@@ -1,0 +1,16 @@
+{
+	"_id": "14212211",
+	"site": "https://github.com/turbobytes/infreqdb",
+	"title": " Infreqdb – S3 backed key/value database for infrequent read access",
+	"author": "sajal83",
+	"date": "2017-06-13T13:33:03.619Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md infreqdbs3 backed key/value database infrequent read accessaccess hot data might very frequent, access majority data is rare.-casesinfreqdb might useful :-your database is quite large. mostly bulk updates. of data is cold, .e. a small subset data is typically queried. are able partition data a such hot cold objects live different partitions. data fit key/value model. don't mind occasional slow responses. can tolerate eventual consistency.architecture source truth all data is bucket s3. data is split multiple partitions. each partition is bolt database file. infreqdb caches partitions disk. changes a partition is done re-writing uploading entire partition. partitions are stored gzipped.motivation have postgresql database(mostly series) thats consuming 500gb ( growing) storage. data is output batch processing scripts, process hour worth data each and merge in database. queries are mostly fresh data.500gb might 1500 gb disk storage - 2 replicas ha 250gb extra per replica accommodate growth. whereas same data compressed might 300gb ( haven't done export yet) s3 is 30gb s3. s3 is already replicated. comparison.1500 gb ebs(gp2) costs $150/month30 gb s3 costs $0.69/month + extra requests, bandwidth charges running ec2. are additional charges requests using s3. the data/partition structure is optimized, can end costing lot.$0.005 per 1,000 requests put, copy, post, list requests$0.004 per 10,000 requests get all requests my -case, expect do maximum 100 puts per hour = 100 * 24 * 31 = 74400/month costing $0.372/month/head should cost less, depends cache hit ratio can achieve.infreqdb makes of :-put store partitions. to fetch partitions.head check the cached partition is latest . it does head request each mutable partition.usageinfreqdb is library, a database server.example: toyexample.ideas storage pluggable. cluster can gossip evictions, ownership a portion data.allow cached partitions persist across restarts.disclaimer have yet used infreqdb anything large, the toyexamplebackwards compatibility is guaranteed. am making changes the api i start using library real-world application.once settle few things, will the object store pluggable allow user-implementation any object store wish use."
+}

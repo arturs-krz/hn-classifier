@@ -1,0 +1,23 @@
+{
+	"_id": "14164836",
+	"site": "https://github.com/Inlustra/tslint-ngrx",
+	"title": " NGRX Tslint Rules",
+	"author": "inlustra",
+	"date": "2017-06-13T13:34:46.617Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"ngrx",
+			"tslint",
+			"tslint-rules",
+			"ngrx-store",
+			"ngrx-effects"
+		],
+		"languages": [
+			"typescript",
+			"shell"
+		]
+	},
+	"content": "readme.md ngrx tslint rules was hastily thrown together fully tested, welcome feedback.ngrx-action-class-suffixautofixabledescription pick any class implements action enforce suffix be placed that class name, defaults 'action'example\"ngrx-action-class-suffix\": [true, \"customsuffix\"]error:export class userbuttonsubmit implements action { }success:export class userbuttonsubmitcustomsuffix implements action { }ngrx-action-type-property-nameautofixabledescription enforce case naming conventions any object terminating the desired suffix, defaults actiontypes constant_caseexample\"ngrx-action-type-property-name\": [ true, \"actiontypes\", \"constant\"]error:export const useractiontypes = { userbuttonsubmit: 'user submit button', usertextsubmit: type('user submit text')}success:export const useractiontypes = { user_button_submit: 'user submit button', user_text_submit: type('user submit text')}ngrx-action-type-property-valueautofixabledescription require property name be displayed within property value case changes the object name terminates the given suffix, defaults actiontypes 'title case'.example\"ngrx-action-type-property-value\": [ true, \"actiontypes\", \"title\", true, \"title\"]error:export const useractiontypes = { user_button_submit: 'user submit button', user_text_submit: type('user submit text')}success:export const useractiontypes = { user_button_submit: '[user] user button submit', user_text_submit: type('[user] user text submit')}added rule require actiontype prefix inside property value.notes of above case strings be replaced those available here: npm casesupports:camel: 'thisisniceandtidynathan',snake: 'this_is_nice_and_tidy_nathan',kebab: '-is-nice--tidy-nathan',upper: ' is nice tidy, nathan.',lower: ' is nice tidy, nathan.',header: '-is-nice--tidy-nathan',sentence: ' is nice tidy, nathan.',capital: ' is nice tidy, nathan.',title: ' is nice tidy, nathan.',constant: 'this_is_nice_and_tidy_nathan'todowrite rule will detect an action class uses type outside the allowed rules, example:export class myaction implements action { type = quoteactionslist.my_action;}should export class myaction implements action { type = quoteactiontypes.my_action;}"
+}

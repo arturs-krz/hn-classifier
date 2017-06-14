@@ -1,0 +1,37 @@
+{
+	"_id": "14433131",
+	"site": "https://github.com/crazychicken/t-scroll",
+	"title": " Animate css3 and action js",
+	"author": "Dungqwerty",
+	"date": "2017-06-13T13:06:18.867Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"html",
+			"css",
+			"t-scroll",
+			"javascript",
+			"tuds",
+			"clgt",
+			"animated",
+			"animation",
+			"bounce",
+			"fade",
+			"flip",
+			"lightspeed",
+			"roll",
+			"rotate",
+			"slide",
+			"zoom",
+			"scroll-down",
+			"target",
+			"recommended"
+		],
+		"languages": [
+			"css",
+			"html",
+			"javascript"
+		]
+	},
+	"content": "readme.md t-scrollquick startclone repo: git clone git@github.com:crazychicken/t-scroll.gitinstall npm: npm install --save-dev t-scrollinstall npm: npm install --save-dev crazychicken/t-scroll download latest releasedemohttp://t-scroll.com/t-animate-options.htmldocumentationhttp://t-scroll.com/documents.html to first, include css files your html head:<link type=\"text/css\" rel=\"stylesheet\" href=\"./public/theme/css/t-scroll.min.css\">include file t-scroll.min.js the footer.<script type=\"text/javascript\" src=\"./public/theme/js/t-scroll.min.js\"></script>set html<div class=\"zoomin\">\"...\"</div><div class=\"zoomin\">\"...\"</div> you need settimeout, need insert container attribute t_show=\"...\"<div class=\"zoomin\" t_show=\"1\">\"...\"</div><div class=\"zoomin\" t_show=\"2\">\"...\"</div> you to t_show run first screen. have add .t_animated<div class=\"box-center\"> <div class=\"zoomin t_animated\" t_show=\"1\"> ... </div> <div class=\"zoomin t_animated\" t_show=\"2\"> ... </div></div>call function<script type=\"text/javascript\"> tu.t_scroll({ 't_element': '.zoomin' })</script>optionsbounceinbounceoutbounceupbouncedownbounceleftbouncerightfadeinfadeupfadedownfadeleftfaderightfadeupbigfadedownbigfadeleftbigfaderightbigflipflipxflipylightspeeduplightspeedrightlightspeeddownlightspeedleftrolluprollrightrolldownrollleftrotaterotateupleftrotateuprightrotatedownleftrotatedownrightslideupslidedownslideleftsliderightzoominzoominupzoominleftzoomindownzoominrightzoomoutzoomoutupzoomoutleftzoomoutdownzoomoutrighttreepublic/ theme/ css/ | style.css | t-scroll.min.css js/ t-scroll.min.csssass/ // folders sass files style.scss t-scroll.min.scsstemplate full feature listsemantically correct / valid html codehtml5, css3javascript / js6full project seed project (build : gulp, sass, javascript, npm, babel)cross browser compatible ( internet explorer 10+, firefox, safari, opera, chrome etc. )w3c valid source code, properly formatted commentedanimations css3creatorstuds - crazychicken (clgt groups)website: http://t-scroll.com/github: https://github.com/crazychicken/t-scrollfacebook: https://www.facebook.com/tudscss/youtube: https://www.youtube.com/channel/ucdace-7bfgducqoxtdfpotwtwtter: https://twitter.com/mtu_truongcopyright licensecode documentation copyright 2017, mit license."
+}

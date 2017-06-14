@@ -1,0 +1,16 @@
+{
+	"_id": "14524682",
+	"site": "https://github.com/abe-winter/varyaml",
+	"title": " Varyaml – environment interpolation in yaml configs",
+	"author": "awinter-py",
+	"date": "2017-06-13T13:04:19.115Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md varyamlever wanted reference environment arguments inside config file?db: host: database.internal.dns port: $dbport username: $dbuser password: rosebud # todo: password env arg security? nah you load file varyaml, dbport dbuser be read your environment the loader crash (yes) they're missing.why is important? orchestration frameworks prefer pass args as env vars, programs are easier understand they config files. tool lets have both.usageimport varyamlvaryaml.load('{}')# varyaml.load(open('config.yml'))installationpip install varyaml# pip install git+git://github.com/abe-winter/varyamlreading vars disk (secrets) orchestration frameworks put secrets disk. can at like :db: password: $db_passvaryaml: path: /run/secrets this example, varyaml check for environment var named db_pass, it read contents /run/secrets/db_pass the file exists, it go defaults ( provided this sample), crash not found.default values can specify defaults (.e. the environment var optional).(todo: if top-level object isn't dictionary?) special string value 'omit' says pop key not found.db: port: $dbport username: $dbuser database: $dbnamevaryaml: defaults: dbport: 5432 dbname: __omit__ path: /run/secretspython versions & release status is beta release of june 2017. test suite is limited not informed any real-world snafus. think pyyaml doesn't support yaml aliases, if does is a possibility circular references? that happens varyaml.process (called load) hang.tested py3.5. probably works anything recent supports pyyaml.contributionshigh-quality technical blogposts using in wild () will appreciated (b) may linked from spot they're really .i'm sure i need env var redirection (.e. default_host=localhost dbhost='$default_host'). you a case you to add feature (disabled default), send pull request tests.is a need integer casting (.e. ports)? assume but you need , send pull request."
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14475809",
+	"site": "https://github.com/nvdv/mondrianify",
+	"title": "Generate Mondrian tiles",
+	"author": "nvdv",
+	"date": "2017-06-13T13:55:02.322Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"visualization",
+			"art",
+			"mondrian",
+			"generative-art"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md mondrianifymondrianify is experiment generating random mondrian tiles using web technologies.live demo is here.usageclone repository runnpm run build && open index.htmltestingnpm run testdependencies npm module dependencies are listed package.json.licensebsd"
+}

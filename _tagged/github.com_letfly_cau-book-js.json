@@ -1,0 +1,17 @@
+{
+	"_id": "14433350",
+	"site": "https://github.com/letfly/cau-book-js",
+	"title": "Cau-book-js",
+	"author": "letfly",
+	"date": "2017-06-13T13:55:38.902Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md dev environmentfront-endcd book/static/jsnpm installwebpack-end should add user password your database book/settings.js.npm installnpm run db:upgradenpm run app"
+}

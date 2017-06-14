@@ -1,0 +1,19 @@
+{
+	"_id": "14439138",
+	"site": "https://github.com/truffls/react-in-angular",
+	"title": "Use your React components inside of AngularJS",
+	"author": "floriangosse",
+	"date": "2017-06-13T13:55:34.435Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"angular",
+			"component"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md react--angular installationnpm install -s react--angular react react-domnote: react react-dom are peer dependencies are needed run react--angularusagecreate react component:const clickmebutton = (props) => { return ( <button type={props.type} onclick={props.onclick}> click ! </button> )};export default clickmebutton;wrap with react--angular register as angularjs component:import { tocomponent } 'react--angular';import clickmebutton './clickmebutton';// define bindings clickmebuttonconst bindings = { type: '<', onclick: '6'};angular .module('app.button') .component('clickmebutton', tocomponent()(clickmebutton, bindings)); your angular controller:function controller () { .type = 'button'; .onclick = ($event) => { $event.preventdefault(); alert('clicked!'); };} your angular template:<click--button title=\"$ctrl.type\" -click=\"$ctrl.onclick($event)\"></click--button>decorators decorators have possibility pass parts your angularjs application your react component simplywrap component component want use multiple times. to write decoratorsdecorators are simple angularjs factory functions return decorate function. decorate function takes render function argument will used render actual component. example decorator called reduxdecorator reuses redux store $ngredux:import { provider } 'react-redux';function reduxdecorator ($ngredux) { return function decorate (render) { return ( <provider store={$ngredux}> {render()} </provider> ); };}export default reduxdecorator;"
+}

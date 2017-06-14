@@ -1,0 +1,21 @@
+{
+	"_id": "14502011",
+	"site": "https://github.com/brentlintner/synt",
+	"title": " Synt – Find similar functions and classes in JavaScript/TypeScript code",
+	"author": "bnix",
+	"date": "2017-06-13T13:04:20.247Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"similarity",
+			"duplicate",
+			"javascript",
+			"nodejs",
+			"static-analysis"
+		],
+		"languages": [
+			"typescript"
+		]
+	},
+	"content": "readme.md synt find similar functions classes your javascript/typescript code.supported languagesjavascript (es3-es8)typescriptnon-standard javascript support more info support ecmascript stage-3 below proposals, issue #94.system requirementsnodejsinstallation & usagenpm syntcliinstallnpm -g synthelpsynt -hexamplegit clone https://github.com/brentlintner/synt.gitcd syntsynt analyze srclibraryexampleconst synt = require(\"synt\")const files = [ \".js\", \"b.ts\" ]const { js, ts } = synt.compare(files, { similarity: 70, ngram: 1, minlength: 10, estype: \"module\"})synt.print(js)synt.print(ts)versioning project ascribes semantic versioning.namesynt is short synteny, is (attempted) play comparing code evolution genetic (evolution).licensing project is licensed under mpl-2.0 license. contributions made this project are made under current license.contributionscurrent list contributors. contributions are welcome appreciated! you need do is submit pull request.please consider tests code quality before submitting.please try keep commits clean, atomic well explained ( others).issuescurrent issue tracker is github. if are uncomfortable code, issue helps!code conduct project ascribes contributor-covenant.org. participating this project agree our code conduct.hackinggit clone git@github.com:brentlintner/synt.gitcd syntnpm npm run -s compiletestingnpm testnpm run -s test-covdev scriptswatch compile files save:npm run dev"
+}

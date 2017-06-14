@@ -1,0 +1,20 @@
+{
+	"_id": "14489585",
+	"site": "https://github.com/turnerlabs/terraform-scheduled-batch-job",
+	"title": " Run crons with lambda for longer than 5 minutes",
+	"author": "ossmaster",
+	"date": "2017-06-13T13:04:45.160Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"terraform",
+			"batch",
+			"cloudwatch-events",
+			"lambda"
+		],
+		"languages": [
+			"hcl"
+		]
+	},
+	"content": "readme.md terraform-scheduled-batch-job terraform module representing scheduled batch job. uses cloud watch event rule a lambda function submit batch job a cron schedule. of batch service overcomes of lambda's current limitations:jobs run longer five minutesjobs run containers they be written any languagetodo: consider including batch infrastructure setup inside module once batch terraform provider is available.usage exampleprovider \"aws\" { region = \"-east-1\"}module \"scheduled-batch-job\" { source = \"github.com/turnerlabs/terraform-scheduled-batch-job?ref=v0.2.0\" name = \"-scheduled-job\" batch_job_definition = \"-job-definition\" batch_job_queue = \"-job-queue\" schedule_expression = \"rate(1 hour)\" is_enabled = \"true\" tags = \"${map(\"team\", \"-team\", \"contact-email\", \"-team@-company.com\", \"application\", \"-app\", \"environment\", \"dev\", \"customer\", \"-customer\")}\" }outputscloudwatch_event_rule_arnaws_lambda_function_arn"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14418164",
+	"site": "https://github.com/petergombos/node-babel-mongoose-express-rest-api",
+	"title": " Simple Node/Mongoose REST API Template with ES6/ES7 and Docker Support",
+	"author": "pepe_kriek",
+	"date": "2017-06-13T13:06:44.255Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"express",
+			"babel",
+			"mongoose",
+			"mongodb",
+			"rest-api"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md express, mongoose rest api project should it easy bootstrap api. babel es6-es7 is set out the box, along eslint standard. dockerfile is included basic containerization. goodiescors is node.js package providing connect/express middleware can used enable cors various options.helmet helps secure express apps setting various http headers. 's a silver bullet, it help!winston multi-transport async logging library node.js. \"chill winston! ... put in logs.\"bluebird is full featured promise library unmatched performance.express-validation is middleware validates body, params, query, headers cookies a request returns response errors; any the configured validation rules fail.developmentstat dev server:npm start tdd mocha is started --watch, it re-runs tests each file change:npm run tddadding new endpoint1. create new model (src/models/)import apimodel 'utils/apimodel'const todo = apimodel('todo', { title: string, done: boolean})export default todo.model2. create controller business logic (src/controllers)import todo 'models/todo'export const list = (where, options) => todo.list(where, options)export const = (id, populate) => todo.(id, populate)export const create = (payload) => todo.create(payload)export const update = (id, payload) => todo.(id).(doc => doc.update(payload))export const remove = (id) => todo.(id).(doc => doc.hide())export default { list, , create, update, remove}3. define param validations (src/routes/todos/paramvalidations.js)import joi 'utils/customjoi'export default { create: { body: { title: joi.string().trim().required(), done: joi.boolean() } }, update: { body: { title: joi.string().trim(), done: joi.boolean() } }}4. add route handlers (src/routes/todos/index.js)import { router } 'express'import validate 'express-validation'import { list, create, , update, remove } 'utils/routehandlers'import controller 'controllers/todo'import validations './paramvalidations'const router = router()router.route('/') .(list(controller)) .post(validate(validations.create), create(controller))router.route('/:id') .(get(controller)) .put(validate(validations.update), update(controller)) .delete(remove(controller))export default router5. map route main routerimport { router } 'express'import todos './todos'const router = router()router.('/todos', todos)export default routerfeatures included all endpoints: /todos?skip=5&limit=20&sort=-createdat&populate=user,commets.user&done=trueskip & limit easy paginationsort result data any filed, defined the prefix - ie.: -createdat will return data descpopulate field a model, multiple fields are supported a comma separated listx-total-count is returned the response header, the total number matching documents other arbitrary filed be used query results by listing in request url ie.: done=truepost /todoscreatedat added the modelupdatedat added the modeldelete /todos/:todoidsoft deletes document form database flipping hidden flagdeploy production build:npm run buildbuild docker image the app ( sure change petergombos/api-template package.json):npm run build:dockerrun image (change petergombos/api-template your image name):docker run -p 3000:3000 -e db=mongodb_host petergombos/api-templatedeploy image dockerhub (test, build, docker image build, docker push)npm run deploy's , enjoy!"
+}

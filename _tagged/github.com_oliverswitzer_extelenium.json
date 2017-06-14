@@ -1,0 +1,17 @@
+{
+	"_id": "14427297",
+	"site": "https://github.com/oliverswitzer/extelenium",
+	"title": "Npm module to make it easy to integration test chrome extensions (extelenium)",
+	"author": "switzerswish",
+	"date": "2017-06-13T13:55:34.685Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md extelenium utility make integration testing chrome extensions using webdriver.io easy ever ask yourself questions \"do have purpose this earth?\" , \"why am writing chrome extension?\" \"how hell am supposed test thing?\"try existentialenium! extelenium short. it works: it directory your chrome extension containing manifest.json, it programmaticallyload into browser instance launched webdriver.io. is useful tool you to run integration tests continually without having do terriblethings your wdio.conf.js every you a change your extension.external dependencies:requires crxmake ruby gem be installed globallyopenssl binary - already installed mac osxpeer dependencies:webdriveriousage1) install exteleniumnpm install --save-dev extelenium2) install webdriverio3) specify use chrome running integration tests your wdio.conf.js file:exports.config = { ... capabilities: [{ ... browsername: 'chrome' ... }]}4) install necessary external dependency:$ gem install crxmake( is used programmatically packaging chrome extension crx files)5) a separate terminal, run selenium server wdio talk (which should installed during step 2)$ selenium-standalone start6) provided script run integration tests your extension loaded$ ./node_modules/.bin/extelenium --extension -sample-extension/ --wdio-config wdio.conf.jssetup local development$ npm install -g yarninstall dependencies:$ yarn install debugging above command you an error looks this:## is issue `node-fibers` ##`/users/pivotal/workspace/web-driver-io--chrome-extensions/node_modules/fibers/bin/darwin-x64-51/fibers.node` is missing.try running to fix issue: /usr/local/cellar/node/7.10.0/bin/node /users/pivotal/workspace/web-driver-io--chrome-extensions/node_modules/fibers/builderror: couldn't initialise framework \"wdio-jasmine-framework\".error: missing binary. message above. object.<anonymous> (/users/pivotal/workspace/web-driver-io--chrome-extensions/node_modules/fibers/fibers.js:20:8) module._compile (module.js:571:32) object.module._extensions..js (module.js:580:10) module.load (module.js:488:32) trymoduleload (module.js:447:12) function.module._load (module.js:439:3) module.require (module.js:498:17) require (internal/module.js:20:19) object.<anonymous> (/users/pivotal/workspace/web-driver-io--chrome-extensions/node_modules/fibers/future.js:2:13) module._compile (module.js:571:32) try using node v6.10.*install external dependencies:$ gem install crxmakerunning tests:$ yarn -tests run unit tests feature tests :$ yarn unit-tests$ yarn feature-tests"
+}

@@ -1,0 +1,28 @@
+{
+	"_id": "14315432",
+	"site": "https://github.com/van-nguyen/webpack-cdn-plugin",
+	"title": " CDN Extension for the HTML Webpack Plugin",
+	"author": "kaizoku111",
+	"date": "2017-06-13T13:08:55.997Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"webpack",
+			"webpack2",
+			"webpack-plugin",
+			"cdn",
+			"cdnjs",
+			"unpkg",
+			"assets",
+			"nodejs",
+			"node",
+			"html",
+			"yarn",
+			"npm"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md cdn extension the html webpack pluginenhances html-webpack-plugin functionality allowing to specify modules want externalize node_modules development a cdn production.basically will allow to greatly reduce build when developing improve page load performance production.installation is recommended run webpack node 5.x higherinstall plugin npm:npm install webpack-cdn-plugin --save-dev yarnyarn add webpack-cdn-plugin --devbasic usagerequire plugin your webpack config:const htmlwebpackplugin = require('html-webpack-plugin');const webpackcdnplugin = require('webpack-cdn-plugin');add plugin your webpack config:module.exports = { // ... plugins: [ htmlwebpackplugin(), webpackcdnplugin({ modules: [ { name: 'vue', var: 'vue', style: 'dist/vue.css' }, { name: 'vue-router' } ], publicpath: '/node_modules' }) ] // ...}; will generate index.html file something below:<!doctype html><html> <head> <meta charset=\"utf-8\"> <title>webpack app</title> <link href=\"//unpkg.com/vue@2.3.3/dist/vue.css\" rel=\"stylesheet\"> </head> <body> <script type=\"text/javascript\" src=\"//unpkg.com/vue@2.3.3/dist/vue.runtime.common.js\"></script> <script type=\"text/javascript\" src=\"//unpkg.com/vue-router@2.5.3/dist/vue-router.common.js\"></script> <script type=\"text/javascript\" src=\"/assets/app.js\"></script> </body></html> you set prod false, will output urls using publicpath, you might need expose as sort static route.<!doctype html><html> <head> <meta charset=\"utf-8\"> <title>webpack app</title> <link href=\"/node_modules/vue/dist/vue.css\" rel=\"stylesheet\"> </head> <body> <script type=\"text/javascript\" src=\"/node_modules/vue/dist/vue.runtime.common.js\"></script> <script type=\"text/javascript\" src=\"/node_modules/vue-router/dist/vue-router.common.js\"></script> <script type=\"text/javascript\" src=\"/assets/app.js\"></script> </body></html> can use own custom html template, please refer html-webpack-plugin.please the example folder a basic working example.configuration can pass object options webpackcdnplugin. allowed values are follows:modules:array available options each module, is part an array.name:string name the module want externalizevar:string (optional) variable will assigned the module global scope, webpack requires . if supplied it be same the name.path:string (optional) can specify path the main file will used, is useful you the minified version example main does point it.style:string (optional) the module comes style sheets, can specify as path.prod:boolean | trueprod flag defaults true, will output uri using cdn, false will the file node_modules folder locally.produrl:string | //unpkg.com/:name@:version/:path can specify custom template url the following replacement strings::name: name the module e.g. vue:version: version the module e.g. 1.0.0:path: path the file e.g. lib/app.min.js common example is can cdnjs e.g. //cdnjs.cloudflare.com/ajax/libs/:name/:version/:path. not specified will fallback using unpkg.com.devurl:string | /:name/:pathsimilar produrl, option overrides default template url when prod is falsepublicpath:string (optional)prefixes assets this string, none is provided will fallback the set globally webpack.options.output.publicpath, note this is always empty prod is true that makes of cdn location it is remote resource.contribution is pretty simple plugin caters mostly my needs. however, have made as flexible customizable possible. you happen find bugs, please report in issues can help improve codebase, pull requests are always welcomed."
+}

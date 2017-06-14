@@ -1,0 +1,19 @@
+{
+	"_id": "14097545",
+	"site": "https://github.com/maxhallinan/git-chipper",
+	"title": " git-chipper - batch delete local branches",
+	"author": "noshbrinken",
+	"date": "2017-06-13T13:35:27.371Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cli",
+			"git",
+			"git-chipper"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md git-chipper interactive cli batch deleting local branches.install$ npm install --global git-chippercli$ git-chipper --help interactive cli batch deleting local branches. usage $ git-chipper options -, --all select branches. -f, --force force delete selected branches. -n, -- select branches named this comma-separated list. examples $ git-chipper # ... follow terminal prompt instructions $ git-chipper --=foo,bar,baz # ... follow terminal prompt instructionslicensemit © max hallinan"
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "14489784",
+	"site": "https://github.com/twobucks/wethr#readme",
+	"title": " Wethr – get current weather from the command line",
+	"author": "shime",
+	"date": "2017-06-13T13:04:45.117Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md wethrcommand line weather tool.installationnpm install -g wethrexamples current weather$ wethr current weather metric units$ wethr --metric current weather imperial units$ wethr --imperiallicensemit"
+}

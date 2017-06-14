@@ -1,0 +1,20 @@
+{
+	"_id": "14342745",
+	"site": "https://github.com/haydenjameslee/UnityRefChecker",
+	"title": " Unity3D unassigned reference warnings at compile time",
+	"author": "haydenlee",
+	"date": "2017-06-13T13:08:16.133Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"unity3d",
+			"unity3d-plugin",
+			"c-sharp",
+			"oss"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md unityrefcheckerunassigned reference warnings compile , across scenes.unityrefchecker helps avoid null references monobehaviours looking through monobehaviour references a scene warning in unity's console a reference has been assigned.fields cause log:unassigned public monobehaviour fields do have [ignorerefchecker] [hideininspector]unassigned private monobehaviour fields do have [ignorerefchecker] do [serializefield]examplehere are example logs:getting startedopen unity projectclone project the assets/ folderadd [ignorerefchecker] attribute front any members you wish keep unassigned unity, to window -> refchecker run commands configure settingscommandscheck build scenes - checks monobehaviour references all scenes listed the unity build settingscheck open scene - checks monobehaviour references the currently active sceneattributesignorerefchecker - add attribute fields you wish keep unassigned. refchecker not warn about fieldssettingspropertydescriptiondefault valuecheck compilationruns check build scenes command every unity finishes compilingfalselog type severity the log using unity's logtype (error, log, warning)errorcolorful logsadds color the unity console logs highlight important infotruetodoinclude prefabs checkstesting test refchecker create new unity project, clone refchecker set a scene this: open refchecker window run commands. refcheckertestcomponent has expected results comments."
+}

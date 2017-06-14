@@ -1,0 +1,38 @@
+{
+	"_id": "14416094",
+	"site": "https://github.com/cilium/cilium",
+	"title": "Cilium/cilium: Linux Native, HTTP Aware Networking and Security for Containers",
+	"author": "Daviey",
+	"date": "2017-06-13T13:56:31.947Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"networking",
+			"microservices",
+			"containers",
+			"bpf",
+			"security",
+			"kubernetes",
+			"kubernetes-networking",
+			"docker",
+			"api",
+			"http",
+			"cni",
+			"kernel",
+			"loadbalancing",
+			"monitoring",
+			"troubleshooting",
+			"xdp"
+		],
+		"languages": [
+			"go",
+			"c",
+			"shell",
+			"c++",
+			"makefile",
+			"perl6",
+			"ruby"
+		]
+	},
+	"content": "readme.md cilium is open source software providing transparently securing networkconnectivity loadbalancing between application containers servicesdeployed using linux container management platforms docker kubernetes. new linux kernel technology called ebpf is the foundation cilium, enables dynamic insertion bpf bytecode the linux kernel. ciliumgenerates ebpf programs each individual application container providenetworking, security, loadbalancing visibility. features overviewsecurity policies: enforcement security policies application (l7) networking (l3-l4) layer. application level policies include filtering http protocol properties such method, path, host, headers.networking policies include container/pod/service interconnectivity rulesbased labels, restriction traffic certain cidr /or port ranges both ingress egress.networking: simple flat layer 3 network the ability spanmultiple clusters connects application containers services. simpleip allocation using host scope allocators (dedicated /24 per cluster node ipv4, dedicated /112 per cluster node ipv6). choice eitherintegrating linux routing run routing daemon to create overlay network using encapsulation (vxlan/geneve).load balancing: distributed load balancing east-west traffic application container application container, e.g. implementation kubenretes services. north-south traffic load balance external traffic,e.g. implementation kubernetes ingress. load-balancing performed direct server return (dsr) default improved performance.troubleshooting: built- troubleshooting tools providing alternative traditional tcpdump troubleshooting techniques.integrations:network plugin integrations: cni, libnetworkcontainer runtime events: containerdkubernetes: networkpolicy, labels, ingress, servicelogging: fluentdgetting startedwhy cilium?getting started vagrantarchitectureadministrator guidefrequently asked questionscontributing is ebpf xdp?berkeley packet filter (bpf) is linux kernel bytecode interpreter originallyintroduced filter network packets, e.g. tcpdump socket filters. bpf instruction set surrounding architecture has recently beensignificantly reworked additional data structures such hash tables arrays keeping state well additional actions support packetmangling, forwarding, encapsulation, etc. furthermore, compiler end llvm allows programs be written c compiled bpf instructions. in-kernel verifier ensures bpf programs are safe run a jitcompiler converts bpf bytecode cpu architecture specific instructions native execution efficiency. bpf programs be run various hookingpoints the kernel such for incoming packets, outgoing packets, systemcalls, kprobes, uprobes, tracepoints, etc.bpf continues evolve gain additional capabilities each linuxrelease. cilium leverages bpf perform core data path filtering, mangling,monitoring redirection, requires bpf capabilities are any linuxkernel version 4.8.0 newer ( latest current stable linux kernel is4.10.x).many linux distributions including coreos, debian, docker's linuxkit, fedora, ubuntu already ship kernel versions >= 4.8.x. can check linuxkernel version running uname -. if are yet running recentenough kernel, check documentation your linux distribution how runlinux kernel 4.9.x later. more detail kernel versions, : prerequisites xdp is further step evolution enables run specific flavor bpfprograms the network driver direct access the packet's dma buffer. is, definition, earliest possible point the software stack,where programs be attached in order allow a programmable, highperformance packet processor the linux kernel networking data path.further information bpf xdp targeted developers be found the bpf xdp reference guide.installation the installation instructionspresentationsdockercon, april 18, 2017: cilium - network application security bpf xdpcncf/kubecon meetup, march 28, 2017: linux native, http aware network securitydocker distributed systems summit, berlin, oct 2016: slides, videonetdev1.2, tokyo, sep 2016 - cls_bpf/ebpf updates since netdev 1.1: slides, videonetdev1.2, tokyo, sep 2016 - advanced programmability recent updates tcs cls_bpf: slides, videocontainercon na, toronto, aug 2016 - fast ipv6 container networking bpf & xdp: slidespodcastssoftware gone wild ivan pepelnjak, oct 2016: blog, mp3ovs orbit ben pfaff, may 2016: blog, mp3community blog postscilium network application security bpf xdp, apr 2017:blogcilium, bpf xdp, google open source blog, nov 2016:blogweekly hangout developer community is hanging on zoom a weekly basis chat. everybody is welcome.weekly, monday, 9:00 am pt, 12:00 pm (noon) et, 6:00 pm cestjoin zoomcontact you any questions feel free contact on slacklicense cilium user space components are licensed under apache license, version 2.0. bpf code templates are licensedunder general public license, version 2.0."
+}

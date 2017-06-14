@@ -1,0 +1,17 @@
+{
+	"_id": "14367469",
+	"site": "https://github.com/CodePalTutorials/django-elasticbeanstalk-starter",
+	"title": "Looking for Feedback on Deploy Django to AWS in 5 minutes starter template",
+	"author": "shivam_mani",
+	"date": "2017-06-13T13:57:07.679Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md django aws elastic beanstalk starter template a django app and running elastic beanstalk under 5 minutes starter template get up running django app works of box aws elastic beanstalk. template contains following:default settings project root, static root.separate development, testing production settings seamless deploymentcelery fully configured run elastic beanstalk appautomatic db migrations deploying. to start?prerequisites your local machine, should following things configured pre requisite:postgres dbrabbit mq brokeraws cli installed configured. complete prerequisites, refer tutorial.steps your project folder, clone contents this repo : $ git clone git@github.com:codepaltutorials/django-elasticbeanstalk-starter.git .clone contents inside repo, hence [dot] the end the command above.init python virtual environment install required libs requirements.$ virtualenv venv$ pip install -r requirements.txtadd local database settings ebdjango/local_settings.py.create elastic beanstalk app provision postgres database that app.$ eb init -p python2.7 <appname>$ eb init$ eb create production-env provision database elastic beanstalk app, refer step 6 this tutorial.set correct environment variables elastic beanstalk environment. ex, make current environment production environment, set:$ eb setenv environment=prodoptions are prod, test devel.set rabbit mq broker url ebdjango/testing_settings.py & ebdjango/production_settings.py.deploy eb deploy.detailed tutorialrefer the tutorial below you need more help setting things : https://www.trysudo.com/deploying-django-app--aws-using-elastic-beanstalk/) tutorial.creating & deploying basic django app elastic beanstalk: https://www.trysudo.com/deploying-django-app--aws-using-elastic-beanstalk.adding celery django elastic beanstalk app: https://www.trysudo.com/asynchronous-tasks--cron-jobs--aws-django-app-using-celery/contribution suggestions contribution welcome. feel free send pr, raise issues & feature requests."
+}

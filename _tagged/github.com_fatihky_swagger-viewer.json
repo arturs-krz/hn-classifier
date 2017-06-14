@@ -1,0 +1,16 @@
+{
+	"_id": "14408312",
+	"site": "https://github.com/fatihky/swagger-viewer",
+	"title": " Swagger-viewer – view your swagger specs easily",
+	"author": "fatihky",
+	"date": "2017-06-13T13:06:45.318Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md swagger-viewer command line tool view swagger spec file. install, run npm install -g swagger-viewer. use: swagger-viewer [--open --port port --host host --] spec tool accepts both swagger spec files urls.example usage:swagger-viewer swagger.yamlswagger-viewer http://example.com/swagger.yamlswagger-viewer --open -- swagger.yaml # open documentation browserswagger-viewer --port 8888 swagger.yaml # set listen port"
+}

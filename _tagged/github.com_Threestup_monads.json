@@ -1,0 +1,24 @@
+{
+	"_id": "14340378",
+	"site": "https://github.com/Threestup/monads",
+	"title": "Type Safe Option and Result Type for TypeScript and JavaScript; Inspired by Rust",
+	"author": "slavomirvojacek",
+	"date": "2017-06-13T13:58:18.458Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"monads",
+			"javascript",
+			"typescript",
+			"types",
+			"option",
+			"result",
+			"rust"
+		],
+		"languages": [
+			"typescript",
+			"shell"
+		]
+	},
+	"content": "readme.md type safe option result typeinspired rustnote: works typescript 2.1+. enabling strictnullchecks is strongly recommended.documentationoption typeresult typeinstallyarn add tsp-monadsbasic usageimport { option, , none } 'tsp-monads'const divide = (numerator: number, denominator: number): option<number> => { (denominator === 0) { return none } else { return (numerator / denominator) }};// return value the function is optionconst result = divide(2.0, 3.0);// pattern match retrieve valueconst message = result.match({ : _ => `result: ${_}`, none: 'cannot divide 0',});console.log(message); // 'result: 0.6666666666666666'import { result, ok, err } 'tsp-monads'function getindex(values: string[], value: string): result<number, string> { const index = values.indexof(value); switch (index) { case -1: return err('value found'); default: return ok(index); }}console.log(getindex(['', 'b', 'c'], 'b')); // ok(1)console.log(getindex(['', 'b', 'c'], 'z')); // err('value found')...documentationoption typeresult type"
+}

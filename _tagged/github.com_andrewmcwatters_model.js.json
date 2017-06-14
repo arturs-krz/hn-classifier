@@ -1,0 +1,18 @@
+{
+	"_id": "14453723",
+	"site": "https://github.com/andrewmcwatters/model.js",
+	"title": "Model.js – Binds an `input`, `select`, `textarea` to a property",
+	"author": "andrewmcwatters",
+	"date": "2017-06-13T13:55:22.020Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"model"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md model.jsbinds input, select, textarea ( custom form control) a propertyinstallnpmnpm install andrewmcwatters/model.jsusage<input data-model=\"string\"></input>argumentsparamtypedetailsdata-modelstringmodeleventsmodelchangedispatched every the model is changed.targetdocumentparametersparamtypedetailspropertystringproperty the controller.valuevalue the property.license mit licensecopyright (c) 2017 andrew mcwatters. http://andrewmcwatters.compermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings the software."
+}

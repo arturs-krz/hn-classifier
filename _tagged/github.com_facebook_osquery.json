@@ -1,0 +1,26 @@
+{
+	"_id": "14346127",
+	"site": "https://github.com/facebook/osquery",
+	"title": "SQL powered operating system instrumentation, monitoring, and analytics",
+	"author": "zalmoxes",
+	"date": "2017-06-13T13:58:18.948Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"security",
+			"monitoring",
+			"intrusion-detection",
+			"sql"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"objective-c++",
+			"c",
+			"makefile",
+			"thrift",
+			"shell"
+		]
+	},
+	"content": "readme.md osqueryosquery is operating system instrumentation framework os x/macos, windows, linux. tools low-level operating system analytics monitoring both performant intuitive.platformbuild statusmacos 10.12homepage:https://osquery.iocentos 6.xdownloads:https://osquery.io/downloadscentos 7.xtables:https://osquery.io/tablesubuntu 14.04packs:https://osquery.io/packsubuntu 16.04guide:https://osquery.readthedocs.orgwindows 2016https://osquery-slack.herokuapp.comwindows 10 are many additional continuous build jobs perform dynamic static analysis, test package build process, rebuild dependencies source, assure deterministic build macos linux, fuzz test virtual tables, build several platforms included above. code safety, testing rigor, data integrity, a friendly development community are primary goals. is osquery?osquery exposes operating system a high-performance relational database. allows to write sql-based queries explore operating system data. osquery, sql tables represent abstract concepts such running processes, loaded kernel modules, open network connections, browser plugins, hardware events file hashes.sql tables are implemented via simple plugin extensions api. variety tables already exist more are being written: https://osquery.io/tables. best understand expressiveness is afforded you osquery, consider following sql queries:list users:select * users;check processes have deleted executable:select * processes where on_disk = 0; the process name, port, pid, processes listening all interfaces:select distinct processes.name, listening_ports.port, processes.pid listening_ports join processes using (pid) where listening_ports.address = '0.0.0.0';find every os x launchdaemon launches executable keeps running:select name, program || program_arguments executable launchd where (run_at_load = 1 keep_alive = 1) (program != '' program_arguments != '');check arp anomalies the host's perspective:select address, mac, count(mac) mac_count arp_cache group mac having count(mac) > 1;alternatively, could use sql sub-query accomplish same result:select address, mac, mac_count (select address, mac, count(mac) mac_count arp_cache group mac) where mac_count > 1; queries be:performed an ad-hoc basis explore operating system state using osqueryi shellexecuted via scheduler monitor operating system state across set hostslaunched custom applications using osquery thrift apisdownloads / install latest stable builds os x (pkg) linux (deb/rpm), well yum apt repository information visit https://osquery.io/downloads. windows 10, 8, server 2012 2016 packages are published chocolatey. list supported platforms running osquery is massive:apple os x 10.10, 10.11, macos 10.12 64bit linux os glibc >= 2.13 zlib >= 1.2windows 10, 8, server 2012, 2016building sourcebuilding osquery source is encouraged! check the documentation get started join developer community giving feedback github issues submitting pull requests! officially support subset os versions building it is rather intense.ubuntu 14.04 16.04, centos 6.5 7apple macos 10.12windows 10 server 2016file integrity monitoring (fim)osquery provides several fim features too! as os concepts are represented tabular form, daemon track os events later expose in table. tables file_events yara_events be selected retrieve buffered events. configuration allows to organize files directories monitoring. those sets be paired lists yara signatures configured additional monitoring such access events.process socket auditing are several forms eventing osquery along file modifications accesses. range disk mounts, network reconfigurations, hardware attach detaching, process starting. a complete set review table documentation look names the _events suffix.vulnerabilitiesfacebook has bug bounty program includes osquery. you find security vulnerability osquery, please submit via process outlined that page do file public issue. more information finding vulnerabilities osquery, a recent blog post bug-hunting osquery.learn moreread launch blog post background the project. you're interested learning more osquery, visit users guide browse rfc-labeled github issues. development usage discussion is happing the osquery slack, grab invite automatically: https://osquery-slack.herokuapp.com/!"
+}

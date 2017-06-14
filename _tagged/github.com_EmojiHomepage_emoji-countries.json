@@ -1,0 +1,18 @@
+{
+	"_id": "14466747",
+	"site": "https://github.com/EmojiHomepage/emoji-countries",
+	"title": "Emoji-countries: An open list of the most typical emojis of many countries",
+	"author": "stanislavb",
+	"date": "2017-06-13T13:55:02.740Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"emoji",
+			"emojis",
+			"list",
+			"json"
+		],
+		"languages": []
+	},
+	"content": "readme.md emoji-countries list the typical emojis all countries emojis list be used the emoji homepage .however, it is open source initiative, other emoji keyboards, websites tools, and are welcome adopt . that , we easily find use relevant emojis each country .contributionschanges improvements are more welcome! feel free fork open pull request against master. adding emojis the list should add both this readme.md to emoji-countries.json file.ideas what should included:foodanimalsflowersactivitiesanything else you that associate country please, opening pull request, consider adding reason why each emojis is associated the specific country.countriesordered alphabeticallycountryemojis australia belgium brazil bulgaria canada china costa rica france germany hungary india ireland italy japan kenya mexico netherlands russia south africa spain sweden switzerland uk usalicenseemoji-countries is licensed under mit license.please, you the json provided this repo, add relevant link it."
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "14419510",
+	"site": "https://github.com/nasser/nostrand",
+	"title": "Clojure on Mono",
+	"author": "macco",
+	"date": "2017-06-13T13:56:31.315Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c#",
+			"clojure",
+			"shell"
+		]
+	},
+	"content": "readme.md nostrandstandalone runtime environment repl clojureclr mono.statusvery early, pre-alpha. everything change. don't for anything critical.installing$ git clone https://github.com/nasser/nostrand.git$ cd nostrand$ xbuild$ ln -s `pwd`/bin/release/nos ~/bin/$ nos replnostrand 0.0.1.6940 (master/a1e4260* mon nov 28 03:51:20 est 2016)mono 4.8.0 (mono-4.8.0-branch/f5fbc32 mon nov 14 14:18:03 est 2016)clojure 1.7.0-master-snapshotrepl 0.0.0.0:11217user>usagenos function [arg...]nostrand does thing: runs function.functions are clojure functions. without namespace, resolve the nostrand.tasks namespace is built .$ nos versionnostrand 0.0.1.6940 (master/a1e4260* mon nov 28 03:51:20 est 2016)mono 4.8.0 (mono-4.8.0-branch/f5fbc32 mon nov 14 14:18:03 est 2016)clojure 1.7.0-master-snapshot$ nos replnostrand 0.0.1.6940 (master/a1e4260* mon nov 28 03:51:20 est 2016)mono 4.8.0 (mono-4.8.0-branch/f5fbc32 mon nov 14 14:18:03 est 2016)clojure 1.7.0-master-snapshotrepl 0.0.0.0:11217user> a namespace are searched using clojure's normal namespace resolution machinery. current directory is the load path default.$ cat tasks.clj(ns tasks)(defn build [] (binding [*compile-path* \"build\"] (compile 'important.core) (compile 'important.util)))$ nos tasks/buildcommand line arguments are parsed edn passed the function.$ cat tasks.clj(ns tasks)(defn build [utils?] (binding [*compile-path* \"build\"] (compile 'important.core) ( utils? (compile 'important.util))))$ nos tasks/build true entry namespace also set your classpath, load assemblies, eventually manage dependencies.$ cat tasks.clj(assembly-load- \"assemblies/somelib.dll\")(ns tasks (:import [somelib sometype]))(defn build [utils?] (sometype/dothing) (binding [*compile-path* \"build\"] (compile 'important.core) ( utils? (compile 'important.util))))$ nos tasks/build truenamenostrand avenue is major street subway stop brooklyn near where was living i began project.legalcopyright © 2016-2017 ramsey nasserlicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, software distributed under license is distributed an \" is\" basis, without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

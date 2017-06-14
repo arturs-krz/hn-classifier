@@ -1,0 +1,16 @@
+{
+	"_id": "14412726",
+	"site": "https://github.com/rafrex/react-fast-mount",
+	"title": " React Fast Mount",
+	"author": "rafrex",
+	"date": "2017-06-13T13:06:44.767Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md react fast mountlive examplefast mount slow loading components improved responsiveness perceived performance. allows site respond instantly user input, if is show blank screen while component is loading, the site is perceived fast responsive. difference is noticeable mobile devices, especially slower devices.usagereact fast mount is high order component (hoc) - wrap component thefast mount function before export, e.g. export default fastmount(mycomponent);.$ yarn add react-fast-mount# $ npm install --save react-fast-mountimport react 'react';import fastmount 'react-fast-mount';class mycomponent extends react.component { ... render() { ... }}// wrap component fastmount fast mount export default fastmount(mycomponent);// // you optionally provide reactelement a second argument use a container// mycomponent - container be rendered the render (fast),// then mycomponent be rendered inside it the second renderexport default fastmount(mycomponent, <div style={{ height: '200px' }} />)"
+}

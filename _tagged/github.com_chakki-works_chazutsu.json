@@ -1,0 +1,20 @@
+{
+	"_id": "14355317",
+	"site": "https://github.com/chakki-works/chazutsu",
+	"title": " Download and format NLP corpus data by 1 line of code",
+	"author": "icoxfog417",
+	"date": "2017-06-13T13:07:42.485Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"natural-language-processing",
+			"dataset",
+			"machine-learning"
+		],
+		"languages": [
+			"python",
+			"jupyter notebook"
+		]
+	},
+	"content": "readme.md chazutsuphoto kaikado, traditional japanese chazutsu maker you trouble finding & getting dataset natural language processing? exampleexploring dataset googlingarrange data the model trainingtokenize data make vocabulary, convert ids... chazutsu helps from above problems. it workschazutsu offers not downloading dataest, also shuffle, split, pick samples it.>>> import chazutsu>>> r = chazutsu.datasets.moviereview.polarity(shuffle=true, test_size=0.3, sample_count=100).download() directory downloading file /your/current/directorybegin downloading moview review data dataset http://www.cs.cornell.edu//pabo/movie-review-data/review_polarity.tar.gz. dataset file is saved /your/current/directory/data/moview_review_data/review_polarity.tar.gz...file is splited review_polarity_train.txt & review_polarity_test.txt. each records are 1400 & 600 (test_size=30.00%).... review_polarity_samples.txt picking 100 records original file....done process! below files /your/current/directory/data/moview_review_data review_polarity_test.txt review_polarity_train.txt>>> r.train_data().head(5) polarity review0 0 plot : little boy born east germany ( nam...1 0 i arrived paris june , 1992 , was...2 0 idle hands is distasteful , crass deriva...3 0 phaedra cinema , distributor such never...4 0 -sided \" doom gloom \" documentary ...you access dataset pandas dataframe ( course can read file its path) can sample_count parameter watch data without opening huge size file supported dataset its detail are described here dealing the text data, tokenization word--id process is fundamental process. chazutsu supports .>>> import chazutsu>>> r = chazutsu.datasets.moviereview.subjectivity().download()>>> r_idx = r.to_indexed().make_vocab(min_word_count=3)>>> r_idx.train_data().head(3) subjectivity review0 0 [1840, 7, 516, 26, 566, 4, 25, 6997, 64, 8, 7,...1 0 [11, 1, 44, 1028, 20, 0, 7309, 2924, 3, 725, 8...2 1 [34, 436, 1, 918, 2, 7291, 45, 235, 0, 129, 58...>>> r_idx.train_data()[\"review\"].map(r_idx.ids_to_words).head(3)0 [cho, s, fans, are, sure, , be, entertained,...1 [, a, story, inspired, , the, tumultuous...2 [, lead, , boring, , unattractive, lif...name: review, dtype: object can to_indexed make indexed resource can set various parameters custome tokenizer execute make_vocab.additional feature on jupyter can chazutsu jupyter notebook.before execute chazutsu jupyter, have enable widget extention below command.jupyter nbextension enable --py --sys-prefix widgetsnbextensioninstallpip install chazutsusupported datasetsentiment analysismovie review datacustomer review datasetslarge movie review dataset(imdb)textual entailment multi-genre natural language inference (multinli)text classification20 newsgroupsreuters news courpus (rcv1-v2)language modelingpenn tree bankwikitext-2wikitext-103text8"
+}

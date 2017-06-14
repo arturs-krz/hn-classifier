@@ -1,0 +1,16 @@
+{
+	"_id": "14441241",
+	"site": "https://github.com/dzhou121/gonvim",
+	"title": "Neovim GUI written in Golang using libui",
+	"author": "Vinz_",
+	"date": "2017-06-13T13:55:21.743Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md neovim gui written golang, using forked ui libray https://github.com/andlabs/uirequirementsneovim (0.2)installworking macos linux get -u github.com/dzhou121/gonvim/cmd/gonvim succesfully installing gobin, can run gonvimfeaturestabline fuzzy finder the guifunction signature popuplint message popupfont change font, install https://github.com/equalsraf/neovim-gui-shimchange font size call:guifont monaco:h13change line space:guilinespace 8"
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "14382813",
+	"site": "https://github.com/hypertrack/hypertrack-live-android",
+	"title": " Build live location sharing in your app with HyperTrack",
+	"author": "arjun27",
+	"date": "2017-06-13T13:07:23.743Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"location",
+			"location-services",
+			"locations",
+			"location-based-services",
+			"fusedlocation",
+			"fusedlocationapi",
+			"livelocation",
+			"eta"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md live location sharing hypertrack you track uber turn--turn an accurate eta, why track friends, colleagues, buyers, sellers similarly! facebook messenger google maps recently added live location sharing their apps. its turn. open source repo uses hypertrack enable location sharing real- tracking your friends family. scrape parts this app add live location sharing your own app, fork repo modify to own need build own brand app.example app you to experience app share live location amongst friends & family, hypertrack live the play store.usage build live location sharing within own appfollow step--step tutorial will walk through you embed code your app. use as own appclone project. your hypertrack api keys here, add publishable key key.properties file. the google maps api key add to androidmanifest.xml. release app the play store, will to change app's package name.change package name the androidmanifest.xml file.refactor name your package right click refactor rename the tree view, android studio display window, select \"rename package\" option.change application id the build.gradle file. once done, clean rebuild project. hypertrack sdk requires fcm/gcm a battery efficient real- tracking experience. refer the fcm integration guide.uncomment hypertracklivefcmlistenerservice service tag the androidmanifest.xml file.uncomment hypertracklivefcmlistenerservice file. setting your account the firebase console, will need add google-services.json file your app.uncomment apply google-services plugin build.gradle file.documentation detailed documentation the apis, customizations what you build using hypertrack, please visit official docs.contributefeel free clone, , and contribute via pull requests. 'd love see pull requests - send in! please the issues tracker raise bug reports feature requests. are excited see live location feature build your app using project. ping at help@hypertrack.io once build , and would love feature app our blog!supportjoin slack community instant responses, interact our growing community. can email at help@hypertrack.com.dependenciesgoogle v7 appcompat librarygoogle design support librarygoogle libphonenumber librarysquare retrofitsquare picassotajchert waitingdots"
+}

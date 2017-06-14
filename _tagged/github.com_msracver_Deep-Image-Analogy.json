@@ -1,0 +1,24 @@
+{
+	"_id": "14419962",
+	"site": "https://github.com/msracver/Deep-Image-Analogy",
+	"title": "Deep Image Analogy",
+	"author": "tevlon",
+	"date": "2017-06-13T13:56:31.914Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"style-transfer",
+			"deep-learning"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"cuda",
+			"cmake",
+			"protocol buffer",
+			"c",
+			"other"
+		]
+	},
+	"content": "readme.md deep image analogy major contributors this repository include jing liao, yuan yao, lu yuan, gang hua sing bing kang microsoft research.introductiondeep image analogy is technique find semantically-meaningful dense correspondences between input images. adapts notion image analogy features extracted a deep convolutional neural network.deep image analogy is initially described a siggraph 2017 paperdisclaimer is official c++ combined cuda implementation deep image analogy. is worth noticing :our codes are based caffe. codes have been tested windows 10 windows server 2012 r2 cuda 8 7.5. codes have been tested several nvidia gpu: titan x, titan z, k40, gtx770. size input image is limited, mostly should be large 700x500 you 1.0 parameter ratio.license© microsoft, 2017. licensed under bsd 2-clause license.citation you find deep image analogy (include deep patchmatch) helpful your research, please consider citing: @article{liao2017visual, title={visual attribute transfer through deep image analogy}, author={liao, jing yao, yuan yuan, lu hua, gang kang, sing bing}, journal={arxiv preprint arxiv:1705.01088}, ={2017} }applicationphoto style major application our code is transfer style a painting a photo.style style can swap styles between artworks.style photo most challenging application is converting sketch a painting a photo.photo photo can color transfer between photos, such generating lapse.getting startedprerequisitewindows 7/8/10 ( linux mac os x user, please check branch linux.)cuda 8 7.5visual studio 2013buildbuild caffe first. follow tutorial here.edit deep_image_analogy.vcxproj under windows/deep_image_analogy make cuda version it match yours .open solution caffe add deep_image_analogy project.build project deep_image_analogy.download models need download models vgg-19 model before start run demo. to windows/deep_image_analogy/models/vgg19/ folder download:http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/vgg_ilsvrc_19_layers.caffemodeldemoopen main.cpp windows/deep_image_analogy/source/ see to run demo. need set several parameters have been mentioned the paper. be more specific, need setpath_model, where vgg-19 model is.path_a, input image .path_bp, input image bp.path_output, output path.gpu number, gpu id want run experiment.ratio, ratio resize inputs before sending into network.blend weight, level weights blending process.flag wls filter, you are trying do photo style transfer, recommend switch on keep structure original photo.direct run also provide pre-built executable file folder windows/deep_image_analogy/exe/, don't hesitate try .to run deep_image_analogy.exe, need write command line :deep_image_analogy.exe ../models/ ../demo/content.png ../demo/style.png ../demo/output/ 0 0.5 2 0 meanspath_model=../models/path_a=../demo/content.pngpath_bp=../demo/style.pngpath_output=../demo/output/gpu number=0ratio=0.5blend weight=2flag wls filter=0( 0: wls filter disabled, 1: wls filter enabled, required the case photo photo)tips often test images size 600x400 448x448. set ratio 1.0 default. specifically, face (portrait) cases, find ratio = 0.5 often the results better.blend weight controls result appearance. you the result be more original content photo, please increase ; if want result more faithful the style, please reduce .for four applications, settings are mostly ( not definitely):photo style: blend weight=3, ratio=0.5 face ratio=1 other cases.style style: blend weight=3, ratio=1.style photo: blend weight=2, ratio=0.5.photo photo: blend weight=3, ratio=1.acknowledgments codes acknowledge eigen, patchmatch, cudalbfgs caffe. also acknowledge the authors our image style examples we not own copyrights them."
+}

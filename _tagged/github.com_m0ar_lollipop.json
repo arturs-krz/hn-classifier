@@ -1,0 +1,16 @@
+{
+	"_id": "14380085",
+	"site": "https://github.com/m0ar/lollipop",
+	"title": "Lollipop: Programming language with support for linear types",
+	"author": "adamnemecek",
+	"date": "2017-06-13T13:57:07.793Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": "readme.md lollipop is general purpose, functional programming language support linear types. is bachelor thesis project chalmers university technology, gothenburg.goal main goal is develop proof--concept linear types a basic functional language. is enable easy access the concept developers are interested learning linear types, a practical environment. project thesis be found here!running programs lollipop lollipop interpreter, loli, (loli.hs) is used load run programs written lollipop (.lp).requirements lollipop interpreter is built haskell therefore requires glasgow haskell compiler, ghc run.running lollipop interpreter run lollipop interpreter, fire a terminal, move the lollipop root directory executerunghc -iast/:grammar/ loli.hs will some loading interpreter, when 's done terminal prompt:> here can load lollipop programs (ending .lp) using :l, reloading programs using :r leaving interpreter :q.e.g: loading the program sugar (filename sugar.lp):>:l sugarsuccessfully loaded sugarsugar> here can execute functions expressions the loaded programe.g: running basic functions sugar >:l sugarsuccessfully loaded sugarsugar> fac 5120sugar> head [7,8,9]7sugar> map (\\x -> x+2) [4,6,8][6,8,10]disclaimer for the lollipop interpreter is a beta-phase syntax-errors unsuccessfully loaded programs cause to crash. this case, restart using same command again:runghc -iast/:grammar/ loli.hs rare cases interpreter gets stuck an evaluation loop. the interpreter does , try ending process using ctrl+c, by killing ghc-process."
+}

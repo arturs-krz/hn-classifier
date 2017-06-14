@@ -1,0 +1,23 @@
+{
+	"_id": "14500156",
+	"site": "https://github.com/shoumma/ReForum",
+	"title": "A Forum Application. Built with ReactJS, Redux, Webpack, ExpressJS and MongoDB",
+	"author": "shoumma",
+	"date": "2017-06-13T14:09:56.561Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"reactjs",
+			"redux",
+			"expressjs",
+			"passportjs",
+			"mongodb-database"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md reforum minimal forum application built the following technologies:reactreduxwebpackexpressjspassportjsmongodbdemo app is deployed heroku. please check out: https://reforum-app.herokuapp.com/application featuresusers post discussionusers reply opinions regarding discussionusers favorite discussionsusers their own profile pageadmin create forum categoriesadmin a lot power every users discussions opinions :-pdocumentationsapi docssystem overviewhome viewadmin viewdeploy you own serverplease sure have following software installed your system:node.js > 6.0npm / yarngitmongodb we need clone repository:$ git clone https://github.com/shoumma/reforum we to install necessary dependencies using either npm yarn:$ npm $ yarnsince app currently uses github authentication, need configure github oauth application. can register new application this link https://github.com/settings/developers need grab following information the oauth application.client idclient secretcallback url callback url is domain where github redirect user a successful login. can a domain name local host. we need append url the path /api/user/authviagithub/callback. , the complete url look :https://localhost:8080/api/user/authviagithub/callback, we need configure credentials inside the codebase. open file config/credentials.js add necessary information. file looks this:module.exports = { github_client_id: '', github_client_secret: '', github_callback_url: '', dburl: '',}; need provide the information here. can notice we need database url here too. local mongodb url looks :mongodb://localhost:27017/reforum we are ready run application. can run either run development environment the application will include hot-reload js codes using webpack the redux dev tool extension, you run production edition. default port developer edition is 8080, for production is process.env.port. run app development environment:$ npm run start:dev run app production environment:$ npm run start, if visit http://localhost:8080 ( you ran dev), the production url, will that application is and running. congratulation! , wait minute, 's showing sorry, couldn't find forum. is , we didn't create forum yet. can sign via github then visit admin panel the url http://localhost:8080/admin. application is currently configured a that, first user become admin the system.here can create forums that forum be displayed the application. first forum be used default forum.congratulation! now a clone this application your server. :-)path future add search functionalityadd unit tests both backend frontendability change name logo the site admin panel. the installation process more interactiveadd multiple theme support.licensemit license. whatever want do. :-)conclusion application is created lots . any pull request, issues contribution is very appreciated. would really great we take application the next level, where can used a platform forums.provash shoumma"
+}

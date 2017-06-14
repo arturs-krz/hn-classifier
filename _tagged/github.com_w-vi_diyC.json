@@ -1,0 +1,22 @@
+{
+	"_id": "14244896",
+	"site": "https://github.com/w-vi/diyC",
+	"title": " DiyC – educational linux container runtime",
+	"author": "viw",
+	"date": "2017-06-13T13:32:49.410Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"linux-containers",
+			"overlayfs",
+			"cgroups",
+			"container-runtime",
+			"container-image"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md diyc simple educational linux container runtime. is intentionally simple leaves lot stuff . it is single c file roughly 500 lines including comments showing corefeatures the linux used build containers. includes thecreation a container an image clarify images containers are related.documentationhttp://wvi.cz/diyc/ pure markdown the docs directory.prerequisites is educational piece software has been tested many systems, here are prerequisites:recent linux kernel supporting needed namespaces cgroupsoverlayfsip tool (iproute2 package)iptablesgccbashapart overlayfs of distros are prepared ready, notplease consult distro package manager. overlayfs is themainline kernel it should straightforward.note: kernel needs be configured support following namespacespid, mount, network uts, cgroups are needed well. of gnu/linux distros this support enabled default.installation setup creates necessary directory structure well prepares networking part iptables rules, bridge (diyc0) so . toremove networking bits bridge iptables rules run net-clean removes all.builds runtime.done also builds nsexec executes local command namespaces. nsexec --help see namespaces are available. usage is very simple sudo ./nsexec -pnu myhost bash start new bash new pid, network uts namespace."
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14411604",
+	"site": "https://github.com/sourabh2k15/party-pi",
+	"title": "Make your next party awesome hackers",
+	"author": "jsmaniac",
+	"date": "2017-06-13T13:56:41.759Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"php",
+			"shell",
+			"html",
+			"javascript"
+		]
+	},
+	"content": "readme.md party-pinote: have improvised the abandoned old \"partytube\" project ethertubes is raspi powered collaborative video jukebox make next party standoutdependencies sure pi has installed : youtube-dl, omxplayer, nodejshttps://www.raspberrypi.org/forums/viewtopic.php?p=97710 ( youtube-dl)\"sudo apt- install omxplayer\" (omx-player)wget http://node-arm.herokuapp.com/node_latest_armhf.debsudo dpkg - node_latest_armhf.deb (nodejs )sudo npm install twitter ( twitter module )end result : script run successfully shows playlist 10 seconds, plays song output folder , tweets it, whendone playing shifts to archive folder. while showing playlist shows qr code when scanned opens thewebpage allows to input youtube urls the player download add playlist. also is included managers page can used remove, shift songs playlist we are of songs shifts 3 played songs output folder archive folder keep party going until someoneadds new youtube url download. always runs background process get_songs_http.sh looks for newly added youtube urls downloads using youtube-dl, saves as name-title, ( name person added song playlist through webpage )steps get working:create folder your apache/nginx webserver, copy of files the folder. remove files php/ put directly under folder.install python dependencies: pygame the scripts executable : sudo chmod +x run.sh ( with get_songs_http.sh, show_playlist.py )open terminal run \"sudo ./run.sh \" start scriptcode breakdown: ( devs )*too lazy , will add later *"
+}

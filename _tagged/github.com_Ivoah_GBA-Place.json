@@ -1,0 +1,23 @@
+{
+	"_id": "14124022",
+	"site": "https://github.com/Ivoah/GBA-Place",
+	"title": " R/place viewer for Gameboy Advance",
+	"author": "Ivoah",
+	"date": "2017-06-13T13:35:12.942Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"gameboy",
+			"gameboy-advance",
+			"gba",
+			"reddit",
+			"place"
+		],
+		"languages": [
+			"makefile",
+			"c",
+			"python"
+		]
+	},
+	"content": "readme.md gba-placer/place viewer gameboy advancebuildingpython3 place.py"
+}

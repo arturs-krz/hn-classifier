@@ -1,0 +1,20 @@
+{
+	"_id": "14352117",
+	"site": "https://github.com/w8rbt/netscan",
+	"title": "Netscan – A fast TCP port scanner",
+	"author": "w8rbt",
+	"date": "2017-06-13T13:57:46.910Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"go",
+			"scan-ports",
+			"security-scanner"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md netscannetscan is tcp port scanner ipv4 ipv6 networks. is intended normal users run linux, windows mac systems. goal netscan is find open server ports quickly service tracking later testing deep analysis (nmap, nessus, etc.).scanning /16 one port about three seconds$ wc -l ports.txt 1 ports.txt$ wc -l ips.txt 65536 ips.txt$ netscan ips.txt ports.txt > /dev/null real 0m2.851s user 0m10.816s sys 0m3.428s get build$ get github.com/w8rbt/netscan$ build netscan.to run (pick )$ go run netscan. ips.txt ports.txt$ netscan ips.txt ports.txt > results.txt$ netscan ips.txt ports.txt | grep success$ netscan ips.txt ports.txt | grep success | awk -f , '{print $3}' > ips.txtnotes scan large networks multiple ports, 'll need increase number open files the user runs netscan. 150,000 works when scanning 40 ports /16 ipv4 networks. experiment find suitable number open files your scanner system your networks. here's example /etc/security/limits.conf works for /16 ( smaller) networks:user_name soft nofile 150000user_name hard nofile 150000 file ips.txt must a plain text file one ip address hostname per line. must contain or more entries. netscan does support cidr notation. the gen_ips.py script ( this repository) an example how generate list ips based a cidr prefix. here's example:192.168.1.54192.168.1.98192.168.1.1342001:468:c80:c111:0:401a:d2f8:de6b2001:468:c80:c111:0:401a:d2f8:de6chostname..domain file ports.txt must a plain text file one tcp port number per line. must contain least port number. typically, should something this:212223804434453389"
+}

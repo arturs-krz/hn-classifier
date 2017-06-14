@@ -1,0 +1,26 @@
+{
+	"_id": "14462148",
+	"site": "https://github.com/entrik/kathisto",
+	"title": "Angular4 and React Server-Side Rendering with Go/PhantomJS",
+	"author": "sdwolfe32",
+	"date": "2017-06-13T13:55:02.685Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"angular2",
+			"angular4",
+			"react",
+			"phantomjs",
+			"golang",
+			"prerender",
+			"docker",
+			"docker-image"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"javascript"
+		]
+	},
+	"content": "readme.md currently being used production https://trumail.iokathistokathisto (greek render) is lightweight docker base image performs full server-side rendering using phantomjs serve cached, pre-rendered pages your angular2/4/react web-apps search engine bots/crawlers. also supports auto-recaching all pages hour intervals. project was developed i came the realization bots crawlers 're indexing anything than head un-rendered body my angular applications. dockerfile entrik/kathisto:latestadd dist/ /dist/deploy !http :docker build myappdocker run --name myapp_container -p 80:80 myapphttp & https :docker build myappdocker run --name myapp_container -p 80:80 -p 443:443 -e cert_file=/certs/domain.crt -e key_file=/certs/domain.key myapp you decide only to serve ssl port 443, can easily remove -p 80:80example you need further clarification how kathisto operates perhaps concrete example check the example dir.future plansdue the fact phantomjs seems take slightly longer headless chrome render full pages, 'd to implement headless chrome some point.creditphantomjs page renderinglicensecopyright 2017 entrik, llcpermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sell copies the software, to permit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

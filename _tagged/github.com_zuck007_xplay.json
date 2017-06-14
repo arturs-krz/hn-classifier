@@ -1,0 +1,21 @@
+{
+	"_id": "14089666",
+	"site": "https://github.com/zuck007/xplay",
+	"title": " Take control of your music player from terminal",
+	"author": "zuck007",
+	"date": "2017-06-13T13:35:28.017Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"music-player",
+			"terminal",
+			"python-cli",
+			"linux",
+			"unix"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md xplayplay songs cliinstallationpip install xplayusage$ xplay -husage: xplay [-h] [-s set] [-g genre [genre ...]] [- artist [artist ...]] [-t title [title ...]]play song terminaloptional arguments: -h, --help show help message exit -s set, --set set set music_dir folder, default is ~/music/ -g genre [genre ...], --genre genre [genre ...] play song the given genre - artist [artist ...], --artist artist [artist ...] play song the given artist -t title [title ...], --title title [title ...] play song the given titlescreencastrelatedmusicquery package"
+}

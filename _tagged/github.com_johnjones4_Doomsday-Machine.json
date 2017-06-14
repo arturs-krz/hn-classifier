@@ -1,0 +1,18 @@
+{
+	"_id": "14313220",
+	"site": "https://github.com/johnjones4/Doomsday-Machine",
+	"title": " Doomsday Machine",
+	"author": "johnjones4",
+	"date": "2017-06-13T13:08:55.982Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md doomsday machinedoomsday machine is tool backing cloud services a local machine. syncs content a local directory non-vendor-specific file formats. (whenever possible, opts formats such .html, .csv, etc.) requires mysql database store backup configurations object metadata. configuration data is encrypted rest, metadata is . also, backup archives are encrypted rest, the backup directory is .setupcheckout dependenciescheck the code install dependencies running:# git clone git@github.com:johnjones4/doomsday-machine.git# cd doomsday-machine# npm installenvironment variables are several configurations must set runtime environment variables. should set a .env file. variables are:mysqlmysql_host: location the mysql server.mysql_user: user used connect the mysql server.mysql_password: password used connect the mysql server.mysql_database: schema connect on mysql server.mysql_port: port connect on mysql server. defaults 3306.backupsecret: secret used encode configurations files.working_directory: directory used store working files archives.backup_interval: interval run backup milliseconds. defaults daily.archive_retention: number archives retain following backup.web serverweb_port: port the web server listen connections. defaults 8000.site_url: url the web server redirect from oauth requests. defaults http://localhost:8000.auth_username: username http authentication.auth_password: password http authentication.email alertsmail_host: smtp host connect for sending email alerts.mail_port: smtp port connect for sending email alerts.mail_secure: smtp setting secure connections.mail_username: smtp username connect for sending email alerts.mail_password: smtp password connect for sending email alerts.mail_from: address sending email alerts.mail_to: address sending email alerts.running launch application:# node index.iscreditsicon created arthur shlain the noun project"
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14257853",
+	"site": "https://github.com/peperunas/injectopi",
+	"title": " Injectopi – A set of tutorials about code injection for Windows",
+	"author": "peperunas",
+	"date": "2017-06-13T13:32:47.391Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"code-injection",
+			"windows",
+			"winapi",
+			"reverse-engineering",
+			"exploitation",
+			"reversing"
+		],
+		"languages": [
+			"c",
+			"c++"
+		]
+	},
+	"content": "readme.md is ?injectopi is set tutorials i've decided write down order learn various injection techniques the windows' environment. idea came my mind i noticed awesome sources hasherezade.why \"injectopi\"?here is i thought:\"is anything better a mighty animal multiple arms swinging poisonous pointy weapons?\"getting started tutorial shows you create program , when run, inject code an existing process. will show multiple techniques increasing complexity discovered security researchers malware coders. has be noted these list is complete it shows main techniques!techniques overviewnamedescriptionmain winapicreatepatchedspawns benign process its entrypoint patched a shellcodecreateprocess, virtualprotectex, readprocessmemorycreatesectioncreates new executable section, containing shellcode, an existing processcreateprocess, zwcreatesection, ntmapviewofsection, zwcreatethreadexcreatesectionapcsame createsection: time asynchronous procedure calls be used.createprocess, zwcreatesection, ntmapviewofsection, ntqueueapcthreadfullcopyallocates executable memory region an existing process copies itself that regionzwcreatesection, ntmapviewofsectionrequisites you to compile each binary is suggested use:visual studio 2017 (community suffice)windows 7+building open injectopi.sln visual studio!visual studio 2017 sure have desktop c++ x86 x64 components enabled your visual studio installation! should ready go! are running that shellcode? have commented the shellcode does the file shellcode.md.further readinghere below can find list interesting articles / websites / papers i found useful while writing down injectopi!reactos their website:imagine running favorite windows applications drivers an open-source environment can trust. 's reactos. just open also free operating system.reactos is awesome project aims open-sourcing windows os reverse engineering .the documentation find their website is pure gold. me !windows shellcodingskape's \"understanding windows shellcode\" paper is great resource will surely help understand windows' internals and to them write shellcode. shellcode use these examples uses techniques shown the paper! can't wait read !contributions contribution is very welcome! feel free open issues pull requests!credits project idea was born thanks hasherezade's demo repository the constant support my instructor federico maggi.special thanks my friends francesco giancarlo helped review everything!licensecopyright 2017 giulio de pasqualepermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sell copies the software, to permit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

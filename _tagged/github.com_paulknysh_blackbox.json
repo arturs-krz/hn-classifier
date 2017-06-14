@@ -1,0 +1,21 @@
+{
+	"_id": "14453332",
+	"site": "https://github.com/paulknysh/blackbox",
+	"title": "A Python module for parallel optimization of expensive black-box functions",
+	"author": "paulknysh",
+	"date": "2017-06-13T13:55:21.146Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"black-box",
+			"optimization",
+			"expensive",
+			"parallel",
+			"python"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md blackbox: python module parallel optimization expensive black-box functions is ?let's you need find optimal parameters some computationally intensive system ( example, -consuming simulation). you construct simple python function, takes set trial parameters, performs evaluation, returns scalar measure how chosen parameters are, the problem becomes mathematical optimization. however, corresponding function is expensive ( evaluation take hours) is black-box (has input-output nature).blackbox is minimalistic easy--use python module efficiently searches a global optimum (minimum) an expensive black-box function. user needs provide function, search region (ranges values each input parameter) a number function evaluations available. code is designed work multicore cpus performing several function evaluations parallel, results a speedup equal a number cores. mathematical method behind code is described this arxiv note: https://arxiv.org/pdf/1605.00998.pdffeel free cite note you are using method/code your research. do represent objective function? simply needs be wrapped a python function. an external application is used, can accessed using system call:def fun(par): # running external application given set parameters os.system(...) # calculating output ... return outputpar is vector input parameters ( python list), output is non-negative scalar measure be minimized. do run procedure? installation is needed. place blackbox.py your working directory. main file should like :import blackbox bbdef fun(par): ... return outputdef main(): bb.search(f=fun, # given function box=[[-10., 10.], [-10., 10.]], # range values each parameter (2d example) n=8, # number function calls initial stage (global search) =8, # number function calls subsequent stage (local search) cores=4, # number cores be used resfile='output.csv') # .csv file where iterations be saved __name__ == '__main__': main()important: n must greater the number parameters, must greater 1. both n it are expected be divisible cores ( not, code adjust automatically). about results?iterations are saved .csv file the following structure:parameter #1parameter #2...parameter #nfunction value0.1390.488...0.2050.637...............0.0420.042...0.0420.001important: output file parameters function value are normalized range [0, 1]: 0 corresponds minimum value, 1 corresponds maximum value. should help user analyze/interpret evolution parameters function values more objectively, relative sense. once desired set parameters is chosen, simple linear rescaling should applied obtain absolute values.authorpaul knysh (paul.knysh@gmail.com) receive tons useful feedback helps to improve code. feel free email if have questions comments."
+}

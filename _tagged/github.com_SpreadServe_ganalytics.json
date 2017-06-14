@@ -1,0 +1,16 @@
+{
+	"_id": "14211359",
+	"site": "https://github.com/SpreadServe/ganalytics",
+	"title": " Google Analytics C# boilerplate",
+	"author": "osullivj",
+	"date": "2017-06-13T13:33:03.813Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md google analytics c# boilerplategoogle setup'll need google service email address a p12 key file set key email variables below. tohttps://console.developers.google.com/iam-admin create service account. the options menu create p12key ( a json key). log to analytics.google.com use admin/user management add service emailaddress read & analyze permissions.buildganalytics.csproj packages.config target .net framework 4. out bin/debug/ganalytics.exe.config: fixes system.net.http.primitivesreference version error. 'll need do nuget install packages.config the packages subdirectory. build run! luck!acknowledgementsadapted logan g'sexcellent stackoverflow answer."
+}

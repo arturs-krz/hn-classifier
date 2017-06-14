@@ -1,0 +1,23 @@
+{
+	"_id": "14453548",
+	"site": "https://github.com/Azure/draft",
+	"title": "Draft – A tool for developers to create cloud-native applications on Kubernetes",
+	"author": "bjflanne",
+	"date": "2017-06-13T13:55:21.350Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kubernetes",
+			"helm",
+			"developer-tools"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"smarty",
+			"makefile",
+			"nginx"
+		]
+	},
+	"content": "readme.md draft: streamlined kubernetes developmentnote: draft is experimental does have stable release yet.draft makes easy build applications run kubernetes. draft targets \"inner loop\" a developer's workflow: they hack code, before code is committed version control.using draft is simple :draft create containerize application based draft packsdraft to deploy application a kubernetes dev sandbox, accessible via public url a local editor modify application, changes deployed kubernetes secondsonce developer is happy changes made via draft, commit push version control, which continuous integration (ci) system takes . draft builds upon kubernetes helm the kubernetes chart format, making easy construct ci pipelines draft-enabled applications.here is video demonstrating to set draft azure container services:join conversation slack! you don't already a kubernetes slack account, sign here.installationreview installation guide configure install draft to kubernetes cluster. draft a spinclimb aboard explore getting started guide - 'll soon sailing!contributing you're looking build source get started hacking draft, please thehacking guide more information. project has adopted microsoft open source code conduct. more information the code conduct faq contact opencode@microsoft.com any additional questions comments.license software is covered under mit license. can read license here. software contains code heroku buildpacks, are covered the mit license. software contains code helm, is covered the apache v2.0 license. can read third-party software licenses here."
+}

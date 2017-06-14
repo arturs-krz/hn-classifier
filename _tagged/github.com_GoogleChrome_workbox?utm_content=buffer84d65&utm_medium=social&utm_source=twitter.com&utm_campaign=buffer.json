@@ -1,0 +1,22 @@
+{
+	"_id": "14408392",
+	"site": "https://github.com/GoogleChrome/workbox?utm_content=buffer84d65&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
+	"title": "Workbox Is a Collection of JavaScript Libraries for Progressive Web Apps",
+	"author": "rbanffy",
+	"date": "2017-06-13T13:56:41.920Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"service-worker",
+			"progressive-web-app",
+			"offline-first",
+			"service-workers"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"other"
+		]
+	},
+	"content": "readme.md welcome workbox!workbox is collection javascript libraries progressive web apps.visit workboxjs.org learn more what workbox do you.external contributionsplease read guide contributingprior filing pull requests.licensecopyright 2017 google, inc.licensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. mayobtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

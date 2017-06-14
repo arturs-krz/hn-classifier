@@ -1,0 +1,17 @@
+{
+	"_id": "14177777",
+	"site": "https://github.com/opencontributions/d3_canvas",
+	"title": " Graphing demo using D3 v4 and canvas elements",
+	"author": "dassreis",
+	"date": "2017-06-13T13:33:35.587Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md d3 v4 graphing demo real- graphing demo using d3 v4 canvas elementsview demodemo graphs show bitcoin buy sell prices gdax websocket api wss://ws-feed.gdax.com). y-axis domain zoom levels adapt fit data. zoom levels (mouse wheel) are synchronised across elements.example usage:var can0 = d3canvas(d3, '#container_graph_0', [142, 214, 255], 640, 480);var can1 = d3canvas(d3, '#container_graph_1', [255, 214, 142], 640, 480);can0.init(500, 1000, 100, function(){ can1.setzoom = .zoomtransform; can1.setdomain([.domainymin, .domainymax]); can1.y1.domain([.domainymin + 10 * .zoomtransform, .domainymax - 10 * .zoomtransform]); can1.draw();});can1.init(500, 1000, 100, function(){ can0.setzoom = .zoomtransform; can0.setdomain([.domainymin, .domainymax]); can0.y1.domain([.domainymin + 10 * .zoomtransform, .domainymax - 10 * .zoomtransform]); can0.draw();});var loop = function() { can0.update(messagejson.y); can1.update(messagejson.y); requestanimationframe(loop);};loop();"
+}

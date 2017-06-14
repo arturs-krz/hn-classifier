@@ -1,0 +1,21 @@
+{
+	"_id": "14501648",
+	"site": "https://github.com/rozag/kakava",
+	"title": "Kakava 1.5 – Android app project generator",
+	"author": "rozag",
+	"date": "2017-06-13T14:09:57.432Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kotlin-android",
+			"cli",
+			"android",
+			"template",
+			"template-project"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md kakavacustomizable android app template generator. tool allows to generate empty android project default/ own template. checkout templates/default/ templates/default-kotlin/ more info.motivations've noticed i spend ~15 minutes each , when need create set a project a app a prototype. , need do task more once? automate ! so, meet kakava!requirementspython3downloadclone repo:git clone --branch v1.5 git@github.com:rozag/kakava.git your_path/kakava convenience add to path. put to ~/.bashrc:path=$path:your_path/kakavasample usagesuper quick start (default project current directory)kakavaquick startkakava -d new_project_pathcustom package app namekakava -d new_project_path -n myapp -p com.example.appkotlin android projectkakava -d new_project_path -n myapp -p com.example.app -t default-kotlinopen with androidstudio import project optionkakava -husage: kakava [-h] [-d destination] [-p package] [-n name] [-t template]optional arguments: -h, --help show help message exit -d destination, --destination destination output directory the app -p package, --package package package name, e.g. com.example.app -n name, --name name app name, e.g. myapp -t template, --template template template directory name the templates/ dir-of--box templatesdefault - default template java android appdefault-kotlin - default template kotlin android appadvanced-kotlin - advanced kotlin template can add own template?basically, kakava does is iterate all *.kakava files the template replace each variable substitution desired value the cli params. currently supported variables. therefore create template should:create configure desired project setupreplace package names, class names whatever want the ${variablename} substitutionadd .kakava extension all files such replacementsreduce com/whatever/product folder hierarchy a simple kakavaroot folderput new template templates/ folder the desired name (e.g. -awesome-template)smile, 're awesome :)currently supported params${packagename} - package name your app (e.g. com.company.product)${appname} - application name (e.g. myapp)todo (pr welcome)hackathon kotlin project template (hack-kotlin)custom templates support (custom cli params parsing)licensecopyright 2017 alexey mileevlicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

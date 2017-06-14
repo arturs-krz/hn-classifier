@@ -1,0 +1,16 @@
+{
+	"_id": "14414745",
+	"site": "https://github.com/felipeferri/ScreenSizesSimulator",
+	"title": "Open source: Easily test your iOS app on any screen size in your device",
+	"author": "fferri",
+	"date": "2017-06-13T13:56:32.123Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": "readme.md esta página em portuguêsscreensizessimulator a single ios device testing app all iphone sizes you test different screen sizes developing ios apps? know should, right?running same app different simulators take too long, having several devices is inviable many us. 's why screen sizes simulator be good idea you.screen sizes simulator is storyboard template a neat control panel allow to run app screens mimicking current iphone models sizes. below i mean. screenshots were obtained running demo app included this repo the iphone6 simulator.iphone6 regular sizeiphone5 size iphone6iphone4 size iphone6iphone4 size landscape you run screen sizes simulator an ipad can run app all iphone sizes they show the real device size. maybe have iphone 4s ( case ugh) you to how layout the iphone6 runs a phone. you use \"fit\" option the panel zoom the app until fits your phone screen, maintaining the ui elements proportions.installing screen sizes simulator your appplease check demo project you are doubt.copy \"screen sizes\" folder your project.locate initial view controller your project storyboard set storyboard id \"swipeviewcontroller\" the identity inspector.open sizessimulator storyboard make sure storyboard reference block is pointing your main storyboard (unless changed main storyboard name default value should suffice).open project target the general tab set main interface \"sizessimulator\".run project a device the simulator everything should .you must remember change main interface to main storyboard releasing app the appstore. you feel bold, can create new target specifically the screen sizes simulator instead changing main target main interface. check demo app an example.dealing modal view controllers default modal controllers be pushed the full app screen, what really need is they're presented over simulator view. order allow please sure all modal segues \"over current context\" set presentation type.using screen sizes simulator screen sizes simulator has small control panel top. you tap it will disappear; you shake phone will appear again. can select four different iphone sizes: iphone4s, iphone5/se, iphone6s/7s, iphone6s+/7s+. can select four zoom levels: 1x, 2x, fit fill.1x shows normal screen size. should this running app a device larger the screen want show ( example, running iphone5s screen an iphone6s).2x shows double screen size. actually is useful you're running app an ipad. is similar the zoom option available you run iphone (non-universal) app ipad.fit apply zoom level fits app the current phone screen. is ideal use displaying larger screens your iphone. example, showing iphone6s size an iphone4s device.fill apply zoom level fills phone screen the selected display size. do (pull requests are welcome)create podfile a coded version the simulator wich doesn't require messing around targets info.plists you size classes simulator not respond correctly running an ipad becase size classes height width the ipad when landscape are the same for iphone. don't how solve ."
+}

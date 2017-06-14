@@ -1,0 +1,14 @@
+{
+	"_id": "14377718",
+	"site": "https://github.com/Microsoft/xaml-standard",
+	"title": "XAML Standard – Target Multiple Platforms with Single XAML UI",
+	"author": "kodfodrasz",
+	"date": "2017-06-13T13:57:06.512Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md xaml standard repository contains principles definition xaml standard.xaml standard is vocabulary specification defines standard xaml vocabulary. frameworks support xaml standard share common xaml based ui definitions. goal is the version, xaml standard 1.0, be available later year.  post specification plans include support xaml standard xamarin.forms uwp.  more information, read faqs. to engage, contribute provide feedback spec is being designed the open. are the early stages defining spec right , you see draft xaml standard 1.0 getting defined here. encourage to start discussion give direct feedback filing issue starting proposal. you are posting api xaml standard consideration:mark with label: \"proposal\".add brief overview what are proposing why belongs xaml standard ( keeping the principles the effort).provide clear usecase/scenario describes this api benefits sharing cross-platform ui code, preferably scenario your experience application clearly illustrates why control/api benefit being standardized.add brief example xaml syntax your proposal.provide links issues/discussions where proposal has been talked as as other pointer where originated got discussed could describe motivation. proposals-faq more information. project has adopted code conduct defined the contributor covenant clarify expected behavior our community. more information, the .net foundation code conduct."
+}

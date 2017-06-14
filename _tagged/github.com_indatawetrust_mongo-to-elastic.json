@@ -1,0 +1,19 @@
+{
+	"_id": "14362822",
+	"site": "https://github.com/indatawetrust/mongo-to-elastic",
+	"title": "Elasticsearch transfer tool for MongoDB database",
+	"author": "cond289123",
+	"date": "2017-06-13T13:57:47.611Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mongodb",
+			"elasticsearch",
+			"transfer-data"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md mongo--elasticelasticsearch transfer tool mongodb database. is safer every transaction is kept a promise queue.installnpm install mongo--elastic -g collections are transferred unless collection is defined. define more one collection;mongo--elastic -db app -c user -c postusageusage: mongo--elastic [options]options: --mongo-host, --mh mongodb host (default localhost) --mongo-port, --mp mongodb port (default 27017) --database, --db mongodb database --collection, -c mongodb collection --elastic-host, --eh elasticsearch host (default localhost) --elastic-port, --ep elasticsearch port (default 9300) --concurrency, --con promise concurrency (default 250) --help show help"
+}

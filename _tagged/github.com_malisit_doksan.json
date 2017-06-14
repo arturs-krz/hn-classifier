@@ -1,0 +1,26 @@
+{
+	"_id": "14450293",
+	"site": "https://github.com/malisit/doksan",
+	"title": "Doksan: a command-line app for soccer lover hackers",
+	"author": "masit",
+	"date": "2017-06-13T13:55:21.680Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"fixtures",
+			"dart",
+			"premier-league",
+			"league",
+			"soccer",
+			"for-hackers",
+			"scores",
+			"football",
+			"bundesliga",
+			"game"
+		],
+		"languages": [
+			"dart"
+		]
+	},
+	"content": "readme.md doksan simple console application enables hackers get latest soccer scores fixtures. the present moment, doksan supports english premier league, spanish primera division turkish super league. data is being parsed http://www.scorespro.com/.installingrun pub global activate doksan command line.add pub-cache's bin directory path. (e.g. add export path=\"$path\":\"~/.pub-cache/bin\" .bashrc)usage application is pure dart works only dart vm.flags options:option: -l, --league: specify league want get information . must provided.option: -t, --team: specify team want get information . optional.flag: -r, --isresults: previous results not. used a team name, returns results last 5 games.flag: -f, --isnextmatches: next games not. used a team name, returns next 5 games.sample usage:sample input:doksan -l tr -t trabzonspor -fsample output:11.02.17 15:00 osmanlispor - trabzonspor 20.02.17 19:00 trabzonspor - alanyaspor 26.02.17 19:00 konyaspor - trabzonspor 05.03.17 19:00 trabzonspor - kardemir karabukspor 08.03.17 19:00 akhisar belediye - trabzonspor 12.03.17 19:00 trabzonspor - galatasaray 19.03.17 19:00 rizespor - trabzonspor 02.04.17 19:00 trabzonspor - besiktas 09.04.17 19:00 antalyaspor - trabzonspor 16.04.17 19:00 trabzonspor - genclerbirligi sample input:doksan -l en -t chelsea -rfsample output:31.01.17 22:00 liverpool fc 1 - 1 chelsea fc 28.01.17 17:00 chelsea fc 4 - 0 brentford fc 22.01.17 18:30 chelsea fc 2 - 0 hull city 14.01.17 19:30 leicester city 0 - 3 chelsea fc 08.01.17 17:00 chelsea fc 4 - 1 peterborough 04.01.17 22:00 tottenham 2 - 0 chelsea fc 31.12.16 17:00 chelsea fc 4 - 2 stoke city 26.12.16 17:00 chelsea fc 3 - 0 bournemouth 17.12.16 14:30 crystal palace 0 - 1 chelsea fc 14.12.16 21:45 sunderland afc 0 - 1 chelsea fc 04.02.17 14:30 chelsea fc - arsenal fc 12.02.17 15:30 burnley fc - chelsea fc 18.02.17 19:30 wolverhampton - chelsea fc 25.02.17 17:00 chelsea fc - swansea 04.03.17 17:00 west ham - chelsea fc 11.03.17 17:00 chelsea fc - watford fc 18.03.17 17:00 stoke city - chelsea fc 01.04.17 16:00 chelsea fc - crystal palace 05.04.17 20:45 chelsea fc - manchester city 08.04.17 16:00 bournemouth - chelsea fcsample input:doksan -l en -rsample output:week: 23, wed 01 feb 201722:00 manchester united 0 - 0 hull city 22:00 stoke city 1 - 1 everton fc 21:45 west ham 0 - 4 manchester city week: 23, tue 31 jan 201722:00 liverpool fc 1 - 1 chelsea fc 21:45 arsenal fc 1 - 2 watford fc 21:45 bournemouth 0 - 2 crystal palace 21:45 burnley fc 1 - 0 leicester city 21:45 middlesbrough 1 - 1 west bromwich 21:45 sunderland afc 0 - 0 tottenham 21:45 swansea 2 - 1 southampton sample input:doksan -l ensample output:rank team point matches win draw lost goals difference form1. chelsea fc 56 23 18 2 3 48 - 16 32 d w w l w 2. tottenham 47 23 13 8 2 45 - 16 29 d d w w w 3. arsenal fc 47 23 14 5 4 51 - 25 26 l w w d w 4. liverpool fc 46 23 13 7 3 52 - 28 24 d l d d w 5. manchester city 46 23 14 4 5 47 - 28 19 w d l w l 6. manchester united 42 23 11 9 3 33 - 21 12 d d d w w 7. everton fc 37 23 10 7 6 34 - 24 10 d w w w d 8. west bromwich 33 23 9 6 8 31 - 29 2 d w l w w 9. stoke city 29 23 7 8 8 29 - 35 -6 d d w w l 10. burnley fc 29 23 9 2 12 25 - 33 -8 w l w l w 11. west ham 28 23 8 4 11 29 - 40 -11 l w w l l 12. southampton 27 23 7 6 10 23 - 28 -5 l w l l l 13. watford fc 27 23 7 6 10 27 - 39 -12 w d d l l 14. bournemouth 26 23 7 5 11 32 - 41 -9 l d l d w 15. middlesbrough 21 23 4 9 10 19 - 26 -7 d l d d l 16. leicester city 21 23 5 6 12 24 - 38 -14 l l l d w 17. swansea 21 23 6 3 14 28 - 52 -24 w w l w l 18. crystal palace 19 23 5 4 14 32 - 41 -9 w l l l l 19. hull city 17 23 4 5 14 20 - 47 -27 d l w l d 20. sunderland afc 16 23 4 4 15 20 - 42 -22 d l l d l todo scorer information games.styling proper listing games. leagues teams."
+}

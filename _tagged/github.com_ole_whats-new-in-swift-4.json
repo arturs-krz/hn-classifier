@@ -1,0 +1,19 @@
+{
+	"_id": "14516287",
+	"site": "https://github.com/ole/whats-new-in-swift-4",
+	"title": "What's new in Swift 4 [playground]",
+	"author": "mmariani",
+	"date": "2017-06-13T14:09:56.838Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"swift",
+			"xcode",
+			"playground"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": "readme.md s in swift 4 xcode playground showcasing new features swift 4.0. seen the s in swift session wwdc 2017.written ole begemann, may 2017. playground requires swift 4. xcode 9 includes swift 4 default (download xcode 9 beta developer.apple.com). can run in xcode 8.3, you need install latest swift 4.0 snapshot swift.org (dont worry, s easy)."
+}

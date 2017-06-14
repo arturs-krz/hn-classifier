@@ -1,0 +1,16 @@
+{
+	"_id": "14500410",
+	"site": "https://github.com/introvertmac/Easy-Scan",
+	"title": " Easy Scan, a minimal web application security scanner",
+	"author": "introvertmac",
+	"date": "2017-06-13T13:04:20.110Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md easy scan minimal scanner test web application security issuesdependenciesrequestsbeautifulsoupresults includeshows response headerclickjackingsame site scriptingspf recordsdmarc recordspublic admin pagedirectory listingvalidate content security policy known bypasses to install dependenciesrun easy_test.pyenter website's name facebook.com (without http://, https:// www)known issue:following code makes multiple requests through different function, be optimized better results.license mit license copyright (c) 2017 manish bhattacharyacontact you any queries, feel free reach at twitter manish bhattacharya"
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14435390",
+	"site": "https://github.com/frcl/clype",
+	"title": "Clype: Python lib for creating command line interfaces using type annotations",
+	"author": "ATsch",
+	"date": "2017-06-13T13:55:34.285Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cli",
+			"python",
+			"typing"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md clypeplaying around the type annotations python 3.5 3.6, noticed can used define command line interfaces a regular python function.'s kind like click does, better.usagesimplecli example:# test.py typing import list, optional pathlib import path clype import simplecli@simpleclidef mycli(v: optional[bool], paths: list[path]): print('v:', v) print('paths ({}):'.format(type(paths[0])), *paths) __name__ == '__main__': mycli.run()result:$ python test.py -v dir/file.extv: truepaths (<class 'pathlib.posixpath'>): dir/file.extsubcommandcli example:# test.py typing import list, optional pathlib import path clype import subcommandclimycli = subcommandcli('mycli')@mycli.commanddef bar(r: optional[bool], path: path): \"\"\" first command \"\"\" pass@mycli.commanddef foo(v: optional[bool], paths: list[path]): \"\"\" second command \"\"\" pass __name__ == '__main__': mycli.run()result:$ python test.py -husage: mycli [-h] command ...optional arguments: -h, --help show help message exitcommands: bar first command foo second command$ python test.py bar -husage: mycli bar [-h] [-r] pathpositional arguments: pathoptional arguments: -h, --help show help message exit -r"
+}

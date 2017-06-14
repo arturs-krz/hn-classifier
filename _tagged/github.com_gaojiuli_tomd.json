@@ -1,0 +1,19 @@
+{
+	"_id": "14423379",
+	"site": "https://github.com/gaojiuli/tomd",
+	"title": "Easy way to convert html to markdown with python",
+	"author": "gaojiuli",
+	"date": "2017-06-13T13:56:31.533Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"html",
+			"markdown"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md tomd crawling online articles such news, blogs, etc. want save in markdown files not databases.tomd has ability converting html converted markdown. a html 't described markdown, tomd 't convert right.tomd is python tool.road map basic support full support(nested list) command line toolinstallationpip install tomdgetting startedinputimport tomdtomd.tomd('<h1>h1</h1>').markdown# tomd.convert('<h1>h1</h1>')output# h1usage tomd import tomdhtml=\"\"\"<h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6><p>paragraph< href=\"https://github.com\">link</><img src=\"https://github.com\" class=\"dsad\">img</img></p><ul><li>1</li><li>2</li><li>3</li></ul><ol><li>1</li><li>2</li><li>3</li></ol><blockquote>blockquote</blockquote><p><code>inline code</code></p><pre><code>block code</code></pre><p><del>del</del><b>bold</b><>italic</><b><>bold italic</></b></p><hr/><table><thead><tr><th>th1</th><th>th2</th></tr></thead><tbody><tr><td>td</td><td>td</td></tr><tr><td>td</td><td>td</td></tr></tbody></table>\"\"\"tomd(html).markdownresult# h1## h2### h3#### h4##### h5###### h6paragraph[link](https://github.com)![img](https://github.com)- 1- 2- 31. 11. 21. 3> blockquote`inline code`block code~~del~~**bold***italic****bold italic***---|th1|th2|------|td|td|td|td"
+}

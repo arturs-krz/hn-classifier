@@ -1,0 +1,14 @@
+{
+	"_id": "14312916",
+	"site": "https://github.com/andreas-gone-wild/blog/blob/master/introducing_snackis.md",
+	"title": " Snackis – secure, distributed social networking",
+	"author": "andreasgonewild",
+	"date": "2017-06-13T13:08:55.775Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "introducing snackisposted may 17th, 3:00 pmsnackissnackis is latest by far substantial iteration an idea 've been working in form other the last 30 years. distributed secure social network uses existing email infrastructure transport, cuts enough corners make experience seemless adds more elaborate abstractions top. snackis stores data locally encrypted form comes a convenient text-based interface. software is completely self-contained may put a usb-stick instant secure messaging wherever are. functionality offered the ui is available through golang api.status is intended a preview; functionality needed a minimum viable program is operational, plenty testing remains. minimum viable this context means support invites group-/private discussions. messages sent snackis are tagged __snackis__ processed messages are moved a separate folder keep inbox tidy. may find preliminary documentation here.roadmap code needs time settle down a month-long mad rush get basic functionality place. have few ideas have been waiting this kind platform; distributed scheduling shared resources name . what can promise never happen is monetization strategies, behavioural profiling, ads, binary blobs any kind intrusions your personal integrity. one is the , for people; if 're anything me, 're ready something .support you a few coins spare, is chance help snackis move forward faster; $700/month allow to full- on project; every contribution counts. thank !until next ; be ,a"
+}

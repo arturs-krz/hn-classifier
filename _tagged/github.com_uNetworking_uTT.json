@@ -1,0 +1,20 @@
+{
+	"_id": "14415126",
+	"site": "https://github.com/uNetworking/uTT",
+	"title": " µTT – A new faster MQTT broker",
+	"author": "alexhultman",
+	"date": "2017-06-13T13:06:44.449Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mqtt",
+			"iot"
+		],
+		"languages": [
+			"c++",
+			"qmake",
+			"makefile"
+		]
+	},
+	"content": "readme.md µtt (\"micrott\") is lightweight efficient mqtt broker designed raise bar pub/sub performance. significantly outperforms emqtt, redis, hivemq, mosquitto, rabbitmq, mosca many others. memory usage per connection is significantly lower it builds the networking foundation developed µwebsockets.read more mqtt here, find client libraries here.vendor-neutral, minimal & efficient pub/subbelow is simple node.js example using mqtt.js:var mqtt = require('mqtt');// connect the brokervar client = mqtt.connect('mqtt://localhost');client.('connect', (err, granted) => { // subscribe all temperature sensors client.subscribe('sensors/+/temperature', () => { // publish temperature numbers client.publish('sensors/house/temperature', '21'); client.publish('sensors/sauna/temperature', '107'); });});client.('message', (topic, message) => { // receive numbers console.log(topic + ': ' + message.tostring() + ' celcius');});compilation broker matching benchmark be compiled a c++17 compiler using on linux:git clone --recursive https://github.com/unetworking/utt.gitboth broker benchmark are a very experimental broken state currently. is highly unstable incomplete right .benchmarks simple & automatic broadcasting benchmark has been developed determine roughly publishing performance a few brokers under varying burst load. supports both mqtt redis protocols allow comparison redis ( has shown be good reference small broadcasts).hivemq is proprietary limited 25 connections demo mode. was receive full test version was later denied when realized was posting benchmark results.results text form be found the benchmark_results file."
+}

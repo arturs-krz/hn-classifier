@@ -1,0 +1,34 @@
+{
+	"_id": "14487642",
+	"site": "https://github.com/Talentica/AndroidWithKotlin",
+	"title": "Android Sample Projects Written in Kotlin",
+	"author": "foobazzy",
+	"date": "2017-06-13T14:10:06.940Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kotlin",
+			"android",
+			"samples",
+			"sample",
+			"demo",
+			"audio-player",
+			"location-services",
+			"locations",
+			"sqlite",
+			"sqlite-database",
+			"kotlin-android",
+			"video-streaming",
+			"android-camera",
+			"custom-camera",
+			"compass",
+			"accelerometer",
+			"magnetometer"
+		],
+		"languages": [
+			"kotlin",
+			"java"
+		]
+	},
+	"content": "readme.md androidwithkotlin are android samples projects are written kotlin. project contains following apps:1. app(default) : google io 2017 android architecture components sample: room, viewmodel(mvvm), livedata lifecycle.2. audioplayer: audio player app plays mp3 file custom seek bar seek.3. locationmanager: on-demand location fetching app uses google's latest fused location provider. using emulator send location extended controls emulator.4. sqlitedatabase: simple sqlite database app mock server handles user(friend) search logs queries local database. good app understand rxandroid kotlin.5. videostreaming: live rtsp video streaming app custom media controls.(better run app physical device)6. customcamera: is mvp pattern, custom camera app flash support. home screen is gridview shows clicked photos. dagger 2 implementation added.7. o_notifications: is mvp pattern, android-o notifications. home screen provides simple to create notification channels notifications. default are 2 notification groups personal business.8. sensors: explore to a compass app using magnetic field sensor accelerometer.more come future  minimum requirementsandroid studio 3.0 canery 3kotlin compiler runtime version 1.1.2-4android oandroid sdk tools 26.0.2android sdk build-tools 26 rc2android sdk plateform-toools 26.0.0 rc2projectsnamedemogoogle io17 architecture viewmodels livedata sampleaudio mp3 playerlocation ( using emulator send location extended controls emulator)sqlitevideo streaming (always device run app since emulator has rendering issues)custom cameraandroid-o notificationscompass (designed using accelerometer magnetic field sensor)"
+}

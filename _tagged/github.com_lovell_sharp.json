@@ -1,0 +1,36 @@
+{
+	"_id": "14347689",
+	"site": "https://github.com/lovell/sharp",
+	"title": "Fast Node.js image resizer",
+	"author": "valentinvieriu",
+	"date": "2017-06-13T13:57:47.683Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"javascript",
+			"webp",
+			"image-processing",
+			"jpeg",
+			"png",
+			"nodejs",
+			"tiff",
+			"svg",
+			"libvips",
+			"exif",
+			"icc",
+			"image",
+			"performance",
+			"crop",
+			"resize",
+			"overlay"
+		],
+		"languages": [
+			"javascript",
+			"c++",
+			"shell",
+			"python",
+			"other"
+		]
+	},
+	"content": "readme.md sharpnpm install sharp typical case this high speed node.js moduleis convert large images common formats smaller, web-friendly jpeg, png webp images varying dimensions.resizing image is typically 4x-5x faster using quickest imagemagick graphicsmagick settings.colour spaces, embedded icc profiles alpha transparency channels are handled correctly.lanczos resampling ensures quality is sacrificed speed. well image resizing, operations such rotation, extraction, compositing gamma correction are available.os x, windows (x64), linux (x64, arm) systems not require installation any external runtime dependencies.examplesimport sharp 'sharp';sharp(inputbuffer) .resize(320, 240) .tofile('output.webp', (err, info) => ... );sharp('input.jpg') .rotate() .resize(200) .tobuffer() .( data => ... ) .catch( err => ... );const roundedcorners = buffer( '<svg><rect x=\"0\" y=\"0\" width=\"200\" height=\"200\" rx=\"50\" ry=\"50\"/></svg>');const roundedcornerresizer = sharp() .resize(200, 200) .overlaywith(roundedcorners, { cutout: true }) .png();readablestream .pipe(roundedcornerresizer) .pipe(writablestream);documentationvisit sharp.dimens.io completeinstallation instructions,api documentation,benchmark tests changelog.contributing guide contributorscovers reporting bugs, requesting features submitting code changes.licencecopyright 2013, 2014, 2015, 2016, 2017 lovell fuller contributors.licensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

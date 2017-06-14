@@ -1,0 +1,21 @@
+{
+	"_id": "14167632",
+	"site": "https://github.com/pplonski/keras2cpp",
+	"title": " Light-weight C++ library for Keras",
+	"author": "pplonski86",
+	"date": "2017-06-13T13:34:46.430Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"neural-network",
+			"keras",
+			"machine-learning"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md keras2cpp is bunch code port keras neural network model pure c++. neural network weights architecture are stored plain text file input is presented vector<vector<vector<float> > > case image. code is prepared support simple convolutional network ( mnist example) can easily extended. are implemented relu softmax activations. is working the theano backend - support tensorflow be added soon.usagesave network weights architecture.dump network structure plain text file dump_to_simple_cpp.py script. network code keras_model.h keras_model.cc files - example below.examplerun iteration simple cnn mnist data example/mnist_cnn_one_iteration.py script. will produce files architecture example/my_nn_arch.json weights hdf5 format example/my_nn_weights.h5.dump network plain text file python dump_to_simple_cpp.py - example/my_nn_arch.json -w example/my_nn_weights.h5 -o example/dumped.nnet.compile example g++ -std=c++11 keras_model.cc example_main.cc - code example_main.cc.run binary ./.out - shoul the same output in step from keras.testing you to test dumping your network, please test_run.sh script. please provide your network architecture weights. script following job:dump network text file.generate random sample.compute predictions keras keras2cpp generated sample.compare predictions."
+}

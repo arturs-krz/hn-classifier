@@ -1,0 +1,22 @@
+{
+	"_id": "14487098",
+	"site": "https://github.com/l3nz/dockbooker",
+	"title": "Process Asciidoc to PDF/HTML/ePub with image resizing",
+	"author": "kimi",
+	"date": "2017-06-13T14:10:06.701Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"asciidoc",
+			"pdf",
+			"fop",
+			"docker"
+		],
+		"languages": [
+			"xslt",
+			"ruby",
+			"other"
+		]
+	},
+	"content": "readme.md dockbookercreate multi-format ebooks the command line - using docker.run docker image transform asciidoc documentation :multipart htmlpdfepub also makes sure your images fit, reprocesses according your destination media (example, images pdf are be 150dpi, jpegs a defined compression ratio, etc.)getting started you docker installed, clone repo, go \"sample_book\" run \"\".the sample document be compiled all formats - pdf, html epub.using docker image expects sources be mounted /in output be mounted /out. though contents /in are read-, it is perfectly acceptable map / and / to same folder. will run docker image : docker run - --rm \\ -v $(readlink -m .):/ \\ -v $(readlink -m ./):/out \\ lenz/dockbooker \\ //all first line runs image removes when terminated. second third linemount volumes /in /out (note we to readlink make local paths absolute). last line runs correct command \"//all\".creating books book is created of folder containing asciidoc file, images a manifestfile dockbooker.json. manifest:defines to compile how name resulting filedefines you your images processed idea is you keep images the simplest possibe format - it text ( dotfiles) high-resoution, full-color graphics. rendering, dockbooker takes care rendering images a size a resolution looks , but is usually compressed - example, pngs are reduced 256 colors packed. for each image can simply add your repo image -is, without processing ,and dockbooker process .the idea is images be either maxi (full page), midi ( 2/3) mini ( 1/3 the page).creating pdfs covers is possible customize pdfs adding docbook customization files. one supplied lets add picture the cover page a small logo the footer each page. theory, can customize appearance docbook books quite lot. practice, 's absurdly complex any contribution how do in practice is welcome. supplied xslt file includes: image the cover page, scaled be 8.0 cm tall image the footer, scaled be 1.0 cm tallfeel free improve .see :tips using fonts: http://www.simon-cozens.org/content/docbook-fop-fonts--multilinguapreprocessing fonts: http://www.incenp.org/notes/2012/fop-ttf-fonts.html (long) list fop configuration parameters: http://docbook.sourceforge.net/release/xsl/1.77.0/doc/fo/fonts embedded fop: https://xmlgraphics.apache.org/fop/2.0/fonts.html"
+}

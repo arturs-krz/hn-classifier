@@ -1,0 +1,18 @@
+{
+	"_id": "14411533",
+	"site": "https://github.com/mozilla/sccache",
+	"title": "Sccache – Shared Compilation Cache",
+	"author": "ingve",
+	"date": "2017-06-13T13:56:41.183Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"rust",
+			"python",
+			"other"
+		]
+	},
+	"content": "readme.md sccache - shared compilation cachesccache is ccache- tool. is used a compiler wrapper avoids compilation possible, storing cache a remote storage using s3 api.sccache includes experimental rust support. works a client-server. client spawns server one is running already, sends wrapped command line a request the server, then does work returns stdout/stderr the job. client-server model allows server be more efficient its handling the remote storage.sccache also used local storage instead remote.build requirementssccache is rust program. building requires cargo ( thus rustc). sccache currently requires rust 1.17. recommend install rust via rustup. generated binaries be built that are very portable, scripts/build-release.sh. default sccache supports local disk cache. build sccache support s3 /or redis cache backends, add --features= or select specific feature passing s3 /or redis. refer cargo documentation details.build$ cargo build [--features=|redis|s3] [--release]installation$ cargo installusagerunning sccache is running ccache: wrap compilation commands it, so:$ sccache gcc -o foo.o -c foo.csccache (tries ) support gcc, clang msvc. you don't specify otherwise, sccache use local disk cache. can run sccache --start-server start background server process without performing compilation. can run sccache --stop-server terminate server. will terminate 10 minutes inactivity.running sccache --show-stats print summary cache statistics.storage optionssccache defaults using local disk storage. can set sccache_dir environment variable change disk cache location. default will a sensible location the current platform: ~/.cache/sccache linux, %localappdata%\\mozilla\\sccache windows, ~/library/caches/sccache os x. you to s3 storage the sccache cache, need set sccache_bucket environment variable the name the s3 bucket use.set sccache_redis a redis url format redis://[:<passwd>@]<hostname>[:port][/<db>] store cache a redis instance.important: environment variables are taken account the server starts, only the run.debugging can set sccache_log_level environment variable debug trace ( recommended, 's very verbose) cause sccache output more fine grained logging what is doing. log file named sccache.log be output the current working directory whenever sccache is invoked.alternately, can run server manually foreground mode running sccache_start_server=1 sccache_no_daemon=1 sccache, send logging stderr setting rust_log environment variable, format which is described more detail the env_logger documentation. can set sccache_error_log environment variable a path cause server process redirect standard error output , in order capture output unhandled panics. ( server sets rust_backtrace=1 internally.)known caveats( possible future improvements)sccache doesn't try be smart the command line arguments uses computing key a given compilation result ( skipping preprocessor-specific arguments) doesn't support kinds compiler flags, is certainly broken a few them. really the flags used during firefox builds been tested. doesn't support ccache's direct mode. doesn't support option ccache_basedir."
+}

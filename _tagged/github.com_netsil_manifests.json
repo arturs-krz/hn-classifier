@@ -1,0 +1,16 @@
+{
+	"_id": "14100392",
+	"site": "https://github.com/netsil/manifests",
+	"title": " Container Monitoring in a Simplified Way",
+	"author": "DISCURSIVE",
+	"date": "2017-06-13T13:35:26.934Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md netsil application operations center (aoc) is next-gen observability analytics tool modern cloud applications. netsil aoc helps sres devops improve reliability performance api microservices-driven production applications. the heart the aoc is auto-discovered service topology map. visualizes service dependencies operational metrics practitioners work collaboratively across teams.introductioninstallation is done two parts: netsil aoc the netsil collectors. collectors are installed your application instances (vms containerized environments) mirror service interactions & metrics to netsil aoc real- analysis. may install collectors a variety environments, independent the aoc environment. instance, may run aoc a standalone docker container, install collectors kubernetes.documentationrefer our documentation site installation instructions, api definitions, user guides, more.support help please join public slack channel email support@netsil.com"
+}

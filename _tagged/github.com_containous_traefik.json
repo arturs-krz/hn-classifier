@@ -1,0 +1,30 @@
+{
+	"_id": "14443233",
+	"site": "https://github.com/containous/traefik",
+	"title": "Træfik, a modern reverse proxy",
+	"author": "loppers92",
+	"date": "2017-06-13T13:55:21.918Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"microservice",
+			"docker",
+			"marathon",
+			"mesos",
+			"consul",
+			"etcd",
+			"kubernetes",
+			"load-balancer",
+			"reverse-proxy",
+			"zookeeper",
+			"letsencrypt"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"shell",
+			"other"
+		]
+	},
+	"content": "readme.md træfik (pronounced traffic) is modern http reverse proxy load balancer made deploy microservices ease. supports several backends (docker, swarm, kubernetes, marathon, mesos, consul, etcd, zookeeper, boltdb, eureka, amazon dynamodb, rest api, file...) manage configuration automatically dynamically.overviewimagine you deployed bunch microservices your infrastructure. probably used service registry ( etcd consul) /or orchestrator (swarm, mesos/marathon) manage these services. you your users access of microservices the internet, will to a reverse proxy configure using virtual hosts prefix paths:domain api.domain.com point microservice api your private networkpath domain.com/web point microservice web your private networkdomain backoffice.domain.com point microservices backoffice your private network, load-balancing between multiple instances a microservices architecture is dynamic... services are added, removed, killed upgraded often, eventually several times day.traditional reverse-proxies are natively dynamic. can't change configuration hot-reload easily.here enters træfik.træfik listen your service registry/orchestrator api, knows each a microservice is added, removed, killed upgraded, can generate configuration automatically.routes your services be created instantly.run and forget !features's fast dependency hell, single binary made gorest apimultiple backends supported: docker, swarm, kubernetes, marathon, mesos, consul, etcd, more comewatchers backends, listen changes backends apply new configuration automaticallyhot-reloading configuration. need restart processgraceful shutdown http connectionscircuit breakers backendsround robin, rebalancer load-balancersrest metricstiny official docker image includedssl backends supportssl frontend support ( sni)clean angularjs web uiwebsocket supporthttp/2 supportretry request network errorlet's encrypt support (automatic https renewal)high availability cluster modequickstart can a quick at træfik this katacoda tutorial shows to load balance requests between multiple docker containers.here is talk given ed robinson the containercamp uk conference. will learn fundamental træfik features see demos kubernetes.here is talk ( french) given emile vauge the devoxx france 2016 conference. will learn fundamental træfik features see demos docker, mesos/marathon let's encrypt.web ui can access simple html frontend træfik.plumbingoxy: awesome proxy library made mailgun folksgorilla mux: famous request routernegroni: web middlewares made simplelego: best let's encrypt library gotest the simple : grab latest binary the releases page just run with sample configuration file:./traefik --configfile=traefik.toml the tiny docker image:docker run -d -p 8080:8080 -p 80:80 -v $pwd/traefik.toml:/etc/traefik/traefik.toml traefik sources:git clone https://github.com/containous/traefikdocumentation can find complete documentation here.contributingplease refer this section.code conductplease note this project is released a contributor code conduct. participating this project agree abide its terms.support can join get basic support. you prefer commercial support, please contact containo. by mail: mailto:support@containo..maintainersemile vauge @emilevaugevincent demeester @vdemeestered robinson @errmdaniel tomcej @dtomcejmanuel laufenberg @santodetimo reimann @timoreimannludovic fernandez @ldezcreditskudos peka his awesome on logo .traefik's logo licensed under creative commons 3.0 attributions license.traefik's logo was inspired the gopher stickers made takuya ueda (https://twitter.com/tenntenn). original gopher was designed renee french (http://reneefrench.blogspot.com/)."
+}

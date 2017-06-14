@@ -1,0 +1,21 @@
+{
+	"_id": "14438010",
+	"site": "https://github.com/cyberomin/terraform",
+	"title": "Always wanted to play with Harshicorp's Terraform? Now you can",
+	"author": "cyberomin",
+	"date": "2017-06-13T13:55:34.351Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"terraform",
+			"harshicorp",
+			"infrastructure",
+			"digitalocean"
+		],
+		"languages": [
+			"hcl",
+			"shell"
+		]
+	},
+	"content": "readme.md introduction project is vagrant dependent. you don't vagrant installed your machine, please kindly so. next phase be cloning project your machine. change directory the terraform directory run vagrant && vagrant ssh will launch into vagrant box terraform provisioned. have written simple introduction terraform tutorial here can help follow along.generating ssh keys generate ssh key, simply run command your terminal ssh-keygen -t rsa -b 4096 -c email follow on-screen information. ll strongly advise you dont set passphrase your ssh key.sample sample code this project uses digital ocean its based provider. you need do is change token a valid dos api are on way terraforming changing api token, change directory files location using cd /vagrant run terraform apply sit and watch terraform its thing.done? you're done experimenting, simply run terraform destroy terraform destroy previously created resource.please note there's cost attached spinning dos droplets. may to plan this i strongly suggest you destroy everything you are done. you any concern, kindly create issue send a pull request.enjoy."
+}

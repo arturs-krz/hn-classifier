@@ -1,0 +1,17 @@
+{
+	"_id": "14376638",
+	"site": "https://github.com/gentilkiwi/wanakiwi",
+	"title": "Gentilkiwi/wanakiwi: Automated wanadecrypt with key recovery if lucky",
+	"author": "pavel_lishin",
+	"date": "2017-06-13T13:57:06.555Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"c++"
+		]
+	},
+	"content": "readme.md wanakiwiintroduction utility allows machines infected the wannacry ransomware recover files.wanakiwi is based wanadecrypt makes possible lucky users :recover private user key memory save as 00000000.dkydecrypt of files primes extraction method is based adrien guinet's wannakey consist scanning wannacry process memory recover prime numbers were cleaned during cryptreleasecontext().adrien's method was originally described only valid windows xp @msuiche i proved can extended windows 7.usageprocess accesswanakiwi.exe [/pid:pid|/process:program.exe]pid process are optional parameters, default utility look any this process:wnry.exewcry.exedata_1.exeed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa.exetasksche.exelimitationsgiven fact method relies scanning address space the process generated those keys, means if process had been killed , for instance, reboot - original process memory be lost. is very important users not reboot system before trying tool.secondly, of same reason do know long prime numbers be kept the address space before being reused the process. is why is important try utility asap. is a perfect tool, this has been far best solution victims had backup.compatibilityo.s.x86x64windows xp?windows 2003?windows 7?frequently asked questionsdoes modify original encrypted files ?, the original encrypted files (.wncry) remain unmodified. decrypted files are generated separate files.does work an infected machine had been rebooted shutdown ?, the whole point is be able analyze process memory the process created keys. it had been shutdown rebooted, memory state is lost. about hibernated machines ?yes, you hibernate machine actually saves state memory disk allows keep process memory state. those scenarios, machine has been hibernated multiple days has memory state intact identical the it hibernated. actually raises chances file recovery. shall do recovering files ? strongly recommend to immediately up those decovered files an external empty disk before rebooting shutting down machine - including 00000000.dky file generated wanakiwi is decryption key.once backed- up recovered files, recommend to reinstall fresh version windows.acknowledgement product includes software developed the openssl project use the openssl toolkit (http://www.openssl.org/) big thanks love :@msuiche <3@halsten@malwareunicorn@adriengntresourceshttps://blog.comae.io/wannacry-decrypting-files--wanakiwi-demo-86bafb81112d"
+}

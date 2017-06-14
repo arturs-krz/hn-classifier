@@ -1,0 +1,21 @@
+{
+	"_id": "14129292",
+	"site": "https://github.com/ParhamP/Natural_Logic_Interpreter",
+	"title": " Automatically interpret and validate nested natural logic arguments",
+	"author": "parhamp",
+	"date": "2017-06-13T13:35:12.556Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"logic-programming",
+			"natural-language",
+			"logical-knowledge-inference",
+			"logical-knowledge-representation",
+			"logic-design"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md natural_logic_interpreterdescriptionnatural logic interpreter automatically interprets validates nested natural logical arguments(logical arguments expressed natural language) based rules inference propositional logic. program uses \"divide conquer\" algorithmsimplemented recursive functions go through nested logical arguments to able define validate accordingly.inspiration\"translating sentences english ( other natural languages) logical expressions is crucialtask mathematics, logic programming, artificial intelligence, software engineering, many disciplines.\" came across paragraph while studying \"discrete mathematics it's applications\"; therefore, got inspired automate task using computers.examples can establish logical arguments:( go school) ((i study) (i exercise)) (i exercise) (i'm healthy) (i'm healthy) (not 'm sick)( study) (i'm sick)( it rains today)( study) ((i to gym) (i drink coffee))( rains today) ((i exercise) (i study)) (i'm healthy) (i'm happy) (i'm fit) we validate proposition want based them:('m sick) -----> false (i exercise) (i'm healthy) -----> true( rains today) ((i exercise) (i study)) -----> true( rains today) (i'm healthy) -----> true( drink coffee) ((i'm happy) (i'm fit)) -----> none can see the conclusions were able be drawn the program:( rains today) ---> none( go gym) (i drink coffee) ---> none('m happy) ---> none( drink coffee) ((i'm happy) (i'm fit)) ---> none( rains today) (i'm healthy) ---> true( study) ((i to gym) (i drink coffee)) ---> true (i'm healthy) (not 'm sick) ---> true (i'm healthy) (i'm happy) (i'm fit) ---> true('m fit) ---> none( study) (i'm sick) ---> true( go school) ((i study) (i exercise)) ---> true( go school) ---> true( rains today) ((i exercise) (i study)) ---> true( exercise) (i study) ---> true('m healthy) ---> true (i exercise) (i'm healthy) ---> true( go gym) ---> none('m happy) (i'm fit) ---> none( study) (i exercise) ---> true( drink coffee) ---> none( exercise) ---> true( rains today) ---> false('m sick) ---> false( study) ---> truedependenciespython 3.5install usagedownload clone repo click the executable python file called \"nli\" enter interactive command line interface.syntax conventions is various expressions should entered this program:simple expressions: (expression) arguments: (expression1) (expression2) arguments: (expression1) (expression2) arguments: ( expression)conditional arguments: (expression1) (expression2)current known bugs limitations regex is written recognize type arguments sometimes fails do when depth length mainlogical arguments becomes large. however, has been known issues working arguments similar the ones seen theexamples section. addition, operation now cannot used the following ways: need be implemented using de morgan's law (expression1) (expression2) (expression1) (expression2) author is working these issues.contributing field study is huge this program is complete any means. is lot can done add its capabilities. please feel free contribute build top it. should have questions order start email at: ppourdavood@gmail.com.authorparham pourdavood"
+}

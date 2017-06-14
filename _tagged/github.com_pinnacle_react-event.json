@@ -1,0 +1,20 @@
+{
+	"_id": "14346627",
+	"site": "https://github.com/pinnacle/react-event",
+	"title": " React Event – Declarative Way to Handle Events in React Component",
+	"author": "rpunkfu",
+	"date": "2017-06-13T13:08:16.059Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"events",
+			"higher-order-component"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": "readme.md react eventdeclarative to handle events outside / inside react component.exampleimport enhancewithevent '@pinnacleio/react-event'class helloworld extends component { handleevent() { /* whatever want :) */ } render() { return <div /> }}// component calls `handleevent` method `mousedown` is fired anywhere.const foo = enhancewithevent('mousedown')(helloworld)// component calls `handleevent` method `mousedown` is fired inside .const bar = enhancewithevent('mousedown', { inside: true })(helloworld)// component calls `handleevent` method `mousedown` is fired outside it.const baz = enhancewithevent('mousedown', { outside: true })(helloworld)api component must define method handleevent() order enhancer work, otherwise nothing happen.enhancewithevent( events: string | array<string>, options: object,): higherordercomponentparameterdescriptionexampledefault valueeventsevent type(s) listen .'mousedown', ['mousedown', 'touchstart']niloptionswhere event be accepted.{ outside: true }, { inside: true }{}"
+}

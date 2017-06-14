@@ -1,0 +1,22 @@
+{
+	"_id": "14456373",
+	"site": "https://github.com/octohedron/gauth",
+	"title": "Minimalistic Go JWT Auth Example",
+	"author": "octohedron",
+	"date": "2017-06-13T13:55:02.116Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"redis",
+			"jwt",
+			"golang",
+			"auth",
+			"example",
+			"json"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md minimalistic jwt auth exampledependenciesgithub.com/dgrijalva/jwt-github.com/garyburd/redigo/redisgithub.com/gorilla/muxgolang.org/x/crypto/bcryptinstallationinstall redisclone repo $gopath/src/github.com/octohedron/gauthinstall dependencies$ getset environment variables$ export auth_port=your_port # .e. 8000$ export sign_key=secret # jwt sign keyusage$ build && ./gauth will run server you try out curlregister$ curl -x post -f 'email=@a.com' -f 'password=password' http://192.168.1.43:4200/register# should print a token, similar { \"access_token\": \"eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9.eyj... \" }login$ curl -x post -f 'email=@a.com' -f 'password=password' http://192.168.1.43:4200/login# should print a token, similar { \"access_token\": \"eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9.eyj... \" }example ajax usage//// note: this work might need uncomment cors headers the// setheaders func//// button, click ... var formdata = formdata();formdata.append(\"email\", \"@a.com\");formdata.append(\"password\", \"hunter2\");// the requestfetch(\"http://192.168.1.43:4200/login\", { method: \"post\", body: formdata}).(result => { result.json().(result => { (result.error) { alert(result.error); // \"wrong password\" \"email found\" } else { alert(\" token is: \" + result.access_token); } });});license: mit"
+}

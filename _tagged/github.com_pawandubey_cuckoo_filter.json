@@ -1,0 +1,19 @@
+{
+	"_id": "14345605",
+	"site": "https://github.com/pawandubey/cuckoo_filter",
+	"title": " Cuckoo Filter in Ruby",
+	"author": "pkd",
+	"date": "2017-06-13T13:08:16.467Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ruby",
+			"cuckoo-filter"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": "readme.md cuckoofilterpure ruby implementation the cuckoo filter - probabilistic datastructure is objectively better bloom filters set-membership queries. the heck is cuckoo filter? is probabilistic data structure is used determine set-membership, .e. finding if given element exists a given set. practical uses - checking an item is present a cache, it is present a database youtube trying figure if have already watched video before is recommended you. is closely related bloom filters - outshines in performance space efficiency. can read more the original paper introduced in 2014. yes, is young!installationadd line your application's gemfile:gem 'cuckoo_filter' then execute:$ bundle install yourself :$ gem install cuckoo_filterusage# create filter 1024 (next power 2) slots each bucket holding 4cf = cuckoofilter.(size: 1000, kicks: 500, bucket_size: 4)# => returns cuckoofilter::cuckoofilter instance# insert element the filtercf.insert(\"foo\")# => true# lookup existence an elementcf.lookup(\"foo\")# => truecf.lookup(\"bar\")# => false# delete existing elementcf.delete(\"foo\")# => truefrequenty anticipated questionsq: is useful? : yes, have look the benchmarks below see it satisfies performance requirements before using in real world app.q: why did make ?a: fun education, course! although is stopping from having real world usage!q: why ruby? why go/rust/elixir/foobar: because why ? i ruby i couldn't find full blown implementation it.q: i it a real project?: if satisfies criteria, why ? have look the benchmarks performance stats. let know you !benchmarks can run benchmark script see iterations per second performance different methods an initially half full filter.$ ruby test/benchmark.rbsetting for benchmarking...done.warming --------------------------------------# warmup stats -> be ignoredcalculating -------------------------------------iterations per second - insertions 214.863m (±47.1%) /s - 1.214b 9.859735siterations per second - lookups 355.392m (±10.9%) /s - 3.371b 9.697599siterations per second - deletions 343.890m (± 9.6%) /s - 3.286bdevelopment checking the repo, run bin/setup install dependencies. , run rake test run tests. can run bin/console an interactive prompt will allow to experiment.contributingbug reports pull requests are welcome github https://github.com/pawandubey/cuckoo_filter.licensecopyright 2017 pawan dubeylicensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

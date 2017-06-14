@@ -1,0 +1,19 @@
+{
+	"_id": "14506458",
+	"site": "https://github.com/alexpate/awesome-design-systems",
+	"title": "A curated list of design systems, pattern libraries, and more",
+	"author": "alexpate",
+	"date": "2017-06-13T14:09:56.485Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"awesome-list",
+			"design-systems",
+			"pattern-library",
+			"ui-library",
+			"awesome"
+		],
+		"languages": []
+	},
+	"content": "readme.md a resource isn't listed below? feel free create new pull request, open issue.tags:components: contains coded patterns examples.voice & tone: provides guidance how language should used.designers kit: includes sketch/photoshop/figma/etc. file designers.storybook: provides components relevant stories react storybook.componentsvoice & tonedesigners kitstorybookalibaba ant designapple developer design guidelinesatlassian design languageaudi ui kitbbc gel (global experience language)blueprintbuzzfeed solidcloudflareco-op design manualgithub primergoogle material designhewlett packard grommetibm carbonibm design languageintuit harmonylonely planet rizzolouder ten manuallost name design systemmailchimp content styleguidemailchimp patternsmarvel styleguidemicrosoft fluentmixpanel product styleguidenib health fundsoffice ui fabricpatternfly open interface projectpivotalpusher chameleonsalesforce lightning design systemsap fioriseek style guideshopify polarissky toolkitu.s. web design standardsvmware clarity design systemyelp styleguidenotesalthough 'design systems', 'ui libraries', 'pattern libraries' are different things, are often used interchangeably. list contains three.creditscover icon: 'solar system' andrejs kirma the noun project"
+}

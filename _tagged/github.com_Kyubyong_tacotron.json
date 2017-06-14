@@ -1,0 +1,19 @@
+{
+	"_id": "14458970",
+	"site": "https://github.com/Kyubyong/tacotron",
+	"title": "TensorFlow Implementation of Tacotron: End-To-End Text-To-Speech Synthesis Model",
+	"author": "kyubyong",
+	"date": "2017-06-13T13:55:01.817Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tts",
+			"tensorflow",
+			"speech-synthesis-model"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md (heavily documented) tensorflow implementation tacotron: fully end--end text--speech synthesis modelmajor historyjune 2, 2017. added train_multiple_gpus.py multiple gpus.june 1, 2017. second draft. corrected mistakes the help several contributors (thanks!), re-factored source codes that are more readable modular. far, couldn't any promising results.may 17, 2017. draft. can run following steps below, probably should poor results. 'll working debugging weekend. (code reviews /or contributions are more welcome!)requirementsnumpy >= 1.11.1tensorflow >= 1.1librosascipydatasince original paper was based their internal data, use freely available , instead. world english bible is public domain update the american standard version 1901 modern english. text audio recordings are freely available here. unfortunately, however, each the audio files matches chapter, a verse, is too long many machine learning tasks. had someone slice by verse manually. can download audio data its text my dropbox.contenthyperparams.py: includes hyper parameters are needed.prepro.py: loads vocabulary, training/evaluation data.data_load.py: loads data put in queues multiple mini-bach data are generated parallel.utils.py: has several custom operational functions.modules.py: contains building blocks encoding/decoding networks.networks.py: has three core networks, is, encoding, decoding, postprocessing network.train.py: is charge training.eval.py: is charge sample synthesis.trainingstep 1. adjust hyper parameters hyperparams.py necessary.step 2. download extract audio data its text.step 3. run train.py. train_multiple_gpus.py you more one gpu.sample synthesisrun eval.py get samples.acknowledgements would to show respect dave, host www.audiotreasure.com the reader the audio files."
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14530924",
+	"site": "https://github.com/djadmin/copy-host/",
+	"title": " Easy way to copy hostname to your clipboard",
+	"author": "djadmin",
+	"date": "2017-06-13T13:23:08.731Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chrome-extension",
+			"devops",
+			"developer-tools"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md copy host copy host allows to copy hostname the current tab your clipboard.why?chrome some cases, prepend http:// the url you try copy. constantly copy url the browser shell it makes crazy. avoid , i built very simple chrome extension get the hostname the website are currently browsing. , made a lot easier copy hostname just shortcut key, .e., alt + c. example, you try copy url https://www.google.com the browser try ping using shell, doesn't .ping www.google.com works perfectly 'copy host' makes easy do .installationcopy host is available chrome web store. additional permissions are required install.keyboard shortcutalt + c be used copy hostname your clipboard directly.screenshotdevelopmentclone repogit clone https://github.com/djadmin/copy-host your changes. test, to: chrome://extensions, enable developer mode load src an unpacked extension.contributingtodoconfigurable keyboard shortcutoption disable popupissuesfeel free submit issues feature requests.licensecopyright (c) 2017 dheeraj joshilicensed under mit license."
+}

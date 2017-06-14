@@ -1,0 +1,34 @@
+{
+	"_id": "14418895",
+	"site": "https://github.com/docker/labs",
+	"title": "Docker Labs",
+	"author": "robschia",
+	"date": "2017-06-13T13:56:32.029Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker-tutorial",
+			"lab",
+			"swarm",
+			"docker",
+			"docker-compose",
+			"swarm-mode",
+			"orchestration",
+			"windows",
+			"dotnet",
+			"java",
+			"security",
+			"containers"
+		],
+		"languages": [
+			"php",
+			"javascript",
+			"css",
+			"c#",
+			"html",
+			"asp",
+			"other"
+		]
+	},
+	"content": "readme.md docker tutorials labs repo contains docker labs tutorials authored both docker, by members the community. welcome contributions want grow repo.docker tutorials:docker beginnersdocker swarm modeconfiguring developer tools programming languagesjavalive debugging java dockerdocker java developersnode.jslive debugging node.js application dockerdockerizing node.js applicationdocker asp.net windows containersbuilding 12 factor app dockerdocker securitydocker networkinghands- labs dockercon 2017community tutorialsdocker tutorials the community - links a different repositoryadvanced docker orchestration workshop - links a different repositorycontributing want see repo grow, if have tutorial submit, contributions existing tutorials, please this guide:guide submitting own tutorial"
+}

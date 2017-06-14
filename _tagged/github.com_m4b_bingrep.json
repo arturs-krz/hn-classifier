@@ -1,0 +1,22 @@
+{
+	"_id": "14530054",
+	"site": "https://github.com/m4b/bingrep",
+	"title": "Bingrep: Like grep, but for binaries",
+	"author": "adulau",
+	"date": "2017-06-13T14:09:47.474Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"grep",
+			"binary",
+			"objdump",
+			"elf",
+			"portable-executable",
+			"mach-o"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": "readme.md bingrep greps through binaries various oss architectures, colors . current backends:elf 32/64, arm, x86, openrisc - others parse color, relocations won't show properlymach 32/64, arm, x86pe (debug )note: requires rustc version 1.15 greater. you're using distro's rust compiler, consider using https://rustup.rs install rustc compiler associated binaries.buildcargo build --releaserunexample:bingrep /bin/ls dump internal debug representation the parsed binary:bingrep -d /bin/lsfaqwhy is repo called bingrep, 's nothing grep all's good question; was using as personal development tool some , and was conferring someone the internet some binary stuff, i decided should upload to proper repo instead sending pictures. i quickly created repo, felt i had been greppin' through binaries, that was name uploaded. worse, named bg the produced executable the of upload, this course immediately conflicted the unix command bg. 's issue a better name, can chime too!why you/should use instead x ? some my projects workflows need very quickly the load address, offset, size a symbol/program header/section header/export/import. got tired using objdump/nm/x really, just needed colorize addresses, sizes etc., i quickly identify and move . so wrote , very quickly, named a bad name (sorry!). i went totally overboard started coloring everything, everywhere. love , don't worry. you're free use anything want, whatever makes happy productive!is anything work ?yes, are several open issues. think 'd actually to port symbol map functionality ( enables printing every binary exports symbol) https://github.com/m4b/rdr, well implement \"reverse symbol map\", finds every binary calls/imports symbol. you like hacking binary stuff, backend uses, https://github.com/m4b/goblin, is responsible the actual loading, parsing, etc., there are several open issues that repo well you feel contributing."
+}

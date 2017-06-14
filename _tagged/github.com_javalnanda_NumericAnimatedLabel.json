@@ -1,0 +1,19 @@
+{
+	"_id": "14418034",
+	"site": "https://github.com/javalnanda/NumericAnimatedLabel",
+	"title": "Set numeric value with animation using NumericAnimatedLabel",
+	"author": "javalnanda",
+	"date": "2017-06-13T13:56:32.223Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"shell",
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": "readme.md numericanimatedlabelexample run example project, clone repo, run pod install the example directory .requirementsinstallationnumericanimatedlabel is available through cocoapods. install, simply add following line your podfile:pod \"numericanimatedlabel\"setup only thing need do is import numericanimatedlabel, add uiview storyboard create outlet it.import numericanimatedlabel @iboutlet weak var numericlabel: numericanimatedlabel!override func viewdidload() { super.viewdidload() // set value numericlabel.setvalue(v: walletbalance) // customize required numericlabel.textalignment = .center numericlabel.formatstring = \"%.2f\" numericlabel.textfont = uifont.boldsystemfont(ofsize: 20.0) // text color be changed storyboard inspector programmatically . }suggestions feedback?feel free create pull request, open issue find on twitter.authorjavalnanda, javalnanda@gmail.comlicensenumericanimatedlabel is available under mit license. the license file more info."
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14381130",
+	"site": "https://github.com/dbohdan/ptjd",
+	"title": " A pure Tcl JPEG decoder",
+	"author": "networked",
+	"date": "2017-06-13T13:07:23.692Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"tcl",
+			"jpeg",
+			"jpeg-decoder",
+			"jim-tcl"
+		],
+		"languages": [
+			"tcl"
+		]
+	},
+	"content": "readme.md ptjd single-file pure tcl baseline jpeg decoder library. works tcl 8.5, tcl 8.6 jim tcl 0.75 later.q & what is supported?jpeg/jfif jpeg/exifhuffman codingycbcy (standard three-channel color) grayscale8-bit color channelschroma subsampling (horizontal vertical 4:2:2 subsampling 4:2:0 subsampling has been tested)restart markers isn't?progressive lossless encodingarithmetic codingcmyk color12-bit color channelswhy? learn to write jpeg decoder. is good ?the decoder is far too slow replace c-based jpeg decoders tcl anything the smallest images. however, can used a benchmark compare different tcl implementations different versions the same implementation. ( below.) code may help understand jpeg compression. is small (circa 700 lines), written a functional style ( decoder consists pure functions insofar those exist tcl) stores data easy--inspect immutable data structures.( you to understand a jpeg decoder works, based my own experience recommend reading wikipedia article jpeg following jpeg huffman coding tutorial before anything else. you don't tcl, learn tcl y minutes should teach enough start reading decoder's code. tcl is pretty much collection independent commands; once know syntax can them as go along.) is performance ?the script benchmark.tcl be used evaluate performance the decoder timing long takes decode several test images included this repository. here are sample results obtained running benchmark an amd phenom ii cpu.running tcl 8.5.19 (64-bit) x86_64 linux5 iterations per image==========================grayscale.jpg 10 mslandscape.jpg 19548 mslandscape-q.jpg 11159 ms63.6 mbrunning tcl 8.6.5 (64-bit) x86_64 linux5 iterations per image==========================grayscale.jpg 10 mslandscape.jpg 18758 mslandscape-q.jpg 10587 ms75.3 mbrunning jim 0.75 (64-bit) x86_64 linux5 iterations per image==========================grayscale.jpg 19 mslandscape.jpg 38508 mslandscape-q.jpg 22832 ms88.8 mblicensemit.test-data/landscape* photo maciej wrona, licensed under cc0."
+}

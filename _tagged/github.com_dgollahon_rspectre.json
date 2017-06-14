@@ -1,0 +1,17 @@
+{
+	"_id": "14322002",
+	"site": "https://github.com/dgollahon/rspectre",
+	"title": " RSpectre – a tool for finding unused RSpec test setup",
+	"author": "gollahon",
+	"date": "2017-06-13T13:08:17.732Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": "readme.md rspectrerspectre is tool hunting dead errant code haunting test suite. picks where static analysis tools rubocop-rspec leave off analyzing test suite it runs. project is still bit a in progress. particular, --auto-correct is still experimental may leave behind awkward whitespace otherwise misbehave. ymmv.happy testing! tool action can sometimes difficult determine where if test setup is used--especially it exists across multiple files. since rspectre probes test suite while runs, can reliably detect number common mistakes.example specrspec.describe 'example' subject { ' get overridden later' } let(:foo) { ' unused foo' } shared_examples 'unused example' it 'is useless since is included' expect(2 + 2). eql(5) end end shared_examples 'used' let(:bar) { ' unused bar' } 'asserts something' expect(subject). eql(baz) end end context ' context' subject { 'x' } let(:baz) { 'x' } include_examples 'used' endendrspectre outputplanned features detect unused let statements detect unused subject statements detect unused shared_examples shared_contexts automatically delete dead code detect unused double arguments have other ideas mind well, haven't evaluated feasible are yet.installation install rspectre, run:$ gem install rspectre addgem 'rspectre' your gemfile.supported ruby versionsrspectre currently supports ruby 2.3 2.4. may add 2.2 support the future.usagesimply running$ rspectre invoke rspec test suite check various offenses. runs rspec rspec --fail-fast spec default. you need pass custom arguments rspec, can the --rspec flag pass quoted string rspec arguments, shown below:$ rspectre --rspec '---rspec-flag tests' you to automatically delete dead code rspectre finds, simply the --auto-correct flag.$ rspectre --auto-correctnote should generally run entire test suite rspectre. rspectre inserts probes all your specs helpers they are require'd then waits observe being used. , for example, spec helper requires your shared examples you run subset your tests ( don't happen use of aforementioned shared examples), may appear rspectre some those shared examples are unused they are . i may consider trying handle some these cases the future, for just run whole test suite else 'll to sift through false positives.contributingplease try rspectre your codebase--'d love general feedback bug reports. you find something weird --auto-correct eats dog along your homework, open issue!, if have idea something think rspectre might able reasonably detect, feel free propose in issue well."
+}

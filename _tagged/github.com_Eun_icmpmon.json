@@ -1,0 +1,29 @@
+{
+	"_id": "14469728",
+	"site": "https://github.com/Eun/icmpmon",
+	"title": " A simple ICMP monitor with web interface",
+	"author": "Eun",
+	"date": "2017-06-13T13:05:02.652Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"golang",
+			"go",
+			"daemon",
+			"monitoring",
+			"icmp",
+			"ping",
+			"mpl2",
+			"vuejs2",
+			"vue2",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"go",
+			"css",
+			"other"
+		]
+	},
+	"content": "readme.md icmpmon simple icmp monitor web interface.demoprebuilt files are the releases section.runningicmpmon -c config.hjsonwarranty product comes without warranty any form.buildingrequirementsgolang 1.8gcc ( *nix)tdm64-gcc ( windows)buildinggit clone https://github.com/eun/icmpmon.git get -u github.com/jinzhu/gorm/... get -u gopkg./eapache/channels.v1 get -u golang.org/x/net/websocket get -u github.com/hjson/hjson-go -u github.com/jteeuwen/-bindata/...cd icmpmon./.bat notesuses mozilla's metrics-graphics.changelog0.8: initial release0.6: switched metrics-graphicscontributingpull requests are welcome. that be doneimprove webinterface, better charts? rewrite at ?"
+}

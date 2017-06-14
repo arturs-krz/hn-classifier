@@ -1,0 +1,17 @@
+{
+	"_id": "14263015",
+	"site": "https://github.com/panzhangwang/mrdict",
+	"title": " Mr Dict – A browser extension helps measure readings",
+	"author": "panzhangwang",
+	"date": "2017-06-13T13:32:06.095Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md mr dict browser extension helps measure readings just a dictionary backgroud others, quite often resort an instant dictionary reading onto new word. another word pops , i this again, sometimes, also happens the same because just forgot meaning. instant dict gives the answer quickly i stop thinking tend lookup directly. need fix it. , i came with mr dict. encourages to mark words along reading never stops thinking guessing, finally gives the answers all, well other metrics :how long does take read story? much ( may words) i understand story? many correct guesses i ?how much better i compare others?steps1. start reading 2. mark end reading 3. lookup installationclone repository git clone https://github.com/panzhangwang/mrdict.gitrun npm installrun npm run buildalternately, you to try the sample extension, here are download links. you download , unzip file load in browser using steps mentioned below.download chrome extensiondownload opera extensiondownload firefox extensionload extension chrome & operaopen chrome/opera browser navigate chrome://extensionsselect \"developer mode\" then click \"load unpacked extension...\" the file browser, choose mrdict/build/chrome (mrdict/build/opera)load extension firefoxopen firefox browser navigate about:debuggingclick \"load temporary add-\" and the file browser, choose mrdict/build/firefoxdeveloping following tasks be used you to start developing extension want enable live reload -npm run chrome-watchnpm run opera-watchnpm run firefox-watchpackagingrun npm run dist create zipped, production-ready extension each browser. can upload to appstore."
+}

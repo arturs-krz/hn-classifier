@@ -1,0 +1,21 @@
+{
+	"_id": "14476967",
+	"site": "https://github.com/PalashBansal96/MusicalYoutube",
+	"title": "Open source YouTube floating PIP player for Android",
+	"author": "0palash0",
+	"date": "2017-06-13T13:55:02.843Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"youtube",
+			"android",
+			"music",
+			"player",
+			"floating"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md musicalyoutube youtube pip player android. innovative android app plays youtube videos a small always top player, can dragged around the screen. app supports real- playlist queue control, which videos/music be added youtube search. you find bug would to suggest feature, create issue send pull request. app was made a fun project a weekend. it works app starts foreground service, where plays video a webview the youtube embedded player, window be dragged, dropped the screen can run without activity. compile code, put youtube api key youtubeconnector.java. api key is needed search functionality, for playing videos. open source version is slightly different the on play store it allows functionality, is restricted play store.playstore linkhttps://play.google.com/store/apps/details?id=com.palashbansal.musicalyoutubedemo video"
+}

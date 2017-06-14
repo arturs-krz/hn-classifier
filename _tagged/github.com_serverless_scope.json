@@ -1,0 +1,23 @@
+{
+	"_id": "14505821",
+	"site": "https://github.com/serverless/scope",
+	"title": "Scope – Customizable birdeye's view of your GitHub project",
+	"author": "cdnsteve",
+	"date": "2017-06-13T14:09:56.603Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"serverless",
+			"github",
+			"dynamodb",
+			"webhooks",
+			"aws-lambda"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md scope - serverless open source status boardscope is customizable bird's eye view your github project. automatically pulls issues & pull requests sorts into columns define. github projects steroids.built using event driven serverless tech, application be cloned down, configured, & deployed your project minutes.deploy as stand-alone application embed directly your project's site.run for free under aws's generous free tier.table contentsclick expandfeatureswhy built contributingsetupfaqfeaturescustomize labels/columns fit projectcustomizable styles driven push based github webhooksrun standalone app embed your project's site mom! servers!data automatically updates activity happens your repository your status board reflect latest state your project.why built we built tool our community help keep up speed what is happening the serverless project & highlight places where actively feedback + collaboration.quickly sort see high priority issues & pull requestscall which issues need attention your communityzoom important aspect your open source projectfront-end documentation & setupbackend documentation & setupvideo tutorialscontributing to contribute to project? drop issue open a pr.setup things setup aws account npm serverless -g be able deploy status boarddeploy serverless backend. follow instructionsgrab api endpoints & plug into front-end /frontend/src/custom.config.jsconfigure front-end columns your projects labels, build deploy . follow instructionsfaq i need aws account this work?yes, this fall the free tier an aws account. free tier signupdoes need show my issues?nope. choose labels show in each column i to show recently completed items?nope. can toggle off column the front-end config. just setup front-end, where are recently completed items? will start flowing once start closing issues/prs your repowebsite email updates gitter forum meetups twitter facebook contact"
+}

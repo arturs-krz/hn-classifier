@@ -1,0 +1,16 @@
+{
+	"_id": "14407384",
+	"site": "https://github.com/jhartwell/Plsm",
+	"title": " Plsm 2.0 has been released",
+	"author": "jetti",
+	"date": "2017-06-13T13:06:45.536Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": "readme.md plsm (formally plasm)- ecto model generationplsm generates ecto models based existing database tables your database. currently, ecto allows ability create migrations creates tables/schemas. you an existing project you to add ecto support you have hand code models. can tedious tables have many columns.running plsm, in order run plsm, need generate config file. do by runningmix plsm.config --config-file <name> will create skeleton config file the given config file. you don't specify config.exs file will written the \"config/config.exs\" file. you are using another structure, such phoenix, you need pass your dev.exs, since is dev process. will need make changes the generated plsm configs the config file order allow plsm function correctly.once have config file generated you are ready run plsm. do by runningmix plsm are able change location the model file output the configuration filegetting plsm can add{:plsm, \"=> 2.0.1\"} deps your mix.exs that download package youconfiguration optionsmodule_name -> is name the module the models be placed underdestination -> output location the generated modelsserver -> is name the server you are connecting . it be dns name an ip address. needs be filled as are defaultsport -> port the database server is listening . this needs be provided there may be default your serverdatabase_name -> name the database you are connecting . this is required.username -> username is used connect. sure there is sufficient privelages be able connect, query tables well query information schemas the database. schema information is used find index/keys each tablepassword -> is necessary there is default nor is any handling a blank password currently.type -> dictates database vendor are using. currently support postgresql mysql. no value is entered it default mysql. note this is atom not stringsupported databases currently support following databases:mysqlpostgresql are planning add support other databases that has been implemented yet. please feel free contribute commits add different database vendor support! you any questions can reach via email jon@dontbreakthebuild.com"
+}

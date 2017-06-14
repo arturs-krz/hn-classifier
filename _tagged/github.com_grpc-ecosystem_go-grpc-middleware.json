@@ -1,0 +1,27 @@
+{
+	"_id": "14358072",
+	"site": "https://github.com/grpc-ecosystem/go-grpc-middleware",
+	"title": "GRPC Middleware – reusable auth, logging, retry, tracing libraries for Golang",
+	"author": "cube2222",
+	"date": "2017-06-13T13:57:47.818Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"grpc",
+			"golang",
+			"middleware",
+			"generic-functions",
+			"library",
+			"logging",
+			"authentication",
+			"retries",
+			"testing",
+			"interceptor"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": "readme.md grpc middlewaregrpc middleware: interceptors, helpers, utilities.important repo recently moved github.com/grpc-ecosystem/-grpc-middleware, please update import paths.middlewaregrpc recently acquired support interceptors, .e. middleware is executed either the grpc server before request is passed onto user's application logic, on grpc client either around user call. is perfect to implementcommon patters: auth, logging, message, validation, retries monitoring. are generic building blocks make easy build multiple microservices easily. purpose this repository is act a -to point such reusable functionality. contains of itself, also link useful external repos.grpc_middleware itself provides support chaining interceptors. documentation, here's example:import \"github.com/grpc-ecosystem/-grpc-middleware\"myserver := grpc.newserver( grpc.streaminterceptor(grpc_middleware.chainstreamserver( grpc_ctxtags.streamserverinterceptor(), grpc_opentracing.streamserverinterceptor(), grpc_prometheus.streamserverinterceptor, grpc_zap.streamserverinterceptor(zaplogger), grpc_auth.streamserverinterceptor(myauthfunction), grpc_recovery.streamserverinterceptor(), )), grpc.unaryinterceptor(grpc_middleware.chainunaryserver( grpc_ctxtags.unaryserverinterceptor(), grpc_opentracing.unaryserverinterceptor(), grpc_prometheus.unaryserverinterceptor, grpc_zap.unaryserverinterceptor(zaplogger), grpc_auth.unaryserverinterceptor(myauthfunction), grpc_recovery.unaryserverinterceptor(), )),)interceptorsplease send pr add interceptors middleware this listauthgrpc_auth - customizable (via `authfunc) piece auth middlewarelogginggrpc_ctxtags - library adds tag map context, data populated request bodygrpc_zap - integration zap logging library grpc handlers.grpc_logrus - integration logrus logging library grpc handlers.monitoringgrpc_prometheus - prometheus client-side server-side monitoring middlewareotgrpc - opentracing client-side server-side interceptorsgrpc_opentracing - opentracing client-side server-side interceptors support streaming handler-returned tagsclientgrpc_retry - generic grpc response code retry mechanism, client-side middlewareservergrpc_validator - codegen inbound message validation .proto optionsgrpc_recovery - turn panics grpc errorsstatus code has been running production since may 2016 the basis the grpc micro services stack improbable.additional tooling be added, contributions are welcome.license-grpc-middleware is released under apache 2.0 license. the license file details."
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "14420933",
+	"site": "https://github.com/Hongbo-Miao/microsoft-graph-angular",
+	"title": " Hello Microsoft Graph – Use Microsoft Graph in Angular Project",
+	"author": "Hongbo-Miao",
+	"date": "2017-06-13T13:06:43.957Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"microsoft-graph",
+			"angular",
+			"excel"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md hello microsoft graph! project is showing you use microsoft graph your angular 4 project.microsoft graph gives power control excel, outlook, onedrive, onenote, planner, azure ad, sharepoint, etc. this project does shows you mircosoft graph login a microsoft account.once login, reads contacts your microsoft account. you click \"write excel\" button, writes contacts an excel file.note before write excel, need create file called \"demo.xlsx\" root folder your onedrive. create table called \"table 1\" has columns the excel below: project try be simple possible help quick start. the future, will provide simple api create empty file. to run project was generated angular cli. npm start ng serve run. navigate http://localhost:4200/. to create project yourself create app, need an app id https://apps.dev.microsoft.com/. configure app the permissions need. demo needs contacts.read, files.readwrite. info are set in config file.learn more learn more microsoft graph, please check document."
+}

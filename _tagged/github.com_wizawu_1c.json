@@ -1,0 +1,23 @@
+{
+	"_id": "14358055",
+	"site": "https://github.com/wizawu/1c",
+	"title": "Full-featured TypeScript (v2.3) on JVM (Releasing 1c v7.0)",
+	"author": "wizawu",
+	"date": "2017-06-13T13:57:47.583Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"typescript",
+			"java",
+			"jvm",
+			"nashorn"
+		],
+		"languages": [
+			"typescript",
+			"shell",
+			"makefile",
+			"javascript"
+		]
+	},
+	"content": "readme.md 1c check the official website more information."
+}

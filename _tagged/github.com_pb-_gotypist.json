@@ -1,0 +1,21 @@
+{
+	"_id": "14120390",
+	"site": "https://github.com/pb-/gotypist",
+	"title": " Gotypist – A touch-typing tutor following Steve Yegge's methodology",
+	"author": "pbhn",
+	"date": "2017-06-13T13:35:13.543Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"touch-typing",
+			"tutor",
+			"learning",
+			"self-improvement"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md gotypist simple touch-typing tutor follows steve yegge's methodology going fast, slow, medium cycles. tl;dr this methodology is you three passes each phrase.fast - type fast you without attention proper technique correctnessslow - proper technique all costs, as slow needed achieve normal - type target speed, try make mistakesgotypist score each pass accordingly: errors not matter the pass, speed does matter the second pass, both matter the final pass. check score. for details ( are subject change). project is mainly motivated trying termbox-, but is definitely ready productive learning.installationgit clone https://github.com/pb-/gotypist.git \"$gopath/src/github.com/pb-/gotypist\"cd \"$gopath/src/github.com/pb-/gotypist\" dep buildusagegotypist [-w file] [-s] [word]...-w file this file word list instead /usr/share/dict/words-s run demo mode take screenshotword... explicitly specify phrasekey bindingsesc quitc-f skip forward the next phrasec-r toggle repeat phrase modec- toggle finger usage hints"
+}

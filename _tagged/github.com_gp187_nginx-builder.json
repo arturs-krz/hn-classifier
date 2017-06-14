@@ -1,0 +1,24 @@
+{
+	"_id": "14412125",
+	"site": "https://github.com/gp187/nginx-builder",
+	"title": "Nginx High Performance builder with configs. Full bash",
+	"author": "davix55",
+	"date": "2017-06-13T13:56:41.059Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nginx",
+			"luajit",
+			"lua-nginx",
+			"bash",
+			"nginx-installation",
+			"builder"
+		],
+		"languages": [
+			"shell",
+			"nginx",
+			"lua"
+		]
+	},
+	"content": "readme.md nginx installer is nginx installer + configuration + modules + patches web speed security.feel free use, add, modify will. apart normal build dependencies, will installlua 2.0 (unless 's installed already), google's brotli compression engine(better large files), a number nginx modules. you don't plan using the modules, the install files disable .this installer is ubuntu 16.04options--full install server clean existing repos--clean clean local files--compile compile existing directories--deps dependencies--down download modulesserver configs--simple simple web server perfromance modules standard configuration--simple_ssl simple web server with extra ssl features--steroids nginx, lua, lua scripts, jwt, imagemagik, compressionconfigspaths install locations are set config.shinstallgit clone https://github.com/gp187/nginx-buildercd nginx-builder/chmod +x install.shsudo ./install.sh --full --steroidsvery important: check /config.sh has correct paths script_path root variablesmodules is where got modules to import in builder https://github.com/agile6v/awesome-nginxknown errorslc_all set _happens often aws instances. sure set country region are ! fix is hereaclocal-1.15 command found _common error due default automake package is 1.4. fix is heredevmode is still dev mode. feel free report bugs use from ./install.sh. 'm working making a service*** more come *** contributors| | nume | rol |----- | ---- | ------- | -------: | gabriel | owner | | marvin | coder |** paris **"
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14426000",
+	"site": "https://github.com/kevinburke/ssh_config?hn",
+	"title": "Go parser for SSH config files",
+	"author": "kevinburke",
+	"date": "2017-06-13T13:56:31.094Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ssh",
+			"golang",
+			"parser",
+			"ssh-config"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": "readme.md ssh_config is go parser ssh_config files. importantly, parser attempts preserve comments a given file, you manipulate ssh_config file a program, your heart desires.'s designed be used the excellentx/crypto/ssh package, handles sshnegotiation isn't very easy configure. ssh_config () and getstrict() functions attempt read values $home/.ssh/config fall to /etc/ssh/ssh_config. firstargument is host name match , and second argument is key want retrieve.port := ssh_config.(\"myhost\", \"port\") can load config file read values it.var config = `host *.test compression yes`cfg, err := ssh_config.decode(strings.newreader(config))fmt.println(cfg.(\"example.test\", \"port\")) ssh arguments default values - example, default value keyboardauthentication is \"yes\". you call (), and value thegiven host/keyword pair exists the config, 'll return default thekeyword one exists.manipulating ssh config fileshere's you manipulate ssh config file, then write back disk.f, _ := os.open(filepath.join(os.getenv(\"home\"), \".ssh\", \"config\"))cfg, _ := ssh_config.decode(f) _, host := range cfg.hosts { fmt.println(\"patterns:\", host.patterns) _, node := range host.nodes { // manipulate nodes you fit, use type switch // distinguish between empty, kv, include nodes. fmt.println(node.string()) }}// print config stdout:fmt.println(cfg.string())spec compliancewherever possible try implement specification documented the ssh_config manpage. unimplemented features should present theissues list.notably, match directive is currently unsupported.errata is second comment-preserving configuration parser 've written, an /etc/hosts parser. eventually, will write for every linuxfile format.donatingdonations free time make improvements the library, respond bug reports. can send donations via paypal's \"send money\" feature kev@inburke.com. donations are tax deductible the usa."
+}

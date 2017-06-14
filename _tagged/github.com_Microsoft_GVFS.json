@@ -1,0 +1,18 @@
+{
+	"_id": "14411822",
+	"site": "https://github.com/Microsoft/GVFS",
+	"title": "Git Virtual File System",
+	"author": "elzed",
+	"date": "2017-06-13T13:56:41.653Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c#",
+			"c++",
+			"other"
+		]
+	},
+	"content": "readme.md gvfs is gvfs?gvfs stands git virtual file system. gvfs virtualizes file system beneath git repo that git all tools what appears be normal repo, gvfs downloads objects they are needed. gvfs manages git's sparse-checkout ensure git operations status, checkout, etc., be quick possible they only consider files the user has accessed, all files the repo.gvfs is still progress, it is available here anyone try . feel free send feedback, bug reports, suggestions, pull requests!building gvfsinstall visual studio 2017 community edition higher (https://www.visualstudio.com/downloads/). include \".net desktop development\" \"desktop development c++\" workloads, well the following additional components:.net framework 3.5 development toolsc++/cli supportvc++ 2015.3 v140 toolsetwindows 10 sdk (10.0.10240.0)install innosetup 5.5.9 later (http://www.jrsoftware.org/isdl.php) its default location ( you'll to change path gvfs.csproj post-build step match)create folder clone , e.g. c:\\repos\\gvfsclone repo the src subfolder, e.g. c:\\repos\\gvfs\\srcopen src\\gvfs.sln visual studio. not upgrade projects.build gvfs.slntesting gvfsgvfs requires windows 10 creators update laterinstall gvfs-enabled git windows (2.12.2.gvfs.2 later) https://github.com/microsoft/git/releases build behaves same git windows except the config value core.gvfs is set true.install gvfs your build output you built as described above, installer be found c:\\repos\\gvfs\\buildoutput\\gvfs\\bin\\x64\\[debug|release]\\setup\\setupgvfs.exegvfs work any git service supports gvfs protocol. now, means 'll need create repo team services (https://www.visualstudio.com/team-services/), push contents it. are constraints: repo must enable clean/smudge filters repo must a .gitattributes file the root includes line * -textgvfs clone <url repo just created>cd <root>\\srcrun git commands you normally gvfs unmount donelicenses gvfs source code this repo is available under mit license. license.md.gvfs relies the gvflt filter driver, available a prerelease nuget package its own license."
+}

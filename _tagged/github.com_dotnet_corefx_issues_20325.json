@@ -1,0 +1,14 @@
+{
+	"_id": "14422335",
+	"site": "https://github.com/dotnet/corefx/issues/20325",
+	"title": "Support Full System.Drawing Functionality on .NET Core",
+	"author": "jamessouth",
+	"date": "2017-06-13T13:56:33.123Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": ""
+}

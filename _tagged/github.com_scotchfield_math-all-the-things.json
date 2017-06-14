@@ -1,0 +1,17 @@
+{
+	"_id": "14413684",
+	"site": "https://github.com/scotchfield/math-all-the-things",
+	"title": " Math practice app using Preact components and Aphrodite inline styling",
+	"author": "scotchfield",
+	"date": "2017-06-13T13:06:44.568Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md math the things!math study helper preact aphroditehttps://math.sgrant.caclick question button generate question, if can up the answer, click toggle answer check work! the row numbers include exclude numbers the generated questions. example, clicking the zero prevent zero appearing the question. the row operations choose operator generate questions . for example, you to on times-tables, choose multiplication operator, generate questions until 've completed good study session.building bundleclone repo run npm install followed webpack. bundled javascript should available public/bundle.js. yay!adding operationseach operation button is generated using object exported src/operations.js. add new operation, just need provide appropriate key, an object two properties: symbol string specifies button content how question is formatted, a function f accepts arguments produces content the answer block.component stylingcomponents are defined using preact are styled using aphrodite."
+}

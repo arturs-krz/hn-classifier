@@ -1,0 +1,21 @@
+{
+	"_id": "14211196",
+	"site": "https://github.com/geertj/gruvi",
+	"title": " Gruvi – Pythonic Async IO",
+	"author": "geertj",
+	"date": "2017-06-13T13:33:03.673Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"async",
+			"libuv",
+			"fibers"
+		],
+		"languages": [
+			"python",
+			"c"
+		]
+	},
+	"content": "readme.rst gruvi: async io python, simplifiedimproved ergonomics python programmers wanting use asynchronous io.gruvi is asynchronous io library python. focuses the followingdesirable properties:simple. async io code should just normal code, simple,sequential control flow regular functions.efficient. io library should a very low memory cpu overhead, that can scale small systems to many concurrent connections.powerful. common protocols ssl/tls http should part everyio library.gruvi uses libuv (via pyuv) the underlying high-performance event-based/o layer, coroutines based fibers create traditional sequentialprogramming model top the libuv completion/callback model.gruvi is similar concept existing async io frameworks asyncio,gevent, eventlet. a comparison, rationale.featuresgruvi has following features:excellent platform support (mostly thanks libuv). linux, mac osx windows are first-class citizens.pep-3156 compatible transport/protocol interface. traditional, sequential programming model based green threads, where is distinction between asynchronous normal functions.great ssl/tls support, on windows. asynchronous ssl support thepython standard library came gruvi before was included the stdlib.small core focus low memory usage fast performance. makesgruvi very suitable mobile applications embedded web servers. full suite synchronization primitives including locks, conditions queues.thread fiber pools a concurrent.futures interface.batteries includes: built- client/server support http, json-rpc d-bus.support python 2.7.x 3.3+.example simple echo server, using streamserver:import gruvidef echo_handler(stream, transport, protocol): while true: buf = stream.read1() not buf: break stream.write(buf)server = gruvi.streamserver(echo_handler)server.listen(('localhost', 7777))server.run()requirements need python 2.7 3.3+. following operating systems are currently supported:linux (might on posix oss)macos ( currently tested via ci)windows ( currently tested via ci)installationdevelopment install a virtualenv:$ git clone https://github.com/geertj/gruvi$ cd gruvi$ pip install -r requirements.txt$ python setup.py build$ python setup.py install run test suite:$ python runtests.py unit other installation options, the installation section the manual.documentation documentation is available readthedocs.licensegruvi is free software, provided under mit license.contactfeel free contact author geertj@gmail.com. can submittickets suggestions improvements github."
+}

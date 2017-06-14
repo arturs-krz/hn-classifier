@@ -1,0 +1,22 @@
+{
+	"_id": "14438153",
+	"site": "https://github.com/solodynamo/ng2-search-filter",
+	"title": "Angular 2/4 search filter",
+	"author": "solodynamo",
+	"date": "2017-06-13T13:55:34.481Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"angular",
+			"filter",
+			"angular2",
+			"search",
+			"angular4"
+		],
+		"languages": [
+			"javascript",
+			"typescript"
+		]
+	},
+	"content": "readme.md angular 2 / angular 4 search filter pipe filter search itemsangular 2 filter make custom search. works angular 4 too.installnpm ng2-search-filter --saveyarn add ng2-search-filter usage case 're using systemjs - configuration here.import ng2searchpipemodule your moduleimport { ngmodule } '@angular/core';import { browsermodule } '@angular/platform-browser';import { appcomponent } './app';import { ng2searchpipemodule } 'ng2-search-filter';@ngmodule({ imports: [browsermodule, ng2searchpipemodule], declarations: [appcomponent], bootstrap: [appcomponent]})export class appmodule {} use pipe your componentimport { component } '@angular/core';@component({ selector: 'example-app', template: ` <div> <input type=\"text\" [(ngmodel)]=\"term\"> <div *ngfor = \"let item items |filter:term\" > <p> {{item.name}} </p> </div> </div> `})export class appcomponent { items: string[] = [{ name: \"archie\" }, { name: \"jake\" }, { name: \"richard\" }];}licensemit © solodynamo"
+}

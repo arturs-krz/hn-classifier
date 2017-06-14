@@ -1,0 +1,26 @@
+{
+	"_id": "14504309",
+	"site": "https://github.com/Jasonnor/Professional-Codes-Reader",
+	"title": "Browse the web like a professional programmer: Professional Codes Reader",
+	"author": "Jasonnor",
+	"date": "2017-06-13T14:09:57.142Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"professional-codes-reader",
+			"javascript",
+			"chrome-extension",
+			"novels",
+			"article",
+			"code-generator",
+			"html"
+		],
+		"languages": [
+			"html",
+			"c#",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md professional codes reader browse web a professional programmer!professional codes reader insert random c#, php jquery code paragraphs a webpage ( may novels articles), making looks a professional work site. also simple desktop application version, here.installationdownload extension here, jump step 7 you download latest version the .crx file the releases pageopen chrome extension page (chrome://extensions)drag .crx file downloaded the step the extensions pageselect \"add extension\" will a quill pen icon the toolbar, the installation is successfulclick icon insert code the current pageright-click icon open options page set actionnovelsbeforearticlesbeforedemoreferencegoogle - code-prettifydogfalo - materializecontributingplease feel free use if are interested fixing issues contributing directly the code base.licenseprofessional codes reader is released under mit license."
+}

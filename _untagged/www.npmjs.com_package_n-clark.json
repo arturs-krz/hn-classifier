@@ -1,0 +1,9 @@
+{
+	"_id": "14510040",
+	"site": "https://www.npmjs.com/package/n-clark",
+	"title": " N-clark – a LUIS.ai wrapper for Node.js/browser",
+	"author": "avoidwork",
+	"date": "2017-06-14T12:56:10.191Z",
+	"tags": [],
+	"content": "search * sign or log * log node package manager toggle navigation * npm enterprise * features * pricing * documentation * support n-clark n-clarkluis.ai wrapperexampleconst luis = require('n-clark')({id: 'appid', key: 'subscriptionkey', host: 'eastus2'});  luis.predict('input text here').(data => console.log(data));configurationid = ''luis.ai application idkey = ''azure subscription keyhost = 'westus'luis.ai host interact params = ''extra query string parameters (staging=true, etc.)verbose = trueverbose modedebug = falsedebugging mode, captures input/output this.results (set [status, input, output])apipredict (text)promisemakes request luis.ai predict context the requestreply (text, context[, set])promisemakes request luis.ai analyse reply contextpropertiesresultssetset luis.ai requests & responseslicensemit this within firewallcombine open-source packages your private code publish a private registry behind firewall. npm enterprise developers? learn more * avoidwork published 2017-06-12t11:23:37.889z * 1.0.7is latest 8 releases * github.com/avoidwork/n-clark * mit ® collaborators list * stats * 2downloads the last * 238downloads the last week * 299downloads the last month * an issue? file . on github * github try out * test n-clark your browser.keywords luis, ai, language, processing, natural, service, intelligence dependencies (1) node-fetch need help * documentation * support / contact * registry status * website issues * cli issues * security npm * npm, inc * jobs * npm weekly * blog * twitter * githublegal stuff * terms use * code conduct * package name disputes * privacy policy * reporting abuse * policiesnpm loves you"
+}

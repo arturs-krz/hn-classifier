@@ -1,0 +1,17 @@
+{
+	"_id": "14120099",
+	"site": "https://github.com/dawilster/db_bot",
+	"title": " Ruby Bot to interact with your models",
+	"author": "dawilster",
+	"date": "2017-06-13T13:35:13.716Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": "readme.md db botdb bot uses natural language processing (nlp) construct db queries. that means is can interact your database you're talking a humanhere's example> bot = dbbot.message(' many users signed this week?')> bot.response=> \"5 users\"> bot = dbbot.message('find last 10 users') > bot.response=> \" you \"> bot.collection=> #<activerecord::relation [#<user id: 1...'s rather basic the moment i'm working incorporating more complex database queries.installationadd line your application's gemfile:gem 'db_bot' then execute:$ bundle install yourself :$ gem install db_botgetting started only thing 'll need do installing db_bot is add wit.ai access token. gives access all language rules. can view project here https://wit.ai/dawilster/db_bot.wit_access_token=m4gjhcdjlsi34otzw5m4npp672ir3uos you jump and asks questions .> dbbot.message(' many users signed last week?')> dbbot.message('display 50 recent sales')> dbbot.message(' many sales does item id 103 ?') (coming soon)contributingbug reports pull requests are welcome github https://github.com/dawilster/db_bot. project is intended be safe, welcoming space collaboration, contributors are expected adhere the contributor covenant code conduct.license gem is available open source under terms the mit license."
+}

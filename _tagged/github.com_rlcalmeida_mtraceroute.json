@@ -1,0 +1,17 @@
+{
+	"_id": "14527728",
+	"site": "https://github.com/rlcalmeida/mtraceroute",
+	"title": " Multipath traceroute",
+	"author": "rawfael",
+	"date": "2017-06-13T13:23:08.920Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"other"
+		]
+	},
+	"content": "readme.md mtraceroute (alpha)multipath traceroute (mtraceroute) is based and implements similar functionality paris traceroute. keeps flow identifier probe packets fixed avoid triggering traffic load balancing internet routes whenever possible. moreover, mtraceroute implements multipath detection algorithm, identifies routers perform load balancing the route a source a destination. mtraceroute systematically varies probe packets headers classify load balancing behavior.download build% git clone https://github.com/topologymapping/mtraceroute% autoreconf --install% ./configure% dependencieslinux, gcc, libpcap root accessusagemtraceroute address [-c command] [-w wait] [-z send-wait] -c command: traceroute|ping|mda, default: traceroute -r number retries: default: 2 -w seconds wait answer: default: 1 -z milliseconds wait between sends: default: 20 mda: -c mda [- confidence] [-f flow-id] [-h max-ttl] - confidence level %: 90|95|99, default: 95 -f flow identifier use, values depends the type the address ipv4: icmp-chk, icmp-dst, udp-sport, udp-dst, tcp-sport, tcp-dst default: udp-sport ipv6: icmp-chk, icmp-dst, icmp-fl, icmp-tc, udp-sport, udp-dst, udp-fl, udp-tc, tcp-sport, tcp-dst, tcp-fl, tcp-tc default: udp-sport -h max number hops probe: default: 30 traceroute: -c traceroute [-h max-ttl] [-m method] [-p probes--once] -h max number hops probe: default: 30 -m method probing: icmp|udp|tcp, default: icmp -p number probes send once: default: 3 ping: -c ping [-n send-probes] -n number probes send: default: 5contributingplease check https://github.com/topologymapping/mtraceroute/issues"
+}

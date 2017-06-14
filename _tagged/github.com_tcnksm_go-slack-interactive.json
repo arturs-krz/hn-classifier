@@ -1,0 +1,16 @@
+{
+	"_id": "14377307",
+	"site": "https://github.com/tcnksm/go-slack-interactive",
+	"title": "Slack interactive message in Golang",
+	"author": "deeeet",
+	"date": "2017-06-13T13:57:07.006Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md slack interactive message golang is sample slack bot uses slack interactive message written golang. run bot, need create bot slack app. create slack app for team, can internal integrations ( oauth required. code does implement , so you to distribute , you need write by yourself). create new app here. following is this bot works. feel free fork repository write own! cheers (note: order is fake...)usage run bot, need set following env vars,export bot_id=\"u***\" // can this create bot user (via slack app management console)export bot_token=\"xoxb-***\" // can this create bot user (via slack app management console)export verification_token=\"***\" // can this enable interactive message (via slack app management console)export channel_id=\"c***\" // bot reacts this channel run ,$ dep ensure$ build -o bot && ./bot run local, ngrok ( more it here) set for interactive message requests endpoint.referenceshttps://github.com/slackapi/sample-message-menus-node"
+}

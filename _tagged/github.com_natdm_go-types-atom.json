@@ -1,0 +1,17 @@
+{
+	"_id": "14372617",
+	"site": "https://github.com/natdm/go-types-atom",
+	"title": "Atom Plugin for Viewing Go Types in Your IDE",
+	"author": "bdowns328",
+	"date": "2017-06-13T13:57:07.732Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md -types types view adds list all types the currently active file a panel the left the screen. panel is updated each save, has click--navigate functionality.click line (default) sort entries lineclick method group types their method, overriding line numbers.click method, type, declaration navigate that declaration.toggle open/close option-ctrl-o (unless 's something else that, open cmd + shift + p search types toggle)being newly published package, 's bullet-proof yet. you any issues, welcome github issues will fix as soon i . typically following .also keep eye for updates."
+}

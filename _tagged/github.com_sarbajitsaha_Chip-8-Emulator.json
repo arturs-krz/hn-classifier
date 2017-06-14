@@ -1,0 +1,19 @@
+{
+	"_id": "14283848",
+	"site": "https://github.com/sarbajitsaha/Chip-8-Emulator",
+	"title": " A Simple Chip 8 Emulator in C++",
+	"author": "saha26",
+	"date": "2017-06-13T13:32:03.270Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"cpp",
+			"chip8"
+		],
+		"languages": [
+			"c++",
+			"cmake"
+		]
+	},
+	"content": "readme.md chip 8 emulator is simple chip 8 emulator written c++. chip-8 is interpreted programming language, developed joseph weisbecker. was initially used the cosmac vip telmac 1800 8-bit microcomputers the mid-1970s. chip-8 programs are run a chip-8 virtual machine. was made allow video games be more easily programmed said computers. article wikipedia explains virtual machine(cpu,memory,display keypad) the opcodes supported.screenshotspong2brixbuildingcmake sdl2 are required this project. can install on ubuntu using$ sudo apt- install cmake libsdl2-dev compilation$ cd cmake-build-debug$ cmake ..$ the executable file, chip8_emulator, be the cmake-build-debug folderrunning need provide path a rom file an argument. 23 roms already been provided the \"roms\" directory (downloaded https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html). you start pong game available the roms directory ./chip8_emulator ../roms/pongtest run testscd cmake-build-debug tests./testscatch testing framework is used. more tests need be added, prs are welcome.modes are modes available - trace mode single step mode. can type -help check usagetrace mode - type -t print program counter, register values opcode executed each cycle. follows pattern:pc opcode sp v0 vfsingle step mode - type -s flag execute instruction a waiting you press enter each cycle.both modes be used simultaneously.keypad original chip 8 had hexadecimal keypad (0 - 9 a - f). key mapping here is follows -chip 8 keykeyboard key1122334q5w6e78s9d0xzbcc4dreffvlicense project is licensed under gplv3+. file license includes full license text."
+}

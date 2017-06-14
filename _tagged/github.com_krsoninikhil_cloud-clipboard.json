@@ -1,0 +1,20 @@
+{
+	"_id": "14125363",
+	"site": "https://github.com/krsoninikhil/cloud-clipboard",
+	"title": " Share your clipboard across the devices",
+	"author": "krsoninikhil",
+	"date": "2017-06-13T13:35:12.735Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python",
+			"django-rest-framework",
+			"clipboard",
+			"kivy"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md cloud-clipboard need url my mobile. don't to type . don't to message myself.cloud clipboard shares data clipboard across devices. it allows copy one device paste another.currently supported platforms: linux, androidsetupdownload clone repo change directory it. only need cloud.py desktop.install requirements runningpip install -r server/requirements.txtregister yourself runningpython cloudcb.py register <username> <password>install apk your mobile.'re done.instructions usecopy text.execute command copy cloud-clipboard you are desktoppython cloudcb.py copy <username> <password>open app your mobile get text mobile's clipboard ( will be required next update).execute command update desktop's clipboard the text copied other devicespython cloudcb.py paste <username> <password>todorun clients background automatically update clipboard. ideas implementation?licensemit license"
+}

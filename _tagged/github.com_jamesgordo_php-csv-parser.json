@@ -1,0 +1,19 @@
+{
+	"_id": "14502886",
+	"site": "https://github.com/jamesgordo/php-csv-parser",
+	"title": " Easy and Convenient Way to Parse CSV Files in PHP",
+	"author": "eatplaycode",
+	"date": "2017-06-13T13:04:20.081Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"php",
+			"csv-parser",
+			"csv"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": "readme.md php csv parser turn csv files readable accessable data objects easily. library wraps php's built-fgetcsv function provide a hassle free csv file parsing.each row your csv file is dynamically transformed data objects keys set directly the row your csv file.php version support library has been tested work php versions >=5.3. to run following command your terminalcomposer require jamesgordo/php-csv-parser simply add to composer.json{\"require\": {\"jamesgordo/php-csv-parser\": \"1.0.0\"}} runcomposer updatecreate sample csv file users.csvid,first_name,last_name1,john,doe2,eric,smith3,mark,cooperexample implementation<?php// load vendor autoloadrequire_once __dir__ . '/vendor/autoload.php'; jamesgordo\\csv\\parser;// initalize parser$users = parser('/path//users.csv');// loop through each user echo detailsforeach($users->() as $user) {echo \"user details: {$user->id} | {$user->first_name} {$user->last_name}\";}echo \"total parsed: \" . $users->count() . \" users\";below are list the public methods will likely .$users = parser('/path//users.csv')// initializes parser$users->setcsv('/path//file.csv');// sets file be parsed$users->getcsv();// returns file be parsed$users->checkfile('/path//file.csv');// validates file is valid csv file$users->parse();// triggers parsing csv file$users->();// returns array data objects parsed the csv file$users->count();// returns total rows parsed the csv fileversion1.0.0licensemit licensecopyright (c) 2017 james gordo hello@jamesgordo.compermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

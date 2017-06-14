@@ -1,0 +1,9 @@
+{
+	"_id": "14531611",
+	"site": "http://strainer.github.io/Fdrandom.js/",
+	"title": " Test and visualise a buffet of artisanal PRNGS",
+	"author": "strainer",
+	"date": "2017-06-13T10:39:11.187Z",
+	"tags": [],
+	"content": "fdrandom.jsfast deterministic javascript random methods. includes uniform, gaussian, various loaded distributions shuffles. * view github60 test chartscreate charts smalllarge default seedrandom seed warning:float compliancy check failedlefthand charts:50 thousand variates are plotted 25 thousand 2d points. each point is drawn different hue, cycles through 14 values ( multiple fdrandom's state space 7 ~50 bit numbers), drawing transparency increases through duration the plot. effects render potential non-random patterning might otherwise be made visible. histogram the functions distribution is superimposed the chart blue.righthand charts: random walk is drawn 800k points, each point is moved x & y axis consecutive variates a horizontal drift is added traverse chart 32 times average. red dots mark beginning end the walk. min max values of 32k samples the average delta between sequential variates are printed the righthand chart.notes charts are arranged examine functions performance distributions spot potential bias patterns. chart ishr2() reveals patterning was detected the 'diehard' tests. function gskip() has special 2d distribution seems unbiased. final charts examine result the antisorting quasi-random-shuffle flat coarse distributed inputs. distrubition the standard-random-shuffle function 'mixup()' is checked. very last chart has gthorn drawing fuzzy circle consecutive values, stepping target pi/2 inside math.sin: function(){return math.sin(x+=fd.gthorn(0,math.pi))} project is maintained strainer github pages"
+}

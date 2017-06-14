@@ -1,0 +1,20 @@
+{
+	"_id": "14442428",
+	"site": "https://github.com/hoffa/snake",
+	"title": "Single-file Snake in Go",
+	"author": "crehn",
+	"date": "2017-06-13T13:55:20.206Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"terminal",
+			"snake",
+			"game",
+			"golang"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md snakenote: game isn't actually fastinstall get github.com/hoffa/snakeplaysnake"
+}

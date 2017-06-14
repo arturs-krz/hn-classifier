@@ -1,0 +1,16 @@
+{
+	"_id": "14373131",
+	"site": "https://github.com/tidwall/pinhole",
+	"title": "Pinhole – 3D Wireframe Drawing Library for Go",
+	"author": "tidwall",
+	"date": "2017-06-13T13:57:07.044Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md pinhole3d wireframe drawing library gowhy does exist? needed cpu based 3d rendering library a very simple api visualizing data structures. bells whistles, clean lines solid colors.getting startedinstalling start using pinhole, install and run get:$ get -u github.com/tidwall/pinhole will retrieve library.using coordinate space has locked origin 0,0,0 the min/max boundaries -1,-1,-1 +1,+1,+1. z coordinate extends -1 (nearest) +1 (farthest). are four types shapes; line, cube, circle, dot. can transformed the scale, rotate, translate functions.multiple shapes be transformed nesting a begin/end block. simple cube:p := pinhole.()p.drawcube(-0.3, -0.3, -0.3, 0.3, 0.3, 0.3)p.savepng(\"cube.png\", 500, 500, nil)rotate cube:p := pinhole.()p.drawcube(-0.3, -0.3, -0.3, 0.3, 0.3, 0.3)p.rotate(math.pi/3, math.pi/6, 0)p.savepng(\"cube.png\", 500, 500, nil)add, rotate, transform circle:p := pinhole.()p.drawcube(-0.3, -0.3, -0.3, 0.3, 0.3, 0.3)p.rotate(math.pi/3, math.pi/6, 0)p.begin()p.drawcircle(0, 0, 0, 0.2)p.rotate(0, math.pi/2, 0)p.translate(-0.6, -0.4, 0)p.colorize(color.rgba{255, 0, 0, 255})p.end()p.savepng(\"cube.png\", 500, 500, nil)contactjosh baker @tidwalllicensepinhole source code is available under isc license."
+}

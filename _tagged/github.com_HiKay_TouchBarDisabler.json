@@ -1,0 +1,20 @@
+{
+	"_id": "14524933",
+	"site": "https://github.com/HiKay/TouchBarDisabler",
+	"title": "TouchBarDisabler",
+	"author": "jhack",
+	"date": "2017-06-13T14:09:47.543Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mac",
+			"ibridge",
+			"controlstrip",
+			"touchbar"
+		],
+		"languages": [
+			"objective-c"
+		]
+	},
+	"content": "readme.md touchbardisablertouchbardisabler allows users manually turn off touch bar 2016 macbook pro devices. will guided turn off system integrity protection before using app.download touchbardisabler should do i am unable open touchbardisabler? would be able use/remap escape key?featurestoggle between enabling disabling touch barremaps brightness down ctrl+1, brightness to ctrl+2.remaps mute ctrl+8, volume down ctrl+9 volume to ctrl+0. will guided turn off system integrity protection before using app. touchbardisabler does disconnect ibridge your system. therefore, apple pay, touch id facetime hd camera continue work.localized english, simplified chinese, traditional chinese japanese.notice software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose, title non-infringement. no event shall copyright holders anyone distributing software liable any damages other liability, whether contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

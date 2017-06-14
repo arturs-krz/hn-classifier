@@ -1,0 +1,20 @@
+{
+	"_id": "14395087",
+	"site": "https://github.com/JHonaker/wireworld-nim",
+	"title": " Wireworld written in Nim",
+	"author": "JHonaker",
+	"date": "2017-06-13T13:07:22.981Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nim",
+			"automata",
+			"sdl2"
+		],
+		"languages": [
+			"nim",
+			"html"
+		]
+	},
+	"content": "readme.org wireworldeveryone knows classic example cellular automata, conways game life. instead rehashing implementation that, wanted build something a little bit different while learning nim language. decided implement another type cellular automata, wireworld, conceived brian silverman 1987. code this easily modified produce conways game life adjusting state type the process(world: ref world) procedure.buildc targetbuild project source typing nim c display.nim your terminal. must nim installed already, well the sdl 2 module. can install sdl 2 module running nimble install sdl2.run project calling ./display the appropriate directory. may need create libsdl2. symlink you the following error: not load: libsdl2./usr/lib/x86_64-linux-gnu$ ln -s libsdl2-2.0..0 libsdl2.javascript targetnim 0.17.0 is required, wont build nim 0.15.2 (eg. is distributed version the latest ubuntu, the 0.17 .deb)install html5_canvas: nimble install html5_canvasbuild js: nim js canvas.nimopen webpage: firefox wireworld.htmldescription automata simulates simple abstraction electricity. has four states: ground wire electron head electron tail propagation rules are: ground -> ground electron head -> electron tail electron tail -> wire wire has exactly 1 2 neighbors == electron head: wire -> electron head otherwise: wire -> wire implementation implementation is built nim using sdl 2 library.thanks github user tylorr taking upon himself make web frontend this project well.features instructionsclicking the map changes tile under cursor the current drawmodes type. info bar the bottom the window indicates currently selected draw mode the left half, the paused/play state the simulation the right half. are four drawing modes, for each state: : ground mode s: wire mode d: electron head mode f: electron tail mode addition are few keybindings: : increases speed the simulation 1 tick per second (min: 1, max: 60) down: decreases speed the simulation 1 tick per second q: quit wireworld r: clear current world p: pause play simulation ( draw while paused playing)future additions [ ] undo [ ] save load worlds file"
+}

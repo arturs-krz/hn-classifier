@@ -1,0 +1,23 @@
+{
+	"_id": "14137309",
+	"site": "https://github.com/wendigo/chrome-protocol-proxy",
+	"title": " Chrome Debugging Protocol Proxy (for debugging debugger)",
+	"author": "janisz",
+	"date": "2017-06-13T13:35:12.151Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chrome",
+			"chrome-devtools",
+			"chromedriver",
+			"chrome-browser",
+			"chromium",
+			"debugging-tool",
+			"proxy"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md chrome-protocol-proxychrome-protocol-proxy is small reverse websocket proxy designed chrome debugging protocol. 's purpose is capture messages written and received chrome debugging protocol, coalesce requests responses, unpack messages target domain provide easy read, colored output. tool is fork (and heavily inspired ) chromedp-proxy.featurescolored output request-response coalescing,interprets target.sendmessagetotarget requests,interprets target.receivedmessagefromtarget responses events.usage get -u github.com/wendigo/chrome-protocol-proxyconfiguration options usage ./chrome-protocol-proxy: -dwrite logs file per targetid -delta show delta between log entries -include request frames they are sent -l string listen address (default \"localhost:9223\") -mdisplay in microseconds -once debug single session -q not show logs stdout -r string remote address (default \"localhost:9222\") -sshorten requests responsesdemotips & tricks using headless chrome navigate inspectable pages open inspector pane url your choosing. replace port ?ws= query param point to running chrome-protocol-proxy instance (default port is 9223). you're able see chrome debugger is exactly doing. enjoy!"
+}

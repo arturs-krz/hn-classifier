@@ -1,0 +1,17 @@
+{
+	"_id": "14280739",
+	"site": "https://github.com/fiatjaf/levelup",
+	"title": " Levelup, a common interface for Go database drivers",
+	"author": "fiatjaf",
+	"date": "2017-06-13T13:32:02.492Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"database"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md levelup package implements few types interfaces be used the actual \"down\" libraries, will implement core functionality each database. of \"down\" libraries implementing \"up\" interface:goleveldownrocksdownlevelup-js similarity the node.js levelup is mere coincidence. things: the value some key is \"\" blank not found, notfound be returned.rangeopts treats zero values if didn't pass anything, limit: 0 is same no limit, start: \"\" is same no start etc. rangeopts start is inclusive, end is non-inclusive. keys values are []byte, you to strings, github.com/fiatjaf/levelup/stringlevelup."
+}

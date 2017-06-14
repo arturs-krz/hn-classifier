@@ -1,0 +1,31 @@
+{
+	"_id": "14449259",
+	"site": "https://github.com/malisit/munhasir",
+	"title": "Single page app sample with Go Language",
+	"author": "masit",
+	"date": "2017-06-13T13:55:21.154Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"golang",
+			"http",
+			"sample-app",
+			"crud-sample",
+			"templates",
+			"mongodb",
+			"jwt",
+			"jwt-authentication",
+			"vuejs2",
+			"vuejs",
+			"vue-router"
+		],
+		"languages": [
+			"html",
+			"go",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md munhasir platform keeping diaries those are cautious( paranoid)."
+}

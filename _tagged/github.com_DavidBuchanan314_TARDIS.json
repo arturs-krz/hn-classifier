@@ -1,0 +1,21 @@
+{
+	"_id": "14199364",
+	"site": "https://github.com/DavidBuchanan314/TARDIS",
+	"title": " TARDIS – Warp a process's perspective of time by hooking syscalls",
+	"author": "DavidBuchanan",
+	"date": "2017-06-13T13:33:07.247Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"ptrace",
+			"syscalls",
+			"hooking",
+			"time"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md tardistrace rewrite delays syscalls: hooking -related linux syscalls warp process's perspective time. code is rather buggy, mainly due my lack understanding the ptrace api. probably shouldn't it anything serious, although could useful testing/debugging certain applications.things try:$ ./tardis 10000 10000 xclock$ ./tardis 1 3 glxgears$ ./tardis 1 -1 glxgears$ ./tardis 10 10 firefox$ ./tardis 10 10 /bin/shnotes:currently x86_64 linux is supported. should possible port i386 fairly minimal effort. used ptrace_seize, only exists since kernel version 3.4.novdso. is preloaded prevent libc using vdso - otherwise ptrace(ptrace_syscall, ...)wouldn't for those syscalls ( a at man vdso more information). might need modify ld_preload value be absolute path some programs/environments, only made relative simplicity.certain simple programs, glxgears, don't mind being run time flowing reverse! programs don't however, of course 's way have negative delay. are many more syscalls i still need handle.currently handled syscalls:nanosleepselectpollgettimeofdayclock_gettime"
+}

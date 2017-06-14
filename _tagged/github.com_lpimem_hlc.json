@@ -1,0 +1,21 @@
+{
+	"_id": "14149510",
+	"site": "https://github.com/lpimem/hlc",
+	"title": " HLC, an extension that lets you highlight texts as you want, for free.",
+	"author": "lowatt",
+	"date": "2017-06-13T13:34:47.825Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"efficiency",
+			"web",
+			"chrome-extension"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md hlc free open-source web-page annotation plug-. this project is built upon rangeblock.current status static web page dynamic web pages persistant storage google sign- more test bug fixinstall test version is published chrome web store.join discuss group subscribe updates notices.usageplease find detailed guide how use. contribute play the codegit clone https://github.com/lpimem/hlccd hlc && npm install may need install node.js .preview screenshots news sitegenerating notes markdown format pdf.js pages blogscreditlogo icon is created openclipart-vectors"
+}

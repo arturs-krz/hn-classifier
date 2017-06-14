@@ -1,0 +1,21 @@
+{
+	"_id": "14318949",
+	"site": "https://github.com/snoack/chrome-blinklight",
+	"title": " A browser extension that notifies you about new messages using LEDs",
+	"author": "wallunit",
+	"date": "2017-06-13T13:08:55.682Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"c",
+			"html",
+			"makefile",
+			"css",
+			"m4"
+		]
+	},
+	"content": "readme.md blinklight chrome firefox is extension chrome firefox linux notifies about content (such unread messages) pinned tabs, using of laptop'sleds, the power button newer thinkpads, the thinklight older models. interactive websites, mail chat web apps, change page title order indicate messages. that happens a pinned tab thebackground, tab is highlighted order get attention. thisextension, addition, led be used, order indicate a pinnedtab's title has changed. is particular useful, the browser windowis minimized on another workspace. order pin tab, right click the tab choose \"pin tab\".installationblinklight consists two parts, browser extension observespinned tabs, a native host application controls led. order blinklight work, both to installed. debian/ubuntu package is available the author's ppa, can installed runningfollowing commands ( root):add-apt-repository ppa:s.noack/ppaapt- updateapt- install chrome-blinklight next you start chromium firefox, extension should active, the settings, where have set led trigger, should pop .if browser is already running, restart now. however, you are usinggoogle chrome, have install extension seperately the chrome web store.building source order build host application, need c compiler, autotools the json-c development files. given have of installed, you are the project root , run following commands:cd native-messaging-hostautoreconf --install./configurethen, install host application, running following command ( root): installfinally, install extension chrome firefox, not done yet.during development, can load extension directly theextension subdirectory the source tree, however, is recommended normal usage.testing available leds the options, are leds exposed the linux kernel under/sys/class/leds. all them might , some leds are exposed linux though don't exist, cannot controlled software, your laptop. bug blinklight isn't entirely impossible too. you might tofigure the name a particular led, vice-versa. easiest to test configuration, is run following code the developer tools console. while tab is pinned in background, should generate event triggers led, once second.setinterval(function() { document.title = math.random(); }, 1000);"
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "14460961",
+	"site": "https://github.com/wildfoundry/dataplicity-lomond",
+	"title": " Lomond, a new WebSocket client for Python",
+	"author": "billowycoat",
+	"date": "2017-06-13T13:05:03.156Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md dataplicity lomondtranquil websockets python. docslomond is websocket client turns websocket connection to orderly stream events. threads callbacks necessary. to first construct websocket object, iterate it generate orderly sequence events.example following is silly example connects a websocket server( this case public echo server), sends string textevery 5 seconds. lomond import websocketwebsocket = websocket('wss://echo.websocket.org') event websocket: event.name == 'poll': websocket.send_text('hello, world') elif event.name == 'text': print(event.text)events successful websocket connection result a series eventssuch the following: connecting contacting server connected server ( connected yet sent data) negotiated websocket ready handshake send receive binary / text / poll application data websocket close closed handshake disconnected disconnected tcp/ip connection server"
+}

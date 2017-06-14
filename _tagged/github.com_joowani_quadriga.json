@@ -1,0 +1,36 @@
+{
+	"_id": "14182763",
+	"site": "https://github.com/joowani/quadriga",
+	"title": " Python client for QuadrigaCX, a Canadian cryptocurrency exchange",
+	"author": "joowani",
+	"date": "2017-06-13T13:33:35.170Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"bitcoin",
+			"ethereum",
+			"cryptocurrency",
+			"cryptocurrencies",
+			"python",
+			"python-library",
+			"python-2",
+			"python-3",
+			"python2",
+			"python3",
+			"python-3-5",
+			"python-3-6",
+			"python27",
+			"bitcoin-api",
+			"ethereum-client",
+			"trading",
+			"trading-api",
+			"exchange",
+			"exchange-api",
+			"python-client"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst python client quadrigacxintroductionquadriga is python client quadrigacx, cryptocurrency exchangeplatform based vancouver, bc, canada. wraps latest version therest api provided the exchange facilitates process tradingbitcoin ether.requirementspython 2.7.x, 3.4.x, 3.5.x 3.6.xquadrigacx api secret, api key client idinstallation install stable version pypi:~$ pip install quadriga install latest version directly github:~$ pip install -e git+git@github.com:joowani/quadriga.git@master#egg=quadriganote: sudo may required depending the environment.getting startedhere are usage examples: quadriga import quadrigaclient# initialize quadrigacx clientclient = quadrigaclient( api_key='api_key', api_secret='api_secret', client_id='client_id', default_book='btc_usd')# the latest trading summaryclient.get_summary()# all public open ordersclient.get_public_orders()# recently completed public tradesclient.get_public_trades()# the user's open ordersclient.get_orders()# the user's completed tradesclient.get_trades()# the user's account balanceclient.get_balance()# buy 10 bitcoins the market priceclient.buy_market_order(10)# buy 10 bitcoins limit price $1000 usdclient.buy_limit_order(10, 1000)# sell 20 bitcoins the market priceclient.sell_market_order(20)# sell 20 bitcoins limit price $1300 usdclient.sell_limit_order(20, 1300)# up order its idclient.lookup_order('order_id')# cancel open order its idclient.cancel_order('order_id')# return deposit address used funding bitcoinclient.get_deposit_address('bitcoin')# return deposit address used funding etherclient.get_deposit_address('ether')# withdraw 15 bitcoins quadrigacx the given addressclient.withdraw('bitcoin', 15, 'withdrawal_address')# withdraw 20 ethers quadrigacx the given addressclient.withdraw('ether', 20, 'withdrawal_address')check the full api documentation more details!"
+}

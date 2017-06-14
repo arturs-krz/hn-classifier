@@ -1,0 +1,30 @@
+{
+	"_id": "14180228",
+	"site": "https://github.com/etewiah/property_web_builder",
+	"title": " PropertyWebBuilder – real estate site builder with (basic) MLS support",
+	"author": "etewiah",
+	"date": "2017-06-13T13:33:35.509Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"real-estate",
+			"property-management",
+			"opensource",
+			"rails",
+			"heroku",
+			"ruby",
+			"rets",
+			"mls",
+			"proptech",
+			"lead-generator",
+			"crm"
+		],
+		"languages": [
+			"ruby",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md propertywebbuilder project has been created address glaring gap the rails ecosystem: lack an open source project real estate websites. result is wordpress has become dominant tool creating real estate websites. is far ideal propertywebbuilder seeks address .read more this here: http://propertywebbuilder.com##demo can try a demo https://propertywebbuilder.herokuapp.com see admin panel, login user admin@example.com a password \"pwb123456\".rails versionpropertywebbuilder runs rails >= 5.0ruby versionpropertywebbuilder runs ruby >= 2.0.0.installationinstall an existing rails project adding lines your applications's gemfile:gem 'pwb', git: 'https://github.com/etewiah/property_web_builder', branch: 'master'gem 'globalize', git: 'https://github.com/globalize/globalize', be sure use postgres your database ( having \"pg\" gem postgres installed locally then execute:$ bundlemount propertywebbuilder adding following your routes.rb file:mount pwb::engine => '/' run ff commands the console:rails pwb:install:migrationsrails db:createrails db:migraterails pwb:db:seeddeploying herokupropertywebbuilder be deployed heroku a few minutes. can this sample project full instructions deploying heroku:https://github.com/etewiah/pwb--heroku you are too lazy read deploying, can simply sign for heroku click button below: can an example a site created propertywebbuilder here:http://re-renting.com a video how deploy heroku here:featuresmultilingualmulti-currencypowerful search componentfully featured admin panelgoogle maps integrationcustomisable and feeleasily extendablesearch engine friendlymobile friendly responsive layoutfully open sourcecoming soon are features plan add the coming months. there is something need is on list, please let know. am interested knowing of features should prioritize.more languagesmore themesmobile app (ios android)rets support ( allow synchronizing mls content)integration third party apps such insightly basecampfull calendering functionality rental propertiesability import wordpress blogsneighbourhood information zillow apiinstant price conversions other currenciescontribute spread love encourage to contribute this project file issues any problems encounter. you it, please star and spread word twitter, linkedin facebook. can subscribe github notifications this project.please consider making contribution the development propertywebbuilder. you wish pay specific enhancements, please email directly (opensource propertywebbuilder.com). would propertywebbuilder be available as many languages possible any help translations be much appreciated. basic spanish version this document be found here:https://github.com/etewiah/property_web_builder/blob/master/readme_es.mdthanks the awesome locale contributing the translations is super easy!edit translations directly the property_web_builder project locale.'s !the maintainer then pull translations the locale project push github.sponsorspropertywebbuilder is currently sponsored coddde, ruby rails consultants based spain chile: you wish sponsor project please email directly (opensource propertywebbuilder.com).license gem is available open source under terms the mit license."
+}

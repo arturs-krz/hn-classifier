@@ -1,0 +1,23 @@
+{
+	"_id": "14306001",
+	"site": "https://github.com/meetmangukiya/ghooks",
+	"title": " GitHub webhooks made easier to work with in python",
+	"author": "meetmangukiya",
+	"date": "2017-06-13T13:08:57.469Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"github",
+			"webhooks",
+			"github-webhooks",
+			"flask",
+			"python3",
+			"ghooks",
+			"ease-framework"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst ghooksgetting startedimport ghooks@ghooks.events('push')def push_event(data): # /manipulate data posted # actions take push event is triggeredghooks.run() run webhook: directly run(helpful while debugging stuff) python3 filename.py -p 5000 run webhook gunicorn gunicorn webhook:app. please ensure you import app from ghooks import app. create different handlers different events: ghooks.events decorator. pass events be handled arguments the decorator. example: ghooks import appimport ghooks@ghooks.events('push')def push_handler(data): # play the data here@ghooks.events('push', 'ping')def push_and_ping_handler(data): # will called both push ping eventsinstallationpip install ghooks"
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14377812",
+	"site": "https://github.com/diegomura/react-pdf",
+	"title": "A React PDF renderer: react-pdf",
+	"author": "diegomura",
+	"date": "2017-06-13T13:57:06.792Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"pdf",
+			"renderer",
+			"flexbox"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md react-pdf react renderer creating pdf files the browser, mobile server project is still development, please not react-pdf production yet. release soon! it worksimport react 'react';import { page, text, view, document, stylesheet } '@react-pdf/core';// create stylesconst styles = stylesheet.create({ page: { flexdirection: 'row', backgroundcolor: '#e4e4e4' }, section: { margin: 10, padding: 10, flexgrow: 1 }});// create document componentconst mydocument = () => ( <document> <page size=\"a4\" style={styles.page}> <view style={styles.section}> <text>section #1</text> </view> <view style={styles.section}> <text>section #2</text> </view> </page> </document>);render domimport react 'react';import reactdom 'react-dom';const app = () => ( <div> <mydocument /> </div>);reactdom.render(<app />, document.getelementbyid('root'));save a fileimport reactpdf '@react-pdf/node';reactpdf.render(<mydocument />, `${__dirname}/example.pdf`);render mobilecoming soonexamples each example, try opening output.pdf see result.page layout fractals text images run example yourself, run yarn example -- <example-name> locally.contributors project exists thanks all people contribute. [contribute].backersthank to our backers! [become backer]licensemit © diego muracciole"
+}

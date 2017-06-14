@@ -1,0 +1,18 @@
+{
+	"_id": "14357384",
+	"site": "https://github.com/jawj/MapMarkerAwesome",
+	"title": " Map Marker Awesome",
+	"author": "gmac",
+	"date": "2017-06-13T13:07:42.382Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript",
+			"typescript",
+			"ruby"
+		]
+	},
+	"content": "readme.md map marker awesome project provides ...nice, simple, scalable svg map markers any font awesome icon you use google maps ( beyond) it waysgenerate download individual svgs your choice size, colour font awesome icon.embed js library (~130kb gzipped), dynamically generate markers any size, colour icon run- (as data: uris).library usage examplescreate markers: this:<script src=\"mma.js\"></script><script> var mapmarkerawesome = mapmarkerawesomefactory(true); var plainiconsrc = mapmarkerawesome(); var musiciconsrc = mapmarkerawesome('music'); var alsomusiciconsrc = mapmarkerawesome('fa-music'); var alsoalsomusiciconsrc = mapmarkerawesome('\\uf001'); var largehearticonsrc = mapmarkerawesome('heart', { height: 52 }); var redwithyellowstariconsrc = mapmarkerawesome('star', { fill: '#f00', icon: '#ff0' }); var homeiconsrc = mapmarkerawesome('home'); var bighomeiconsrc = mapmarkerawesome('home', { icontransform: 'scale(1.25)' }); var arrowiconsrc = mapmarkerawesome('arrow-', { fill: '#fff', icon: '#444', stroke: '#444' }); var rotatedarrowiconsrc = mapmarkerawesome('arrow-', { icontransform: 'rotate(22.5)', fill: '#fff', icon: '#444', stroke: '#444' }); function randbyte() { return math.floor(math.random() * 256); } var randomcolourplainiconsrc = mapmarkerawesome(null, { fill: { r: randbyte(), g: randbyte(), b: randbyte() } });</script> pass resulting image uris the google maps library, wherever else want use .library docsvar mapmarkerawesome = mapmarkerawesomefactory(datauri); mapmarkerawesomefactory is only global variable created the script. call function create mapmarkerawesome function. datauri argument the factory function is boolean determines whether marker icons generated the returned function be plain svg strings ( example, be saved image files) data uris ( example, direct in google maps api).var iconsvg = mapmarkerawesome(code, opts);code is string identifying font awesome icon 's required. can pass either font awesome icon id ( or without fa- prefix) the equivalent unicode character star, fa-star \\uf005 are exactly equivalent. pass null ( nothing) a plain marker no icon.opts is object the following keys:fill specifies color the body the marker default #4182c3 ( nice mid blue)stroke specifies color the marker outline default #fff (white)icon specifies color the icon the marker default #fff (white)height is integer specifying size the markere via height, pixels default 42transform is string specifying svg transforms be applied the icon default '' (none) transform property be used tweak display any particular icon, such its positioning, size, rotation. coordinate origin the transform is approximately centre the icon.colour values (fill, stroke icon) be specified any valid svg colour string ( white, #fff, #ffffff, rgb(255,255,255) rgba(255,255,255,1) are equivalent). can alternatively specified an object r, g, b keys ( integer values 0 255) an optional key ( numeric value 0  1).licencecode released under mit licence, except font awesome icons, remain subject their original licence ( think)."
+}

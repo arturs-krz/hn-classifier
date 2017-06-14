@@ -1,0 +1,23 @@
+{
+	"_id": "14508594",
+	"site": "https://github.com/ashwin711/proximityhash",
+	"title": " ProximityHash – Geohashes in Proximity",
+	"author": "ashwinnair",
+	"date": "2017-06-13T13:04:19.920Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"geohash",
+			"geohashing",
+			"geolocation",
+			"utility",
+			"circle",
+			"proximity",
+			"georaptor"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst proximityhash: geohashes proximity ( the option compression using georaptor)geohash is geocoding system invented gustavo niemeyer placed the public domain. is hierarchicalspatial data structure subdivides space buckets grid shape, is of many applications what is known a z-order curve, generally space-filling curves.proximityhash generates set geohashes cover circular area, given center coordinates the radius. also has additional option use georaptor creates best combination geohashes across variouslevels represent circle, starting the highest level iterating till optimal blend is brewed. resultaccuracy remains same that the starting geohash level, data size reduces considerably, thereby improvingspeed performance.usage$ proximityhash -husage: proximityhash [-h] [--georaptor georaptor] [--minlevel minlevel] [--maxlevel maxlevel] latitude longitude radius precision_levelpositional arguments: latitude latitude the center point longitude longitude the center point radius radius coverage precision_level geohash precision leveloptional arguments: -h, --help show help message exit --georaptor georaptor georaptor flag compress output (default: false) --minlevel minlevel minimum level geohash georaptor set true(default: 1) --maxlevel maxlevel maximum level geohash georaptor set true(default: 12)example$ proximityhash 48.858156 2.294776 1000 7$ proximityhash 48.858156 2.294776 2000 7 --georaptor true$ proximityhash 48.858156 2.294776 2000 7 --georaptor true --minlevel 3 --maxlevel 6installation install proximityhash, simply:$ pip install proximityhashlicense:licensed under apache license, version 2.0. copyright 2017 ashwin nair <https://www.linkedin.com//nairashwin7>licensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license.contributors:ashwin nair [https://github.com/ashwin711]arjun menon - [http://github.com/arjunmenon92]"
+}

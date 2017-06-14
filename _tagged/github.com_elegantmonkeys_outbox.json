@@ -1,0 +1,22 @@
+{
+	"_id": "14407864",
+	"site": "https://github.com/elegantmonkeys/outbox",
+	"title": "Outbox – OSS for Sending Resilient Requests Using Fetch API and Background Sync",
+	"author": "idoshamun",
+	"date": "2017-06-13T13:56:42.170Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"service-worker",
+			"background-sync",
+			"ajax",
+			"fetch-api",
+			"resiliency"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md outboxoutbox is abstraction layer sending ajax requests. uses fetch api a default engine sending requests background sync a progressive enhancement available.outbox uses exponential backoff a retry strategy failed requests (5xx status code exception).why should use ?in every web application are requests can treated an asynchronous manner that happen the background.combined the right user experience can turn almost every request an async background request. example, can let user proceed his/ doing right clicking /recommend/etc, making /her thinking everything worked actually sending in background. is background sync?background sync is new web api lets defer actions until user has stable connectivity. is useful ensuring whatever user wants send, is actually sent. - jake archibaldsimply said can background sync send requests if user has already closed webapp,making sure all requests made way the server successfully.please note, is still experimental feature might change. to outbox?install outbox using bower:bower install --save outboximport idb script outbox your html:<script src=\"bower_components/idb/lib/idb.js\"></script><script src=\"bower_components/outbox/dist/browser/outbox.js\"></script> outbox is exposed via window.outbox, you to handle responses received outbox set onresponse property a callback function:window.outbox.onresponse = (request, response) => { };request contains following properties:path url the requestoptions object contains method body paramsresponse is light version the response object, it is possible share reponse object between service worker client. assumes the request body is json already parses it using json function response.adding request is done simply calling addrequest method takes path, method body parameters.window.outbox.addrequest('/api/method', 'post', { key: 'value' }); function returns promise resolves the attempt dispatch request matter it succeeded failed.last not least, have import service worker script your service worker. add following your service worker javascript:importscripts('/bower_components/outbox/dist/browser/sw.js');enjoy!"
+}

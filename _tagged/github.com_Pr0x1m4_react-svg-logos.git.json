@@ -1,0 +1,19 @@
+{
+	"_id": "14364668",
+	"site": "https://github.com/Pr0x1m4/react-svg-logos.git",
+	"title": "A Huge collection of SVGs, now powered by React.js",
+	"author": "pr0x1ma",
+	"date": "2017-06-13T13:57:07.949Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"svg"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": "readme.md huge collection svg icons, powered react.import {webpack , electron, angular} 'react-svg-logos';class app extends component { render() { <div> <webpack/> <electron/> <angular/> </div> }}export default app;installnpm install --save react-svg-logosbuildyarn run libavailable componentsdocs coming soon, logos https://github.com/gilbarbara/logos.git"
+}

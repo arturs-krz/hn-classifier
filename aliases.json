@@ -1,0 +1,187 @@
+[
+    {
+        "tag": "devops",
+        "aliases": [
+            "docker", "kubernetes", "containers", "continuous-delivery", "continuous-deployment",
+            "continuous-integration", "aws", "automation", "terraform", "ci", "serverless",
+            "docker-image", "docker-compose"
+        ]
+    },
+    {
+        "tag": "web",
+        "aliases": [
+            "react", "redux", "angular", "angular2", "angular4", "vuejs" , "webpack", "webpack2",
+            "vdom", "d3", "preact", "jsx", "javascript-library",
+            "inferno", "isomorphic", "progressive-web-app", "redux-middleware",
+            "rxjs", "webhooks"
+        ]
+    },
+    {
+        "tag": "html5",
+        "aliases": [
+            "webgl", "dom", "sass", "bootstrap", "css-framework"
+        ]
+    },
+    {
+        "tag": "development",
+        "aliases": [
+            "testing", "functional-programming", "functional-reactive-programming",
+            "cpp", "compiler", "library", "state-management", "c-plus-plus",
+            "decorators", "starter-template", "unit-testing", "parser",
+            "console", "types", "async", "tree"
+        ]
+    },
+    {
+        "tag": "java",
+        "aliases": [
+            "jvm", "clojure", "scala"
+        ]
+    },
+    {
+        "tag": "server",
+        "aliases": [
+            "unix", "linux", "apache", "bash", "grep", "ssh", "proxy",
+            "http", "http2", "infrastructure", "monitoring",
+            "performance", "backup", "zsh", "http2", "network"
+        ]
+    },
+    {
+        "tag": "windows",
+        "aliases": [
+            "windows-10"
+        ]
+    },
+    {
+        "tag": "dotnet",
+        "aliases": [
+            "csharp", "c-sharp"
+        ]
+    },
+    {
+        "tag": "mobile",
+        "aliases": [
+            "android", "ios", "kotlin-android", "react-native", "cordova"
+        ]
+    },
+    {
+        "tag": "node",
+        "aliases": [
+            "nodejs", "node-js", "electron", "npm", "expressjs"
+        ]
+    },
+    {
+        "tag": "golang",
+        "aliases": [
+            "go"
+        ]
+    },
+    {
+        "tag": "design",
+        "aliases": [
+            "animation", "visualization", "svg", "material", "image-processing",
+            "image", "art", "graphics"
+        ]
+    },
+    {
+        "tag": "media",
+        "aliases": [
+            "youtube", "game", "music", "video", "audio"
+        ]
+    },
+    {
+        "tag": "productivity",
+        "aliases": [
+            "vim", "markdown", "rss", "hyperapp", "blog", "pdf", "sharing", "dashboard",
+            "vim-plugin", "chat", "chatbot", "tool"
+        ]
+    },
+    {
+        "tag": "search",
+        "aliases": [
+            "search-engine", "google"
+        ]
+    },
+    {
+        "tag": "terminal",
+        "aliases": [
+            "cli", "command-line", "command-line-tool"
+        ]
+    },
+    {
+        "tag": "blockchain",
+        "aliases": [
+            "ethereum", "bitcoin", "cryptocurrency", "cryptocurrencies",
+            "ethereum-client"
+        ]
+    },
+    {
+        "tag": "security",
+        "aliases": [
+            "encryption", "bitwarden", "authentication", "tls",
+            "hacking", "keychain", "password"
+        ]
+    },
+    {
+        "tag": "awesome",
+        "aliases": [
+            "awesome-list", "list"
+        ]
+    },
+    {
+        "tag": "mac",
+        "aliases": [
+            "osx", "macos", "switf3", "touchbar"
+        ]
+    },
+    {
+        "tag": "browser",
+        "aliases": [
+            "chrome", "chrome-extension", "chrome-devtools", "service-worker",
+            "developer-tools"
+        ]
+    },
+    {
+        "tag": "git",
+        "aliases": [
+            "github", "github-api"
+        ]
+    },
+    {
+        "tag": "api",
+        "aliases":[
+            "json", "microservices", "microservice", "rest-api", "api-client",
+            "rest"
+        ]
+    },
+    {
+        "tag": "machine-learning",
+        "aliases": [
+            "deep-learning", "tensorflow", "deep-neural-networks", "data-science",
+            "natural-language-processing", "datasets", "neural-network", "keras",
+            "convolutional-neural-networks", "gan", "word-embeddings",
+            "artifical-intelligence", "computer-vision", "nlp",
+            "data-analysis"
+        ]
+    },
+    {
+        "tag": "python",
+        "aliases": [
+            "python3", "pypi", "python2", "django", "numpy", "flask",
+            "python-2", "python-3", "python-library", "python-script",
+            "python-3-5", "python-3-6"
+        ]
+    },
+    {
+        "tag": "ruby",
+        "aliases": [
+            "rails", "ruby-on-rails", "ruby-gem"
+        ]
+    },
+    {
+        "tag": "database",
+        "aliases": [
+            "mongodb", "redis", "sql", "postgresql", "postgres", "sqlite",
+            "graphql", "nosql", "mongoose"
+        ]
+    }
+]
