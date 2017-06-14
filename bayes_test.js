@@ -32,7 +32,14 @@ fs.readFile(aliasesPath, (err, data) => {
                         })
 
                         resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
-                        if(resource.popularTags.length) tagged.push(resource)
+                        if(resource.popularTags.length) {
+                            tagged.push(resource)
+                            fs.writeFile(`${__dirname}/_popular/${file}`, JSON.stringify({
+                                "title": resource.title,
+                                "tags": resource.popularTags
+                            }))
+                        }
+
                         if(index == totalFiles - 1) resolve('success')
                     })
                 }
@@ -42,6 +49,7 @@ fs.readFile(aliasesPath, (err, data) => {
         tagging.then(success => {
             console.log(`Tagged ${tagged.length}`)
             tagged.forEach(resource => {
+
                 resource.popularTags.forEach(tag => {
                     // console.log(resource.title, tag)
                     classifier.addDocument(resource.title, tag)
