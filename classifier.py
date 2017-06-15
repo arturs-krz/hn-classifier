@@ -67,8 +67,8 @@ def vectorize_title(title):
     return vec_title
 
 def get_top_tags(prediction):
-    sorted = sorted(prediction)
-    last = sorted[-3:]
+    asc = sorted(prediction)
+    last = asc[-3:]
     print(last)
     return [(aliases[aliases.index(i)], i) for i in last]
 
