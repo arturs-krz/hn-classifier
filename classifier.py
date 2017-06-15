@@ -12,9 +12,10 @@ from os import listdir
 # print(word_vec['vue'])
 input = []
 for filename in listdir("./_popular/"):
-    with open("./_popular/" + filename) as data:
+    with open("./_popular/" + filename, encoding='utf-8') as data:
         print(filename)
         resource = json.load(data)
+        resource['title'] = resource['title'].translate(None, string.punctuation).split()
     
     input.append(resource)
 
