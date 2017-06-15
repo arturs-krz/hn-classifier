@@ -67,8 +67,9 @@ def vectorize_title(title):
     return vec_title
 
 def get_top_tags(prediction):
-    sorted = np.sort(prediction)
-    last = sorted[-1:-3]
+    sorted = sorted(prediction)
+    last = sorted[-3:]
+    print(last)
     return [(aliases[aliases.index(i)], i) for i in last]
 
 
@@ -127,7 +128,7 @@ sess.run(init)
 
 batch_size = 100
 batch_count = int(len(input_data) / batch_size)
-epochs = 500
+epochs = 250
 for e in range(epochs):
     ptr = 0
     entropy_val = 0
