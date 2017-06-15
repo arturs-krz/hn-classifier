@@ -66,6 +66,12 @@ def vectorize_title(title):
             continue    
     return vec_title
 
+def get_top_tags(prediction):
+    sorted = np.sort(prediction)
+    last = sorted[-1:-3]
+    return [(aliases[aliases.index(i)], i) for i in last]
+
+
 max_size = 0
 unknown = []
 resources = []
@@ -144,4 +150,4 @@ tests = [
 
 for test in tests:
     vec_title = pad_to_size(vectorize_title(test), max_size)
-    print("{} = > {}".format(test, prediction.eval(session=sess, feed_dict={data: [vec_title]})))
+    print("{} = > {}".format(test, get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
