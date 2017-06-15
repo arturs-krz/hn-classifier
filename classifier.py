@@ -95,7 +95,7 @@ labels = list(map(lambda tags: create_class_vec(tags), labels))
 data = tf.placeholder(tf.float32, [None, max_size, 300])
 target = tf.placeholder(tf.float32, [None, num_classes])
 
-lstm_cell = tf.nn.rnn_cell.LSTMCell(200, state_is_tuple=True)
+lstm_cell = tf.contrib.rnn.LSTMCell(200, state_is_tuple=True)
 val, state = tf.nn.dynamic_rnn(lstm_cell, data, dtype=tf.float32)
 
 # [max_size, batch, 300]
