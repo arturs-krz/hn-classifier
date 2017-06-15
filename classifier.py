@@ -40,7 +40,7 @@ def pad_to_size(input, size):
 # prepare class vector format 
 with open("./aliases.json", encoding='utf-8') as data:
     alias_dict = json.load(data)
-    aliases = map(lambda entry: entry["tag"], alias_dict)
+    aliases = list(map(lambda entry: entry["tag"], alias_dict))
     num_classes = len(aliases)
 
 def create_class_vec(tags):
@@ -87,9 +87,9 @@ for filename in listdir("./_popular/"):
 
 max_size += 15
 
-input_data = map(lambda res: pad_to_size(res['title'], max_size), resources)
+input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
-labels = map(lambda tags: create_class_vec(tags), labels)
+labels = list(map(lambda tags: create_class_vec(tags), labels))
 
 
 data = tf.placeholder(tf.float32, [None, max_size, 300])
