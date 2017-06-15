@@ -144,4 +144,4 @@ tests = [
 
 for test in tests:
     vec_title = pad_to_size(vectorize_title(test), max_size)
-    print("{} = > {}".format(test, prediction.eval(session=sess, feed_dict={data: vec_title})))
+    print("{} = > {}".format(test, prediction.eval(session=sess, feed_dict={data: [vec_title]})))
