@@ -25,8 +25,11 @@ for filename in listdir("./_popular/"):
                 vec = word_vec[word]
                 vec_title.append(vec)
             except KeyError:
-                # try to process
-                unknown.append(word)
+                processed = process_unknown(word)
+                if len(processed):
+                    vec_title += processed
+                else:
+                    unknown.append(word)
                 continue
         resource['title'] = vec_title
 
@@ -35,3 +38,21 @@ for filename in listdir("./_popular/"):
 with open("./unknown.json", "w") as ufile:
     json.dump(unknown, ufile)
     ufile.close()
+
+
+def process_unknown(word):
+    words = []
+    last_pos = 0
+    i = len(word)
+    while i > 0 and last_pos != i:
+        try:
+            current = word[last_pos:i]
+            vec = word_vec[current]
+            words.append(vec)
+            last_pos = i
+            i = len(word)
+        except KeyError:
+            i -= 1
+            continue
+    
+    return words
