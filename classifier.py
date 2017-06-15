@@ -126,6 +126,6 @@ for e in range(epochs):
         out = labels[ptr:ptr+batch_size]
         ptr += batch_size
         train_step.run(session=sess,feed_dict={data: inp, target: out})
-        entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})
+        entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
     
     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
