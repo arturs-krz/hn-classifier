@@ -1,6 +1,7 @@
 const natural = new require('natural')
 const classifier = new natural.BayesClassifier()
 const fs = require("fs")
+const stripCommon = require('strip-common-words')
 
 const tagDir = `${__dirname}/_tagged/`
 const untagDir = `${__dirname}/_untagged/`
@@ -35,8 +36,8 @@ fs.readFile(aliasesPath, (err, data) => {
                         if(resource.popularTags.length) {
                             tagged.push(resource)
                             fs.writeFile(`${__dirname}/_popular/${file}`, JSON.stringify({
-                                "title": resource.title,
-                                "tags": resource.popularTags
+                                "title": clean(resource.title, true),
+                                "tags": resource.popularTags.map(tag => clean(tag))
                             }))
                         }
 
@@ -74,3 +75,26 @@ fs.readFile(aliasesPath, (err, data) => {
 
 
 })
+
+function clean(str, strip) {
+
+    // Remove common english words
+    if (strip) str = stripCommon(str)
+
+    return str
+        // remove non-ascii chars
+        .replace(/[^\x00-\xFF]/g, "")
+        // remove line breaks
+        .replace(/(?:\r\n|\r|\n)/g, "")
+        // remove literal line breaks
+        .replace(/(?:\\[rn])+/g, "")
+        // remove TABS
+        .replace(/\t/g, "")
+        // remove double spaces
+        .replace(/ +(?= )/g, '')
+        // lowercase?
+        .toLowerCase()
+        // trim
+        .trim()
+
+}
