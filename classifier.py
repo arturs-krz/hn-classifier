@@ -55,3 +55,7 @@ for filename in listdir("./_popular/"):
 with open("./unknown.json", "w") as ufile:
     json.dump(unknown, ufile)
     ufile.close()
+
+with open("./vectorized.json", "w") as vfile:
+    json.dump(input, vfile)
+    vfile.close()
