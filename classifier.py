@@ -10,9 +10,12 @@ from os import listdir
 # print(word_vec['node'])
 # print(word_vec['aws'])
 # print(word_vec['vue'])
-
+input = []
 for filename in listdir("./_popular/"):
     with open("./_popular/" + filename) as data:
+        print(filename)
         resource = json.load(data)
     
-    print(resource)
+    input.append(resource)
+
+print(input)
