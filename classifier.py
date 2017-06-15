@@ -12,6 +12,7 @@ word_vec = KeyedVectors.load_word2vec_format('./embeddings.bin.gz', binary=True)
 # print(word_vec['aws'])
 # print(word_vec['vue'])
 
+unknown = []
 input = []
 for filename in listdir("./_popular/"):
     with open("./_popular/" + filename, encoding='utf-8') as data:
@@ -25,9 +26,12 @@ for filename in listdir("./_popular/"):
                 vec_title.append(vec)
             except KeyError:
                 # try to process
+                unknown.append(word)
                 continue
         resource['title'] = vec_title
 
     input.append(resource)
 
-print(input)
+with open("./unknown.json", "w") as ufile:
+    json.dump(unknown, ufile)
+    ufile.close()
