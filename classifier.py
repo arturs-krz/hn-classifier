@@ -12,6 +12,23 @@ word_vec = KeyedVectors.load_word2vec_format('./embeddings.bin.gz', binary=True)
 # print(word_vec['aws'])
 # print(word_vec['vue'])
 
+def process_unknown(word):
+    words = []
+    last_pos = 0
+    i = len(word)
+    while i > 0 and last_pos != i:
+        try:
+            current = word[last_pos:i]
+            vec = word_vec[current]
+            words.append(vec)
+            last_pos = i
+            i = len(word)
+        except KeyError:
+            i -= 1
+            continue
+    
+    return words
+
 unknown = []
 input = []
 for filename in listdir("./_popular/"):
@@ -38,21 +55,3 @@ for filename in listdir("./_popular/"):
 with open("./unknown.json", "w") as ufile:
     json.dump(unknown, ufile)
     ufile.close()
-
-
-def process_unknown(word):
-    words = []
-    last_pos = 0
-    i = len(word)
-    while i > 0 and last_pos != i:
-        try:
-            current = word[last_pos:i]
-            vec = word_vec[current]
-            words.append(vec)
-            last_pos = i
-            i = len(word)
-        except KeyError:
-            i -= 1
-            continue
-    
-    return words
