@@ -49,6 +49,22 @@ def create_class_vec(tags):
     vec = [hot_val if a in tags else 0.0 for a in aliases]
     return vec
 
+def vectorize_title(title):
+    title = title.translate(str.maketrans('', '', string.punctuation)).split()
+        
+    vec_title = []
+    for word in title:
+        try:
+            vec = word_vec[word]
+            vec_title.append(vec)
+        except KeyError:
+            processed = process_unknown(word)
+            if len(processed):
+                vec_title += processed
+            else:
+                unknown.append(word)
+            continue    
+    return vec_title
 
 max_size = 0
 unknown = []
@@ -56,20 +72,8 @@ resources = []
 for filename in listdir("./_popular/"):
     with open("./_popular/" + filename, encoding='utf-8') as data:
         resource = json.load(data)
-        resource['title'] = resource['title'].translate(str.maketrans('', '', string.punctuation)).split()
-        
-        vec_title = []
-        for word in resource['title']:
-            try:
-                vec = word_vec[word]
-                vec_title.append(vec)
-            except KeyError:
-                processed = process_unknown(word)
-                if len(processed):
-                    vec_title += processed
-                else:
-                    unknown.append(word)
-                continue
+        vec_title = vectorize_title(resource['title'])
+
         resource['title'] = vec_title
         title_len = len(vec_title)
         if title_len > max_size:
@@ -129,3 +133,15 @@ for e in range(epochs):
         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
     
     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
+
+tests = [
+    "dosycrypt homemade symmetric stream cipher with tunable parameters",
+    "blur photo background in ten seconds",
+    "basic manga reader powered by vue js",
+    "free search engine for everybody",
+    "argskwargs, flexible python lib for positional and keyword arguments"
+]
+
+for test in tests:
+    vec_title = pad_to_size(vectorize_title(test), max_size)
+    print("{} = > {}".format(test, prediction.eval(session=sess, feed_dict={data: vec_title})))
