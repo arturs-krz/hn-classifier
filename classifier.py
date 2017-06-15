@@ -123,7 +123,7 @@ for e in range(epochs):
     entropy_val = 0
     for i in range(batch_count):
         inp = input_data[ptr:ptr+batch_size]
-        out = labels[ptr:ptr+batch+size]
+        out = labels[ptr:ptr+batch_size]
         ptr += batch_size
         train_step.run(sess=sess,feed_dict={data: inp, target: out})
         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})
