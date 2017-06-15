@@ -1,6 +1,7 @@
 import json
 import tensorflow as tf
 import string
+import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
 from os import listdir
 
@@ -56,6 +57,6 @@ with open("./unknown.json", "w") as ufile:
     json.dump(unknown, ufile)
     ufile.close()
 
-with open("./vectorized.json", "w") as vfile:
-    json.dump(input, vfile)
+with open("./vectorized.txt", "w") as vfile:
+    np.savetxt(vfile, input)
     vfile.close()
