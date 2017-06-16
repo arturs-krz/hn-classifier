@@ -97,6 +97,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
+num_hidden = 100
 
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
@@ -106,14 +107,14 @@ labels = list(map(lambda tags: create_class_vec(tags), labels))
 data = tf.placeholder(tf.float32, [None, max_size, 300])
 target = tf.placeholder(tf.float32, [None, num_classes])
 
-lstm_cell = tf.contrib.rnn.LSTMCell(100, state_is_tuple=True)
+lstm_cell = tf.contrib.rnn.LSTMCell(num_hidden, state_is_tuple=True)
 val, state = tf.nn.dynamic_rnn(lstm_cell, data, dtype=tf.float32)
 
 # [max_size, batch, 300]
 val = tf.transpose(val, [1, 0, 2])
 last = tf.gather(val, int(val.get_shape()[0]) - 1)
 
-weight = tf.Variable(tf.truncated_normal([200, num_classes]))
+weight = tf.Variable(tf.truncated_normal([num_hidden, num_classes]))
 bias = tf.Variable(tf.constant(0.1, shape=[num_classes]))
 
 prediction = tf.nn.softmax(tf.matmul(last, weight) + bias)
