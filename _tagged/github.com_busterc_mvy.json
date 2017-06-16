@@ -6,7 +6,8 @@
 	"date": "2017-06-13T13:04:19.820Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"cli"
 		],
 		"languages": [
 			"javascript"

@@ -10,7 +10,9 @@
 			"python",
 			"ide",
 			"minor-mode",
-			"data-science"
+			"data-science",
+			"emacs",
+			"plot"
 		],
 		"languages": [
 			"emacs lisp"

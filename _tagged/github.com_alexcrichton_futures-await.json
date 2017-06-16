@@ -6,7 +6,9 @@
 	"date": "2017-06-13T13:57:07.249Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"rust",
+			"async"
 		],
 		"languages": [
 			"rust",

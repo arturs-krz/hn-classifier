@@ -13,7 +13,8 @@
 			"state-management",
 			"redux-tiles",
 			"selector",
-			"redux-middleware"
+			"redux-middleware",
+			"library"
 		],
 		"languages": [
 			"typescript",

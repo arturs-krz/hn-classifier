@@ -12,7 +12,8 @@
 			"ssl",
 			"whois",
 			"dns",
-			"pypi"
+			"pypi",
+			"cli"
 		],
 		"languages": [
 			"python"

@@ -11,7 +11,8 @@
 			"google-drive",
 			"amazon-alexa-skill",
 			"node",
-			"amazon-echo"
+			"amazon-echo",
+			"google-docs"
 		],
 		"languages": [
 			"javascript"

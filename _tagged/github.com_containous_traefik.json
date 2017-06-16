@@ -17,7 +17,8 @@
 			"load-balancer",
 			"reverse-proxy",
 			"zookeeper",
-			"letsencrypt"
+			"letsencrypt",
+			"proxy"
 		],
 		"languages": [
 			"go",

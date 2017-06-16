@@ -6,7 +6,9 @@
 	"date": "2017-06-13T13:07:23.704Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"cli",
+			"github"
 		],
 		"languages": [
 			"hy",

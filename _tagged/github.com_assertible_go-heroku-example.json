@@ -10,7 +10,8 @@
 			"deployment",
 			"continuous-testing",
 			"continuous-deployment",
-			"smoke-testing"
+			"smoke-testing",
+			"go"
 		],
 		"languages": [
 			"go"

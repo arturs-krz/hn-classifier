@@ -11,7 +11,8 @@
 			"typescript",
 			"javascript",
 			"angular2",
-			"angular4"
+			"angular4",
+			"socketio"
 		],
 		"languages": [
 			"typescript"

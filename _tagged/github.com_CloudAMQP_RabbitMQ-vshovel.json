@@ -9,7 +9,8 @@
 			"opensource",
 			"rabbitmq",
 			"rabbitmq-plugin",
-			"webhook"
+			"webhook",
+			"plugin"
 		],
 		"languages": [
 			"erlang",

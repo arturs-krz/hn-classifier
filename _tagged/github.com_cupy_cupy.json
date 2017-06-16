@@ -13,7 +13,8 @@
 			"cusolver",
 			"nccl",
 			"python",
-			"numpy"
+			"numpy",
+			"api"
 		],
 		"languages": [
 			"python",

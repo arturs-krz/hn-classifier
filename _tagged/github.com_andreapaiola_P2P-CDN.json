@@ -9,7 +9,8 @@
 			"opensource",
 			"webtorrent",
 			"cdn",
-			"php"
+			"php",
+			"torrent"
 		],
 		"languages": [
 			"javascript",

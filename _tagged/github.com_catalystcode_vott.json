@@ -10,7 +10,9 @@
 			"cntk",
 			"video-tagging",
 			"deep-learning",
-			"object-detection"
+			"object-detection",
+			"tagging",
+			"training-data"
 		],
 		"languages": [
 			"javascript",

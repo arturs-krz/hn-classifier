@@ -6,7 +6,11 @@
 	"date": "2017-06-13T13:57:07.679Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"django",
+			"aws",
+			"template",
+			"starter"
 		],
 		"languages": [
 			"python",

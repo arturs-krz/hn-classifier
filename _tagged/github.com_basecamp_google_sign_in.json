@@ -6,7 +6,9 @@
 	"date": "2017-06-13T13:55:02.265Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"rails", 
+			"authentication"
 		],
 		"languages": [
 			"ruby"

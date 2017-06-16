@@ -16,7 +16,8 @@
 			"scalatest-snapshot-matchers",
 			"fixture-test",
 			"matcher",
-			"unittest"
+			"unittest",
+			"jest"
 		],
 		"languages": [
 			"scala"

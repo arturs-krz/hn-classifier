@@ -6,7 +6,11 @@
 	"date": "2017-06-13T13:08:55.937Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"go",
+			"python",
+			"smtp",
+			"imap"
 		],
 		"languages": []
 	},

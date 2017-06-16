@@ -15,7 +15,8 @@
 			"rbac",
 			"abac",
 			"acl",
-			"auth"
+			"auth",
+			"library"
 		],
 		"languages": [
 			"go"

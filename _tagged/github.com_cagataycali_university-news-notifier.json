@@ -12,7 +12,9 @@
 			"telegram-bot-api",
 			"telegram-bot",
 			"notifier",
-			"notification-service"
+			"notification-service",
+			"feed",
+			"news"
 		],
 		"languages": [
 			"javascript"

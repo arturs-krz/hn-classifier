@@ -6,7 +6,10 @@
 	"date": "2017-06-13T13:55:02.225Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"macos",
+			"feed",
+			"reader"
 		],
 		"languages": [
 			"objective-c",

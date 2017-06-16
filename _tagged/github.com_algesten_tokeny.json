@@ -11,7 +11,9 @@
 			"authenticator",
 			"otp",
 			"swift3",
-			"watchos"
+			"watchos",
+			"react-native",
+			"icloud"
 		],
 		"languages": [
 			"javascript",

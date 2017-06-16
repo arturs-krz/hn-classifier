@@ -6,7 +6,9 @@
 	"date": "2017-06-13T13:55:01.867Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"java",
+			"changelog"
 		],
 		"languages": [
 			"java",

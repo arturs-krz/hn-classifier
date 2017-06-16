@@ -6,7 +6,8 @@
 	"date": "2017-06-13T13:08:16.789Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"containers", "dynamodb"
 		],
 		"languages": [
 			"shell"

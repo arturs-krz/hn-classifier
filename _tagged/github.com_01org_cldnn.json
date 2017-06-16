@@ -11,7 +11,8 @@
 			"deep-learning",
 			"intel",
 			"intel-hd-graphics",
-			"cldnn"
+			"cldnn",
+			"library"
 		],
 		"languages": [
 			"c++",

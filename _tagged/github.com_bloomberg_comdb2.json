@@ -6,7 +6,8 @@
 	"date": "2017-06-13T13:55:34.777Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"rdbms"
 		],
 		"languages": [
 			"c",

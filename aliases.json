@@ -4,7 +4,8 @@
         "aliases": [
             "docker", "kubernetes", "containers", "continuous-delivery", "continuous-deployment",
             "continuous-integration", "aws", "automation", "terraform", "ci", "serverless",
-            "docker-image", "docker-compose"
+            "docker-image", "docker-compose", "jenkins", "aws-ecs", "deployment", "travis",
+            "test-automation", "aws-cognito", "heroku", "balance", "digitalocean", "amazon"
         ]
     },
     {
@@ -13,13 +14,16 @@
             "react", "redux", "angular", "angular2", "angular4", "vuejs" , "webpack", "webpack2",
             "vdom", "d3", "preact", "jsx", "javascript-library",
             "inferno", "isomorphic", "progressive-web-app", "redux-middleware",
-            "rxjs", "webhooks"
+            "rxjs", "javascript", "typescript", "js", "forms", "json-schema",
+            "bower", "websocket", "chrome", "chrome-extension", "chrome-devtools", "service-worker", "browser",
+            "server-side-rendering", "ssr", "frontend", "wasm", "webassembly", "web-design",
+            "backbone"
         ]
     },
     {
-        "tag": "html5",
+        "tag": "html",
         "aliases": [
-            "webgl", "dom", "sass", "bootstrap", "css-framework"
+            "webgl", "dom", "sass", "bootstrap", "css-framework", "html5", "css"
         ]
     },
     {
@@ -28,27 +32,33 @@
             "testing", "functional-programming", "functional-reactive-programming",
             "cpp", "compiler", "library", "state-management", "c-plus-plus",
             "decorators", "starter-template", "unit-testing", "parser",
-            "console", "types", "async", "tree"
+            "console", "types", "async", "tree", "rust", "haskell", "php", "c",
+            "elixir", "erlang", "laravel", "interpreter", "runtime", "yaml",
+            "boilerplate", "mvc", "agile", "rust", "async", "design-patterns", "ast",
+            "procedural-programming", "cdn", "template", "expression-parser", "optimization",
+            "geolocation", "smoke-testing", "algorithm", "data-structure",
+            "testing-tools", "tdd", "test-driven-development", "deprecated",
+            "garbage-collector", "garbage-collection",
+            "migration", "wordpress", "cms", "joomla", "lisp", "starter",
+            "unittest", "jest", "protobuf", "buffer", "serialization",
+            "declarative-programming", "framework"
         ]
     },
     {
         "tag": "java",
         "aliases": [
-            "jvm", "clojure", "scala"
+            "jvm", "clojure", "scala", "java-library", "scalatest", "rxjava"
         ]
     },
     {
-        "tag": "server",
+        "tag": "system",
         "aliases": [
-            "unix", "linux", "apache", "bash", "grep", "ssh", "proxy",
-            "http", "http2", "infrastructure", "monitoring",
-            "performance", "backup", "zsh", "http2", "network"
-        ]
-    },
-    {
-        "tag": "windows",
-        "aliases": [
-            "windows-10"
+            "server", "unix", "linux", "apache", "ssh", "proxy",
+            "http", "http2", "infrastructure", "reverse-proxy",
+            "performance", "backup", "http2", "network", "daemon",
+            "windows", "windows-10", "bios", "uefi", "firmware",
+            "filesystem", "nginx", "torrent", "smtp", "imap", "vpn", "ssl", "https",
+            "arm", "assembly", "emulator", "syscalls"
         ]
     },
     {
@@ -60,51 +70,62 @@
     {
         "tag": "mobile",
         "aliases": [
-            "android", "ios", "kotlin-android", "react-native", "cordova"
+            "android", "ios", "kotlin-android", "react-native", "cordova", "kotlin"
         ]
     },
     {
         "tag": "node",
         "aliases": [
-            "nodejs", "node-js", "electron", "npm", "expressjs"
+            "nodejs", "node-js", "electron", "npm", "expressjs", "express", "socketio"
         ]
     },
     {
         "tag": "golang",
         "aliases": [
-            "go"
+            "go", "gocd", "goconfig"
         ]
     },
     {
-        "tag": "design",
+        "tag": "visual",
         "aliases": [
-            "animation", "visualization", "svg", "material", "image-processing",
-            "image", "art", "graphics"
+            "design", "animation", "visualization", "svg", "material", "image-processing",
+            "image", "art", "graphics", "landing-page", "responsive-design",
+            "data-visualization", "icons", "free", "opengl", "directx"
         ]
     },
     {
         "tag": "media",
         "aliases": [
-            "youtube", "game", "music", "video", "audio"
+            "news", "youtube", "game", "music", "video", "audio", "tinder", "reddit", "startup", "ecommerce",
+            "introducing", "announcing", "survey", "feed", "primer", "problems", "problem", "blog", "soundcloud",
+            "novelty", "interview", "diy"
         ]
     },
     {
-        "tag": "productivity",
+        "tag": "tools",
         "aliases": [
-            "vim", "markdown", "rss", "hyperapp", "blog", "pdf", "sharing", "dashboard",
-            "vim-plugin", "chat", "chatbot", "tool"
+            "productivity", "vim", "markdown", "rss", "hyperapp", "pdf", "sharing", "dashboard",
+            "vim-plugin", "chat", "chatbot", "tool", "ide", "alexa", "google-drive",
+            "amazon-alexa-skill", "amazon-echo", "google-docs", "disqus", "journal", "chat", "slack",
+            "representation", "storage", "newsletter", "wysiwyg", "bot", "twitter-api", "atom",
+            "review", "developer-tools", "manager", "management", "project", "reader", "frontier",
+            "darcula", "theme", "environment", "editor",
+            "integrated-development-environment", "monaco-editor", "telegram", "telegram-bot",
+            "notifier", "notification-service", "p2p", "peer-to-peer", "emacs", "gui",
+            "twitter", "webhooks", "webhook", "rabbitmq", "plugin", "monitoring", "alerting",
+            "cleanup", "cloud", "paas", "jpeg", "jpeg-decoder", "client", "communication"
         ]
     },
     {
         "tag": "search",
         "aliases": [
-            "search-engine", "google"
+            "search-engine", "google", "elasticsearch"
         ]
     },
     {
         "tag": "terminal",
         "aliases": [
-            "cli", "command-line", "command-line-tool"
+            "cli", "command-line", "command-line-tool", "shell", "tmux", "zsh", "bash"
         ]
     },
     {
@@ -118,32 +139,31 @@
         "tag": "security",
         "aliases": [
             "encryption", "bitwarden", "authentication", "tls",
-            "hacking", "keychain", "password"
+            "hacking", "keychain", "password",
+            "authorization", "passport", "random", "cryptography", "crypto",
+            "wannacry", "wamacry", "attack", "malware", "sinkhole",
+            "xss", "xss-attacks", "security-tools", "security-hardening",
+            "penetration"
         ]
     },
     {
         "tag": "awesome",
         "aliases": [
-            "awesome-list", "list"
+            "awesome-list", "list", "csv", "xls", "xlsx",
+            "cheatsheet", "help", "examples", "rank", "emoji",
+            "explore", "curious", "awesome", "notes"
         ]
     },
     {
-        "tag": "mac",
+        "tag": "apple",
         "aliases": [
-            "osx", "macos", "switf3", "touchbar"
-        ]
-    },
-    {
-        "tag": "browser",
-        "aliases": [
-            "chrome", "chrome-extension", "chrome-devtools", "service-worker",
-            "developer-tools"
+            "mac", "osx", "macos", "swift3", "touchbar", "swift", "icloud", "watchos"
         ]
     },
     {
         "tag": "git",
         "aliases": [
-            "github", "github-api"
+            "github", "github-api", "changelog", "github-releases", "repo", "repository"
         ]
     },
     {
@@ -154,13 +174,18 @@
         ]
     },
     {
-        "tag": "machine-learning",
+        "tag": "data-science",
         "aliases": [
-            "deep-learning", "tensorflow", "deep-neural-networks", "data-science",
+            "machine-learning", "deep-learning", "tensorflow", "deep-neural-networks", "data-science",
             "natural-language-processing", "datasets", "neural-network", "keras",
             "convolutional-neural-networks", "gan", "word-embeddings",
             "artifical-intelligence", "computer-vision", "nlp",
-            "data-analysis"
+            "data-analysis", "cldnn", "face-detection", "face-recogniton",
+            "computer-vision", "reinforcement", "learning",
+            "automated", "generator", "classifier", "julia", "science", "dataset",
+            "cntk", "tagging", "training-data",
+            "word-embeddings", "word-vectors", "corpus", "plot", "graph",
+            "detection", "analysis", "grammar", "bnf", "cuda", "cudnn"
         ]
     },
     {
@@ -168,20 +193,21 @@
         "aliases": [
             "python3", "pypi", "python2", "django", "numpy", "flask",
             "python-2", "python-3", "python-library", "python-script",
-            "python-3-5", "python-3-6"
+            "python-3-5", "python-3-6", "asyncio", "matplotlib",
+            "ipython"
         ]
     },
     {
         "tag": "ruby",
         "aliases": [
-            "rails", "ruby-on-rails", "ruby-gem"
+            "rails", "ruby-on-rails", "ruby-gem", "rubygem"
         ]
     },
     {
         "tag": "database",
         "aliases": [
             "mongodb", "redis", "sql", "postgresql", "postgres", "sqlite",
-            "graphql", "nosql", "mongoose"
+            "graphql", "nosql", "mongoose", "rdbms", "dynamodb"
         ]
     }
 ]

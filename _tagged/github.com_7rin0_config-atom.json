@@ -13,7 +13,8 @@
 			"cli",
 			"makefile",
 			"export",
-			"import"
+			"import",
+			"ide"
 		],
 		"languages": [
 			"shell",

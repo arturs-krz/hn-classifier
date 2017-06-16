@@ -1,7 +1,7 @@
 {
 	"_id": "14157939",
 	"site": "https://github.com/capless/warrant",
-	"title": " Warrant – Use Python with AWS Cognito with SRP Support",
+	"title": "Warrant – Use Python with AWS Cognito with SRP Support",
 	"author": "bjinwright",
 	"date": "2017-06-13T13:34:46.965Z",
 	"tags": {
@@ -10,7 +10,9 @@
 			"cognito",
 			"aws-cognito",
 			"user-pool",
-			"srp"
+			"srp",
+			"python",
+			"aws"
 		],
 		"languages": [
 			"python"

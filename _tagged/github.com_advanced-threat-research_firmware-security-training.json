@@ -6,7 +6,11 @@
 	"date": "2017-06-13T13:55:33.898Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"security",
+			"bios",
+			"firmware",
+			"uefi"
 		],
 		"languages": []
 	},

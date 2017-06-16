@@ -10,8 +10,8 @@
 			"similarity",
 			"duplicate",
 			"javascript",
-			"nodejs",
-			"static-analysis"
+			"static-analysis",
+			"typescript"
 		],
 		"languages": [
 			"typescript"

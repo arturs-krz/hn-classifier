@@ -6,7 +6,11 @@
 	"date": "2017-06-13T13:56:32.365Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"wordpress",
+			"cms",
+			"migration",
+			"tool"
 		],
 		"languages": [
 			"javascript"

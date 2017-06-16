@@ -6,7 +6,8 @@
 	"date": "2017-06-13T13:55:35.157Z",
 	"tags": {
 		"categories": [
-			"opensource"
+			"opensource",
+			"heroku"
 		],
 		"languages": [
 			"go"

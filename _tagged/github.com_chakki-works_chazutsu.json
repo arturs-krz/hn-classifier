@@ -9,7 +9,8 @@
 			"opensource",
 			"natural-language-processing",
 			"dataset",
-			"machine-learning"
+			"machine-learning",
+			"corpus"
 		],
 		"languages": [
 			"python",

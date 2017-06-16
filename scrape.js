@@ -6,7 +6,7 @@ const htmlToText = require('html-to-text')
 const cheerio = require('cheerio')
 const stripCommon = require('strip-common-words')
 
-const page = 1
+const page = 8
 const perPage = 100 // max = 100
 
 const tagDir = `${__dirname}/_tagged/`
@@ -52,24 +52,37 @@ rp({
                 result.tags = git.tags
                 result.content = git.text
 
+                // Write the result to file
+                const savePath = (result.tags.categories.length || result.tags.languages.length) ? `${tagDir}${fileName}` : `${untagDir}${fileName}`
+                // const savePath = `${tagDir}${fileName}`
+
+                fs.writeFile(savePath, JSON.stringify(result, null, '\t'), error => {
+                    if (error) {
+                        console.log(`❌  ${hit.url}`, error)
+                    } else {
+                        console.log(`🌎  ${hit.url}`)
+                    }
+                })
+
                 // Default
-            } else {
+            } 
+            // else {
 
-                result.content = clean(htmlToText.fromString(content, { wordwrap: false, ignoreHref: true, ignoreImage: true, }), true)
+            //     result.content = clean(htmlToText.fromString(content, { wordwrap: false, ignoreHref: true, ignoreImage: true, }), true)
 
-            }
+            // }
 
-            // Write the result to file
-            const savePath = (result.tags.length) ? `${tagDir}${fileName}` : `${untagDir}${fileName}`
-            // const savePath = `${tagDir}${fileName}`
+            // // Write the result to file
+            // const savePath = (result.tags.length) ? `${tagDir}${fileName}` : `${untagDir}${fileName}`
+            // // const savePath = `${tagDir}${fileName}`
 
-            fs.writeFile(savePath, JSON.stringify(result, null, '\t'), error => {
-                if (error) {
-                    console.log(`❌  ${hit.url}`, error)
-                } else {
-                    console.log(`🌎  ${hit.url}`)
-                }
-            })
+            // fs.writeFile(savePath, JSON.stringify(result, null, '\t'), error => {
+            //     if (error) {
+            //         console.log(`❌  ${hit.url}`, error)
+            //     } else {
+            //         console.log(`🌎  ${hit.url}`)
+            //     }
+            // })
 
         })
 

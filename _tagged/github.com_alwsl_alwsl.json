@@ -11,7 +11,8 @@
 			"linux",
 			"archlinux",
 			"gnu",
-			"windows-10"
+			"windows-10",
+			"bash"
 		],
 		"languages": [
 			"batchfile"

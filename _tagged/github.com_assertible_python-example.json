@@ -11,7 +11,8 @@
 			"api",
 			"continuous-delivery",
 			"continuous-integration",
-			"api-testing"
+			"api-testing",
+			"travis"
 		],
 		"languages": [
 			"python"

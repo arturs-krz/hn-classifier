@@ -9,7 +9,8 @@
 			"opensource",
 			"tensorflow",
 			"deep-learning",
-			"machine-learning"
+			"machine-learning",
+			"ipython"
 		],
 		"languages": [
 			"jupyter notebook"

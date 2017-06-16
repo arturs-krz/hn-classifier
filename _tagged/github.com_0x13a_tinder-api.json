@@ -12,7 +12,8 @@
 			"java",
 			"java-api-wrapper",
 			"java-http-client",
-			"java-library"
+			"java-library",
+			"api-client"
 		],
 		"languages": [
 			"java"

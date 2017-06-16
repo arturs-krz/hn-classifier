@@ -18,7 +18,8 @@ fs.readFile(aliasesPath, (err, data) => {
         let tagging = new Promise((resolve, reject) => {
             
             const totalFiles = files.length
-            files.forEach((file, index) => { 
+            files.forEach((file, index) => {
+
                 if(file.indexOf('.json') !== -1) {
                     fs.readFile(`${tagDir}${file}`, (err, data) => {
                         let resource = JSON.parse(data)
@@ -34,6 +35,8 @@ fs.readFile(aliasesPath, (err, data) => {
 
                         resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
                         if(resource.popularTags.length) {
+                            // if (fs.existsSync(`${__dirname}/_popular/${file}`)) return
+                            
                             tagged.push(resource)
                             fs.writeFile(`${__dirname}/_popular/${file}`, JSON.stringify({
                                 "title": clean(resource.title, true),

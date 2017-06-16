@@ -12,7 +12,8 @@
 			"security-hardening",
 			"security-tools",
 			"xss-harvest",
-			"xss-harvester"
+			"xss-harvester",
+			"penetration"
 		],
 		"languages": [
 			"javascript"

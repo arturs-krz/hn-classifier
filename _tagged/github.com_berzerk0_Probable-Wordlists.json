@@ -12,7 +12,8 @@
 			"password-strength",
 			"password-safety",
 			"dictionary-attack",
-			"dictionary"
+			"dictionary",
+			"list"
 		],
 		"languages": []
 	},

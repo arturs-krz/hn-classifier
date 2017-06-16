@@ -8,7 +8,8 @@
 		"categories": [
 			"opensource",
 			"garbage-collector",
-			"garbage-collection"
+			"garbage-collection",
+			"library"
 		],
 		"languages": [
 			"c",

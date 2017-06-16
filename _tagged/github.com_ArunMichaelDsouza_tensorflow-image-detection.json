@@ -12,7 +12,8 @@
 			"deep-learning",
 			"deep-neural-networks",
 			"convolutional-neural-networks",
-			"tensorflow"
+			"tensorflow",
+			"classifier"
 		],
 		"languages": [
 			"python",
