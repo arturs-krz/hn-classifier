@@ -142,7 +142,7 @@ sess = tf.Session()
 saver = tf.train.Saver()
 sess.run(init)
 
-saver.restore(sess, "model.ckpt")
+saver.restore(sess, "./model.ckpt")
 
 # batch_size = 100
 # batch_count = int(len(input_data) / batch_size)
@@ -159,7 +159,7 @@ saver.restore(sess, "model.ckpt")
     
 #     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
 
-# saver.save(sess, "model.ckpt")
+# saver.save(sess, "./model.ckpt")
 
 tests = [
     "dosycrypt homemade symmetric stream cipher with tunable parameters",
