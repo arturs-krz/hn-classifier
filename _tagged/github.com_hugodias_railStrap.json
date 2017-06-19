@@ -1,0 +1,22 @@
+{
+	"_id": "4120417",
+	"site": "https://github.com/hugodias/railStrap",
+	"title": " Ruby on Rails Bootstraping",
+	"author": "HugoDias",
+	"date": "2017-06-19T10:49:54.813Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"twitter-bootstrap",
+			"rails"
+		],
+		"languages": [
+			"ruby",
+			"coffeescript",
+			"css",
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

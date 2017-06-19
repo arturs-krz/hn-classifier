@@ -1,0 +1,22 @@
+{
+	"_id": "10451598",
+	"site": "https://github.com/mrzool/cv-boilerplate",
+	"title": " CV Boilerplate – Easing the Process of Building a CV Using LaTeX",
+	"author": "mrzool",
+	"date": "2017-06-19T08:42:37.742Z",
+	"tags": {
+		"categories": [
+			"latex",
+			"pandoc",
+			"yaml",
+			"pdf",
+			"typesetting",
+			"makefile"
+		],
+		"languages": [
+			"tex",
+			"makefile"
+		]
+	},
+	"content": ""
+}

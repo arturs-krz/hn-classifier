@@ -1,0 +1,18 @@
+{
+	"_id": "13024702",
+	"site": "https://github.com/wavebitscientific/functional-fortran",
+	"title": " Functional programming for modern Fortran",
+	"author": "milancurcic",
+	"date": "2017-06-19T09:37:24.680Z",
+	"tags": {
+		"categories": [
+			"functional-programming",
+			"fortran"
+		],
+		"languages": [
+			"fortran",
+			"cmake"
+		]
+	},
+	"content": ""
+}

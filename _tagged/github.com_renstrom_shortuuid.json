@@ -1,0 +1,18 @@
+{
+	"_id": "10519533",
+	"site": "https://github.com/renstrom/shortuuid",
+	"title": " Go library for concise, unambiguous and URL-safe UUIDs",
+	"author": "Spiritus",
+	"date": "2017-06-19T10:28:46.542Z",
+	"tags": {
+		"categories": [
+			"shortuuid",
+			"uuid",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

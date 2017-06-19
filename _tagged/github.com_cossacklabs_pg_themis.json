@@ -1,0 +1,20 @@
+{
+	"_id": "13228396",
+	"site": "https://github.com/cossacklabs/pg_themis",
+	"title": " Advanced encryption in PostgreSQL",
+	"author": "cossacklabs",
+	"date": "2017-06-19T10:45:01.526Z",
+	"tags": {
+		"categories": [
+			"postgresql",
+			"encryption",
+			"encrypted-data",
+			"cryptography"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

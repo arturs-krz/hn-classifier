@@ -1,0 +1,22 @@
+{
+	"_id": "10402419",
+	"site": "https://github.com/byt3bl33d3r/CrackMapExec",
+	"title": " CrackMapExec – A swiss army knife for pentesting Active Directory",
+	"author": "byt3bl33d3r",
+	"date": "2017-06-19T10:59:49.891Z",
+	"tags": {
+		"categories": [
+			"python",
+			"active-directory",
+			"pentesting",
+			"windows",
+			"powershell",
+			"networks"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

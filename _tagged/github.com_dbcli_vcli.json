@@ -1,0 +1,21 @@
+{
+	"_id": "10619199",
+	"site": "https://github.com/dbcli/vcli",
+	"title": " Vcli – A Vertica CLI with auto-completion and syntax highlighting",
+	"author": "eliangcs",
+	"date": "2017-06-19T11:11:01.732Z",
+	"tags": {
+		"categories": [
+			"vertica",
+			"cli",
+			"autocomplete",
+			"syntax-highlighting"
+		],
+		"languages": [
+			"python",
+			"gherkin",
+			"shell"
+		]
+	},
+	"content": ""
+}

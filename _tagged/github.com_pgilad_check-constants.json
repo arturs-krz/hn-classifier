@@ -1,0 +1,14 @@
+{
+	"_id": "8576816",
+	"site": "https://github.com/pgilad/check-constants",
+	"title": " Find numbers that should be extracted as constants in your JS",
+	"author": "pgilad",
+	"date": "2017-06-19T10:31:56.213Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

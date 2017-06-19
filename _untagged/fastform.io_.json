@@ -1,0 +1,9 @@
+{
+	"_id": "14441623",
+	"site": "http://fastform.io/",
+	"title": " FastForm – Dead-simple API for form submissions on static sites",
+	"author": "mikeluby",
+	"date": "2017-06-16T07:57:32.352Z",
+	"tags": [],
+	"content": "fastformfastformwhy waste time building form backend dead-simple api gets collecting form submissions no .send form responses directly your inboxcontact usavailable fastform parametersparametersdescription_protectusing _protect parameter gives fastform layer spam protection. simply add following line:<input type=\"text\" name=\"_protect\" style=\"display: none;\" /> input should hidden css any submission a value _protect be ignored_nextafter successful submission, user be redirected the value the _next parameter.<input type=\"hidden\" name=\"_next\" value=\"http://yoursite.com\" />_subjectyou use _subject parameter customize email subject.<input type=\"hidden\" name=\"_subject\" value=\" submission\" />using ajaxfastform accepts submissions via ajax. key is set content-type header application/json pass along parameters json.$.ajax({ type: \"post\", url: \"https://api.fastform.io/f/emailaddress\", data: json.stringify({\"data\": \"hello, world!\"}), datatype: \"json\", contenttype: \"application/json\"});using curlcurl --data \"data=hello\" https://api.fastform.io/f/emailaddressfree plan$0/month * 100 submissions per monthpro plan$4.99/month * 10,000 submissions per month * mask email addresscontact contact us"
+}

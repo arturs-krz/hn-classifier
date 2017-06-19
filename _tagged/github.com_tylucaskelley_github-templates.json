@@ -1,0 +1,21 @@
+{
+	"_id": "12952633",
+	"site": "https://github.com/tylucaskelley/github-templates",
+	"title": " GitHub template files",
+	"author": "tylucaskelley",
+	"date": "2017-06-19T08:42:30.157Z",
+	"tags": {
+		"categories": [
+			"starter-files",
+			"github",
+			"templates",
+			"issue-template",
+			"pull-request-template",
+			"contributing"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

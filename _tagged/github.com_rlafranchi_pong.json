@@ -1,0 +1,22 @@
+{
+	"_id": "13391207",
+	"site": "https://github.com/rlafranchi/pong",
+	"title": " Pong Built with Vue.js and Rails Action Cable",
+	"author": "rlafranchi",
+	"date": "2017-06-19T08:43:05.629Z",
+	"tags": {
+		"categories": [
+			"rails",
+			"vue",
+			"game",
+			"actioncable"
+		],
+		"languages": [
+			"ruby",
+			"javascript",
+			"vue",
+			"html"
+		]
+	},
+	"content": ""
+}

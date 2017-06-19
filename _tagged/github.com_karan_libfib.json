@@ -1,0 +1,15 @@
+{
+	"_id": "11865596",
+	"site": "https://github.com/karan/libfib",
+	"title": " Libflib – An experiment to run Go code directly from Python",
+	"author": "karangoeluw",
+	"date": "2017-06-19T10:56:33.757Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"go"
+		]
+	},
+	"content": ""
+}

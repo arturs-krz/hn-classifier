@@ -1,0 +1,21 @@
+{
+	"_id": "6052811",
+	"site": "https://github.com/uncomplicate/fluokitten/",
+	"title": " Fluokitten - category theory in idiomatic Clojure",
+	"author": "dragandj",
+	"date": "2017-06-19T10:23:02.287Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"category-theory",
+			"clojure-library",
+			"monad",
+			"monoid",
+			"functor"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "10965823",
+	"site": "https://github.com/zquestz/s",
+	"title": " Search Google, GitHub, Stack Overflow, other sites from the terminal",
+	"author": "zquestz",
+	"date": "2017-06-19T08:42:47.088Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"terminal",
+			"search"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

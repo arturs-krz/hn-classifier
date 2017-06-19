@@ -1,0 +1,18 @@
+{
+	"_id": "10891545",
+	"site": "https://github.com/websitesfortrello/trelew",
+	"title": " Trelew, an interactive shell for Trello",
+	"author": "fiatjaf",
+	"date": "2017-06-19T10:44:50.437Z",
+	"tags": {
+		"categories": [
+			"trello",
+			"cli",
+			"vorpal"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

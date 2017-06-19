@@ -1,0 +1,20 @@
+{
+	"_id": "13246788",
+	"site": "https://github.com/Legitcode/legible",
+	"title": " Write ajax requests with template literals",
+	"author": "zackify",
+	"date": "2017-06-19T10:40:12.528Z",
+	"tags": {
+		"categories": [
+			"node",
+			"js",
+			"request",
+			"fetch",
+			"fetch-api"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

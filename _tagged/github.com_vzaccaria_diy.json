@@ -1,0 +1,17 @@
+{
+	"_id": "9220401",
+	"site": "https://github.com/vzaccaria/diy",
+	"title": " DIY – JavaScript that compiles to a Makefile",
+	"author": "porphyry3",
+	"date": "2017-06-19T10:40:14.574Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"livescript",
+			"makefile",
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

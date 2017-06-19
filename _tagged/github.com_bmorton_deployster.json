@@ -1,0 +1,14 @@
+{
+	"_id": "9289925",
+	"site": "https://github.com/bmorton/deployster",
+	"title": " Deployster – Automated, zero-downtime deploys to a Fleet cluster",
+	"author": "brianxq3",
+	"date": "2017-06-19T09:45:14.161Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

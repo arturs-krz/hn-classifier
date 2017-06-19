@@ -1,0 +1,29 @@
+{
+	"_id": "12560036",
+	"site": "https://github.com/onqtam/doctest/tree/master",
+	"title": " Doctest – the lightest C++ testing framework – version 1.1 released",
+	"author": "onqtam",
+	"date": "2017-06-19T09:43:47.193Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"doctest",
+			"tdd",
+			"testing",
+			"unit-testing",
+			"header-only",
+			"c-plus-plus-14",
+			"c-plus-plus-11",
+			"cplusplus",
+			"cpp",
+			"cpp11",
+			"cpp14"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"cmake"
+		]
+	},
+	"content": ""
+}

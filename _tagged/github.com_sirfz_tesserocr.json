@@ -1,0 +1,18 @@
+{
+	"_id": "11736679",
+	"site": "https://github.com/sirfz/tesserocr",
+	"title": " tesserocr – A Python wrapper for the tesseract-ocr API",
+	"author": "reubano",
+	"date": "2017-06-19T09:41:00.058Z",
+	"tags": {
+		"categories": [
+			"optical-character-recognition",
+			"ocr",
+			"tesseract"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

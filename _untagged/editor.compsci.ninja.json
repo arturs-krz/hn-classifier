@@ -1,0 +1,9 @@
+{
+	"_id": "14540929",
+	"site": "https://editor.compsci.ninja",
+	"title": " Proof of concept CloudFormation Editor",
+	"author": "lotkowskim",
+	"date": "2017-06-16T07:55:56.459Z",
+	"tags": [],
+	"content": "usage is simple cloudformation template editor, built a proof concept. next steps this project is include static analysis validate template. should autocomplete you type you always bring the docs using ctrl + space { \"resources\": { \"myinstance\": { \"type\": \"aws::ec2::instance\", \"properties\": { \"instancetype\": \"t2.micro\", \"monitoring\": true } } }}"
+}

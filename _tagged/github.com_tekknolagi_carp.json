@@ -1,0 +1,17 @@
+{
+	"_id": "8130413",
+	"site": "https://github.com/tekknolagi/carp",
+	"title": " A small virtual machine written in C",
+	"author": "tekknolagi",
+	"date": "2017-06-19T10:09:57.207Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"c++",
+			"makefile",
+			"emacs lisp"
+		]
+	},
+	"content": ""
+}

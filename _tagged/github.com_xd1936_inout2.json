@@ -1,0 +1,21 @@
+{
+	"_id": "12566374",
+	"site": "https://github.com/xd1936/inout2",
+	"title": " A web office in/out board that pulls from Google Calendar",
+	"author": "xd1936",
+	"date": "2017-06-19T11:09:12.931Z",
+	"tags": {
+		"categories": [
+			"google-calendar",
+			"javascript",
+			"google-apps-script",
+			"office",
+			"calendar-api"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

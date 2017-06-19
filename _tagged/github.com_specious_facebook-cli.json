@@ -1,0 +1,18 @@
+{
+	"_id": "12638056",
+	"site": "https://github.com/specious/facebook-cli",
+	"title": " Facebook command line interface",
+	"author": "specious",
+	"date": "2017-06-19T08:42:58.562Z",
+	"tags": {
+		"categories": [
+			"facebook",
+			"facebook-api",
+			"command-line"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

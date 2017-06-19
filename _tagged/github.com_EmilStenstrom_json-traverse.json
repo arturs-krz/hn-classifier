@@ -1,0 +1,18 @@
+{
+	"_id": "13144788",
+	"site": "https://github.com/EmilStenstrom/json-traverse",
+	"title": " Parse complex json structures using a simple query syntax",
+	"author": "EmilStenstrom",
+	"date": "2017-06-19T10:13:39.530Z",
+	"tags": {
+		"categories": [
+			"python",
+			"json",
+			"tree-traversal"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

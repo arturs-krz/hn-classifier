@@ -1,0 +1,15 @@
+{
+	"_id": "5540592",
+	"site": "https://github.com/KurtPreston/vim-autoformat-rails",
+	"title": " vim-autoformat-rails. Format Ruby/HTML/CSS with a single command",
+	"author": "I_I",
+	"date": "2017-06-19T10:11:18.132Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"vim script",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13700512",
+	"site": "https://github.com/daleroberts/itermplot",
+	"title": " Plot directly in your terminal with matplotlib",
+	"author": "daleroberts",
+	"date": "2017-06-19T10:38:56.394Z",
+	"tags": {
+		"categories": [
+			"python",
+			"iterm2",
+			"matplotlib",
+			"plot",
+			"visualization",
+			"command-line"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

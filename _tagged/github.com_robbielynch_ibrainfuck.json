@@ -1,0 +1,15 @@
+{
+	"_id": "9470354",
+	"site": "https://github.com/robbielynch/ibrainfuck",
+	"title": " A brainfuck language kernel for IPython and Jupyter",
+	"author": "roblynch",
+	"date": "2017-06-19T10:29:43.429Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

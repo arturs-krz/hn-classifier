@@ -1,0 +1,21 @@
+{
+	"_id": "13709824",
+	"site": "https://github.com/wybiral/dex",
+	"title": " Personal IoT scanner and search engine",
+	"author": "wybiral",
+	"date": "2017-06-19T08:44:18.333Z",
+	"tags": {
+		"categories": [
+			"iot",
+			"infosec",
+			"netsec",
+			"scanner"
+		],
+		"languages": [
+			"python",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

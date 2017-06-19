@@ -1,0 +1,18 @@
+{
+	"_id": "11043611",
+	"site": "https://github.com/nemo/natural-synaptic",
+	"title": " Text classification with Synaptic.js",
+	"author": "Nimsical",
+	"date": "2017-06-19T10:50:45.752Z",
+	"tags": {
+		"categories": [
+			"nlp",
+			"classification",
+			"neural-network"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

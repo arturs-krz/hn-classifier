@@ -1,0 +1,22 @@
+{
+	"_id": "13794098",
+	"site": "https://github.com/mitghi/buffpool",
+	"title": " BuffPool, a recycling pool with lock-free context",
+	"author": "mitghi",
+	"date": "2017-06-19T11:08:35.570Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"go",
+			"buffers",
+			"pool",
+			"lock-free",
+			"bytebuffer"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

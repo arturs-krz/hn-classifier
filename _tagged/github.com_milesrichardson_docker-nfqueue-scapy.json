@@ -1,0 +1,21 @@
+{
+	"_id": "13775159",
+	"site": "https://github.com/milesrichardson/docker-nfqueue-scapy",
+	"title": " Docker container to intercept packets with scapy from a netfilter queue",
+	"author": "chatmasta",
+	"date": "2017-06-19T10:16:43.730Z",
+	"tags": {
+		"categories": [
+			"netfilter",
+			"nfqueue",
+			"docker",
+			"scapy",
+			"python",
+			"iptables"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

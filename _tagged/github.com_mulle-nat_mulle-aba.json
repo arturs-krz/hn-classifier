@@ -1,0 +1,23 @@
+{
+	"_id": "12733324",
+	"site": "https://github.com/mulle-nat/mulle-aba",
+	"title": " A lock-free, cross-platform solution to the ABA problem, written in C",
+	"author": "mulle_nat",
+	"date": "2017-06-19T08:37:02.057Z",
+	"tags": {
+		"categories": [
+			"lock-free",
+			"aba-problem",
+			"aba",
+			"memory-allocation",
+			"mulle-objc"
+		],
+		"languages": [
+			"c",
+			"shell",
+			"objective-c",
+			"cmake"
+		]
+	},
+	"content": ""
+}

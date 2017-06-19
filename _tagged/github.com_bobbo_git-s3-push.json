@@ -1,0 +1,20 @@
+{
+	"_id": "11007184",
+	"site": "https://github.com/bobbo/git-s3-push",
+	"title": " Git-s3-push – Deploy your Git repo to an S3 bucket",
+	"author": "KuiN",
+	"date": "2017-06-19T10:42:59.222Z",
+	"tags": {
+		"categories": [
+			"git",
+			"s3",
+			"s3-bucket",
+			"backup",
+			"deployment"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

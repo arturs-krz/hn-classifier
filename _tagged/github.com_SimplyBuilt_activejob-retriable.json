@@ -1,0 +1,22 @@
+{
+	"_id": "10125665",
+	"site": "https://github.com/SimplyBuilt/activejob-retriable",
+	"title": " Retry failed Rails' AcitveJobs automatically with activejob-retriable",
+	"author": "mikeycgto",
+	"date": "2017-06-19T09:38:16.883Z",
+	"tags": {
+		"categories": [
+			"rails",
+			"activejob",
+			"backend",
+			"sidekiq"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

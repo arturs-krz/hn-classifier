@@ -1,0 +1,26 @@
+{
+	"_id": "9913798",
+	"site": "https://github.com/zombodb/zombodb",
+	"title": " ZomboDB – Postgres extension for indexes backed by Elasticsearch",
+	"author": "nstart",
+	"date": "2017-06-19T08:37:02.281Z",
+	"tags": {
+		"categories": [
+			"postgres",
+			"elasticsearch",
+			"postgresql",
+			"text-search",
+			"sql"
+		],
+		"languages": [
+			"java",
+			"plpgsql",
+			"c",
+			"shell",
+			"makefile",
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

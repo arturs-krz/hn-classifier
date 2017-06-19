@@ -1,0 +1,23 @@
+{
+	"_id": "5650606",
+	"site": "https://github.com/swanson/stringer",
+	"title": " Stringer, a self-hosted anti-social RSS reader",
+	"author": "swanson",
+	"date": "2017-06-19T08:42:57.832Z",
+	"tags": {
+		"categories": [
+			"rss",
+			"rss-reader",
+			"ruby",
+			"feed-reader",
+			"feedjira"
+		],
+		"languages": [
+			"ruby",
+			"css",
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

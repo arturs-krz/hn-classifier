@@ -1,0 +1,25 @@
+{
+	"_id": "13857880",
+	"site": "https://github.com/ryukinix/lisp-chat",
+	"title": " Experimental chat written in Common Lisp",
+	"author": "lerax",
+	"date": "2017-06-19T09:55:16.928Z",
+	"tags": {
+		"categories": [
+			"lisp",
+			"irc",
+			"chat",
+			"experimental",
+			"common-lisp",
+			"quicklisp",
+			"sbcl",
+			"minimalist",
+			"sockets"
+		],
+		"languages": [
+			"common lisp",
+			"python"
+		]
+	},
+	"content": ""
+}

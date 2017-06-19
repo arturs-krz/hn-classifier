@@ -1,0 +1,18 @@
+{
+	"_id": "13803722",
+	"site": "https://github.com/wildduck-email/wildduck",
+	"title": " Wild Duck – Open Source IMAP Server Built with Node.js and MongoDB",
+	"author": "andris9",
+	"date": "2017-06-19T10:50:55.066Z",
+	"tags": {
+		"categories": [
+			"imap-server",
+			"lmtp",
+			"mongodb"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

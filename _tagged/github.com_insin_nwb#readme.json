@@ -1,0 +1,26 @@
+{
+	"_id": "10669047",
+	"site": "https://github.com/insin/nwb#readme",
+	"title": " Nwb – a development tool for React and web modules",
+	"author": "insin",
+	"date": "2017-06-19T09:44:31.472Z",
+	"tags": {
+		"categories": [
+			"toolkit",
+			"react",
+			"preact",
+			"inferno",
+			"react-component",
+			"npm-module",
+			"webpack",
+			"babel",
+			"karma",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

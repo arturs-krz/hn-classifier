@@ -1,0 +1,18 @@
+{
+	"_id": "9891998",
+	"site": "https://github.com/brutella/hc",
+	"title": " HomeControl – HomeKit implementation in Go",
+	"author": "brutella",
+	"date": "2017-06-19T08:44:13.639Z",
+	"tags": {
+		"categories": [
+			"homekit",
+			"go",
+			"hap"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

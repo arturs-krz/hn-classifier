@@ -1,0 +1,14 @@
+{
+	"_id": "9506294",
+	"site": "https://github.com/beothorn/ClojureCalc",
+	"title": " ClojureCalc, a libreoffice Calc Add-In to evaluate clojure expressions",
+	"author": "beothorn",
+	"date": "2017-06-19T10:10:04.678Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

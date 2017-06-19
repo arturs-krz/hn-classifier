@@ -1,0 +1,14 @@
+{
+	"_id": "12691970",
+	"site": "https://github.com/dhwajraj/spark-twitter-named-entity",
+	"title": " Named Entity Extraction Example from Twitter Stream Using Apache Spark",
+	"author": "djebel9",
+	"date": "2017-06-19T10:10:07.362Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

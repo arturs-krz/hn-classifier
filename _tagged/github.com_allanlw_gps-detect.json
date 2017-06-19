@@ -1,0 +1,19 @@
+{
+	"_id": "13551313",
+	"site": "https://github.com/allanlw/gps-detect",
+	"title": " Firefox addon for detecting GPS EXIF info in JPEGs automatically",
+	"author": "awirth",
+	"date": "2017-06-19T09:57:47.069Z",
+	"tags": {
+		"categories": [
+			"firefox-addon",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

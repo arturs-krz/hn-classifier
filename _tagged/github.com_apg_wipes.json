@@ -1,0 +1,15 @@
+{
+	"_id": "7671652",
+	"site": "https://github.com/apg/wipes",
+	"title": " Wipes – pipe stdin to your browser over websockets",
+	"author": "apgwoz",
+	"date": "2017-06-19T10:28:13.873Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"go"
+		]
+	},
+	"content": ""
+}

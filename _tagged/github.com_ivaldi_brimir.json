@@ -1,0 +1,24 @@
+{
+	"_id": "6739203",
+	"site": "http://github.com/ivaldi/brimir",
+	"title": " Open-source email helpdesk",
+	"author": "frenkel",
+	"date": "2017-06-19T08:44:45.823Z",
+	"tags": {
+		"categories": [
+			"helpdesk",
+			"ticket",
+			"e-mail",
+			"ruby",
+			"rails"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

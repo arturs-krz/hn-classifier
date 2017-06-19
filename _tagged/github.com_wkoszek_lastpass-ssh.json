@@ -1,0 +1,21 @@
+{
+	"_id": "11645619",
+	"site": "https://github.com/wkoszek/lastpass-ssh",
+	"title": " SSH key management with LastPass",
+	"author": "wkoszek",
+	"date": "2017-06-19T10:01:26.348Z",
+	"tags": {
+		"categories": [
+			"ssh-key",
+			"lastpass",
+			"passphrase",
+			"ssh"
+		],
+		"languages": [
+			"ruby",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

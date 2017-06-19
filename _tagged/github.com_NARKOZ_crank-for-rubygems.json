@@ -1,0 +1,17 @@
+{
+	"_id": "8830843",
+	"site": "https://github.com/NARKOZ/crank-for-rubygems",
+	"title": " Chrome extension to navigate dependencies in Ruby projects on GitHub",
+	"author": "NARKOZ",
+	"date": "2017-06-19T10:27:53.183Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"rubygems"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

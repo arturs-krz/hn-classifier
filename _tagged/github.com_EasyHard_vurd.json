@@ -1,0 +1,20 @@
+{
+	"_id": "9093054",
+	"site": "https://github.com/EasyHard/vurd",
+	"title": " Vurd, a toy race dectetor with LLVM infrastructure",
+	"author": "easyhard",
+	"date": "2017-06-19T10:12:27.207Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"assembly",
+			"c",
+			"objective-c",
+			"shell",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

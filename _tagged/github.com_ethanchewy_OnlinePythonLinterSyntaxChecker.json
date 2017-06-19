@@ -1,0 +1,25 @@
+{
+	"_id": "13756471",
+	"site": "https://github.com/ethanchewy/OnlinePythonLinterSyntaxChecker",
+	"title": " PythonBuddy, an Online Python Editor with Live Syntax Checking",
+	"author": "ethanchewy",
+	"date": "2017-06-19T08:44:43.821Z",
+	"tags": {
+		"categories": [
+			"text-editor",
+			"python",
+			"online",
+			"linter",
+			"live",
+			"mooc",
+			"syntax-checker",
+			"editor"
+		],
+		"languages": [
+			"html",
+			"python",
+			"css"
+		]
+	},
+	"content": ""
+}

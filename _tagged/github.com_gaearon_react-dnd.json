@@ -1,0 +1,19 @@
+{
+	"_id": "8478742",
+	"site": "https://github.com/gaearon/react-dnd",
+	"title": " Flexible HTML5 drag-and-drop mixin for React with full DOM control",
+	"author": "danabramov",
+	"date": "2017-06-19T10:40:32.425Z",
+	"tags": {
+		"categories": [
+			"react",
+			"drag-and-drop"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "7253895",
+	"site": "https://github.com/softvar/json2html",
+	"title": " Human friendly JSON 2 HTML Representation",
+	"author": "softvar",
+	"date": "2017-06-19T09:36:00.927Z",
+	"tags": {
+		"categories": [
+			"python",
+			"json",
+			"html",
+			"html-table",
+			"flask-application",
+			"json2html",
+			"table"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "9776859",
+	"site": "https://github.com/iamthemovie/legacy",
+	"title": " Legacy – A lightweight Cassandra backup-to-S3 tool written in Go",
+	"author": "hathers",
+	"date": "2017-06-19T10:30:17.674Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

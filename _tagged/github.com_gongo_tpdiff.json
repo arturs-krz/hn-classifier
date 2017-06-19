@@ -1,0 +1,18 @@
+{
+	"_id": "13142388",
+	"site": "https://github.com/gongo/tpdiff",
+	"title": " Colorize different attribute lines of `terraform plan`",
+	"author": "gongo",
+	"date": "2017-06-19T09:42:31.448Z",
+	"tags": {
+		"categories": [
+			"terraform",
+			"colorization",
+			"shell-script"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

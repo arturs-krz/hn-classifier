@@ -1,0 +1,21 @@
+{
+	"_id": "8463560",
+	"site": "https://github.com/naelstrof/maim",
+	"title": " Maim – A simple screenshot utility for Linux",
+	"author": "naelstrof",
+	"date": "2017-06-19T08:39:52.821Z",
+	"tags": {
+		"categories": [
+			"takes-screenshots",
+			"scrot",
+			"c-plus-plus",
+			"imagemagick"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"roff"
+		]
+	},
+	"content": ""
+}

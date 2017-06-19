@@ -1,0 +1,23 @@
+{
+	"_id": "8340109",
+	"site": "https://github.com/j-keck/zfs-snap-diff",
+	"title": " View and diff files in ZFS snapshots",
+	"author": "j-keck",
+	"date": "2017-06-19T10:44:45.090Z",
+	"tags": {
+		"categories": [
+			"zfs-snapshots",
+			"restore",
+			"zfs"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"html",
+			"perl",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

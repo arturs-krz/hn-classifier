@@ -1,0 +1,32 @@
+{
+	"_id": "10641626",
+	"site": "https://github.com/niftylettuce/frisbee",
+	"title": " Frisbee – API Wrapper for ES6 Fetch for Node/Angular/React/React Native",
+	"author": "niftylettuce",
+	"date": "2017-06-19T10:12:54.921Z",
+	"tags": {
+		"categories": [
+			"api-wrapper",
+			"superagent",
+			"frisbee",
+			"fetch",
+			"fetch-api",
+			"whatwg",
+			"whatwg-fetch",
+			"xhr",
+			"request",
+			"file-upload",
+			"form-data",
+			"node-fetch",
+			"react-native",
+			"react",
+			"axios",
+			"ios",
+			"android"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

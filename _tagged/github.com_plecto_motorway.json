@@ -1,0 +1,24 @@
+{
+	"_id": "12454567",
+	"site": "https://github.com/plecto/motorway",
+	"title": " Real-time streaming data pipeline in python",
+	"author": "oellegaard",
+	"date": "2017-06-19T08:42:58.665Z",
+	"tags": {
+		"categories": [
+			"python",
+			"motorway",
+			"pipeline",
+			"streaming"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"css",
+			"html",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

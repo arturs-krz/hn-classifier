@@ -1,0 +1,17 @@
+{
+	"_id": "10627039",
+	"site": "https://github.com/mateogianolio/nblas",
+	"title": " NBLAS, Node C++ bindings to CBLAS",
+	"author": "megalodon",
+	"date": "2017-06-19T10:11:55.189Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"c",
+			"javascript",
+			"python"
+		]
+	},
+	"content": ""
+}

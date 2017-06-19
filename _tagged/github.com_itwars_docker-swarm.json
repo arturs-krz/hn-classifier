@@ -1,0 +1,26 @@
+{
+	"_id": "12693891",
+	"site": "https://github.com/itwars/docker-swarm",
+	"title": " Docker Swarm 1.12 example using VirtualBox to scale webstack",
+	"author": "nodejs-news",
+	"date": "2017-06-19T08:46:28.183Z",
+	"tags": {
+		"categories": [
+			"docker-swarm",
+			"docker-machine",
+			"virtualbox",
+			"azure",
+			"cluster",
+			"automation",
+			"ovh",
+			"openstack",
+			"blog-series"
+		],
+		"languages": [
+			"shell",
+			"perl",
+			"php"
+		]
+	},
+	"content": ""
+}

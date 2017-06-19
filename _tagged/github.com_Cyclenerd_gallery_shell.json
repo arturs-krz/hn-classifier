@@ -1,0 +1,32 @@
+{
+	"_id": "12886614",
+	"site": "https://github.com/Cyclenerd/gallery_shell",
+	"title": " Bash Script to generate static responsive image web galleries",
+	"author": "Cyclenerd",
+	"date": "2017-06-19T11:07:52.650Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"image-galleries",
+			"jpeg",
+			"exif-data-extraction",
+			"mov",
+			"mp4",
+			"gallery",
+			"galleries",
+			"bash-hacks",
+			"bash-script",
+			"simple",
+			"photo",
+			"thumbnails",
+			"html",
+			"shell",
+			"image-gallery",
+			"photos"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

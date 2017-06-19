@@ -1,0 +1,25 @@
+{
+	"_id": "6511357",
+	"site": "https://github.com/antoinelyset/poleica",
+	"title": " Poleica, Ruby conversion tool.",
+	"author": "antoinelyset",
+	"date": "2017-06-19T08:44:35.654Z",
+	"tags": {
+		"categories": [
+			"conversion",
+			"libreoffice",
+			"pdf",
+			"ruby",
+			"image",
+			"documents",
+			"jpeg",
+			"png",
+			"gif",
+			"preview"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13985016",
+	"site": "https://github.com/orgmanager/orgmanager",
+	"title": " Free invite system for your GitHub Orgs",
+	"author": "m1guelpf",
+	"date": "2017-06-19T08:46:32.135Z",
+	"tags": {
+		"categories": [
+			"php",
+			"laravel",
+			"github",
+			"github-api",
+			"organization",
+			"invites",
+			"orgmanager"
+		],
+		"languages": [
+			"php",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

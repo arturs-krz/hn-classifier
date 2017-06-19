@@ -1,0 +1,26 @@
+{
+	"_id": "12823815",
+	"site": "https://github.com/adhokku/adhokku",
+	"title": " Adhokku – a toy PaaS powered by FreeBSD jails and Ansible",
+	"author": "networked",
+	"date": "2017-06-19T10:15:18.851Z",
+	"tags": {
+		"categories": [
+			"paas",
+			"jails",
+			"freebsd",
+			"example",
+			"example-project",
+			"toy",
+			"containers",
+			"git",
+			"deployment",
+			"push-to-deploy",
+			"ansible"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

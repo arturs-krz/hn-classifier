@@ -1,0 +1,21 @@
+{
+	"_id": "10515777",
+	"site": "https://github.com/callmecavs/outset",
+	"title": " A project scaffolder for web devs",
+	"author": "jaxgeller",
+	"date": "2017-06-19T10:03:07.802Z",
+	"tags": {
+		"categories": [
+			"frontend",
+			"boilerplate",
+			"workflow",
+			"tooling"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

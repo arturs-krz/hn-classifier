@@ -1,0 +1,19 @@
+{
+	"_id": "13461835",
+	"site": "https://github.com/mvdan/git-picked",
+	"title": " 'git branch --merged' that works with rebased commits",
+	"author": "mvdan",
+	"date": "2017-06-19T10:55:24.726Z",
+	"tags": {
+		"categories": [
+			"git",
+			"branch",
+			"merge",
+			"rebase"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

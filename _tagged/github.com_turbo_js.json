@@ -1,0 +1,23 @@
+{
+	"_id": "12877171",
+	"site": "https://github.com/turbo/js",
+	"title": " An Easy Library for GPGPU in JavaScript (Mobile and Web)",
+	"author": "minxomat",
+	"date": "2017-06-19T10:40:19.995Z",
+	"tags": {
+		"categories": [
+			"glsl",
+			"gpu",
+			"vector",
+			"simd",
+			"calculations",
+			"shaders",
+			"gpgpu",
+			"parallel"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

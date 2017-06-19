@@ -1,0 +1,22 @@
+{
+	"_id": "11001463",
+	"site": "http://github.com/thewhitetulip/Tasks",
+	"title": " A simple todo list manager",
+	"author": "thewhitetulip",
+	"date": "2017-06-19T09:53:24.722Z",
+	"tags": {
+		"categories": [
+			"webapp",
+			"golang",
+			"todo",
+			"task-tracker"
+		],
+		"languages": [
+			"go",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

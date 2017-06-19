@@ -1,0 +1,25 @@
+{
+	"_id": "14070613",
+	"site": "https://github.com/dan-v/dosxvpn",
+	"title": " One click personal VPN server on DigitalOcean",
+	"author": "danvittegleo",
+	"date": "2017-06-19T10:28:59.254Z",
+	"tags": {
+		"categories": [
+			"vpn",
+			"digitalocean",
+			"osx",
+			"oneclick",
+			"personal",
+			"ipsec",
+			"strongswan"
+		],
+		"languages": [
+			"go",
+			"css",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

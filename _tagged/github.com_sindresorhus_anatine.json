@@ -1,0 +1,20 @@
+{
+	"_id": "11685115",
+	"site": "https://github.com/sindresorhus/anatine",
+	"title": " Anatine – Pristine Twitter desktop app",
+	"author": "mofle",
+	"date": "2017-06-19T10:32:29.667Z",
+	"tags": {
+		"categories": [
+			"deprecated",
+			"twitter",
+			"electron",
+			"electron-app"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

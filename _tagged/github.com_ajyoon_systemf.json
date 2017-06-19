@@ -1,0 +1,15 @@
+{
+	"_id": "13139181",
+	"site": "https://github.com/ajyoon/systemf",
+	"title": " A partial HTTP server written in brainfuck extended with syscalls",
+	"author": "ajyoon",
+	"date": "2017-06-19T10:34:43.274Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"assembly",
+			"makefile"
+		]
+	},
+	"content": ""
+}

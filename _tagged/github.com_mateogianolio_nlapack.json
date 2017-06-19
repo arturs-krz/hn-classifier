@@ -1,0 +1,17 @@
+{
+	"_id": "10908826",
+	"site": "https://github.com/mateogianolio/nlapack",
+	"title": " NLAPACK, C++ bindings to LAPACK for Node.js",
+	"author": "megalodon",
+	"date": "2017-06-19T09:57:14.741Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"javascript",
+			"c",
+			"python"
+		]
+	},
+	"content": ""
+}

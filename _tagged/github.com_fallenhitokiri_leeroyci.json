@@ -1,0 +1,23 @@
+{
+	"_id": "7869077",
+	"site": "https://github.com/fallenhitokiri/leeroyci",
+	"title": " Leeroy CI – self hosted CI written in Golang",
+	"author": "fallenhitokiri",
+	"date": "2017-06-19T09:51:55.487Z",
+	"tags": {
+		"categories": [
+			"go",
+			"ci",
+			"continuous-integration",
+			"continuous-deployment",
+			"build-automation"
+		],
+		"languages": [
+			"go",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

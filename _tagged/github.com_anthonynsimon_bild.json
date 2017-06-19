@@ -1,0 +1,25 @@
+{
+	"_id": "12411546",
+	"site": "https://github.com/anthonynsimon/bild",
+	"title": " Bild – Simple image processing in Go with parallel processing support",
+	"author": "amzans",
+	"date": "2017-06-19T08:43:50.754Z",
+	"tags": {
+		"categories": [
+			"algorithm",
+			"parallelism",
+			"histogram",
+			"image-processing",
+			"signal-processing",
+			"effects",
+			"image-editing",
+			"go",
+			"concurrency",
+			"resize"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

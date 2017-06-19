@@ -1,0 +1,15 @@
+{
+	"_id": "10116046",
+	"site": "https://github.com/lukasmartinelli/pgfutter",
+	"title": " Import CSV and JSON into PostgreSQL the Easy Way",
+	"author": "morgenkaffee",
+	"date": "2017-06-19T09:57:28.079Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

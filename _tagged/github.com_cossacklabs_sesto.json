@@ -1,0 +1,22 @@
+{
+	"_id": "11542648",
+	"site": "https://github.com/cossacklabs/sesto",
+	"title": " Sesto browser password manager",
+	"author": "giantahead",
+	"date": "2017-06-19T08:44:05.255Z",
+	"tags": {
+		"categories": [
+			"encrypted-store",
+			"cryptography",
+			"password-store",
+			"password-safety"
+		],
+		"languages": [
+			"html",
+			"c++",
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

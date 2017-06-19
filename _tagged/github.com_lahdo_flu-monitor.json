@@ -1,0 +1,21 @@
+{
+	"_id": "13580826",
+	"site": "https://github.com/lahdo/flu-monitor",
+	"title": " Flu Monitor- real time flu tracking tool with Twitter data",
+	"author": "lahdo",
+	"date": "2017-06-19T10:27:05.771Z",
+	"tags": {
+		"categories": [
+			"react",
+			"healthcare",
+			"heatmap",
+			"google-maps"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

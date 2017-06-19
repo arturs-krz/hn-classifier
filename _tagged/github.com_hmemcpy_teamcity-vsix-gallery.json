@@ -1,0 +1,17 @@
+{
+	"_id": "9484866",
+	"site": "https://github.com/hmemcpy/teamcity-vsix-gallery",
+	"title": " Plugin for TeamCity that turns it to a Visual Studio Extension gallery",
+	"author": "hmemcpy",
+	"date": "2017-06-19T10:11:56.044Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"kotlin",
+			"java",
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

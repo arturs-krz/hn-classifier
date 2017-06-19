@@ -1,0 +1,17 @@
+{
+	"_id": "10728410",
+	"site": "https://github.com/otium/ytdl",
+	"title": " ytdl – A YouTube Download Manager and CLI in Go",
+	"author": "otium",
+	"date": "2017-06-19T08:43:09.844Z",
+	"tags": {
+		"categories": [
+			"youtube",
+			"golang"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

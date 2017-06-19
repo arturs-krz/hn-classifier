@@ -1,0 +1,21 @@
+{
+	"_id": "12317319",
+	"site": "https://github.com/tesseract4java/tesseract4java",
+	"title": " Tesseract4java – A GUI for Training and Performing OCR with Tesseract",
+	"author": "pvorb",
+	"date": "2017-06-19T09:32:02.291Z",
+	"tags": {
+		"categories": [
+			"tesseract-ocr",
+			"java",
+			"swing",
+			"ocr",
+			"gui"
+		],
+		"languages": [
+			"java",
+			"shell"
+		]
+	},
+	"content": ""
+}

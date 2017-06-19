@@ -1,0 +1,25 @@
+{
+	"_id": "10641716",
+	"site": "https://github.com/skreutzberger/SwiftyBeaver",
+	"title": " SwiftyBeaver – a colored, fast, lightweight logger for Swift 2",
+	"author": "sebastiank123",
+	"date": "2017-06-19T10:41:39.814Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"logging",
+			"swiftybeaver-platform",
+			"swift-framework",
+			"vapor",
+			"server-side-swift",
+			"ios",
+			"apple-tv",
+			"macos"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

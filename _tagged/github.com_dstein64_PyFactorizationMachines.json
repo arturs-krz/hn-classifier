@@ -1,0 +1,18 @@
+{
+	"_id": "12783104",
+	"site": "https://github.com/dstein64/PyFactorizationMachines",
+	"title": " PyFactorizationMachines, Theano-based Factorization Machines",
+	"author": "dstein64",
+	"date": "2017-06-19T10:10:27.291Z",
+	"tags": {
+		"categories": [
+			"factorization-machines",
+			"theano",
+			"machine-learning"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

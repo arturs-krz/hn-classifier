@@ -1,0 +1,15 @@
+{
+	"_id": "5779513",
+	"site": "https://github.com/ryanfitz/vogels",
+	"title": " Vogels, a DynamoDB data mapper for node.js",
+	"author": "ryanfitz",
+	"date": "2017-06-19T09:43:58.457Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

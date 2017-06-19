@@ -1,0 +1,27 @@
+{
+	"_id": "12538040",
+	"site": "https://github.com/amitmerchant1990/electron-markdownify",
+	"title": " Next generation Markdown editor based on Electron",
+	"author": "amitmerchant",
+	"date": "2017-06-19T10:18:25.528Z",
+	"tags": {
+		"categories": [
+			"electron",
+			"markdown",
+			"desktop",
+			"nodejs",
+			"editor",
+			"emoji",
+			"livepreview",
+			"markdownify",
+			"jquery",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

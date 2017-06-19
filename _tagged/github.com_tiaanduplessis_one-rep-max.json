@@ -1,0 +1,19 @@
+{
+	"_id": "13449860",
+	"site": "https://github.com/tiaanduplessis/one-rep-max",
+	"title": " Node module for calculating 1 rep max",
+	"author": "tiaanduplessis",
+	"date": "2017-06-19T10:25:48.775Z",
+	"tags": {
+		"categories": [
+			"weight",
+			"cli",
+			"maximum",
+			"repetition"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

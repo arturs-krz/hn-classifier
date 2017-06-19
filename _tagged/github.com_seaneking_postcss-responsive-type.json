@@ -1,0 +1,19 @@
+{
+	"_id": "9950263",
+	"site": "https://github.com/seaneking/postcss-responsive-type",
+	"title": " Automagical responsive typography, built on PostCSS",
+	"author": "seaneking",
+	"date": "2017-06-19T10:38:26.734Z",
+	"tags": {
+		"categories": [
+			"postcss",
+			"font-size",
+			"responsive",
+			"postcss-plugin"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

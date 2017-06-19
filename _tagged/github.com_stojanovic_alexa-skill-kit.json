@@ -1,0 +1,21 @@
+{
+	"_id": "13680203",
+	"site": "https://github.com/stojanovic/alexa-skill-kit",
+	"title": " Alexa Skill Kit – lib for effortless skill development with AWS Lambda",
+	"author": "slobodan_",
+	"date": "2017-06-19T09:47:52.544Z",
+	"tags": {
+		"categories": [
+			"alexa",
+			"alexa-skill",
+			"alexa-skills-kit",
+			"amazon",
+			"amazon-echo",
+			"chatbot"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

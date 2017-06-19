@@ -1,0 +1,19 @@
+{
+	"_id": "12086234",
+	"site": "https://github.com/rahiel/telegram-send",
+	"title": " Send messages and files over Telegram from the command-line",
+	"author": "rahiel",
+	"date": "2017-06-19T08:43:04.479Z",
+	"tags": {
+		"categories": [
+			"telegram",
+			"command-line",
+			"python"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

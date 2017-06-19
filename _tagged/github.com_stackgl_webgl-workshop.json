@@ -1,0 +1,18 @@
+{
+	"_id": "8550305",
+	"site": "https://github.com/stackgl/webgl-workshop",
+	"title": " WebGL Workshop",
+	"author": "hughsk",
+	"date": "2017-06-19T10:52:17.030Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"glsl",
+			"makefile"
+		]
+	},
+	"content": ""
+}

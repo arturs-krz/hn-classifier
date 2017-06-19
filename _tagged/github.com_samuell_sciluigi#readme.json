@@ -1,0 +1,20 @@
+{
+	"_id": "10342462",
+	"site": "https://github.com/samuell/sciluigi#readme",
+	"title": " Scientific Luigi",
+	"author": "samuell",
+	"date": "2017-06-19T10:07:05.885Z",
+	"tags": {
+		"categories": [
+			"workflow-engine",
+			"luigi",
+			"workflow",
+			"scientific-workflows"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

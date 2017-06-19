@@ -1,0 +1,14 @@
+{
+	"_id": "10891574",
+	"site": "https://github.com/wb14123/web_benchmark",
+	"title": " A web service demo that uses async IO while possible",
+	"author": "wb14123",
+	"date": "2017-06-19T11:05:28.071Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

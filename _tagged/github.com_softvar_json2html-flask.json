@@ -1,0 +1,24 @@
+{
+	"_id": "7395847",
+	"site": "https://github.com/softvar/json2html-flask",
+	"title": " JSON 2 HTML Converter using Python-Flask",
+	"author": "softvar",
+	"date": "2017-06-19T09:49:47.042Z",
+	"tags": {
+		"categories": [
+			"json2html",
+			"html-representation",
+			"flask-application",
+			"json",
+			"html-table",
+			"table"
+		],
+		"languages": [
+			"css",
+			"html",
+			"python",
+			"javascript"
+		]
+	},
+	"content": ""
+}

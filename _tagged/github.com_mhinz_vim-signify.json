@@ -1,0 +1,33 @@
+{
+	"_id": "11022957",
+	"site": "https://github.com/mhinz/vim-signify",
+	"title": " Vim-signify – Show signs in Vim using the underlying VCS",
+	"author": "mhi",
+	"date": "2017-06-19T10:32:11.572Z",
+	"tags": {
+		"categories": [
+			"vim",
+			"neovim",
+			"signs",
+			"vcs",
+			"git",
+			"mercurial",
+			"subversion",
+			"cvs",
+			"bazaar",
+			"darcs",
+			"rcs",
+			"accurev",
+			"tfs",
+			"perforce",
+			"fossil-scm",
+			"async",
+			"vim-plugin"
+		],
+		"languages": [
+			"vim script",
+			"shell"
+		]
+	},
+	"content": ""
+}

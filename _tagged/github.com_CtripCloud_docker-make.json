@@ -1,0 +1,18 @@
+{
+	"_id": "11978330",
+	"site": "https://github.com/CtripCloud/docker-make",
+	"title": " Docker-make build,tag,and push related docker images with one command",
+	"author": "jizhilong",
+	"date": "2017-06-19T09:57:01.737Z",
+	"tags": {
+		"categories": [
+			"docker-image",
+			"dockerfile",
+			"multitple-docker-images"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

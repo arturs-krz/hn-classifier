@@ -1,0 +1,20 @@
+{
+	"_id": "11013801",
+	"site": "https://github.com/veeti/manuale",
+	"title": " Fully manual Let's Encrypt client with DNS verification",
+	"author": "veeti",
+	"date": "2017-06-19T10:29:32.377Z",
+	"tags": {
+		"categories": [
+			"acme",
+			"letsencrypt",
+			"ssl",
+			"tls",
+			"security"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

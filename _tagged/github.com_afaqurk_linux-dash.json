@@ -1,0 +1,28 @@
+{
+	"_id": "7125153",
+	"site": "https://github.com/afaqurk/linux-dash",
+	"title": " Linux server monitoring web dashboard",
+	"author": "afaqurk",
+	"date": "2017-06-19T08:42:59.502Z",
+	"tags": {
+		"categories": [
+			"linux",
+			"dashboard",
+			"monitoring",
+			"server",
+			"web",
+			"ui",
+			"linux-dash"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"css",
+			"html",
+			"python",
+			"go",
+			"php"
+		]
+	},
+	"content": ""
+}

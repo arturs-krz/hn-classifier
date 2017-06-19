@@ -1,0 +1,19 @@
+{
+	"_id": "13113605",
+	"site": "https://github.com/DFilipeS/docker-php-dev",
+	"title": " Using Docker for containing a PHP development environment",
+	"author": "DFilipeS",
+	"date": "2017-06-19T10:35:26.468Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"php",
+			"nginx",
+			"mysql"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

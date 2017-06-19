@@ -1,0 +1,15 @@
+{
+	"_id": "8212462",
+	"site": "https://github.com/sebcat/http-mwu",
+	"title": " Finding blind SQL injections using the Mann-Whitney U test",
+	"author": "sebcat",
+	"date": "2017-06-19T11:07:12.605Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

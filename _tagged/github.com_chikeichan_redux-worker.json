@@ -1,0 +1,15 @@
+{
+	"_id": "11441484",
+	"site": "https://github.com/chikeichan/redux-worker",
+	"title": " Redux middleware to put your reducer in a web worker",
+	"author": "chikeichan",
+	"date": "2017-06-19T11:00:45.074Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

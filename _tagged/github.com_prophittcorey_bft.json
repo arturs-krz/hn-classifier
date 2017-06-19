@@ -1,0 +1,20 @@
+{
+	"_id": "10142399",
+	"site": "https://github.com/prophittcorey/bft",
+	"title": " A Brainfuck to C transcompiler in Ruby",
+	"author": "cpro",
+	"date": "2017-06-19T08:44:23.790Z",
+	"tags": {
+		"categories": [
+			"brainfuck",
+			"transpiler",
+			"c",
+			"ruby"
+		],
+		"languages": [
+			"ruby",
+			"makefile"
+		]
+	},
+	"content": ""
+}

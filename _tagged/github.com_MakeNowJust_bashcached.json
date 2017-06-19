@@ -1,0 +1,21 @@
+{
+	"_id": "12814578",
+	"site": "https://github.com/MakeNowJust/bashcached",
+	"title": " Bashcached – memcached built on bash and ncat",
+	"author": "make_now_just",
+	"date": "2017-06-19T08:44:44.589Z",
+	"tags": {
+		"categories": [
+			"socat",
+			"memcached",
+			"bash",
+			"bash-script",
+			"bash-hacks",
+			"shell-script"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

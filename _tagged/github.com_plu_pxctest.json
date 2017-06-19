@@ -1,0 +1,21 @@
+{
+	"_id": "13049458",
+	"site": "https://github.com/plu/pxctest",
+	"title": " Execute tests in parallel on multiple iOS Simulators",
+	"author": "jplunien",
+	"date": "2017-06-19T08:42:52.982Z",
+	"tags": {
+		"categories": [
+			"ios",
+			"simulator",
+			"parallel",
+			"xctest"
+		],
+		"languages": [
+			"swift",
+			"objective-c",
+			"shell"
+		]
+	},
+	"content": ""
+}

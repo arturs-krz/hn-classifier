@@ -1,0 +1,9 @@
+{
+	"_id": "14418472",
+	"site": "http://scrollanim.kissui.io/",
+	"title": " Scrollanim – CSS3 and JavaScript scroll animation",
+	"author": "afshinmeh",
+	"date": "2017-06-16T07:57:53.483Z",
+	"tags": [],
+	"content": "scrollanimscrollanim is css3 javascript library create stunning scroll animations work everywhere.'s open-source (mit), free easy use oh, it's 9kb. star fork to a demo? ok, keep scrolling.easy usescrollanim has many builtin css3 animations use. you need do is add data-kui-anim attribute your elements. <div data-kui-anim=\"fadein\"> show with fadein animation.</div> cool, isn't ?advanced mode, this is possible add animations using javascript api. kissuiscrollanim.add(element, { '': 'fadein', '': 'fadeout'}); scrolanim supports available positions an element the page. , you use compound event name (e.g. center middle)css3 animationsscrolanim has many css3 animations use. javascript animations, better performance.works desktop portable devices perfectly.infinite animation, animations names accept optional parameter infinite repeat animation forever.perfect event controlscrollanim controls elements an extra care. can attach events almost possible positions an element the page. instance, element appears a fadein animation also gets pulse animations it's the middle the page. did enjoy?'s great, are glad liked . the next step is use cdn networks download project. meanwhile, can a at documentation page.star fork"
+}

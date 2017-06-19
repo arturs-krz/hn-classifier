@@ -1,0 +1,25 @@
+{
+	"_id": "7726617",
+	"site": "https://github.com/igorkulman/rpi-thermometer",
+	"title": " Web UI for a Raspberry Pi thermometer",
+	"author": "ig0r0",
+	"date": "2017-06-19T08:44:03.525Z",
+	"tags": {
+		"categories": [
+			"raspberry-pi",
+			"thermometer",
+			"temperature",
+			"raspberry-pi-thermometer",
+			"webui",
+			"javascript",
+			"sensor"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

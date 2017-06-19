@@ -1,0 +1,22 @@
+{
+	"_id": "10569939",
+	"site": "https://github.com/rfjakob/gocryptfs",
+	"title": " GoCryptFS – an encrypted FUSE filesystem written in Go",
+	"author": "rfjakob",
+	"date": "2017-06-19T11:04:07.716Z",
+	"tags": {
+		"categories": [
+			"gcm",
+			"encryption",
+			"fuse",
+			"filesystem",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"matlab"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "6427498",
+	"site": "https://github.com/chameco/Solid",
+	"title": " Solid, a scripting language with a tiny VM",
+	"author": "chameco",
+	"date": "2017-06-19T10:12:42.534Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"yacc",
+			"makefile",
+			"emacs lisp",
+			"lex"
+		]
+	},
+	"content": ""
+}

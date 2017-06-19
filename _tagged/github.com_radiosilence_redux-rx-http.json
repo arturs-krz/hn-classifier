@@ -1,0 +1,16 @@
+{
+	"_id": "14538110",
+	"site": "https://github.com/radiosilence/redux-rx-http",
+	"title": " Redux-rx-http, a pragmatic HTTP layer for redux using redux-observable",
+	"author": "antihero",
+	"date": "2017-06-16T07:56:06.087Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

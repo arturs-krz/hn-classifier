@@ -1,0 +1,9 @@
+{
+	"_id": "14488394",
+	"site": "http://cusp.keplr.io/",
+	"title": " Automated neural net architecture discovery",
+	"author": "cusprun",
+	"date": "2017-06-16T07:56:41.703Z",
+	"tags": [],
+	"content": "the workflow features try cusp build better neural nets. faster. request access cusp helps identify right deep learning model your dataset dataset parameter space model fast powerful model selection workflow the cloud launch experiment your command line, a config file any keras model launch dedicated cluster train score models your parameter space watch models train how different configurations parameter space perform your dataset realtime download models like get full report the end your experiment. cusp helps optimize existing models my_model.py cusp generate model.py cusp generates hyperparameter space around model cusp run my_model arrive a better model this space built data scientists developers, ourselves. optimize anything a neural network automatically explore model architectures, layer parameters training parameters. fast, configurable, auto-scaling hardware pay as much memory/storage/gpu you need. monitor hardware metrics realtime. intelligent, transparent hyperparameter optimization track control progress the optimization process, stop test any . deep learning visualizations insights intuition what makes models . supercharge deep learning workflow request access"
+}

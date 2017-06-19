@@ -1,0 +1,20 @@
+{
+	"_id": "13299562",
+	"site": "https://github.com/ichiban/jesi",
+	"title": " Jesi – Hypermedia API Accelerator",
+	"author": "yichiban",
+	"date": "2017-06-19T10:15:30.227Z",
+	"tags": {
+		"categories": [
+			"reverse-proxy",
+			"json",
+			"hal",
+			"cache",
+			"web-api"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

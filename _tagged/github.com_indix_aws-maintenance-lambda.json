@@ -1,0 +1,25 @@
+{
+	"_id": "13211784",
+	"site": "http://github.com/indix/aws-maintenance-lambda",
+	"title": " A lambda function to send alerts on AWS maintenance events",
+	"author": "manojlds",
+	"date": "2017-06-19T10:19:26.792Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"bot",
+			"hipchat",
+			"lambda",
+			"aws-lambda",
+			"aws",
+			"terraform-plans",
+			"terraform"
+		],
+		"languages": [
+			"javascript",
+			"hcl",
+			"shell"
+		]
+	},
+	"content": ""
+}

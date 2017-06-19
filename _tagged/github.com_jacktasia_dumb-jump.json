@@ -1,0 +1,27 @@
+{
+	"_id": "11347900",
+	"site": "https://github.com/jacktasia/dumb-jump",
+	"title": " Dumb Jump – a jump to definition package for Emacs",
+	"author": "jacktasia",
+	"date": "2017-06-19T10:30:45.267Z",
+	"tags": {
+		"categories": [
+			"emacs",
+			"melpa",
+			"ripgrep",
+			"ag",
+			"silver-searcher",
+			"spacemacs",
+			"emacs-lisp",
+			"emacs-modules",
+			"developer-tools"
+		],
+		"languages": [
+			"emacs lisp",
+			"c++",
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

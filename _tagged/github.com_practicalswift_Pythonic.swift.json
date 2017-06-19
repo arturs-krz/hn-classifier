@@ -1,0 +1,15 @@
+{
+	"_id": "8001245",
+	"site": "https://github.com/practicalswift/Pythonic.swift",
+	"title": " A Swift implementation of selected parts of Python standard library",
+	"author": "practicalswift",
+	"date": "2017-06-19T10:21:06.331Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"swift",
+			"makefile"
+		]
+	},
+	"content": ""
+}

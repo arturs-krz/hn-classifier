@@ -1,0 +1,18 @@
+{
+	"_id": "10371076",
+	"site": "https://github.com/tacone/pipes",
+	"title": " Pipes –  thin wrapper around PHP SPL iterators and generators",
+	"author": "tacone",
+	"date": "2017-06-19T10:47:35.422Z",
+	"tags": {
+		"categories": [
+			"pipe",
+			"php",
+			"php-spl-iterators"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

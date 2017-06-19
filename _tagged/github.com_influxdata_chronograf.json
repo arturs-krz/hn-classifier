@@ -1,0 +1,33 @@
+{
+	"_id": "13113560",
+	"site": "https://github.com/influxdata/chronograf",
+	"title": " Chronograf from Influxdb is Opensource now",
+	"author": "SkyRocknRoll",
+	"date": "2017-06-19T08:42:55.694Z",
+	"tags": {
+		"categories": [
+			"telegraf",
+			"visualization",
+			"chronograf",
+			"dashboard",
+			"influxdb",
+			"kapacitor",
+			"alert",
+			"monitoring",
+			"apm",
+			"go",
+			"react",
+			"redux"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"css",
+			"python",
+			"shell",
+			"protocol buffer",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "12389555",
+	"site": "https://github.com/mohaps/lrucache11",
+	"title": " A header only C++11 LRU Cache template class, with no dependencies",
+	"author": "mohaps",
+	"date": "2017-06-19T10:11:39.662Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": ""
+}

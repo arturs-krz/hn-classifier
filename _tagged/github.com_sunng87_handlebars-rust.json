@@ -1,0 +1,19 @@
+{
+	"_id": "8838699",
+	"site": "https://github.com/sunng87/handlebars-rust",
+	"title": " Handlebars for Rust",
+	"author": "sunng",
+	"date": "2017-06-19T09:39:02.266Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"handlebars-js",
+			"template-engine",
+			"handlebars"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

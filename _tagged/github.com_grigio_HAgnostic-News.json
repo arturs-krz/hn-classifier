@@ -1,0 +1,24 @@
+{
+	"_id": "12379070",
+	"site": "https://github.com/grigio/HAgnostic-News",
+	"title": " HAgnostic News – HN Reader for the Web and React Native App (Android/iOS)",
+	"author": "grigio",
+	"date": "2017-06-19T10:23:00.525Z",
+	"tags": {
+		"categories": [
+			"hacker-news-reader",
+			"android",
+			"ios",
+			"react-native",
+			"react"
+		],
+		"languages": [
+			"javascript",
+			"objective-c",
+			"python",
+			"java",
+			"html"
+		]
+	},
+	"content": ""
+}

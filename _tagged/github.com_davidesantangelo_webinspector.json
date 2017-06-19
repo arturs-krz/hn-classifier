@@ -1,0 +1,21 @@
+{
+	"_id": "9644518",
+	"site": "https://github.com/davidesantangelo/webinspector",
+	"title": " Ruby gem to scrape a web page",
+	"author": "daviducolo",
+	"date": "2017-06-19T11:08:41.066Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"inspector",
+			"web-inspector",
+			"scraper",
+			"rubygem"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

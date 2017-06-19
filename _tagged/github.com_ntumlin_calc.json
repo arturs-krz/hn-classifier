@@ -1,0 +1,15 @@
+{
+	"_id": "12091724",
+	"site": "https://github.com/ntumlin/calc",
+	"title": " Calc – a simple cli calculator/recursive descent parser",
+	"author": "ntumlin",
+	"date": "2017-06-19T10:21:35.530Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

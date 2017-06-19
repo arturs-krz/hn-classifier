@@ -1,0 +1,26 @@
+{
+	"_id": "10730259",
+	"site": "https://github.com/posquit0/awesome-cv",
+	"title": " Awesome CV – LaTeX Template of CV / Cover Letter",
+	"author": "posquit0",
+	"date": "2017-06-19T08:37:01.962Z",
+	"tags": {
+		"categories": [
+			"tex",
+			"overleaf",
+			"sharelatex",
+			"pdf",
+			"resume",
+			"cv",
+			"coverletter",
+			"latex",
+			"latex-template",
+			"awesome"
+		],
+		"languages": [
+			"tex",
+			"makefile"
+		]
+	},
+	"content": ""
+}

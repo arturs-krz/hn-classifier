@@ -1,0 +1,16 @@
+{
+	"_id": "10965998",
+	"site": "https://github.com/MauriceGit/Screen_Space_Ambient_Occlusion",
+	"title": " Screen-Space Ambient Occlusion from Scratch – 3D Shading on 2D Screen",
+	"author": "EllipticCurve",
+	"date": "2017-06-19T10:39:59.881Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"glsl",
+			"makefile"
+		]
+	},
+	"content": ""
+}

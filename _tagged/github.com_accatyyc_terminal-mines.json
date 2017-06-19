@@ -1,0 +1,20 @@
+{
+	"_id": "11241025",
+	"site": "https://github.com/accatyyc/terminal-mines",
+	"title": " Terminal Mines",
+	"author": "accatyyc",
+	"date": "2017-06-19T08:46:16.470Z",
+	"tags": {
+		"categories": [
+			"minesweeper-game",
+			"roguelike",
+			"terminal",
+			"minesweeper"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "10971691",
+	"site": "https://github.com/remind101/assume-role",
+	"title": " Easily assume AWS roles from the terminal",
+	"author": "ejholmes",
+	"date": "2017-06-19T10:27:12.742Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

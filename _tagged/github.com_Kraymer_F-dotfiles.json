@@ -1,0 +1,19 @@
+{
+	"_id": "11695847",
+	"site": "https://github.com/Kraymer/F-dotfiles",
+	"title": " F-dotfiles, GNU stow with healthy organization guidelines",
+	"author": "kraymer",
+	"date": "2017-06-19T09:58:13.036Z",
+	"tags": {
+		"categories": [
+			"dotfiles",
+			"zsh"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"ruby"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "6059039",
+	"site": "https://github.com/Clever/mongo-graph",
+	"title": " MongoDB + GraphViz = mongo-graph",
+	"author": "rgarcia",
+	"date": "2017-06-19T10:18:58.363Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

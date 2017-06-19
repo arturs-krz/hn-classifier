@@ -1,0 +1,19 @@
+{
+	"_id": "11303635",
+	"site": "https://github.com/timbofield/graphql-wp",
+	"title": " WordPress Plugin that exposes a GraphQL endpoint",
+	"author": "timbofield",
+	"date": "2017-06-19T08:46:45.773Z",
+	"tags": {
+		"categories": [
+			"wordpress",
+			"graphql",
+			"react",
+			"react-relay"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

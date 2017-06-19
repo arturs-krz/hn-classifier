@@ -1,0 +1,18 @@
+{
+	"_id": "12430262",
+	"site": "https://github.com/alanfranz/apt-current",
+	"title": " apt-current - Perform 'apt-get update' automatically when needed",
+	"author": "alanfranzoni",
+	"date": "2017-06-19T10:02:44.794Z",
+	"tags": {
+		"categories": [
+			"apt-get",
+			"apt"
+		],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

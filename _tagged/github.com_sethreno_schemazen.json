@@ -1,0 +1,20 @@
+{
+	"_id": "10948544",
+	"site": "https://github.com/sethreno/schemazen",
+	"title": " Schema Zen – Script and Create SQL Server Objects Quickly",
+	"author": "sethreno",
+	"date": "2017-06-19T08:42:49.093Z",
+	"tags": {
+		"categories": [
+			"database",
+			"c-sharp",
+			"mssql",
+			"version-control",
+			"schema"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "13442788",
+	"site": "https://github.com/brthanmathwoag/jancy",
+	"title": " Authoring Ansible playbooks in Java",
+	"author": "brthan",
+	"date": "2017-06-19T11:10:40.624Z",
+	"tags": {
+		"categories": [
+			"ansible",
+			"playbook",
+			"java",
+			"configuration-management",
+			"automation",
+			"jvm",
+			"dsl"
+		],
+		"languages": [
+			"scala",
+			"java",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

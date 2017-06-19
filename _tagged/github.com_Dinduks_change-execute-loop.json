@@ -1,0 +1,14 @@
+{
+	"_id": "6160634",
+	"site": "https://github.com/Dinduks/change-execute-loop",
+	"title": " Execute a shell command each time a given file or directory changes",
+	"author": "dinduks",
+	"date": "2017-06-19T10:52:39.007Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "10174433",
+	"site": "https://github.com/FiloSottile/gvt",
+	"title": " A Go vendoring tool for the GO15VENDOREXPERIMENT",
+	"author": "FiloSottile",
+	"date": "2017-06-19T10:59:15.230Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

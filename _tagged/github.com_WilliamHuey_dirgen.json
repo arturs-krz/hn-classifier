@@ -1,0 +1,26 @@
+{
+	"_id": "13346713",
+	"site": "https://github.com/WilliamHuey/dirgen",
+	"title": " Dirgen",
+	"author": "wklhuey",
+	"date": "2017-06-19T10:19:29.653Z",
+	"tags": {
+		"categories": [
+			"indentation",
+			"template",
+			"directory",
+			"structure",
+			"console",
+			"cli",
+			"javascript",
+			"files",
+			"folders",
+			"nodejs",
+			"whitespace-character"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

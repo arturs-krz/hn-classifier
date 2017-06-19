@@ -1,0 +1,23 @@
+{
+	"_id": "11800668",
+	"site": "https://github.com/jch254/audio-insights",
+	"title": " Audio insights derived from your Spotify library using React and Redux",
+	"author": "603",
+	"date": "2017-06-19T10:00:42.795Z",
+	"tags": {
+		"categories": [
+			"react",
+			"spotify-api",
+			"redux-saga",
+			"redux",
+			"immutablejs",
+			"music"
+		],
+		"languages": [
+			"javascript",
+			"hcl",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "14083870",
+	"site": "https://github.com/schollz/closestmatch",
+	"title": " A Go library for approximate string matching using character n-grams",
+	"author": "qrv3w",
+	"date": "2017-06-19T09:47:35.624Z",
+	"tags": {
+		"categories": [
+			"levenshtein",
+			"fuzzy-matching",
+			"string-matching",
+			"golang-library"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

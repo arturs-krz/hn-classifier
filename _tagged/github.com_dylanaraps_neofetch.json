@@ -1,0 +1,24 @@
+{
+	"_id": "12852147",
+	"site": "https://github.com/dylanaraps/neofetch",
+	"title": " Neofetch - A fast, highly customizable system info script",
+	"author": "dylanaraps",
+	"date": "2017-06-19T10:28:57.971Z",
+	"tags": {
+		"categories": [
+			"commandline",
+			"command-line",
+			"bash",
+			"script",
+			"neofetch",
+			"distro",
+			"screenshot"
+		],
+		"languages": [
+			"shell",
+			"roff",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "9793857",
+	"site": "https://github.com/veddox/quotes",
+	"title": " A Unix utility for managing your personal quote collection",
+	"author": "veddox",
+	"date": "2017-06-19T10:28:12.077Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"common lisp"
+		]
+	},
+	"content": ""
+}

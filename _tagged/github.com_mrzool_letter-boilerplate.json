@@ -1,0 +1,23 @@
+{
+	"_id": "10560289",
+	"site": "https://github.com/mrzool/letter-boilerplate",
+	"title": " Letter Boilerplate – Typeset your letters painlessly through LaTeX",
+	"author": "mrzool",
+	"date": "2017-06-19T10:47:03.534Z",
+	"tags": {
+		"categories": [
+			"latex",
+			"padoc",
+			"yaml",
+			"markdown",
+			"pdf",
+			"typesetting",
+			"makefile"
+		],
+		"languages": [
+			"tex",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "12788616",
+	"site": "https://github.com/cgag/loc",
+	"title": " A fast lines-of-code counter written in Rust",
+	"author": "cgag",
+	"date": "2017-06-19T09:35:27.400Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"rust",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "8247229",
+	"site": "https://github.com/rafaelcaricio/gradient-inspector",
+	"title": " Chrome DevTools Extension Inspect into CSS Gradients",
+	"author": "rjcaricio",
+	"date": "2017-06-19T10:03:49.832Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"javascript",
+			"gradients",
+			"css"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

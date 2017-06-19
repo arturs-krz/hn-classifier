@@ -1,0 +1,16 @@
+{
+	"_id": "13433842",
+	"site": "https://github.com/ludios/tig-open-links-in-commit-message",
+	"title": " Open GitHub issues mentioned in commits directly from tig",
+	"author": "ivank",
+	"date": "2017-06-19T08:43:06.055Z",
+	"tags": {
+		"categories": [
+			"tig"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

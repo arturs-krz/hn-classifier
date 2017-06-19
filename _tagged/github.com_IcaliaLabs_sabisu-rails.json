@@ -1,0 +1,25 @@
+{
+	"_id": "7746655",
+	"site": "https://github.com/IcaliaLabs/sabisu-rails",
+	"title": " A POSTMAN solution for your Rails API",
+	"author": "kurenn88",
+	"date": "2017-06-19T10:37:18.112Z",
+	"tags": {
+		"categories": [
+			"engine",
+			"rails",
+			"ruby",
+			"api",
+			"explorer",
+			"json"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

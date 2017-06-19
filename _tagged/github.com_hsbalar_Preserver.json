@@ -1,0 +1,24 @@
+{
+	"_id": "13528484",
+	"site": "https://github.com/hsbalar/Preserver",
+	"title": " Preserver is an notes organiser built on angular2, pouchDB",
+	"author": "hsbalar",
+	"date": "2017-06-19T10:54:06.927Z",
+	"tags": {
+		"categories": [
+			"preserver",
+			"electron",
+			"angular-2",
+			"pouchdb",
+			"typescript",
+			"webpack"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

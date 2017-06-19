@@ -1,0 +1,19 @@
+{
+	"_id": "12202321",
+	"site": "https://github.com/rrdelaney/horizon-devtools",
+	"title": " Horizon DevTools - A better dev experience for HorizonJS apps",
+	"author": "rrdelaney",
+	"date": "2017-06-19T09:53:57.770Z",
+	"tags": {
+		"categories": [
+			"horizon",
+			"devtools",
+			"horizon-devtools"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

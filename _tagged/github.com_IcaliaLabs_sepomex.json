@@ -1,0 +1,24 @@
+{
+	"_id": "13259414",
+	"site": "https://github.com/IcaliaLabs/sepomex",
+	"title": " Mexico Zip Codes REST API",
+	"author": "kurenn88",
+	"date": "2017-06-19T08:45:45.879Z",
+	"tags": {
+		"categories": [
+			"sepomex",
+			"ruby",
+			"zip-code",
+			"mexico",
+			"api",
+			"json",
+			"rest-api",
+			"grape"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

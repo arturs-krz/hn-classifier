@@ -1,0 +1,15 @@
+{
+	"_id": "9244110",
+	"site": "https://github.com/frutiger/credutils",
+	"title": " Command-Line Tools to Manipulate the Windows Credential Manager",
+	"author": "frutiger",
+	"date": "2017-06-19T10:06:39.218Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

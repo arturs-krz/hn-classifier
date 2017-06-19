@@ -1,0 +1,22 @@
+{
+	"_id": "13309838",
+	"site": "https://github.com/ryanmcdermott/clean-code-javascript",
+	"title": " Clean Code JavaScript",
+	"author": "ryansworks",
+	"date": "2017-06-19T09:32:27.886Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"principles",
+			"composition",
+			"inheritance",
+			"clean-code",
+			"clean-architecture",
+			"best-practices"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

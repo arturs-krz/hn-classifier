@@ -1,0 +1,22 @@
+{
+	"_id": "13382520",
+	"site": "https://github.com/CompileInc/hodor",
+	"title": " Configuration driven web scraper in python",
+	"author": "cyriacthomas",
+	"date": "2017-06-19T08:44:00.934Z",
+	"tags": {
+		"categories": [
+			"hodor",
+			"python",
+			"scraping",
+			"pagination",
+			"lxml",
+			"cssselect"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

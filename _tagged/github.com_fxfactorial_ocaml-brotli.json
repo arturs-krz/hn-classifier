@@ -1,0 +1,17 @@
+{
+	"_id": "10283377",
+	"site": "https://github.com/fxfactorial/ocaml-brotli",
+	"title": " OCaml Bindings to Brotli and Command Line Tool",
+	"author": "e_d_g_a_r",
+	"date": "2017-06-19T10:29:10.199Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ocaml",
+			"c++",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

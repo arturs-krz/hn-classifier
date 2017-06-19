@@ -1,0 +1,22 @@
+{
+	"_id": "10492082",
+	"site": "https://github.com/mrzool/invoice-boilerplate",
+	"title": " Invoice Boilerplate – Simple automated LaTeX invoicing system",
+	"author": "mrzool",
+	"date": "2017-06-19T10:19:15.845Z",
+	"tags": {
+		"categories": [
+			"latex",
+			"pandoc",
+			"makefile",
+			"yaml",
+			"typesetting",
+			"pdf"
+		],
+		"languages": [
+			"tex",
+			"makefile"
+		]
+	},
+	"content": ""
+}

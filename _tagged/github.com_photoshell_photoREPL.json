@@ -1,0 +1,15 @@
+{
+	"_id": "10872766",
+	"site": "https://github.com/photoshell/photoREPL",
+	"title": " PhotoREPL: Live-preview raw photo editing CLI",
+	"author": "SamWhited",
+	"date": "2017-06-19T10:21:12.902Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

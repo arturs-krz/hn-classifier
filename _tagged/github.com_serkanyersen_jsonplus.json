@@ -1,0 +1,25 @@
+{
+	"_id": "10029083",
+	"site": "https://github.com/serkanyersen/jsonplus",
+	"title": " JSONPlus: a json parser with self reference and templating",
+	"author": "serkanyersen",
+	"date": "2017-06-19T10:59:09.626Z",
+	"tags": {
+		"categories": [
+			"json",
+			"plugin",
+			"comment",
+			"self-referential-association",
+			"reference-resolver",
+			"json-parser",
+			"json-files",
+			"helper",
+			"utilities",
+			"npm"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

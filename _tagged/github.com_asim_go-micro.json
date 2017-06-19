@@ -1,0 +1,23 @@
+{
+	"_id": "8895794",
+	"site": "https://github.com/asim/go-micro",
+	"title": " Go-micro – a microservices client/server library",
+	"author": "chuhnk",
+	"date": "2017-06-19T10:58:33.696Z",
+	"tags": {
+		"categories": [
+			"go",
+			"micro",
+			"rpc",
+			"distributed-systems",
+			"microservices",
+			"go-micro",
+			"microservice"
+		],
+		"languages": [
+			"go",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

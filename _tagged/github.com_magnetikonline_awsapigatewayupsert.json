@@ -1,0 +1,20 @@
+{
+	"_id": "12927976",
+	"site": "https://github.com/magnetikonline/awsapigatewayupsert",
+	"title": " Upsert AWS API Gateway Swagger Definitions with Lambda Support",
+	"author": "magnetikonline",
+	"date": "2017-06-19T10:50:56.926Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"api-gateway",
+			"lambda",
+			"lambda-proxy",
+			"swagger"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

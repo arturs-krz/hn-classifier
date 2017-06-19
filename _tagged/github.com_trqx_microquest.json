@@ -1,0 +1,21 @@
+{
+	"_id": "14044329",
+	"site": "https://github.com/trqx/microquest",
+	"title": " Microquest – CLI to gamify anything",
+	"author": "trqx",
+	"date": "2017-06-19T10:47:57.959Z",
+	"tags": {
+		"categories": [
+			"gamify",
+			"liferpg",
+			"habitica",
+			"cli",
+			"python"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

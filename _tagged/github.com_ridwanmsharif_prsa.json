@@ -1,0 +1,22 @@
+{
+	"_id": "13296297",
+	"site": "https://github.com/ridwanmsharif/prsa",
+	"title": " RSA Public Key Encryption in Python",
+	"author": "ridwanmsharif",
+	"date": "2017-06-19T09:33:42.653Z",
+	"tags": {
+		"categories": [
+			"rsa",
+			"cryptosystem",
+			"rsa-scheme",
+			"decryption-key",
+			"encryption-key",
+			"public-key-cryptography"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

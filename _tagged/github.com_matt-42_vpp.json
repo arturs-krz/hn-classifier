@@ -1,0 +1,23 @@
+{
+	"_id": "8606867",
+	"site": "https://github.com/matt-42/vpp",
+	"title": " Video++, a Real Time Video Processing Framework Using OpenMP4 and C++14",
+	"author": "matt42",
+	"date": "2017-06-19T10:01:45.471Z",
+	"tags": {
+		"categories": [
+			"image-processing",
+			"image-processing-library",
+			"video-processing",
+			"c-plus-plus",
+			"optical-flow",
+			"tracking"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"other"
+		]
+	},
+	"content": ""
+}

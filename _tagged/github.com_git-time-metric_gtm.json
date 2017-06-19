@@ -1,0 +1,21 @@
+{
+	"_id": "12159856",
+	"site": "https://github.com/git-time-metric/gtm",
+	"title": " Automatically track time spent on Git commits",
+	"author": "darklighter3",
+	"date": "2017-06-19T08:44:16.098Z",
+	"tags": {
+		"categories": [
+			"git",
+			"gtm",
+			"metrics",
+			"time-tracker"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

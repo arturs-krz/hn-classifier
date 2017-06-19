@@ -1,0 +1,28 @@
+{
+	"_id": "13652322",
+	"site": "https://github.com/src-d/kmcuda",
+	"title": " High Performance and Large Scale K-means and K-nn on Nvidia  GPU/CUDA",
+	"author": "mcuadros",
+	"date": "2017-06-19T08:44:09.612Z",
+	"tags": {
+		"categories": [
+			"cuda",
+			"kmeans",
+			"yinyang",
+			"knn-search",
+			"machine-learning",
+			"python",
+			"afk-mc2"
+		],
+		"languages": [
+			"jupyter notebook",
+			"c++",
+			"cuda",
+			"python",
+			"cmake",
+			"r",
+			"shell"
+		]
+	},
+	"content": ""
+}

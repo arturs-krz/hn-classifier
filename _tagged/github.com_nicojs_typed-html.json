@@ -1,0 +1,19 @@
+{
+	"_id": "14237049",
+	"site": "https://github.com/nicojs/typed-html",
+	"title": " TypeSafe HTML templates in TypeScript. Why learn a template language?",
+	"author": "nicojs",
+	"date": "2017-06-19T08:42:27.935Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"html",
+			"template-engine"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

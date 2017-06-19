@@ -1,0 +1,25 @@
+{
+	"_id": "13924495",
+	"site": "https://github.com/werediver/StyleSheet",
+	"title": " StyleSheet v3.0 Reusable and composable UI styles for iOS",
+	"author": "werediver",
+	"date": "2017-06-19T10:16:53.288Z",
+	"tags": {
+		"categories": [
+			"ios",
+			"stylesheets",
+			"uikit",
+			"swift",
+			"carthage",
+			"cocoapods",
+			"uiappearance",
+			"macos"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

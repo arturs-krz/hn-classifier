@@ -1,0 +1,21 @@
+{
+	"_id": "10397029",
+	"site": "https://github.com/mtth/avsc",
+	"title": " Avsc – a pure JavaScript Avro implementation",
+	"author": "mtth",
+	"date": "2017-06-19T11:06:35.926Z",
+	"tags": {
+		"categories": [
+			"avro",
+			"serialization",
+			"rpc"
+		],
+		"languages": [
+			"javascript",
+			"python",
+			"java",
+			"other"
+		]
+	},
+	"content": ""
+}

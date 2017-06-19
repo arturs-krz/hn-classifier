@@ -1,0 +1,22 @@
+{
+	"_id": "12456094",
+	"site": "https://github.com/onqtam/awesome-cmake",
+	"title": " The curated list of awesome CMake scripts, modules, examples and others",
+	"author": "onqtam",
+	"date": "2017-06-19T09:54:32.418Z",
+	"tags": {
+		"categories": [
+			"cmake",
+			"cmake-resources",
+			"cmake-scripts",
+			"cmake-modules",
+			"cmake-toolchains",
+			"cmake-examples",
+			"awesome-list",
+			"awesome",
+			"list"
+		],
+		"languages": []
+	},
+	"content": ""
+}

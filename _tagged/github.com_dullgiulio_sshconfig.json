@@ -1,0 +1,14 @@
+{
+	"_id": "9530096",
+	"site": "https://github.com/dullgiulio/sshconfig",
+	"title": " Simple SSH config parser in Go",
+	"author": "dullboy",
+	"date": "2017-06-19T10:36:03.067Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

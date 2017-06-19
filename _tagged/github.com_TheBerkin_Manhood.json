@@ -1,0 +1,29 @@
+{
+	"_id": "8311269",
+	"site": "https://github.com/TheBerkin/Manhood",
+	"title": " Manhood – a powerful templating language for random text generation",
+	"author": "TheBerkin",
+	"date": "2017-06-19T10:37:15.764Z",
+	"tags": {
+		"categories": [
+			"rant",
+			"language",
+			"c-sharp",
+			"procedural-generation",
+			"text-generation",
+			"template-engine",
+			"scripting",
+			"dotnet",
+			"unity3d",
+			"pcg",
+			"gamedev",
+			"dsl",
+			"nuget",
+			"writing"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

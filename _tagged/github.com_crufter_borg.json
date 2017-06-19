@@ -1,0 +1,19 @@
+{
+	"_id": "12473342",
+	"site": "https://github.com/crufter/borg",
+	"title": " A terminal based search engine for bash commands",
+	"author": "friendly_chap",
+	"date": "2017-06-19T09:55:11.590Z",
+	"tags": {
+		"categories": [
+			"snippets",
+			"bash",
+			"command-line-tool"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

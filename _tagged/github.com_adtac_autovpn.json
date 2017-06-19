@@ -1,0 +1,18 @@
+{
+	"_id": "13454960",
+	"site": "https://github.com/adtac/autovpn",
+	"title": " Autovpn – easily connect to a VPN in a country of your choice",
+	"author": "adtac",
+	"date": "2017-06-19T09:47:28.303Z",
+	"tags": {
+		"categories": [
+			"go",
+			"vpn",
+			"command-line-tool"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

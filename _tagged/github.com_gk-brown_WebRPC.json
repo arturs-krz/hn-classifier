@@ -1,0 +1,26 @@
+{
+	"_id": "10419746",
+	"site": "https://github.com/gk-brown/WebRPC",
+	"title": " WebRPC – Cross-platform RPC over HTTP",
+	"author": "gk_brown",
+	"date": "2017-06-19T09:41:58.844Z",
+	"tags": {
+		"categories": [
+			"objective-c",
+			"swift",
+			"java",
+			"ios",
+			"android",
+			"json",
+			"rest-client",
+			"rest-server"
+		],
+		"languages": [
+			"objective-c",
+			"java",
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

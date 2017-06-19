@@ -1,0 +1,22 @@
+{
+	"_id": "13280819",
+	"site": "https://github.com/fiatjaf/react-site",
+	"title": " React Static Site generator as simple as it can get, with browserify",
+	"author": "fiatjaf",
+	"date": "2017-06-19T08:44:14.292Z",
+	"tags": {
+		"categories": [
+			"static-site-generator",
+			"react",
+			"browserify",
+			"fish",
+			"cli",
+			"unix"
+		],
+		"languages": [
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

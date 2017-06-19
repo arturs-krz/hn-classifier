@@ -1,0 +1,20 @@
+{
+	"_id": "10687288",
+	"site": "https://github.com/levlaz/braindump",
+	"title": " Braindump, a simple note platform to organize your life",
+	"author": "levlaz",
+	"date": "2017-06-19T10:52:15.246Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"html",
+			"javascript",
+			"css",
+			"shell",
+			"nginx",
+			"mako"
+		]
+	},
+	"content": ""
+}

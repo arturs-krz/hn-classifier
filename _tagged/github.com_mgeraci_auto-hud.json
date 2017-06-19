@@ -1,0 +1,19 @@
+{
+	"_id": "10561059",
+	"site": "https://github.com/mgeraci/auto-hud",
+	"title": " A web app-based programmable mirror",
+	"author": "mgeraci",
+	"date": "2017-06-19T11:00:56.274Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"css",
+			"javascript",
+			"openscad",
+			"coffeescript",
+			"python",
+			"html"
+		]
+	},
+	"content": ""
+}

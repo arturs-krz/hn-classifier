@@ -1,0 +1,24 @@
+{
+	"_id": "13933944",
+	"site": "https://github.com/acmeyer/s3-static-site-generator",
+	"title": " Script for hosting a secure and scalable website on AWS S3",
+	"author": "acmeyer9",
+	"date": "2017-06-19T11:08:43.930Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"dns",
+			"ssl-certificate",
+			"ruby",
+			"aws-s3",
+			"website",
+			"hosting",
+			"aws-cloudfront",
+			"aws-route53"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

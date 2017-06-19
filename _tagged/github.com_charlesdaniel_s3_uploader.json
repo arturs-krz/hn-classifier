@@ -1,0 +1,15 @@
+{
+	"_id": "11508783",
+	"site": "https://github.com/charlesdaniel/s3_uploader",
+	"title": " A simple GUI for uploading large files to S3",
+	"author": "codemonkeychuck",
+	"date": "2017-06-19T10:53:38.051Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

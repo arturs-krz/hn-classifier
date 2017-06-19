@@ -1,0 +1,25 @@
+{
+	"_id": "10699090",
+	"site": "https://github.com/sleekbyte/tailor",
+	"title": " Tailor – A cross-platform static analysis and lint tool for Swift",
+	"author": "alykhank",
+	"date": "2017-06-19T08:46:30.497Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"linter",
+			"static-analyzer",
+			"apple"
+		],
+		"languages": [
+			"java",
+			"swift",
+			"antlr",
+			"html",
+			"shell",
+			"powershell",
+			"ruby"
+		]
+	},
+	"content": ""
+}

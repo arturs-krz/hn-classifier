@@ -1,0 +1,15 @@
+{
+	"_id": "10143255",
+	"site": "https://github.com/mateogianolio/cproto",
+	"title": " Cdefs, extract function prototypes in C files to JSON",
+	"author": "megalodon",
+	"date": "2017-06-19T09:41:33.093Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "8280826",
+	"site": "https://github.com/datazenit/sensei-grid/tree/master",
+	"title": " Recently started working on an open source data grid editor in JS/HTML",
+	"author": "lauriswtf",
+	"date": "2017-06-19T09:50:59.721Z",
+	"tags": {
+		"categories": [
+			"datagrid",
+			"javascript",
+			"grid",
+			"jqery",
+			"underscore",
+			"lodash",
+			"data",
+			"data-table"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

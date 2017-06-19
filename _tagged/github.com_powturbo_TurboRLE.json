@@ -1,0 +1,27 @@
+{
+	"_id": "10806415",
+	"site": "https://github.com/powturbo/TurboRLE",
+	"title": " TurboRLE – Turbo Run Length Encoding using SIMD",
+	"author": "powturbo",
+	"date": "2017-06-19T08:42:39.037Z",
+	"tags": {
+		"categories": [
+			"run-length-encoding",
+			"simd",
+			"rle",
+			"c",
+			"c-plus-plus",
+			"java",
+			"benchmark",
+			"avx2",
+			"sse",
+			"sse2"
+		],
+		"languages": [
+			"c",
+			"java",
+			"makefile"
+		]
+	},
+	"content": ""
+}

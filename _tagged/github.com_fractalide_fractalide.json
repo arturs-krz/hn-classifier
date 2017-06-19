@@ -1,0 +1,35 @@
+{
+	"_id": "12844795",
+	"site": "https://github.com/fractalide/fractalide",
+	"title": " Simple Rust Microservices",
+	"author": "setori88",
+	"date": "2017-06-19T10:42:49.611Z",
+	"tags": {
+		"categories": [
+			"dataflow",
+			"flow-based-programming",
+			"nix",
+			"rust",
+			"microservices",
+			"ab-initio",
+			"apache-nifi",
+			"apache-spark",
+			"tensorflow",
+			"fbp",
+			"nixos",
+			"science",
+			"engineering",
+			"iot",
+			"infrastructure-as-code",
+			"fractalide",
+			"capnproto",
+			"purescript"
+		],
+		"languages": [
+			"rust",
+			"nix",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "8734307",
+	"site": "https://github.com/gchp/iota",
+	"title": " Iota – a text editor written in Rust",
+	"author": "gchp",
+	"date": "2017-06-19T10:55:53.751Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"text-editor"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

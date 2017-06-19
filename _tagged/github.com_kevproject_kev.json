@@ -1,0 +1,19 @@
+{
+	"_id": "12315029",
+	"site": "https://github.com/kevproject/kev",
+	"title": " Kev – S3 and Redis as Datastores (with Redis Indexing)",
+	"author": "bjinwright",
+	"date": "2017-06-19T08:46:40.131Z",
+	"tags": {
+		"categories": [
+			"redis",
+			"s3",
+			"orm",
+			"dynamodb"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

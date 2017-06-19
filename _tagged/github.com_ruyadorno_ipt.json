@@ -1,0 +1,26 @@
+{
+	"_id": "11126692",
+	"site": "https://github.com/ruyadorno/ipt",
+	"title": " iPipeTo, Yeoman ui as a standalone composable cli tool",
+	"author": "ruyadorno",
+	"date": "2017-06-19T08:39:55.530Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"js",
+			"cli",
+			"command-line",
+			"unix",
+			"bash",
+			"pipe",
+			"workflow",
+			"stdout",
+			"nodejs"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

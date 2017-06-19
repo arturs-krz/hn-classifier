@@ -1,0 +1,16 @@
+{
+	"_id": "9557475",
+	"site": "https://github.com/selbyk/pagesim",
+	"title": " Simulation of common page replacement algorithms in C",
+	"author": "selbyk",
+	"date": "2017-06-19T11:08:29.862Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

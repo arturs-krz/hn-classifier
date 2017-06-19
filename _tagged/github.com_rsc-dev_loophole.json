@@ -1,0 +1,22 @@
+{
+	"_id": "11054026",
+	"site": "https://github.com/rsc-dev/loophole",
+	"title": " Loophole – Polar devices API (ver. 0.1)",
+	"author": "rsc-dev",
+	"date": "2017-06-19T08:44:10.551Z",
+	"tags": {
+		"categories": [
+			"api",
+			"polar",
+			"cli",
+			"polar-devices",
+			"python",
+			"reverse-engineering"
+		],
+		"languages": [
+			"protocol buffer",
+			"python"
+		]
+	},
+	"content": ""
+}

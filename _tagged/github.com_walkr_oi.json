@@ -1,0 +1,18 @@
+{
+	"_id": "9552115",
+	"site": "https://github.com/walkr/oi",
+	"title": " Python lib for writing long running processes with a cli interface",
+	"author": "hewitt",
+	"date": "2017-06-19T08:46:28.710Z",
+	"tags": {
+		"categories": [
+			"python",
+			"nanomsg"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

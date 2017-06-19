@@ -1,0 +1,20 @@
+{
+	"_id": "13121038",
+	"site": "https://github.com/CapacitorSet/rebridge",
+	"title": " Rebridge v2.0 – A transparent bridge between JavaScript and Redis",
+	"author": "CapacitorSet",
+	"date": "2017-06-19T10:51:10.593Z",
+	"tags": {
+		"categories": [
+			"redis",
+			"redis-database",
+			"es6-proxies",
+			"nodejs",
+			"es6"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

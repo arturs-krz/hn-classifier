@@ -1,0 +1,21 @@
+{
+	"_id": "13285932",
+	"site": "https://github.com/muayyad-alsadi/pyredis-dump",
+	"title": " Redis dump/restore tool as lines of python literals",
+	"author": "alsadi",
+	"date": "2017-06-19T09:47:54.271Z",
+	"tags": {
+		"categories": [
+			"redis",
+			"redis-dump",
+			"backup",
+			"python2",
+			"python3",
+			"python"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

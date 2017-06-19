@@ -1,0 +1,16 @@
+{
+	"_id": "10319616",
+	"site": "https://github.com/reconquest/gunter",
+	"title": " Simple configuration system",
+	"author": "kovetskiy",
+	"date": "2017-06-19T09:49:58.188Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

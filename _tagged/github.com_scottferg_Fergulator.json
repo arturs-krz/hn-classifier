@@ -1,0 +1,15 @@
+{
+	"_id": "4617005",
+	"site": "https://github.com/scottferg/Fergulator",
+	"title": " I made my first NES emulator, written in Go",
+	"author": "ferg",
+	"date": "2017-06-19T09:30:12.262Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

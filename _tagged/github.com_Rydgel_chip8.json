@@ -1,0 +1,25 @@
+{
+	"_id": "13948791",
+	"site": "https://github.com/Rydgel/chip8",
+	"title": " A 3D Chip8 emulator",
+	"author": "rydgel",
+	"date": "2017-06-19T09:45:03.985Z",
+	"tags": {
+		"categories": [
+			"chip8",
+			"chip8-emulator",
+			"opengl",
+			"3d"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"python",
+			"objective-c",
+			"cmake",
+			"m4",
+			"other"
+		]
+	},
+	"content": ""
+}

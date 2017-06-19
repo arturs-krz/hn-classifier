@@ -1,0 +1,18 @@
+{
+	"_id": "11712092",
+	"site": "https://github.com/dbohdan/embedded-scripting-languages",
+	"title": " A list of embedded scripting languages with impl. language, GC, license",
+	"author": "networked",
+	"date": "2017-06-19T09:45:10.658Z",
+	"tags": {
+		"categories": [
+			"list",
+			"scripting",
+			"scripting-language",
+			"embedded-scripting-language",
+			"interpreters"
+		],
+		"languages": []
+	},
+	"content": ""
+}

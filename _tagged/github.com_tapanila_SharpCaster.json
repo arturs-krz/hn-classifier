@@ -1,0 +1,26 @@
+{
+	"_id": "13104940",
+	"site": "https://github.com/tapanila/SharpCaster",
+	"title": " Chromecast C# SDK",
+	"author": "TapanilaT",
+	"date": "2017-06-19T10:22:58.193Z",
+	"tags": {
+		"categories": [
+			"chromecast",
+			"xamarin",
+			"chromecast-device",
+			"android-platform",
+			"windows-phone",
+			"csharp",
+			"nuget",
+			"sdk",
+			"sharpcaster",
+			"uwp"
+		],
+		"languages": [
+			"c#",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "13716902",
+	"site": "https://github.com/developit/unfetch",
+	"title": " Fetch polyfill in 500 bytes",
+	"author": "developit",
+	"date": "2017-06-19T08:44:03.701Z",
+	"tags": {
+		"categories": [
+			"fetch",
+			"ajax",
+			"xmlhttprequest",
+			"polyfill",
+			"ponyfill",
+			"tiny"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

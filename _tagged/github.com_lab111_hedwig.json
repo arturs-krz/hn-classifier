@@ -1,0 +1,20 @@
+{
+	"_id": "13149546",
+	"site": "https://github.com/lab111/hedwig",
+	"title": " iOS Interactive Notification",
+	"author": "TruthDerek",
+	"date": "2017-06-19T09:50:21.923Z",
+	"tags": {
+		"categories": [
+			"alertview",
+			"ios",
+			"swift"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

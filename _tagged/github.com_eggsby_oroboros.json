@@ -1,0 +1,18 @@
+{
+	"_id": "8477229",
+	"site": "https://github.com/eggsby/oroboros",
+	"title": " Oroboros – templated configuration server",
+	"author": "eggsby",
+	"date": "2017-06-19T11:01:46.905Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"clojure",
+			"java",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

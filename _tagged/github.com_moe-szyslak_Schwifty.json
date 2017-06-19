@@ -1,0 +1,20 @@
+{
+	"_id": "14233341",
+	"site": "https://github.com/moe-szyslak/Schwifty",
+	"title": " Schwifty – make a Spotify playlist",
+	"author": "component",
+	"date": "2017-06-19T10:01:41.491Z",
+	"tags": {
+		"categories": [
+			"spotify-api",
+			"javascript",
+			"playlist"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

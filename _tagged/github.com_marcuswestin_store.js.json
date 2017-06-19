@@ -1,0 +1,23 @@
+{
+	"_id": "13751498",
+	"site": "https://github.com/marcuswestin/store.js",
+	"title": " Store.js v2.0 – Cross-browser storage for all use cases",
+	"author": "marcuswestin",
+	"date": "2017-06-19T10:31:23.050Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"localstorage",
+			"cross-browser",
+			"plugins",
+			"storage",
+			"store-json",
+			"serialization"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

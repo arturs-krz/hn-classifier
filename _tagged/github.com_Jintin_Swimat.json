@@ -1,0 +1,21 @@
+{
+	"_id": "10614736",
+	"site": "https://github.com/Jintin/Swimat",
+	"title": " Swimat – XCode plugin to format Swift code",
+	"author": "Jintin",
+	"date": "2017-06-19T09:59:16.117Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"xcode-plugin",
+			"formatter",
+			"xcode-extension",
+			"xcode"
+		],
+		"languages": [
+			"swift",
+			"shell"
+		]
+	},
+	"content": ""
+}

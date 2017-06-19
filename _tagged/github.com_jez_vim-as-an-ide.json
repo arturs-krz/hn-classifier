@@ -1,0 +1,19 @@
+{
+	"_id": "9111344",
+	"site": "https://github.com/jez/vim-as-an-ide",
+	"title": " A workshop on how to use Vim plugins",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T09:44:25.454Z",
+	"tags": {
+		"categories": [
+			"vim-plugins",
+			"viml",
+			"vimrc",
+			"workshop"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

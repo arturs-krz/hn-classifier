@@ -1,0 +1,41 @@
+{
+	"_id": "10626872",
+	"site": "https://github.com/powturbo/TurboBench",
+	"title": " TurboBench – Compressor Benchmark",
+	"author": "powturbo",
+	"date": "2017-06-19T08:42:43.450Z",
+	"tags": {
+		"categories": [
+			"data-compression",
+			"benchmark",
+			"bwt",
+			"lz77",
+			"zlib",
+			"zstd",
+			"lz4",
+			"brotli",
+			"lzturbo",
+			"compressor-benchmark",
+			"lzma",
+			"entropy-coder",
+			"huffman",
+			"range-coder",
+			"asymmetric-numeral-systems",
+			"compressor",
+			"compression",
+			"zip",
+			"gzip",
+			"codec"
+		],
+		"languages": [
+			"c",
+			"objective-c",
+			"c++",
+			"html",
+			"makefile",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

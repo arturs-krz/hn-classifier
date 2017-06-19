@@ -1,0 +1,20 @@
+{
+	"_id": "13733746",
+	"site": "https://github.com/agentgt/ezpwdgen",
+	"title": " Ezpwdgen a deterministic password generator using emoji annotations",
+	"author": "agentgt",
+	"date": "2017-06-19T10:42:07.095Z",
+	"tags": {
+		"categories": [
+			"password-generator",
+			"offline",
+			"python",
+			"emoji"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

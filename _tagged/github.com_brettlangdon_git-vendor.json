@@ -1,0 +1,15 @@
+{
+	"_id": "10999074",
+	"site": "https://github.com/brettlangdon/git-vendor",
+	"title": " Git-vendor, manage dependencies with git-subtree",
+	"author": "brettlangdon",
+	"date": "2017-06-19T10:45:54.331Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

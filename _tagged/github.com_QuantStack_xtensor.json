@@ -1,0 +1,21 @@
+{
+	"_id": "13753549",
+	"site": "https://github.com/QuantStack/xtensor",
+	"title": " Xtensor: C++14 tensor expression library with numpy-style broadcasting",
+	"author": "SylvainCorlay",
+	"date": "2017-06-19T08:44:12.251Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus-14",
+			"numpy",
+			"multidimensional-arrays",
+			"tensors"
+		],
+		"languages": [
+			"c++",
+			"jupyter notebook",
+			"cmake"
+		]
+	},
+	"content": ""
+}

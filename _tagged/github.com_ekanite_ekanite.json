@@ -1,0 +1,23 @@
+{
+	"_id": "10285064",
+	"site": "https://github.com/ekanite/ekanite",
+	"title": " Ekanite – an open-source syslog server with built-in search",
+	"author": "otoolep",
+	"date": "2017-06-19T10:08:17.044Z",
+	"tags": {
+		"categories": [
+			"rsyslog",
+			"syslog-server",
+			"syslog-ng",
+			"search",
+			"logs",
+			"go",
+			"syslog"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

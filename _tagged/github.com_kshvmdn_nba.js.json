@@ -1,0 +1,20 @@
+{
+	"_id": "12715722",
+	"site": "https://github.com/kshvmdn/nba.js",
+	"title": " NBA.js – Interface with current and historical stats, scores, and data",
+	"author": "kshvmdn",
+	"date": "2017-06-19T11:11:11.037Z",
+	"tags": {
+		"categories": [
+			"nba",
+			"nodejs",
+			"npm",
+			"basketball",
+			"sports"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

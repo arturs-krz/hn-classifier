@@ -1,0 +1,19 @@
+{
+	"_id": "13515364",
+	"site": "https://github.com/dutchcoders/marija",
+	"title": " Data exploration and visualisation for Elasticsearch",
+	"author": "nl5887",
+	"date": "2017-06-19T08:45:40.847Z",
+	"tags": {
+		"categories": [
+			"dataviz",
+			"elasticsearch",
+			"golang",
+			"visualisation"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

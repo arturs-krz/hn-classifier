@@ -1,0 +1,17 @@
+{
+	"_id": "11939966",
+	"site": "https://github.com/fullstackio/cq",
+	"title": " cq: extract code snippets using selectors (instead of line numbers)",
+	"author": "jashmenn",
+	"date": "2017-06-19T10:50:25.213Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"python",
+			"typescript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "13877291",
+	"site": "https://github.com/bwmarrin/go-alone",
+	"title": " Go-Alone, a simple to use, high performance, Go MAC signer package",
+	"author": "siacn",
+	"date": "2017-06-19T10:28:22.695Z",
+	"tags": {
+		"categories": [
+			"itsdangerous",
+			"hmac",
+			"authentication",
+			"token-authetication",
+			"token",
+			"jwt",
+			"message-authentication-code",
+			"signing",
+			"hmac-signer",
+			"mac",
+			"blake2b"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

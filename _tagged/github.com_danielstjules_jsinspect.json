@@ -1,0 +1,20 @@
+{
+	"_id": "8448360",
+	"site": "https://github.com/danielstjules/jsinspect",
+	"title": " Jsinspect – Detect copy-pasted and structurally similar code",
+	"author": "__debug__",
+	"date": "2017-06-19T10:48:45.944Z",
+	"tags": {
+		"categories": [
+			"code-analysis",
+			"duplication",
+			"refactoring",
+			"clean-code",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

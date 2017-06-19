@@ -1,0 +1,19 @@
+{
+	"_id": "9447329",
+	"site": "https://github.com/apsdehal/awesome-ctf",
+	"title": " Awesome CTF – A curated list of CTF libraries, resources and softwares",
+	"author": "apsdehal",
+	"date": "2017-06-19T09:50:49.485Z",
+	"tags": {
+		"categories": [
+			"ctf",
+			"awesome",
+			"security",
+			"penetration"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

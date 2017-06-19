@@ -1,0 +1,15 @@
+{
+	"_id": "10026741",
+	"site": "https://github.com/bbu/userland-slab-allocator",
+	"title": " Userland slab allocator",
+	"author": "bluetomcat",
+	"date": "2017-06-19T09:51:50.067Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12678893",
+	"site": "https://github.com/hwdsl2/setup-ghost-blog?hn1",
+	"title": " Self-Host Multiple Ghost Blogs with Nginx and WAF",
+	"author": "hwdsl2",
+	"date": "2017-06-19T10:44:51.490Z",
+	"tags": {
+		"categories": [
+			"ghost-blog",
+			"naxsi",
+			"modsecurity",
+			"nginx",
+			"wordpress",
+			"ghost",
+			"blog",
+			"nodejs",
+			"node"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

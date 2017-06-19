@@ -1,0 +1,25 @@
+{
+	"_id": "8241978",
+	"site": "https://github.com/HarveyHunt/howm",
+	"title": " Howm – A Vim-like tiling X11 window manager",
+	"author": "hunt",
+	"date": "2017-06-19T10:55:12.451Z",
+	"tags": {
+		"categories": [
+			"x11",
+			"tiling",
+			"window",
+			"management",
+			"vim",
+			"c",
+			"xcb",
+			"linux"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"c++"
+		]
+	},
+	"content": ""
+}

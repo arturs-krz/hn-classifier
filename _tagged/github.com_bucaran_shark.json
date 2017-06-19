@@ -1,0 +1,20 @@
+{
+	"_id": "10834281",
+	"site": "https://github.com/bucaran/shark",
+	"title": " Sharklines on you terminal",
+	"author": "bucaran",
+	"date": "2017-06-19T10:51:09.706Z",
+	"tags": {
+		"categories": [
+			"fishshell",
+			"spark",
+			"sparklines",
+			"fish-shell",
+			"plugin"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

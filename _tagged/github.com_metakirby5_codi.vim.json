@@ -1,0 +1,19 @@
+{
+	"_id": "12283838",
+	"site": "https://github.com/metakirby5/codi.vim",
+	"title": " Codi.vim – An interactive coding scratchpad for interpreted languages",
+	"author": "metakirby5",
+	"date": "2017-06-19T10:22:20.736Z",
+	"tags": {
+		"categories": [
+			"vim",
+			"interpreter",
+			"repl",
+			"instant"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

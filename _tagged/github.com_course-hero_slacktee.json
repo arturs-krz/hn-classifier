@@ -1,0 +1,17 @@
+{
+	"_id": "9609535",
+	"site": "https://github.com/course-hero/slacktee",
+	"title": " Slacktee – a bash script to post STDIN to Slack like 'tee' command",
+	"author": "ckato",
+	"date": "2017-06-19T10:31:27.674Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"bash"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

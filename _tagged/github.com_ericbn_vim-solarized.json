@@ -1,0 +1,22 @@
+{
+	"_id": "12904876",
+	"site": "https://github.com/ericbn/vim-solarized",
+	"title": " Vim colorscheme with ERB templates (easier to maintain, faster to run)",
+	"author": "ericbn",
+	"date": "2017-06-19T09:52:51.438Z",
+	"tags": {
+		"categories": [
+			"vim-colorscheme",
+			"vim-colors",
+			"solarized",
+			"true-color",
+			"vim",
+			"color-scheme"
+		],
+		"languages": [
+			"vim script",
+			"html"
+		]
+	},
+	"content": ""
+}

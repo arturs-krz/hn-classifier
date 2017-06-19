@@ -1,0 +1,20 @@
+{
+	"_id": "12957444",
+	"site": "https://github.com/emc-advanced-dev/layerx",
+	"title": " Layer X – container scheduling across multiple orchestration layers",
+	"author": "ilevine",
+	"date": "2017-06-19T10:15:14.730Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"javascript",
+			"ruby",
+			"css",
+			"html",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

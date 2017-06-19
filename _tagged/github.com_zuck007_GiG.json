@@ -1,0 +1,19 @@
+{
+	"_id": "12957239",
+	"site": "https://github.com/zuck007/GiG",
+	"title": " Generate gitignore files for almost all languages",
+	"author": "zuck007",
+	"date": "2017-06-19T08:43:03.898Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"cli-app",
+			"gitignore-files",
+			"bash-script"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

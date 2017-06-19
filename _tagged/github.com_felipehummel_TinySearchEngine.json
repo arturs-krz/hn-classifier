@@ -1,0 +1,15 @@
+{
+	"_id": "2698905",
+	"site": "https://github.com/felipehummel/TinySearchEngine",
+	"title": " TF-IDF search engine in 30 lines of Scala",
+	"author": "felipehummel",
+	"date": "2017-06-19T10:41:02.734Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala",
+			"clojure"
+		]
+	},
+	"content": ""
+}

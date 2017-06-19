@@ -1,0 +1,23 @@
+{
+	"_id": "14214370",
+	"site": "https://github.com/git-toni/reposplit",
+	"title": " RepoSplit. Browse GitHub repositories comfortably (Chrome extension)",
+	"author": "projectstnrp",
+	"date": "2017-06-19T08:44:21.579Z",
+	"tags": {
+		"categories": [
+			"code",
+			"editor",
+			"chrome-extension",
+			"viewer",
+			"react",
+			"mobx"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

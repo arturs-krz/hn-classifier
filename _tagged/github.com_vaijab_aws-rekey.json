@@ -1,0 +1,14 @@
+{
+	"_id": "13143464",
+	"site": "https://github.com/vaijab/aws-rekey",
+	"title": " A tool to re-key static AWS access keys",
+	"author": "vaijab",
+	"date": "2017-06-19T10:48:52.001Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12478386",
+	"site": "https://github.com/viebel/klipse",
+	"title": " Klipse (pluggable client side evaluator) just hit 400 stars on GitHub",
+	"author": "viebel",
+	"date": "2017-06-19T09:48:43.572Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"clojurescript",
+			"interactive-snippets",
+			"javascript",
+			"code-evaluation",
+			"ruby",
+			"scheme"
+		],
+		"languages": [
+			"clojure",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

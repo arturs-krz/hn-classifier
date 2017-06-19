@@ -1,0 +1,14 @@
+{
+	"_id": "9797837",
+	"site": "https://github.com/zcdziura/pirate",
+	"title": " Pirate, a command-line arrrguments parser written in Rust",
+	"author": "zcdziura",
+	"date": "2017-06-19T09:58:19.046Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "10586675",
+	"site": "https://github.com/Kovah/DevLorem",
+	"title": " Tired of Lorem Ipsum, I made my own generator with badass movie quotes",
+	"author": "Kovah",
+	"date": "2017-06-19T09:51:56.409Z",
+	"tags": {
+		"categories": [
+			"lorem-ipsum",
+			"quotes",
+			"development",
+			"placeholder"
+		],
+		"languages": [
+			"php",
+			"css",
+			"apacheconf"
+		]
+	},
+	"content": ""
+}

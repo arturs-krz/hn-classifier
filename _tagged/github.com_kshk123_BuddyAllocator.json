@@ -1,0 +1,15 @@
+{
+	"_id": "13492622",
+	"site": "https://github.com/kshk123/BuddyAllocator",
+	"title": " Implementation of a buddy allocator for memory handling in C",
+	"author": "kshk123",
+	"date": "2017-06-19T10:38:05.889Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

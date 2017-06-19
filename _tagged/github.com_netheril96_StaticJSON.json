@@ -1,0 +1,21 @@
+{
+	"_id": "12071613",
+	"site": "https://github.com/netheril96/StaticJSON",
+	"title": " StaticJSON: fast, direct and static typed parsing of JSON with C++",
+	"author": "netheril96",
+	"date": "2017-06-19T08:42:58.698Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"json",
+			"json-schema",
+			"parsing"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

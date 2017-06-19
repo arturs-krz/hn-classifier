@@ -1,0 +1,20 @@
+{
+	"_id": "13383674",
+	"site": "https://github.com/jwplayer/jwalk",
+	"title": " Cython implementation of DeepWalk algorithm",
+	"author": "capitalistpug",
+	"date": "2017-06-19T10:02:16.726Z",
+	"tags": {
+		"categories": [
+			"deep-learning",
+			"neural-network",
+			"python",
+			"deepwalk"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

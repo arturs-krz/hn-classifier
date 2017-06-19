@@ -1,0 +1,17 @@
+{
+	"_id": "13541855",
+	"site": "https://github.com/mr-karan/webkin",
+	"title": " Send webpages to Kindle through CLI",
+	"author": "mr-karan",
+	"date": "2017-06-19T08:39:58.097Z",
+	"tags": {
+		"categories": [
+			"kindle",
+			"cli-app"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

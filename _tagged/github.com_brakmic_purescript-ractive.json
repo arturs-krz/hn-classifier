@@ -1,0 +1,20 @@
+{
+	"_id": "10832437",
+	"site": "https://github.com/brakmic/purescript-ractive",
+	"title": " RactiveJS-Bindings for PureScript",
+	"author": "brakmic",
+	"date": "2017-06-19T09:48:34.103Z",
+	"tags": {
+		"categories": [
+			"purescript",
+			"ractive"
+		],
+		"languages": [
+			"javascript",
+			"purescript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "11380876",
+	"site": "https://github.com/geeknam/tocker",
+	"title": " Tocker – TDD for writing Dockerfiles",
+	"author": "namngology",
+	"date": "2017-06-19T08:42:45.001Z",
+	"tags": {
+		"categories": [
+			"python",
+			"testinfra",
+			"tdd"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

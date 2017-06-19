@@ -1,0 +1,18 @@
+{
+	"_id": "12087136",
+	"site": "https://github.com/lebinh/aq",
+	"title": " Aq – Query AWS resources with SQL",
+	"author": "lebinh",
+	"date": "2017-06-19T09:36:08.020Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"sql",
+			"cli"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

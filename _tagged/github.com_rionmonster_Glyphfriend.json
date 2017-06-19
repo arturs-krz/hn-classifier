@@ -1,0 +1,21 @@
+{
+	"_id": "13810618",
+	"site": "https://github.com/rionmonster/Glyphfriend",
+	"title": " Glyphfriend, a VS Extension for Icon Font Previews and Intellisense",
+	"author": "rionmonster",
+	"date": "2017-06-19T09:41:45.220Z",
+	"tags": {
+		"categories": [
+			"visual-studio",
+			"visual-studio-extension",
+			"glyphs",
+			"autocompletion",
+			"icons",
+			"font-awesome"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

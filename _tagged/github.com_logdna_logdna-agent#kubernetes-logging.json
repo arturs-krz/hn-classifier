@@ -1,0 +1,27 @@
+{
+	"_id": "13877951",
+	"site": "https://github.com/logdna/logdna-agent#kubernetes-logging",
+	"title": " LogDNA – Set up Kubernetes logging with 2 kubectl commands",
+	"author": "leeab",
+	"date": "2017-06-19T10:30:26.266Z",
+	"tags": {
+		"categories": [
+			"logdna-agent",
+			"kubernetes",
+			"pod",
+			"linux",
+			"windows",
+			"mac",
+			"k8s",
+			"logdna",
+			"daemonset",
+			"nodejs"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"powershell"
+		]
+	},
+	"content": ""
+}

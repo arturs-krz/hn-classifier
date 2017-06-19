@@ -1,0 +1,18 @@
+{
+	"_id": "13842377",
+	"site": "https://github.com/coreos/dex#dex---a-federated-openid-connect-provider",
+	"title": " Dex OIDC Provider for Kubernetes",
+	"author": "philips",
+	"date": "2017-06-19T10:33:06.662Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"css",
+			"protocol buffer",
+			"other"
+		]
+	},
+	"content": ""
+}

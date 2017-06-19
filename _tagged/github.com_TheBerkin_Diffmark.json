@@ -1,0 +1,19 @@
+{
+	"_id": "9053342",
+	"site": "https://github.com/TheBerkin/Diffmark",
+	"title": " Diffmark – A simple string transformation DSL",
+	"author": "TheBerkin",
+	"date": "2017-06-19T10:35:16.835Z",
+	"tags": {
+		"categories": [
+			"dsl",
+			"string-manipulation",
+			"c-sharp",
+			"dotnet"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "9588110",
+	"site": "https://github.com/georust/rust-geojson",
+	"title": " rust-geojson – Library for serializing the GeoJSON vector GIS format",
+	"author": "frewsxcv",
+	"date": "2017-06-19T09:35:49.197Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"geojson",
+			"serialization",
+			"deserialization",
+			"geospatial"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

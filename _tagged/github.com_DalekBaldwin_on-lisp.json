@@ -1,0 +1,18 @@
+{
+	"_id": "8864969",
+	"site": "https://github.com/DalekBaldwin/on-lisp",
+	"title": " A modernized and annotated code companion to Paul Graham's “On Lisp”",
+	"author": "DalekBaldwin",
+	"date": "2017-06-19T08:42:56.194Z",
+	"tags": {
+		"categories": [
+			"textbook",
+			"lisp"
+		],
+		"languages": [
+			"common lisp",
+			"scheme"
+		]
+	},
+	"content": ""
+}

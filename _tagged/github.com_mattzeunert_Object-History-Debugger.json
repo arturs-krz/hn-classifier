@@ -1,0 +1,20 @@
+{
+	"_id": "13549313",
+	"site": "https://github.com/mattzeunert/Object-History-Debugger",
+	"title": " See where a JavaScript object's properties were assigned",
+	"author": "mostlystatic",
+	"date": "2017-06-19T10:09:15.558Z",
+	"tags": {
+		"categories": [
+			"debugger",
+			"debugging",
+			"dynamic-analysis"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"html"
+		]
+	},
+	"content": ""
+}

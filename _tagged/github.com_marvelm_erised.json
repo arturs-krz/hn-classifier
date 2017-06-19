@@ -1,0 +1,19 @@
+{
+	"_id": "13789874",
+	"site": "https://github.com/marvelm/erised",
+	"title": " Archive websites from the command line",
+	"author": "flippant",
+	"date": "2017-06-19T10:17:15.405Z",
+	"tags": {
+		"categories": [
+			"archive",
+			"mirror",
+			"electron",
+			"bookmark"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

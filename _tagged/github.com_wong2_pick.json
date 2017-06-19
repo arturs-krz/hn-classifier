@@ -1,0 +1,19 @@
+{
+	"_id": "10919673",
+	"site": "https://github.com/wong2/pick",
+	"title": " Pick: a Python library to create interactive selection list in terminal",
+	"author": "wonderfuly",
+	"date": "2017-06-19T09:42:24.121Z",
+	"tags": {
+		"categories": [
+			"curses",
+			"terminal",
+			"cli"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

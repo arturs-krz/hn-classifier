@@ -1,0 +1,33 @@
+{
+	"_id": "11150015",
+	"site": "https://github.com/tariqdaouda/pyGeno",
+	"title": " PyGeno, a Python Package for Precision Medicine",
+	"author": "daoudat",
+	"date": "2017-06-19T10:35:02.147Z",
+	"tags": {
+		"categories": [
+			"bioinformatics",
+			"biology",
+			"genomics",
+			"proteomics",
+			"genome",
+			"genome-annotation",
+			"genome-browser",
+			"genome-sequencing",
+			"genomes",
+			"genometools",
+			"medical",
+			"medicine",
+			"python",
+			"cancer",
+			"cancer-genomics",
+			"cancer-genomes"
+		],
+		"languages": [
+			"python",
+			"batchfile",
+			"makefile"
+		]
+	},
+	"content": ""
+}

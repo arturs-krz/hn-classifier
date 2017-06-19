@@ -1,0 +1,29 @@
+{
+	"_id": "13803683",
+	"site": "https://github.com/heroiclabs/nakama",
+	"title": " Nakama, a distributed server for social and realtime games and apps",
+	"author": "novabyte",
+	"date": "2017-06-19T10:09:28.966Z",
+	"tags": {
+		"categories": [
+			"game-server",
+			"realtime",
+			"social",
+			"multiplayer",
+			"chat-server",
+			"realtime-games",
+			"nakama",
+			"go"
+		],
+		"languages": [
+			"go",
+			"protocol buffer",
+			"lua",
+			"javascript",
+			"hcl",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

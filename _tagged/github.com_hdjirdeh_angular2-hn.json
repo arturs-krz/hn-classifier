@@ -1,0 +1,21 @@
+{
+	"_id": "13266599",
+	"site": "https://github.com/hdjirdeh/angular2-hn",
+	"title": " Angular 2 HN – A progressive Hacker News client that works offline",
+	"author": "MrAwesomeSauce",
+	"date": "2017-06-19T10:30:13.654Z",
+	"tags": {
+		"categories": [
+			"angular",
+			"progressive-web-app",
+			"service-worker",
+			"offline"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

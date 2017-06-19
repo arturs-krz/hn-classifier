@@ -1,0 +1,21 @@
+{
+	"_id": "12194046",
+	"site": "https://github.com/kessler/qool",
+	"title": " Qool, a leveldb backed Queue (Node.js/JavaScript)",
+	"author": "ikessler",
+	"date": "2017-06-19T08:44:05.306Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"node-js",
+			"javascript",
+			"leveldb",
+			"queue",
+			"database"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

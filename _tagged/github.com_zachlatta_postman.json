@@ -1,0 +1,15 @@
+{
+	"_id": "7678000",
+	"site": "https://github.com/zachlatta/postman",
+	"title": " Postman – A command-line utility for batch-sending email",
+	"author": "zachlatta",
+	"date": "2017-06-19T10:18:14.235Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": ""
+}

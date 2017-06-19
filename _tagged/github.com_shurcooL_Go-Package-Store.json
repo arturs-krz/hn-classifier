@@ -1,0 +1,17 @@
+{
+	"_id": "8282313",
+	"site": "https://github.com/shurcooL/Go-Package-Store",
+	"title": " Go Package Store - displays updates for the Go packages in your GOPATH",
+	"author": "shurcooL",
+	"date": "2017-06-19T10:56:06.980Z",
+	"tags": {
+		"categories": [
+			"go"
+		],
+		"languages": [
+			"go",
+			"css"
+		]
+	},
+	"content": ""
+}

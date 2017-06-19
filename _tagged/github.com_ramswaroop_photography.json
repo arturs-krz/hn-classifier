@@ -1,0 +1,31 @@
+{
+	"_id": "13681364",
+	"site": "https://github.com/ramswaroop/photography",
+	"title": " A jekyll website template for photographers",
+	"author": "ramswaroop",
+	"date": "2017-06-19T09:50:17.433Z",
+	"tags": {
+		"categories": [
+			"photography",
+			"jekyll",
+			"jekyll-theme",
+			"jekyll-template",
+			"jekyll-website",
+			"jekyll-site",
+			"website-template",
+			"portfolio-website",
+			"photographer-theme",
+			"photographer",
+			"photography-template",
+			"photography-site",
+			"photography-portfolio",
+			"photography-theme"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

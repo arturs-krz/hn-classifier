@@ -1,0 +1,23 @@
+{
+	"_id": "13926042",
+	"site": "https://github.com/masylum/mobx-rest",
+	"title": " Mobx-rest",
+	"author": "masylum",
+	"date": "2017-06-19T09:34:59.153Z",
+	"tags": {
+		"categories": [
+			"mobx",
+			"rest",
+			"api",
+			"api-rest",
+			"api-client",
+			"state-management",
+			"state",
+			"reactive"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

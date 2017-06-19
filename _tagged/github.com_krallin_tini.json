@@ -1,0 +1,21 @@
+{
+	"_id": "9127882",
+	"site": "https://github.com/krallin/tini",
+	"title": " Tini, a self-contained valid init process for (Docker) containers",
+	"author": "krallin",
+	"date": "2017-06-19T10:30:22.782Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"linux",
+			"c"
+		],
+		"languages": [
+			"c",
+			"python",
+			"shell",
+			"cmake"
+		]
+	},
+	"content": ""
+}

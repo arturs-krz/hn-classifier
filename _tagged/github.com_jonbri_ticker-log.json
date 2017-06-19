@@ -1,0 +1,19 @@
+{
+	"_id": "11988648",
+	"site": "https://github.com/jonbri/ticker-log",
+	"title": " Ticker-log.js – on-screen logging (useful when console hard to reach)",
+	"author": "jonbri1985",
+	"date": "2017-06-19T09:45:45.894Z",
+	"tags": {
+		"categories": [
+			"logging",
+			"on-screen"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

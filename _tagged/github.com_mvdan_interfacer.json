@@ -1,0 +1,19 @@
+{
+	"_id": "11397905",
+	"site": "https://github.com/mvdan/interfacer",
+	"title": " Interfacer – suggest interface types in Go",
+	"author": "mvdan",
+	"date": "2017-06-19T08:46:25.315Z",
+	"tags": {
+		"categories": [
+			"go",
+			"linter",
+			"interface",
+			"types"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

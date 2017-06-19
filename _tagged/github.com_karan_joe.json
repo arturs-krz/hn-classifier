@@ -1,0 +1,21 @@
+{
+	"_id": "8874744",
+	"site": "https://github.com/karan/joe",
+	"title": " Joe – a .gitignore magician in your command line",
+	"author": "karangoeluw",
+	"date": "2017-06-19T10:36:20.378Z",
+	"tags": {
+		"categories": [
+			"gitignore",
+			"linux",
+			"mercurial",
+			"magician",
+			"git"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

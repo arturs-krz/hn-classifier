@@ -1,0 +1,17 @@
+{
+	"_id": "11010964",
+	"site": "https://github.com/iCHAIT/moviemon",
+	"title": " Everything about your movies from the command line",
+	"author": "iCHAIT",
+	"date": "2017-06-19T10:08:04.416Z",
+	"tags": {
+		"categories": [
+			"movies",
+			"movies-sorted"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "12259396",
+	"site": "https://github.com/msafi/text-mask",
+	"title": " Input masking library",
+	"author": "msafi",
+	"date": "2017-06-19T10:02:10.288Z",
+	"tags": {
+		"categories": [
+			"input-mask",
+			"inputmask",
+			"text-formatting",
+			"react",
+			"angular",
+			"vue",
+			"ember"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"typescript",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

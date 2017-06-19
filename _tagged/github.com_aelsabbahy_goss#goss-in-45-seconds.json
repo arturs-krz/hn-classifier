@@ -1,0 +1,34 @@
+{
+	"_id": "10424864",
+	"site": "https://github.com/aelsabbahy/goss#goss-in-45-seconds",
+	"title": " Goss – A serverspec-like tool written in go",
+	"author": "aelsabbahy",
+	"date": "2017-06-19T08:46:30.665Z",
+	"tags": {
+		"categories": [
+			"goss",
+			"health-endpoint",
+			"devops",
+			"tdd",
+			"tdd-utilities",
+			"testing",
+			"infrastructure-as-code",
+			"testing-tools",
+			"health-check",
+			"go",
+			"golang",
+			"docker",
+			"nagios",
+			"tap",
+			"linux",
+			"devops-tools"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"ruby",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "5613883",
+	"site": "https://github.com/lye/s3",
+	"title": " Simple S3 Library in Go that also allows uploads greater than 5GB",
+	"author": "uncoder0",
+	"date": "2017-06-19T09:56:59.792Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

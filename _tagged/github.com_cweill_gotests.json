@@ -1,0 +1,18 @@
+{
+	"_id": "11283699",
+	"site": "https://github.com/cweill/gotests",
+	"title": " gotests – Generate table driven tests in Go",
+	"author": "cweill",
+	"date": "2017-06-19T10:16:32.292Z",
+	"tags": {
+		"categories": [
+			"golang-tools",
+			"testing",
+			"code-generator"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.1",
+    "csv-parse": "^1.2.0",
     "html-to-text": "^3.3.0",
     "natural": "^0.5.1",
     "request": "^2.81.0",

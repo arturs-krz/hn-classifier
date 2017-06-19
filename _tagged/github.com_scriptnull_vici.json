@@ -1,0 +1,21 @@
+{
+	"_id": "12471066",
+	"site": "https://github.com/scriptnull/vici",
+	"title": " Vici – Your webhook robot",
+	"author": "scriptnull",
+	"date": "2017-06-19T08:42:49.988Z",
+	"tags": {
+		"categories": [
+			"webhook",
+			"script-runner",
+			"remote-execution",
+			"vici-server",
+			"vici"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

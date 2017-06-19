@@ -1,0 +1,15 @@
+{
+	"_id": "2879965",
+	"site": "https://github.com/jcoleman/tomcat-redis-session-manager",
+	"title": " Redis backed unsticky session manager for Tomcat",
+	"author": "jtc331",
+	"date": "2017-06-19T10:26:59.912Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java",
+			"ruby"
+		]
+	},
+	"content": ""
+}

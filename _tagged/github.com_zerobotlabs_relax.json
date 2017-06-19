@@ -1,0 +1,16 @@
+{
+	"_id": "10381648",
+	"site": "https://github.com/zerobotlabs/relax",
+	"title": " Relax - A Go-Based Message Broker for Slack Bots",
+	"author": "iamclovin",
+	"date": "2017-06-19T11:03:47.360Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "10863745",
+	"site": "https://github.com/emergingstack/es-dev-stack",
+	"title": " Dockerized GPU Deep Learning Solution (Code and Blog and TensorFlow Demo)",
+	"author": "viklas",
+	"date": "2017-06-19T10:04:58.640Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"nvidia",
+			"artificial-intelligence"
+		],
+		"languages": [
+			"jupyter notebook",
+			"shell"
+		]
+	},
+	"content": ""
+}

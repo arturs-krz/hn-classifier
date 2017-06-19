@@ -1,0 +1,20 @@
+{
+	"_id": "10802968",
+	"site": "https://github.com/eraclitux/rim",
+	"title": " Agentless network interfaces monitor (traffic spikes, DDoS etc.)",
+	"author": "eraclitux",
+	"date": "2017-06-19T09:50:06.477Z",
+	"tags": {
+		"categories": [
+			"linux",
+			"server",
+			"firewall",
+			"ddos"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

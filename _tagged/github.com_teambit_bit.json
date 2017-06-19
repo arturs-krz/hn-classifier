@@ -1,0 +1,24 @@
+{
+	"_id": "13842821",
+	"site": "https://github.com/teambit/bit",
+	"title": " Bit – distributed code component manager",
+	"author": "jonisar",
+	"date": "2017-06-19T10:39:50.325Z",
+	"tags": {
+		"categories": [
+			"reusable",
+			"components",
+			"cli",
+			"distributed",
+			"manager",
+			"bit"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"powershell",
+			"other"
+		]
+	},
+	"content": ""
+}

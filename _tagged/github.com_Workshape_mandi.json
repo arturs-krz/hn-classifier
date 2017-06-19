@@ -1,0 +1,35 @@
+{
+	"_id": "13884117",
+	"site": "https://github.com/Workshape/mandi",
+	"title": " Mandi, a minimalistic, plug and play Node.js CMS",
+	"author": "tancredi",
+	"date": "2017-06-19T08:44:24.005Z",
+	"tags": {
+		"categories": [
+			"cms",
+			"cms-framework",
+			"cms-api",
+			"cms-server",
+			"cmsui",
+			"javascript",
+			"nodejs",
+			"node",
+			"js",
+			"es6",
+			"vue",
+			"vuejs",
+			"vuejs2",
+			"vue2",
+			"pug",
+			"jade",
+			"stylus",
+			"json-schema"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

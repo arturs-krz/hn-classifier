@@ -1,0 +1,22 @@
+{
+	"_id": "10808810",
+	"site": "https://github.com/philplckthun/fluorine",
+	"title": " Fluorine – A lean and functional RxJS state accumulator for React",
+	"author": "philplckthun",
+	"date": "2017-06-19T10:23:21.096Z",
+	"tags": {
+		"categories": [
+			"state-management",
+			"fluorine",
+			"rxjs",
+			"dispatcher",
+			"flux",
+			"react"
+		],
+		"languages": [
+			"javascript",
+			"typescript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "7994420",
+	"site": "https://github.com/krallin/ubuntufinder/",
+	"title": " Ubuntufinder - CLI interface to retrieve latest AWS Ubuntu AMI IDs",
+	"author": "krallin",
+	"date": "2017-06-19T10:43:56.697Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

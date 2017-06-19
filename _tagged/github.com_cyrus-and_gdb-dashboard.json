@@ -1,0 +1,18 @@
+{
+	"_id": "10204659",
+	"site": "https://github.com/cyrus-and/gdb-dashboard",
+	"title": " gdb-dashboard – Modular visual interface for GDB in Python",
+	"author": "cyrusand",
+	"date": "2017-06-19T10:01:35.920Z",
+	"tags": {
+		"categories": [
+			"python",
+			"gdb",
+			"debugger"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

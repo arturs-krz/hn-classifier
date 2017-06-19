@@ -1,0 +1,19 @@
+{
+	"_id": "13050568",
+	"site": "https://github.com/ondras/mp",
+	"title": " Mp, a hybrid isomorphic web/desktop music player",
+	"author": "ondras",
+	"date": "2017-06-19T09:34:37.348Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"css",
+			"batchfile",
+			"html",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

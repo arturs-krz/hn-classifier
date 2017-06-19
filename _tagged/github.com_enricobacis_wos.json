@@ -1,0 +1,18 @@
+{
+	"_id": "11100023",
+	"site": "https://github.com/enricobacis/wos",
+	"title": " Web of Science Python Client and CLI",
+	"author": "enricobacis",
+	"date": "2017-06-19T10:32:10.747Z",
+	"tags": {
+		"categories": [
+			"api-client",
+			"python",
+			"bibliographic-database"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

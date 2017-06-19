@@ -1,0 +1,20 @@
+{
+	"_id": "10572270",
+	"site": "https://github.com/ryanmcdermott/birdseed",
+	"title": " Birdseed – A silly way to get random numbers by hashing tweets",
+	"author": "ryansworks",
+	"date": "2017-06-19T10:44:48.065Z",
+	"tags": {
+		"categories": [
+			"tweets",
+			"twitter-api",
+			"hash",
+			"random",
+			"python"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

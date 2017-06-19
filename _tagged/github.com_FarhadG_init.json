@@ -1,0 +1,23 @@
+{
+	"_id": "10610469",
+	"site": "https://github.com/FarhadG/init",
+	"title": " Init Bookmarklet – Go to the first commits of any GitHub repo",
+	"author": "FarhadG",
+	"date": "2017-06-19T11:08:04.615Z",
+	"tags": {
+		"categories": [
+			"first-commit",
+			"commit",
+			"first",
+			"bookmarklet",
+			"repository",
+			"git"
+		],
+		"languages": [
+			"html",
+			"smarty",
+			"javascript"
+		]
+	},
+	"content": ""
+}

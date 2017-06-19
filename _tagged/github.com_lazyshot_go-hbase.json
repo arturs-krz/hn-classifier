@@ -1,0 +1,15 @@
+{
+	"_id": "9613452",
+	"site": "https://github.com/lazyshot/go-hbase",
+	"title": " Native HBase Client for Go",
+	"author": "Lazyshot",
+	"date": "2017-06-19T11:09:16.662Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"protocol buffer",
+			"go"
+		]
+	},
+	"content": ""
+}

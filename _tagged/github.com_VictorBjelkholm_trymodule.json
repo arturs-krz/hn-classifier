@@ -1,0 +1,22 @@
+{
+	"_id": "11281392",
+	"site": "https://github.com/VictorBjelkholm/trymodule",
+	"title": " CLI for trying out Node.js modules easier",
+	"author": "diggan",
+	"date": "2017-06-19T08:42:45.678Z",
+	"tags": {
+		"categories": [
+			"repl",
+			"nodejs-modules",
+			"nodejs",
+			"javascript",
+			"developer-tools",
+			"developer-experience"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

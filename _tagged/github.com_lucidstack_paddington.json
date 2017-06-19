@@ -1,0 +1,21 @@
+{
+	"_id": "13688079",
+	"site": "https://github.com/lucidstack/paddington",
+	"title": " Paddington – Control MacOS from MIDI Devices",
+	"author": "lucidstack",
+	"date": "2017-06-19T08:46:30.147Z",
+	"tags": {
+		"categories": [
+			"midi-device",
+			"launchpad",
+			"macos",
+			"elixir"
+		],
+		"languages": [
+			"elixir",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

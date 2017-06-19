@@ -1,0 +1,22 @@
+{
+	"_id": "10818217",
+	"site": "https://github.com/dongyuwei/hallelujahIM/tree/textExpander",
+	"title": " A Tiny IME-Based Text Expander for Mac – MIT Licensed",
+	"author": "uexpandme",
+	"date": "2017-06-19T09:49:01.372Z",
+	"tags": {
+		"categories": [
+			"spell-check",
+			"autocomplete",
+			"translation",
+			"english-input-method",
+			"textexpander"
+		],
+		"languages": [
+			"objective-c",
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

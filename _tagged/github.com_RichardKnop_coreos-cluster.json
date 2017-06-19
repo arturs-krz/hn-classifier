@@ -1,0 +1,19 @@
+{
+	"_id": "12241985",
+	"site": "https://github.com/RichardKnop/coreos-cluster",
+	"title": " Setup Secure CoreOS Cluster with Terraform",
+	"author": "richardknop",
+	"date": "2017-06-19T11:02:10.756Z",
+	"tags": {
+		"categories": [
+			"coreos-cluster",
+			"terraform",
+			"ansible-vault"
+		],
+		"languages": [
+			"hcl",
+			"shell"
+		]
+	},
+	"content": ""
+}

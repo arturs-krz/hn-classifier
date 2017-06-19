@@ -1,0 +1,35 @@
+{
+	"_id": "13000470",
+	"site": "https://github.com/MinhasKamal/AlgorithmImplementations",
+	"title": " #AlgorithmImplementations- Implementation of Elementary Algorithms",
+	"author": "MinhasKamal",
+	"date": "2017-06-19T10:30:29.869Z",
+	"tags": {
+		"categories": [
+			"algorithm",
+			"algorithms",
+			"huffman",
+			"a-star",
+			"tree",
+			"graph",
+			"sort",
+			"genetic-algorithm",
+			"c",
+			"java",
+			"c-plus-plus",
+			"assembly",
+			"prime-numbers",
+			"friend-number",
+			"fibonacci-numbers",
+			"factorial",
+			"factor"
+		],
+		"languages": [
+			"c++",
+			"java",
+			"c",
+			"assembly"
+		]
+	},
+	"content": ""
+}

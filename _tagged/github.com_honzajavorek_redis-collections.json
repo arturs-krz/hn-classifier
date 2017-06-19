@@ -1,0 +1,14 @@
+{
+	"_id": "12666875",
+	"site": "https://github.com/honzajavorek/redis-collections",
+	"title": " Redis-collections – persistent Python data types backed by redis",
+	"author": "bbayles",
+	"date": "2017-06-19T11:05:48.938Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

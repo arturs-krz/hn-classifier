@@ -1,0 +1,25 @@
+{
+	"_id": "7986738",
+	"site": "https://github.com/urbanairship/tessera",
+	"title": " Tessera, an opinionated Graphite front-end",
+	"author": "katabatic",
+	"date": "2017-06-19T10:50:09.918Z",
+	"tags": {
+		"categories": [
+			"dashboard",
+			"graphite",
+			"metrics",
+			"monitoring"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"python",
+			"css",
+			"html",
+			"shell",
+			"mako"
+		]
+	},
+	"content": ""
+}

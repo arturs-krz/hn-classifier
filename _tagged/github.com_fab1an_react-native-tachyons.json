@@ -1,0 +1,24 @@
+{
+	"_id": "11752994",
+	"site": "https://github.com/fab1an/react-native-tachyons",
+	"title": " Tachyons for React-Native",
+	"author": "cel1ne",
+	"date": "2017-06-19T10:07:47.221Z",
+	"tags": {
+		"categories": [
+			"react-native",
+			"stylesheet",
+			"responsive",
+			"typography",
+			"android",
+			"ios",
+			"react",
+			"css-modules",
+			"css"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

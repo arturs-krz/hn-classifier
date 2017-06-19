@@ -1,0 +1,9 @@
+{
+	"_id": "14463083",
+	"site": "https://ifttt.com/hacker_news",
+	"title": " Hacker News Applets on IFTTT",
+	"author": "jamisonross",
+	"date": "2017-06-16T07:57:00.059Z",
+	"tags": [],
+	"content": "ifttt * search sign sign visit hacker news hacker newshacker news is social news website focusing computer science entrepreneurship. turn applets track top stories, keywords, comments jobs. sign for free account get started.connect * an email a specific user comments any hacker news thread ifttt 9 works * * compile google spreadsheet all jobs posted hacker news ifttt 22 works * * send top hacker news stories a specific topic a telegram chat ifttt 8 works * * post slack message your company is mentioned a top story hacker news ifttt 5 works * * get weekly email new hacker news show stories archive in google drive ifttt 6 works * * * get email there's new top story hacker news ifttt ifttt 5 works * * archive comments a specific username a google spreadsheet ifttt 4 works * * get alerts there's new ask hn story ifttt 2 works * * * save best hacker news stories pocket ifttt 23 works * * get weekly email new hacker news job postings ifttt 11 works * * get email every there's new top story mentioning google ifttt 5 works * more hacker news triggers actions triggers * top story trigger fires every a hacker news story becomes top story. trigger fields * matching search term * best story trigger fires every a hacker news story becomes best story. * ask hn story trigger fires every a ask hacker news story is posted. * show hn story trigger fires every a show hacker news story is posted. * job posted trigger fires every a job is posted hacker news. * story user trigger fires every a story is posted the user specify. trigger fields * username? * comment user trigger fires every a comment is posted the user specify. trigger fields * username? actions are currently actions this service. * * platform * blog * community * jobs * terms * privacy"
+}

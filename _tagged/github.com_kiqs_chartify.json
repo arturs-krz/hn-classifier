@@ -1,0 +1,35 @@
+{
+	"_id": "13680275",
+	"site": "https://github.com/kiqs/chartify",
+	"title": " React JavaScript Music Chart, awesome react component for creating charts",
+	"author": "kirillstyopkin",
+	"date": "2017-06-19T10:31:10.860Z",
+	"tags": {
+		"categories": [
+			"chart",
+			"charts",
+			"react",
+			"barchart",
+			"linechart",
+			"timeline",
+			"timesheet",
+			"films",
+			"music-library",
+			"music-visualizer",
+			"react-plugins",
+			"customizable-charts",
+			"cinematography",
+			"movie-collection",
+			"visualization",
+			"draggable-elements",
+			"draggable",
+			"film-ratings",
+			"rank"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

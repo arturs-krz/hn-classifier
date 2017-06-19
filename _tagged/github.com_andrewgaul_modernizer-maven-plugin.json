@@ -1,0 +1,17 @@
+{
+	"_id": "8341026",
+	"site": "https://github.com/andrewgaul/modernizer-maven-plugin",
+	"title": " Modernizer-maven-plugin detects use of legacy Java APIs",
+	"author": "gaul",
+	"date": "2017-06-19T10:53:16.113Z",
+	"tags": {
+		"categories": [
+			"java",
+			"static-analysis"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

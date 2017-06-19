@@ -1,0 +1,15 @@
+{
+	"_id": "12501774",
+	"site": "https://github.com/sebcat/move-literals",
+	"title": " Using Parsing Expression Grammars to rewrite source code",
+	"author": "sebcat",
+	"date": "2017-06-19T09:54:28.784Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"lua",
+			"c"
+		]
+	},
+	"content": ""
+}

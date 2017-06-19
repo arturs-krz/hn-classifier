@@ -1,0 +1,21 @@
+{
+	"_id": "12612246",
+	"site": "https://github.com/mxgmn/WaveFunctionCollapse",
+	"title": " Wave function collapse algorithm",
+	"author": "ExUtumno",
+	"date": "2017-06-19T08:43:01.488Z",
+	"tags": {
+		"categories": [
+			"procedural-generation",
+			"machine-learning",
+			"gamedev",
+			"c-sharp",
+			"algorithm",
+			"wfc"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

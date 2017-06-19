@@ -1,0 +1,18 @@
+{
+	"_id": "13567615",
+	"site": "https://github.com/jez/stargaze",
+	"title": " Stargaze – gaze at random GitHub repo's you've starred",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T10:13:57.406Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"github",
+			"github-api"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "11093894",
+	"site": "https://github.com/marten-de-vries/kneden",
+	"title": " Kneden – Transpile ES7 Async/await to ES6 Promise Chains (Babel Plugin)",
+	"author": "marten-de-vries",
+	"date": "2017-06-19T10:07:14.130Z",
+	"tags": {
+		"categories": [
+			"babel-plugin",
+			"promise",
+			"async"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

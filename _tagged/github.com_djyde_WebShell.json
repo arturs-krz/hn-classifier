@@ -1,0 +1,20 @@
+{
+	"_id": "10767293",
+	"site": "https://github.com/djyde/WebShell",
+	"title": " WebShell – Bundle web apps to native OS X app",
+	"author": "djyde",
+	"date": "2017-06-19T09:40:09.149Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"osx",
+			"macos",
+			"native-javascript"
+		],
+		"languages": [
+			"swift",
+			"html"
+		]
+	},
+	"content": ""
+}

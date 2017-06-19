@@ -1,0 +1,28 @@
+{
+	"_id": "9734298",
+	"site": "https://github.com/powturbo/TurboPFor",
+	"title": " TurboPFor – Bringing Fastest Integer Compression Incl. SIMD to Java",
+	"author": "powturbo",
+	"date": "2017-06-19T10:02:33.034Z",
+	"tags": {
+		"categories": [
+			"integer-compression",
+			"compression",
+			"encoding",
+			"sse2",
+			"avx2",
+			"simd",
+			"time-series",
+			"inverted-index",
+			"intersection",
+			"compressor",
+			"library"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

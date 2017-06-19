@@ -1,0 +1,21 @@
+{
+	"_id": "12479895",
+	"site": "https://github.com/filipedeschamps/cep-promise",
+	"title": " Node.js module for Brazilian Zipcode (CEP) updated in real-time",
+	"author": "filipedeschamps",
+	"date": "2017-06-19T08:42:29.063Z",
+	"tags": {
+		"categories": [
+			"correios",
+			"cep",
+			"promise-support",
+			"nodejs",
+			"browser",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "9651953",
+	"site": "https://github.com/arangodb/deployment",
+	"title": " Fast-deploy ArangoDB instances on popular cloud computing platforms",
+	"author": "fceller",
+	"date": "2017-06-19T10:41:09.533Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "7219352",
+	"site": "https://github.com/elasticdog/transcrypt",
+	"title": " Transcrypt – transparently encrypt files within a Git repository",
+	"author": "elasticdog",
+	"date": "2017-06-19T09:51:41.643Z",
+	"tags": {
+		"categories": [
+			"encryption",
+			"git",
+			"gitattributes",
+			"shell",
+			"secrets"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

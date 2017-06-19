@@ -1,0 +1,21 @@
+{
+	"_id": "7369718",
+	"site": "https://github.com/skycocker/chromebrew",
+	"title": " Chromebrew – the package manager for Chrome OS",
+	"author": "skycocker",
+	"date": "2017-06-19T10:50:53.931Z",
+	"tags": {
+		"categories": [
+			"chromeos",
+			"chromebook",
+			"crew",
+			"linux",
+			"package-manager"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "12668530",
+	"site": "https://github.com/felixSchl/neodoc",
+	"title": " Neodoc v1.0.0-rc.1",
+	"author": "felixschl",
+	"date": "2017-06-19T11:00:10.350Z",
+	"tags": {
+		"categories": [
+			"docopt",
+			"parser",
+			"nodejs",
+			"argv",
+			"command",
+			"line",
+			"parsing"
+		],
+		"languages": [
+			"purescript",
+			"python",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

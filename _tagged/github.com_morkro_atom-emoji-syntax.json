@@ -1,0 +1,22 @@
+{
+	"_id": "13286275",
+	"site": "https://github.com/morkro/atom-emoji-syntax",
+	"title": " Emoji Syntax – Adds customisable emoji to your syntax keywords",
+	"author": "morkro",
+	"date": "2017-06-19T10:07:51.099Z",
+	"tags": {
+		"categories": [
+			"emoji",
+			"emoji-syntax",
+			"syntax-highlighting",
+			"atom",
+			"language-packages"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

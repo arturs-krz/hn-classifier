@@ -1,0 +1,24 @@
+{
+	"_id": "10930718",
+	"site": "https://github.com/jiahaog/nativefier",
+	"title": " Nativefier – Wrap any web page natively",
+	"author": "skewedlines",
+	"date": "2017-06-19T08:42:52.541Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"electron",
+			"linux",
+			"windows",
+			"macos",
+			"desktop-application"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

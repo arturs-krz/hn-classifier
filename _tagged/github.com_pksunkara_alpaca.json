@@ -1,0 +1,27 @@
+{
+	"_id": "7005348",
+	"site": "https://github.com/pksunkara/alpaca",
+	"title": " Given an API, Generate client libraries in Node, Python, PHP, Ruby",
+	"author": "sunkarapk",
+	"date": "2017-06-19T10:05:56.618Z",
+	"tags": {
+		"categories": [
+			"alpaca",
+			"api",
+			"client-library",
+			"api-client",
+			"apis",
+			"golang",
+			"go"
+		],
+		"languages": [
+			"go",
+			"php",
+			"python",
+			"ruby",
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

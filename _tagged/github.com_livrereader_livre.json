@@ -1,0 +1,20 @@
+{
+	"_id": "13599156",
+	"site": "https://github.com/livrereader/livre",
+	"title": " Livre, a free, open-source eBook reader",
+	"author": "jdormit",
+	"date": "2017-06-19T09:44:13.945Z",
+	"tags": {
+		"categories": [
+			"ebook-reader",
+			"livre",
+			"electron"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

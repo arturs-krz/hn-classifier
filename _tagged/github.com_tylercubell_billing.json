@@ -1,0 +1,18 @@
+{
+	"_id": "13828048",
+	"site": "https://github.com/tylercubell/billing",
+	"title": " Easily accept Stripe payments for your Laravel 5 SaaS application",
+	"author": "tylercubell",
+	"date": "2017-06-19T11:10:29.223Z",
+	"tags": {
+		"categories": [
+			"laravel",
+			"stripe",
+			"billing"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

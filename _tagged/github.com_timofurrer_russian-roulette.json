@@ -1,0 +1,24 @@
+{
+	"_id": "11637194",
+	"site": "https://github.com/timofurrer/russian-roulette",
+	"title": " Russian roulette in bash for the CLI",
+	"author": "tuxtimo",
+	"date": "2017-06-19T11:03:56.549Z",
+	"tags": {
+		"categories": [
+			"git",
+			"fun",
+			"extras",
+			"russian",
+			"roulette",
+			"luck",
+			"game",
+			"russian-roulette"
+		],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

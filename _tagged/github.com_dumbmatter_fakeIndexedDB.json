@@ -1,0 +1,21 @@
+{
+	"_id": "9528352",
+	"site": "https://github.com/dumbmatter/fakeIndexedDB",
+	"title": " A pure JavaScript implementation of IndexedDB that passes all the W3C tests",
+	"author": "streptomycin",
+	"date": "2017-06-19T10:49:05.231Z",
+	"tags": {
+		"categories": [
+			"indexeddb",
+			"ponyfill",
+			"shim",
+			"polyfill"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"typescript"
+		]
+	},
+	"content": ""
+}

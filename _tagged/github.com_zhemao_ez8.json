@@ -1,0 +1,20 @@
+{
+	"_id": "7293045",
+	"site": "https://github.com/zhemao/ez8",
+	"title": " A Toy 8-bit Microcontroller for FPGAs",
+	"author": "zhemao",
+	"date": "2017-06-19T09:43:42.649Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"verilog",
+			"tcl",
+			"ocaml",
+			"shell",
+			"systemverilog",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

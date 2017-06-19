@@ -1,0 +1,16 @@
+{
+	"_id": "9545556",
+	"site": "https://github.com/longsleep/mydyns",
+	"title": " Mydyns – Run your own dynamic DNS zone",
+	"author": "longsleep",
+	"date": "2017-06-19T10:12:49.200Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

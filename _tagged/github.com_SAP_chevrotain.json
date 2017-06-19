@@ -1,0 +1,22 @@
+{
+	"_id": "11238769",
+	"site": "https://github.com/SAP/chevrotain",
+	"title": " Chevrotain – Fault-Tolerant JavaScript Parsing DSL",
+	"author": "bd82",
+	"date": "2017-06-19T10:46:12.440Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"typescript",
+			"parser-library",
+			"parsing"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "10225179",
+	"site": "https://github.com/magnetikonline/slackpost",
+	"title": " Node.js module for sending msgs to Slack.com via incoming webhooks API",
+	"author": "magnetikonline",
+	"date": "2017-06-19T10:04:02.759Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"npm-package",
+			"chat"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

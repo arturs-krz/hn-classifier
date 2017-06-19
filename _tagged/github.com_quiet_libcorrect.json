@@ -1,0 +1,21 @@
+{
+	"_id": "12702701",
+	"site": "https://github.com/quiet/libcorrect",
+	"title": " BSD-licensed Viterbi, Reed-Solomon encoder/decoder",
+	"author": "brian-armstrong",
+	"date": "2017-06-19T08:42:39.151Z",
+	"tags": {
+		"categories": [
+			"convolutional-codes",
+			"reed-solomon",
+			"fec",
+			"viterbi-algorithm"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

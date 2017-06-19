@@ -1,0 +1,24 @@
+{
+	"_id": "10000390",
+	"site": "https://github.com/IcaliaLabs/pager-api",
+	"title": " Pagination Gem for Rails",
+	"author": "kurenn88",
+	"date": "2017-06-19T10:35:23.298Z",
+	"tags": {
+		"categories": [
+			"pagination",
+			"api",
+			"json",
+			"ruby",
+			"rails",
+			"gem",
+			"kaminari",
+			"will-paginate"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

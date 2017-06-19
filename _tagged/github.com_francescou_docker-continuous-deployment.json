@@ -1,0 +1,23 @@
+{
+	"_id": "10507050",
+	"site": "https://github.com/francescou/docker-continuous-deployment",
+	"title": " Microservices Continuous Deployment with Docker",
+	"author": "warrior10111",
+	"date": "2017-06-19T08:42:59.574Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"continuous-deployment",
+			"microservices"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"python",
+			"smarty",
+			"shell",
+			"css"
+		]
+	},
+	"content": ""
+}

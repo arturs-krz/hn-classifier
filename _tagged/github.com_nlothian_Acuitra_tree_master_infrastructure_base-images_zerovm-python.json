@@ -1,0 +1,12 @@
+{
+	"_id": "7236867",
+	"site": "https://github.com/nlothian/Acuitra/tree/master/infrastructure/base-images/zerovm-python",
+	"title": " A secure sandbox for Python (and Sympy) using ZeroVM and Docker",
+	"author": "nl",
+	"date": "2017-06-19T09:57:33.532Z",
+	"tags": {
+		"categories": [],
+		"languages": []
+	},
+	"content": ""
+}

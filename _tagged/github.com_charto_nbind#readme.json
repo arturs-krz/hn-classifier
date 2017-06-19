@@ -1,0 +1,24 @@
+{
+	"_id": "11861581",
+	"site": "https://github.com/charto/nbind#readme",
+	"title": " Nbind – universal toolkit for mixing C++ and JavaScript",
+	"author": "jjrv",
+	"date": "2017-06-19T10:56:11.416Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"node-addon",
+			"asmjs",
+			"nodejs",
+			"emscripten",
+			"typescript"
+		],
+		"languages": [
+			"c++",
+			"typescript",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

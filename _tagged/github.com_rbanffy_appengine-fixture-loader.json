@@ -1,0 +1,19 @@
+{
+	"_id": "8705881",
+	"site": "https://github.com/rbanffy/appengine-fixture-loader",
+	"title": " JSON files and making good tests easier to write in Google App Engine",
+	"author": "rbanffy",
+	"date": "2017-06-19T08:43:02.650Z",
+	"tags": {
+		"categories": [
+			"python",
+			"google-appengine"
+		],
+		"languages": [
+			"python",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

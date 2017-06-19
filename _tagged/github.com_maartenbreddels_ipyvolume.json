@@ -1,0 +1,32 @@
+{
+	"_id": "13667015",
+	"site": "https://github.com/maartenbreddels/ipyvolume",
+	"title": " Ipyvolume: 3D plotting library for the Jupyter/IPython notebook",
+	"author": "maartenbreddels",
+	"date": "2017-06-19T08:44:06.854Z",
+	"tags": {
+		"categories": [
+			"ipython-widget",
+			"jupyter",
+			"jupyter-notebook",
+			"python",
+			"visualisation",
+			"volume-rendering",
+			"virtual-reality",
+			"plotting",
+			"dataviz",
+			"scientific-visualization",
+			"webgl",
+			"threejs",
+			"rendering-3d-volumes",
+			"quiver"
+		],
+		"languages": [
+			"jupyter notebook",
+			"javascript",
+			"python",
+			"glsl"
+		]
+	},
+	"content": ""
+}

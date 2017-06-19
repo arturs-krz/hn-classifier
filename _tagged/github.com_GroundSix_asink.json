@@ -1,0 +1,16 @@
+{
+	"_id": "7998245",
+	"site": "https://github.com/GroundSix/asink",
+	"title": " Asink - A Concurrent Task Runner in Go",
+	"author": "hazbo",
+	"date": "2017-06-19T09:34:53.486Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

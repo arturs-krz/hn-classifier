@@ -1,0 +1,14 @@
+{
+	"_id": "10921108",
+	"site": "https://github.com/zach-klippenstein/go-typedregexp",
+	"title": " Typedregexp – Match regexps into structs in Go",
+	"author": "zachklipp",
+	"date": "2017-06-19T10:44:25.428Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

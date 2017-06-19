@@ -1,0 +1,20 @@
+{
+	"_id": "9668214",
+	"site": "https://github.com/IcaliaLabs/platter",
+	"title": " Serve Rails app with Platter",
+	"author": "kurenn88",
+	"date": "2017-06-19T09:53:42.416Z",
+	"tags": {
+		"categories": [
+			"rails",
+			"custom",
+			"cli"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

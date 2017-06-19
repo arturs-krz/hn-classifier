@@ -1,0 +1,18 @@
+{
+	"_id": "13643879",
+	"site": "https://github.com/edne/i3-workspace-handler",
+	"title": " Create i3 workspaces on the fly and call them by name",
+	"author": "edne",
+	"date": "2017-06-19T10:58:01.303Z",
+	"tags": {
+		"categories": [
+			"i3",
+			"i3wm",
+			"workspace-manager"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

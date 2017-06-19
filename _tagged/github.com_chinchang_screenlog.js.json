@@ -1,0 +1,19 @@
+{
+	"_id": "10614014",
+	"site": "https://github.com/chinchang/screenlog.js",
+	"title": " Screenlog.js – use console.log without opening the console",
+	"author": "chinchang",
+	"date": "2017-06-19T10:41:57.643Z",
+	"tags": {
+		"categories": [
+			"logging",
+			"logging-library",
+			"console-substitute"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

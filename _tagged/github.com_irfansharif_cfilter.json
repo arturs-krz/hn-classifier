@@ -1,0 +1,19 @@
+{
+	"_id": "12241332",
+	"site": "https://github.com/irfansharif/cfilter",
+	"title": " Cuckoo Filter Implementation in Go, Better Than Bloom Filters",
+	"author": "irfansharif",
+	"date": "2017-06-19T10:17:21.083Z",
+	"tags": {
+		"categories": [
+			"cuckoo-filter",
+			"bloom-filter",
+			"filter",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

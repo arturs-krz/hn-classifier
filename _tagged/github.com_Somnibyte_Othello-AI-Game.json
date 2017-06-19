@@ -1,0 +1,20 @@
+{
+	"_id": "12694842",
+	"site": "https://github.com/Somnibyte/Othello-AI-Game",
+	"title": " Othello AI game using minimax algorithm and static evaluation function",
+	"author": "Guled",
+	"date": "2017-06-19T08:44:25.205Z",
+	"tags": {
+		"categories": [
+			"othello",
+			"game",
+			"ai",
+			"artificial-intelligence",
+			"minimax"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

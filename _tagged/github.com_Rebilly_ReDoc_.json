@@ -1,0 +1,21 @@
+{
+	"_id": "12216710",
+	"site": "https://github.com/Rebilly/ReDoc/",
+	"title": " Open-source Swagger/OpenAPI documentation engine",
+	"author": "romanhotsiy",
+	"date": "2017-06-19T09:49:40.642Z",
+	"tags": {
+		"categories": [
+			"openapi",
+			"swagger",
+			"api-documentation"
+		],
+		"languages": [
+			"typescript",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

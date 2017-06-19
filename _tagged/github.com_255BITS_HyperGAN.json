@@ -1,0 +1,30 @@
+{
+	"_id": "13367343",
+	"site": "https://github.com/255BITS/HyperGAN",
+	"title": " HyperGAN 0.6.0 “MultiGAN”",
+	"author": "whataretensors",
+	"date": "2017-06-19T08:42:26.299Z",
+	"tags": {
+		"categories": [
+			"gan",
+			"supervised-learning",
+			"unsupervised-learning",
+			"learning",
+			"generative-adversarial-network",
+			"generative-model",
+			"artificial-intelligence",
+			"machine-learning",
+			"machine-learning-api",
+			"tensorflow",
+			"python3",
+			"discriminator",
+			"gpu-tensorflow",
+			"classifier",
+			"generator"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

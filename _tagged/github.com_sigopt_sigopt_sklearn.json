@@ -1,0 +1,15 @@
+{
+	"_id": "11529452",
+	"site": "https://github.com/sigopt/sigopt_sklearn",
+	"title": " One line Bayesian optimization of scikit_learn model hyperparameters",
+	"author": "Zephyr314",
+	"date": "2017-06-19T10:06:38.345Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

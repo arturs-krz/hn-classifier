@@ -1,0 +1,19 @@
+{
+	"_id": "8179931",
+	"site": "https://github.com/namuol/spotify-desktop-remote",
+	"title": " A simple HTTP interface for controlling Spotify Desktop",
+	"author": "namuol",
+	"date": "2017-06-19T09:56:28.348Z",
+	"tags": {
+		"categories": [
+			"spotify",
+			"control-spotify-desktop"
+		],
+		"languages": [
+			"javascript",
+			"coffeescript",
+			"html"
+		]
+	},
+	"content": ""
+}

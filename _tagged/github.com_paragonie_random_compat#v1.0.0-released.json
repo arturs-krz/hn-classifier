@@ -1,0 +1,28 @@
+{
+	"_id": "10180478",
+	"site": "https://github.com/paragonie/random_compat#v1.0.0-released",
+	"title": " Random_compat – Use PHP7's CSPRNG Functions in PHP5 Projects",
+	"author": "paragon_init",
+	"date": "2017-06-19T09:58:29.587Z",
+	"tags": {
+		"categories": [
+			"php",
+			"php5",
+			"secure",
+			"secure-by-default",
+			"random",
+			"random-bytes",
+			"csprng",
+			"randomness",
+			"random-int",
+			"polyfill",
+			"random-generation",
+			"randomization"
+		],
+		"languages": [
+			"php",
+			"shell"
+		]
+	},
+	"content": ""
+}

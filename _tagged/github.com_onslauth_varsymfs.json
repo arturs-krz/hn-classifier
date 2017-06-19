@@ -1,0 +1,15 @@
+{
+	"_id": "10359427",
+	"site": "https://github.com/onslauth/varsymfs",
+	"title": " Variant Symlink Filesystem for Linux",
+	"author": "onslauth",
+	"date": "2017-06-19T10:20:18.841Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

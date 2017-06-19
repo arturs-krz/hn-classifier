@@ -1,0 +1,18 @@
+{
+	"_id": "11903674",
+	"site": "https://github.com/rcorcs/rcc",
+	"title": " My own C compiler (just for fun)",
+	"author": "rcorcs",
+	"date": "2017-06-19T10:24:56.911Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"yacc",
+			"lex",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

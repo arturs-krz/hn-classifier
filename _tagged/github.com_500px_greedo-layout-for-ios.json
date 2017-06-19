@@ -1,0 +1,23 @@
+{
+	"_id": "11183812",
+	"site": "https://github.com/500px/greedo-layout-for-ios",
+	"title": " Drop-In Full Aspect Ratio Grid Layout for iOS",
+	"author": "JVillella",
+	"date": "2017-06-19T10:34:14.101Z",
+	"tags": {
+		"categories": [
+			"cocoapods",
+			"greedo-layout",
+			"ios",
+			"library",
+			"layout",
+			"uicollectionview",
+			"objective-c"
+		],
+		"languages": [
+			"objective-c",
+			"ruby"
+		]
+	},
+	"content": ""
+}

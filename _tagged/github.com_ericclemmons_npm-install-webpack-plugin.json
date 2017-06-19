@@ -1,0 +1,17 @@
+{
+	"_id": "10965108",
+	"site": "https://github.com/ericclemmons/npm-install-webpack-plugin",
+	"title": " Speed up development by automatically installing and saving dependencies",
+	"author": "ericclemmons",
+	"date": "2017-06-19T08:46:45.956Z",
+	"tags": {
+		"categories": [
+			"webpack-plugin"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

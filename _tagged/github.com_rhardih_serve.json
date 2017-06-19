@@ -1,0 +1,21 @@
+{
+	"_id": "11607537",
+	"site": "https://github.com/rhardih/serve",
+	"title": " Serve – like python -m SimpleHTTPServer, but with gzip and http2",
+	"author": "rhardih",
+	"date": "2017-06-19T08:44:26.106Z",
+	"tags": {
+		"categories": [
+			"http",
+			"https",
+			"gzip",
+			"golang",
+			"http2",
+			"localhost"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

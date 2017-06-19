@@ -1,0 +1,18 @@
+{
+	"_id": "11307155",
+	"site": "https://github.com/markgreenall/GTIN-Validation",
+	"title": " Validate GTIN (Barcode) 8s, 12s, 13s, and 14s in JavaScript or PHP",
+	"author": "Narutu",
+	"date": "2017-06-19T10:26:51.239Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"php",
+			"javascript",
+			"ruby",
+			"c++"
+		]
+	},
+	"content": ""
+}

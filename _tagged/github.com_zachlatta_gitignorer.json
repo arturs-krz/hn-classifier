@@ -1,0 +1,14 @@
+{
+	"_id": "6684677",
+	"site": "https://github.com/zachlatta/gitignorer",
+	"title": " gitignorer - easily generate .gitignore files for you project",
+	"author": "zachlatta",
+	"date": "2017-06-19T09:54:41.516Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

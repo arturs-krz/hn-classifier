@@ -1,0 +1,21 @@
+{
+	"_id": "10904022",
+	"site": "https://github.com/ezekg/xo",
+	"title": " xo – utility that takes input from stdin and formats the regexp matches",
+	"author": "ezekg",
+	"date": "2017-06-19T10:11:59.633Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"unix",
+			"golang",
+			"regular-expression",
+			"cli-utilities",
+			"cli-utility"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "8098397",
+	"site": "https://github.com/ageitgey/node-pullquoter",
+	"title": " Pullquoter – Node CLI tool to grab interesting sentences from articles",
+	"author": "ageitgey",
+	"date": "2017-06-19T09:40:34.439Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"makefile",
+			"javascript"
+		]
+	},
+	"content": ""
+}

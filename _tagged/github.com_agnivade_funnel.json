@@ -1,0 +1,20 @@
+{
+	"_id": "13013630",
+	"site": "https://github.com/agnivade/funnel",
+	"title": " Funnel – A minimalistic 12 factor log router written in Go",
+	"author": "agnivade",
+	"date": "2017-06-19T08:44:01.278Z",
+	"tags": {
+		"categories": [
+			"log-rotation",
+			"golang",
+			"log-stream",
+			"log-router"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12001094",
+	"site": "https://github.com/AmadeusITGroup/GraphDash",
+	"title": " A web-based dashboard for your graphs",
+	"author": "alexprengere",
+	"date": "2017-06-19T08:44:20.390Z",
+	"tags": {
+		"categories": [
+			"python",
+			"graphs",
+			"dashboard",
+			"web"
+		],
+		"languages": [
+			"python",
+			"css",
+			"html",
+			"coffeescript",
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

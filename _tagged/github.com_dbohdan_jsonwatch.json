@@ -1,0 +1,21 @@
+{
+	"_id": "7491906",
+	"site": "https://github.com/dbohdan/jsonwatch",
+	"title": " jsonwatch – track changes in JSON data from the command line",
+	"author": "networked",
+	"date": "2017-06-19T10:19:53.029Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"json",
+			"command-line-tool",
+			"monitor-changes",
+			"change-report",
+			"watch"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": ""
+}

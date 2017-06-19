@@ -1,0 +1,21 @@
+{
+	"_id": "8528435",
+	"site": "https://github.com/msanders/cider",
+	"title": " Cider — Hassle-free bootstrapping using Homebrew",
+	"author": "mkskm",
+	"date": "2017-06-19T08:46:33.891Z",
+	"tags": {
+		"categories": [
+			"python",
+			"homebrew",
+			"bootstrap",
+			"dotfiles"
+		],
+		"languages": [
+			"python",
+			"objective-c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13397664",
+	"site": "https://github.com/c9s/jchash",
+	"title": " Google's Jump Consistent Hash in PHP7 Extension",
+	"author": "pedro93",
+	"date": "2017-06-19T09:39:44.022Z",
+	"tags": {
+		"categories": [
+			"consistent-hash-algorithm",
+			"algorithm",
+			"php",
+			"php7"
+		],
+		"languages": [
+			"c",
+			"m4",
+			"shell",
+			"c++",
+			"php",
+			"javascript"
+		]
+	},
+	"content": ""
+}

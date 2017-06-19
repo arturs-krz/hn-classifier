@@ -1,0 +1,22 @@
+{
+	"_id": "13057391",
+	"site": "https://github.com/stickermule/rump",
+	"title": " Rump – sync two Redis servers using dumps",
+	"author": "jdorfman",
+	"date": "2017-06-19T09:55:37.396Z",
+	"tags": {
+		"categories": [
+			"redis-server",
+			"sync",
+			"aws-elasticache",
+			"golang",
+			"go",
+			"shell"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "14004068",
+	"site": "https://github.com/maxhallinan/brunfaick",
+	"title": " Brunfaick, a fast Brainfuck interpreter implemented in JavaScript",
+	"author": "noshbrinken",
+	"date": "2017-06-19T09:40:49.047Z",
+	"tags": {
+		"categories": [
+			"brainfuck",
+			"esolang"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "13455247",
+	"site": "https://github.com/jsynowiec/node-typescript-boilerplate",
+	"title": " Boilerplate for Node.js and TypeScript with Jest tests",
+	"author": "jsynowiec",
+	"date": "2017-06-19T11:10:56.746Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"nodejs",
+			"boilerplate",
+			"project-template",
+			"tslint",
+			"jest",
+			"starter-template"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

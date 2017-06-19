@@ -1,0 +1,15 @@
+{
+	"_id": "4967739",
+	"site": "https://github.com/gadr90/remote",
+	"title": " Remote, a simple reverse proxy for Node - no more cross-domain.",
+	"author": "gadr90",
+	"date": "2017-06-19T10:31:03.229Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

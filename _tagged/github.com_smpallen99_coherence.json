@@ -1,0 +1,21 @@
+{
+	"_id": "12162635",
+	"site": "https://github.com/smpallen99/coherence",
+	"title": " Elixir Coherence – Authentication Similar to Ruby’s Devise",
+	"author": "claudiojulio",
+	"date": "2017-06-19T08:37:01.090Z",
+	"tags": {
+		"categories": [
+			"elixir",
+			"phoenix-framework",
+			"authentication",
+			"hex",
+			"package"
+		],
+		"languages": [
+			"elixir",
+			"html"
+		]
+	},
+	"content": ""
+}

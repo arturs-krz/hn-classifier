@@ -1,0 +1,17 @@
+{
+	"_id": "13042191",
+	"site": "https://github.com/eliot-akira/pattern-manager",
+	"title": " Tool for managing code patterns (JavaScript)",
+	"author": "lioeters",
+	"date": "2017-06-19T10:00:51.888Z",
+	"tags": {
+		"categories": [
+			"pattern",
+			"scaffold"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

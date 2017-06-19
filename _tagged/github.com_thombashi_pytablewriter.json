@@ -1,0 +1,32 @@
+{
+	"_id": "11761730",
+	"site": "https://github.com/thombashi/pytablewriter",
+	"title": " Pytablewriter – A python library to write a table with various formats",
+	"author": "thombashi",
+	"date": "2017-06-19T09:52:47.383Z",
+	"tags": {
+		"categories": [
+			"python-library",
+			"table",
+			"writer",
+			"csv",
+			"html",
+			"javascript",
+			"json",
+			"ltsv",
+			"markdown",
+			"mediawiki",
+			"excel",
+			"pandas",
+			"restructuredtext",
+			"toml",
+			"tsv",
+			"sqlite",
+			"pandas-dataframe"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

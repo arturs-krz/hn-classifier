@@ -1,0 +1,20 @@
+{
+	"_id": "7628520",
+	"site": "https://github.com/puniverse/capsule",
+	"title": " Capsule – Simple Packaging and Deployment for JVM Apps",
+	"author": "pron",
+	"date": "2017-06-19T09:50:02.796Z",
+	"tags": {
+		"categories": [
+			"java",
+			"jar",
+			"jvm",
+			"packaging",
+			"deployment"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

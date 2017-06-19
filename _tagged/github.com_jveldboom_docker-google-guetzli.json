@@ -1,0 +1,17 @@
+{
+	"_id": "13908503",
+	"site": "https://github.com/jveldboom/docker-google-guetzli",
+	"title": " Google's Guetzli with Docker",
+	"author": "elibones",
+	"date": "2017-06-19T09:49:09.823Z",
+	"tags": {
+		"categories": [
+			"google",
+			"guetzli",
+			"image-compression",
+			"image-processing"
+		],
+		"languages": []
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "13864358",
+	"site": "https://github.com/ahmadassaf/git-beam-it",
+	"title": " Bulk clone GitHub repositories for a specific user/organisation or team",
+	"author": "ahmadassaf",
+	"date": "2017-06-19T08:42:23.883Z",
+	"tags": {
+		"categories": [
+			"github",
+			"git",
+			"repository-utilities",
+			"repository-management",
+			"repository-tools"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

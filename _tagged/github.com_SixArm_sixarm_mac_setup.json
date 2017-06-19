@@ -1,0 +1,20 @@
+{
+	"_id": "13298402",
+	"site": "https://github.com/SixArm/sixarm_mac_setup",
+	"title": " New Mac setup notes for developers and programmers",
+	"author": "jph",
+	"date": "2017-06-19T09:51:24.158Z",
+	"tags": {
+		"categories": [
+			"mac",
+			"macos",
+			"iac",
+			"shell",
+			"script"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

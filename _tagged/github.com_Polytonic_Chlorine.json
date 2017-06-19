@@ -1,0 +1,20 @@
+{
+	"_id": "8889118",
+	"site": "https://github.com/Polytonic/Chlorine",
+	"title": " Parallel Processing, Made Simple(r)",
+	"author": "Polytonic",
+	"date": "2017-06-19T10:31:20.801Z",
+	"tags": {
+		"categories": [
+			"cplusplus",
+			"opencl",
+			"compute",
+			"gpgpu"
+		],
+		"languages": [
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

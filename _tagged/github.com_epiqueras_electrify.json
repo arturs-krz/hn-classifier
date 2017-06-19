@@ -1,0 +1,21 @@
+{
+	"_id": "14230395",
+	"site": "https://github.com/epiqueras/electrify",
+	"title": " Electrify – Turn websites into native desktop apps",
+	"author": "ep123",
+	"date": "2017-06-19T09:58:28.325Z",
+	"tags": {
+		"categories": [
+			"scaffolding",
+			"desktop-apps",
+			"electron",
+			"native"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

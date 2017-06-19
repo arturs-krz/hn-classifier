@@ -1,0 +1,16 @@
+{
+	"_id": "9610854",
+	"site": "https://github.com/MediaMath/grim",
+	"title": " Grim – a dead simple build server written in go",
+	"author": "kasey_junk",
+	"date": "2017-06-19T11:00:14.026Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13316317",
+	"site": "https://github.com/dmozzy/Muster",
+	"title": " Muster an AWS Lambda Java Framework",
+	"author": "dmozzy",
+	"date": "2017-06-19T09:46:38.403Z",
+	"tags": {
+		"categories": [
+			"aws-lambda",
+			"aws",
+			"java",
+			"dynamodb",
+			"api-gateway",
+			"cloudformation"
+		],
+		"languages": [
+			"java",
+			"shell"
+		]
+	},
+	"content": ""
+}

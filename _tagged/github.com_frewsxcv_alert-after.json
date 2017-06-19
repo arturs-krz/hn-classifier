@@ -1,0 +1,19 @@
+{
+	"_id": "14014492",
+	"site": "https://github.com/frewsxcv/alert-after",
+	"title": " Alert-after: Utility to get a desktop alert after a command finishes",
+	"author": "frewsxcv",
+	"date": "2017-06-19T10:40:40.624Z",
+	"tags": {
+		"categories": [
+			"desktop-notifications",
+			"cli",
+			"alert",
+			"notifications"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

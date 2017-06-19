@@ -1,0 +1,19 @@
+{
+	"_id": "10449383",
+	"site": "https://github.com/ers35/luastatic",
+	"title": " Luastatic – Build an executable from a Lua program",
+	"author": "ers35",
+	"date": "2017-06-19T10:11:42.690Z",
+	"tags": {
+		"categories": [
+			"lua"
+		],
+		"languages": [
+			"lua",
+			"makefile",
+			"c",
+			"c++"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "12425632",
+	"site": "https://github.com/felixSchl/git-fiddle",
+	"title": " Git–fiddle – Edit commit messages, author and timestamps during rebase",
+	"author": "felixschl",
+	"date": "2017-06-19T10:04:32.449Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"roff",
+			"makefile"
+		]
+	},
+	"content": ""
+}

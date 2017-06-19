@@ -1,0 +1,15 @@
+{
+	"_id": "13946365",
+	"site": "https://github.com/schollz/cowyo",
+	"title": " A feature-rich wiki server for minimalists, written in Go",
+	"author": "qrv3w",
+	"date": "2017-06-19T09:40:17.453Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "9513784",
+	"site": "https://github.com/TidalLabs/Slacker",
+	"title": " I made a command-line Slack chat client",
+	"author": "bkanber",
+	"date": "2017-06-19T10:25:06.002Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"php",
+			"makefile"
+		]
+	},
+	"content": ""
+}

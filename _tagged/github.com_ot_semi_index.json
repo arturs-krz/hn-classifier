@@ -1,0 +1,16 @@
+{
+	"_id": "2861442",
+	"site": "https://github.com/ot/semi_index",
+	"title": " Semi-index - Speed up JSON parsing in MapReduce-like tasks",
+	"author": "ot",
+	"date": "2017-06-19T09:52:00.202Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "10921422",
+	"site": "https://github.com/marmelroy/Zip",
+	"title": " Zip – Swift framework for zipping and unzipping files",
+	"author": "marmelroy",
+	"date": "2017-06-19T10:51:01.864Z",
+	"tags": {
+		"categories": [
+			"zip",
+			"unzip",
+			"compression",
+			"swift",
+			"files"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"shell",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "12322399",
+	"site": "https://github.com/VdoCipher/cloudhopper",
+	"title": " Yet another framework for Managing APIs with AWS Lambda",
+	"author": "vibhavsinha",
+	"date": "2017-06-19T10:34:01.629Z",
+	"tags": {
+		"categories": [
+			"api-gateway",
+			"aws-lambda",
+			"expressjs"
+		],
+		"languages": [
+			"javascript",
+			"vim script"
+		]
+	},
+	"content": ""
+}

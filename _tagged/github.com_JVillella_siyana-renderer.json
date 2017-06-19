@@ -1,0 +1,26 @@
+{
+	"_id": "10377572",
+	"site": "https://github.com/JVillella/siyana-renderer",
+	"title": " OpenCL Path Tracer/Terrain Generator Written in Highschool",
+	"author": "JVillella",
+	"date": "2017-06-19T08:45:43.539Z",
+	"tags": {
+		"categories": [
+			"opencl",
+			"terrain-generation",
+			"real-time",
+			"computer-graphics",
+			"path-tracer",
+			"ray-tracer",
+			"cpp",
+			"siyana-renderer",
+			"boost",
+			"glfw"
+		],
+		"languages": [
+			"c++",
+			"c"
+		]
+	},
+	"content": ""
+}

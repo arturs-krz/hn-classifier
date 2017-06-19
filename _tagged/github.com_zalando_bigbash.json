@@ -1,0 +1,16 @@
+{
+	"_id": "11801311",
+	"site": "https://github.com/zalando/bigbash",
+	"title": " Bigbash – Generate bash one-liners from SQL queries on files without DB",
+	"author": "bobivl",
+	"date": "2017-06-19T10:36:38.850Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java",
+			"antlr",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "8023713",
+	"site": "https://github.com/Xfennec/cv",
+	"title": " Linux tool to show progress for cp, rm, dd, etc.",
+	"author": "tbrock",
+	"date": "2017-06-19T10:37:29.243Z",
+	"tags": {
+		"categories": [
+			"monitoring",
+			"linux",
+			"coreutils"
+		],
+		"languages": [
+			"c",
+			"roff",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "12585040",
+	"site": "https://github.com/sotojuan/fugot",
+	"title": " A Node HTTP client that returns Futures instead of Promises",
+	"author": "sotojuan",
+	"date": "2017-06-19T10:15:26.399Z",
+	"tags": {
+		"categories": [
+			"fantasy-land",
+			"monad",
+			"functional",
+			"functional-programming"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

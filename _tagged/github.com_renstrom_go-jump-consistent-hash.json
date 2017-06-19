@@ -1,0 +1,18 @@
+{
+	"_id": "9269387",
+	"site": "https://github.com/renstrom/go-jump-consistent-hash",
+	"title": " Jump consistent hash in Go",
+	"author": "Spiritus",
+	"date": "2017-06-19T08:44:28.331Z",
+	"tags": {
+		"categories": [
+			"consistent-hash-algorithm",
+			"go",
+			"algorithm"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

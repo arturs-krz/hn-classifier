@@ -1,0 +1,15 @@
+{
+	"_id": "8248221",
+	"site": "https://www.github.com/jcalvinowens/asmhttpd",
+	"title": " HTTP server written in x64 assembly (x86-64)",
+	"author": "jcalvinowens",
+	"date": "2017-06-19T09:59:09.837Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"assembly",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13435386",
+	"site": "https://github.com/kdani3/i3-gnome-pomodoro",
+	"title": " hide i3 notifications, workspaces during pomodoro, timer on i3bar",
+	"author": "kdantord",
+	"date": "2017-06-19T10:41:17.012Z",
+	"tags": {
+		"categories": [
+			"i3-gnome-pomodoro",
+			"i3status",
+			"dunst",
+			"i3bar",
+			"workspace",
+			"pomodoro-timer",
+			"pomodoro",
+			"i3",
+			"i3wm"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

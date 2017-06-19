@@ -1,0 +1,23 @@
+{
+	"_id": "9935241",
+	"site": "https://github.com/jglovier/resume-template",
+	"title": " A simple, forkable, Jekyll based resume template",
+	"author": "jglovier",
+	"date": "2017-06-19T08:42:36.155Z",
+	"tags": {
+		"categories": [
+			"resume-template",
+			"jekyll",
+			"theme",
+			"html",
+			"css",
+			"resume"
+		],
+		"languages": [
+			"html",
+			"css",
+			"ruby"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "7534358",
+	"site": "https://github.com/IcaliaLabs/carrierwave_versions_backgrounder",
+	"title": " Background Image Versioning with CarrierWave and Rails",
+	"author": "kurenn88",
+	"date": "2017-06-19T08:46:08.085Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"gem",
+			"carrierwave",
+			"rails",
+			"delay",
+			"background-jobs"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

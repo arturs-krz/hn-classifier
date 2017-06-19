@@ -1,0 +1,23 @@
+{
+	"_id": "13115188",
+	"site": "https://github.com/bostick/tuppence?hn",
+	"title": " Tuppence Programming Language for 2-adic arithmetic",
+	"author": "bostick",
+	"date": "2017-06-19T10:36:39.816Z",
+	"tags": {
+		"categories": [
+			"programming-language",
+			"arithmetic",
+			"language",
+			"bit-twiddling",
+			"p-adic",
+			"2-adic"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"other"
+		]
+	},
+	"content": ""
+}

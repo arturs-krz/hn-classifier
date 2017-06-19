@@ -1,0 +1,23 @@
+{
+	"_id": "13948734",
+	"site": "https://github.com/Polochon-street/bliss",
+	"title": " Bliss, a library to generate smart playlists from your music",
+	"author": "Biganon",
+	"date": "2017-06-19T08:43:03.692Z",
+	"tags": {
+		"categories": [
+			"songs",
+			"distance",
+			"audio",
+			"audio-applications",
+			"audio-analyzer",
+			"audio-analysis"
+		],
+		"languages": [
+			"c",
+			"python",
+			"cmake"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14236580",
+	"site": "https://github.com/Y2Z/Doer",
+	"title": " Persistent Notepad “Doer”",
+	"author": "flatroze",
+	"date": "2017-06-19T09:51:06.418Z",
+	"tags": {
+		"categories": [
+			"todo",
+			"todo-list",
+			"to-do",
+			"notepad",
+			"doer",
+			"qt",
+			"notes"
+		],
+		"languages": [
+			"c++",
+			"qmake"
+		]
+	},
+	"content": ""
+}

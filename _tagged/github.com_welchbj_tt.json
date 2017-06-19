@@ -1,0 +1,23 @@
+{
+	"_id": "13225510",
+	"site": "https://github.com/welchbj/tt",
+	"title": " Tt – A Python Library/CLI for Boolean Expressions",
+	"author": "discoverer1776",
+	"date": "2017-06-19T10:02:22.585Z",
+	"tags": {
+		"categories": [
+			"boolean-expression",
+			"boolean-algebra",
+			"boolean",
+			"python",
+			"satisfiability",
+			"truth-table"
+		],
+		"languages": [
+			"python",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

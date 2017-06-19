@@ -1,0 +1,21 @@
+{
+	"_id": "10620535",
+	"site": "https://github.com/neurosnap/sentences",
+	"title": " A Command-Line Sentence Tokenizer Written in Golang",
+	"author": "qudat",
+	"date": "2017-06-19T09:58:20.013Z",
+	"tags": {
+		"categories": [
+			"sentence-tokenizer",
+			"tokenizer",
+			"cli",
+			"sentences"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"python"
+		]
+	},
+	"content": ""
+}

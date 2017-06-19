@@ -1,0 +1,19 @@
+{
+	"_id": "3836417",
+	"site": "https://github.com/orangeduck/PyAutoC",
+	"title": " Autowrap C functions at runtime for the Python/C API",
+	"author": "orangeduck",
+	"date": "2017-06-19T10:34:25.492Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"c",
+			"html",
+			"plsql",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

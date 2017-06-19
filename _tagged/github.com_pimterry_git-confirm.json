@@ -1,0 +1,18 @@
+{
+	"_id": "12218622",
+	"site": "https://github.com/pimterry/git-confirm",
+	"title": " Git Confirm. Git hook to catch accidentally committed code (TODO/Skip)",
+	"author": "pimterry",
+	"date": "2017-06-19T10:29:53.069Z",
+	"tags": {
+		"categories": [
+			"git-hook",
+			"git",
+			"git-addons"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

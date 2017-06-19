@@ -1,0 +1,20 @@
+{
+	"_id": "8718436",
+	"site": "https://github.com/takama/daemon",
+	"title": " A daemon package for use with Go (golang)",
+	"author": "takama",
+	"date": "2017-06-19T09:40:55.443Z",
+	"tags": {
+		"categories": [
+			"daemon",
+			"service",
+			"go",
+			"golang",
+			"linux"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

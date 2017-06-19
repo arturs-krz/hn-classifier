@@ -1,0 +1,27 @@
+{
+	"_id": "9107912",
+	"site": "https://github.com/Snaipe/Criterion",
+	"title": " Criterion – A new C unit testing framework",
+	"author": "Snaipe",
+	"date": "2017-06-19T08:37:00.939Z",
+	"tags": {
+		"categories": [
+			"c",
+			"c-plus-plus",
+			"unit-testing",
+			"framework",
+			"kiss",
+			"cross-platform"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"cmake",
+			"perl",
+			"shell",
+			"objective-c",
+			"other"
+		]
+	},
+	"content": ""
+}

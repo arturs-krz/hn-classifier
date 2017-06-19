@@ -1,0 +1,24 @@
+{
+	"_id": "9759204",
+	"site": "https://github.com/sindresorhus/fkill-cli",
+	"title": " CLI to force kill processes, cross-platform",
+	"author": "mofle",
+	"date": "2017-06-19T09:37:33.063Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"cli-app",
+			"cli",
+			"kill",
+			"unicorns",
+			"javascript",
+			"cross-platform",
+			"fabulous",
+			"process"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

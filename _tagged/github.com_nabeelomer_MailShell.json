@@ -1,0 +1,19 @@
+{
+	"_id": "14042858",
+	"site": "https://github.com/nabeelomer/MailShell",
+	"title": " MailShell – Execute shell commands through your email",
+	"author": "nabeelomer",
+	"date": "2017-06-19T08:46:24.848Z",
+	"tags": {
+		"categories": [
+			"shell",
+			"email",
+			"gmail",
+			"ruby"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

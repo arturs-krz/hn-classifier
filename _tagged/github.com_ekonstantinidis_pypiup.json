@@ -1,0 +1,14 @@
+{
+	"_id": "11429640",
+	"site": "https://github.com/ekonstantinidis/pypiup",
+	"title": " PyPIup – CLI that checks whether your PyPI requirements are up to date",
+	"author": "ekonstantinidis",
+	"date": "2017-06-19T11:02:57.299Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

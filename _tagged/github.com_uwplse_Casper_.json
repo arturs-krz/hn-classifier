@@ -1,0 +1,23 @@
+{
+	"_id": "12655405",
+	"site": "https://github.com/uwplse/Casper/",
+	"title": " Compiler from sequential Java to Spark",
+	"author": "stenning",
+	"date": "2017-06-19T08:40:01.316Z",
+	"tags": {
+		"categories": [
+			"spark",
+			"java",
+			"compiler",
+			"dafny",
+			"z3",
+			"synthesis"
+		],
+		"languages": [
+			"java",
+			"lex",
+			"other"
+		]
+	},
+	"content": ""
+}

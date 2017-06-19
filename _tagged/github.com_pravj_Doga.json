@@ -1,0 +1,19 @@
+{
+	"_id": "8298094",
+	"site": "https://github.com/pravj/Doga",
+	"title": " Doga – HTTP log monitoring console for humans",
+	"author": "pravj",
+	"date": "2017-06-19T10:49:09.561Z",
+	"tags": {
+		"categories": [
+			"monitoring",
+			"console",
+			"http",
+			"log-monitor"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

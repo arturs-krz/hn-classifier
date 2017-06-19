@@ -1,0 +1,18 @@
+{
+	"_id": "10266309",
+	"site": "https://github.com/morninj/django-docker",
+	"title": " Django on Docker",
+	"author": "morninj",
+	"date": "2017-06-19T10:00:59.670Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell",
+			"html",
+			"nginx",
+			"css"
+		]
+	},
+	"content": ""
+}

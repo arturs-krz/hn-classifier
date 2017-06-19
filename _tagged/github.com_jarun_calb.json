@@ -1,0 +1,27 @@
+{
+	"_id": "12597524",
+	"site": "https://github.com/jarun/calb",
+	"title": " Calb (CALculate Bytes) – Perform storage conversions and calculations",
+	"author": "apjana",
+	"date": "2017-06-19T09:53:52.425Z",
+	"tags": {
+		"categories": [
+			"calculations",
+			"storage",
+			"lba-chs",
+			"storage-unit-converter",
+			"storage-conversion",
+			"command-line",
+			"standalone",
+			"terminal"
+		],
+		"languages": [
+			"c",
+			"python",
+			"roff",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

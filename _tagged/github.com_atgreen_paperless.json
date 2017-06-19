@@ -1,0 +1,15 @@
+{
+	"_id": "13614766",
+	"site": "https://github.com/atgreen/paperless",
+	"title": " Paperless – Emacs assisted PDF document filing",
+	"author": "atgreen",
+	"date": "2017-06-19T10:47:38.991Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"emacs lisp",
+			"makefile"
+		]
+	},
+	"content": ""
+}

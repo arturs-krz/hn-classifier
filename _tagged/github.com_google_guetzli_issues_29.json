@@ -1,0 +1,12 @@
+{
+	"_id": "13435809",
+	"site": "https://github.com/google/guetzli/issues/29",
+	"title": " A null pointer dereference in Google's guetzli JPEG encoder",
+	"author": "risk",
+	"date": "2017-06-19T10:40:24.349Z",
+	"tags": {
+		"categories": [],
+		"languages": []
+	},
+	"content": ""
+}

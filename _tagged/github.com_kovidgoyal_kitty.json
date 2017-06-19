@@ -1,0 +1,26 @@
+{
+	"_id": "13342341",
+	"site": "https://github.com/kovidgoyal/kitty",
+	"title": " Kitty – A modern, hackable, featureful, OpenGL based terminal emulator",
+	"author": "aumerle",
+	"date": "2017-06-19T08:43:00.178Z",
+	"tags": {
+		"categories": [
+			"terminal-emulators",
+			"opengl",
+			"terminfo",
+			"vt100",
+			"python",
+			"c"
+		],
+		"languages": [
+			"python",
+			"c",
+			"c++",
+			"objective-c",
+			"vim script",
+			"shell"
+		]
+	},
+	"content": ""
+}

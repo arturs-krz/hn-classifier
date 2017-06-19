@@ -1,0 +1,15 @@
+{
+	"_id": "5580940",
+	"site": "https://github.com/playlyfe/poseidon-mongo",
+	"title": "A painless NodeJS MongoDB driver interface with Promises.",
+	"author": "atrniv",
+	"date": "2017-06-19T10:23:53.901Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

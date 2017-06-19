@@ -1,0 +1,18 @@
+{
+	"_id": "14084774",
+	"site": "https://github.com/fiatjaf/glua",
+	"title": " Glua, a Full-Featured Lua VM for Nodejs and the Browser",
+	"author": "fiatjaf",
+	"date": "2017-06-19T10:04:16.632Z",
+	"tags": {
+		"categories": [
+			"lua",
+			"gopherjs"
+		],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": ""
+}

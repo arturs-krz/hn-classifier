@@ -1,0 +1,23 @@
+{
+	"_id": "12192465",
+	"site": "https://github.com/RafalWilinski/s3-uploader",
+	"title": " Electron-based AWS S3 uploader app",
+	"author": "rwilinski",
+	"date": "2017-06-19T11:09:37.422Z",
+	"tags": {
+		"categories": [
+			"election",
+			"electron",
+			"s3",
+			"macos",
+			"upload",
+			"storage"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

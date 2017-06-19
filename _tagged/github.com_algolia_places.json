@@ -1,0 +1,22 @@
+{
+	"_id": "11988234",
+	"site": "https://github.com/algolia/places",
+	"title": " Algolia Places, OSS Alternative to Google Places",
+	"author": "vvoyer",
+	"date": "2017-06-19T10:01:29.592Z",
+	"tags": {
+		"categories": [
+			"algolia",
+			"places",
+			"geolocation",
+			"geo",
+			"autocomplete"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"css"
+		]
+	},
+	"content": ""
+}

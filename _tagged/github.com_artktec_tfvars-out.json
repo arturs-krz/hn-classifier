@@ -1,0 +1,14 @@
+{
+	"_id": "12325153",
+	"site": "https://github.com/artktec/tfvars-out",
+	"title": " Turn your Terraform .tfstate outputs into a valid .tfvars file",
+	"author": "MobiKid",
+	"date": "2017-06-19T10:11:21.688Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

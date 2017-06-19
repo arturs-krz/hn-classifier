@@ -1,0 +1,24 @@
+{
+	"_id": "8549398",
+	"site": "https://github.com/balloob/home-assistant",
+	"title": " Python 3 home automation with Polymer/Material design front end",
+	"author": "balloob",
+	"date": "2017-06-19T08:46:43.542Z",
+	"tags": {
+		"categories": [
+			"python",
+			"home-automation",
+			"iot",
+			"internet-of-things",
+			"mqtt",
+			"raspberry-pi",
+			"asyncio"
+		],
+		"languages": [
+			"python",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

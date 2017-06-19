@@ -1,0 +1,33 @@
+{
+	"_id": "13471452",
+	"site": "https://github.com/JacobLett/Sparky",
+	"title": " Bootstrap 3 Sass Starter Project and Tutorial",
+	"author": "jacob-lett",
+	"date": "2017-06-19T10:24:18.873Z",
+	"tags": {
+		"categories": [
+			"bootstrap-sass",
+			"bootstrap",
+			"starter-template",
+			"starter-theme",
+			"project-template",
+			"css",
+			"html",
+			"javascript",
+			"sparky",
+			"grunt",
+			"sass",
+			"grunt-watch",
+			"github-page",
+			"boilerplate",
+			"boilerplate-template",
+			"dist"
+		],
+		"languages": [
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

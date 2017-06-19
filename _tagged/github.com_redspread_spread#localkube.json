@@ -1,0 +1,17 @@
+{
+	"_id": "11324166",
+	"site": "https://github.com/redspread/spread#localkube",
+	"title": " Localkube – zero to Kubernetes 1.2 in one command",
+	"author": "mfburnett",
+	"date": "2017-06-19T09:52:59.957Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile",
+			"shell",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

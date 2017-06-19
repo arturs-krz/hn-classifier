@@ -1,0 +1,27 @@
+{
+	"_id": "12895057",
+	"site": "https://github.com/gutfeeling/word_forms",
+	"title": " Word Forms",
+	"author": "steinsgate",
+	"date": "2017-06-19T10:38:14.240Z",
+	"tags": {
+		"categories": [
+			"verb-conjugations",
+			"adverb",
+			"adjective",
+			"noun",
+			"stemmer",
+			"natural-language-processing",
+			"wordnet",
+			"dictionary",
+			"lemmatizer",
+			"words",
+			"parts-of-speech",
+			"nlp"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

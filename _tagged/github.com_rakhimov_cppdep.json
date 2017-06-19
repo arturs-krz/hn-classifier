@@ -1,0 +1,19 @@
+{
+	"_id": "13344424",
+	"site": "https://github.com/rakhimov/cppdep",
+	"title": " cppdep – C/C++ Dependency Analyzer written in Python",
+	"author": "rakhimov",
+	"date": "2017-06-19T11:02:05.982Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"dependency-analysis",
+			"metrics",
+			"quality"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

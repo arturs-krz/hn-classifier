@@ -1,0 +1,26 @@
+{
+	"_id": "12122998",
+	"site": "https://github.com/minio/minio",
+	"title": " Minio – S3 Compatible Object Storage",
+	"author": "iamclovin",
+	"date": "2017-06-19T10:14:39.959Z",
+	"tags": {
+		"categories": [
+			"aws-s3",
+			"go",
+			"storage",
+			"cloud",
+			"s3-storage",
+			"cloud-storage",
+			"object-storage",
+			"cloud-native"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

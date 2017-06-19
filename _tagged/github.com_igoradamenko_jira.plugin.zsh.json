@@ -1,0 +1,22 @@
+{
+	"_id": "12330638",
+	"site": "https://github.com/igoradamenko/jira.plugin.zsh",
+	"title": " Jira Oh-My-ZSH plugin with Git interaction",
+	"author": "igoradamenko",
+	"date": "2017-06-19T08:43:05.800Z",
+	"tags": {
+		"categories": [
+			"oh-my-zsh",
+			"oh-my-zsh-plugin",
+			"jira",
+			"cli-support",
+			"jira-cli",
+			"zsh",
+			"zsh-plugin"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

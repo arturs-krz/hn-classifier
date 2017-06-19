@@ -1,0 +1,25 @@
+{
+	"_id": "5188188",
+	"site": "https://github.com/sindresorhus/pure",
+	"title": " Pure - pretty, minimal and fast ZSH prompt",
+	"author": "mofle",
+	"date": "2017-06-19T09:43:54.647Z",
+	"tags": {
+		"categories": [
+			"shell",
+			"zsh",
+			"prompt",
+			"shell-prompt",
+			"shell-theme",
+			"theme",
+			"git",
+			"pure",
+			"minimal",
+			"terminal"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

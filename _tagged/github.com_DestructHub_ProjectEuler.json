@@ -1,0 +1,34 @@
+{
+	"_id": "13886246",
+	"site": "https://github.com/DestructHub/ProjectEuler",
+	"title": " A polyglot repository for ProjectEuler answers",
+	"author": "lerax",
+	"date": "2017-06-19T09:54:26.720Z",
+	"tags": {
+		"categories": [
+			"projecteuler",
+			"solvers",
+			"polyglot",
+			"haskell",
+			"python",
+			"clojure",
+			"common-lisp",
+			"elixir",
+			"lua",
+			"contests",
+			"mathematics",
+			"cplusplus-11",
+			"solver"
+		],
+		"languages": [
+			"python",
+			"elixir",
+			"haskell",
+			"common lisp",
+			"clojure",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

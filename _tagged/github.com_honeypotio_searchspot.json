@@ -1,0 +1,19 @@
+{
+	"_id": "12143189",
+	"site": "https://github.com/honeypotio/searchspot",
+	"title": " Searchspot – a search engine written in Rust based on Elasticsearch",
+	"author": "RoxasShadow",
+	"date": "2017-06-19T11:11:06.069Z",
+	"tags": {
+		"categories": [
+			"elasticsearch",
+			"rust",
+			"elasticsearch-client",
+			"http-server"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

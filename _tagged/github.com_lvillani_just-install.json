@@ -1,0 +1,16 @@
+{
+	"_id": "7999154",
+	"site": "https://github.com/lvillani/just-install",
+	"title": " A simpler package manager for Windows",
+	"author": "BukhariH",
+	"date": "2017-06-19T10:21:33.318Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"python",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

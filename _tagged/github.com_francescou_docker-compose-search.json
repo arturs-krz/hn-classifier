@@ -1,0 +1,18 @@
+{
+	"_id": "12008296",
+	"site": "https://github.com/francescou/docker-compose-search",
+	"title": " Docker-compose-search",
+	"author": "warrior10111",
+	"date": "2017-06-19T10:50:57.770Z",
+	"tags": {
+		"categories": [
+			"docker-compose",
+			"yml",
+			"search-engine"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

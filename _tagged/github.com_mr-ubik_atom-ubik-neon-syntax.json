@@ -1,0 +1,24 @@
+{
+	"_id": "13563658",
+	"site": "https://github.com/mr-ubik/atom-ubik-neon-syntax",
+	"title": "Become the Hackerman![Atom syntax theme]",
+	"author": "ubik_",
+	"date": "2017-06-19T08:46:45.216Z",
+	"tags": {
+		"categories": [
+			"ubik",
+			"restructuredtext",
+			"jinja2",
+			"ubik-neon",
+			"atom",
+			"atom-syntax",
+			"python",
+			"retro",
+			"hackerman"
+		],
+		"languages": [
+			"css"
+		]
+	},
+	"content": ""
+}

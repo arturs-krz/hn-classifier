@@ -1,0 +1,16 @@
+{
+	"_id": "8554442",
+	"site": "https://github.com/lutherism/bitcoin_oracle",
+	"title": " A neural net for predicting Bitcoin prices from past 60 days",
+	"author": "xanderjanz",
+	"date": "2017-06-19T10:32:13.554Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"matlab",
+			"php",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

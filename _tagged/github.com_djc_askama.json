@@ -1,0 +1,21 @@
+{
+	"_id": "13829865",
+	"site": "https://github.com/djc/askama",
+	"title": " Askama – Type-safe, compiled Jinja-like templates for Rust",
+	"author": "dochtman",
+	"date": "2017-06-19T09:54:45.417Z",
+	"tags": {
+		"categories": [
+			"templating",
+			"jinja2",
+			"rust-library",
+			"custom-derive",
+			"rust"
+		],
+		"languages": [
+			"rust",
+			"html"
+		]
+	},
+	"content": ""
+}

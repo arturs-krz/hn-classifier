@@ -1,0 +1,20 @@
+{
+	"_id": "11360654",
+	"site": "https://github.com/mvdan/accesspoint",
+	"title": " Manage wireless access points in Android",
+	"author": "mvdan",
+	"date": "2017-06-19T09:52:25.968Z",
+	"tags": {
+		"categories": [
+			"java",
+			"wireless",
+			"access-point",
+			"tethering",
+			"android"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

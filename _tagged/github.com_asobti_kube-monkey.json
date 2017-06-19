@@ -1,0 +1,20 @@
+{
+	"_id": "13133757",
+	"site": "https://github.com/asobti/kube-monkey",
+	"title": " Kube-Monkey – Chaos Monkey for Kubernetes Clusters",
+	"author": "xbonez",
+	"date": "2017-06-19T10:51:57.425Z",
+	"tags": {
+		"categories": [
+			"netflix-chaos-monkey",
+			"kubernetes",
+			"chaos-monkey",
+			"go"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

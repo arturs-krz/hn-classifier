@@ -1,0 +1,17 @@
+{
+	"_id": "12057970",
+	"site": "https://github.com/sharkdp/trigger",
+	"title": " Trigger – run a shell command repeatedly on file changes",
+	"author": "sharkdp",
+	"date": "2017-06-19T10:51:55.696Z",
+	"tags": {
+		"categories": [
+			"shell",
+			"inotify"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

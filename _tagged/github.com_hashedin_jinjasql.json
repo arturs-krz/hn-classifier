@@ -1,0 +1,21 @@
+{
+	"_id": "12870575",
+	"site": "https://github.com/hashedin/jinjasql",
+	"title": " JinjaSQL – Generate SQL Queries using a Jinja Template",
+	"author": "ksri",
+	"date": "2017-06-19T08:45:40.000Z",
+	"tags": {
+		"categories": [
+			"python",
+			"sql",
+			"sql-builder",
+			"jinja2",
+			"sql-injection",
+			"sql-query"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

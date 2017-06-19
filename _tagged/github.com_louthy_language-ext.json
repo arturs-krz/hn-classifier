@@ -1,0 +1,20 @@
+{
+	"_id": "8631158",
+	"site": "https://github.com/louthy/language-ext",
+	"title": " C# 6.0 Functional Language Extensions",
+	"author": "louthy",
+	"date": "2017-06-19T09:42:03.775Z",
+	"tags": {
+		"categories": [
+			"c-sharp",
+			"functional-languages",
+			"monads",
+			"monad-transformers",
+			"immutable-collections"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

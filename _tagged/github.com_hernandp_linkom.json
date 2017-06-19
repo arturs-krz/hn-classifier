@@ -1,0 +1,18 @@
+{
+	"_id": "13077636",
+	"site": "https://github.com/hernandp/linkom",
+	"title": " Linkom: A single-header C command line parsing library with COM binding",
+	"author": "hernandipietro",
+	"date": "2017-06-19T09:52:25.080Z",
+	"tags": {
+		"categories": [
+			"single-header-lib",
+			"command-line-parser"
+		],
+		"languages": [
+			"c",
+			"c++"
+		]
+	},
+	"content": ""
+}

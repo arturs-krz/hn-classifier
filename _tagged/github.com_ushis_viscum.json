@@ -1,0 +1,14 @@
+{
+	"_id": "5468789",
+	"site": "https://github.com/ushis/viscum",
+	"title": " My RSS/ATOM fetching/processing server (Go+Postgres)",
+	"author": "ushi",
+	"date": "2017-06-19T11:03:28.042Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

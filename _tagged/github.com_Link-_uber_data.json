@@ -1,0 +1,22 @@
+{
+	"_id": "11886324",
+	"site": "https://github.com/Link-/uber_data",
+	"title": " Uber Web Interface Scrapper for Trip Data Analysis",
+	"author": "Link-",
+	"date": "2017-06-19T08:42:27.492Z",
+	"tags": {
+		"categories": [
+			"uber-data",
+			"jupyter",
+			"uber-crawler",
+			"data",
+			"analysis"
+		],
+		"languages": [
+			"html",
+			"jupyter notebook",
+			"php"
+		]
+	},
+	"content": ""
+}

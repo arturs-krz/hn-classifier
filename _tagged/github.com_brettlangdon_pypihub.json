@@ -1,0 +1,15 @@
+{
+	"_id": "13240683",
+	"site": "https://github.com/brettlangdon/pypihub",
+	"title": " PyPI server for serving Python packages out of GitHub",
+	"author": "brettlangdon",
+	"date": "2017-06-19T10:49:24.762Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

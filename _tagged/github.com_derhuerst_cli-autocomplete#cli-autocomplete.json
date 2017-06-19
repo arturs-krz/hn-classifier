@@ -1,0 +1,18 @@
+{
+	"_id": "11557131",
+	"site": "https://github.com/derhuerst/cli-autocomplete#cli-autocomplete",
+	"title": " Command line autocompletion prompt",
+	"author": "derhuerst",
+	"date": "2017-06-19T08:43:51.334Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"prompt"
+		],
+		"languages": [
+			"javascript",
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

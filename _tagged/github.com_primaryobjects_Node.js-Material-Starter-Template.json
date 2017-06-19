@@ -1,0 +1,25 @@
+{
+	"_id": "12654294",
+	"site": "https://github.com/primaryobjects/Node.js-Material-Starter-Template",
+	"title": " Node.js Material Starter Template",
+	"author": "primaryobjects",
+	"date": "2017-06-19T10:32:14.361Z",
+	"tags": {
+		"categories": [
+			"node",
+			"nodejs",
+			"node-js",
+			"template",
+			"material",
+			"material-design",
+			"css",
+			"material-design-lite"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

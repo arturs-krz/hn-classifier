@@ -1,0 +1,22 @@
+{
+	"_id": "12322931",
+	"site": "https://github.com/ziyasal/hapijs-status-monitor",
+	"title": " Realtime, self-hosted monitoring for Hapi.js like GitHub Status (4fun)",
+	"author": "ziyasal",
+	"date": "2017-06-19T10:40:05.554Z",
+	"tags": {
+		"categories": [
+			"hapijs-status-monitor",
+			"nodejs",
+			"monitoring",
+			"hapijs",
+			"hapi-plugin"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

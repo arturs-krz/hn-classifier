@@ -1,0 +1,19 @@
+{
+	"_id": "13938364",
+	"site": "https://github.com/christoph-heiss/rush",
+	"title": " Rush – A bash-like shell written in rust",
+	"author": "christoph-heiss",
+	"date": "2017-06-19T09:43:06.703Z",
+	"tags": {
+		"categories": [
+			"rush",
+			"shell",
+			"rust",
+			"mit-license"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

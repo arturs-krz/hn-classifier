@@ -1,0 +1,25 @@
+{
+	"_id": "12593608",
+	"site": "https://github.com/airbnb/knowledge-repo",
+	"title": " Airbnb knowledge sharing platform for data scientists",
+	"author": "kalendos",
+	"date": "2017-06-19T08:44:27.693Z",
+	"tags": {
+		"categories": [
+			"data",
+			"data-science",
+			"knowledge",
+			"data-analysis"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"jupyter notebook",
+			"html",
+			"css",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

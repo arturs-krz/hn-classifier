@@ -1,0 +1,18 @@
+{
+	"_id": "8157757",
+	"site": "https://github.com/f/delorean",
+	"title": " DeLorean.js: A Simple Flux Library for React",
+	"author": "fka",
+	"date": "2017-06-19T08:49:35.975Z",
+	"tags": {
+		"categories": [
+			"agnostic",
+			"flux-architecture",
+			"flux"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

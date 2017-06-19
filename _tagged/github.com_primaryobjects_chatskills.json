@@ -1,0 +1,30 @@
+{
+	"_id": "12317448",
+	"site": "https://github.com/primaryobjects/chatskills",
+	"title": " Chatskills – Run Alexa apps on the command-line, in Slack, or anywhere",
+	"author": "primaryobjects",
+	"date": "2017-06-19T08:43:00.762Z",
+	"tags": {
+		"categories": [
+			"alexa",
+			"alexa-skill",
+			"alexa-sdk",
+			"amazon",
+			"amazon-alexa",
+			"amazon-alexa-skill",
+			"echo",
+			"amazon-echo",
+			"javascript",
+			"chatbot",
+			"chatbots",
+			"conversational-ui",
+			"slackbot",
+			"slack",
+			"slack-bot"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

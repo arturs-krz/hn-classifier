@@ -1,0 +1,17 @@
+{
+	"_id": "7936713",
+	"site": "https://github.com/muellermichel/Hybrid-Fortran",
+	"title": " Unified Fortran Code for Parallel Programming",
+	"author": "m_mueller",
+	"date": "2017-06-19T11:06:47.509Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"fortran",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

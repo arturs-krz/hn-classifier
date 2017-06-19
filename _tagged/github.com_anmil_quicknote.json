@@ -1,0 +1,22 @@
+{
+	"_id": "13741295",
+	"site": "https://github.com/anmil/quicknote",
+	"title": " QuickNote (qnote) written in GoLang",
+	"author": "amiller2571",
+	"date": "2017-06-19T10:28:56.941Z",
+	"tags": {
+		"categories": [
+			"notebook",
+			"go",
+			"search",
+			"bleve",
+			"elasticsearch",
+			"note",
+			"qnote"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

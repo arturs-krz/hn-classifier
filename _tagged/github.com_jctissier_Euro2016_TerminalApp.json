@@ -1,0 +1,26 @@
+{
+	"_id": "11959835",
+	"site": "https://github.com/jctissier/Euro2016_TerminalApp",
+	"title": " Instant EURO2016 live-streams/highlights/stats",
+	"author": "jctissier",
+	"date": "2017-06-19T09:51:11.240Z",
+	"tags": {
+		"categories": [
+			"soccer",
+			"highlight",
+			"live-stats",
+			"football-streams",
+			"soccer-matches",
+			"scraping",
+			"beautifulsoup",
+			"reddit-api",
+			"flask"
+		],
+		"languages": [
+			"html",
+			"python",
+			"javascript"
+		]
+	},
+	"content": ""
+}

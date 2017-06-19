@@ -1,0 +1,29 @@
+{
+	"_id": "7986349",
+	"site": "https://github.com/Unitech/pm2",
+	"title": " PM2 a process manager from the future",
+	"author": "sassyalex",
+	"date": "2017-06-19T10:06:14.866Z",
+	"tags": {
+		"categories": [
+			"pm2",
+			"nodejs",
+			"node",
+			"process-manager",
+			"process",
+			"manager",
+			"startup-script",
+			"monitoring",
+			"load-balancer",
+			"forever",
+			"production",
+			"deploy"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

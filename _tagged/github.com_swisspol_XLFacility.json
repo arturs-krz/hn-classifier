@@ -1,0 +1,17 @@
+{
+	"_id": "8482863",
+	"site": "https://github.com/swisspol/XLFacility",
+	"title": " Extensive logging facility for iOS apps: database, Telnet, HTTP server",
+	"author": "swisspol",
+	"date": "2017-06-19T09:35:46.926Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"objective-c",
+			"c",
+			"shell",
+			"ruby"
+		]
+	},
+	"content": ""
+}

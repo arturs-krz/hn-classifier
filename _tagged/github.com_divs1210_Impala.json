@@ -1,0 +1,15 @@
+{
+	"_id": "10408639",
+	"site": "https://github.com/divs1210/Impala",
+	"title": " A simple meta-circular bytecode interpreter in Clojure",
+	"author": "divs1210",
+	"date": "2017-06-19T11:10:42.326Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"clojure",
+			"shell"
+		]
+	},
+	"content": ""
+}

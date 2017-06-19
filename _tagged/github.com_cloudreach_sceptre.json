@@ -1,0 +1,22 @@
+{
+	"_id": "13605689",
+	"site": "https://github.com/cloudreach/sceptre",
+	"title": " A tool for creating and managing AWS CloudFormation stacks",
+	"author": "jmlr",
+	"date": "2017-06-19T08:43:08.021Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"cloudformation",
+			"infrastructure",
+			"python",
+			"devops",
+			"cloud"
+		],
+		"languages": [
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

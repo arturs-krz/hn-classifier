@@ -1,0 +1,24 @@
+{
+	"_id": "8936701",
+	"site": "https://github.com/libreboard/libreboard/",
+	"title": " LibreBoard – An open-source clone of Trello",
+	"author": "mquandalle",
+	"date": "2017-06-19T10:15:25.253Z",
+	"tags": {
+		"categories": [
+			"kanban",
+			"meteor",
+			"wekan",
+			"docker-image",
+			"sandstorm",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"cap'n proto"
+		]
+	},
+	"content": ""
+}

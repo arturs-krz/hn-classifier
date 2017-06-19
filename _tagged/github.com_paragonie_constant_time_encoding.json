@@ -1,0 +1,27 @@
+{
+	"_id": "11275044",
+	"site": "https://github.com/paragonie/constant_time_encoding",
+	"title": " Side-Channel Resistant Base64, Base32, Hex Encoding (PHP)",
+	"author": "CiPHPerCoder",
+	"date": "2017-06-19T10:11:34.396Z",
+	"tags": {
+		"categories": [
+			"character-encoding",
+			"encoding",
+			"php",
+			"base64",
+			"base64url",
+			"base32",
+			"base32hex",
+			"base16",
+			"hexadecimal",
+			"rfc-4648",
+			"constant-time",
+			"cache-timing-safe"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

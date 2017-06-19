@@ -1,0 +1,19 @@
+{
+	"_id": "13555016",
+	"site": "https://github.com/docsbox/docsbox",
+	"title": " Self-hosted document converting service with HTTP API",
+	"author": "bettercallsaul",
+	"date": "2017-06-19T11:08:31.506Z",
+	"tags": {
+		"categories": [
+			"document-converting",
+			"libreoffice",
+			"self-hosted",
+			"microservice"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

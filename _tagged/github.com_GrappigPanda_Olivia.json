@@ -1,0 +1,19 @@
+{
+	"_id": "12337032",
+	"site": "https://github.com/GrappigPanda/Olivia",
+	"title": " Olivia, a distributed, in-memory, Key-value store in Go",
+	"author": "ianleeclark",
+	"date": "2017-06-19T10:28:27.635Z",
+	"tags": {
+		"categories": [
+			"bloom-filters",
+			"distributed-database",
+			"distributed-hash-table"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

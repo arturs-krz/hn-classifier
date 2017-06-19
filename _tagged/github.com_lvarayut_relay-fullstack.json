@@ -1,0 +1,24 @@
+{
+	"_id": "11195381",
+	"site": "https://github.com/lvarayut/relay-fullstack",
+	"title": " Relay Starter Kit – Integrated with Relay, GraphQL, Express, ES6/ES7",
+	"author": "lvarayut",
+	"date": "2017-06-19T09:29:14.128Z",
+	"tags": {
+		"categories": [
+			"react",
+			"relay",
+			"graphql",
+			"nodejs",
+			"javascript",
+			"yeoman",
+			"scaffolding"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

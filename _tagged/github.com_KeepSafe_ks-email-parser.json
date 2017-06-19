@@ -1,0 +1,16 @@
+{
+	"_id": "8414137",
+	"site": "https://github.com/KeepSafe/ks-email-parser",
+	"title": " Simple email rendering tool to handle multi-language email content",
+	"author": "philippb",
+	"date": "2017-06-19T09:45:44.485Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

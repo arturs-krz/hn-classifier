@@ -1,0 +1,25 @@
+{
+	"_id": "14065303",
+	"site": "https://github.com/MattMcFarland/rot-web-api",
+	"title": " Open source RESTful dungeon generation API server",
+	"author": "tonechild",
+	"date": "2017-06-19T10:36:03.998Z",
+	"tags": {
+		"categories": [
+			"roguelike",
+			"javascript",
+			"nodejs",
+			"rotjs",
+			"dungeon-generator",
+			"microservice",
+			"rest-api",
+			"apiary"
+		],
+		"languages": [
+			"javascript",
+			"api blueprint",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "8307713",
+	"site": "https://github.com/agorf/feed2email",
+	"title": " Feed2email – RSS/Atom feed updates in your email",
+	"author": "agorf",
+	"date": "2017-06-19T08:44:12.742Z",
+	"tags": {
+		"categories": [
+			"feed",
+			"rss",
+			"atom",
+			"aggregator",
+			"headless",
+			"email",
+			"smtp",
+			"sendmail",
+			"opml",
+			"mta",
+			"rss2email"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

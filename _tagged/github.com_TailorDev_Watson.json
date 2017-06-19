@@ -1,0 +1,19 @@
+{
+	"_id": "10214674",
+	"site": "https://github.com/TailorDev/Watson",
+	"title": " Watson, a wonderful CLI to track your time",
+	"author": "couac",
+	"date": "2017-06-19T10:37:33.641Z",
+	"tags": {
+		"categories": [
+			"timetracker",
+			"python",
+			"command-line-app"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

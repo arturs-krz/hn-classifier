@@ -1,0 +1,26 @@
+{
+	"_id": "13263541",
+	"site": "https://github.com/Erkaman/cloud_gen",
+	"title": " I tried generating clouds with vector graphics",
+	"author": "erkaman",
+	"date": "2017-06-19T10:10:13.678Z",
+	"tags": {
+		"categories": [
+			"procedural-generation",
+			"procedural",
+			"c-plus-plus",
+			"bezier",
+			"bezier-curves",
+			"svg",
+			"ellipse",
+			"cloud",
+			"vector-graphics",
+			"demo"
+		],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

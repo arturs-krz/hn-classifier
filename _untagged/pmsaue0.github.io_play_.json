@@ -1,0 +1,9 @@
+{
+	"_id": "14411824",
+	"site": "https://pmsaue0.github.io/play/",
+	"title": " Minimalist Google Play Music Wrapper – Electron",
+	"author": "pmsaue0",
+	"date": "2017-06-16T07:57:53.789Z",
+	"tags": [],
+	"content": "play u n o f f c a l g o o g l e m u s c p l y e r m n m l s t s t y l n g s. download v2.0.5 osx fork / cloneon github minimal, album art forward design is ui wrapper google music based loop electron-boilerplate is essentially running google play music your chrome browser, as native standalone app some extra controls, nicer styles, without having use flash. you start app the time will prompted sign through google's authentication system. is google asking your password information, app does save read login information. ( recommend you set google's 2-stage verification it's necessary)."
+}

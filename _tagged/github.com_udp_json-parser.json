@@ -1,0 +1,17 @@
+{
+	"_id": "3582565",
+	"site": "https://github.com/udp/json-parser",
+	"title": " Very low footprint JSON parser in portable ANSI C",
+	"author": "udp",
+	"date": "2017-06-19T09:54:38.389Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"python",
+			"makefile",
+			"m4"
+		]
+	},
+	"content": ""
+}

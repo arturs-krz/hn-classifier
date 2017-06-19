@@ -1,0 +1,17 @@
+{
+	"_id": "11570940",
+	"site": "https://github.com/jlpc/xoutputd",
+	"title": " Change screen layout when connecting/disconnecting monitors",
+	"author": "jlpc",
+	"date": "2017-06-19T10:53:49.391Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"yacc",
+			"lex",
+			"makefile"
+		]
+	},
+	"content": ""
+}

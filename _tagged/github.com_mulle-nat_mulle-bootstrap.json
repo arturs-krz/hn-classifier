@@ -1,0 +1,23 @@
+{
+	"_id": "12495045",
+	"site": "https://github.com/mulle-nat/mulle-bootstrap",
+	"title": " Cross-platform dependency manager using bash and cmake",
+	"author": "mulle_nat",
+	"date": "2017-06-19T10:48:55.967Z",
+	"tags": {
+		"categories": [
+			"cmake",
+			"homebrew",
+			"dependency-manager",
+			"cross-platform",
+			"sandboxing",
+			"playground",
+			"packages"
+		],
+		"languages": [
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12761922",
+	"site": "https://github.com/poly/stdlib",
+	"title": " Stdlib – Service Registry and Framework for Microservices Atop AWS Lambda",
+	"author": "keithwhor",
+	"date": "2017-06-19T10:13:31.317Z",
+	"tags": {
+		"categories": [
+			"microservices",
+			"registry",
+			"serverless",
+			"faas",
+			"nodejs",
+			"node",
+			"stdlib",
+			"sdks",
+			"aws-lambda"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

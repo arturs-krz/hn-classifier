@@ -1,0 +1,18 @@
+{
+	"_id": "8275060",
+	"site": "https://github.com/QubitProducts/bamboo",
+	"title": " Bamboo – HAProxy Auto Configuration for Apache Mesos and Marathon",
+	"author": "hadcoffee",
+	"date": "2017-06-19T10:07:59.732Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"javascript",
+			"shell",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

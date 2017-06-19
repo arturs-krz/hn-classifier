@@ -1,0 +1,16 @@
+{
+	"_id": "10817612",
+	"site": "https://github.com/bobeff/pacman",
+	"title": " Yet another Pacman implementation",
+	"author": "ibobev",
+	"date": "2017-06-19T10:36:43.520Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"cmake",
+			"c"
+		]
+	},
+	"content": ""
+}

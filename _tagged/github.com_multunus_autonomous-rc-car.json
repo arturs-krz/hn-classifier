@@ -1,0 +1,20 @@
+{
+	"_id": "12305770",
+	"site": "https://github.com/multunus/autonomous-rc-car",
+	"title": " We Built an Autonomous RC Car Using Neural Networks and Raspberry Pi",
+	"author": "yedhukrishnan",
+	"date": "2017-06-19T09:53:13.171Z",
+	"tags": {
+		"categories": [
+			"rc-car",
+			"neural-network",
+			"raspberry-pi",
+			"autonomous-car",
+			"machine-learning"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

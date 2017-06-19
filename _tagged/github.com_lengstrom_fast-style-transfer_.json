@@ -1,0 +1,20 @@
+{
+	"_id": "12838152",
+	"site": "https://github.com/lengstrom/fast-style-transfer/",
+	"title": " Fast Style Transfer in TensorFlow",
+	"author": "logane",
+	"date": "2017-06-19T10:34:40.418Z",
+	"tags": {
+		"categories": [
+			"style-transfer",
+			"neural-style",
+			"neural-networks",
+			"deep-learning"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

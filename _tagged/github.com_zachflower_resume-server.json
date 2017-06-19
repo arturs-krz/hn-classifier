@@ -1,0 +1,19 @@
+{
+	"_id": "10293360",
+	"site": "https://github.com/zachflower/resume-server",
+	"title": " A Telnet-Accessible Résumé Server",
+	"author": "zachflower",
+	"date": "2017-06-19T10:00:10.062Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"node",
+			"nodejs",
+			"tcp"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "10197425",
+	"site": "https://github.com/Maratyszcza/PeachPy",
+	"title": " PeachPy – x86-64 assembler in Python, with Go support",
+	"author": "Marat_Dukhan",
+	"date": "2017-06-19T08:39:57.520Z",
+	"tags": {
+		"categories": [
+			"python",
+			"assembly",
+			"assembler",
+			"compiler",
+			"x86-64"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

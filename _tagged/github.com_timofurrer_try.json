@@ -1,0 +1,26 @@
+{
+	"_id": "11371434",
+	"site": "https://github.com/timofurrer/try",
+	"title": " Try out python packages with NO effort",
+	"author": "pythonista21",
+	"date": "2017-06-19T09:34:49.654Z",
+	"tags": {
+		"categories": [
+			"python",
+			"pip",
+			"virtualenv",
+			"try",
+			"pypi",
+			"package",
+			"module",
+			"install",
+			"fast",
+			"simple"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "11169096",
+	"site": "https://github.com/jneill/gh-migrations",
+	"title": " CLI to GitHub's Migration API - export all repo metadata",
+	"author": "jn",
+	"date": "2017-06-19T10:43:47.951Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

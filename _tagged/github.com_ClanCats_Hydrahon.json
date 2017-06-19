@@ -1,0 +1,19 @@
+{
+	"_id": "9914921",
+	"site": "https://github.com/ClanCats/Hydrahon",
+	"title": " Fast and simple Query Builder without extra bacon, written in PHP",
+	"author": "potato_on_cat",
+	"date": "2017-06-19T09:31:47.531Z",
+	"tags": {
+		"categories": [
+			"mysql",
+			"query-builder",
+			"pdo",
+			"php"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "11304585",
+	"site": "https://github.com/joemiller/creds",
+	"title": " Creds – manage API keys with GPG on the command line",
+	"author": "miller_joe",
+	"date": "2017-06-19T10:11:54.330Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

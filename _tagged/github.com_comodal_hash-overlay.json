@@ -1,0 +1,24 @@
+{
+	"_id": "13641023",
+	"site": "https://github.com/comodal/hash-overlay",
+	"title": " Fast Java Classes for Message Digests (SHA, MD5, BLAKE, etc.)",
+	"author": "jamespedwards",
+	"date": "2017-06-19T11:06:42.802Z",
+	"tags": {
+		"categories": [
+			"message-digest",
+			"hash-functions",
+			"cryptographic-hash-functions",
+			"bouncy-castle",
+			"bouncycastle",
+			"java",
+			"multihash",
+			"multiformats"
+		],
+		"languages": [
+			"java",
+			"html"
+		]
+	},
+	"content": ""
+}

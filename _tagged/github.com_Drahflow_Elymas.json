@@ -1,0 +1,21 @@
+{
+	"_id": "9795314",
+	"site": "https://github.com/Drahflow/Elymas",
+	"title": " Self-hosted stack-based programming language",
+	"author": "Drahflow",
+	"date": "2017-06-19T09:33:25.563Z",
+	"tags": {
+		"categories": [
+			"stack-based",
+			"programming-language",
+			"jit"
+		],
+		"languages": [
+			"c",
+			"perl",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13940081",
+	"site": "https://github.com/APIs-guru/graphql-faker",
+	"title": " GraphQL Faker – Mock or extend your GraphQL API with faked data",
+	"author": "IvanGoncharov",
+	"date": "2017-06-19T08:44:37.840Z",
+	"tags": {
+		"categories": [
+			"graphql",
+			"idl",
+			"faked-data",
+			"mock",
+			"faker",
+			"api"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"typescript",
+			"html"
+		]
+	},
+	"content": ""
+}

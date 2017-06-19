@@ -1,0 +1,18 @@
+{
+	"_id": "8881132",
+	"site": "https://github.com/edavis/pandoc-opml",
+	"title": " Pandoc-opml generates OPML files from Markdown",
+	"author": "edavis",
+	"date": "2017-06-19T10:08:56.444Z",
+	"tags": {
+		"categories": [
+			"opml",
+			"markdown",
+			"pandoc"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

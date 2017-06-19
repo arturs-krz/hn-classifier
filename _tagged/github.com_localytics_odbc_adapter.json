@@ -1,0 +1,20 @@
+{
+	"_id": "13815528",
+	"site": "https://github.com/localytics/odbc_adapter",
+	"title": " An ODBC adapter for ActiveRecord",
+	"author": "kddeisz",
+	"date": "2017-06-19T10:13:17.218Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"rails",
+			"odbc",
+			"active-record"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13222919",
+	"site": "https://github.com/HeavyHorst/remco",
+	"title": " Remco – confd like remote config management tool",
+	"author": "HeavyHorst",
+	"date": "2017-06-19T10:32:04.606Z",
+	"tags": {
+		"categories": [
+			"etcd",
+			"consul",
+			"remote",
+			"config",
+			"template",
+			"confd"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

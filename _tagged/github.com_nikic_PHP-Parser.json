@@ -1,0 +1,20 @@
+{
+	"_id": "3621035",
+	"site": "https://github.com/nikic/PHP-Parser",
+	"title": " A PHP parser written in PHP",
+	"author": "nikic",
+	"date": "2017-06-19T08:40:01.254Z",
+	"tags": {
+		"categories": [
+			"php",
+			"parser",
+			"ast",
+			"static-analysis"
+		],
+		"languages": [
+			"php",
+			"yacc"
+		]
+	},
+	"content": ""
+}

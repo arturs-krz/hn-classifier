@@ -1,0 +1,19 @@
+{
+	"_id": "10123525",
+	"site": "https://github.com/ehartsuyker/node-deb",
+	"title": " Debian packaging for Node.js apps",
+	"author": "ehartsuyker",
+	"date": "2017-06-19T08:40:00.962Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"debian",
+			"ubuntu"
+		],
+		"languages": [
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "11661732",
+	"site": "https://github.com/tidwall/redis-gis",
+	"title": " Redis-GIS – Geospatial and Geofencing Commands for Redis",
+	"author": "tidwall",
+	"date": "2017-06-19T10:21:16.601Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"tcl",
+			"ruby",
+			"shell",
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

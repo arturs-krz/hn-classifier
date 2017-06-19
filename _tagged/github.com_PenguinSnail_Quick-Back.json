@@ -1,0 +1,20 @@
+{
+	"_id": "13050170",
+	"site": "https://github.com/PenguinSnail/Quick-Back",
+	"title": " Quick-Back, a POSIX compliant, rsync based system backup tool",
+	"author": "PenguinSnail",
+	"date": "2017-06-19T10:02:11.223Z",
+	"tags": {
+		"categories": [
+			"backup",
+			"filesystem",
+			"rsync",
+			"simple",
+			"sanity-check"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "11749451",
+	"site": "https://github.com/hwdsl2/docker-ipsec-vpn-server",
+	"title": " IPsec VPN Server in Docker Container",
+	"author": "hwdsl2",
+	"date": "2017-06-19T10:52:17.939Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"ipsec",
+			"l2tp",
+			"vpn",
+			"vpn-server",
+			"network",
+			"security",
+			"docker-image"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

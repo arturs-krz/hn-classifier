@@ -1,0 +1,19 @@
+{
+	"_id": "8126831",
+	"site": "https://github.com/jatoben/CommandLine",
+	"title": " CommandLine – A pure Swift library for creating command-line interfaces",
+	"author": "jatoben",
+	"date": "2017-06-19T10:11:08.516Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"swift-library",
+			"commandline"
+		],
+		"languages": [
+			"swift",
+			"shell"
+		]
+	},
+	"content": ""
+}

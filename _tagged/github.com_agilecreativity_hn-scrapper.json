@@ -1,0 +1,19 @@
+{
+	"_id": "12119116",
+	"site": "https://github.com/agilecreativity/hn-scrapper",
+	"title": " Scrape the last 20 Hacker News pages into one page using Clojure",
+	"author": "agilecreativity",
+	"date": "2017-06-19T08:43:04.997Z",
+	"tags": {
+		"categories": [
+			"hacker-news",
+			"news",
+			"scraper",
+			"clojure"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

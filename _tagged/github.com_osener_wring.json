@@ -1,0 +1,20 @@
+{
+	"_id": "11191537",
+	"site": "https://github.com/osener/wring",
+	"title": " Wring – CLI web scraping with CSS Sel, JS, XPath, written in PureScript",
+	"author": "osener",
+	"date": "2017-06-19T09:44:21.183Z",
+	"tags": {
+		"categories": [
+			"phantomjs",
+			"xpath",
+			"cheerio"
+		],
+		"languages": [
+			"purescript",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

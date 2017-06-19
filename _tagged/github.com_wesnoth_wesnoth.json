@@ -1,0 +1,24 @@
+{
+	"_id": "7741564",
+	"site": "https://github.com/wesnoth/wesnoth",
+	"title": " Wesnoth – Free, turn-based strategy game",
+	"author": "freeslugs",
+	"date": "2017-06-19T10:49:20.012Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"game",
+			"free"
+		],
+		"languages": [
+			"c++",
+			"java",
+			"python",
+			"lua",
+			"emacs lisp",
+			"mask",
+			"other"
+		]
+	},
+	"content": ""
+}

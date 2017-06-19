@@ -1,0 +1,32 @@
+{
+	"_id": "13433824",
+	"site": "https://github.com/CloudBoost/cloudboost",
+	"title": " CloudBoost – Open-Source Parse, Firebase and Algolia Combined into One",
+	"author": "nawazdhandala",
+	"date": "2017-06-19T10:15:53.707Z",
+	"tags": {
+		"categories": [
+			"database-as-a-service",
+			"backend-services",
+			"api",
+			"serverless-framework",
+			"cloud-platform",
+			"baas",
+			"backend-as-a-service",
+			"backendless",
+			"serverless",
+			"realtime",
+			"realtime-database",
+			"search",
+			"storage-api",
+			"docker",
+			"blob"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

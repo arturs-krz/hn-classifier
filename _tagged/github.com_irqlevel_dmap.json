@@ -1,0 +1,24 @@
+{
+	"_id": "13229467",
+	"site": "https://github.com/irqlevel/dmap",
+	"title": " Distributed memcached in Linux kernel",
+	"author": "irqlevel",
+	"date": "2017-06-19T10:58:56.927Z",
+	"tags": {
+		"categories": [
+			"linux",
+			"linux-kernel",
+			"storage",
+			"memcached",
+			"linux-kernel-module",
+			"linux-kernel-driver",
+			"dht"
+		],
+		"languages": [
+			"c",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

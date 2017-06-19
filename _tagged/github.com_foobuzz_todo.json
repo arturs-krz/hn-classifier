@@ -1,0 +1,18 @@
+{
+	"_id": "11097875",
+	"site": "https://github.com/foobuzz/todo",
+	"title": " todo – A simple yet powerful command line todo list manager",
+	"author": "foobuzz",
+	"date": "2017-06-19T08:42:27.344Z",
+	"tags": {
+		"categories": [
+			"todolist",
+			"command-line-app"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

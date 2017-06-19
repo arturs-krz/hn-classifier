@@ -1,0 +1,14 @@
+{
+	"_id": "9340299",
+	"site": "https://github.com/lukasmartinelli/redis-pipe",
+	"title": " Redis-pipe – Use Redis lists like Unix pipes",
+	"author": "morgenkaffee",
+	"date": "2017-06-19T10:31:38.113Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

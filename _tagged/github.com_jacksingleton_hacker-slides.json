@@ -1,0 +1,20 @@
+{
+	"_id": "9065448",
+	"site": "https://github.com/jacksingleton/hacker-slides",
+	"title": " Hacker Slides – Open-source presentation app on Sandstorm",
+	"author": "jacksingleton",
+	"date": "2017-06-19T09:39:47.773Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"css",
+			"javascript",
+			"html",
+			"shell",
+			"cap'n proto",
+			"ruby",
+			"python"
+		]
+	},
+	"content": ""
+}

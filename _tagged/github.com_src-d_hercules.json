@@ -1,0 +1,15 @@
+{
+	"_id": "13376389",
+	"site": "https://github.com/src-d/hercules",
+	"title": " Hercules – Calculates the lines burnout stats in a Git repository",
+	"author": "mcuadros",
+	"date": "2017-06-19T10:08:35.747Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "11564300",
+	"site": "https://github.com/m-vdb/github-buildservice-boilerplate",
+	"title": " A boilerplate to build a continuous integration service in Python",
+	"author": "mvdb",
+	"date": "2017-06-19T09:46:46.278Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

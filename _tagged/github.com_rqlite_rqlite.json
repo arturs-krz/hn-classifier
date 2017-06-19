@@ -1,0 +1,25 @@
+{
+	"_id": "11576540",
+	"site": "https://github.com/rqlite/rqlite",
+	"title": " rqlite v2.2.2, replicating SQLite via Raft consensus",
+	"author": "otoolep",
+	"date": "2017-06-19T10:02:30.774Z",
+	"tags": {
+		"categories": [
+			"go",
+			"sqlite",
+			"distributed-systems",
+			"database",
+			"relational-database",
+			"raft",
+			"consensus",
+			"distributed-database",
+			"sql"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

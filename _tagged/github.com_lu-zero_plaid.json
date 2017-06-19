@@ -1,0 +1,17 @@
+{
+	"_id": "10085509",
+	"site": "https://github.com/lu-zero/plaid",
+	"title": " A web app to manage patches sent using git-sendemail",
+	"author": "ftomassetti",
+	"date": "2017-06-19T10:50:48.599Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

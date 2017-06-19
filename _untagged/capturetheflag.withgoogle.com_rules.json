@@ -1,0 +1,9 @@
+{
+	"_id": "14487439",
+	"site": "https://capturetheflag.withgoogle.com/rules",
+	"title": " Google Capture the Flag 2017 Official Rules",
+	"author": "Errorcod3",
+	"date": "2017-06-16T07:56:41.606Z",
+	"tags": [],
+	"content": "scoreboard * faq * challenges * scoreboard * profile * logout * login * register * {{c.name}}[{{c.solved_count}}/{{c.challenge_count}}] categories tags attachments challenges backup/restore users teams news pages tools * * {{news.author}} @ {{news.timestamp|date:'yyyy-mm-dd hh:mm'}}{{e.msg}}"
+}

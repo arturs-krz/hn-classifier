@@ -1,0 +1,18 @@
+{
+	"_id": "9651024",
+	"site": "https://github.com/davidesantangelo/restcountry",
+	"title": " Ruby wrapper around Restcountries API",
+	"author": "daviducolo",
+	"date": "2017-06-19T08:42:44.580Z",
+	"tags": {
+		"categories": [
+			"rubygem",
+			"rest-countries",
+			"ruby"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

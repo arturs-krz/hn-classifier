@@ -1,0 +1,21 @@
+{
+	"_id": "12776828",
+	"site": "https://github.com/ashish-chopra/angular-gauge",
+	"title": " A Reusable UI Gauge Directive in AngularJS",
+	"author": "ashish-chopra",
+	"date": "2017-06-19T08:44:20.019Z",
+	"tags": {
+		"categories": [
+			"angularjs-directives",
+			"angularjs",
+			"directives",
+			"gauge",
+			"dashboard-widget",
+			"ui-components"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13673746",
+	"site": "https://github.com/nerdycat/NerdyUI",
+	"title": " An easy way to create and layout UI components for iOS",
+	"author": "nerdymozart",
+	"date": "2017-06-19T08:39:56.173Z",
+	"tags": {
+		"categories": [
+			"objective-c",
+			"ui",
+			"layout",
+			"constraints",
+			"stackview",
+			"uilabel-link",
+			"static-tableview",
+			"nsattributedstring"
+		],
+		"languages": [
+			"objective-c",
+			"other"
+		]
+	},
+	"content": ""
+}

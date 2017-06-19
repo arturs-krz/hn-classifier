@@ -1,0 +1,19 @@
+{
+	"_id": "13628952",
+	"site": "https://github.com/littlstar/s3-lambda",
+	"title": " s3-lambda – Lambda functions over S3 objects: each, map, reduce, filter",
+	"author": "wellsjohnston",
+	"date": "2017-06-19T09:50:42.337Z",
+	"tags": {
+		"categories": [
+			"s3",
+			"lambda-functions",
+			"concurrency",
+			"node"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

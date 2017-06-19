@@ -1,0 +1,21 @@
+{
+	"_id": "6932711",
+	"site": "https://github.com/haldean/x6502",
+	"title": " I made an easy-to-understand 6502 emulator in pure C",
+	"author": "haldean",
+	"date": "2017-06-19T08:43:07.877Z",
+	"tags": {
+		"categories": [
+			"emulator",
+			"retro",
+			"6502",
+			"c"
+		],
+		"languages": [
+			"c",
+			"assembly",
+			"python"
+		]
+	},
+	"content": ""
+}

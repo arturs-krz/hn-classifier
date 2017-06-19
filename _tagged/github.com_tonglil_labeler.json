@@ -1,0 +1,27 @@
+{
+	"_id": "13571691",
+	"site": "https://github.com/tonglil/labeler",
+	"title": " Labeler – Manage labels on GitHub as code",
+	"author": "tonglil",
+	"date": "2017-06-19T08:42:38.589Z",
+	"tags": {
+		"categories": [
+			"github",
+			"tool",
+			"cli",
+			"go",
+			"labels",
+			"repository-utilities",
+			"github-enterprise",
+			"github-api",
+			"open-source",
+			"maintainer-tools",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

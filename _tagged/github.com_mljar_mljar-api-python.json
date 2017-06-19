@@ -1,0 +1,22 @@
+{
+	"_id": "13705920",
+	"site": "https://github.com/mljar/mljar-api-python",
+	"title": " Python API for Xgboost, LightGBM, Neural Networks, RGF, Random Forest",
+	"author": "pplonski86",
+	"date": "2017-06-19T10:19:52.118Z",
+	"tags": {
+		"categories": [
+			"machine-learning-api",
+			"machine-learning",
+			"mljar-api-python",
+			"python",
+			"predictive-analytics",
+			"predictive-modeling",
+			"prediction-algorithm"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

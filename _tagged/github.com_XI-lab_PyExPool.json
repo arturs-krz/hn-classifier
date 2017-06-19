@@ -1,0 +1,20 @@
+{
+	"_id": "10894370",
+	"site": "https://github.com/XI-lab/PyExPool",
+	"title": " PyExPool – Tiny Multi-Process Execution Pool for Python",
+	"author": "luav",
+	"date": "2017-06-19T10:41:28.990Z",
+	"tags": {
+		"categories": [
+			"multiprocessing",
+			"parallel-computing",
+			"execution-pool",
+			"cache-control",
+			"numa"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

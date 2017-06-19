@@ -1,0 +1,16 @@
+{
+	"_id": "12611255",
+	"site": "https://github.com/mjanicek/rembulan",
+	"title": " Rembulan, an implementation of Lua 5.3 for the JVM",
+	"author": "sandius",
+	"date": "2017-06-19T10:26:13.408Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java",
+			"scala",
+			"lua"
+		]
+	},
+	"content": ""
+}

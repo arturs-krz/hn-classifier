@@ -1,0 +1,16 @@
+{
+	"_id": "10725148",
+	"site": "https://github.com/zsck/UnicornFig",
+	"title": " UnicornFig – Lisp to produce configuration files and Go code",
+	"author": "_redwire",
+	"date": "2017-06-19T09:38:58.794Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"vim script",
+			"shell"
+		]
+	},
+	"content": ""
+}

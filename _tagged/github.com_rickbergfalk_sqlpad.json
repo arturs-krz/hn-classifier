@@ -1,0 +1,26 @@
+{
+	"_id": "12694763",
+	"site": "https://github.com/rickbergfalk/sqlpad",
+	"title": " SqlPad – Run SQL in browser and chart results",
+	"author": "rickbergfalk",
+	"date": "2017-06-19T08:42:30.658Z",
+	"tags": {
+		"categories": [
+			"sql-editor",
+			"data-analysis",
+			"data-visualization",
+			"vertica",
+			"presto",
+			"sql-server",
+			"postgres",
+			"mysql",
+			"crate-io"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

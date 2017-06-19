@@ -1,0 +1,21 @@
+{
+	"_id": "13891110",
+	"site": "https://github.com/vutran/zel",
+	"title": " Zel, Simple scaffolding for new projects",
+	"author": "tranvu",
+	"date": "2017-06-19T10:27:33.337Z",
+	"tags": {
+		"categories": [
+			"generator",
+			"scaffold",
+			"boilerplate",
+			"template",
+			"dotfiles",
+			"sync"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

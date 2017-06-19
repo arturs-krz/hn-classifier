@@ -1,0 +1,15 @@
+{
+	"_id": "9828836",
+	"site": "https://github.com/SegundamanoMX/backup-my-bucket",
+	"title": " A tool for backup of S3 buckets within S3",
+	"author": "ruslanlg",
+	"date": "2017-06-19T09:48:05.006Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

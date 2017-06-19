@@ -1,0 +1,21 @@
+{
+	"_id": "13383047",
+	"site": "https://github.com/palmerhq/backpack",
+	"title": " Backpack - Build better backends with Webpack",
+	"author": "palmdeezy",
+	"date": "2017-06-19T10:12:18.333Z",
+	"tags": {
+		"categories": [
+			"webpack",
+			"node",
+			"javascript",
+			"build",
+			"babel",
+			"es6"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

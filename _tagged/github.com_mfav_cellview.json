@@ -1,0 +1,21 @@
+{
+	"_id": "12023184",
+	"site": "https://github.com/mfav/cellview",
+	"title": " Elementary cellular automata in the browser",
+	"author": "mfav",
+	"date": "2017-06-19T10:03:42.576Z",
+	"tags": {
+		"categories": [
+			"elementary-cellular-automata",
+			"cellular-automata",
+			"game-of-life",
+			"procedural-generation"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

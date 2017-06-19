@@ -1,0 +1,17 @@
+{
+	"_id": "10839815",
+	"site": "https://github.com/dasmithii/imp",
+	"title": " An AST-walk interpreter for Imp, a toy language I'm working on",
+	"author": "dasmithii",
+	"date": "2017-06-19T10:53:09.535Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

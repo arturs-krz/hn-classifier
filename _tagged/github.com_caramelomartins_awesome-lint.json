@@ -1,0 +1,17 @@
+{
+	"_id": "12899162",
+	"site": "https://github.com/caramelomartins/awesome-lint",
+	"title": " Awesome Lint",
+	"author": "caramelomartins",
+	"date": "2017-06-19T11:06:58.384Z",
+	"tags": {
+		"categories": [
+			"linter",
+			"static-analysis",
+			"style-linter",
+			"static-analyzers"
+		],
+		"languages": []
+	},
+	"content": ""
+}

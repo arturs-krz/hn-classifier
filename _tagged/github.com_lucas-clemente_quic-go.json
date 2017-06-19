@@ -1,0 +1,22 @@
+{
+	"_id": "11813122",
+	"site": "https://github.com/lucas-clemente/quic-go",
+	"title": " Quic-go: A QUIC server implementation in Go",
+	"author": "lclemente",
+	"date": "2017-06-19T08:43:59.743Z",
+	"tags": {
+		"categories": [
+			"quic",
+			"quic-server",
+			"protocol",
+			"quic-client",
+			"golang",
+			"go"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

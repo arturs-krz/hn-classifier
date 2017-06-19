@@ -1,0 +1,19 @@
+{
+	"_id": "11225842",
+	"site": "https://github.com/hassy/llama-cli",
+	"title": " Chaos Llama – Chaos Monkey Build on AWS Lambda",
+	"author": "hassy",
+	"date": "2017-06-19T10:49:40.114Z",
+	"tags": {
+		"categories": [
+			"reliability-engineering",
+			"aws",
+			"fault-tolerance",
+			"chaos-monkey"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

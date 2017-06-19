@@ -1,0 +1,14 @@
+{
+	"_id": "12942038",
+	"site": "https://github.com/leighmcculloch/sshcrypt",
+	"title": " Sshcrypt encrypts secrets using the SSH Agent",
+	"author": "leighmcculloch",
+	"date": "2017-06-19T10:10:06.536Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

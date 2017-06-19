@@ -1,0 +1,19 @@
+{
+	"_id": "10896901",
+	"site": "https://github.com/TheMozg/awk-raycaster",
+	"title": " 3D shooter in your terminal using raycasting in Awk",
+	"author": "TheMozg",
+	"date": "2017-06-19T08:42:40.122Z",
+	"tags": {
+		"categories": [
+			"awk",
+			"3d",
+			"game",
+			"raycast"
+		],
+		"languages": [
+			"awk"
+		]
+	},
+	"content": ""
+}

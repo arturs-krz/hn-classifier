@@ -1,0 +1,20 @@
+{
+	"_id": "10648176",
+	"site": "https://github.com/szastupov/musicbot",
+	"title": " Open-source Telegram bot for music sharing",
+	"author": "szastupov",
+	"date": "2017-06-19T09:35:58.328Z",
+	"tags": {
+		"categories": [
+			"telegram-bot",
+			"python",
+			"mongo",
+			"bot",
+			"music"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

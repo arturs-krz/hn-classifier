@@ -1,0 +1,25 @@
+{
+	"_id": "12217174",
+	"site": "https://github.com/sindresorhus/alfy",
+	"title": " Create Alfred workflows in Node.js with ease",
+	"author": "mofle",
+	"date": "2017-06-19T08:46:24.947Z",
+	"tags": {
+		"categories": [
+			"macos",
+			"alfy",
+			"alfred",
+			"alfred-workflow",
+			"alfred3-workflow",
+			"framework",
+			"nodejs",
+			"javascript",
+			"workflow"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

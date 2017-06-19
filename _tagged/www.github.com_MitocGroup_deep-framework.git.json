@@ -1,0 +1,22 @@
+{
+	"_id": "10377403",
+	"site": "https://www.github.com/MitocGroup/deep-framework.git",
+	"title": " DEEP Framework – DYI Microservices on Serverless AWS (e.g. www.deep.mg)",
+	"author": "mitocgroup",
+	"date": "2017-06-19T08:44:47.155Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"cloud-native",
+			"microservices",
+			"serverless"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

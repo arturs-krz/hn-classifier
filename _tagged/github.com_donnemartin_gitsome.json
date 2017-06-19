@@ -1,0 +1,36 @@
+{
+	"_id": "11658444",
+	"site": "https://github.com/donnemartin/gitsome",
+	"title": " Gitsome: A Git/Shell Autocompleter with GitHub Integration",
+	"author": "donnemartin",
+	"date": "2017-06-19T08:42:34.982Z",
+	"tags": {
+		"categories": [
+			"github-enterprise",
+			"git",
+			"github",
+			"cli",
+			"command-line",
+			"python",
+			"github-api",
+			"github-client",
+			"development",
+			"developer-tools",
+			"terminal",
+			"shell",
+			"utility",
+			"utilities",
+			"client",
+			"cli-app",
+			"programming",
+			"linux",
+			"windows",
+			"macos"
+		],
+		"languages": [
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

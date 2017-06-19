@@ -1,0 +1,21 @@
+{
+	"_id": "7841980",
+	"site": "https://github.com/IcaliaLabs/todoSwift",
+	"title": " Simple Swift TODO App",
+	"author": "kurenn88",
+	"date": "2017-06-19T09:36:58.977Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"deprecated",
+			"ios",
+			"navigation-controller",
+			"table-view"
+		],
+		"languages": [
+			"objective-c",
+			"swift"
+		]
+	},
+	"content": ""
+}

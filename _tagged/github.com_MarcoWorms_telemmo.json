@@ -1,0 +1,21 @@
+{
+	"_id": "13556480",
+	"site": "https://github.com/MarcoWorms/telemmo",
+	"title": " An opensource MMORPG as a Telegram bot",
+	"author": "mworms",
+	"date": "2017-06-19T10:14:52.096Z",
+	"tags": {
+		"categories": [
+			"game",
+			"telegram-bot",
+			"telegram",
+			"mmo",
+			"mmorpg",
+			"idle"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

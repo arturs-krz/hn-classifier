@@ -1,0 +1,22 @@
+{
+	"_id": "13159988",
+	"site": "https://github.com/jkbrzt/httpcat",
+	"title": " Httpcat – Create raw HTTP requests on the command line",
+	"author": "jkbr",
+	"date": "2017-06-19T09:45:33.412Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"http",
+			"command-line",
+			"terminal",
+			"debugging",
+			"python",
+			"utility"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

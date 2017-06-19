@@ -1,0 +1,26 @@
+{
+	"_id": "6083284",
+	"site": "https://github.com/serkanyersen/sync",
+	"title": " Sync.js – Upload changed local files to remote server",
+	"author": "serkanyersen",
+	"date": "2017-06-19T08:39:54.614Z",
+	"tags": {
+		"categories": [
+			"sftp",
+			"nodejs",
+			"remote",
+			"scp",
+			"ssh",
+			"ftp",
+			"sync",
+			"rsync",
+			"remote-dev-server",
+			"cli"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

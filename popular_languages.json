@@ -1,0 +1,566 @@
+[
+    {
+        "tag": "javascript",
+        "count": 2298
+    },
+    {
+        "tag": "python",
+        "count": 1237
+    },
+    {
+        "tag": "html",
+        "count": 1155
+    },
+    {
+        "tag": "shell",
+        "count": 1024
+    },
+    {
+        "tag": "css",
+        "count": 988
+    },
+    {
+        "tag": "go",
+        "count": 593
+    },
+    {
+        "tag": "makefile",
+        "count": 560
+    },
+    {
+        "tag": "ruby",
+        "count": 471
+    },
+    {
+        "tag": "other",
+        "count": 460
+    },
+    {
+        "tag": "c",
+        "count": 396
+    },
+    {
+        "tag": "java",
+        "count": 296
+    },
+    {
+        "tag": "c++",
+        "count": 296
+    },
+    {
+        "tag": "objective-c",
+        "count": 244
+    },
+    {
+        "tag": "php",
+        "count": 188
+    },
+    {
+        "tag": "swift",
+        "count": 139
+    },
+    {
+        "tag": "typescript",
+        "count": 117
+    },
+    {
+        "tag": "coffeescript",
+        "count": 113
+    },
+    {
+        "tag": "c#",
+        "count": 103
+    },
+    {
+        "tag": "cmake",
+        "count": 74
+    },
+    {
+        "tag": "rust",
+        "count": 66
+    },
+    {
+        "tag": "scala",
+        "count": 54
+    },
+    {
+        "tag": "clojure",
+        "count": 54
+    },
+    {
+        "tag": "vim script",
+        "count": 49
+    },
+    {
+        "tag": "lua",
+        "count": 46
+    },
+    {
+        "tag": "perl",
+        "count": 43
+    },
+    {
+        "tag": "batchfile",
+        "count": 43
+    },
+    {
+        "tag": "jupyter notebook",
+        "count": 38
+    },
+    {
+        "tag": "haskell",
+        "count": 35
+    },
+    {
+        "tag": "assembly",
+        "count": 34
+    },
+    {
+        "tag": "elixir",
+        "count": 33
+    },
+    {
+        "tag": "protocol buffer",
+        "count": 29
+    },
+    {
+        "tag": "nginx",
+        "count": 26
+    },
+    {
+        "tag": "kotlin",
+        "count": 23
+    },
+    {
+        "tag": "tex",
+        "count": 22
+    },
+    {
+        "tag": "emacs lisp",
+        "count": 22
+    },
+    {
+        "tag": "vue",
+        "count": 22
+    },
+    {
+        "tag": "apacheconf",
+        "count": 19
+    },
+    {
+        "tag": "roff",
+        "count": 19
+    },
+    {
+        "tag": "objective-c++",
+        "count": 18
+    },
+    {
+        "tag": "powershell",
+        "count": 18
+    },
+    {
+        "tag": "m4",
+        "count": 18
+    },
+    {
+        "tag": "ocaml",
+        "count": 16
+    },
+    {
+        "tag": "glsl",
+        "count": 15
+    },
+    {
+        "tag": "groovy",
+        "count": 14
+    },
+    {
+        "tag": "erlang",
+        "count": 13
+    },
+    {
+        "tag": "common lisp",
+        "count": 13
+    },
+    {
+        "tag": "plpgsql",
+        "count": 12
+    },
+    {
+        "tag": "r",
+        "count": 11
+    },
+    {
+        "tag": "arduino",
+        "count": 11
+    },
+    {
+        "tag": "gherkin",
+        "count": 11
+    },
+    {
+        "tag": "hcl",
+        "count": 11
+    },
+    {
+        "tag": "smarty",
+        "count": 11
+    },
+    {
+        "tag": "yacc",
+        "count": 9
+    },
+    {
+        "tag": "qmake",
+        "count": 9
+    },
+    {
+        "tag": "xslt",
+        "count": 9
+    },
+    {
+        "tag": "tcl",
+        "count": 8
+    },
+    {
+        "tag": "purescript",
+        "count": 8
+    },
+    {
+        "tag": "matlab",
+        "count": 8
+    },
+    {
+        "tag": "elm",
+        "count": 7
+    },
+    {
+        "tag": "crystal",
+        "count": 7
+    },
+    {
+        "tag": "dart",
+        "count": 6
+    },
+    {
+        "tag": "sqlpl",
+        "count": 6
+    },
+    {
+        "tag": "livescript",
+        "count": 6
+    },
+    {
+        "tag": "applescript",
+        "count": 6
+    },
+    {
+        "tag": "inno setup",
+        "count": 5
+    },
+    {
+        "tag": "freemarker",
+        "count": 5
+    },
+    {
+        "tag": "plsql",
+        "count": 5
+    },
+    {
+        "tag": "mako",
+        "count": 5
+    },
+    {
+        "tag": "lex",
+        "count": 5
+    },
+    {
+        "tag": "antlr",
+        "count": 5
+    },
+    {
+        "tag": "fortran",
+        "count": 4
+    },
+    {
+        "tag": "openscad",
+        "count": 4
+    },
+    {
+        "tag": "perl6",
+        "count": 4
+    },
+    {
+        "tag": "asp",
+        "count": 4
+    },
+    {
+        "tag": "awk",
+        "count": 4
+    },
+    {
+        "tag": "vhdl",
+        "count": 4
+    },
+    {
+        "tag": "scheme",
+        "count": 4
+    },
+    {
+        "tag": "prolog",
+        "count": 3
+    },
+    {
+        "tag": "hy",
+        "count": 3
+    },
+    {
+        "tag": "shaderlab",
+        "count": 3
+    },
+    {
+        "tag": "verilog",
+        "count": 3
+    },
+    {
+        "tag": "cuda",
+        "count": 3
+    },
+    {
+        "tag": "brainfuck",
+        "count": 3
+    },
+    {
+        "tag": "cap'n proto",
+        "count": 3
+    },
+    {
+        "tag": "postscript",
+        "count": 2
+    },
+    {
+        "tag": "pascal",
+        "count": 2
+    },
+    {
+        "tag": "standard ml",
+        "count": 2
+    },
+    {
+        "tag": "qml",
+        "count": 2
+    },
+    {
+        "tag": "julia",
+        "count": 2
+    },
+    {
+        "tag": "visual basic",
+        "count": 2
+    },
+    {
+        "tag": "m",
+        "count": 2
+    },
+    {
+        "tag": "gosu",
+        "count": 2
+    },
+    {
+        "tag": "nix",
+        "count": 2
+    },
+    {
+        "tag": "gap",
+        "count": 2
+    },
+    {
+        "tag": "racket",
+        "count": 2
+    },
+    {
+        "tag": "nim",
+        "count": 2
+    },
+    {
+        "tag": "f#",
+        "count": 2
+    },
+    {
+        "tag": "metal",
+        "count": 2
+    },
+    {
+        "tag": "logos",
+        "count": 2
+    },
+    {
+        "tag": "terra",
+        "count": 2
+    },
+    {
+        "tag": "forth",
+        "count": 2
+    },
+    {
+        "tag": "nsis",
+        "count": 2
+    },
+    {
+        "tag": "haxe",
+        "count": 1
+    },
+    {
+        "tag": "actionscript",
+        "count": 1
+    },
+    {
+        "tag": "web ontology language",
+        "count": 1
+    },
+    {
+        "tag": "autohotkey",
+        "count": 1
+    },
+    {
+        "tag": "thrift",
+        "count": 1
+    },
+    {
+        "tag": "ada",
+        "count": 1
+    },
+    {
+        "tag": "systemverilog",
+        "count": 1
+    },
+    {
+        "tag": "d",
+        "count": 1
+    },
+    {
+        "tag": "xs",
+        "count": 1
+    },
+    {
+        "tag": "smalltalk",
+        "count": 1
+    },
+    {
+        "tag": "ncl",
+        "count": 1
+    },
+    {
+        "tag": "cobol",
+        "count": 1
+    },
+    {
+        "tag": "ags script",
+        "count": 1
+    },
+    {
+        "tag": "jsoniq",
+        "count": 1
+    },
+    {
+        "tag": "ragel",
+        "count": 1
+    },
+    {
+        "tag": "sql",
+        "count": 1
+    },
+    {
+        "tag": "smt",
+        "count": 1
+    },
+    {
+        "tag": "kicad",
+        "count": 1
+    },
+    {
+        "tag": "newlisp",
+        "count": 1
+    },
+    {
+        "tag": "meson",
+        "count": 1
+    },
+    {
+        "tag": "vala",
+        "count": 1
+    },
+    {
+        "tag": "pov-ray sdl",
+        "count": 1
+    },
+    {
+        "tag": "lilypond",
+        "count": 1
+    },
+    {
+        "tag": "mathematica",
+        "count": 1
+    },
+    {
+        "tag": "lean",
+        "count": 1
+    },
+    {
+        "tag": "idl",
+        "count": 1
+    },
+    {
+        "tag": "eagle",
+        "count": 1
+    },
+    {
+        "tag": "pure data",
+        "count": 1
+    },
+    {
+        "tag": "tla",
+        "count": 1
+    },
+    {
+        "tag": "clean",
+        "count": 1
+    },
+    {
+        "tag": "hlsl",
+        "count": 1
+    },
+    {
+        "tag": "flux",
+        "count": 1
+    },
+    {
+        "tag": "emberscript",
+        "count": 1
+    },
+    {
+        "tag": "processing",
+        "count": 1
+    },
+    {
+        "tag": "gcc machine description",
+        "count": 1
+    },
+    {
+        "tag": "autoit",
+        "count": 1
+    },
+    {
+        "tag": "puppet",
+        "count": 1
+    },
+    {
+        "tag": "mask",
+        "count": 1
+    },
+    {
+        "tag": "api blueprint",
+        "count": 1
+    }
+]

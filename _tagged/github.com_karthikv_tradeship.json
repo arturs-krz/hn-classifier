@@ -1,0 +1,21 @@
+{
+	"_id": "14035249",
+	"site": "https://github.com/karthikv/tradeship",
+	"title": " Tradeship – Editor plugin to import missing JavaScript dependencies",
+	"author": "karthikksv",
+	"date": "2017-06-19T09:43:37.060Z",
+	"tags": {
+		"categories": [
+			"dependencies",
+			"require",
+			"import",
+			"javascript",
+			"nodejs",
+			"es6"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

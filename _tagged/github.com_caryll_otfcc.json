@@ -1,0 +1,24 @@
+{
+	"_id": "12099318",
+	"site": "https://github.com/caryll/otfcc",
+	"title": " Otfcc, the rapid OpenType serializer and builder",
+	"author": "be5invis",
+	"date": "2017-06-19T10:16:37.981Z",
+	"tags": {
+		"categories": [
+			"opentype-fonts",
+			"cff-otf",
+			"clang",
+			"typography",
+			"type-design",
+			"font",
+			"typeface"
+		],
+		"languages": [
+			"c",
+			"lua",
+			"other"
+		]
+	},
+	"content": ""
+}

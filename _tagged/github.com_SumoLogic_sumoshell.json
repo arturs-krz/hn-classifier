@@ -1,0 +1,15 @@
+{
+	"_id": "10276800",
+	"site": "https://github.com/SumoLogic/sumoshell",
+	"title": " A better way to analyze logs files on the command line",
+	"author": "rusbus",
+	"date": "2017-06-19T10:01:38.002Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

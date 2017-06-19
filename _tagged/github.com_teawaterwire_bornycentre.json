@@ -1,0 +1,19 @@
+{
+	"_id": "11861953",
+	"site": "https://github.com/teawaterwire/bornycentre",
+	"title": " A mini app to compute your Bornycentre built with Cycle.js",
+	"author": "twww",
+	"date": "2017-06-19T10:47:25.280Z",
+	"tags": {
+		"categories": [
+			"cyclejs",
+			"maps",
+			"cities"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

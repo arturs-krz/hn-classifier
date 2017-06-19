@@ -1,0 +1,22 @@
+{
+	"_id": "13564719",
+	"site": "https://github.com/jmaister/stylestats",
+	"title": " Electron app for HTML page CSS and Styles stats",
+	"author": "jordiburgos",
+	"date": "2017-06-19T09:39:45.013Z",
+	"tags": {
+		"categories": [
+			"electron",
+			"electron-app",
+			"javascript-applications",
+			"css",
+			"style"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

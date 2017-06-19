@@ -1,0 +1,15 @@
+{
+	"_id": "9782141",
+	"site": "http://github.com/gbb/par_psql/",
+	"title": " ‘Parallel psql’, for workflows in PostgreSQL/PostGIS",
+	"author": "i_like_postgres",
+	"date": "2017-06-19T10:10:33.013Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"plpgsql"
+		]
+	},
+	"content": ""
+}

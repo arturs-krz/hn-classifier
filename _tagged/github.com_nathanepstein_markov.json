@@ -1,0 +1,15 @@
+{
+	"_id": "8962251",
+	"site": "https://github.com/nathanepstein/markov",
+	"title": " Markov – A compact C++ library to easily simulate Markov processes",
+	"author": "nepstein",
+	"date": "2017-06-19T10:47:32.448Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

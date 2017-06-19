@@ -1,0 +1,26 @@
+{
+	"_id": "8085213",
+	"site": "https://github.com/churchio/onebody",
+	"title": " OneBody Church Directory software I've been hacking on for 7 years",
+	"author": "timmorgan",
+	"date": "2017-06-19T10:41:04.394Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"ruby-on-rails",
+			"mysql",
+			"churches",
+			"social-network"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"coffeescript",
+			"shell",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

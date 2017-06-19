@@ -1,0 +1,15 @@
+{
+	"_id": "13402610",
+	"site": "https://github.com/kshk123/hashMap",
+	"title": " A concurrent thread-safe hash map implemented in C++",
+	"author": "kshk123",
+	"date": "2017-06-19T09:50:58.436Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

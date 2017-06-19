@@ -1,0 +1,24 @@
+{
+	"_id": "9949065",
+	"site": "https://github.com/rolandgeider/wger",
+	"title": " Wger – FLOSS workout, fitness and weight manager/tracker",
+	"author": "rge",
+	"date": "2017-06-19T10:22:05.004Z",
+	"tags": {
+		"categories": [
+			"python",
+			"django",
+			"fitness",
+			"gym",
+			"self-hosted"
+		],
+		"languages": [
+			"python",
+			"html",
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

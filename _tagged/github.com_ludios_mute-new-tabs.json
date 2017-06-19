@@ -1,0 +1,21 @@
+{
+	"_id": "12118563",
+	"site": "https://github.com/ludios/mute-new-tabs",
+	"title": " A Chrome extension that mutes all new tabs",
+	"author": "ivank",
+	"date": "2017-06-19T09:34:09.206Z",
+	"tags": {
+		"categories": [
+			"chrome",
+			"chrome-extension",
+			"mute",
+			"audio"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

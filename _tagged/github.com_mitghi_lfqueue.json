@@ -1,0 +1,15 @@
+{
+	"_id": "10766993",
+	"site": "https://github.com/mitghi/lfqueue",
+	"title": " Simple Lock-Free Queue in C",
+	"author": "mitghi",
+	"date": "2017-06-19T09:35:16.657Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

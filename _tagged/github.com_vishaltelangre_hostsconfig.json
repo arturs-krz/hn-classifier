@@ -1,0 +1,14 @@
+{
+	"_id": "10644038",
+	"site": "https://github.com/vishaltelangre/hostsconfig",
+	"title": " Weekend project – hostsconfig, an utility to manage /etc/hosts",
+	"author": "vishaltelangre",
+	"date": "2017-06-19T10:36:54.079Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

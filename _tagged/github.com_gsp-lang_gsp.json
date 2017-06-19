@@ -1,0 +1,14 @@
+{
+	"_id": "10286852",
+	"site": "https://github.com/gsp-lang/gsp",
+	"title": " A Lisp compiler and environment in Go",
+	"author": "eatonphil",
+	"date": "2017-06-19T11:05:52.625Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

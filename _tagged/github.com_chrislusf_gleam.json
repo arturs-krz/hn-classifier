@@ -1,0 +1,22 @@
+{
+	"_id": "12675559",
+	"site": "https://github.com/chrislusf/gleam",
+	"title": " Gleam – A Go-Based MapReduce System Supporting Luajit, Unix Pipe Tools",
+	"author": "chrislusf",
+	"date": "2017-06-19T08:39:54.739Z",
+	"tags": {
+		"categories": [
+			"distributed-computing",
+			"map-reduce",
+			"golang",
+			"distributed-systems"
+		],
+		"languages": [
+			"go",
+			"yacc",
+			"lua",
+			"other"
+		]
+	},
+	"content": ""
+}

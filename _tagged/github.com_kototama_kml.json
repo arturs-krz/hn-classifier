@@ -1,0 +1,15 @@
+{
+	"_id": "3919685",
+	"site": "https://github.com/kototama/kml",
+	"title": " a minimal Lisp with closures, macros and gc in 1400 lines of C",
+	"author": "Kototama",
+	"date": "2017-06-19T10:30:55.007Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"common lisp"
+		]
+	},
+	"content": ""
+}

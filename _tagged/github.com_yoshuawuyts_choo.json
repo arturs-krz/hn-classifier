@@ -1,0 +1,23 @@
+{
+	"_id": "12040387",
+	"site": "https://github.com/yoshuawuyts/choo",
+	"title": " Choo – 5kb framework for creating sturdy front end applications",
+	"author": "yoshuaw",
+	"date": "2017-06-19T08:42:49.216Z",
+	"tags": {
+		"categories": [
+			"choo",
+			"dom",
+			"ui",
+			"unidirectional",
+			"minimal",
+			"interface",
+			"modular",
+			"vanilla"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

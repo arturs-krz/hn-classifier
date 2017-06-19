@@ -1,0 +1,21 @@
+{
+	"_id": "9661621",
+	"site": "https://github.com/gillesdemey/Cumulus",
+	"title": " Cumulus, an unobtrusive SoundCloud desktop application",
+	"author": "concise_unicorn",
+	"date": "2017-06-19T09:33:13.185Z",
+	"tags": {
+		"categories": [
+			"menubar",
+			"soundcloud",
+			"electron",
+			"osx"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

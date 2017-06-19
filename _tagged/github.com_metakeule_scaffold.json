@@ -1,0 +1,15 @@
+{
+	"_id": "8858891",
+	"site": "https://github.com/metakeule/scaffold",
+	"title": " Scaffold via go templates and json data",
+	"author": "metakeule",
+	"date": "2017-06-19T10:14:31.967Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

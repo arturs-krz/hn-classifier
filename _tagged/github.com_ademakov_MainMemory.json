@@ -1,0 +1,27 @@
+{
+	"_id": "10880185",
+	"site": "https://github.com/ademakov/MainMemory",
+	"title": " MainMemory, a memcached clone and generic server framework",
+	"author": "avdicius",
+	"date": "2017-06-19T10:34:21.728Z",
+	"tags": {
+		"categories": [
+			"c",
+			"memcached",
+			"multithreading",
+			"networking",
+			"fibers",
+			"coroutines",
+			"key-value",
+			"in-memory",
+			"asynchronous",
+			"concurrency"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

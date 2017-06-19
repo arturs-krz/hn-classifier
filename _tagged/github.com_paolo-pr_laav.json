@@ -1,0 +1,31 @@
+{
+	"_id": "14222698",
+	"site": "https://github.com/paolo-pr/laav",
+	"title": " New Live Asynchronous Audio Video Library",
+	"author": "paolo-pr",
+	"date": "2017-06-19T10:13:10.552Z",
+	"tags": {
+		"categories": [
+			"http",
+			"h264",
+			"stream",
+			"mjpeg-stream",
+			"mjpeg-decoder",
+			"matroska",
+			"mpegts",
+			"video-streaming",
+			"video-recording",
+			"video-processing",
+			"audio-streaming",
+			"audio-library",
+			"video-live",
+			"aac",
+			"aac-audio",
+			"mp2"
+		],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": ""
+}

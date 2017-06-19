@@ -1,0 +1,20 @@
+{
+	"_id": "10647362",
+	"site": "https://github.com/plainas/tq",
+	"title": " Tq – lookup by CSS selector on the terminal",
+	"author": "ptwt",
+	"date": "2017-06-19T10:08:09.257Z",
+	"tags": {
+		"categories": [
+			"python",
+			"command-line",
+			"command-line-tool",
+			"css-selector",
+			"json"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

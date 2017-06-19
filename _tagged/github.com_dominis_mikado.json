@@ -1,0 +1,26 @@
+{
+	"_id": "13105380",
+	"site": "https://github.com/dominis/mikado",
+	"title": " Mikado – A fully automated AWS setup for Wordpress deployments",
+	"author": "dominis",
+	"date": "2017-06-19T10:38:24.762Z",
+	"tags": {
+		"categories": [
+			"terraform",
+			"wordpress",
+			"aws",
+			"ansible",
+			"aws-infrastructure",
+			"infrastructure",
+			"mikado"
+		],
+		"languages": [
+			"hcl",
+			"python",
+			"shell",
+			"perl",
+			"makefile"
+		]
+	},
+	"content": ""
+}

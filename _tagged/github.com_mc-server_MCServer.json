@@ -1,0 +1,30 @@
+{
+	"_id": "9564754",
+	"site": "https://github.com/mc-server/MCServer",
+	"title": " MCServer – A FOSS Minecraft server in C++, with Lua plugins",
+	"author": "bearbin",
+	"date": "2017-06-19T10:22:15.685Z",
+	"tags": {
+		"categories": [
+			"cuberite",
+			"linux",
+			"c-plus-plus",
+			"lua",
+			"server",
+			"windows",
+			"android",
+			"plugins",
+			"minecraft"
+		],
+		"languages": [
+			"c++",
+			"lua",
+			"javascript",
+			"cmake",
+			"html",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "10536105",
+	"site": "https://github.com/koudelka/visualixir",
+	"title": " Visualixir – A process visualizer for remote BEAM nodes",
+	"author": "koudelka",
+	"date": "2017-06-19T08:43:05.332Z",
+	"tags": {
+		"categories": [
+			"elixir",
+			"visualizer",
+			"beam",
+			"erlang"
+		],
+		"languages": [
+			"css",
+			"elixir",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

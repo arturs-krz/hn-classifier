@@ -1,0 +1,21 @@
+{
+	"_id": "11944777",
+	"site": "https://github.com/lkmnds/cubix",
+	"title": " Cubix: An Operating System in Minecraft",
+	"author": "lkmnds",
+	"date": "2017-06-19T10:51:53.175Z",
+	"tags": {
+		"categories": [
+			"computercraft",
+			"cubix"
+		],
+		"languages": [
+			"lua",
+			"terra",
+			"other",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

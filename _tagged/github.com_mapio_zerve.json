@@ -1,0 +1,17 @@
+{
+	"_id": "13439900",
+	"site": "https://github.com/mapio/zerve",
+	"title": " Zerve: a tool to create a single file Python app serving files via http",
+	"author": "mapio",
+	"date": "2017-06-19T10:56:09.946Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

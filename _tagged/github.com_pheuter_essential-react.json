@@ -1,0 +1,22 @@
+{
+	"_id": "9171215",
+	"site": "https://github.com/pheuter/essential-react",
+	"title": " Essential React, a minimal skeleton for building React apps using ES6",
+	"author": "gmaster1440",
+	"date": "2017-06-19T08:42:58.346Z",
+	"tags": {
+		"categories": [
+			"react",
+			"babel",
+			"webpack",
+			"boilerplate",
+			"skeleton"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

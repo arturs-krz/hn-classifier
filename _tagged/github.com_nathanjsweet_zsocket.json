@@ -1,0 +1,23 @@
+{
+	"_id": "11955022",
+	"site": "https://github.com/nathanjsweet/zsocket",
+	"title": " Zero Copy Network lib for golang",
+	"author": "hacknat",
+	"date": "2017-06-19T10:27:36.673Z",
+	"tags": {
+		"categories": [
+			"linux",
+			"zsocket",
+			"network-programming",
+			"software-defined-network",
+			"golang",
+			"tcp",
+			"ethernet"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

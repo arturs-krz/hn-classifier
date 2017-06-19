@@ -1,0 +1,9 @@
+{
+	"_id": "14432862",
+	"site": "http://www.andreykurenkov.com/projects/hacks/objectcropbot/",
+	"title": " ObjectCropBot – Interactively Crop Objects from Photos with AI",
+	"author": "andreyk",
+	"date": "2017-06-16T07:57:32.123Z",
+	"tags": [],
+	"content": "* * projects * posts * photos eclectic engineer intellectual endlessly interested ai, art, side-projects, philosophy, many more things.email linkedin github resume rss objectcropbota simple demo site exposes ui play deepmaskfebruary 18 2017mewheretreehacks, stanfordwhy've been wanting build simple demo ai-powered object cropping a while, finally got around it this hackathoni had already had experience deepmask starting this, since project stanfords ai class was modify deepmask see it be used crop objects a single click. conclusion that was i was still better off using facebooks approach, my experience aws that project came handy. specifically, reused previous aws deepmask computing solution: paying an aws ec2 instance a gpu, installing relevant dependencies it, making host rest server. had modify deepmask code slightly, for most part just set up run the cloud used facebooks pretrained models. bulk the remaining was implementing http://objectcropbot.com/ web demo. made with basic html/css/js parts, except the excellent open source visual cropping library cropper.js. an -nighter tweaking demo look feel right, set up be hosted github arranged domain be it is buying from namecheap.links * demo! * devpost * repo pics * share * twitter * facebook * google+ © 2017 andrey kurenkov. powered jekyll using minimal mistakes skinny bones themes.please enable javascript view comments powered disqus.comments powered disqus"
+}

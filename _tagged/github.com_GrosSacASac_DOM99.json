@@ -1,0 +1,25 @@
+{
+	"_id": "11282722",
+	"site": "https://github.com/GrosSacASac/DOM99",
+	"title": " DOM99 Simple HTML manipulation for the modern web",
+	"author": "GroSacASacs",
+	"date": "2017-06-19T09:55:49.217Z",
+	"tags": {
+		"categories": [
+			"html",
+			"javascript",
+			"dom",
+			"component",
+			"custom-elements",
+			"lightweight",
+			"browser",
+			"declarative"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

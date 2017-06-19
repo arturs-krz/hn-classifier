@@ -1,0 +1,28 @@
+{
+	"_id": "12475108",
+	"site": "https://github.com/nisrulz/sensey",
+	"title": " Sensey – Android Lib to detect gestures in a snap",
+	"author": "nisrulz",
+	"date": "2017-06-19T10:16:05.660Z",
+	"tags": {
+		"categories": [
+			"android-library",
+			"detect-gestures",
+			"gesture-detection",
+			"sensor",
+			"shake-detection",
+			"handwave-detection",
+			"light-detection",
+			"android",
+			"movement-detection",
+			"chop-detection",
+			"wrist-twist-detection",
+			"proximity-sensor",
+			"wave-detection"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

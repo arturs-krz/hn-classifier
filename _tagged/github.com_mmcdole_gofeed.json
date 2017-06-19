@@ -1,0 +1,23 @@
+{
+	"_id": "11500441",
+	"site": "https://github.com/mmcdole/gofeed",
+	"title": " gofeed, a robust RSS and Atom Parser for Go",
+	"author": "drakenot",
+	"date": "2017-06-19T09:47:45.940Z",
+	"tags": {
+		"categories": [
+			"atom-feed",
+			"rss-feed",
+			"rss",
+			"atom",
+			"parser",
+			"feed",
+			"golang",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

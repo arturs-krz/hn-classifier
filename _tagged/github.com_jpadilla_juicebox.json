@@ -1,0 +1,20 @@
+{
+	"_id": "9435829",
+	"site": "https://github.com/jpadilla/juicebox",
+	"title": " A virtual machine designed for programming workshops",
+	"author": "jpdlla",
+	"date": "2017-06-19T08:42:31.273Z",
+	"tags": {
+		"categories": [
+			"virtual-machine",
+			"programming-workshop",
+			"packer"
+		],
+		"languages": [
+			"shell",
+			"makefile",
+			"ruby"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12376364",
+	"site": "https://github.com/cyrus-and/chrome-remote-interface",
+	"title": " Chrome Remote Debugging Protocol interface",
+	"author": "cyrusand",
+	"date": "2017-06-19T10:53:53.155Z",
+	"tags": {
+		"categories": [
+			"chrome-debugging-protocol",
+			"browser",
+			"javascript",
+			"nodejs",
+			"google-chrome",
+			"microsoft-edge",
+			"mobile-safari",
+			"headless"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

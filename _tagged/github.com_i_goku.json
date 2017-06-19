@@ -1,0 +1,14 @@
+{
+	"_id": "11008826",
+	"site": "https://github.com/i/goku",
+	"title": " Goku – A distributed task queue for go (similar to sidekiq or celery)",
+	"author": "ilozinski",
+	"date": "2017-06-19T09:49:39.049Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

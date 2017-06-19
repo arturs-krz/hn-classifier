@@ -1,0 +1,22 @@
+{
+	"_id": "10917416",
+	"site": "https://github.com/lambtron/slack-channel-fomo-bot",
+	"title": " Slack bot that tells you when a new channel is made",
+	"author": "lambtron",
+	"date": "2017-06-19T10:09:11.564Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"bot",
+			"bots",
+			"slackbot",
+			"slackware"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

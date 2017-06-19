@@ -1,0 +1,20 @@
+{
+	"_id": "10323815",
+	"site": "https://github.com/pedrorijo91/slack-pr-bot",
+	"title": " Slack bot reminder for pull requests review",
+	"author": "pedrorijo91",
+	"date": "2017-06-19T10:04:46.993Z",
+	"tags": {
+		"categories": [
+			"bot",
+			"reminder",
+			"slack",
+			"slackbot",
+			"scala"
+		],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

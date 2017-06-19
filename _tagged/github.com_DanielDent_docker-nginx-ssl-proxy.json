@@ -1,0 +1,15 @@
+{
+	"_id": "10682384",
+	"site": "https://github.com/DanielDent/docker-nginx-ssl-proxy",
+	"title": " SSL Front-End Proxy with Automatic Free Certificate Management",
+	"author": "DanielDent",
+	"date": "2017-06-19T10:34:08.181Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"nginx",
+			"shell"
+		]
+	},
+	"content": ""
+}

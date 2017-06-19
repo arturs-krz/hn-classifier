@@ -1,0 +1,25 @@
+{
+	"_id": "11861589",
+	"site": "https://github.com/ursiform/sleuth",
+	"title": " sleuth, an autodiscovery and communication library for Go HTTP services",
+	"author": "afshin",
+	"date": "2017-06-19T10:50:43.966Z",
+	"tags": {
+		"categories": [
+			"service-autodiscovery",
+			"peer-autodiscovery",
+			"zeromq",
+			"golang",
+			"sleuth",
+			"rpc",
+			"distributed-systems",
+			"distributed-computing",
+			"discovery"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

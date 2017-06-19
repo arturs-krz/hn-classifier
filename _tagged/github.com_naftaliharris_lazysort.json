@@ -1,0 +1,16 @@
+{
+	"_id": "6664755",
+	"site": "https://github.com/naftaliharris/lazysort",
+	"title": " A partial and lazy Python \"sorted\" function",
+	"author": "naftaliharris",
+	"date": "2017-06-19T10:52:42.051Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

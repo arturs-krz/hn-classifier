@@ -1,0 +1,18 @@
+{
+	"_id": "12055201",
+	"site": "https://github.com/fiatjaf/summadb",
+	"title": " SummaDB, a hierarchical database that syncs with PouchDB",
+	"author": "fiatjaf",
+	"date": "2017-06-19T10:30:52.247Z",
+	"tags": {
+		"categories": [
+			"database",
+			"summadb",
+			"hierarchical"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

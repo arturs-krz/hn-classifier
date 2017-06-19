@@ -1,0 +1,20 @@
+{
+	"_id": "8138928",
+	"site": "https://github.com/jakeheis/SwiftCLI",
+	"title": " SwiftCLI",
+	"author": "dark_knight",
+	"date": "2017-06-19T10:14:42.913Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"cli",
+			"command-line",
+			"framework",
+			"option-parser"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

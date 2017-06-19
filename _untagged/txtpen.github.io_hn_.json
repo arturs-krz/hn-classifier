@@ -1,0 +1,9 @@
+{
+	"_id": "14481936",
+	"site": "https://txtpen.github.io/hn/",
+	"title": " Embed Hacker News dynamically as comment section",
+	"author": "greato",
+	"date": "2017-06-16T07:56:42.172Z",
+	"tags": [],
+	"content": "view github hnembed hacker news comment tree automaticallyembeddable-hnembed hacker news comment tree automatically your website. it works is always better discussion hn in disqus comment box. instead a link hn, can embed on page.benefits: 1. value-add readers other sources. 2. boost site ranking seo. (googlebot executes javascript). 3. keep discussion your page. 4. alternatively, checkout txtpen highlights inline comments. tool queries hn.algolia.com/api the response is around ~10ms. wont slow page down.basic usage 1. embed javascript file. . put lines the top page before </head> <link rel=\"preload\" href=\"https://txtpen.codes/txtpen-hn-embed.min.js\" =\"script\"> <link href=\"https://txtpen.codes/txtpen-hn-embed.min.css\" rel=\"stylesheet\"> b. put after </body> tag <script src=\"https://txtpen.codes/txtpen-hn-embed.min.js\"></script> 2. add html tag embed comment tree. <txtpen-hn-comment> </txtpen-hn-comment> 1. s . enjoy :+1: 2. optional: you to specify story id, add meta tag similar the below. otherwise will query url link corresponding hn comments automatically. <meta property=\"hacker-news\" content=\"{put_your_story_id_here}\">developmentgit clone https://github.com/txtpen/hn.gitcd hnnpm installnpm run dev# production build:# npm run buildhn maintained txtpenpublished github pages"
+}

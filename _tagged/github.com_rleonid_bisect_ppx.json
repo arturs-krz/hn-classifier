@@ -1,0 +1,18 @@
+{
+	"_id": "11073490",
+	"site": "https://github.com/rleonid/bisect_ppx",
+	"title": " Bisect_ppx – Modernized code coverage for OCaml",
+	"author": "aantron",
+	"date": "2017-06-19T10:22:08.020Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ocaml",
+			"makefile",
+			"html",
+			"standard ml",
+			"shell"
+		]
+	},
+	"content": ""
+}

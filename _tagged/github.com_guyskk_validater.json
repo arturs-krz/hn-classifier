@@ -1,0 +1,19 @@
+{
+	"_id": "12563217",
+	"site": "https://github.com/guyskk/validater",
+	"title": " Validater – a python tool to validate data by schema",
+	"author": "guyskk",
+	"date": "2017-06-19T08:43:18.752Z",
+	"tags": {
+		"categories": [
+			"validation",
+			"json-schema",
+			"validator"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

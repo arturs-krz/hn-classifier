@@ -1,0 +1,25 @@
+{
+	"_id": "11996332",
+	"site": "https://github.com/Erkaman/gl-water2d",
+	"title": " 2D Liquid Simulation in WebGL",
+	"author": "erkaman",
+	"date": "2017-06-19T08:44:23.235Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"2d",
+			"2d-liquid-simulation",
+			"smoothed-particle-hydrodynamics",
+			"fluid-simulation",
+			"simulation",
+			"particles",
+			"webgl",
+			"glsl"
+		],
+		"languages": [
+			"javascript",
+			"python"
+		]
+	},
+	"content": ""
+}

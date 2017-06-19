@@ -1,0 +1,17 @@
+{
+	"_id": "7860307",
+	"site": "https://github.com/gozdal/accessl/",
+	"title": " AcceSSL: a \"soft HSM\" for OpenSSL to secure private keys",
+	"author": "gozdal",
+	"date": "2017-06-19T10:01:15.320Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"c",
+			"cmake",
+			"shell"
+		]
+	},
+	"content": ""
+}

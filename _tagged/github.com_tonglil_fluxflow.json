@@ -1,0 +1,23 @@
+{
+	"_id": "13568787",
+	"site": "https://github.com/tonglil/fluxflow",
+	"title": " FluxFlow – Quickly adjust f.lux from your command line",
+	"author": "tonglil",
+	"date": "2017-06-19T08:42:40.565Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"flux",
+			"osx",
+			"go",
+			"golang",
+			"tool",
+			"open-source"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

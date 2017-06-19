@@ -1,0 +1,16 @@
+{
+	"_id": "11284178",
+	"site": "https://github.com/mystor/micro-coreutils",
+	"title": " Micro-coreutils – codegolfed assembly impls of yes, echo, cat, etc.",
+	"author": "mystor",
+	"date": "2017-06-19T10:47:45.938Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"assembly",
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

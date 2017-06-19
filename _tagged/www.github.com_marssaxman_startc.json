@@ -1,0 +1,16 @@
+{
+	"_id": "10410267",
+	"site": "http://www.github.com/marssaxman/startc",
+	"title": " Minimal freestanding C runtime for bare-metal/embedded PC projects",
+	"author": "marssaxman",
+	"date": "2017-06-19T10:32:50.904Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"assembly",
+			"makefile"
+		]
+	},
+	"content": ""
+}

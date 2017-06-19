@@ -1,0 +1,15 @@
+{
+	"_id": "13130004",
+	"site": "https://github.com/alexellis/funker-dispatch",
+	"title": " Serverless Function API Gateway PoC with Docker Swarm (on RPi Cluster)",
+	"author": "alexellisuk",
+	"date": "2017-06-19T10:04:04.547Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

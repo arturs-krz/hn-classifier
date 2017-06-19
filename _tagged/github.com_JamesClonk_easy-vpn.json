@@ -1,0 +1,21 @@
+{
+	"_id": "8946396",
+	"site": "https://github.com/JamesClonk/easy-vpn",
+	"title": " Easy-vpn, tool to spin up self-destructing cloud VPN server (pptpd)",
+	"author": "jamesclonk",
+	"date": "2017-06-19T10:16:48.647Z",
+	"tags": {
+		"categories": [
+			"cloud-vps",
+			"pptpd",
+			"vpn-server",
+			"go",
+			"docker"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

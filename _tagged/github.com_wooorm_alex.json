@@ -1,0 +1,18 @@
+{
+	"_id": "10160830",
+	"site": "https://github.com/wooorm/alex",
+	"title": " Alex – Catch insensitive, inconsiderate writing",
+	"author": "wooorm",
+	"date": "2017-06-19T09:35:01.519Z",
+	"tags": {
+		"categories": [
+			"alex",
+			"writing",
+			"linter"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

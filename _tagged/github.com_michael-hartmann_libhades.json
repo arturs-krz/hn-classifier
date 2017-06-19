@@ -1,0 +1,15 @@
+{
+	"_id": "10500867",
+	"site": "https://github.com/michael-hartmann/libhades",
+	"title": " Libhades – a fast C wrapper for LAPACK and BLAS with a simple API",
+	"author": "michaelhartmann",
+	"date": "2017-06-19T10:27:40.879Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

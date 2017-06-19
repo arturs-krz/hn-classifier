@@ -1,0 +1,20 @@
+{
+	"_id": "11104781",
+	"site": "https://github.com/joealcorn/laboratory",
+	"title": " Laboratory, a Python port of GitHub's Scientist library for refactoring",
+	"author": "buttscicles",
+	"date": "2017-06-19T08:43:02.011Z",
+	"tags": {
+		"categories": [
+			"developer-tools",
+			"refactoring",
+			"scientist",
+			"pypi",
+			"python"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

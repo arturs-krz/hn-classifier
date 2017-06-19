@@ -1,0 +1,22 @@
+{
+	"_id": "10871264",
+	"site": "https://github.com/susam/vimer#readme",
+	"title": " Vimer – Convenience wrapper for gvim/mvim --remote(-tab)-silent",
+	"author": "susam",
+	"date": "2017-06-19T10:48:29.436Z",
+	"tags": {
+		"categories": [
+			"gvim",
+			"macvim",
+			"windows",
+			"linux",
+			"osx"
+		],
+		"languages": [
+			"shell",
+			"batchfile",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "10213951",
+	"site": "https://github.com/prophittcorey/c8d",
+	"title": " A Chip-8 disassembler in Python",
+	"author": "cpro",
+	"date": "2017-06-19T10:17:33.761Z",
+	"tags": {
+		"categories": [
+			"disassembler",
+			"emulation",
+			"chip-8"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

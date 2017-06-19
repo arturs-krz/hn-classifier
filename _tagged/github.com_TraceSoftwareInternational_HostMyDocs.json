@@ -1,0 +1,24 @@
+{
+	"_id": "13742666",
+	"site": "https://github.com/TraceSoftwareInternational/HostMyDocs",
+	"title": " HostMyDocs, a light Angular 2 webapp  to centralize your documentations",
+	"author": "mistermatt",
+	"date": "2017-06-19T11:03:59.492Z",
+	"tags": {
+		"categories": [
+			"docker-image",
+			"documentation-tool",
+			"angular2"
+		],
+		"languages": [
+			"typescript",
+			"php",
+			"javascript",
+			"html",
+			"shell",
+			"css",
+			"apacheconf"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "12666387",
+	"site": "https://github.com/stanac/LiteApi",
+	"title": " LiteApi Alternative ASP.NET Core WEB API Middleware",
+	"author": "stanac",
+	"date": "2017-06-19T09:54:37.329Z",
+	"tags": {
+		"categories": [
+			"middleware",
+			"aspnetcore",
+			"asp-net-core",
+			"webapi",
+			"web-api",
+			"api"
+		],
+		"languages": [
+			"c#",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

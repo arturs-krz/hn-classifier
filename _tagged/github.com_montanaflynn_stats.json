@@ -1,0 +1,21 @@
+{
+	"_id": "10395694",
+	"site": "https://github.com/montanaflynn/stats",
+	"title": " Golang statistics package with 100% code coverage",
+	"author": "anonfunction",
+	"date": "2017-06-19T10:53:22.552Z",
+	"tags": {
+		"categories": [
+			"go",
+			"statistics",
+			"math",
+			"data",
+			"analytics"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

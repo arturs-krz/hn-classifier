@@ -1,0 +1,15 @@
+{
+	"_id": "8790906",
+	"site": "https://github.com/gosuri/aws-region-name",
+	"title": " Simple tool to detect the aws region name on an ec2 instance",
+	"author": "gosuri",
+	"date": "2017-06-19T10:24:23.257Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

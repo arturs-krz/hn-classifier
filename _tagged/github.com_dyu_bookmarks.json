@@ -1,0 +1,25 @@
+{
+	"_id": "14213880",
+	"site": "https://github.com/dyu/bookmarks",
+	"title": " Self-hosted bookmarks app with delicious/chrome import support",
+	"author": "dyu-",
+	"date": "2017-06-19T10:27:37.646Z",
+	"tags": {
+		"categories": [
+			"bookmarking",
+			"bookmarklet",
+			"self-hosted",
+			"desktop-app"
+		],
+		"languages": [
+			"css",
+			"java",
+			"typescript",
+			"protocol buffer",
+			"shell",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

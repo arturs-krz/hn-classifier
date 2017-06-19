@@ -1,0 +1,18 @@
+{
+	"_id": "13732598",
+	"site": "https://github.com/neithernut/git-dit",
+	"title": " Git-dit – a distributed issue tracker for git",
+	"author": "musicmatze",
+	"date": "2017-06-19T08:39:54.159Z",
+	"tags": {
+		"categories": [
+			"git",
+			"distributed",
+			"issue-tracker"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

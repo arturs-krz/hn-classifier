@@ -1,0 +1,34 @@
+{
+	"_id": "8284785",
+	"site": "https://github.com/jakubroztocil/cloudtunes",
+	"title": " CloudTunes",
+	"author": "jkbr",
+	"date": "2017-06-19T08:42:45.045Z",
+	"tags": {
+		"categories": [
+			"music",
+			"dropbox",
+			"youtube",
+			"web",
+			"webapp",
+			"spa",
+			"backbone",
+			"coffeescript",
+			"python",
+			"mongodb",
+			"redis",
+			"websocket",
+			"lastfm",
+			"musicbrainz",
+			"music-player"
+		],
+		"languages": [
+			"coffeescript",
+			"python",
+			"css",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "11447492",
+	"site": "https://github.com/tcard/sgo",
+	"title": " SGo, a dialect of Go that avoids nil-related panics with optionals",
+	"author": "tcard",
+	"date": "2017-06-19T10:19:10.040Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

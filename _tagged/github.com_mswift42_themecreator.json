@@ -1,0 +1,26 @@
+{
+	"_id": "10930735",
+	"site": "https://github.com/mswift42/themecreator",
+	"title": " ThemeCreator, Create Themes for IntelliJ,Textmate,Atom,Emacs and Vim",
+	"author": "mswift42",
+	"date": "2017-06-19T10:33:55.714Z",
+	"tags": {
+		"categories": [
+			"themes",
+			"theme-development",
+			"intellij",
+			"vim",
+			"emacs",
+			"textmate",
+			"atom-themes",
+			"atom",
+			"sublime"
+		],
+		"languages": [
+			"clojure",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

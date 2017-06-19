@@ -1,0 +1,15 @@
+{
+	"_id": "5803417",
+	"site": "https://github.com/minikomi/pipesock",
+	"title": " A golang websocket server you can pipe to",
+	"author": "minikomi",
+	"date": "2017-06-19T10:08:57.224Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": ""
+}

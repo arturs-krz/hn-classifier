@@ -1,0 +1,23 @@
+{
+	"_id": "10070145",
+	"site": "https://github.com/yudai/gotty",
+	"title": " GoTTY, Share your Terminal as a Web App",
+	"author": "neilellis",
+	"date": "2017-06-19T11:04:48.899Z",
+	"tags": {
+		"categories": [
+			"tty",
+			"terminal",
+			"browser",
+			"web",
+			"go"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"makefile",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "11888662",
+	"site": "https://github.com/lwhite1/tablesaw",
+	"title": " Tablesaw: A Java data-frame for 500M-row tables",
+	"author": "ljw1001",
+	"date": "2017-06-19T11:03:53.292Z",
+	"tags": {
+		"categories": [
+			"data-science",
+			"dataframe",
+			"java",
+			"plot",
+			"visualization",
+			"statistics",
+			"machine-learning"
+		],
+		"languages": [
+			"java",
+			"kotlin"
+		]
+	},
+	"content": ""
+}

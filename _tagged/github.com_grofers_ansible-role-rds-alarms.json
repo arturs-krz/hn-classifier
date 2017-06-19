@@ -1,0 +1,21 @@
+{
+	"_id": "13876440",
+	"site": "https://github.com/grofers/ansible-role-rds-alarms",
+	"title": " Ansible role for managing AWS RDS alarms",
+	"author": "vishesh92",
+	"date": "2017-06-19T10:03:59.262Z",
+	"tags": {
+		"categories": [
+			"ansible",
+			"ansible-role",
+			"rds",
+			"monitoring",
+			"aws-rds",
+			"aws",
+			"aws-cloudwatch",
+			"devops"
+		],
+		"languages": []
+	},
+	"content": ""
+}

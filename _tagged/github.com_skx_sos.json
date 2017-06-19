@@ -1,0 +1,21 @@
+{
+	"_id": "11738140",
+	"site": "https://github.com/skx/sos",
+	"title": " A simple distributable object-storage system in Go",
+	"author": "stevekemp",
+	"date": "2017-06-19T09:47:57.397Z",
+	"tags": {
+		"categories": [
+			"storage",
+			"replication",
+			"blob-servers",
+			"daemon",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

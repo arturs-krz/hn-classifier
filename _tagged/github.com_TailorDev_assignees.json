@@ -1,0 +1,22 @@
+{
+	"_id": "13994062",
+	"site": "https://github.com/TailorDev/assignees",
+	"title": " Assignees, automatic GitHub reviewers selection",
+	"author": "couac",
+	"date": "2017-06-19T10:01:50.830Z",
+	"tags": {
+		"categories": [
+			"code-review",
+			"automation",
+			"side-project",
+			"github-api",
+			"reviewers"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

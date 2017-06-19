@@ -1,0 +1,34 @@
+{
+	"_id": "13272255",
+	"site": "https://github.com/zant95/hBlock",
+	"title": " hBlock, hosts-file based blocker",
+	"author": "zant95",
+	"date": "2017-06-19T09:58:40.328Z",
+	"tags": {
+		"categories": [
+			"privacy",
+			"ads",
+			"tracking",
+			"malware",
+			"domains",
+			"hosts",
+			"ad-blocker",
+			"unified-hosts",
+			"shell",
+			"ad-block",
+			"hostsfile",
+			"security",
+			"advertisements",
+			"filter",
+			"filterlist",
+			"trackers",
+			"filter-lists"
+		],
+		"languages": [
+			"shell",
+			"makefile",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

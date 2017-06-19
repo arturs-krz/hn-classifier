@@ -1,0 +1,9 @@
+{
+	"_id": "14488401",
+	"site": "https://www.crumpington.com/batcht/",
+	"title": " On-demand, auto scaling batch compute clusters",
+	"author": "JohnnyLee",
+	"date": "2017-06-16T07:56:41.904Z",
+	"tags": [],
+	"content": "crumpington consulting llc home > batcht > batchtbatcht provides -demand, auto scaling batch compute clusters a service. compute cluster consists a head node, job queue, shared file system, any number compute nodes.sign or registerfeatures-demand online about minutes. billed hourly pay the resources use. auto scaling compute nodes may automatically added your job queue grows. self-healing failed compute nodes are automatically replaced, jobs are requeued. automatic monitoring failed head nodes are automatically replaced. job queue shared data are preserved network-attached storage. secure communication is secured using tls.documentationfind documentation here.downloads command line client be foundhere.pricing 1batcht bills the hour compute storage resources.compute pricingnode typecpusmemoryprice/hourstd-012 gb$0.040std-116 gb$0.068std-2213 gb$0.125std-4426 gb$0.239std-8851 gb$0.461std-121277 gb$0.690std-1616102 gb$0.910std-2020128 gb$1.139storage pricingshared compute node storage is billed a rate $0.00038/gb-hr. 1. contact volume discounts development services. [return]"
+}

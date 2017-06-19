@@ -1,0 +1,23 @@
+{
+	"_id": "11696472",
+	"site": "https://github.com/Ashald/EnvFile",
+	"title": " EnvFile – PyCharm plugin to set environment variables from files",
+	"author": "ashald",
+	"date": "2017-06-19T08:42:35.744Z",
+	"tags": {
+		"categories": [
+			"envfile",
+			"yaml",
+			"json",
+			"jetbrains",
+			"idea",
+			"pycharm",
+			"rubymine",
+			"plugin"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "10855205",
+	"site": "https://github.com/lukstei/trading-backtest/tree/master",
+	"title": " A pairs trading strategy using a bayesian kalman filter model",
+	"author": "lukstei",
+	"date": "2017-06-19T10:34:00.391Z",
+	"tags": {
+		"categories": [
+			"finance",
+			"trading",
+			"cointegration",
+			"kalman-filter",
+			"quantitative-finance",
+			"quantitative-trading",
+			"backtesting-engine",
+			"backtest"
+		],
+		"languages": [
+			"java",
+			"r"
+		]
+	},
+	"content": ""
+}

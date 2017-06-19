@@ -1,0 +1,9 @@
+{
+	"_id": "14507549",
+	"site": "https://www.neptune.io/dynamodb_cost_explorer.html",
+	"title": " A simple Amazon DynamoDB cost explorer – show costs and estimate savings",
+	"author": "kirankgollu",
+	"date": "2017-06-16T07:56:21.723Z",
+	"tags": [],
+	"content": "toggle navigation free trial * dynamodb-autoscaling * blog * loginamazon dynamodb cost explorer feeling dynamodb is too expensive? thinking 'd -provisioned tables? worried provisioned throughput exceeded throttling errors your customers? estimate amazon dynamodb bill, extract key metrics (including savings autoscaling) compare to everyone elses.enter aws read- keypairaccess key secret key region {{$select.selected.name}} submit questions? refer our faq here. savings autoscaling(approx) per month{{0.3 * dynamodbreport.awsbill}} - {{ 0.6 * dynamodbreport.awsbill}}aws bill today(approx) per month{{dynamodbreport.awsbill}}tables the region{{dynamodbreport.totaltables}}indices the region{{dynamodbreport.totalindices}}read iopsprovisioned reads across tables{{dynamodbreport.readcapacityunits}}write iopsprovisioned writes across tables{{dynamodbreport.writecapacityunits}}storage gigabytes{{dynamodbreport.storagespace}} gb questions we estimate costs () pros/cons auto-scaling tables? refer here! productwhy neptunefeaturesusecasesfaqpricingsecurityintegrationsmonitoring toolspingdom relicdatadogpagerdutynagiosicingascoutsensuzabbixzenoss more...logging toolssplunksumo logiclogentriespapertrailcloud & onpremawsherokuazuregoogle cloudrackspacedigital oceansoftlayerresourcesgetting starteddocumentationvideoscommunity runbookssupportblogcompanyteamcareersmedia & pressterms useprivacycontact book demo(425) 301-4972 support@neptune.io 1730 s.amphlett blvdsuite 213san mateo, ca, 94402copyright © 2013-2016 neptune.io,inc. rights reserved other products, services logos may trademarks their respective owners×close neptune introduction"
+}

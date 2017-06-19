@@ -1,0 +1,25 @@
+{
+	"_id": "11808467",
+	"site": "https://github.com/cfilipov/MuscleBook",
+	"title": " MuscleBook, an iOS weight lifting journal",
+	"author": "cfilipov",
+	"date": "2017-06-19T11:09:14.041Z",
+	"tags": {
+		"categories": [
+			"abandoned",
+			"swift",
+			"ios",
+			"fitness"
+		],
+		"languages": [
+			"swift",
+			"c",
+			"objective-c",
+			"c++",
+			"makefile",
+			"m4",
+			"other"
+		]
+	},
+	"content": ""
+}

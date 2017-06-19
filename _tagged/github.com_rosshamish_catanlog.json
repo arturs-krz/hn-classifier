@@ -1,0 +1,15 @@
+{
+	"_id": "10968867",
+	"site": "https://github.com/rosshamish/catanlog",
+	"title": " A machine-parsable, human-readable file format for Settlers of Catan",
+	"author": "rosshamish",
+	"date": "2017-06-19T09:55:56.522Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"gherkin"
+		]
+	},
+	"content": ""
+}

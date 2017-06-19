@@ -1,0 +1,19 @@
+{
+	"_id": "8723322",
+	"site": "https://github.com/nlkl/Optional",
+	"title": " Optional – A simple option type for C#",
+	"author": "nlkl",
+	"date": "2017-06-19T09:56:58.234Z",
+	"tags": {
+		"categories": [
+			"option-type",
+			"safety",
+			"functional-programming"
+		],
+		"languages": [
+			"c#",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

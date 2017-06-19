@@ -1,0 +1,14 @@
+{
+	"_id": "10438998",
+	"site": "https://github.com/fosubo/opworks_interactor",
+	"title": " Gem for concurrent-safe rolling deploys with Opsworks",
+	"author": "nico",
+	"date": "2017-06-19T10:04:45.212Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

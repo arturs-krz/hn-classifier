@@ -1,0 +1,23 @@
+{
+	"_id": "8917084",
+	"site": "https://github.com/bevacqua/insignia/",
+	"title": " Tag editor input UI component",
+	"author": "bevacqua",
+	"date": "2017-06-19T08:42:53.473Z",
+	"tags": {
+		"categories": [
+			"front-end",
+			"javascript",
+			"vanilla",
+			"es6",
+			"component",
+			"autocomplete"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

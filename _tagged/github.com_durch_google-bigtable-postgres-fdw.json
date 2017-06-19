@@ -1,0 +1,25 @@
+{
+	"_id": "13983734",
+	"site": "https://github.com/durch/google-bigtable-postgres-fdw",
+	"title": " Google Bigtable Postgres FDW in Rust",
+	"author": "durch",
+	"date": "2017-06-19T10:38:44.302Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"postgres",
+			"foreign-data-wrapper",
+			"bigtable",
+			"google-cloud"
+		],
+		"languages": [
+			"rust",
+			"makefile",
+			"python",
+			"c",
+			"c++",
+			"shell"
+		]
+	},
+	"content": ""
+}

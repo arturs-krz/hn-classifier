@@ -1,0 +1,24 @@
+{
+	"_id": "13147046",
+	"site": "https://github.com/omarrx024/xos",
+	"title": " xOS – a 32-bit OS for the PC",
+	"author": "omarrx024",
+	"date": "2017-06-19T08:42:35.363Z",
+	"tags": {
+		"categories": [
+			"kernel",
+			"operating-system",
+			"gui",
+			"assembly-language",
+			"acpi",
+			"usb",
+			"networking"
+		],
+		"languages": [
+			"assembly",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

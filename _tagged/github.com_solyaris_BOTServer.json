@@ -1,0 +1,23 @@
+{
+	"_id": "10690092",
+	"site": "https://github.com/solyaris/BOTServer",
+	"title": " BOTServer – Telegram Bot Webhooks Framework Server, for Rubyists",
+	"author": "solyaris",
+	"date": "2017-06-19T09:49:20.227Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"ruby-cli",
+			"telegram-bot-api",
+			"server-backend",
+			"botserver",
+			"webhook",
+			"telegram-bot",
+			"telegram"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

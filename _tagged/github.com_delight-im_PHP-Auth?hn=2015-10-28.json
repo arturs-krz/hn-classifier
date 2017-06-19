@@ -1,0 +1,22 @@
+{
+	"_id": "10463882",
+	"site": "https://github.com/delight-im/PHP-Auth?hn=2015-10-28",
+	"title": " How to do secure authentication in PHP, once and for all",
+	"author": "marco1",
+	"date": "2017-06-19T10:49:35.153Z",
+	"tags": {
+		"categories": [
+			"php",
+			"auth",
+			"authentication",
+			"authorization",
+			"security",
+			"login",
+			"registration"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

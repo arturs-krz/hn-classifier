@@ -1,0 +1,16 @@
+{
+	"_id": "8846864",
+	"site": "https://github.com/notprathap/filled-ellipse",
+	"title": " A fast Bresenham type algorithm for drawing filled ellipses",
+	"author": "notprathap",
+	"date": "2017-06-19T09:57:24.114Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"makefile",
+			"c"
+		]
+	},
+	"content": ""
+}

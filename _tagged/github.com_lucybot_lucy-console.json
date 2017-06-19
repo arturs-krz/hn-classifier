@@ -1,0 +1,20 @@
+{
+	"_id": "10993369",
+	"site": "https://github.com/lucybot/lucy-console",
+	"title": " Customizable REST API documentation",
+	"author": "bbrennan",
+	"date": "2017-06-19T11:04:57.597Z",
+	"tags": {
+		"categories": [
+			"api-documentation",
+			"api-documentation-tool",
+			"openapi",
+			"openapi-documentation",
+			"rest-api"
+		],
+		"languages": [
+			"html"
+		]
+	},
+	"content": ""
+}

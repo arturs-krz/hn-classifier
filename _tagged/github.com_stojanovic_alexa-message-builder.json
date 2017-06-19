@@ -1,0 +1,20 @@
+{
+	"_id": "13674549",
+	"site": "https://github.com/stojanovic/alexa-message-builder",
+	"title": " Simple message builder for Alexa Skills using Node.js",
+	"author": "slobodan_",
+	"date": "2017-06-19T10:46:49.032Z",
+	"tags": {
+		"categories": [
+			"amazon-alexa",
+			"amazon-alexa-skill",
+			"message",
+			"builder",
+			"alexa"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

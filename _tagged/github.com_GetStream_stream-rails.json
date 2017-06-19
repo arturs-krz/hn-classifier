@@ -1,0 +1,25 @@
+{
+	"_id": "8504078",
+	"site": "https://github.com/GetStream/stream-rails",
+	"title": " Build activity streams with Rails and getstream.io",
+	"author": "tbarbugli",
+	"date": "2017-06-19T11:01:04.844Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"ruby-on-rails",
+			"stream-rails",
+			"activity-stream",
+			"getstream-io",
+			"notification-feed",
+			"news-feed",
+			"timeline",
+			"feed"
+		],
+		"languages": [
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

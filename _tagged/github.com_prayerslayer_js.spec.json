@@ -1,0 +1,18 @@
+{
+	"_id": "13066920",
+	"site": "https://github.com/prayerslayer/js.spec",
+	"title": " js.spec, a JavaScript implementation of clojure.spec",
+	"author": "prayerslayer",
+	"date": "2017-06-19T10:39:58.032Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"javascript",
+			"spec"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

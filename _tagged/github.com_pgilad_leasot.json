@@ -1,0 +1,23 @@
+{
+	"_id": "9598918",
+	"site": "https://github.com/pgilad/leasot",
+	"title": " Parse and output TODOs and FIXMEs from comments in your files",
+	"author": "pgilad",
+	"date": "2017-06-19T09:44:03.941Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"parse",
+			"extract",
+			"todo",
+			"fixme",
+			"comments",
+			"automation",
+			"productivity"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

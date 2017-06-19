@@ -1,0 +1,16 @@
+{
+	"_id": "7068226",
+	"site": "https://github.com/BurntSushi/erd",
+	"title": " erd - generates an entity-relationship diagram from plain text",
+	"author": "burntsushi",
+	"date": "2017-06-19T10:55:29.424Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"haskell",
+			"makefile",
+			"vim script"
+		]
+	},
+	"content": ""
+}

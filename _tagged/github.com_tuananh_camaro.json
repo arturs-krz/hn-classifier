@@ -1,0 +1,23 @@
+{
+	"_id": "14552486",
+	"site": "https://github.com/tuananh/camaro",
+	"title": " A fast XML to JSON transformation package for Node.js",
+	"author": "tuananh",
+	"date": "2017-06-19T10:13:07.351Z",
+	"tags": {
+		"categories": [
+			"xml",
+			"transform",
+			"json",
+			"pugixml",
+			"xpath",
+			"nodejs"
+		],
+		"languages": [
+			"c++",
+			"javascript",
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "13980201",
+	"site": "https://github.com/sjurba/rebase-editor",
+	"title": " Rebase-editor, a simple CLI app specifically for Git interactive rebase",
+	"author": "sjurba",
+	"date": "2017-06-19T10:00:00.138Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

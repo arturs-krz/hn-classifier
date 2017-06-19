@@ -1,0 +1,18 @@
+{
+	"_id": "12152965",
+	"site": "https://github.com/OrangeFlash81/ipython-auto-import",
+	"title": " Automatically import or install modules when they're needed in IPython",
+	"author": "OrangeFlash81",
+	"date": "2017-06-19T10:46:46.255Z",
+	"tags": {
+		"categories": [
+			"ipython",
+			"python",
+			"python3"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

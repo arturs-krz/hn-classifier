@@ -1,0 +1,24 @@
+{
+	"_id": "13354022",
+	"site": "https://github.com/chmln/flatpickr",
+	"title": " Flatpickr – lightweight js datetime picker",
+	"author": "chmln",
+	"date": "2017-06-19T11:00:01.567Z",
+	"tags": {
+		"categories": [
+			"datetime",
+			"datetime-picker",
+			"datepicker",
+			"timepicker",
+			"daterange",
+			"date",
+			"daterangepicker"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

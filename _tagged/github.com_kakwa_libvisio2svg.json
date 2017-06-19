@@ -1,0 +1,26 @@
+{
+	"_id": "11101480",
+	"site": "https://github.com/kakwa/libvisio2svg",
+	"title": " Libvisio2svg. Library/Tools to Convert MS Visio .VSS/.VSD Docs to SVG",
+	"author": "kakwa_",
+	"date": "2017-06-19T08:45:58.191Z",
+	"tags": {
+		"categories": [
+			"vss",
+			"visio-documents",
+			"svg",
+			"stencil",
+			"vsd",
+			"visio",
+			"svg-conversion-library",
+			"microsoft",
+			"c-plus-plus"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"shell"
+		]
+	},
+	"content": ""
+}

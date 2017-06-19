@@ -1,0 +1,25 @@
+{
+	"_id": "13358753",
+	"site": "https://github.com/knowblcluster/log-based-static-contact-form",
+	"title": " Log based forms for static sites",
+	"author": "sudosushi",
+	"date": "2017-06-19T08:40:00.098Z",
+	"tags": {
+		"categories": [
+			"nginx",
+			"contact",
+			"form",
+			"contact-form",
+			"static-site",
+			"contactform",
+			"static",
+			"lightweight"
+		],
+		"languages": [
+			"nginx",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

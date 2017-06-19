@@ -1,0 +1,16 @@
+{
+	"_id": "10668574",
+	"site": "https://github.com/kgabis/business-card-brainfuck",
+	"title": " Business Card Brainfuck, a brainfuck interpreter in 512 bytes of C code",
+	"author": "kgabis",
+	"date": "2017-06-19T09:58:56.172Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile",
+			"brainfuck"
+		]
+	},
+	"content": ""
+}

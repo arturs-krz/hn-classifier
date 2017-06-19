@@ -1,0 +1,21 @@
+{
+	"_id": "11989424",
+	"site": "https://github.com/iboB/dynamix",
+	"title": " DynaMix – A new take on polymorphism in C++",
+	"author": "bstanimirov",
+	"date": "2017-06-19T10:10:41.742Z",
+	"tags": {
+		"categories": [
+			"polymorphism",
+			"oop",
+			"mixins",
+			"library"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"other"
+		]
+	},
+	"content": ""
+}

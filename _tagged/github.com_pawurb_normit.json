@@ -1,0 +1,21 @@
+{
+	"_id": "8162782",
+	"site": "https://github.com/pawurb/normit",
+	"title": " Normit – Google Translate with speech synthesis in your terminal",
+	"author": "pawurb",
+	"date": "2017-06-19T09:56:29.305Z",
+	"tags": {
+		"categories": [
+			"translation",
+			"google-translate",
+			"speech-synthesis",
+			"terminal",
+			"translations",
+			"npm"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

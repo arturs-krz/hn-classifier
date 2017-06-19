@@ -1,0 +1,29 @@
+{
+	"_id": "7597851",
+	"site": "https://github.com/jamesrwhite/minicron",
+	"title": " minicron – a system to manage and monitor cron jobs",
+	"author": "jamesrwhite",
+	"date": "2017-06-19T08:44:26.832Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"cron",
+			"monitoring",
+			"ops",
+			"devops",
+			"infrastructure",
+			"automation",
+			"scheduler"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"javascript",
+			"css",
+			"shell",
+			"nginx",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "11662069",
+	"site": "http://github.com/uwdb/quro",
+	"title": " Quro – Reordering queries to improve transactional apps",
+	"author": "pmh3",
+	"date": "2017-06-19T10:43:52.992Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"c",
+			"shell",
+			"plpgsql",
+			"sqlpl",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "13607946",
+	"site": "https://github.com/jezhalford/ansible-playground",
+	"title": " A vagrant-controled playground for trying out ansible",
+	"author": "jezhalford",
+	"date": "2017-06-19T10:09:27.627Z",
+	"tags": {
+		"categories": [
+			"ansible",
+			"playground",
+			"vagrant"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "12110685",
+	"site": "https://github.com/mustafaakin/gongular",
+	"title": " Gongular - A fast Go web framework with input mapping/validation",
+	"author": "CSDude",
+	"date": "2017-06-19T09:59:42.177Z",
+	"tags": {
+		"categories": [
+			"go",
+			"dependency-injection",
+			"middleware",
+			"web",
+			"framework"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

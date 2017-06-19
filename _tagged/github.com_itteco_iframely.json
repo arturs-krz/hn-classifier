@@ -1,0 +1,22 @@
+{
+	"_id": "5901823",
+	"site": "https://github.com/itteco/iframely",
+	"title": " Iframely - self-hosted embeds gateway (MIT)",
+	"author": "iparamonau",
+	"date": "2017-06-19T09:36:36.516Z",
+	"tags": {
+		"categories": [
+			"embeds",
+			"oembed",
+			"twitter-cards",
+			"open-graph",
+			"responsive"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

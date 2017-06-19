@@ -1,0 +1,20 @@
+{
+	"_id": "12747955",
+	"site": "https://github.com/prettydiff/biddle#beta-release",
+	"title": " Biddle, OS and language agnostic application distribution",
+	"author": "austincheney",
+	"date": "2017-06-19T08:46:15.818Z",
+	"tags": {
+		"categories": [
+			"installer",
+			"package-manager",
+			"hash",
+			"markdown-viewer",
+			"unzip"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

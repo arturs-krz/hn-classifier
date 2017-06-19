@@ -1,0 +1,15 @@
+{
+	"_id": "13180721",
+	"site": "https://github.com/yamafaktory/shrimpit",
+	"title": " Shrimpit – a CLI tool for checking unused JavaScript and JSX exports",
+	"author": "yamafaktory",
+	"date": "2017-06-19T11:05:02.732Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"nix"
+		]
+	},
+	"content": ""
+}

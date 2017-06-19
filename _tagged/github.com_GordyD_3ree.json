@@ -1,0 +1,24 @@
+{
+	"_id": "10377233",
+	"site": "https://github.com/GordyD/3ree",
+	"title": " The 3REE Stack Example App – React and Redux and RethinkDB and Express",
+	"author": "GordyMD",
+	"date": "2017-06-19T10:18:18.380Z",
+	"tags": {
+		"categories": [
+			"redux",
+			"rethinkdb",
+			"javascript",
+			"universal",
+			"express",
+			"boilerplate",
+			"react"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

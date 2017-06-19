@@ -1,0 +1,20 @@
+{
+	"_id": "8606609",
+	"site": "https://github.com/matt-42/iod#a-fast-malloc-free-json-parser--encoder",
+	"title": " A Fast, Malloc-Free C++14 Json Parser and Encoder",
+	"author": "matt42",
+	"date": "2017-06-19T10:57:52.520Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"meta-programming",
+			"serialization",
+			"deserialization"
+		],
+		"languages": [
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

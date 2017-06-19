@@ -1,0 +1,17 @@
+{
+	"_id": "13637115",
+	"site": "https://github.com/hkparker/imux",
+	"title": " Imux – a tool for inverse multiplexing sockets over configurable routes",
+	"author": "hkparker",
+	"date": "2017-06-19T09:36:37.510Z",
+	"tags": {
+		"categories": [
+			"go",
+			"networking"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

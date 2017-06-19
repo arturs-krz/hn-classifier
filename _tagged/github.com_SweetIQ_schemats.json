@@ -1,0 +1,23 @@
+{
+	"_id": "12933798",
+	"site": "https://github.com/SweetIQ/schemats",
+	"title": " Generate typecript definitions from (postgres) SQL database schema",
+	"author": "xiamx",
+	"date": "2017-06-19T10:19:57.961Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"postgresql",
+			"postgres",
+			"schema",
+			"automation",
+			"mysql",
+			"reflection"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

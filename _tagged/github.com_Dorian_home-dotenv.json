@@ -1,0 +1,19 @@
+{
+	"_id": "13735574",
+	"site": "https://github.com/Dorian/home-dotenv",
+	"title": " Home-dotenv, use '~/.env as your global .env file",
+	"author": "dorianm",
+	"date": "2017-06-19T10:14:45.552Z",
+	"tags": {
+		"categories": [
+			"gem",
+			"ruby",
+			"scripts",
+			"dotenv"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

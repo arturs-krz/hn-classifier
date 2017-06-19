@@ -1,0 +1,23 @@
+{
+	"_id": "12685699",
+	"site": "https://github.com/mulle-nat/mulle-thread",
+	"title": " Cross-platform thread/mutex/tss/atomic operations in C",
+	"author": "mulle_nat",
+	"date": "2017-06-19T10:21:40.835Z",
+	"tags": {
+		"categories": [
+			"thread",
+			"atomic",
+			"portable",
+			"mulle-objc"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"shell",
+			"objective-c",
+			"cmake"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "3523089",
+	"site": "https://github.com/davidcelis/recommendable",
+	"title": " recommendable, a like/dislike recommendation engine for your rails app",
+	"author": "davidcelis",
+	"date": "2017-06-19T10:25:47.895Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"redis",
+			"sidekiq",
+			"recommendations",
+			"rails"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

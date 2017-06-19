@@ -1,0 +1,15 @@
+{
+	"_id": "5164526",
+	"site": "https://github.com/avodonosov/heroku-buildpack-cl2",
+	"title": " run any Common Lisp app at Heroku",
+	"author": "avodonosov",
+	"date": "2017-06-19T10:07:53.228Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"common lisp",
+			"shell"
+		]
+	},
+	"content": ""
+}

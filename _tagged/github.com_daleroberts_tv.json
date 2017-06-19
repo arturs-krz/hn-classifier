@@ -1,0 +1,23 @@
+{
+	"_id": "12043394",
+	"site": "https://github.com/daleroberts/tv",
+	"title": " Quickly view satellite imagery directly in your terminal",
+	"author": "daleroberts",
+	"date": "2017-06-19T10:08:13.343Z",
+	"tags": {
+		"categories": [
+			"visualization",
+			"unicode-characters",
+			"image",
+			"command-line",
+			"true-color",
+			"unicode",
+			"python"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

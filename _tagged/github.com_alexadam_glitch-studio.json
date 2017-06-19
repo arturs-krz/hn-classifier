@@ -1,0 +1,25 @@
+{
+	"_id": "11960924",
+	"site": "https://github.com/alexadam/glitch-studio",
+	"title": " Glitch Studio – Dynamic .png Glitch",
+	"author": "eg312",
+	"date": "2017-06-19T09:52:18.516Z",
+	"tags": {
+		"categories": [
+			"glitch",
+			"glitch-mona",
+			"glitch-studio",
+			"png-decoder",
+			"data-bending",
+			"png",
+			"visual-effects"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

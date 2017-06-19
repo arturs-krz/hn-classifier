@@ -1,0 +1,16 @@
+{
+	"_id": "3835154",
+	"site": "https://github.com/cloudfoundry/bosh",
+	"title": " OSS tool for deploying (and release engineering) distributed services",
+	"author": "vadims",
+	"date": "2017-06-19T11:07:18.475Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

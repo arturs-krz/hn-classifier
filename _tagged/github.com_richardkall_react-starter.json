@@ -1,0 +1,21 @@
+{
+	"_id": "11190760",
+	"site": "https://github.com/richardkall/react-starter",
+	"title": " Isomorphic Kit with Redux, CSS Modules, PostCSS, Express, Webpack etc.",
+	"author": "richardkall",
+	"date": "2017-06-19T08:44:26.582Z",
+	"tags": {
+		"categories": [
+			"react",
+			"redux",
+			"apollo",
+			"webpack",
+			"server-side-rendering"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

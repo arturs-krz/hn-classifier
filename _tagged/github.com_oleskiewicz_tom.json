@@ -1,0 +1,18 @@
+{
+	"_id": "13979757",
+	"site": "https://github.com/oleskiewicz/tom",
+	"title": " Tom, a command-line pomodoro timer",
+	"author": "oleskiewicz",
+	"date": "2017-06-19T10:29:26.938Z",
+	"tags": {
+		"categories": [
+			"shell",
+			"bash",
+			"pomodoro"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

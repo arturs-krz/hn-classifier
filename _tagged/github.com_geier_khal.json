@@ -1,0 +1,20 @@
+{
+	"_id": "9333880",
+	"site": "http://github.com/geier/khal",
+	"title": " Khal – console calendar (CalDAV supported)",
+	"author": "lorenzfx",
+	"date": "2017-06-19T10:33:41.982Z",
+	"tags": {
+		"categories": [
+			"python",
+			"calendar",
+			"terminal",
+			"icalendar"
+		],
+		"languages": [
+			"python",
+			"awk"
+		]
+	},
+	"content": ""
+}

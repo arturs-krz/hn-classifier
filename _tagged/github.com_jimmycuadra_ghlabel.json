@@ -1,0 +1,22 @@
+{
+	"_id": "10212718",
+	"site": "https://github.com/jimmycuadra/ghlabel",
+	"title": " Ghlabel: Easily use a custom set of default labels in GitHub Issues",
+	"author": "Perceptes",
+	"date": "2017-06-19T10:23:57.411Z",
+	"tags": {
+		"categories": [
+			"github",
+			"github-api",
+			"developer-tools",
+			"rust",
+			"application",
+			"utility",
+			"github-issues"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

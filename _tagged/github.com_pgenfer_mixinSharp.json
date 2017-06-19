@@ -1,0 +1,19 @@
+{
+	"_id": "11142120",
+	"site": "https://github.com/pgenfer/mixinSharp",
+	"title": " MixinSharp, a VS 2015 extension to support mixins in C#",
+	"author": "pgenfer",
+	"date": "2017-06-19T10:49:46.913Z",
+	"tags": {
+		"categories": [
+			"csharp",
+			"roslyn",
+			"mixins",
+			"visual-studio-extension"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

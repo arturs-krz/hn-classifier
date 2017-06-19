@@ -1,0 +1,19 @@
+{
+	"_id": "12116937",
+	"site": "https://github.com/NicoSantangelo/github-go-to-line-number",
+	"title": " Chrome Extension to find a line number on GitHub files/diffs",
+	"author": "NicoSantangelo",
+	"date": "2017-06-19T08:44:06.250Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"javascript",
+			"github"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

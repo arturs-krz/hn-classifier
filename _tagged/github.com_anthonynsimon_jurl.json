@@ -1,0 +1,23 @@
+{
+	"_id": "13539151",
+	"site": "https://github.com/anthonynsimon/jurl",
+	"title": " jurl – Fast and simple URL parsing for Java",
+	"author": "amzans",
+	"date": "2017-06-19T10:49:02.133Z",
+	"tags": {
+		"categories": [
+			"java",
+			"url-parsing",
+			"utf-8",
+			"unicode",
+			"ipv6",
+			"resolver",
+			"path",
+			"uri"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

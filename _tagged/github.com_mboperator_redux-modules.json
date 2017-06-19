@@ -1,0 +1,19 @@
+{
+	"_id": "11362139",
+	"site": "https://github.com/mboperator/redux-modules",
+	"title": " Typechecked – boilerplate-free state transformations with redux-modules",
+	"author": "mboperator",
+	"date": "2017-06-19T09:51:30.362Z",
+	"tags": {
+		"categories": [
+			"redux",
+			"redux-modules",
+			"state-transformations",
+			"react"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

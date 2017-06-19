@@ -1,0 +1,24 @@
+{
+	"_id": "13104680",
+	"site": "https://github.com/MinhasKamal/SkinDetector",
+	"title": " #SkinDetector- Detects Human Skin from Image",
+	"author": "MinhasKamal",
+	"date": "2017-06-19T08:46:08.897Z",
+	"tags": {
+		"categories": [
+			"region",
+			"region-detection",
+			"image-processing",
+			"java",
+			"segmentation",
+			"egami",
+			"skin",
+			"image-segmentation",
+			"template-matching"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

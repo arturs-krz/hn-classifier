@@ -1,0 +1,19 @@
+{
+	"_id": "10598913",
+	"site": "https://github.com/GordyD/js-aco",
+	"title": " A Visual Demo of Ant Colony Optimisation in JavaScript",
+	"author": "GordyMD",
+	"date": "2017-06-19T11:08:24.717Z",
+	"tags": {
+		"categories": [
+			"aco",
+			"tsp",
+			"javascript",
+			"ecmascript6"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

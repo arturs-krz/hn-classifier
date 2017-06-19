@@ -1,0 +1,16 @@
+{
+	"_id": "12472818",
+	"site": "https://github.com/Fizzadar/pyinfra",
+	"title": " Pyinfra – Deploy stuff by diff-ing the remote state",
+	"author": "Fizzadar",
+	"date": "2017-06-19T10:17:56.296Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell",
+			"ruby"
+		]
+	},
+	"content": ""
+}

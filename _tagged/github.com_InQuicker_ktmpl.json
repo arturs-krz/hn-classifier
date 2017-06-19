@@ -1,0 +1,17 @@
+{
+	"_id": "11173347",
+	"site": "https://github.com/InQuicker/ktmpl",
+	"title": " Ktmpl: Parameterized templates for Kubernetes manifests",
+	"author": "Perceptes",
+	"date": "2017-06-19T10:38:38.634Z",
+	"tags": {
+		"categories": [
+			"kubernetes"
+		],
+		"languages": [
+			"rust",
+			"makefile"
+		]
+	},
+	"content": ""
+}

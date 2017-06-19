@@ -1,0 +1,21 @@
+{
+	"_id": "13796441",
+	"site": "https://github.com/cytopia/ffscreencast",
+	"title": " Ffscreencast – CLI-based screencasts for OS X, Linux, BSD",
+	"author": "everythingcli",
+	"date": "2017-06-19T08:39:53.531Z",
+	"tags": {
+		"categories": [
+			"ffmpeg",
+			"ffmpeg-wrapper",
+			"screencast",
+			"screen-recorder",
+			"ffmpeg-command",
+			"camera-overlay"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "12349001",
+	"site": "https://github.com/kvnneff/hackernews-choo",
+	"title": " A Hacker News Reader Built with Choo",
+	"author": "kvnneff",
+	"date": "2017-06-19T09:52:55.269Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

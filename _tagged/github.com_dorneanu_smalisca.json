@@ -1,0 +1,15 @@
+{
+	"_id": "9339236",
+	"site": "https://github.com/dorneanu/smalisca",
+	"title": " Smalisca – Static Code Analysis for Smali",
+	"author": "cyneox",
+	"date": "2017-06-19T10:41:46.045Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

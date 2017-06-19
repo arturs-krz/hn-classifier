@@ -1,0 +1,25 @@
+{
+	"_id": "13878898",
+	"site": "https://github.com/amitmerchant1990/pomolectron",
+	"title": " A Pomodoro app for your menubar/tray",
+	"author": "amitmerchant",
+	"date": "2017-06-19T10:05:38.602Z",
+	"tags": {
+		"categories": [
+			"pomodoro",
+			"pomodoro-timer",
+			"productivity",
+			"desktop",
+			"electron",
+			"menubar",
+			"tray",
+			"time-intervals"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

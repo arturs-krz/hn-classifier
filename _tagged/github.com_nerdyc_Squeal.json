@@ -1,0 +1,22 @@
+{
+	"_id": "8324461",
+	"site": "https://github.com/nerdyc/Squeal",
+	"title": " Squeal, a Swift interface to SQLite",
+	"author": "nerdyc",
+	"date": "2017-06-19T08:43:55.056Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"sqlite-database",
+			"sqlite3",
+			"sqlite",
+			"database",
+			"sql"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

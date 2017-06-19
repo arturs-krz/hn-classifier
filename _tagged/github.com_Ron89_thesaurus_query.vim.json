@@ -1,0 +1,20 @@
+{
+	"_id": "13402036",
+	"site": "https://github.com/Ron89/thesaurus_query.vim",
+	"title": " Multi-Language Thesaurus Query/Replacement Plugin for Vim",
+	"author": "ron89_10_101",
+	"date": "2017-06-19T10:23:56.486Z",
+	"tags": {
+		"categories": [
+			"synonyms",
+			"thesaurus-query",
+			"vim",
+			"thesaurus"
+		],
+		"languages": [
+			"python",
+			"vim script"
+		]
+	},
+	"content": ""
+}

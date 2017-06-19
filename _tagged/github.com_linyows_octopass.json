@@ -1,0 +1,22 @@
+{
+	"_id": "13643348",
+	"site": "https://github.com/linyows/octopass",
+	"title": " Initial release of Octopass to manage linux users with GitHub org/team",
+	"author": "linyows",
+	"date": "2017-06-19T10:36:34.747Z",
+	"tags": {
+		"categories": [
+			"nss",
+			"linux",
+			"github",
+			"ldap",
+			"c"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

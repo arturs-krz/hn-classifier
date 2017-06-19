@@ -1,0 +1,19 @@
+{
+	"_id": "13751803",
+	"site": "https://github.com/lowleveldesign/wtrace",
+	"title": " Wtrace – A command line tracing tool for Windows, based on ETW",
+	"author": "lowleveldesign",
+	"date": "2017-06-19T08:45:51.854Z",
+	"tags": {
+		"categories": [
+			"diagnostics",
+			"etw",
+			"profiling"
+		],
+		"languages": [
+			"c#",
+			"powershell"
+		]
+	},
+	"content": ""
+}

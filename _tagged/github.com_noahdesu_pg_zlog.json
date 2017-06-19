@@ -1,0 +1,20 @@
+{
+	"_id": "13474577",
+	"site": "https://github.com/noahdesu/pg_zlog",
+	"title": " Replicated Tables in PostgreSQL with Ceph and ZLog",
+	"author": "noahdesu",
+	"date": "2017-06-19T10:08:25.982Z",
+	"tags": {
+		"categories": [
+			"ceph",
+			"zlog",
+			"database",
+			"replication"
+		],
+		"languages": [
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "11856630",
+	"site": "https://github.com/insin/nwb#nwb",
+	"title": " Nwb – quick React development and configurable project dev tooling",
+	"author": "insin",
+	"date": "2017-06-19T09:57:43.372Z",
+	"tags": {
+		"categories": [
+			"toolkit",
+			"react",
+			"preact",
+			"inferno",
+			"react-component",
+			"npm-module",
+			"webpack",
+			"babel",
+			"karma",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

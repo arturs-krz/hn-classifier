@@ -1,0 +1,22 @@
+{
+	"_id": "7897434",
+	"site": "https://github.com/magnetikonline/dockerhtml5validator",
+	"title": " A Dockerfile for self contained W3C/HTML5 validator",
+	"author": "magnetikonline",
+	"date": "2017-06-19T09:48:08.891Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"docker-image",
+			"html5-validation",
+			"w3c-validator",
+			"html",
+			"html5",
+			"validator"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

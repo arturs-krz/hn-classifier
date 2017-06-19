@@ -1,0 +1,19 @@
+{
+	"_id": "12852783",
+	"site": "https://github.com/hasit/githubjobs-go",
+	"title": " GitHub Jobs SDK for Go",
+	"author": "hasit",
+	"date": "2017-06-19T08:45:37.598Z",
+	"tags": {
+		"categories": [
+			"github-jobs",
+			"github-api",
+			"api",
+			"sdk"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

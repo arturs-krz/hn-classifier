@@ -1,0 +1,28 @@
+{
+	"_id": "11737519",
+	"site": "https://github.com/eliangcs/http-prompt",
+	"title": " HTTP Prompt – An HTTP CLI with autocomplete and syntax highlighting",
+	"author": "eliangcs",
+	"date": "2017-06-19T11:07:53.859Z",
+	"tags": {
+		"categories": [
+			"http-client",
+			"cli",
+			"rest-api",
+			"developer-tools",
+			"autocomplete",
+			"syntax-highlighting",
+			"http",
+			"development",
+			"web-development",
+			"json",
+			"python",
+			"shell",
+			"terminal"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

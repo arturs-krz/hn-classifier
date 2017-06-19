@@ -1,0 +1,14 @@
+{
+	"_id": "11235030",
+	"site": "https://github.com/nishanths/license",
+	"title": " Open source license generator from the command-line",
+	"author": "nishs",
+	"date": "2017-06-19T10:56:08.677Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "11396368",
+	"site": "https://github.com/mcuadros/gce-docker",
+	"title": " Gce-Docker – Google Cloud Engine Integration for Docker",
+	"author": "mcuadros",
+	"date": "2017-06-19T09:49:08.174Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

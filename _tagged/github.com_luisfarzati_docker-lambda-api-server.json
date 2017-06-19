@@ -1,0 +1,14 @@
+{
+	"_id": "13127671",
+	"site": "https://github.com/luisfarzati/docker-lambda-api-server",
+	"title": " Run a local AWS Lambda server for development and testing, transparently",
+	"author": "riffonio",
+	"date": "2017-06-19T10:00:36.114Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

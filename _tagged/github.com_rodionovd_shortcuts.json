@@ -1,0 +1,18 @@
+{
+	"_id": "12335986",
+	"site": "https://github.com/rodionovd/shortcuts",
+	"title": " Shortcuts – A CLI manager for text replacements on macOS",
+	"author": "ololoev",
+	"date": "2017-06-19T10:28:09.342Z",
+	"tags": {
+		"categories": [
+			"macos",
+			"text-substitution",
+			"shortcut"
+		],
+		"languages": [
+			"objective-c"
+		]
+	},
+	"content": ""
+}

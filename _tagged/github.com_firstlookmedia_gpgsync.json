@@ -1,0 +1,24 @@
+{
+	"_id": "12703701",
+	"site": "https://github.com/firstlookmedia/gpgsync",
+	"title": " GPG Sync",
+	"author": "samuelcouch",
+	"date": "2017-06-19T08:42:50.794Z",
+	"tags": {
+		"categories": [
+			"gpg",
+			"gpg-sync",
+			"pgp",
+			"openpgp",
+			"encrypted-email",
+			"techie",
+			"osx",
+			"linux"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

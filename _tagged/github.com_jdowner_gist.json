@@ -1,0 +1,20 @@
+{
+	"_id": "9229581",
+	"site": "https://github.com/jdowner/gist",
+	"title": " Python-gist (v0.2.0) for working with gists from the command line",
+	"author": "jdowner",
+	"date": "2017-06-19T09:32:07.593Z",
+	"tags": {
+		"categories": [
+			"gist",
+			"github",
+			"git"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "7076225",
+	"site": "https://github.com/IcaliaLabs/acts_as_user",
+	"title": " Handle multiple user roles on a Rails app gem",
+	"author": "kurenn88",
+	"date": "2017-06-19T10:16:24.058Z",
+	"tags": {
+		"categories": [
+			"rails",
+			"ruby",
+			"gem",
+			"devise",
+			"user-handling",
+			"polymorphic-relationships"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

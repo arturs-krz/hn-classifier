@@ -1,0 +1,23 @@
+{
+	"_id": "12882457",
+	"site": "https://github.com/hchasestevens/astpath",
+	"title": " A search utility for Python ASTs",
+	"author": "hchasestevens",
+	"date": "2017-06-19T10:46:25.712Z",
+	"tags": {
+		"categories": [
+			"python-ast",
+			"xpath",
+			"xpath-syntax",
+			"python",
+			"ast",
+			"metaprogramming",
+			"search",
+			"command-line-tool"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

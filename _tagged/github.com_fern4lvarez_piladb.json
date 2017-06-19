@@ -1,0 +1,22 @@
+{
+	"_id": "13229132",
+	"site": "https://github.com/fern4lvarez/piladb",
+	"title": " Piladb – A lightweight RESTful database based on stack data structures",
+	"author": "fern4lvarez",
+	"date": "2017-06-19T08:42:26.952Z",
+	"tags": {
+		"categories": [
+			"stack",
+			"database",
+			"go",
+			"linux",
+			"macos",
+			"rest-api"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

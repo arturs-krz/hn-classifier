@@ -1,0 +1,15 @@
+{
+	"_id": "9554743",
+	"site": "https://github.com/walkr/hn",
+	"title": " Yet Another CLI for HN",
+	"author": "hewitt",
+	"date": "2017-06-19T09:56:21.824Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

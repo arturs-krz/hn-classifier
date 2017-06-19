@@ -1,0 +1,24 @@
+{
+	"_id": "13397888",
+	"site": "https://github.com/thestonefox/VRTK",
+	"title": " VRTK – Virtual Reality Toolkit for Unity 3d",
+	"author": "thestonefox",
+	"date": "2017-06-19T10:22:54.190Z",
+	"tags": {
+		"categories": [
+			"unity3d",
+			"vrtk",
+			"steamvr-plugin",
+			"steamvr",
+			"virtual-reality",
+			"vr",
+			"oculus-rift",
+			"vr-solutions"
+		],
+		"languages": [
+			"c#",
+			"shaderlab"
+		]
+	},
+	"content": ""
+}

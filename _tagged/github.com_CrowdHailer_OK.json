@@ -1,0 +1,20 @@
+{
+	"_id": "12701289",
+	"site": "https://github.com/CrowdHailer/OK",
+	"title": " Building on Elixir pipes with result monads",
+	"author": "crowdhailer",
+	"date": "2017-06-19T11:02:15.937Z",
+	"tags": {
+		"categories": [
+			"pipeline",
+			"monad",
+			"macros",
+			"elixir",
+			"elixir-pipelines"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": ""
+}

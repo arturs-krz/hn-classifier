@@ -1,0 +1,15 @@
+{
+	"_id": "13262266",
+	"site": "https://github.com/pyupio/changelogs",
+	"title": " A changelog finder and parser for packages on pypi, npm and rubygems",
+	"author": "jayfk",
+	"date": "2017-06-19T09:35:59.590Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

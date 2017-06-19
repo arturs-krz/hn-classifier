@@ -1,0 +1,21 @@
+{
+	"_id": "9918780",
+	"site": "https://github.com/timleland/WeatherCE",
+	"title": " Simple Weather a Chrome Extension",
+	"author": "TimLeland",
+	"date": "2017-06-19T09:38:52.653Z",
+	"tags": {
+		"categories": [
+			"weather-extension",
+			"chrome",
+			"darksky",
+			"darksky-api"
+		],
+		"languages": [
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

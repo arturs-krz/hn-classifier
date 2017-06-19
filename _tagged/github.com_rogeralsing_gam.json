@@ -1,0 +1,24 @@
+{
+	"_id": "11618550",
+	"site": "https://github.com/rogeralsing/gam",
+	"title": " Go Actor Model, fast distributed actors for Golang",
+	"author": "RogerAlsing",
+	"date": "2017-06-19T10:06:51.105Z",
+	"tags": {
+		"categories": [
+			"grpc",
+			"actor-model",
+			"actors",
+			"cross-platform",
+			"protobuf",
+			"akka",
+			"clustering",
+			"distributed-computing"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

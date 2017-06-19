@@ -1,0 +1,16 @@
+{
+	"_id": "8289414",
+	"site": "https://github.com/sebcat/nolibs-stub",
+	"title": " Boilerplate for building syscall-only ELFs in FreeBSD",
+	"author": "sebcat",
+	"date": "2017-06-19T10:28:42.026Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"assembly",
+			"c",
+			"c++"
+		]
+	},
+	"content": ""
+}

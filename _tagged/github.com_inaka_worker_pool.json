@@ -1,0 +1,17 @@
+{
+	"_id": "8373363",
+	"site": "https://github.com/inaka/worker_pool",
+	"title": " Worker Pool for Erlang",
+	"author": "elbrujohalcon",
+	"date": "2017-06-19T10:24:48.638Z",
+	"tags": {
+		"categories": [
+			"erlang",
+			"pool"
+		],
+		"languages": [
+			"erlang"
+		]
+	},
+	"content": ""
+}

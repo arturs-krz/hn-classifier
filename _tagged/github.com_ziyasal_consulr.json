@@ -1,0 +1,19 @@
+{
+	"_id": "12737738",
+	"site": "https://github.com/ziyasal/consulr",
+	"title": " Decode Consul KV data into JSON in Node.js apps and watch for updates",
+	"author": "ziyasal",
+	"date": "2017-06-19T10:09:32.542Z",
+	"tags": {
+		"categories": [
+			"consul",
+			"nodejs",
+			"watch",
+			"json"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "11506679",
+	"site": "https://github.com/robertdolca/docker-kubernetes-nginx-proxy",
+	"title": " Kubernetes automatic service proxy based on annotations",
+	"author": "robertdolca",
+	"date": "2017-06-19T10:48:24.542Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

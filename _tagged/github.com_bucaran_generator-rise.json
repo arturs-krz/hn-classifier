@@ -1,0 +1,18 @@
+{
+	"_id": "10837850",
+	"site": "https://github.com/bucaran/generator-rise",
+	"title": " Scaffold out a node module with ES6+, Babel, tape and npm scripts",
+	"author": "bucaran",
+	"date": "2017-06-19T10:43:00.751Z",
+	"tags": {
+		"categories": [
+			"babel",
+			"es6",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

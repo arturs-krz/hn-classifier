@@ -1,0 +1,22 @@
+{
+	"_id": "9992463",
+	"site": "https://github.com/outoftime/learnpad",
+	"title": " Learnpad is an HTML/CSS/JS editor for students to use in the classroom",
+	"author": "glossybrown",
+	"date": "2017-06-19T09:37:09.094Z",
+	"tags": {
+		"categories": [
+			"classroom",
+			"editor",
+			"education",
+			"web-development"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

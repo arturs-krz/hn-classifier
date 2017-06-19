@@ -1,0 +1,18 @@
+{
+	"_id": "10376572",
+	"site": "https://github.com/samuelcouch/clarifai",
+	"title": " Golang Clarifai Client",
+	"author": "samuelcouch",
+	"date": "2017-06-19T10:01:34.936Z",
+	"tags": {
+		"categories": [
+			"clarifai",
+			"go",
+			"golang"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

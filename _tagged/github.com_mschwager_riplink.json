@@ -1,0 +1,23 @@
+{
+	"_id": "13956878",
+	"site": "https://github.com/mschwager/riplink",
+	"title": " R.I.P.Link – Find dead links on the web",
+	"author": "schwag09",
+	"date": "2017-06-19T09:56:31.101Z",
+	"tags": {
+		"categories": [
+			"href",
+			"link",
+			"seo",
+			"anchor",
+			"url",
+			"http",
+			"not-found",
+			"404"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

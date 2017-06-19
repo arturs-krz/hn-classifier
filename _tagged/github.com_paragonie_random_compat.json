@@ -1,0 +1,28 @@
+{
+	"_id": "10018224",
+	"site": "https://github.com/paragonie/random_compat",
+	"title": " Polyfill for random_bytes() and random_int() in PHP 5 projects",
+	"author": "paragon_init",
+	"date": "2017-06-19T11:00:17.822Z",
+	"tags": {
+		"categories": [
+			"php",
+			"php5",
+			"secure",
+			"secure-by-default",
+			"random",
+			"random-bytes",
+			"csprng",
+			"randomness",
+			"random-int",
+			"polyfill",
+			"random-generation",
+			"randomization"
+		],
+		"languages": [
+			"php",
+			"shell"
+		]
+	},
+	"content": ""
+}

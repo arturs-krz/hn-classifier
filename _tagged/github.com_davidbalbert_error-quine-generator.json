@@ -1,0 +1,14 @@
+{
+	"_id": "3879898",
+	"site": "https://github.com/davidbalbert/error-quine-generator",
+	"title": " A Ruby script to generate (cheap) quines in other programming languages",
+	"author": "davidbalbert",
+	"date": "2017-06-19T10:43:57.517Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

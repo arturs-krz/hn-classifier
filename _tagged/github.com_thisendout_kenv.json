@@ -1,0 +1,14 @@
+{
+	"_id": "12597649",
+	"site": "https://github.com/thisendout/kenv",
+	"title": " kenv – an environment file injector for Kubernetes resources",
+	"author": "nextrevision",
+	"date": "2017-06-19T11:00:50.577Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

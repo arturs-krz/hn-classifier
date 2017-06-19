@@ -1,0 +1,21 @@
+{
+	"_id": "13847477",
+	"site": "https://github.com/g3n/engine",
+	"title": " G3N – Go 3D Game Engine",
+	"author": "leonsal",
+	"date": "2017-06-19T09:53:49.070Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"go",
+			"game-engine",
+			"opengl"
+		],
+		"languages": [
+			"go",
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "8231542",
+	"site": "https://github.com/l3nz/whaleware",
+	"title": " Whaleware, services in Docker with fine-grained life cycle",
+	"author": "l3nz",
+	"date": "2017-06-19T10:49:50.286Z",
+	"tags": {
+		"categories": [
+			"docker"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

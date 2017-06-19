@@ -1,0 +1,18 @@
+{
+	"_id": "12674021",
+	"site": "https://github.com/RazrFalcon/svgcleaner",
+	"title": " Svgcleaner – an SVG cleaning application written on Rust",
+	"author": "RazrFalcon",
+	"date": "2017-06-19T10:01:09.014Z",
+	"tags": {
+		"categories": [
+			"svg",
+			"cleaner",
+			"rust"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

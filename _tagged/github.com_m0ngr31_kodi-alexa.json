@@ -1,0 +1,20 @@
+{
+	"_id": "12631157",
+	"site": "https://github.com/m0ngr31/kodi-alexa",
+	"title": " Control Kodi with Alexa",
+	"author": "m0ngr31",
+	"date": "2017-06-19T10:00:44.513Z",
+	"tags": {
+		"categories": [
+			"alexa-skill",
+			"kodi",
+			"aws-lambda",
+			"alexa-skills-kit",
+			"amazon-echo"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

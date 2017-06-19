@@ -1,0 +1,22 @@
+{
+	"_id": "10824723",
+	"site": "https://github.com/fisherman/fisherman",
+	"title": " Fisherman – Fish Shell Manager",
+	"author": "bucaran",
+	"date": "2017-06-19T10:07:16.850Z",
+	"tags": {
+		"categories": [
+			"fish-shell",
+			"fish",
+			"commandline",
+			"fishshell",
+			"oh-my-zsh",
+			"prezto",
+			"concurrency"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

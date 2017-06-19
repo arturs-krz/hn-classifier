@@ -1,0 +1,9 @@
+{
+	"_id": "14435738",
+	"site": "http://bluebook.run",
+	"title": " API Testing for Developers",
+	"author": "tadasv",
+	"date": "2017-06-16T07:57:31.907Z",
+	"tags": [],
+	"content": "toggle navigation bluebook * getting started * documentation * * bluebook configuration language (bcl) * * block syntax * expressions * types * comments * interpolation syntax * bluebook command line interface * variables * resources * * http_assertion * http_variable * http_step * http_test * github * bluebook ngbluebookapi testing monitoring developersbluebook lets write modular composable api tests, can easily shared, deployed, monitored keep systems healthy. try test configuration languagebluebook comes its own language writing api tests. makes writing tests your apis easy, providing smart defaults removing unnecessary boilerplate. learn more bluebook configuration language.easy install usesingle, statically linked binary makes installing bluebook breeze. download, unpack get going.service monitoring automationbluebook lets gain insight your web application's health, performance failing endpoints. learn more bluebook ng. © 2017 tadas vilkeliskis"
+}

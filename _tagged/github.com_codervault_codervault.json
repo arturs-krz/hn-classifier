@@ -1,0 +1,22 @@
+{
+	"_id": "12397687",
+	"site": "https://github.com/codervault/codervault",
+	"title": " Codervault – Open-Source, Self-Hosted Snippet Manager",
+	"author": "SalGnt",
+	"date": "2017-06-19T10:05:24.091Z",
+	"tags": {
+		"categories": [
+			"self-hosted",
+			"snippets-manager",
+			"ruby",
+			"rails"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

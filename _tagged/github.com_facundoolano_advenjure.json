@@ -1,0 +1,21 @@
+{
+	"_id": "11871455",
+	"site": "https://github.com/facundoolano/advenjure",
+	"title": " Advenjure, an interactive fiction game engine",
+	"author": "facundo_olano",
+	"date": "2017-06-19T09:46:40.870Z",
+	"tags": {
+		"categories": [
+			"game-development",
+			"adventure-game-engine",
+			"adventure-game",
+			"clojure",
+			"text-adventure",
+			"interactive-fiction"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

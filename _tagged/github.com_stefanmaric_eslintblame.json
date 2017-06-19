@@ -1,0 +1,23 @@
+{
+	"_id": "13493354",
+	"site": "https://github.com/stefanmaric/eslintblame",
+	"title": " Eslintblame: parse eslint output into Git blame to unveil the offenders",
+	"author": "stefanmaric",
+	"date": "2017-06-19T10:19:25.664Z",
+	"tags": {
+		"categories": [
+			"eslint",
+			"git-blame",
+			"standard-js",
+			"snazzy",
+			"git",
+			"shell",
+			"npm",
+			"fish-shell"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

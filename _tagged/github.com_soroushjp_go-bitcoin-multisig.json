@@ -1,0 +1,14 @@
+{
+	"_id": "8747368",
+	"site": "https://github.com/soroushjp/go-bitcoin-multisig",
+	"title": " Bitcoin M-of-N Multisig P2SH Transaction Builder in Go",
+	"author": "soroushjp",
+	"date": "2017-06-19T10:44:00.420Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

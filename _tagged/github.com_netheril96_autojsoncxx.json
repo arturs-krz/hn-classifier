@@ -1,0 +1,21 @@
+{
+	"_id": "8481130",
+	"site": "https://github.com/netheril96/autojsoncxx",
+	"title": " A code generator for automatically converting JSON to/from C++ structs",
+	"author": "netheril96",
+	"date": "2017-06-19T09:40:21.457Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"json",
+			"json-schema",
+			"parsing"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

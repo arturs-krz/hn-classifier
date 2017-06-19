@@ -1,0 +1,22 @@
+{
+	"_id": "13325306",
+	"site": "https://github.com/harshjv/github-repo-size",
+	"title": " Chrome extension that adds repository and file size to GitHub natively",
+	"author": "harshjv",
+	"date": "2017-06-19T09:55:40.403Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"github",
+			"github-api",
+			"repository-utilities",
+			"repository-tools",
+			"repository-management",
+			"statistics"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

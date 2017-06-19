@@ -1,0 +1,20 @@
+{
+	"_id": "11039171",
+	"site": "https://github.com/fishery/shark#shark",
+	"title": " Shark – A fast sparkline generator for Fish shell",
+	"author": "bucaran",
+	"date": "2017-06-19T09:53:28.310Z",
+	"tags": {
+		"categories": [
+			"fishshell",
+			"spark",
+			"sparklines",
+			"fish-shell",
+			"plugin"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

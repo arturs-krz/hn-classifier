@@ -1,0 +1,21 @@
+{
+	"_id": "13403319",
+	"site": "https://github.com/subhajeet2107/django-simplepush",
+	"title": " Web push notifications for newbies",
+	"author": "shubhajeet2107",
+	"date": "2017-06-19T08:44:01.904Z",
+	"tags": {
+		"categories": [
+			"notifications",
+			"gcm",
+			"django",
+			"web-worker"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

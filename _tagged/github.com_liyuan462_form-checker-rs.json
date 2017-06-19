@@ -1,0 +1,20 @@
+{
+	"_id": "13953702",
+	"site": "https://github.com/liyuan462/form-checker-rs",
+	"title": " Form-checker-rs – A Form values validator for Rust Web developers",
+	"author": "liyuan462",
+	"date": "2017-06-19T10:53:03.909Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"web",
+			"form",
+			"validator",
+			"checker"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "12505906",
+	"site": "https://github.com/sivasamyk/logtrail",
+	"title": " Logtrail – A Kibana plugin for logs that clones the Papertrail UI",
+	"author": "avisk",
+	"date": "2017-06-19T09:40:06.320Z",
+	"tags": {
+		"categories": [
+			"kibana",
+			"elasticsearch",
+			"papertrail",
+			"logstash",
+			"logging",
+			"log-viewer",
+			"syslog",
+			"event-viewer"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

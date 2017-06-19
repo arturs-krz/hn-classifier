@@ -1,0 +1,26 @@
+{
+	"_id": "12419323",
+	"site": "https://github.com/shyamjos/Arduino_ServerMon",
+	"title": " Monitoring Linux Server with arduino",
+	"author": "ma5ter",
+	"date": "2017-06-19T08:46:24.031Z",
+	"tags": {
+		"categories": [
+			"arduino",
+			"ethernet",
+			"lcd",
+			"php",
+			"linux",
+			"monitoring",
+			"embedded",
+			"microcontroller",
+			"iot",
+			"bash-script"
+		],
+		"languages": [
+			"arduino",
+			"php"
+		]
+	},
+	"content": ""
+}

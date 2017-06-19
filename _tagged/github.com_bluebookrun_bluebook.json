@@ -12,7 +12,8 @@
 			"test-automation",
 			"test-runner",
 			"api-testing",
-			"api-test-platform"
+			"api-test-platform",
+			"testing"
 		],
 		"languages": [
 			"go",

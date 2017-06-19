@@ -1,0 +1,20 @@
+{
+	"_id": "11893322",
+	"site": "https://github.com/delight-im/htaccess",
+	"title": " A default .htaccess that improves every site",
+	"author": "marco1",
+	"date": "2017-06-19T09:59:39.458Z",
+	"tags": {
+		"categories": [
+			"htaccess",
+			"apache",
+			"apache2",
+			"server",
+			"security"
+		],
+		"languages": [
+			"apacheconf"
+		]
+	},
+	"content": ""
+}

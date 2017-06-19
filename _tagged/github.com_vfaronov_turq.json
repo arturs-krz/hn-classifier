@@ -1,0 +1,25 @@
+{
+	"_id": "14041791",
+	"site": "https://github.com/vfaronov/turq",
+	"title": " Turq – mock APIs and Web sites in seconds",
+	"author": "vfaronov",
+	"date": "2017-06-19T11:02:25.291Z",
+	"tags": {
+		"categories": [
+			"http",
+			"mock",
+			"testing",
+			"api",
+			"server",
+			"rest",
+			"debug"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"css",
+			"smarty"
+		]
+	},
+	"content": ""
+}

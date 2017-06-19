@@ -1,0 +1,18 @@
+{
+	"_id": "6061291",
+	"site": "https://github.com/riobard/bash-powerline",
+	"title": " Poor man's Bash Powerline in pure Bash script",
+	"author": "riobard",
+	"date": "2017-06-19T08:44:00.732Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"powerline",
+			"shell"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

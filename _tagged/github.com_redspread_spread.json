@@ -1,0 +1,17 @@
+{
+	"_id": "11177221",
+	"site": "https://github.com/redspread/spread",
+	"title": " Redspread (YC W16) – CLI to deploy Docker to Kubernetes in one command",
+	"author": "mfburnett",
+	"date": "2017-06-19T10:14:04.292Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile",
+			"shell",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "11224608",
+	"site": "https://github.com/SirCmpwn/sway",
+	"title": " Sway, a tiling window manager and compositor for Wayland",
+	"author": "Sir_Cmpwn",
+	"date": "2017-06-19T10:21:43.560Z",
+	"tags": {
+		"categories": [
+			"compositor",
+			"wayland"
+		],
+		"languages": [
+			"c",
+			"cmake",
+			"c++"
+		]
+	},
+	"content": ""
+}

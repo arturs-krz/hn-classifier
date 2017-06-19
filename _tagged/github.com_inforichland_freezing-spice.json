@@ -1,0 +1,16 @@
+{
+	"_id": "9962954",
+	"site": "https://github.com/inforichland/freezing-spice",
+	"title": " A pipelined RISC-V processor written in VHDL",
+	"author": "inforichland",
+	"date": "2017-06-19T10:21:03.618Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"vhdl",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

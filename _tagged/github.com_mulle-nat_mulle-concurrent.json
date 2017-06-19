@@ -1,0 +1,21 @@
+{
+	"_id": "12804619",
+	"site": "https://github.com/mulle-nat/mulle-concurrent",
+	"title": " A Lock- and wait-free hashtable (and an array too), written in C",
+	"author": "mulle_nat",
+	"date": "2017-06-19T08:44:36.492Z",
+	"tags": {
+		"categories": [
+			"lock-free",
+			"hashmap",
+			"array",
+			"mulle-objc"
+		],
+		"languages": [
+			"c",
+			"shell",
+			"cmake"
+		]
+	},
+	"content": ""
+}

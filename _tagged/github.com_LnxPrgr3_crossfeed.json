@@ -1,0 +1,19 @@
+{
+	"_id": "8818870",
+	"site": "https://github.com/LnxPrgr3/crossfeed",
+	"title": " Intentionally subtle headphone crossfeed filter",
+	"author": "LnxPrgr3",
+	"date": "2017-06-19T11:09:30.719Z",
+	"tags": {
+		"categories": [
+			"music",
+			"crossfeed-filter"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

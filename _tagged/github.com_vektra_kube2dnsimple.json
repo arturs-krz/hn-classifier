@@ -1,0 +1,15 @@
+{
+	"_id": "10149629",
+	"site": "https://github.com/vektra/kube2dnsimple",
+	"title": " Auto-update Kubernetes service records in DNSimple",
+	"author": "evanphx",
+	"date": "2017-06-19T09:31:41.247Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

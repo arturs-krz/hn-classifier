@@ -1,0 +1,23 @@
+{
+	"_id": "10963474",
+	"site": "https://github.com/brakmic/OpenCV",
+	"title": " Character Recognition with OpenCV",
+	"author": "brakmic",
+	"date": "2017-06-19T08:42:51.953Z",
+	"tags": {
+		"categories": [
+			"opencv",
+			"vision",
+			"computer-vision",
+			"ocr",
+			"ocr-recognition",
+			"scanimage",
+			"scanned-documents",
+			"scanning"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "10618750",
+	"site": "https://github.com/mtth/hdfs",
+	"title": " HdfsCLI – A python API and command line interface for HDFS",
+	"author": "mtth",
+	"date": "2017-06-19T10:07:01.238Z",
+	"tags": {
+		"categories": [
+			"hdfs",
+			"python",
+			"cli"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

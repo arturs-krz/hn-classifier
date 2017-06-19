@@ -1,0 +1,19 @@
+{
+	"_id": "10974509",
+	"site": "https://github.com/deuill/go-php",
+	"title": " PHP bindings for Go",
+	"author": "deuill",
+	"date": "2017-06-19T08:44:09.561Z",
+	"tags": {
+		"categories": [
+			"php",
+			"go",
+			"language-bindings"
+		],
+		"languages": [
+			"go",
+			"c"
+		]
+	},
+	"content": ""
+}

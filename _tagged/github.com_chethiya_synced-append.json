@@ -1,0 +1,14 @@
+{
+	"_id": "12997972",
+	"site": "https://github.com/chethiya/synced-append",
+	"title": " A Node.js library to commit multiple text files in an atomic operation",
+	"author": "chethiya",
+	"date": "2017-06-19T10:22:23.501Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "10519049",
+	"site": "https://github.com/andresinaka/SwiftCop",
+	"title": " SwiftCop validation library fully written in Swift. ActiveRecord Style",
+	"author": "AArg",
+	"date": "2017-06-19T11:02:53.782Z",
+	"tags": {
+		"categories": [
+			"validation",
+			"email-validation",
+			"swift",
+			"clarity"
+		],
+		"languages": [
+			"swift",
+			"ruby"
+		]
+	},
+	"content": ""
+}

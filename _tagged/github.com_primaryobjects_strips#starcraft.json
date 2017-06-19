@@ -1,0 +1,28 @@
+{
+	"_id": "8987602",
+	"site": "https://github.com/primaryobjects/strips#starcraft",
+	"title": " AI Planning for Starcraft",
+	"author": "primaryobjects",
+	"date": "2017-06-19T09:35:19.903Z",
+	"tags": {
+		"categories": [
+			"ai",
+			"artificial-intelligence",
+			"ai-planning",
+			"planning",
+			"machine-learning",
+			"starcraft",
+			"javascript",
+			"strips",
+			"node",
+			"nodejs",
+			"node-js",
+			"pddl"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

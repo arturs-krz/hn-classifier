@@ -1,0 +1,24 @@
+{
+	"_id": "11491844",
+	"site": "https://github.com/datamine/pokertexter",
+	"title": " PokerTexter",
+	"author": "johnloeber",
+	"date": "2017-06-19T08:44:07.090Z",
+	"tags": {
+		"categories": [
+			"twilio",
+			"heroku",
+			"poker",
+			"python",
+			"python-2",
+			"twilio-phone-number",
+			"phone",
+			"sms"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

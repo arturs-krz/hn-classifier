@@ -1,0 +1,14 @@
+{
+	"_id": "6160322",
+	"site": "https://github.com/adamcharnock/dokku-client",
+	"title": " An Heroku-style command line interface for Dokku",
+	"author": "adamcharnock",
+	"date": "2017-06-19T11:02:40.762Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

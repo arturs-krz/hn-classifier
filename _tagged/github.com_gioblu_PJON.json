@@ -1,0 +1,33 @@
+{
+	"_id": "10283028",
+	"site": "https://github.com/gioblu/PJON",
+	"title": " PJON – Open-source Arduino multimaster communications bus system",
+	"author": "gioscarab",
+	"date": "2017-06-19T08:46:05.600Z",
+	"tags": {
+		"categories": [
+			"communication-protocol",
+			"communication-library",
+			"iot",
+			"protocol-specification",
+			"multi-master",
+			"bus",
+			"framework",
+			"c-plus-plus-11",
+			"open-source",
+			"arduino",
+			"attiny85",
+			"esp8266",
+			"teensy",
+			"raspberry-pi",
+			"windows",
+			"x86"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"arduino"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "11068902",
+	"site": "https://github.com/jbranchaud/til",
+	"title": " I've been writing daily TILs for a year",
+	"author": "jbranchaud",
+	"date": "2017-06-19T10:09:24.556Z",
+	"tags": {
+		"categories": [
+			"til",
+			"today-i-learned",
+			"writing"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "10793247",
+	"site": "https://github.com/meisyal/MIM",
+	"title": " MIM – An Ionic mobile inventory manager application",
+	"author": "0x54MUR41",
+	"date": "2017-06-19T09:32:57.455Z",
+	"tags": {
+		"categories": [
+			"inventory",
+			"mobile-app",
+			"ionic-framework"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

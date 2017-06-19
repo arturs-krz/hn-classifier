@@ -1,0 +1,25 @@
+{
+	"_id": "8103039",
+	"site": "https://github.com/OpenHFT/hftc",
+	"title": " OpenHFT Collections – the fastest Java hash sets and maps ever",
+	"author": "leventov",
+	"date": "2017-06-19T09:36:16.940Z",
+	"tags": {
+		"categories": [
+			"java-collections",
+			"java",
+			"koloboke",
+			"annotation-processor",
+			"primitive-specializations",
+			"high-performance",
+			"hashmap",
+			"collections"
+		],
+		"languages": [
+			"java",
+			"kotlin",
+			"html"
+		]
+	},
+	"content": ""
+}

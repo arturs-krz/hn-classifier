@@ -1,0 +1,29 @@
+{
+	"_id": "11790902",
+	"site": "https://github.com/niosus/EasyClangComplete",
+	"title": " Yet another Sublime Text plugin for C++ completion",
+	"author": "soinus",
+	"date": "2017-06-19T10:37:10.244Z",
+	"tags": {
+		"categories": [
+			"auto-complete",
+			"sublime-text-3",
+			"code-completion",
+			"plugin",
+			"compilation-database",
+			"compile",
+			"cmake",
+			"clang",
+			"libclang"
+		],
+		"languages": [
+			"python",
+			"objective-c",
+			"html",
+			"cmake",
+			"c++",
+			"objective-c++"
+		]
+	},
+	"content": ""
+}

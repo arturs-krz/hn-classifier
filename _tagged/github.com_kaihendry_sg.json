@@ -1,0 +1,16 @@
+{
+	"_id": "6327373",
+	"site": "https://github.com/kaihendry/sg",
+	"title": " Suckless graphs - cron to CSV and generate {gnuplot,Google,..} graphs",
+	"author": "hendry",
+	"date": "2017-06-19T10:47:26.275Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

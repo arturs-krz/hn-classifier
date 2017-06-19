@@ -1,0 +1,19 @@
+{
+	"_id": "12434409",
+	"site": "https://github.com/pgilad/vim-react-proptypes-snippets",
+	"title": " Vim React PropTypes Snippets",
+	"author": "pgilad",
+	"date": "2017-06-19T10:02:41.922Z",
+	"tags": {
+		"categories": [
+			"vim",
+			"proptypes",
+			"react",
+			"snippets",
+			"autocomplete",
+			"javascript"
+		],
+		"languages": []
+	},
+	"content": ""
+}

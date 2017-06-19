@@ -1,0 +1,22 @@
+{
+	"_id": "13972321",
+	"site": "https://github.com/minio/minio-hs",
+	"title": " Minio Client SDK for Haskell (beta Version)",
+	"author": "y4m4b4",
+	"date": "2017-06-19T10:58:04.791Z",
+	"tags": {
+		"categories": [
+			"haskell",
+			"haskell-library",
+			"aws-s3",
+			"s3-bucket",
+			"s3",
+			"object-storage",
+			"cloud-storage"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": ""
+}

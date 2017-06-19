@@ -1,0 +1,19 @@
+{
+	"_id": "10321335",
+	"site": "https://github.com/caarlos0/antibody",
+	"title": " An Antigen clone written in Go",
+	"author": "caarlos0",
+	"date": "2017-06-19T10:08:30.034Z",
+	"tags": {
+		"categories": [
+			"dotfiles",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

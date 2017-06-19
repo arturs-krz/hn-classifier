@@ -1,0 +1,22 @@
+{
+	"_id": "13104086",
+	"site": "https://github.com/tiaanduplessis/generator-dup",
+	"title": " Scaffold out a modest node module",
+	"author": "tiaanduplessis",
+	"date": "2017-06-19T10:22:00.950Z",
+	"tags": {
+		"categories": [
+			"yo",
+			"generator",
+			"node-module",
+			"boilerplate",
+			"standard",
+			"husky",
+			"jest"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

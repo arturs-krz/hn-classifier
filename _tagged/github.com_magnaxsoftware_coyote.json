@@ -1,0 +1,22 @@
+{
+	"_id": "11792278",
+	"site": "https://github.com/magnaxsoftware/coyote",
+	"title": " Coyote, an acme-tiny inspired ACME client",
+	"author": "xav0989",
+	"date": "2017-06-19T10:41:34.982Z",
+	"tags": {
+		"categories": [
+			"acme",
+			"certificate-request",
+			"certificate",
+			"automation",
+			"tls",
+			"encryption"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

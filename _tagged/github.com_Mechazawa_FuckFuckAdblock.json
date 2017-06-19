@@ -1,0 +1,18 @@
+{
+	"_id": "10729068",
+	"site": "https://github.com/Mechazawa/FuckFuckAdblock",
+	"title": " FuckFuckAdblock",
+	"author": "mechazawa",
+	"date": "2017-06-19T09:49:17.531Z",
+	"tags": {
+		"categories": [
+			"adblock",
+			"greasemonkey",
+			"tampermonkey"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

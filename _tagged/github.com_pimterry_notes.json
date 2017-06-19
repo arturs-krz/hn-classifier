@@ -1,0 +1,23 @@
+{
+	"_id": "13079962",
+	"site": "https://github.com/pimterry/notes",
+	"title": " Notes. Simple flexible unix-y note taking",
+	"author": "pimterry",
+	"date": "2017-06-19T08:44:38.732Z",
+	"tags": {
+		"categories": [
+			"notes",
+			"note-taking",
+			"shell-script",
+			"productivity",
+			"unix",
+			"markdown"
+		],
+		"languages": [
+			"shell",
+			"roff",
+			"makefile"
+		]
+	},
+	"content": ""
+}

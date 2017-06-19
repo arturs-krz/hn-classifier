@@ -1,0 +1,14 @@
+{
+	"_id": "9596567",
+	"site": "https://github.com/mathall/rim/",
+	"title": " Rim – Aspiring Vim-like text editor written in Rust",
+	"author": "mths",
+	"date": "2017-06-19T10:26:22.345Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

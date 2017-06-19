@@ -1,0 +1,25 @@
+{
+	"_id": "13297263",
+	"site": "https://github.com/brakmic/BiB",
+	"title": " BiB – Library Management Application for Elementary Schools",
+	"author": "brakmic",
+	"date": "2017-06-19T10:50:59.675Z",
+	"tags": {
+		"categories": [
+			"books",
+			"school",
+			"database",
+			"typescript",
+			"hapijs",
+			"library-management-system",
+			"angular"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

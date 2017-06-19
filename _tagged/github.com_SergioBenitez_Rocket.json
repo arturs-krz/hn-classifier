@@ -1,0 +1,22 @@
+{
+	"_id": "13253295",
+	"site": "https://github.com/SergioBenitez/Rocket",
+	"title": " Rocket, a web framework for Rust",
+	"author": "rharrison0809",
+	"date": "2017-06-19T11:11:21.304Z",
+	"tags": {
+		"categories": [
+			"rocket",
+			"web",
+			"framework",
+			"web-framework",
+			"web-development",
+			"rust"
+		],
+		"languages": [
+			"rust",
+			"other"
+		]
+	},
+	"content": ""
+}

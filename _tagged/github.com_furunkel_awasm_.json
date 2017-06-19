@@ -1,0 +1,24 @@
+{
+	"_id": "11400688",
+	"site": "https://github.com/furunkel/awasm/",
+	"title": " Automatic Induction of Machine Code by Genetic Programming",
+	"author": "haematom",
+	"date": "2017-06-19T08:44:43.671Z",
+	"tags": {
+		"categories": [
+			"jit",
+			"ruby",
+			"aimgp",
+			"genetic-programming",
+			"genetic-algorithm",
+			"program-synthesis",
+			"x64",
+			"x86-64"
+		],
+		"languages": [
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

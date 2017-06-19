@@ -1,0 +1,23 @@
+{
+	"_id": "8911217",
+	"site": "https://github.com/matt-42/silicon",
+	"title": " The Silicon C++14 Web Framework",
+	"author": "matt42",
+	"date": "2017-06-19T10:27:04.063Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"webframework",
+			"backend",
+			"database",
+			"middleware"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

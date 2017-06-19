@@ -1,0 +1,22 @@
+{
+	"_id": "13951901",
+	"site": "https://github.com/palantir/react-mosaic",
+	"title": " React Tiling Window Manager",
+	"author": "nomcopter",
+	"date": "2017-06-19T09:49:32.881Z",
+	"tags": {
+		"categories": [
+			"react",
+			"window-manager",
+			"tiling-window-manager",
+			"typescript"
+		],
+		"languages": [
+			"typescript",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

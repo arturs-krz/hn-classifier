@@ -1,0 +1,25 @@
+{
+	"_id": "9346252",
+	"site": "https://github.com/kzaher/RxSwift",
+	"title": " Reactive Extensions for Swift",
+	"author": "kzaher",
+	"date": "2017-06-19T10:34:54.794Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"reactivex",
+			"reactive",
+			"ios",
+			"unidirectional",
+			"observer",
+			"functional",
+			"rxswift"
+		],
+		"languages": [
+			"swift",
+			"objective-c",
+			"other"
+		]
+	},
+	"content": ""
+}

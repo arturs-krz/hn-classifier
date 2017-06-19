@@ -1,0 +1,22 @@
+{
+	"_id": "7290316",
+	"site": "https://github.com/newzly/phantom",
+	"title": " Newzly-phantom – Asynchronous type-safe Scala DSL for Cassandra",
+	"author": "alfl23",
+	"date": "2017-06-19T10:57:08.613Z",
+	"tags": {
+		"categories": [
+			"scala",
+			"phantom",
+			"cassandra",
+			"datastax-enterprise",
+			"reactive",
+			"reactive-streams"
+		],
+		"languages": [
+			"scala",
+			"other"
+		]
+	},
+	"content": ""
+}

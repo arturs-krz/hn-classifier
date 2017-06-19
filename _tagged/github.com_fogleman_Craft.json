@@ -1,0 +1,17 @@
+{
+	"_id": "6878565",
+	"site": "https://github.com/fogleman/Craft",
+	"title": " Minecraft clone in 2500 lines of C - even supports multiplayer online",
+	"author": "fogleman",
+	"date": "2017-06-19T10:11:06.717Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"python",
+			"glsl",
+			"other"
+		]
+	},
+	"content": ""
+}

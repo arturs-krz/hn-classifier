@@ -1,0 +1,19 @@
+{
+	"_id": "13764385",
+	"site": "https://github.com/stelabouras/TubeLister",
+	"title": " A Chrome extension that merges all open YouTube tabs into one playlist",
+	"author": "stelabouras",
+	"date": "2017-06-19T08:42:39.649Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"tabs",
+			"youtube",
+			"playlist"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

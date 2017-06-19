@@ -1,0 +1,26 @@
+{
+	"_id": "13055481",
+	"site": "https://github.com/timofurrer/shellfuncs",
+	"title": " Python API to execute functions from shell scripts",
+	"author": "tuxtimo",
+	"date": "2017-06-19T10:34:33.636Z",
+	"tags": {
+		"categories": [
+			"subprocess",
+			"shell",
+			"function",
+			"environment",
+			"source",
+			"api",
+			"interface",
+			"bash",
+			"import",
+			"execute"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

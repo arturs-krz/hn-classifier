@@ -1,0 +1,22 @@
+{
+	"_id": "12387892",
+	"site": "https://github.com/MaxLeiter/jsonTree",
+	"title": " JsonTree, a JavaScript tool for generating HTML lists from JSON data",
+	"author": "MaxLeiter",
+	"date": "2017-06-19T10:44:30.763Z",
+	"tags": {
+		"categories": [
+			"jsontree",
+			"javascript",
+			"lightweight",
+			"vanilla",
+			"vanilla-js"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

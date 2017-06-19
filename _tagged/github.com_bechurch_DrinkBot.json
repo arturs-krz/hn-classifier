@@ -1,0 +1,20 @@
+{
+	"_id": "10269719",
+	"site": "https://github.com/bechurch/DrinkBot",
+	"title": " A Slack bot to find your team drink recipies",
+	"author": "bnchrch",
+	"date": "2017-06-19T10:31:43.701Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"cocktails",
+			"bot",
+			"nodejs",
+			"chatbot"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

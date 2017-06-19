@@ -1,0 +1,18 @@
+{
+	"_id": "12200088",
+	"site": "https://github.com/roxma/vim-tmux-clipboard",
+	"title": " Vim-tmux-clipboard – Seemless integration for vim and tmux's clipboard",
+	"author": "roxma",
+	"date": "2017-06-19T11:02:09.178Z",
+	"tags": {
+		"categories": [
+			"vim",
+			"tmux-clipboard",
+			"neovim"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

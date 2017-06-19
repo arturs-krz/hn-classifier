@@ -1,0 +1,22 @@
+{
+	"_id": "10902838",
+	"site": "https://github.com/thebearjew/commit-comments",
+	"title": " Commit Comments – build commit messages in code comments",
+	"author": "Zezima",
+	"date": "2017-06-19T08:42:28.224Z",
+	"tags": {
+		"categories": [
+			"git",
+			"hooks",
+			"commits",
+			"comment",
+			"messages"
+		],
+		"languages": [
+			"shell",
+			"javascript",
+			"c++"
+		]
+	},
+	"content": ""
+}

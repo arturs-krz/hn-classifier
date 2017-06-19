@@ -1,0 +1,15 @@
+{
+	"_id": "10358825",
+	"site": "https://github.com/aap/tenth",
+	"title": " A simple bare-metal Forth for the PDP-10",
+	"author": "aap_",
+	"date": "2017-06-19T10:23:50.555Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"assembly"
+		]
+	},
+	"content": ""
+}

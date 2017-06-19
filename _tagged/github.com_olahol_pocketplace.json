@@ -1,0 +1,21 @@
+{
+	"_id": "14028724",
+	"site": "https://github.com/olahol/pocketplace",
+	"title": " Pocketplace: a mini version of /r/place using golang and websockets",
+	"author": "ola",
+	"date": "2017-06-19T08:43:08.756Z",
+	"tags": {
+		"categories": [
+			"place",
+			"websocket",
+			"multiplayer",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

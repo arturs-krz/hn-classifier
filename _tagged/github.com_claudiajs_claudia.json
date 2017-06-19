@@ -1,0 +1,23 @@
+{
+	"_id": "11140011",
+	"site": "https://github.com/claudiajs/claudia",
+	"title": " Claudia.js – deploy Node.js microservices to AWS more easily",
+	"author": "adzicg",
+	"date": "2017-06-19T10:11:00.408Z",
+	"tags": {
+		"categories": [
+			"aws-lambda",
+			"aws",
+			"serverless",
+			"api-gateway",
+			"javascript",
+			"nodejs",
+			"claudia"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

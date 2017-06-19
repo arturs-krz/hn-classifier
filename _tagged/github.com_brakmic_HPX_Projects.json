@@ -1,0 +1,21 @@
+{
+	"_id": "11143883",
+	"site": "https://github.com/brakmic/HPX_Projects",
+	"title": " HPX with C++ and Visual Studio 2015",
+	"author": "brakmic",
+	"date": "2017-06-19T08:44:05.635Z",
+	"tags": {
+		"categories": [
+			"hpx",
+			"boost",
+			"cpp",
+			"cplusplus",
+			"c-plus-plus"
+		],
+		"languages": [
+			"c++",
+			"c"
+		]
+	},
+	"content": ""
+}

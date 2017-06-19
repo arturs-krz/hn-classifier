@@ -1,0 +1,20 @@
+{
+	"_id": "8121837",
+	"site": "https://github.com/bahlo/goat",
+	"title": " Goat, a REST api server in Go",
+	"author": "abahlo",
+	"date": "2017-06-19T09:57:54.164Z",
+	"tags": {
+		"categories": [
+			"go",
+			"middleware",
+			"rest",
+			"framework",
+			"json"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

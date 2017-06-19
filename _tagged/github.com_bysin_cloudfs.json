@@ -1,0 +1,17 @@
+{
+	"_id": "9636858",
+	"site": "https://github.com/bysin/cloudfs",
+	"title": " Cloudfs, a cloud virtual filesystem (FUSE) for Linux",
+	"author": "bysin",
+	"date": "2017-06-19T09:45:21.532Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"shell",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

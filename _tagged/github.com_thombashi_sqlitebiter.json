@@ -1,0 +1,26 @@
+{
+	"_id": "11634067",
+	"site": "https://github.com/thombashi/sqlitebiter",
+	"title": " Sqlitebiter – tool to convert CSV/JSON/Excel/Google-Sheets to SQLite",
+	"author": "thombashi",
+	"date": "2017-06-19T11:07:51.604Z",
+	"tags": {
+		"categories": [
+			"sqlite",
+			"csv",
+			"excel",
+			"google-sheets",
+			"html",
+			"json",
+			"ltsv",
+			"tsv",
+			"converter",
+			"cli-app"
+		],
+		"languages": [
+			"python",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13060150",
+	"site": "https://github.com/xogroup/felicity",
+	"title": " Felicity – Node.js models from Joi schema",
+	"author": "westyler",
+	"date": "2017-06-19T09:37:25.768Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"javascript",
+			"validation",
+			"joi",
+			"models",
+			"schema",
+			"hapi"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

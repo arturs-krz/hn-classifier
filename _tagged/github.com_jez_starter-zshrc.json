@@ -1,0 +1,17 @@
+{
+	"_id": "11213492",
+	"site": "https://github.com/jez/starter-zshrc",
+	"title": " Starter zshrc: Sensible defaults for switching from bash to zsh",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T10:32:33.770Z",
+	"tags": {
+		"categories": [
+			"zsh",
+			"zshrc"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "8009768",
+	"site": "https://github.com/Svalorzen/AI-Toolbox",
+	"title": " C++ Toolbox for Reinforcement Learning and Planning",
+	"author": "svalorzen",
+	"date": "2017-06-19T11:04:17.167Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"artificial-intelligence",
+			"markov-decision-processes",
+			"python",
+			"mdps",
+			"pomdps",
+			"reinforcement-learning",
+			"planning"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"cmake"
+		]
+	},
+	"content": ""
+}

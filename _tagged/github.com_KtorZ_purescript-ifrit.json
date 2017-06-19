@@ -1,0 +1,23 @@
+{
+	"_id": "14018029",
+	"site": "https://github.com/KtorZ/purescript-ifrit",
+	"title": " A Compiler from SQL to NoSQL Written in PureScript",
+	"author": "KtorZ",
+	"date": "2017-06-19T08:44:37.104Z",
+	"tags": {
+		"categories": [
+			"sql",
+			"compiler",
+			"nosql",
+			"mongodb",
+			"pipeline",
+			"mapreduce",
+			"aggregation"
+		],
+		"languages": [
+			"purescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

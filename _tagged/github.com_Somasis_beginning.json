@@ -1,0 +1,16 @@
+{
+	"_id": "10180273",
+	"site": "https://github.com/Somasis/beginning",
+	"title": " Beginning, a work-in-progress init system",
+	"author": "Somasis",
+	"date": "2017-06-19T10:32:23.736Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile",
+			"c"
+		]
+	},
+	"content": ""
+}

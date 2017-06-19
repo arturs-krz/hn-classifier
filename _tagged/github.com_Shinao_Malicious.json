@@ -1,0 +1,16 @@
+{
+	"_id": "12486440",
+	"site": "https://github.com/Shinao/Malicious",
+	"title": " ASM virus with reproduction and payload downloading",
+	"author": "shinao",
+	"date": "2017-06-19T10:26:44.489Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"assembly",
+			"javascript",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

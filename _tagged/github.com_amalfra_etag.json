@@ -1,0 +1,19 @@
+{
+	"_id": "13865306",
+	"site": "https://github.com/amalfra/etag",
+	"title": " A simple package to generate HTTP Etags in Go",
+	"author": "amalfra",
+	"date": "2017-06-19T10:16:47.747Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"etag",
+			"http"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

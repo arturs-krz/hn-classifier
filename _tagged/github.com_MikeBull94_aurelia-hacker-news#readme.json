@@ -1,0 +1,22 @@
+{
+	"_id": "13070809",
+	"site": "https://github.com/MikeBull94/aurelia-hacker-news#readme",
+	"title": " Hacker News Clone Built with Aurelia",
+	"author": "michaelbull",
+	"date": "2017-06-19T10:50:27.310Z",
+	"tags": {
+		"categories": [
+			"hacker-news",
+			"webpack",
+			"typescript",
+			"firebase",
+			"aurelia"
+		],
+		"languages": [
+			"typescript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "11839762",
+	"site": "https://github.com/susam/timebox",
+	"title": " A timer shell script to practice timeboxing",
+	"author": "susam",
+	"date": "2017-06-19T09:48:02.036Z",
+	"tags": {
+		"categories": [
+			"timeboxing",
+			"windows",
+			"linux",
+			"osx"
+		],
+		"languages": [
+			"shell",
+			"batchfile",
+			"makefile"
+		]
+	},
+	"content": ""
+}

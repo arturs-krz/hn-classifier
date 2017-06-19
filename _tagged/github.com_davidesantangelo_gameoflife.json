@@ -1,0 +1,21 @@
+{
+	"_id": "9690611",
+	"site": "https://github.com/davidesantangelo/gameoflife",
+	"title": " Conway's Game of Life, Rails Implementation",
+	"author": "daviducolo",
+	"date": "2017-06-19T09:33:31.206Z",
+	"tags": {
+		"categories": [
+			"math",
+			"ruby",
+			"game"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

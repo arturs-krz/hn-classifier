@@ -1,0 +1,20 @@
+{
+	"_id": "8202284",
+	"site": "https://github.com/maxcountryman/flake",
+	"title": " Decentralized, k-ordered unique IDs in Clojure",
+	"author": "llambda",
+	"date": "2017-06-19T10:56:23.589Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"flake-ids",
+			"uuid",
+			"uuid-generator",
+			"flake"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "10691696",
+	"site": "https://github.com/josefdlange/doit",
+	"title": " DoIt – stupid simple task management on the command line",
+	"author": "josefdlange",
+	"date": "2017-06-19T10:33:02.557Z",
+	"tags": {
+		"categories": [
+			"tasks",
+			"todo",
+			"python",
+			"commandline",
+			"cli",
+			"productivity"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

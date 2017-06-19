@@ -1,0 +1,24 @@
+{
+	"_id": "12168530",
+	"site": "https://github.com/OpenPoGo/OpenPoGoBot",
+	"title": " OpenPoGoBot – An Opensource Pokemon Go Bot in Python",
+	"author": "rlei123",
+	"date": "2017-06-19T08:46:46.102Z",
+	"tags": {
+		"categories": [
+			"pokemongo-bot",
+			"pokemon",
+			"pokemon-go",
+			"pokemongo",
+			"python",
+			"virtualenv",
+			"openpogobot",
+			"farm-pokestops"
+		],
+		"languages": [
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

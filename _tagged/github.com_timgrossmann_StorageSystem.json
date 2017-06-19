@@ -1,0 +1,26 @@
+{
+	"_id": "12914510",
+	"site": "https://github.com/timgrossmann/StorageSystem",
+	"title": " Personal Storage System with a PI",
+	"author": "timgrossmann",
+	"date": "2017-06-19T09:57:09.907Z",
+	"tags": {
+		"categories": [
+			"javafx",
+			"java-8",
+			"managaement",
+			"javafx-application",
+			"raspberry-pi",
+			"maker",
+			"gui",
+			"stock"
+		],
+		"languages": [
+			"java",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

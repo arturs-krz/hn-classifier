@@ -1,0 +1,24 @@
+{
+	"_id": "13286469",
+	"site": "https://github.com/pimterry/photo-frame",
+	"title": " Facebook-powered open-source Raspberry Pi photo frame",
+	"author": "pimterry",
+	"date": "2017-06-19T08:37:00.443Z",
+	"tags": {
+		"categories": [
+			"resin-io",
+			"photo-frame",
+			"facebook-photo-frame",
+			"facebook",
+			"iot",
+			"hardware"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

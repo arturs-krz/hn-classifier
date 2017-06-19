@@ -1,0 +1,24 @@
+{
+	"_id": "11452827",
+	"site": "https://github.com/TiBeN/ia-mame",
+	"title": " MAME wrapper which downloads from archive.org",
+	"author": "tiben_",
+	"date": "2017-06-19T10:11:19.939Z",
+	"tags": {
+		"categories": [
+			"mame",
+			"rom",
+			"mess",
+			"chd",
+			"retrocomputing",
+			"ia-mame",
+			"archive-dot-org",
+			"java",
+			"emulator"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

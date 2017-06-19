@@ -1,0 +1,27 @@
+{
+	"_id": "12789720",
+	"site": "https://github.com/ory-am/hydra?branches",
+	"title": " Run your own OAuth2 and OpenID Connect Provider",
+	"author": "kdyx0r",
+	"date": "2017-06-19T09:37:17.561Z",
+	"tags": {
+		"categories": [
+			"hydra",
+			"oauth2",
+			"openid-connect",
+			"docker",
+			"server",
+			"security",
+			"authorization",
+			"identity",
+			"federation",
+			"cloud",
+			"cloud-native",
+			"sso"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

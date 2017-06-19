@@ -1,0 +1,19 @@
+{
+	"_id": "9690708",
+	"site": "https://github.com/nature/pa11y",
+	"title": " Pa11y 2.0 released, automated accessibility testing with PhantomJS",
+	"author": "rowanmanning",
+	"date": "2017-06-19T10:01:05.592Z",
+	"tags": {
+		"categories": [
+			"a11y",
+			"accessibility"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "13723142",
+	"site": "https://github.com/skx/e-comments/",
+	"title": " Self-hosted comment-system for static sites",
+	"author": "stevekemp",
+	"date": "2017-06-19T10:00:37.119Z",
+	"tags": {
+		"categories": [
+			"external-comments",
+			"self-hosted",
+			"ruby",
+			"sqlite",
+			"redis",
+			"disqus"
+		],
+		"languages": [
+			"javascript",
+			"ruby",
+			"perl",
+			"html",
+			"css",
+			"makefile"
+		]
+	},
+	"content": ""
+}

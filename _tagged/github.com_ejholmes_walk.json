@@ -1,0 +1,25 @@
+{
+	"_id": "13449852",
+	"site": "https://github.com/ejholmes/walk",
+	"title": " Walk(1)",
+	"author": "ejholmes",
+	"date": "2017-06-19T11:07:45.859Z",
+	"tags": {
+		"categories": [
+			"graph",
+			"make",
+			"infrastructure",
+			"build-system",
+			"build-automation",
+			"build-tool",
+			"build-tools",
+			"unix"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

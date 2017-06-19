@@ -1,0 +1,22 @@
+{
+	"_id": "8098143",
+	"site": "http://github.com/ldionne/hana",
+	"title": " Expressive metaprogramming in C++14 with Boost.Hana",
+	"author": "ldionne",
+	"date": "2017-06-19T09:44:48.105Z",
+	"tags": {
+		"categories": [
+			"hana",
+			"boost",
+			"cpp",
+			"metaprogramming",
+			"cpp14",
+			"cpp11"
+		],
+		"languages": [
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

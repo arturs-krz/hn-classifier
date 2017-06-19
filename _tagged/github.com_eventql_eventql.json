@@ -1,0 +1,35 @@
+{
+	"_id": "12166370",
+	"site": "https://github.com/eventql/eventql",
+	"title": " EventQL – Open-source distributed SQL analytics database  in C++11",
+	"author": "paulasmuth",
+	"date": "2017-06-19T09:58:50.604Z",
+	"tags": {
+		"categories": [
+			"database",
+			"sql",
+			"timeseries",
+			"mpp",
+			"cpp",
+			"cpp11",
+			"analytics",
+			"columnar-storage",
+			"streaming",
+			"eventql",
+			"distributed",
+			"distributed-database",
+			"distributed-storage",
+			"distributed-sql"
+		],
+		"languages": [
+			"c++",
+			"html",
+			"makefile",
+			"c",
+			"m4",
+			"protocol buffer",
+			"other"
+		]
+	},
+	"content": ""
+}

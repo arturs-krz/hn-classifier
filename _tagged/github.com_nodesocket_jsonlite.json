@@ -1,0 +1,26 @@
+{
+	"_id": "13628157",
+	"site": "https://github.com/nodesocket/jsonlite",
+	"title": " JSONlite – A simple, serverless, zero-configuration JSON document store",
+	"author": "nodesocket",
+	"date": "2017-06-19T10:39:11.087Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"jsonlite",
+			"database",
+			"json-document",
+			"json",
+			"document-store",
+			"json-data",
+			"document-database",
+			"databases",
+			"bash-script"
+		],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

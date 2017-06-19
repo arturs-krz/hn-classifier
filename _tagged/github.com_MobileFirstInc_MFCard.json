@@ -1,0 +1,26 @@
+{
+	"_id": "13329387",
+	"site": "https://github.com/MobileFirstInc/MFCard",
+	"title": " My First Open-Source Project on iOS & Swift, Credit Card UI",
+	"author": "desaiguddu",
+	"date": "2017-06-19T08:42:28.575Z",
+	"tags": {
+		"categories": [
+			"card",
+			"credit-card",
+			"chrome-alpha",
+			"validation",
+			"supported-cards",
+			"animation",
+			"smartcard",
+			"ios",
+			"swift",
+			"payment"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

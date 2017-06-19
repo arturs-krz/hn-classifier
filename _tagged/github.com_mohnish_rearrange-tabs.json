@@ -1,0 +1,24 @@
+{
+	"_id": "9249383",
+	"site": "https://github.com/mohnish/rearrange-tabs",
+	"title": " Rearrange Tabs (Google Chrome Extension)",
+	"author": "arrowgunz",
+	"date": "2017-06-19T08:44:01.122Z",
+	"tags": {
+		"categories": [
+			"rearrange-tabs",
+			"shortcuts",
+			"keyboard-shortcuts",
+			"javascript",
+			"google-chrome",
+			"browser",
+			"chrome-extension",
+			"google-chrome-extension"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

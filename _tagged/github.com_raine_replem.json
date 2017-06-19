@@ -1,0 +1,19 @@
+{
+	"_id": "10310249",
+	"site": "https://github.com/raine/replem",
+	"title": " Easily try npm modules in a REPL environment",
+	"author": "rane",
+	"date": "2017-06-19T08:45:36.170Z",
+	"tags": {
+		"categories": [
+			"npm",
+			"repl"
+		],
+		"languages": [
+			"javascript",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

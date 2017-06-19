@@ -1,0 +1,19 @@
+{
+	"_id": "14039517",
+	"site": "https://github.com/nathan-alden/proxy",
+	"title": " Corporate-network-friendly proxy server written in C#/.NET Core",
+	"author": "nathanaldensr",
+	"date": "2017-06-19T08:42:48.257Z",
+	"tags": {
+		"categories": [
+			"proxy-server",
+			"csharp",
+			"dotnet-core",
+			"forward-proxy"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

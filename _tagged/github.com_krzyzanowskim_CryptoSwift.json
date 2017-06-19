@@ -1,0 +1,27 @@
+{
+	"_id": "8214665",
+	"site": "https://github.com/krzyzanowskim/CryptoSwift",
+	"title": " CryptoSwift – crypto related functions and helpers implemented in Swift",
+	"author": "krzyzanowskim",
+	"date": "2017-06-19T10:48:15.553Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"aes",
+			"cryptography",
+			"commoncrypto",
+			"cryptoswift",
+			"md5",
+			"sha1",
+			"hmac-authentication",
+			"sha3",
+			"cipher",
+			"digest"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

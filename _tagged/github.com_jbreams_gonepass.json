@@ -1,0 +1,19 @@
+{
+	"_id": "9197536",
+	"site": "http://github.com/jbreams/gonepass",
+	"title": " A GTK+ 1Password App for Linux",
+	"author": "jbreams",
+	"date": "2017-06-19T10:57:57.750Z",
+	"tags": {
+		"categories": [
+			"password-vault",
+			"linux"
+		],
+		"languages": [
+			"c++",
+			"html",
+			"cmake"
+		]
+	},
+	"content": ""
+}

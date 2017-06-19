@@ -1,0 +1,20 @@
+{
+	"_id": "7524144",
+	"site": "https://github.com/draios/sysdig",
+	"title": " Sysdig, a tool for Linux system exploration",
+	"author": "degio",
+	"date": "2017-06-19T10:58:11.310Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"c",
+			"lua",
+			"shell",
+			"roff",
+			"cmake",
+			"other"
+		]
+	},
+	"content": ""
+}

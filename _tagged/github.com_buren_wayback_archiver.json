@@ -1,0 +1,21 @@
+{
+	"_id": "8302195",
+	"site": "https://github.com/buren/wayback_archiver",
+	"title": " Gem to Submit URLs to Wayback Machine",
+	"author": "buren",
+	"date": "2017-06-19T08:42:45.286Z",
+	"tags": {
+		"categories": [
+			"wayback-machine",
+			"internet-archive",
+			"ruby",
+			"gem",
+			"cli",
+			"crawler"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "11800640",
+	"site": "https://github.com/Goshik92/FFTVisualizer",
+	"title": " Fast Fourier transform visualizer for DE2-115 (FPGA dev board)",
+	"author": "Goshik",
+	"date": "2017-06-19T10:42:11.880Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"verilog",
+			"vhdl",
+			"html",
+			"matlab",
+			"tcl"
+		]
+	},
+	"content": ""
+}

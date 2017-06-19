@@ -1,0 +1,21 @@
+{
+	"_id": "8351632",
+	"site": "https://github.com/zabirauf/icsharp",
+	"title": " C# language kernel for IPython",
+	"author": "zabi_rauf",
+	"date": "2017-06-19T09:55:01.283Z",
+	"tags": {
+		"categories": [
+			"jupyter-notebook",
+			"jupyter",
+			"jupyter-kernels",
+			"csharp"
+		],
+		"languages": [
+			"c#",
+			"jupyter notebook",
+			"shell"
+		]
+	},
+	"content": ""
+}

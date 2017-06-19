@@ -1,0 +1,15 @@
+{
+	"_id": "11791217",
+	"site": "https://github.com/frapposelli/wwhrd",
+	"title": " License check for vendored packages in golang",
+	"author": "frapposelli",
+	"date": "2017-06-19T10:07:38.595Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

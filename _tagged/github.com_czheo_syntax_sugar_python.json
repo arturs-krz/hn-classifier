@@ -1,0 +1,20 @@
+{
+	"_id": "13458103",
+	"site": "https://github.com/czheo/syntax_sugar_python",
+	"title": " Adding some syntactic sugar to Python",
+	"author": "czheo",
+	"date": "2017-06-19T10:28:52.348Z",
+	"tags": {
+		"categories": [
+			"python",
+			"syntax-sugar",
+			"pipeline",
+			"parallelism",
+			"functional"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "11604507",
+	"site": "https://github.com/bspaans/kubefuse",
+	"title": " My Weekend Hack – KubeFuse, a Kubernetes Fuse Filesystem",
+	"author": "char_pointer",
+	"date": "2017-06-19T10:20:39.440Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

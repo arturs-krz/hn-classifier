@@ -1,0 +1,23 @@
+{
+	"_id": "13731655",
+	"site": "https://github.com/seedifferently/nogo",
+	"title": " nogo – Network wide ad/site blocking, with a simple web CP",
+	"author": "seedifferently",
+	"date": "2017-06-19T09:47:00.433Z",
+	"tags": {
+		"categories": [
+			"privacy",
+			"ad-blocker",
+			"cross-platform",
+			"dns",
+			"blacklist",
+			"raspberry-pi",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

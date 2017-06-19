@@ -1,0 +1,22 @@
+{
+	"_id": "12428593",
+	"site": "https://github.com/camelaissani/frontexpress",
+	"title": " Frontexpress – manages routes in browser like Express does on Node",
+	"author": "camelaissani",
+	"date": "2017-06-19T11:10:28.221Z",
+	"tags": {
+		"categories": [
+			"front-end",
+			"browser",
+			"router",
+			"uri",
+			"history",
+			"navigation",
+			"javascript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

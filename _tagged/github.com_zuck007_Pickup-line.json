@@ -1,0 +1,19 @@
+{
+	"_id": "13620093",
+	"site": "https://github.com/zuck007/Pickup-line",
+	"title": " A CLI tool to generate pickup lines",
+	"author": "zuck007",
+	"date": "2017-06-19T09:37:40.849Z",
+	"tags": {
+		"categories": [
+			"python",
+			"python-cli",
+			"cli-app",
+			"valentine"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

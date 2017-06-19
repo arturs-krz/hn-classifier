@@ -1,0 +1,22 @@
+{
+	"_id": "10389289",
+	"site": "https://github.com/cmusatyalab/openface",
+	"title": " OpenFace – Face recognition with Google's FaceNet deep neural network",
+	"author": "bdamos",
+	"date": "2017-06-19T09:40:15.204Z",
+	"tags": {
+		"categories": [
+			"deep-learning",
+			"face-recognition",
+			"facenet"
+		],
+		"languages": [
+			"lua",
+			"python",
+			"makefile",
+			"shell",
+			"javascript"
+		]
+	},
+	"content": ""
+}

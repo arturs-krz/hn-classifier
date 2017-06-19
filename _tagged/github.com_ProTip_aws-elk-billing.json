@@ -1,0 +1,16 @@
+{
+	"_id": "8350604",
+	"site": "https://github.com/ProTip/aws-elk-billing",
+	"title": " Visualize Hourly AWS Billing with ELK",
+	"author": "ProTip",
+	"date": "2017-06-19T10:41:30.104Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"go",
+			"python"
+		]
+	},
+	"content": ""
+}

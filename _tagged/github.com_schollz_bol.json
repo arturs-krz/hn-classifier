@@ -1,0 +1,21 @@
+{
+	"_id": "13659587",
+	"site": "https://github.com/schollz/bol",
+	"title": " bol – CLI/web journal with encryption+synchronization across devices",
+	"author": "qrv3w",
+	"date": "2017-06-19T09:52:30.552Z",
+	"tags": {
+		"categories": [
+			"synchronization",
+			"encryption",
+			"notebook",
+			"journal"
+		],
+		"languages": [
+			"go",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

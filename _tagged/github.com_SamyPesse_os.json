@@ -1,0 +1,18 @@
+{
+	"_id": "6320509",
+	"site": "https://github.com/SamyPesse/os",
+	"title": " Very basic Unix-like operating system built when I was younger",
+	"author": "SamyPesse",
+	"date": "2017-06-19T10:13:48.551Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"c++",
+			"assembly",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

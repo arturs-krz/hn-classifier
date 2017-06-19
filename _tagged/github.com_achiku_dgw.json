@@ -1,0 +1,20 @@
+{
+	"_id": "12238013",
+	"site": "https://github.com/achiku/dgw",
+	"title": " Dgw generates Golang struct, and simple functions from PostgreSQL",
+	"author": "achiku",
+	"date": "2017-06-19T10:59:25.984Z",
+	"tags": {
+		"categories": [
+			"go",
+			"sql",
+			"generator",
+			"postgresql",
+			"db"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

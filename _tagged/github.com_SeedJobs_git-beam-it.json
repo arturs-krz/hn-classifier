@@ -1,0 +1,21 @@
+{
+	"_id": "13876541",
+	"site": "https://github.com/SeedJobs/git-beam-it",
+	"title": " GitHub Multi repo helper – Bulk clone GitHub repositories",
+	"author": "ahmadassaf",
+	"date": "2017-06-19T09:55:57.420Z",
+	"tags": {
+		"categories": [
+			"git",
+			"github",
+			"bulk-operation",
+			"bulk-clone",
+			"repository-utilities",
+			"repository-management"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

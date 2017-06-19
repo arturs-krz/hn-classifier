@@ -1,0 +1,18 @@
+{
+	"_id": "12072284",
+	"site": "https://github.com/jez/bask",
+	"title": " Bask: a task runner for bash",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T10:29:28.930Z",
+	"tags": {
+		"categories": [
+			"task-runner",
+			"cli",
+			"bash"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

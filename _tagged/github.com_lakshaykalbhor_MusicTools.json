@@ -1,0 +1,21 @@
+{
+	"_id": "13888006",
+	"site": "https://github.com/lakshaykalbhor/MusicTools",
+	"title": " Python library for downloading, tagging and sorting music files",
+	"author": "Inetenbr",
+	"date": "2017-06-19T10:56:36.675Z",
+	"tags": {
+		"categories": [
+			"music",
+			"musictools",
+			"python",
+			"musicnow",
+			"musicrepair",
+			"id3"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

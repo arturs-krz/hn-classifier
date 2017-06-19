@@ -1,0 +1,21 @@
+{
+	"_id": "13138401",
+	"site": "https://github.com/plu/pxctest#headless-testing",
+	"title": " Headless testing on iOS",
+	"author": "jplunien",
+	"date": "2017-06-19T10:58:20.175Z",
+	"tags": {
+		"categories": [
+			"ios",
+			"simulator",
+			"parallel",
+			"xctest"
+		],
+		"languages": [
+			"swift",
+			"objective-c",
+			"shell"
+		]
+	},
+	"content": ""
+}

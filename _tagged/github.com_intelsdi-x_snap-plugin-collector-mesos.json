@@ -1,0 +1,16 @@
+{
+	"_id": "12056094",
+	"site": "https://github.com/intelsdi-x/snap-plugin-collector-mesos",
+	"title": " Apache Mesos metrics collector for the Snap telemetry framework",
+	"author": "rji",
+	"date": "2017-06-19T10:56:01.027Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

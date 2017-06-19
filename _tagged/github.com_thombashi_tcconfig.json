@@ -1,0 +1,21 @@
+{
+	"_id": "11202741",
+	"site": "https://github.com/thombashi/tcconfig",
+	"title": " Tcconfig – Simple tc wrapper, easy to set up network traffic control",
+	"author": "thombashi",
+	"date": "2017-06-19T10:17:07.005Z",
+	"tags": {
+		"categories": [
+			"tc",
+			"traffic-shaping",
+			"network",
+			"cli-command",
+			"wrapper"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

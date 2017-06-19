@@ -1,0 +1,18 @@
+{
+	"_id": "11861251",
+	"site": "https://github.com/WuBingzheng/memleax",
+	"title": " Memleax – detects memory leak of a running process",
+	"author": "hellowub",
+	"date": "2017-06-19T08:46:00.342Z",
+	"tags": {
+		"categories": [
+			"memory-leak",
+			"debugger"
+		],
+		"languages": [
+			"c",
+			"roff"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "10887071",
+	"site": "https://github.com/sharow/libconcurrent",
+	"title": " Libconcurrent – Coroutines in C",
+	"author": "mitghi",
+	"date": "2017-06-19T09:54:54.532Z",
+	"tags": {
+		"categories": [
+			"coroutine-library",
+			"nasm",
+			"concurrency",
+			"concurrent"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"c++"
+		]
+	},
+	"content": ""
+}

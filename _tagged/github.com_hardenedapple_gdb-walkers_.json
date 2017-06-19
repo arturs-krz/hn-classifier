@@ -1,0 +1,19 @@
+{
+	"_id": "13838812",
+	"site": "https://github.com/hardenedapple/gdb-walkers/",
+	"title": " Data structure walkers for gdb",
+	"author": "hardenedapple",
+	"date": "2017-06-19T08:44:19.987Z",
+	"tags": {
+		"categories": [
+			"gdb",
+			"python"
+		],
+		"languages": [
+			"python",
+			"glsl",
+			"makefile"
+		]
+	},
+	"content": ""
+}

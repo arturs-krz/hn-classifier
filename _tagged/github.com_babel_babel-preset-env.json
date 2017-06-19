@@ -1,0 +1,18 @@
+{
+	"_id": "13147620",
+	"site": "https://github.com/babel/babel-preset-env",
+	"title": " Babel-preset-env, auto determines required Babel plugins based on env",
+	"author": "hzoo",
+	"date": "2017-06-19T09:42:46.987Z",
+	"tags": {
+		"categories": [
+			"babel-preset",
+			"autoprefixer",
+			"flavortown"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

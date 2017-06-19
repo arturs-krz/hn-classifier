@@ -1,0 +1,18 @@
+{
+	"_id": "8880001",
+	"site": "https://github.com/renstrom/go-wiki",
+	"title": " Simple wiki server written in Go",
+	"author": "Spiritus",
+	"date": "2017-06-19T09:33:48.933Z",
+	"tags": {
+		"categories": [
+			"wiki",
+			"go"
+		],
+		"languages": [
+			"go",
+			"html"
+		]
+	},
+	"content": ""
+}

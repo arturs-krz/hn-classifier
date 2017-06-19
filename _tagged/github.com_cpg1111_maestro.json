@@ -1,0 +1,24 @@
+{
+	"_id": "11806411",
+	"site": "https://github.com/cpg1111/maestro",
+	"title": " Maestro – Faster CI/CD",
+	"author": "cpg1111",
+	"date": "2017-06-19T09:45:57.304Z",
+	"tags": {
+		"categories": [
+			"continuous-delivery",
+			"continuous-deployment",
+			"continuous-integration",
+			"maestro",
+			"build-pipelines",
+			"build-automation",
+			"builder"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

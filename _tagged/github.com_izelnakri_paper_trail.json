@@ -1,0 +1,21 @@
+{
+	"_id": "12671569",
+	"site": "https://github.com/izelnakri/paper_trail",
+	"title": " PaperTrail – track your database history in Elixir",
+	"author": "izelnakri",
+	"date": "2017-06-19T11:10:48.407Z",
+	"tags": {
+		"categories": [
+			"database",
+			"versioning",
+			"elixir",
+			"ecto",
+			"papertrail",
+			"phoenix"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": ""
+}

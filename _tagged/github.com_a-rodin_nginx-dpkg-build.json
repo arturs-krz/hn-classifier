@@ -1,0 +1,14 @@
+{
+	"_id": "13118736",
+	"site": "https://github.com/a-rodin/nginx-dpkg-build",
+	"title": " Patching and making Ubuntu/Debian packages for Nginx made easy",
+	"author": "inlineint",
+	"date": "2017-06-19T10:10:02.981Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

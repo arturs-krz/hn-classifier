@@ -1,0 +1,20 @@
+{
+	"_id": "7746091",
+	"site": "https://github.com/paparazzi/paparazzi",
+	"title": " Paparazzi is a free and open-source hardware and software",
+	"author": "qqwpkao6",
+	"date": "2017-06-19T11:11:43.971Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"ocaml",
+			"python",
+			"perl",
+			"makefile",
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "9747705",
+	"site": "https://github.com/eapache/starscope",
+	"title": " Starscope – a better cscope for ruby and go",
+	"author": "eapache",
+	"date": "2017-06-19T08:43:51.710Z",
+	"tags": {
+		"categories": [
+			"cscope",
+			"ruby",
+			"ctags",
+			"javascript"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

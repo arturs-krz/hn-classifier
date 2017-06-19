@@ -1,0 +1,14 @@
+{
+	"_id": "13411295",
+	"site": "https://github.com/kshvmdn/itunes-server",
+	"title": " Control iTunes over a server using standard HTTP requests (macOS)",
+	"author": "kshvmdn",
+	"date": "2017-06-19T09:46:15.605Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "10063816",
+	"site": "https://github.com/stephenmcd/curiodb",
+	"title": " CurioDB – A distributed/persistent Redis clone built with Scala/Akka",
+	"author": "stephen_mcd",
+	"date": "2017-06-19T09:58:36.265Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala",
+			"python"
+		]
+	},
+	"content": ""
+}

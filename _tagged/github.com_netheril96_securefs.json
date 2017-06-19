@@ -1,0 +1,26 @@
+{
+	"_id": "9679553",
+	"site": "https://github.com/netheril96/securefs",
+	"title": " Securefs, a better transparent encryption filesystem",
+	"author": "netheril96",
+	"date": "2017-06-19T08:44:28.683Z",
+	"tags": {
+		"categories": [
+			"filesystem",
+			"cloud",
+			"cryptography",
+			"crypto",
+			"fuse",
+			"fuse-filesystem",
+			"authentication",
+			"encryption",
+			"filesystems"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

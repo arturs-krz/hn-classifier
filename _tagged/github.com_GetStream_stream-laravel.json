@@ -1,0 +1,25 @@
+{
+	"_id": "8464243",
+	"site": "https://github.com/GetStream/stream-laravel",
+	"title": " Build activity feeds with Laravel and getstream.io",
+	"author": "tbarbugli",
+	"date": "2017-06-19T09:57:23.214Z",
+	"tags": {
+		"categories": [
+			"laravel",
+			"php",
+			"stream-laravel",
+			"activity-feed",
+			"timeline",
+			"feed",
+			"getstream-io",
+			"notification-feed",
+			"news-feed"
+		],
+		"languages": [
+			"php",
+			"html"
+		]
+	},
+	"content": ""
+}

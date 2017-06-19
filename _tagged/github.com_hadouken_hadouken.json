@@ -1,0 +1,20 @@
+{
+	"_id": "9211074",
+	"site": "https://github.com/hadouken/hadouken",
+	"title": " Hadouken – a cross-platform, extensible BitTorrent daemon",
+	"author": "viktorelofsson",
+	"date": "2017-06-19T10:42:14.508Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"javascript",
+			"c#",
+			"cmake",
+			"shell",
+			"objective-c++",
+			"powershell"
+		]
+	},
+	"content": ""
+}

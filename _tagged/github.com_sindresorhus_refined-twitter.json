@@ -1,0 +1,19 @@
+{
+	"_id": "11598432",
+	"site": "https://github.com/sindresorhus/refined-twitter",
+	"title": " Refined Twitter",
+	"author": "mofle",
+	"date": "2017-06-19T09:45:39.051Z",
+	"tags": {
+		"categories": [
+			"twitter",
+			"chrome-extension",
+			"deprecated"
+		],
+		"languages": [
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

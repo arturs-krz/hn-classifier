@@ -1,0 +1,15 @@
+{
+	"_id": "11196503",
+	"site": "https://github.com/aantron/namespaces",
+	"title": " Sane file naming for OCaml projects, like other languages have",
+	"author": "aantron",
+	"date": "2017-06-19T10:07:12.691Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ocaml",
+			"makefile"
+		]
+	},
+	"content": ""
+}

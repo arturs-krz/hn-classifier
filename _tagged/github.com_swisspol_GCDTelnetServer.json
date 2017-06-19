@@ -1,0 +1,16 @@
+{
+	"_id": "8483019",
+	"site": "https://github.com/swisspol/GCDTelnetServer",
+	"title": " Drop-in embedded Telnet server for iOS and OS X apps",
+	"author": "swisspol",
+	"date": "2017-06-19T10:45:43.669Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"objective-c",
+			"shell",
+			"ruby"
+		]
+	},
+	"content": ""
+}

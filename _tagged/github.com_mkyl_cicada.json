@@ -1,0 +1,20 @@
+{
+	"_id": "13934548",
+	"site": "https://github.com/mkyl/cicada",
+	"title": " Cicada, a hobby chess engine written in Rust",
+	"author": "kayali",
+	"date": "2017-06-19T09:42:33.916Z",
+	"tags": {
+		"categories": [
+			"chess",
+			"chess-engine",
+			"rust",
+			"rust-lang",
+			"artificial-intelligence"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "9838631",
+	"site": "https://github.com/socketcluster/sc-sample-inventory",
+	"title": " Proof of concept – Realtime single page apps",
+	"author": "jondubois",
+	"date": "2017-06-19T09:50:26.430Z",
+	"tags": {
+		"categories": [
+			"rethinkdb",
+			"socketcluster",
+			"polymer",
+			"real-time",
+			"realtime",
+			"rest",
+			"crud"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

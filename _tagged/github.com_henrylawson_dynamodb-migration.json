@@ -1,0 +1,15 @@
+{
+	"_id": "11143706",
+	"site": "https://github.com/henrylawson/dynamodb-migration",
+	"title": " A simple rubygem for DynamoDB migrations",
+	"author": "hlawson",
+	"date": "2017-06-19T11:00:41.789Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

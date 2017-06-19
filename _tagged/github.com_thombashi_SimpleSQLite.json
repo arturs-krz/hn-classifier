@@ -1,0 +1,21 @@
+{
+	"_id": "11272403",
+	"site": "https://github.com/thombashi/SimpleSQLite",
+	"title": " SimpleSQLite – Python library to simplify the SQlite database creation",
+	"author": "thombashi",
+	"date": "2017-06-19T10:21:53.329Z",
+	"tags": {
+		"categories": [
+			"sqlite",
+			"python-library",
+			"database",
+			"pandas",
+			"pandas-dataframe"
+		],
+		"languages": [
+			"python",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "10664250",
+	"site": "https://github.com/inaka/sumo_rest",
+	"title": " Sumo_rest – The easiest way to build RESTful API servers in #Erlang",
+	"author": "elbrujohalcon",
+	"date": "2017-06-19T11:08:03.659Z",
+	"tags": {
+		"categories": [
+			"sumo-rest",
+			"cowboy",
+			"erlang",
+			"sumo-db"
+		],
+		"languages": [
+			"erlang",
+			"shell"
+		]
+	},
+	"content": ""
+}

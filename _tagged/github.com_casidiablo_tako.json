@@ -1,0 +1,20 @@
+{
+	"_id": "11146169",
+	"site": "https://github.com/casidiablo/tako",
+	"title": " GitHub Notifications on Slack Using Clojure and AWS Lambda",
+	"author": "knur",
+	"date": "2017-06-19T10:38:09.045Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"github",
+			"aws-lambda",
+			"slack"
+		],
+		"languages": [
+			"clojure",
+			"shell"
+		]
+	},
+	"content": ""
+}

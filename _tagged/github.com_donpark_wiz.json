@@ -1,0 +1,15 @@
+{
+	"_id": "5593314",
+	"site": "https://github.com/donpark/wiz",
+	"title": " wiz - makes command-line tools easier to use",
+	"author": "donpark",
+	"date": "2017-06-19T10:17:37.940Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

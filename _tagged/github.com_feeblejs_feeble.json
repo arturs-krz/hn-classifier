@@ -1,0 +1,19 @@
+{
+	"_id": "12388202",
+	"site": "https://github.com/feeblejs/feeble",
+	"title": " Feeble – A React/Redux Architecture",
+	"author": "_yesmeck",
+	"date": "2017-06-19T08:39:57.112Z",
+	"tags": {
+		"categories": [
+			"react",
+			"redux-architecture",
+			"redux",
+			"redux-observable"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

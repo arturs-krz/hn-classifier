@@ -1,0 +1,21 @@
+{
+	"_id": "13416190",
+	"site": "https://github.com/glennwedin/Progressive-Web-App?v=2",
+	"title": " Progressive Web App starter kit",
+	"author": "glwe0903",
+	"date": "2017-06-19T09:54:33.318Z",
+	"tags": {
+		"categories": [
+			"progressive",
+			"spa",
+			"react",
+			"express",
+			"webpack2"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

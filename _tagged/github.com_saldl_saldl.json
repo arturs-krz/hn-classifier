@@ -1,0 +1,33 @@
+{
+	"_id": "10204177",
+	"site": "https://github.com/saldl/saldl",
+	"title": " Saldl – A CLI downloader optimized for speed and early preview",
+	"author": "MoSal",
+	"date": "2017-06-19T10:09:29.957Z",
+	"tags": {
+		"categories": [
+			"libcurl",
+			"posix",
+			"flashgot",
+			"download",
+			"downloader",
+			"cli",
+			"command-line",
+			"multi-platform",
+			"accelerator",
+			"cross-platform",
+			"in-memory",
+			"in-order",
+			"early-preview",
+			"terminal",
+			"tty",
+			"vty"
+		],
+		"languages": [
+			"c",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

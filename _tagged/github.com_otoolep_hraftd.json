@@ -1,0 +1,21 @@
+{
+	"_id": "10385098",
+	"site": "https://github.com/otoolep/hraftd",
+	"title": " A simple distributed key-value store built on Raft",
+	"author": "otoolep",
+	"date": "2017-06-19T08:42:36.746Z",
+	"tags": {
+		"categories": [
+			"distributed-systems",
+			"raft",
+			"hashicorp-raft",
+			"key-value",
+			"go",
+			"consensus"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

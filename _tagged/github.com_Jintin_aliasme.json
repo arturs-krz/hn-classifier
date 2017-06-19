@@ -1,0 +1,18 @@
+{
+	"_id": "10924543",
+	"site": "https://github.com/Jintin/aliasme",
+	"title": " Aliasme – terminal alias manager",
+	"author": "Jintin",
+	"date": "2017-06-19T11:06:02.835Z",
+	"tags": {
+		"categories": [
+			"command-line-tool",
+			"shortcut"
+		],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

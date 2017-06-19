@@ -1,0 +1,20 @@
+{
+	"_id": "13272416",
+	"site": "https://github.com/adamsiwiec/glaze",
+	"title": " Glaze, a simple and fast p2p audio chat",
+	"author": "adamsiwiec",
+	"date": "2017-06-19T08:42:57.680Z",
+	"tags": {
+		"categories": [
+			"desktop",
+			"voice-chat",
+			"p2p"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

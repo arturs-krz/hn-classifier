@@ -1,0 +1,19 @@
+{
+	"_id": "8982365",
+	"site": "https://github.com/brettwooldridge/HikariCP",
+	"title": " High performance JDBC connection pool",
+	"author": "CSDude",
+	"date": "2017-06-19T08:42:27.194Z",
+	"tags": {
+		"categories": [
+			"java",
+			"connection-pool",
+			"jdbc",
+			"high-performance"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

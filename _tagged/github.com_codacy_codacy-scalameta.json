@@ -1,0 +1,14 @@
+{
+	"_id": "12216313",
+	"site": "https://github.com/codacy/codacy-scalameta",
+	"title": " Scala.meta based codacy engine for scala static code analysis",
+	"author": "funkylexoo",
+	"date": "2017-06-19T10:33:24.809Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

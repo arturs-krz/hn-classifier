@@ -1,0 +1,22 @@
+{
+	"_id": "13695006",
+	"site": "https://github.com/MackieLoeffel/avr-vm",
+	"title": " AVR-VM – VM with JIT-compiler for ATMega32 written in Rust",
+	"author": "MackieLoeffel",
+	"date": "2017-06-19T08:44:10.919Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"vm",
+			"avr",
+			"jit"
+		],
+		"languages": [
+			"rust",
+			"c",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

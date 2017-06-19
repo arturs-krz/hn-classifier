@@ -1,0 +1,29 @@
+{
+	"_id": "11736674",
+	"site": "https://github.com/serverless/serverless",
+	"title": " Serverless Framework – Build Applications via AWS Lambda and API Gateway",
+	"author": "reubano",
+	"date": "2017-06-19T09:47:40.443Z",
+	"tags": {
+		"categories": [
+			"serverless",
+			"serverless-framework",
+			"serverless-architectures",
+			"aws-lambda",
+			"google-cloud-functions",
+			"azure-functions",
+			"ibm-openwhisk",
+			"aws"
+		],
+		"languages": [
+			"javascript",
+			"java",
+			"python",
+			"shell",
+			"scala",
+			"groovy",
+			"other"
+		]
+	},
+	"content": ""
+}

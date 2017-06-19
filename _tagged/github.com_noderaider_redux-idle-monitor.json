@@ -1,0 +1,22 @@
+{
+	"_id": "13748857",
+	"site": "https://github.com/noderaider/redux-idle-monitor",
+	"title": " redux-idle-monitor - Idle user event scheduling over many browser tabs",
+	"author": "noderaider",
+	"date": "2017-06-19T10:25:17.575Z",
+	"tags": {
+		"categories": [
+			"idle-statuses",
+			"redux",
+			"middleware",
+			"dispatch",
+			"user-idleness",
+			"transition"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

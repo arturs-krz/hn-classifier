@@ -1,0 +1,21 @@
+{
+	"_id": "12864862",
+	"site": "https://github.com/felipeccastro/html-component/",
+	"title": " HTMLComponent – Component-Based UIs Using Only ES6 and Custom Elements",
+	"author": "felipeccastro",
+	"date": "2017-06-19T10:24:31.511Z",
+	"tags": {
+		"categories": [
+			"html-components",
+			"html-imports",
+			"web-component",
+			"single-file-component"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

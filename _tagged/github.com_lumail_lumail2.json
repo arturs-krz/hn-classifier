@@ -1,0 +1,25 @@
+{
+	"_id": "10933483",
+	"site": "https://github.com/lumail/lumail2",
+	"title": " The console-based, lua-scriptable, mail-client now supports IMAP",
+	"author": "stevekemp",
+	"date": "2017-06-19T09:47:14.893Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"lua",
+			"imap",
+			"console",
+			"mail-client",
+			"email",
+			"gpg"
+		],
+		"languages": [
+			"c++",
+			"lua",
+			"perl",
+			"other"
+		]
+	},
+	"content": ""
+}

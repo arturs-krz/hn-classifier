@@ -1,0 +1,25 @@
+{
+	"_id": "11704370",
+	"site": "https://github.com/ryukinix/mal",
+	"title": " MAL: A MyAnimeList Command Line Interface",
+	"author": "lerax",
+	"date": "2017-06-19T10:03:18.267Z",
+	"tags": {
+		"categories": [
+			"mal",
+			"myanimelist",
+			"cli",
+			"python",
+			"aur",
+			"pypi",
+			"archlinux",
+			"anime",
+			"list"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

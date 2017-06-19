@@ -1,0 +1,21 @@
+{
+	"_id": "10814447",
+	"site": "https://github.com/ClouDesire/janine",
+	"title": " Janine – your sexy generator and archiver of PDF invoices",
+	"author": "gionn",
+	"date": "2017-06-19T10:10:39.727Z",
+	"tags": {
+		"categories": [
+			"java",
+			"invoice",
+			"pdf-invoice",
+			"docker"
+		],
+		"languages": [
+			"java",
+			"shell",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

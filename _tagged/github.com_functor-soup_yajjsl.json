@@ -1,0 +1,20 @@
+{
+	"_id": "13439042",
+	"site": "https://github.com/functor-soup/yajjsl",
+	"title": " Monadic JSON object validator",
+	"author": "monadic-soup",
+	"date": "2017-06-19T08:42:37.798Z",
+	"tags": {
+		"categories": [
+			"json",
+			"schema",
+			"monad",
+			"javascript",
+			"either-monad"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

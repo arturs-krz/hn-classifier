@@ -1,0 +1,22 @@
+{
+	"_id": "10500811",
+	"site": "https://github.com/risq/investigator",
+	"title": " Investigator – Interactive and asynchronous (CLI) logging tool for Nodejs",
+	"author": "risq",
+	"date": "2017-06-19T08:44:19.638Z",
+	"tags": {
+		"categories": [
+			"logging",
+			"debug",
+			"async",
+			"nodejs",
+			"cli",
+			"command-line-tool"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

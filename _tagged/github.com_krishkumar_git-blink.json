@@ -1,0 +1,14 @@
+{
+	"_id": "7910854",
+	"site": "https://github.com/krishkumar/git-blink",
+	"title": " Blink a USB LED if your git repo has uncommitted changes",
+	"author": "LeicaLatte",
+	"date": "2017-06-19T09:47:49.700Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

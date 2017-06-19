@@ -1,0 +1,23 @@
+{
+	"_id": "12137698",
+	"site": "https://github.com/skx/kilo/",
+	"title": " A console-based editor with Lua support, based on antirez's project",
+	"author": "stevekemp",
+	"date": "2017-06-19T09:37:30.912Z",
+	"tags": {
+		"categories": [
+			"syntax-highlighting",
+			"lua",
+			"editor",
+			"console-application"
+		],
+		"languages": [
+			"c++",
+			"lua",
+			"c",
+			"perl",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12282343",
+	"site": "https://github.com/riicchhaarrd/cidscropt",
+	"title": " First embeddable script language/VM in C i made",
+	"author": "rlw",
+	"date": "2017-06-19T09:33:20.457Z",
+	"tags": {
+		"categories": [
+			"c",
+			"scripting-language",
+			"embeddable",
+			"library",
+			"yield",
+			"coroutines",
+			"mit-license"
+		],
+		"languages": [
+			"c",
+			"objective-c",
+			"other"
+		]
+	},
+	"content": ""
+}

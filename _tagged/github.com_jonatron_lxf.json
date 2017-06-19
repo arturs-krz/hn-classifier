@@ -1,0 +1,15 @@
+{
+	"_id": "12779647",
+	"site": "https://github.com/jonatron/lxf",
+	"title": " LXF – Like Dockerfiles, but for LXC/LXD",
+	"author": "jonatron",
+	"date": "2017-06-19T09:45:07.622Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

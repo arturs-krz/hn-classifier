@@ -1,0 +1,22 @@
+{
+	"_id": "13179723",
+	"site": "https://github.com/ScriptFUSION/Porter",
+	"title": " PHP's First Data Import Framework",
+	"author": "Bilge-",
+	"date": "2017-06-19T08:42:43.835Z",
+	"tags": {
+		"categories": [
+			"porter",
+			"data-import",
+			"abstractions",
+			"framework",
+			"data-transformation",
+			"php-development",
+			"api-client"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

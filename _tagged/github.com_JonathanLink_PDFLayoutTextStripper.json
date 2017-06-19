@@ -1,0 +1,22 @@
+{
+	"_id": "13729301",
+	"site": "https://github.com/JonathanLink/PDFLayoutTextStripper",
+	"title": " PDFLayoutTextStripper – Converts PDF to text while keeping the layout",
+	"author": "jlink",
+	"date": "2017-06-19T08:42:27.748Z",
+	"tags": {
+		"categories": [
+			"layout",
+			"text",
+			"java",
+			"pdf",
+			"extract",
+			"data-extraction",
+			"pdfbox"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

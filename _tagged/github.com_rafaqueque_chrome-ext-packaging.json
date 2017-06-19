@@ -1,0 +1,14 @@
+{
+	"_id": "5804182",
+	"site": "https://github.com/rafaqueque/chrome-ext-packaging",
+	"title": " Chrome extensions packaging from git repos (bash script)",
+	"author": "rafaqueque",
+	"date": "2017-06-19T10:05:34.979Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

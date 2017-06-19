@@ -1,0 +1,23 @@
+{
+	"_id": "10538761",
+	"site": "https://github.com/jarun/MarkIt",
+	"title": " MarkIt: cmdline bookmark manager your mini web",
+	"author": "apjana",
+	"date": "2017-06-19T10:58:41.285Z",
+	"tags": {
+		"categories": [
+			"bookmark",
+			"bookmark-manager",
+			"command-line",
+			"standalone",
+			"terminal"
+		],
+		"languages": [
+			"python",
+			"roff",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

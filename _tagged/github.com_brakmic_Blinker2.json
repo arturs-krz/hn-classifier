@@ -1,0 +1,18 @@
+{
+	"_id": "11418035",
+	"site": "https://github.com/brakmic/Blinker2",
+	"title": " Click-Flasher, a simple FPGA design written in VHDL",
+	"author": "brakmic",
+	"date": "2017-06-19T09:53:54.877Z",
+	"tags": {
+		"categories": [
+			"vhdl",
+			"fpga"
+		],
+		"languages": [
+			"vhdl",
+			"xslt"
+		]
+	},
+	"content": ""
+}

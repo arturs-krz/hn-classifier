@@ -1,0 +1,21 @@
+{
+	"_id": "11231978",
+	"site": "https://github.com/brakmic/purescript-hoodie",
+	"title": " Offline-First WebApps with Hoodie and PureScript",
+	"author": "brakmic",
+	"date": "2017-06-19T09:55:24.462Z",
+	"tags": {
+		"categories": [
+			"hoodie",
+			"purescript",
+			"couchdb"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"purescript",
+			"css"
+		]
+	},
+	"content": ""
+}

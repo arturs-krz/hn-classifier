@@ -1,0 +1,23 @@
+{
+	"_id": "12583616",
+	"site": "https://github.com/empiricalci/emp",
+	"title": " Empirical – A framework for computational experiments",
+	"author": "alantrrs",
+	"date": "2017-06-19T08:43:55.640Z",
+	"tags": {
+		"categories": [
+			"science",
+			"ai",
+			"docker",
+			"artificial-intelligence",
+			"reproducible-research",
+			"reproducible-science",
+			"benchmark-framework",
+			"benchmarking"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

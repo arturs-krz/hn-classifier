@@ -1,0 +1,25 @@
+{
+	"_id": "8486178",
+	"site": "https://github.com/ers35/luakernel",
+	"title": " Luakernel – Lua + SQLite + musl libc running on x86",
+	"author": "ers35",
+	"date": "2017-06-19T08:46:14.676Z",
+	"tags": {
+		"categories": [
+			"lua",
+			"osdev",
+			"os",
+			"operating-system"
+		],
+		"languages": [
+			"c",
+			"objective-c",
+			"html",
+			"assembly",
+			"c++",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

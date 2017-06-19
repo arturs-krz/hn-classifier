@@ -1,0 +1,20 @@
+{
+	"_id": "11564597",
+	"site": "https://github.com/jasonwyatt/Android-DebugPort",
+	"title": " Android-DebugPort, a REPL for Your Android App",
+	"author": "jwfeinstein",
+	"date": "2017-06-19T09:48:39.803Z",
+	"tags": {
+		"categories": [
+			"android",
+			"debugport-server",
+			"debugging-tool",
+			"repl",
+			"sqlite"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

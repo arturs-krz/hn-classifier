@@ -1,0 +1,14 @@
+{
+	"_id": "12928974",
+	"site": "https://github.com/gernest/blue",
+	"title": " Blue – Generate Influxdb line protocol from arbitrary json in Go",
+	"author": "gernest",
+	"date": "2017-06-19T10:34:13.224Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "12364557",
+	"site": "https://github.com/Cirru/stack-editor",
+	"title": " Stack Editor, programming by “functions”",
+	"author": "jiyinyiyong",
+	"date": "2017-06-19T10:50:06.937Z",
+	"tags": {
+		"categories": [
+			"ast",
+			"cirru",
+			"ide"
+		],
+		"languages": [
+			"clojure",
+			"coffeescript",
+			"other"
+		]
+	},
+	"content": ""
+}

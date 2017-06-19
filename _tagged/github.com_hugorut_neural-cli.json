@@ -1,0 +1,18 @@
+{
+	"_id": "12684013",
+	"site": "https://github.com/hugorut/neural-cli",
+	"title": " A Command Line Neural Network",
+	"author": "hugorut",
+	"date": "2017-06-19T09:41:22.716Z",
+	"tags": {
+		"categories": [
+			"neural-network",
+			"prediction",
+			"hypothesis"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

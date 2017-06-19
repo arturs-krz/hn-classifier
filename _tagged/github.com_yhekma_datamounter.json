@@ -1,0 +1,14 @@
+{
+	"_id": "8768947",
+	"site": "https://github.com/yhekma/datamounter",
+	"title": " Datamounter. Mount json using FUSE and generate them using Ansible",
+	"author": "straphka",
+	"date": "2017-06-19T10:57:13.165Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

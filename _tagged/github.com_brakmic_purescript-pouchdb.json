@@ -1,0 +1,21 @@
+{
+	"_id": "11187344",
+	"site": "https://github.com/brakmic/purescript-pouchdb",
+	"title": " PouchDB Bindings for PureScript",
+	"author": "brakmic",
+	"date": "2017-06-19T09:39:06.747Z",
+	"tags": {
+		"categories": [
+			"pouchdb",
+			"purescript",
+			"database"
+		],
+		"languages": [
+			"purescript",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

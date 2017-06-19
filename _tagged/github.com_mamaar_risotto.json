@@ -1,0 +1,17 @@
+{
+	"_id": "9477787",
+	"site": "https://github.com/mamaar/risotto",
+	"title": " Risotto compiles JSX using Golang",
+	"author": "mamaar",
+	"date": "2017-06-19T10:50:49.818Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"perl",
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

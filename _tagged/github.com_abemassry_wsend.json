@@ -1,0 +1,27 @@
+{
+	"_id": "6083884",
+	"site": "https://github.com/abemassry/wsend",
+	"title": " wsend - the opposite of wget",
+	"author": "abemassry",
+	"date": "2017-06-19T09:45:08.723Z",
+	"tags": {
+		"categories": [
+			"storage",
+			"bash",
+			"wget",
+			"friends",
+			"cli",
+			"unix",
+			"curl",
+			"shell",
+			"transfer",
+			"send",
+			"receive",
+			"files"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

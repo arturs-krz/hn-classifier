@@ -1,0 +1,33 @@
+{
+	"_id": "13780474",
+	"site": "https://github.com/tylucaskelley/setup.sh",
+	"title": " Automated macOS dev setup",
+	"author": "tylucaskelley",
+	"date": "2017-06-19T08:42:44.750Z",
+	"tags": {
+		"categories": [
+			"osx",
+			"shell",
+			"macos",
+			"bash",
+			"dotfiles",
+			"bootstrap",
+			"vim",
+			"python",
+			"nodejs",
+			"ruby",
+			"java",
+			"golang",
+			"brew",
+			"cask",
+			"javascript",
+			"homebrew"
+		],
+		"languages": [
+			"shell",
+			"vim script",
+			"ruby"
+		]
+	},
+	"content": ""
+}

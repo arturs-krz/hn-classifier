@@ -1,0 +1,22 @@
+{
+	"_id": "7906109",
+	"site": "https://github.com/hummingbird-me/hummingbird",
+	"title": " We open-sourced our anime discovery application",
+	"author": "radq",
+	"date": "2017-06-19T08:42:45.880Z",
+	"tags": {
+		"categories": [
+			"anime",
+			"manga",
+			"docker",
+			"hummingbird",
+			"kitsu"
+		],
+		"languages": [
+			"html",
+			"shell",
+			"nginx"
+		]
+	},
+	"content": ""
+}

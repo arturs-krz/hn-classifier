@@ -1,0 +1,22 @@
+{
+	"_id": "13505226",
+	"site": "https://github.com/sergiotapia/magnetissimo?utm=hn",
+	"title": " Magnetissimo – Self-hosted torrent search engine written in Elixir",
+	"author": "sergiotapia",
+	"date": "2017-06-19T08:42:56.247Z",
+	"tags": {
+		"categories": [
+			"self-hosted",
+			"p2p",
+			"search-engine",
+			"torrent",
+			"bittorrent"
+		],
+		"languages": [
+			"elixir",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

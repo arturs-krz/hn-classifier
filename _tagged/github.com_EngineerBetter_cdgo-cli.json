@@ -1,0 +1,15 @@
+{
+	"_id": "12078731",
+	"site": "https://github.com/EngineerBetter/cdgo-cli",
+	"title": " cdgo – Quickly cd into dir nested in $GOPATH or ~/workspace/",
+	"author": "EngineerBetter",
+	"date": "2017-06-19T10:01:18.432Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

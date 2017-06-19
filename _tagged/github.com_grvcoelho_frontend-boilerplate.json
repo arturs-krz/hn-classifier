@@ -1,0 +1,21 @@
+{
+	"_id": "12184188",
+	"site": "https://github.com/grvcoelho/frontend-boilerplate",
+	"title": " Front-end boilerplate without overcomplication",
+	"author": "grvcoelho",
+	"date": "2017-06-19T09:51:28.971Z",
+	"tags": {
+		"categories": [
+			"front-end",
+			"boilerplate",
+			"webpack",
+			"react"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

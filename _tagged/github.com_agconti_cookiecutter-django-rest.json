@@ -1,0 +1,19 @@
+{
+	"_id": "11140702",
+	"site": "https://github.com/agconti/cookiecutter-django-rest",
+	"title": " Make robust rest apis fast and easy with cookiecutter-django-rest",
+	"author": "agconti",
+	"date": "2017-06-19T11:10:50.331Z",
+	"tags": {
+		"categories": [
+			"django",
+			"api",
+			"rest-api",
+			"boilerplate"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

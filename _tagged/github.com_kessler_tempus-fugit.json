@@ -1,0 +1,19 @@
+{
+	"_id": "10875202",
+	"site": "https://github.com/kessler/tempus-fugit",
+	"title": " A Node.js scheduling module that doesn't waste your time",
+	"author": "ikessler",
+	"date": "2017-06-19T10:51:21.096Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"node-js",
+			"javascript",
+			"scheduling"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

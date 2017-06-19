@@ -1,0 +1,19 @@
+{
+	"_id": "8055110",
+	"site": "https://github.com/danielstjules/buddy.js",
+	"title": " Buddy.js – Magic number detection for JavaScript",
+	"author": "__debug__",
+	"date": "2017-06-19T08:44:41.447Z",
+	"tags": {
+		"categories": [
+			"magic-numbers",
+			"javascript",
+			"code-smells",
+			"clean-code"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,36 @@
+{
+	"_id": "12721686",
+	"site": "https://github.com/amark/gun",
+	"title": " Decentralized Graph Database for Node.js and Browsers",
+	"author": "marknadal",
+	"date": "2017-06-19T10:27:55.168Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"gun",
+			"realtime",
+			"graph",
+			"docker",
+			"reactive",
+			"offline-first",
+			"p2p",
+			"decentralized",
+			"distributed",
+			"data",
+			"big-data",
+			"fault-tolerance",
+			"conflict-resolution",
+			"concurrency",
+			"heroku",
+			"database",
+			"performance",
+			"load-testing",
+			"end-to-end"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

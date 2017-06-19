@@ -1,0 +1,22 @@
+{
+	"_id": "9685345",
+	"site": "https://github.com/ivanceras/rustorm",
+	"title": " rustorm – A simple ORM for rust",
+	"author": "ivanceras",
+	"date": "2017-06-19T08:43:07.184Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"orm",
+			"postgresql",
+			"sqlite",
+			"database"
+		],
+		"languages": [
+			"rust",
+			"sqlpl",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "12046877",
+	"site": "https://github.com/ngryman/gulp-bro",
+	"title": " Gulp Bro – Gulp, Browserify and Incremental Build",
+	"author": "ngryman",
+	"date": "2017-06-19T10:02:29.544Z",
+	"tags": {
+		"categories": [
+			"gulp",
+			"gulp-plugin",
+			"browserify",
+			"watchify",
+			"recipe",
+			"incremental"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

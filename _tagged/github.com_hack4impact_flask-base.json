@@ -1,0 +1,26 @@
+{
+	"_id": "13463876",
+	"site": "https://github.com/hack4impact/flask-base",
+	"title": " A Flask Boilerplate App with SQLAlchemy, Redis, and Authentication",
+	"author": "abhisuri97",
+	"date": "2017-06-19T08:46:17.577Z",
+	"tags": {
+		"categories": [
+			"flask",
+			"redis",
+			"sqlalchemy",
+			"boilerplate",
+			"database",
+			"user-management",
+			"authentication",
+			"python3"
+		],
+		"languages": [
+			"python",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

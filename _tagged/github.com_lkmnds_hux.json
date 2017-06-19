@@ -1,0 +1,19 @@
+{
+	"_id": "12069895",
+	"site": "https://github.com/lkmnds/hux",
+	"title": " A static site generator in less than 700 LOC",
+	"author": "lkmnds",
+	"date": "2017-06-19T10:19:08.765Z",
+	"tags": {
+		"categories": [
+			"python",
+			"static-site-generator"
+		],
+		"languages": [
+			"python",
+			"css",
+			"makefile"
+		]
+	},
+	"content": ""
+}

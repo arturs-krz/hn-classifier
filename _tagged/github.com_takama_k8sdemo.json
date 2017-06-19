@@ -1,0 +1,20 @@
+{
+	"_id": "12463792",
+	"site": "https://github.com/takama/k8sdemo",
+	"title": " Kubernetes Cluster Demo with docs and ansible automate deployment",
+	"author": "takama",
+	"date": "2017-06-19T10:50:30.835Z",
+	"tags": {
+		"categories": [
+			"kubernetes",
+			"demo",
+			"tutorial",
+			"k8s"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "13531548",
+	"site": "https://github.com/ventoviro/windwalker-edge",
+	"title": " Edge, a Laravel Blade compatible template engine",
+	"author": "asika32764",
+	"date": "2017-06-19T09:43:38.509Z",
+	"tags": {
+		"categories": [
+			"blade",
+			"blade-engine",
+			"blade-template",
+			"blade-compitable",
+			"windwalker"
+		],
+		"languages": [
+			"php",
+			"html"
+		]
+	},
+	"content": ""
+}

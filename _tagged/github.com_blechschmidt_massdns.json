@@ -1,0 +1,27 @@
+{
+	"_id": "11977973",
+	"site": "https://github.com/blechschmidt/massdns",
+	"title": " MassDNS – A high-performance DNS stub resolver in C",
+	"author": "blechschmidt",
+	"date": "2017-06-19T10:01:00.684Z",
+	"tags": {
+		"categories": [
+			"dns",
+			"dns-resolver",
+			"dns-resolution",
+			"dns-bruteforcer",
+			"dns-client",
+			"subbrute",
+			"massdns",
+			"bulk-dns",
+			"dns-lookup"
+		],
+		"languages": [
+			"c",
+			"cmake",
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

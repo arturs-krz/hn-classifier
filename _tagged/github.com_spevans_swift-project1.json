@@ -1,0 +1,19 @@
+{
+	"_id": "11339765",
+	"site": "https://github.com/spevans/swift-project1",
+	"title": " Using Swift for low-level kernel code",
+	"author": "whistler",
+	"date": "2017-06-19T11:01:02.244Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"swift",
+			"c",
+			"assembly",
+			"makefile",
+			"c++",
+			"emacs lisp"
+		]
+	},
+	"content": ""
+}

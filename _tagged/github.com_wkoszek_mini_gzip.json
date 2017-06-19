@@ -1,0 +1,23 @@
+{
+	"_id": "10453235",
+	"site": "https://github.com/wkoszek/mini_gzip",
+	"title": " Mini_gzip – embeddable, minimal, in-memory Gzip API",
+	"author": "wkoszek",
+	"date": "2017-06-19T10:51:35.829Z",
+	"tags": {
+		"categories": [
+			"gzip",
+			"embeddable",
+			"c",
+			"mini-gzip",
+			"decompression",
+			"compression",
+			"zlib"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

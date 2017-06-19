@@ -1,0 +1,15 @@
+{
+	"_id": "6967376",
+	"site": "https://github.com/vtex/releasy",
+	"title": " Releasy is a semver CLI tool to release versions",
+	"author": "gadr90",
+	"date": "2017-06-19T11:10:08.677Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "10181076",
+	"site": "https://github.com/PatrolServer/bash-scanner",
+	"title": " BashScanner – Script to list Outdated Software on your server + cronjob",
+	"author": "dolfje",
+	"date": "2017-06-19T11:03:58.342Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

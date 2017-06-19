@@ -1,0 +1,29 @@
+{
+	"_id": "12076759",
+	"site": "https://github.com/Rican7/retry",
+	"title": " Retry – A stateless, functional way to perform actions until successful",
+	"author": "Rican7",
+	"date": "2017-06-19T09:54:58.843Z",
+	"tags": {
+		"categories": [
+			"go",
+			"retry",
+			"backoff",
+			"functional",
+			"stateless",
+			"jitter",
+			"delay",
+			"limit",
+			"wait",
+			"linear",
+			"incremental",
+			"exponential",
+			"fibonacci"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

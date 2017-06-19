@@ -1,0 +1,16 @@
+{
+	"_id": "9724658",
+	"site": "https://github.com/mcuadros/go-candyjs",
+	"title": " CandyJS – transparent bridge between Go and JavaScript",
+	"author": "mcuadros",
+	"date": "2017-06-19T09:35:12.022Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

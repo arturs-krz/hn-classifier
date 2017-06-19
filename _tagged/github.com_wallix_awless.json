@@ -1,0 +1,25 @@
+{
+	"_id": "13653077",
+	"site": "https://github.com/wallix/awless",
+	"title": " Awless, a Powerful CLI for AWS in Go",
+	"author": "hbbio",
+	"date": "2017-06-19T08:43:04.302Z",
+	"tags": {
+		"categories": [
+			"aws",
+			"cli",
+			"cloud",
+			"aws-cli",
+			"cloud-management",
+			"awless",
+			"golang",
+			"devops",
+			"devops-tools"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

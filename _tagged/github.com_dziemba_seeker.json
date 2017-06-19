@@ -1,0 +1,15 @@
+{
+	"_id": "12611750",
+	"site": "https://github.com/dziemba/seeker",
+	"title": " Seeker – Search GitHub repositories for potential job candidates",
+	"author": "feebaa",
+	"date": "2017-06-19T09:46:58.671Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

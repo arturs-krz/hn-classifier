@@ -1,0 +1,14 @@
+{
+	"_id": "12025090",
+	"site": "https://github.com/gcanti/babel-plugin-tcomb",
+	"title": " Babel plugin for static and runtime type checking using Flow and tcomb",
+	"author": "gcanti",
+	"date": "2017-06-19T09:55:13.660Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

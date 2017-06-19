@@ -1,0 +1,21 @@
+{
+	"_id": "13906569",
+	"site": "https://github.com/vijaysutrave/git-stalk",
+	"title": " Progressive Web App to Stalk Developer GitHub Repos with React/Redux",
+	"author": "vijaysutrave",
+	"date": "2017-06-19T10:46:41.946Z",
+	"tags": {
+		"categories": [
+			"progressive-web-app",
+			"react",
+			"redux",
+			"service-worker"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

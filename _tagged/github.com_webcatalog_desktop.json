@@ -1,0 +1,25 @@
+{
+	"_id": "13357733",
+	"site": "https://github.com/webcatalog/desktop",
+	"title": " WebCatalog – Run your favorite web apps natively",
+	"author": "quanglam2807",
+	"date": "2017-06-19T10:16:52.321Z",
+	"tags": {
+		"categories": [
+			"electron",
+			"browser",
+			"nativefier",
+			"fluid",
+			"javascript",
+			"mac",
+			"windows",
+			"linux"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

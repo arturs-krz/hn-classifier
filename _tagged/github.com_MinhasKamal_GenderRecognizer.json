@@ -1,0 +1,24 @@
+{
+	"_id": "12846820",
+	"site": "https://github.com/MinhasKamal/GenderRecognizer",
+	"title": " GenderRecognizer- Plain Face Detector and Gender Recognizer",
+	"author": "MinhasKamal",
+	"date": "2017-06-19T10:50:47.721Z",
+	"tags": {
+		"categories": [
+			"face-detector",
+			"gender-recognizer",
+			"opencv",
+			"java",
+			"egami",
+			"gender-recognition",
+			"face-detection",
+			"face-recognition",
+			"machine-learning"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

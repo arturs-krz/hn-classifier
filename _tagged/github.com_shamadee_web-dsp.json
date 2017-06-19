@@ -1,0 +1,20 @@
+{
+	"_id": "13995011",
+	"site": "https://github.com/shamadee/web-dsp",
+	"title": " WebDSP – a WebAssembly library for client side signal processing",
+	"author": "matzewagner",
+	"date": "2017-06-19T10:29:42.558Z",
+	"tags": {
+		"categories": [
+			"webassembly",
+			"wasm",
+			"dsp"
+		],
+		"languages": [
+			"c++",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

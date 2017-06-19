@@ -1,0 +1,27 @@
+{
+	"_id": "10893348",
+	"site": "https://github.com/MauriceGit/Partikel_accelleration_on_GPU",
+	"title": " Particle Simulation with OpenGL compute shader – 8M particles",
+	"author": "EllipticCurve",
+	"date": "2017-06-19T10:53:43.221Z",
+	"tags": {
+		"categories": [
+			"particle-simulation",
+			"opengl",
+			"compute-shaders",
+			"particles",
+			"c",
+			"glsl"
+		],
+		"languages": [
+			"c",
+			"html",
+			"objective-c",
+			"cmake",
+			"css",
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

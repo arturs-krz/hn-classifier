@@ -1,0 +1,25 @@
+{
+	"_id": "7255462",
+	"site": "https://github.com/IcaliaLabs/furatto-rails-start-kit",
+	"title": " Hackathon Rails starter kit",
+	"author": "kurenn88",
+	"date": "2017-06-19T08:42:46.755Z",
+	"tags": {
+		"categories": [
+			"rails",
+			"furatto",
+			"devise",
+			"facebook",
+			"hackathon",
+			"boilerplate"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript",
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

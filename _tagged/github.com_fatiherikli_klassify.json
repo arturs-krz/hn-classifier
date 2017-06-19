@@ -1,0 +1,22 @@
+{
+	"_id": "11245165",
+	"site": "https://github.com/fatiherikli/klassify",
+	"title": " Klassify – Redis Based Document Classification Service",
+	"author": "fatiherikli",
+	"date": "2017-06-19T11:08:17.798Z",
+	"tags": {
+		"categories": [
+			"machine-learning",
+			"bayesian-classifiers",
+			"tornado",
+			"react"
+		],
+		"languages": [
+			"javascript",
+			"python",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

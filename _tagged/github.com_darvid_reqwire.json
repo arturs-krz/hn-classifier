@@ -1,0 +1,21 @@
+{
+	"_id": "13241346",
+	"site": "https://github.com/darvid/reqwire",
+	"title": " reqwire – an alternative Python requirements management workflow",
+	"author": "darvid",
+	"date": "2017-06-19T10:39:20.840Z",
+	"tags": {
+		"categories": [
+			"python",
+			"pip",
+			"requirements-management",
+			"requirements",
+			"dependencies",
+			"dependency-manager"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

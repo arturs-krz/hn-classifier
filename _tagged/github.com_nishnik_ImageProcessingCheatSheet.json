@@ -1,0 +1,21 @@
+{
+	"_id": "13518085",
+	"site": "https://github.com/nishnik/ImageProcessingCheatSheet",
+	"title": " Cheat Sheet for Image Processing Competitions",
+	"author": "nishnik",
+	"date": "2017-06-19T11:04:43.353Z",
+	"tags": {
+		"categories": [
+			"image-processing",
+			"opencv",
+			"cheat-sheets",
+			"computer-vision"
+		],
+		"languages": [
+			"c++",
+			"cmake",
+			"shell"
+		]
+	},
+	"content": ""
+}

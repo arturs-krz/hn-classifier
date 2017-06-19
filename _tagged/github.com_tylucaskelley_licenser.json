@@ -1,0 +1,23 @@
+{
+	"_id": "8608912",
+	"site": "https://github.com/tylucaskelley/licenser",
+	"title": " Licenser – quickly add an open source license to your project",
+	"author": "tylucaskelley",
+	"date": "2017-06-19T10:00:27.311Z",
+	"tags": {
+		"categories": [
+			"pypi",
+			"python",
+			"license",
+			"foss",
+			"command-line",
+			"cli",
+			"mit-license",
+			"gpl"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

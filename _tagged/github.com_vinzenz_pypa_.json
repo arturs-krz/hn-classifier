@@ -1,0 +1,21 @@
+{
+	"_id": "7915479",
+	"site": "https://github.com/vinzenz/pypa/",
+	"title": " libpypa – A Python Parser Library in C++",
+	"author": "recentdarkness",
+	"date": "2017-06-19T09:38:38.154Z",
+	"tags": {
+		"categories": [
+			"parse",
+			"parser-library",
+			"c-plus-plus",
+			"ast",
+			"python",
+			"lexer"
+		],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": ""
+}

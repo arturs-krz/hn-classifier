@@ -1,0 +1,16 @@
+{
+	"_id": "10995299",
+	"site": "https://github.com/thomastweets/cv-on-ghpages",
+	"title": " Compile and Host Your LaTeX CV Using GitHub and TravisCI",
+	"author": "thomastweets",
+	"date": "2017-06-19T10:29:18.472Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"tex",
+			"makefile",
+			"html"
+		]
+	},
+	"content": ""
+}

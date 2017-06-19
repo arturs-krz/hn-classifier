@@ -1,0 +1,23 @@
+{
+	"_id": "13460436",
+	"site": "https://github.com/corywalker/expreduce",
+	"title": " Expreduce, a language for math written in Go",
+	"author": "hyperopt",
+	"date": "2017-06-19T09:41:13.761Z",
+	"tags": {
+		"categories": [
+			"computer-algebra",
+			"cas",
+			"calculus",
+			"symbolic",
+			"language"
+		],
+		"languages": [
+			"go",
+			"yacc",
+			"lex",
+			"other"
+		]
+	},
+	"content": ""
+}

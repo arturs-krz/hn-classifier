@@ -1,0 +1,25 @@
+{
+	"_id": "9329176",
+	"site": "https://github.com/hyperoslo/Sync",
+	"title": " Hyper Sync – The Simplest Way to Sync JSON to Core Data",
+	"author": "3lvis",
+	"date": "2017-06-19T08:40:01.409Z",
+	"tags": {
+		"categories": [
+			"coredata",
+			"json",
+			"swift",
+			"restkit",
+			"carthage",
+			"cocoapods",
+			"core-data",
+			"sync"
+		],
+		"languages": [
+			"swift",
+			"objective-c",
+			"ruby"
+		]
+	},
+	"content": ""
+}

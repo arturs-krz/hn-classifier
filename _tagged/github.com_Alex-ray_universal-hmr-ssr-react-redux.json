@@ -1,0 +1,21 @@
+{
+	"_id": "12455482",
+	"site": "https://github.com/Alex-ray/universal-hmr-ssr-react-redux",
+	"title": " Hot Module Reloading and Server Side Rendering with React and Redux",
+	"author": "alexjray",
+	"date": "2017-06-19T08:44:00.750Z",
+	"tags": {
+		"categories": [
+			"react",
+			"redux",
+			"hot-reload",
+			"server-side-rendering",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

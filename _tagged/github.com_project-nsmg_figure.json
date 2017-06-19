@@ -1,0 +1,17 @@
+{
+	"_id": "9052336",
+	"site": "https://github.com/project-nsmg/figure",
+	"title": " Figure, a Fig powered mini-Heroku",
+	"author": "sorpaas",
+	"date": "2017-06-19T10:16:19.583Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile",
+			"ruby",
+			"nginx"
+		]
+	},
+	"content": ""
+}

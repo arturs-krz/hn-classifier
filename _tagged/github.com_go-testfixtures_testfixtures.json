@@ -1,0 +1,20 @@
+{
+	"_id": "11516470",
+	"site": "https://github.com/go-testfixtures/testfixtures",
+	"title": " Go testfixtures: Rails' like test fixtures for Golang",
+	"author": "andreynering",
+	"date": "2017-06-19T10:03:41.691Z",
+	"tags": {
+		"categories": [
+			"go",
+			"testing",
+			"database",
+			"fixtures"
+		],
+		"languages": [
+			"go",
+			"sqlpl"
+		]
+	},
+	"content": ""
+}

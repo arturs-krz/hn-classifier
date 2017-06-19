@@ -11,7 +11,9 @@
 			"infosec",
 			"sinkhole",
 			"csv",
-			"xlsx"
+			"xlsx",
+			"list"
+
 		],
 		"languages": []
 	},

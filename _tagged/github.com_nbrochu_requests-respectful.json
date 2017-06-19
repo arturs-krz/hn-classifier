@@ -1,0 +1,18 @@
+{
+	"_id": "11924260",
+	"site": "https://github.com/nbrochu/requests-respectful",
+	"title": " Python Requests wrapper to honor service rate limits",
+	"author": "brettlangdon",
+	"date": "2017-06-19T09:59:07.024Z",
+	"tags": {
+		"categories": [
+			"python",
+			"rate-limiting",
+			"requests"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

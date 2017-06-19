@@ -1,0 +1,15 @@
+{
+	"_id": "9847320",
+	"site": "https://github.com/gongo/9t",
+	"title": " 9t – A multi-file tailer in Go",
+	"author": "gongo",
+	"date": "2017-06-19T10:35:37.154Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "10296414",
+	"site": "https://github.com/grahamc/ish",
+	"title": " ish – SSH to an AWS server by name, AMI, autoscaling group, or ID",
+	"author": "grhmc",
+	"date": "2017-06-19T10:25:13.681Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

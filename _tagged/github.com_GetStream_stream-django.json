@@ -1,0 +1,24 @@
+{
+	"_id": "8449231",
+	"site": "https://github.com/GetStream/stream-django",
+	"title": " Create activity streams and newsfeeds with Django and GetStream.io",
+	"author": "tbarbugli",
+	"date": "2017-06-19T10:44:54.125Z",
+	"tags": {
+		"categories": [
+			"django",
+			"python",
+			"stream-django",
+			"activity-feed",
+			"getstream-io",
+			"notification-feed",
+			"news-feed",
+			"timeline",
+			"feed"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

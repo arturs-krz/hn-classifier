@@ -1,0 +1,22 @@
+{
+	"_id": "8923092",
+	"site": "https://github.com/jamescun/switcher?readme",
+	"title": " Run SSH and HTTP(S) on the same port",
+	"author": "jamescun",
+	"date": "2017-06-19T08:42:45.136Z",
+	"tags": {
+		"categories": [
+			"ssh",
+			"http",
+			"https",
+			"proxy",
+			"golang",
+			"sslh"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

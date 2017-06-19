@@ -1,0 +1,20 @@
+{
+	"_id": "13840169",
+	"site": "https://github.com/nkkollaw/reserved-subdomains",
+	"title": " Subdomains that should be reserved in a multitenant app",
+	"author": "nkkollaw",
+	"date": "2017-06-19T10:53:24.680Z",
+	"tags": {
+		"categories": [
+			"saas",
+			"multitenancy",
+			"yaml",
+			"php",
+			"subdomain"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

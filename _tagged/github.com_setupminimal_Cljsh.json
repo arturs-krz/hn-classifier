@@ -1,0 +1,15 @@
+{
+	"_id": "9760542",
+	"site": "https://github.com/setupminimal/Cljsh",
+	"title": " A Minecraft Forge Mod for Writing Mods in Clojure",
+	"author": "setupminimal",
+	"date": "2017-06-19T09:30:08.917Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java",
+			"clojure"
+		]
+	},
+	"content": ""
+}

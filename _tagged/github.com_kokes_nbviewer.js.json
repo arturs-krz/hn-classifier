@@ -1,0 +1,20 @@
+{
+	"_id": "12243562",
+	"site": "https://github.com/kokes/nbviewer.js",
+	"title": " Rendering Jupyter notebooks in the browser",
+	"author": "drej",
+	"date": "2017-06-19T08:42:23.773Z",
+	"tags": {
+		"categories": [
+			"jupyter-notebook",
+			"nbviewer"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

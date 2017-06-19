@@ -1,0 +1,22 @@
+{
+	"_id": "11493663",
+	"site": "https://github.com/DiegoRBaquero/node-fb-messenger",
+	"title": " Node.js Facebook Messenger Platform API Wrapper",
+	"author": "diegorbaquero",
+	"date": "2017-06-19T08:42:32.652Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"facebook",
+			"messenger",
+			"bot",
+			"api",
+			"wrapper",
+			"node"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

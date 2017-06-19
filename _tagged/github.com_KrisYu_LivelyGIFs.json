@@ -1,0 +1,20 @@
+{
+	"_id": "14039010",
+	"site": "https://github.com/KrisYu/LivelyGIFs",
+	"title": " Simple iOS App Turn Live Photo to GIF",
+	"author": "xueyu666",
+	"date": "2017-06-19T08:42:40.341Z",
+	"tags": {
+		"categories": [
+			"livephoto",
+			"gif",
+			"photos",
+			"ios",
+			"swift-3"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

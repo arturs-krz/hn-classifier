@@ -1,0 +1,21 @@
+{
+	"_id": "10734937",
+	"site": "https://github.com/danpaz/bodybuilder",
+	"title": " Bodybuilder – an elasticsearch query body builder for JavaScript",
+	"author": "danpaz",
+	"date": "2017-06-19T09:44:57.650Z",
+	"tags": {
+		"categories": [
+			"elasticsearch",
+			"querydsl",
+			"builder",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

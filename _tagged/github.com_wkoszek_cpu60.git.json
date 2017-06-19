@@ -1,0 +1,21 @@
+{
+	"_id": "10381296",
+	"site": "https://github.com/wkoszek/cpu60.git",
+	"title": " CPU simulator in 60 lines of code",
+	"author": "wkoszek",
+	"date": "2017-06-19T08:43:18.324Z",
+	"tags": {
+		"categories": [
+			"cpu",
+			"cpu-model",
+			"simulator",
+			"education"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"perl"
+		]
+	},
+	"content": ""
+}

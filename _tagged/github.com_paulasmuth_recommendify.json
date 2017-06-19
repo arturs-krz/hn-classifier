@@ -1,0 +1,15 @@
+{
+	"_id": "3608725",
+	"site": "https://github.com/paulasmuth/recommendify",
+	"title": " A distributed Recommendation Engine based on Redis + Ruby (and C)",
+	"author": "paulasmuth",
+	"date": "2017-06-19T10:07:15.876Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"c"
+		]
+	},
+	"content": ""
+}

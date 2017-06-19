@@ -1,0 +1,15 @@
+{
+	"_id": "10109566",
+	"site": "https://github.com/uptimejp/sql_firewall",
+	"title": " sql_firewall – SQL Firewall Extension for PostgreSQL",
+	"author": "snaga",
+	"date": "2017-06-19T09:39:20.467Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

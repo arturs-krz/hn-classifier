@@ -1,0 +1,25 @@
+{
+	"_id": "9734587",
+	"site": "https://github.com/minio/mc",
+	"title": " Minio Client tools for object storage",
+	"author": "y4m4b4",
+	"date": "2017-06-19T10:22:11.171Z",
+	"tags": {
+		"categories": [
+			"storage",
+			"google-cloud-storage",
+			"aws-s3",
+			"filesystem",
+			"s3",
+			"go",
+			"tools",
+			"coreutils"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

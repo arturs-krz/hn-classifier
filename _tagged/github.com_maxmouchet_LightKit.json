@@ -1,0 +1,22 @@
+{
+	"_id": "12181486",
+	"site": "https://github.com/maxmouchet/LightKit",
+	"title": " Control your MacBook lights using Swift",
+	"author": "maxmouchet",
+	"date": "2017-06-19T10:16:08.368Z",
+	"tags": {
+		"categories": [
+			"sensor",
+			"swift",
+			"ambient-light-sensors",
+			"macbook",
+			"apple"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

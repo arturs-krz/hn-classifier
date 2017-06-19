@@ -1,0 +1,24 @@
+{
+	"_id": "13590776",
+	"site": "https://github.com/NickolasBoyer/wtchr",
+	"title": " Open Source, Privacy-Focused and Beautiful Show Downloader and Tracker",
+	"author": "rutierut",
+	"date": "2017-06-19T10:52:33.544Z",
+	"tags": {
+		"categories": [
+			"thetvdb",
+			"vue",
+			"electron",
+			"shows",
+			"scraping",
+			"vuex",
+			"vue-router"
+		],
+		"languages": [
+			"javascript",
+			"vue",
+			"other"
+		]
+	},
+	"content": ""
+}

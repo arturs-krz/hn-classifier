@@ -1,0 +1,24 @@
+{
+	"_id": "8574222",
+	"site": "https://github.com/9uuso/vertigo",
+	"title": " Dynamic blog engine in Go",
+	"author": "Jhsto",
+	"date": "2017-06-19T11:11:35.270Z",
+	"tags": {
+		"categories": [
+			"blog-engine",
+			"side-project",
+			"blogging",
+			"blog",
+			"go",
+			"json-api",
+			"heroku",
+			"docker"
+		],
+		"languages": [
+			"go",
+			"css"
+		]
+	},
+	"content": ""
+}

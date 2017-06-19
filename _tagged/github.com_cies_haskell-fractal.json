@@ -1,0 +1,15 @@
+{
+	"_id": "8160411",
+	"site": "https://github.com/cies/haskell-fractal",
+	"title": " Simple Mandelbrot renderer in Haskell",
+	"author": "cies",
+	"date": "2017-06-19T10:28:19.491Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"haskell",
+			"tex"
+		]
+	},
+	"content": ""
+}

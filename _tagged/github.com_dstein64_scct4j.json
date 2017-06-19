@@ -1,0 +1,22 @@
+{
+	"_id": "10526270",
+	"site": "https://github.com/dstein64/scct4j",
+	"title": " Self-Contained CRUD Template for Java",
+	"author": "dstein64",
+	"date": "2017-06-19T10:41:59.487Z",
+	"tags": {
+		"categories": [
+			"crud",
+			"angular",
+			"derby"
+		],
+		"languages": [
+			"java",
+			"javascript",
+			"html",
+			"shell",
+			"css"
+		]
+	},
+	"content": ""
+}

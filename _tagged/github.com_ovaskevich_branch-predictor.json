@@ -1,0 +1,15 @@
+{
+	"_id": "11373384",
+	"site": "https://github.com/ovaskevich/branch-predictor",
+	"title": " Branch prediction with perceptrons",
+	"author": "0h139",
+	"date": "2017-06-19T09:51:53.428Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

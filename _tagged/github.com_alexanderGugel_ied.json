@@ -1,0 +1,18 @@
+{
+	"_id": "10571065",
+	"site": "https://github.com/alexanderGugel/ied",
+	"title": " ied – an alternative package manager for Node",
+	"author": "blubbi2",
+	"date": "2017-06-19T09:57:06.329Z",
+	"tags": {
+		"categories": [
+			"package-manager",
+			"node"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

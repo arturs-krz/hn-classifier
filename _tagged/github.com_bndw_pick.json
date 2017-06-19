@@ -1,0 +1,31 @@
+{
+	"_id": "10554624",
+	"site": "https://github.com/bndw/pick",
+	"title": " A tiny password manager for OS X and Linux",
+	"author": "bndw",
+	"date": "2017-06-19T10:15:17.344Z",
+	"tags": {
+		"categories": [
+			"password",
+			"password-manager",
+			"cli",
+			"terminal",
+			"security",
+			"crypto",
+			"golang",
+			"chacha20-poly1305",
+			"aes-gcm",
+			"openpgp",
+			"scrypt",
+			"pbkdf2",
+			"macos",
+			"linux"
+		],
+		"languages": [
+			"go",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

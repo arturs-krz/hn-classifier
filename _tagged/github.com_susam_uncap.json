@@ -1,0 +1,20 @@
+{
+	"_id": "10211053",
+	"site": "https://github.com/susam/uncap",
+	"title": " Uncap – Map Caps Lock key to any key or any key to any key",
+	"author": "susam",
+	"date": "2017-06-19T11:05:55.033Z",
+	"tags": {
+		"categories": [
+			"escape-key",
+			"caps-lock",
+			"windows",
+			"documentation"
+		],
+		"languages": [
+			"c",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

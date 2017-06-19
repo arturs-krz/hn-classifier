@@ -1,0 +1,19 @@
+{
+	"_id": "12713459",
+	"site": "https://github.com/brakmic/a2g",
+	"title": " A2g – an extremely simple Angular 2 source code generator",
+	"author": "brakmic",
+	"date": "2017-06-19T10:32:38.136Z",
+	"tags": {
+		"categories": [
+			"tools",
+			"angular2",
+			"cli"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

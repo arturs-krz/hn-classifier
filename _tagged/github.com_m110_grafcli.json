@@ -1,0 +1,22 @@
+{
+	"_id": "13646777",
+	"site": "https://github.com/m110/grafcli",
+	"title": " Grafcli – Grafana CLI for quick and easy dashboards management",
+	"author": "m110",
+	"date": "2017-06-19T08:46:25.551Z",
+	"tags": {
+		"categories": [
+			"dashboard",
+			"python",
+			"grafana",
+			"cli",
+			"backup"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

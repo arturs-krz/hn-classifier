@@ -1,0 +1,19 @@
+{
+	"_id": "13826949",
+	"site": "https://github.com/marcus-crane/pkgparse",
+	"title": " Pkgparse – A tiny NPM searching CLI",
+	"author": "ethernetsalad",
+	"date": "2017-06-19T10:06:40.064Z",
+	"tags": {
+		"categories": [
+			"helper",
+			"cli",
+			"js",
+			"nodejs"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

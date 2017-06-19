@@ -1,0 +1,21 @@
+{
+	"_id": "13901029",
+	"site": "https://github.com/lejacobroy/Guetzling",
+	"title": " Guetzling, Automating the Guetzli Conversion",
+	"author": "jacobroyquebec",
+	"date": "2017-06-19T09:42:44.619Z",
+	"tags": {
+		"categories": [
+			"guetzli",
+			"compression",
+			"script",
+			"automation",
+			"jpeg",
+			"jpeg-encoder"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

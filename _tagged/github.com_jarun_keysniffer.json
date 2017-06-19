@@ -1,0 +1,20 @@
+{
+	"_id": "11705063",
+	"site": "https://github.com/jarun/keysniffer",
+	"title": " keysniffer – Linux kernel module to log pressed keys in debugfs",
+	"author": "apjana",
+	"date": "2017-06-19T10:36:47.616Z",
+	"tags": {
+		"categories": [
+			"keylogger",
+			"kernel-module",
+			"linux-kernel",
+			"debugfs"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

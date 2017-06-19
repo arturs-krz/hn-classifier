@@ -1,0 +1,23 @@
+{
+	"_id": "10619759",
+	"site": "https://github.com/eBayClassifiedsGroup/PanteraS",
+	"title": " PanteraS – Platform as a Service in a box",
+	"author": "b13n1u",
+	"date": "2017-06-19T11:09:06.560Z",
+	"tags": {
+		"categories": [
+			"paas",
+			"consul",
+			"marathon",
+			"mesos",
+			"fabio",
+			"haproxy",
+			"docker"
+		],
+		"languages": [
+			"shell",
+			"smarty"
+		]
+	},
+	"content": ""
+}

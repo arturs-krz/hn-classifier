@@ -1,0 +1,17 @@
+{
+	"_id": "8301833",
+	"site": "https://github.com/junegunn/vim-plug",
+	"title": " Vim plugin manager with parallel installer",
+	"author": "junegunn",
+	"date": "2017-06-19T09:49:38.090Z",
+	"tags": {
+		"categories": [
+			"vim"
+		],
+		"languages": [
+			"vim script",
+			"shell"
+		]
+	},
+	"content": ""
+}

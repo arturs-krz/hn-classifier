@@ -1,0 +1,22 @@
+{
+	"_id": "11541775",
+	"site": "https://github.com/bigardone/phoenix-battleship",
+	"title": " Battleship game built with Elixir, Phoenix, React and Redux",
+	"author": "javiercr",
+	"date": "2017-06-19T10:19:39.981Z",
+	"tags": {
+		"categories": [
+			"elixir-lang",
+			"phoenix-framework",
+			"reactjs",
+			"redux"
+		],
+		"languages": [
+			"elixir",
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

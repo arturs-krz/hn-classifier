@@ -1,0 +1,27 @@
+{
+	"_id": "13520712",
+	"site": "https://github.com/transceptor-technology/siridb-server",
+	"title": " SiriDB – a time series database",
+	"author": "PSmeets",
+	"date": "2017-06-19T08:42:26.583Z",
+	"tags": {
+		"categories": [
+			"ticker-data",
+			"siridb-server",
+			"time-series",
+			"timeseries",
+			"database",
+			"siridb"
+		],
+		"languages": [
+			"c",
+			"python",
+			"makefile",
+			"go",
+			"objective-c",
+			"roff",
+			"shell"
+		]
+	},
+	"content": ""
+}

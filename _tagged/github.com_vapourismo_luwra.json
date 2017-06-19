@@ -1,0 +1,20 @@
+{
+	"_id": "9831484",
+	"site": "https://github.com/vapourismo/luwra",
+	"title": " Another C++ Lua Wrapper",
+	"author": "vapourismo",
+	"date": "2017-06-19T10:47:37.976Z",
+	"tags": {
+		"categories": [
+			"lua",
+			"cpp",
+			"cpp11",
+			"wrapper"
+		],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

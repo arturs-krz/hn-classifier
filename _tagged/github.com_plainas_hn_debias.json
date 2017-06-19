@@ -1,0 +1,16 @@
+{
+	"_id": "13685157",
+	"site": "https://github.com/plainas/hn_debias",
+	"title": " Hn_debias – remove the effect of voting on hacker news comments",
+	"author": "ptwt",
+	"date": "2017-06-19T10:57:24.100Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

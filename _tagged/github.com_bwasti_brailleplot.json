@@ -1,0 +1,15 @@
+{
+	"_id": "13965621",
+	"site": "https://github.com/bwasti/brailleplot",
+	"title": " \tBrailleplot – send coordinates through stdin and it prints to stdout",
+	"author": "bwasti",
+	"date": "2017-06-19T09:37:23.499Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

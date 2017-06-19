@@ -1,0 +1,19 @@
+{
+	"_id": "11699144",
+	"site": "https://github.com/n3integration/gradle-ecs-plugin",
+	"title": " Gradle ECS cluster management",
+	"author": "n3integration",
+	"date": "2017-06-19T08:42:48.881Z",
+	"tags": {
+		"categories": [
+			"gradle",
+			"ecs",
+			"plugin"
+		],
+		"languages": [
+			"groovy",
+			"shell"
+		]
+	},
+	"content": ""
+}

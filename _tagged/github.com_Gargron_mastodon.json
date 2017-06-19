@@ -1,0 +1,25 @@
+{
+	"_id": "12646083",
+	"site": "https://github.com/Gargron/mastodon",
+	"title": " A new decentralized microblogging platform",
+	"author": "daveid",
+	"date": "2017-06-19T10:14:54.298Z",
+	"tags": {
+		"categories": [
+			"mastodon",
+			"gnu-social",
+			"docker",
+			"microblog",
+			"activity-stream",
+			"webfinger",
+			"social-network"
+		],
+		"languages": [
+			"ruby",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

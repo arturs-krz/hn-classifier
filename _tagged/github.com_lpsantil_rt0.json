@@ -1,0 +1,15 @@
+{
+	"_id": "8974024",
+	"site": "https://github.com/lpsantil/rt0",
+	"title": " A minimal C runtime for Linux i386 and x86_64 in 87 SLOC of C",
+	"author": "oso2k",
+	"date": "2017-06-19T10:53:50.138Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

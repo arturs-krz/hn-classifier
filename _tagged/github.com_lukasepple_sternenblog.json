@@ -1,0 +1,16 @@
+{
+	"_id": "8156845",
+	"site": "https://github.com/lukasepple/sternenblog",
+	"title": " Sternenblog – a file based blog written in C",
+	"author": "sternenseemann",
+	"date": "2017-06-19T10:36:51.377Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"objective-c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

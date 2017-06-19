@@ -1,0 +1,20 @@
+{
+	"_id": "13887271",
+	"site": "https://github.com/IcaliaLabs/medusa_server",
+	"title": " Elixir service to stack multiple images",
+	"author": "kurenn88",
+	"date": "2017-06-19T10:13:45.713Z",
+	"tags": {
+		"categories": [
+			"elixir",
+			"cowboy",
+			"plug",
+			"imagemagick",
+			"stack-images"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": ""
+}

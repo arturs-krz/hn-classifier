@@ -1,0 +1,23 @@
+{
+	"_id": "11618552",
+	"site": "https://github.com/morantron/tmux-fingers",
+	"title": " Tmux-fingers, copy pasting in terminal with vimium-like hints",
+	"author": "Morantron",
+	"date": "2017-06-19T08:39:56.281Z",
+	"tags": {
+		"categories": [
+			"tmux",
+			"tmux-plugins",
+			"vimium",
+			"vimperator",
+			"hint",
+			"productivity",
+			"keyboard-shortcuts"
+		],
+		"languages": [
+			"shell",
+			"awk"
+		]
+	},
+	"content": ""
+}

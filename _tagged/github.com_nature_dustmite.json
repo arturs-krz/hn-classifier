@@ -1,0 +1,18 @@
+{
+	"_id": "10437566",
+	"site": "https://github.com/nature/dustmite",
+	"title": " Dustmite – A linter for DustJS templates",
+	"author": "rowanmanning",
+	"date": "2017-06-19T08:43:17.847Z",
+	"tags": {
+		"categories": [
+			"linter",
+			"dustjs"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

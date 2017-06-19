@@ -1,0 +1,18 @@
+{
+	"_id": "13231582",
+	"site": "https://github.com/parro-it/screen-info",
+	"title": " Screen-info, native node module to query OS for displays info",
+	"author": "parro-it",
+	"date": "2017-06-19T10:55:32.080Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++",
+			"javascript",
+			"python",
+			"objective-c++",
+			"c"
+		]
+	},
+	"content": ""
+}

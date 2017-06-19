@@ -1,0 +1,20 @@
+{
+	"_id": "13926564",
+	"site": "https://github.com/coatue-oss/angular2react",
+	"title": " One line of code to turn any Angular 1 Component into a React Component",
+	"author": "bcherny",
+	"date": "2017-06-19T10:17:12.769Z",
+	"tags": {
+		"categories": [
+			"react",
+			"reactjs",
+			"angular",
+			"angularjs"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

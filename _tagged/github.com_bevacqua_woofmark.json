@@ -1,0 +1,22 @@
+{
+	"_id": "9643246",
+	"site": "https://github.com/bevacqua/woofmark",
+	"title": " Woofmark: a modular, progressive Markdown and HTML editor",
+	"author": "bevacqua",
+	"date": "2017-06-19T08:44:41.346Z",
+	"tags": {
+		"categories": [
+			"front-end",
+			"javascript",
+			"vanilla",
+			"markdown",
+			"markdown-editor"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

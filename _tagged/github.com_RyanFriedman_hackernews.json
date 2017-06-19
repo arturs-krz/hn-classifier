@@ -1,0 +1,17 @@
+{
+	"_id": "9096824",
+	"site": "https://github.com/RyanFriedman/hackernews",
+	"title": " Hacker News clone in Rails",
+	"author": "drum",
+	"date": "2017-06-19T09:53:17.305Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

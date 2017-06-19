@@ -1,0 +1,19 @@
+{
+	"_id": "13888843",
+	"site": "https://github.com/apeduru/bspl",
+	"title": " A REPL for practising bitwise operations, written in Rust",
+	"author": "apeduru",
+	"date": "2017-06-19T10:33:46.946Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"repl",
+			"education",
+			"bitwise-operators"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

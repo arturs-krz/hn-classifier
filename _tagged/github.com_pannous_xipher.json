@@ -1,0 +1,20 @@
+{
+	"_id": "8940232",
+	"site": "https://github.com/pannous/xipher",
+	"title": " Write (almost) perfect encryption in an hour",
+	"author": "singularity2001",
+	"date": "2017-06-19T09:49:31.518Z",
+	"tags": {
+		"categories": [
+			"cipher",
+			"xor-cipher",
+			"encryption",
+			"encrypter"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

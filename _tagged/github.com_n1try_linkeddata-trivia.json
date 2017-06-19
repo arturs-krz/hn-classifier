@@ -1,0 +1,23 @@
+{
+	"_id": "13685546",
+	"site": "https://github.com/n1try/linkeddata-trivia",
+	"title": " Auto-generated quiz questions from DBPedia",
+	"author": "n1try",
+	"date": "2017-06-19T10:04:09.641Z",
+	"tags": {
+		"categories": [
+			"linked-data",
+			"linked-open-data",
+			"rdf",
+			"dbpedia",
+			"game",
+			"trivia"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "13023309",
+	"site": "https://github.com/tony/vcspull",
+	"title": " vcspull – synchronize your repos",
+	"author": "git-pull",
+	"date": "2017-06-19T11:00:24.763Z",
+	"tags": {
+		"categories": [
+			"vcs",
+			"cli",
+			"terminal",
+			"cli-utilities",
+			"project-management",
+			"git",
+			"hg",
+			"svn",
+			"yaml",
+			"json"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

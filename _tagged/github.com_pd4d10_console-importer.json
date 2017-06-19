@@ -1,0 +1,22 @@
+{
+	"_id": "13752885",
+	"site": "https://github.com/pd4d10/console-importer",
+	"title": " Easily import JavaScript and CSS resources from Chrome console",
+	"author": "pd4d10",
+	"date": "2017-06-19T10:54:48.039Z",
+	"tags": {
+		"categories": [
+			"console",
+			"chrome-extension",
+			"import",
+			"resources",
+			"javascript",
+			"css"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "6116578",
+	"site": "https://github.com/donny/awsmap",
+	"title": " A Dashing widget that shows a world map with AWS EC2 statuses",
+	"author": "donny",
+	"date": "2017-06-19T10:28:36.001Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"coffeescript",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "8818747",
+	"site": "https://github.com/jurismarches/chopper",
+	"title": " Chopper – Easy HTML/CSS Extraction with Python",
+	"author": "Socketubs",
+	"date": "2017-06-19T10:35:42.560Z",
+	"tags": {
+		"categories": [
+			"lxml",
+			"python",
+			"beautifulsoup",
+			"scraping",
+			"html",
+			"css"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

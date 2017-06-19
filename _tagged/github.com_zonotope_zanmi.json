@@ -1,0 +1,22 @@
+{
+	"_id": "13465866",
+	"site": "https://github.com/zonotope/zanmi",
+	"title": " Zanmi – Simple HTTP Identity Service",
+	"author": "zonotope",
+	"date": "2017-06-19T08:42:38.058Z",
+	"tags": {
+		"categories": [
+			"clojure",
+			"jwt-authentication",
+			"service",
+			"password-database",
+			"jwt",
+			"identity",
+			"authentication"
+		],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

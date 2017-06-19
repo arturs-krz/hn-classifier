@@ -1,0 +1,15 @@
+{
+	"_id": "3438770",
+	"site": "https://github.com/HackingGibsons/clubot",
+	"title": " Clubot - An IRC to ZeroMQ bridge in Common Lisp",
+	"author": "sshirokov",
+	"date": "2017-06-19T10:15:12.580Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"common lisp",
+			"shell"
+		]
+	},
+	"content": ""
+}

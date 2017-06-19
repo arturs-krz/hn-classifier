@@ -1,0 +1,20 @@
+{
+	"_id": "6500442",
+	"site": "https://github.com/lervag/vim-latex",
+	"title": " New latex plugin for vim",
+	"author": "lervag",
+	"date": "2017-06-19T09:39:22.589Z",
+	"tags": {
+		"categories": [
+			"vim",
+			"latex-plugin"
+		],
+		"languages": [
+			"vim script",
+			"tex",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

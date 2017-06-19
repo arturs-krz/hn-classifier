@@ -1,0 +1,20 @@
+{
+	"_id": "12444442",
+	"site": "https://github.com/danijar/mindpark",
+	"title": " Mindpark - Playing Video Games with Deep Learning in Python",
+	"author": "danijar",
+	"date": "2017-06-19T08:42:37.954Z",
+	"tags": {
+		"categories": [
+			"reinforcement-learning",
+			"tensorflow",
+			"deep-learning",
+			"research",
+			"artificial-intelligence"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

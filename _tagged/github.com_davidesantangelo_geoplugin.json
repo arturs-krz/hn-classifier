@@ -1,0 +1,20 @@
+{
+	"_id": "9647110",
+	"site": "https://github.com/davidesantangelo/geoplugin",
+	"title": " Geoplugin – This Is a Ruby Wrapper for Geoplugin API",
+	"author": "daviducolo",
+	"date": "2017-06-19T11:09:42.390Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"ruby-wrapper-library",
+			"rubygem",
+			"geolocation"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

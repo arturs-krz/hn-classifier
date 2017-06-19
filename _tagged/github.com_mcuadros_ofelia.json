@@ -1,0 +1,15 @@
+{
+	"_id": "13210671",
+	"site": "https://github.com/mcuadros/ofelia",
+	"title": " Ofelia – a simple job scheduler ready for Docker",
+	"author": "mcuadros",
+	"date": "2017-06-19T11:09:09.380Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

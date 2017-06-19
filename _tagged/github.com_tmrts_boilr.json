@@ -1,0 +1,23 @@
+{
+	"_id": "13785204",
+	"site": "https://github.com/tmrts/boilr",
+	"title": " Simple templating for complex workflows",
+	"author": "tmrts",
+	"date": "2017-06-19T09:49:41.777Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"go",
+			"tool",
+			"cli",
+			"boilerplate",
+			"boilerplate-template",
+			"template"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

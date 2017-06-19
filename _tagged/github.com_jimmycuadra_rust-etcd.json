@@ -1,0 +1,21 @@
+{
+	"_id": "10097441",
+	"site": "https://github.com/jimmycuadra/rust-etcd",
+	"title": " An etcd client library for Rust",
+	"author": "Perceptes",
+	"date": "2017-06-19T10:33:44.580Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"etcd",
+			"coreos",
+			"database",
+			"key-value"
+		],
+		"languages": [
+			"rust",
+			"makefile"
+		]
+	},
+	"content": ""
+}

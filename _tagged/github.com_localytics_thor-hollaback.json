@@ -1,0 +1,19 @@
+{
+	"_id": "12688525",
+	"site": "https://github.com/localytics/thor-hollaback",
+	"title": " Callbacks in thor CLIs",
+	"author": "kddeisz",
+	"date": "2017-06-19T11:07:47.064Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"thor",
+			"gem"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

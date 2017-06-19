@@ -1,0 +1,23 @@
+{
+	"_id": "6528330",
+	"site": "https://github.com/abemassry/wsend-gpg",
+	"title": " Encrypted end-to-end file transfer",
+	"author": "abemassry",
+	"date": "2017-06-19T10:04:30.696Z",
+	"tags": {
+		"categories": [
+			"gpg",
+			"wsend-gpg",
+			"transfer",
+			"shell",
+			"friends",
+			"encryption",
+			"storage",
+			"curl"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

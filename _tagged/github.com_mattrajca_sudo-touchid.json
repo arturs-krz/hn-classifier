@@ -1,0 +1,20 @@
+{
+	"_id": "12834327",
+	"site": "https://github.com/mattrajca/sudo-touchid",
+	"title": " A fork of sudo with Touch ID support",
+	"author": "mattr1",
+	"date": "2017-06-19T09:53:53.258Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"shell",
+			"makefile",
+			"m4",
+			"other",
+			"yacc",
+			"other"
+		]
+	},
+	"content": ""
+}

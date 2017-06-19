@@ -1,0 +1,34 @@
+{
+	"_id": "13909637",
+	"site": "https://github.com/changyuheng/fz",
+	"title": " Fz – The missing fuzzy tab completion feature of z for Bash and zsh",
+	"author": "changyuheng",
+	"date": "2017-06-19T08:43:02.452Z",
+	"tags": {
+		"categories": [
+			"zsh",
+			"pluging",
+			"zsh-plugin",
+			"oh-my-zsh",
+			"zplug",
+			"z",
+			"fuzzy-search",
+			"cd",
+			"fuzzy",
+			"jump",
+			"j",
+			"fasd",
+			"autojump",
+			"bash",
+			"completion",
+			"autocompletion",
+			"bash-completion",
+			"zsh-completion",
+			"tab-completion"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

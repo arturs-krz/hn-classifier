@@ -1,0 +1,15 @@
+{
+	"_id": "12617977",
+	"site": "https://github.com/timofurrer/click-man",
+	"title": " Automated man page generation for python click apps",
+	"author": "tuxtimo",
+	"date": "2017-06-19T10:12:53.338Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "12253527",
+	"site": "https://github.com/musically-ut/offer",
+	"title": " Offer a file for download on your LAN",
+	"author": "musically_ut",
+	"date": "2017-06-19T11:00:46.504Z",
+	"tags": {
+		"categories": [
+			"python",
+			"lan",
+			"downloader",
+			"file-sharing",
+			"curl",
+			"wget",
+			"wifi"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

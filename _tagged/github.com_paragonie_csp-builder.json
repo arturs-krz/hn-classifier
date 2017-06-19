@@ -1,0 +1,26 @@
+{
+	"_id": "11011582",
+	"site": "https://github.com/paragonie/csp-builder",
+	"title": " CSP-Builder – Easily integrate CSP headers into your PHP projects",
+	"author": "sarciszewski",
+	"date": "2017-06-19T08:44:14.707Z",
+	"tags": {
+		"categories": [
+			"csp",
+			"csp-header",
+			"json-configuration",
+			"csp-builder",
+			"content-security-policy",
+			"http",
+			"http-header",
+			"php",
+			"easy-to-use",
+			"secure-by-default",
+			"security"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "12650936",
+	"site": "https://github.com/jaspervdj/patat",
+	"title": " Patat – Terminal-based presentations using Pandoc",
+	"author": "jaspervdj",
+	"date": "2017-06-19T08:44:13.987Z",
+	"tags": {
+		"categories": [
+			"pandoc",
+			"haskell",
+			"presentation",
+			"markdown",
+			"slideshow",
+			"slides"
+		],
+		"languages": [
+			"haskell",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

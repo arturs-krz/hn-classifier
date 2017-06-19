@@ -1,0 +1,26 @@
+{
+	"_id": "11236807",
+	"site": "https://github.com/maxpert/LevelDBWinRT",
+	"title": " I Ported LevelDB to Universal Windows Platform",
+	"author": "maxpert",
+	"date": "2017-06-19T09:45:11.721Z",
+	"tags": {
+		"categories": [
+			"leveldb",
+			"database",
+			"snappy",
+			"csharp",
+			"uwp",
+			"wrapper",
+			"runtimecomponent"
+		],
+		"languages": [
+			"c++",
+			"html",
+			"c",
+			"c#",
+			"other"
+		]
+	},
+	"content": ""
+}

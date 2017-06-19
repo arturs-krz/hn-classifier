@@ -1,0 +1,29 @@
+{
+	"_id": "10005415",
+	"site": "https://github.com/servant-app/JAWS",
+	"title": " JAWS – A JavaScript and AWS Stack",
+	"author": "ac360",
+	"date": "2017-06-19T10:14:58.099Z",
+	"tags": {
+		"categories": [
+			"serverless",
+			"serverless-framework",
+			"serverless-architectures",
+			"aws-lambda",
+			"google-cloud-functions",
+			"azure-functions",
+			"ibm-openwhisk",
+			"aws"
+		],
+		"languages": [
+			"javascript",
+			"java",
+			"python",
+			"shell",
+			"scala",
+			"groovy",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "11251273",
+	"site": "https://github.com/rootdevelop/rpi-aspnetcore/",
+	"title": " Run ASP.NET Core on your Raspberry Pi with Docker",
+	"author": "rootdevelop",
+	"date": "2017-06-19T10:29:36.040Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"dotnet-core",
+			"raspberry-pi"
+		],
+		"languages": []
+	},
+	"content": ""
+}

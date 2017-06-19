@@ -1,0 +1,16 @@
+{
+	"_id": "9708263",
+	"site": "https://github.com/qpfiffer/Simple-Sparsehash",
+	"title": " A reimplementation of Google's sparsehash in C",
+	"author": "Pfiffer",
+	"date": "2017-06-19T10:34:24.165Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13006897",
+	"site": "https://github.com/sirceljm/LambdaBlogPlatform",
+	"title": " AWS Lambda Blog Platform – no hardware open source blogging platform",
+	"author": "sirceljm",
+	"date": "2017-06-19T08:43:16.806Z",
+	"tags": {
+		"categories": [
+			"blog-engine",
+			"aws",
+			"aws-lambda",
+			"s3",
+			"api-gateway"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

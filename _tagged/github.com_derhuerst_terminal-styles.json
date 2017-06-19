@@ -1,0 +1,18 @@
+{
+	"_id": "12419253",
+	"site": "https://github.com/derhuerst/terminal-styles",
+	"title": " Terminal colors using template strings",
+	"author": "derhuerst",
+	"date": "2017-06-19T10:45:56.732Z",
+	"tags": {
+		"categories": [
+			"cli",
+			"color",
+			"ansi"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

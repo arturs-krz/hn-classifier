@@ -1,0 +1,25 @@
+{
+	"_id": "13018135",
+	"site": "https://github.com/tony/libvcs",
+	"title": " libvcs – pythonically control git, svn and mercurial repos",
+	"author": "git-pull",
+	"date": "2017-06-19T08:44:41.021Z",
+	"tags": {
+		"categories": [
+			"vcs",
+			"python",
+			"git",
+			"hg",
+			"python-2",
+			"python-3",
+			"svn",
+			"api",
+			"library"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

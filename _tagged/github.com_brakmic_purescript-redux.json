@@ -1,0 +1,20 @@
+{
+	"_id": "10988780",
+	"site": "https://github.com/brakmic/purescript-redux",
+	"title": " Redux Bindings for PureScript",
+	"author": "brakmic",
+	"date": "2017-06-19T10:47:09.511Z",
+	"tags": {
+		"categories": [
+			"purescript",
+			"redux"
+		],
+		"languages": [
+			"javascript",
+			"purescript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

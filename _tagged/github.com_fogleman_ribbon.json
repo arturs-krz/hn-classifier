@@ -1,0 +1,21 @@
+{
+	"_id": "13885595",
+	"site": "https://github.com/fogleman/ribbon",
+	"title": " Rendering Proteins in Go",
+	"author": "fogleman",
+	"date": "2017-06-19T09:37:14.323Z",
+	"tags": {
+		"categories": [
+			"protein-data-bank",
+			"protein",
+			"go",
+			"3d",
+			"chemistry",
+			"biochemistry"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

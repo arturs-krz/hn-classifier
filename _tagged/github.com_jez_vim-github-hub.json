@@ -1,0 +1,17 @@
+{
+	"_id": "11879803",
+	"site": "https://github.com/jez/vim-github-hub",
+	"title": " Vim-GitHub-Hub: plugin for GitHub/hub in Vim",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T08:46:33.628Z",
+	"tags": {
+		"categories": [
+			"vim-plugins",
+			"hub"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

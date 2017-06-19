@@ -1,0 +1,21 @@
+{
+	"_id": "10052494",
+	"site": "https://github.com/kakwa/py-ascii-graph",
+	"title": " Py-ascii-graph – A simple python lib to print data as ascii histograms",
+	"author": "kakwa_",
+	"date": "2017-06-19T08:42:27.666Z",
+	"tags": {
+		"categories": [
+			"python",
+			"graph",
+			"ascii",
+			"chart",
+			"histogram"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

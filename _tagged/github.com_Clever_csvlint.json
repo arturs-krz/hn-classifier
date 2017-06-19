@@ -1,0 +1,15 @@
+{
+	"_id": "8553041",
+	"site": "https://github.com/Clever/csvlint",
+	"title": " Csvlint.go, command line tool for validating CSV files against RFC 4180",
+	"author": "azylman",
+	"date": "2017-06-19T09:50:24.538Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"makefile",
+			"go"
+		]
+	},
+	"content": ""
+}

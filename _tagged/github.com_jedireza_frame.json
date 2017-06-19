@@ -1,0 +1,20 @@
+{
+	"_id": "8368671",
+	"site": "https://github.com/jedireza/frame",
+	"title": " Frame – A user system API for Node.js",
+	"author": "jedireza",
+	"date": "2017-06-19T08:45:55.796Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"mongodb",
+			"hapi",
+			"nodejs",
+			"boilerplate"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

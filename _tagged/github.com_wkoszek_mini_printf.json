@@ -1,0 +1,19 @@
+{
+	"_id": "10471700",
+	"site": "https://github.com/wkoszek/mini_printf",
+	"title": " Mini_printf – minimal, self-contained and verified printf()",
+	"author": "wkoszek",
+	"date": "2017-06-19T09:43:22.461Z",
+	"tags": {
+		"categories": [
+			"stress-test",
+			"c",
+			"mini-printf"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

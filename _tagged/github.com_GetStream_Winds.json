@@ -1,0 +1,24 @@
+{
+	"_id": "12922643",
+	"site": "https://github.com/GetStream/Winds",
+	"title": " Winds, an open source RSS reader built using React/Redux and Sails",
+	"author": "tbarbugli",
+	"date": "2017-06-19T08:44:00.600Z",
+	"tags": {
+		"categories": [
+			"personalization",
+			"rss-reader",
+			"machine-learning",
+			"feed-personalization",
+			"activity-stream",
+			"newsfeed"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

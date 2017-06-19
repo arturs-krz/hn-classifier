@@ -1,0 +1,22 @@
+{
+	"_id": "11976990",
+	"site": "https://github.com/mschwager/fierce",
+	"title": " Fierce – A Python rewrite of the classic DNS reconnaissance tool",
+	"author": "schwag09",
+	"date": "2017-06-19T11:00:43.010Z",
+	"tags": {
+		"categories": [
+			"dns",
+			"zone-transfers",
+			"reconnaissance",
+			"discovered-domains",
+			"name-server",
+			"domain",
+			"subdomain"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

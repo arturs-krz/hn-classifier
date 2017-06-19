@@ -1,0 +1,22 @@
+{
+	"_id": "9958118",
+	"site": "https://github.com/lambtron/emojipacks",
+	"title": " CLI for bulk uploading custom emojis to Slack",
+	"author": "lambtron",
+	"date": "2017-06-19T10:30:02.731Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"emoji",
+			"emojis"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"python",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

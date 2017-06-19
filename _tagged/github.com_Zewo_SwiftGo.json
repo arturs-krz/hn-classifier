@@ -1,0 +1,29 @@
+{
+	"_id": "10272341",
+	"site": "https://github.com/Zewo/SwiftGo",
+	"title": " Go's concurrency features in Swift 2 (Linux ready)",
+	"author": "paulofaria",
+	"date": "2017-06-19T10:29:59.902Z",
+	"tags": {
+		"categories": [
+			"coroutines",
+			"venice",
+			"server-side-swift",
+			"server",
+			"csp",
+			"swift",
+			"swiftpm",
+			"structured-concurrency",
+			"green-threads",
+			"fibers",
+			"performance",
+			"synchronous",
+			"non-blocking",
+			"linux"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

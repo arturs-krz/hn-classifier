@@ -1,0 +1,28 @@
+{
+	"_id": "10225582",
+	"site": "https://github.com/sindresorhus/caprine",
+	"title": " Unofficial Facebook Messenger app",
+	"author": "mofle",
+	"date": "2017-06-19T09:48:57.360Z",
+	"tags": {
+		"categories": [
+			"electron",
+			"electron-app",
+			"macos",
+			"macos-app",
+			"facebook",
+			"messenger",
+			"facebook-messenger",
+			"chat",
+			"app",
+			"nodejs",
+			"javascript",
+			"caprine"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "6708414",
+	"site": "https://github.com/ncanceill/libelliptic",
+	"title": " Arithmetic on elliptic curves in Ruby",
+	"author": "nmc",
+	"date": "2017-06-19T09:43:19.139Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"go",
+			"python",
+			"ocaml"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "7952535",
+	"site": "https://github.com/mplewis/csvtomd",
+	"title": " Convert your CSV files to Markdown tables",
+	"author": "mplewis",
+	"date": "2017-06-19T09:43:34.757Z",
+	"tags": {
+		"categories": [
+			"python",
+			"markdown",
+			"csv-files"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "13865453",
+	"site": "https://github.com/raymestalez/django-react-blog?ref=hckr",
+	"title": " React Blog",
+	"author": "rayalez",
+	"date": "2017-06-19T09:42:01.062Z",
+	"tags": {
+		"categories": [
+			"django",
+			"django-rest-framework",
+			"react",
+			"redux",
+			"bootstrap",
+			"docker"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "9539662",
+	"site": "https://github.com/lmorg/dhcpdfs",
+	"title": " DHCP as a file system – an experiment with Go and FUSE",
+	"author": "hnlmorg",
+	"date": "2017-06-19T10:28:18.628Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

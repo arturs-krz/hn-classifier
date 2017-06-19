@@ -1,0 +1,21 @@
+{
+	"_id": "6955894",
+	"site": "https://github.com/codelucas/newspaper",
+	"title": " Newspaper, simple news extraction and curation in python",
+	"author": "louyang",
+	"date": "2017-06-19T10:20:17.975Z",
+	"tags": {
+		"categories": [
+			"python",
+			"news",
+			"crawler",
+			"crawling",
+			"scraper",
+			"news-aggregator"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

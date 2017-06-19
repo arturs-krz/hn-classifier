@@ -1,0 +1,24 @@
+{
+	"_id": "13845718",
+	"site": "https://github.com/raymestalez/django-react-blog?ref=hn",
+	"title": " Open Source Django/REST/React/Redux blog. Dockerized, has auth",
+	"author": "rayalez",
+	"date": "2017-06-19T09:52:50.572Z",
+	"tags": {
+		"categories": [
+			"django",
+			"django-rest-framework",
+			"react",
+			"redux",
+			"bootstrap",
+			"docker"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

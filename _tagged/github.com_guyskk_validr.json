@@ -1,0 +1,19 @@
+{
+	"_id": "12621592",
+	"site": "https://github.com/guyskk/validr",
+	"title": " Validr – A simple,fast,extensible python library for data validation",
+	"author": "guyskk",
+	"date": "2017-06-19T10:59:36.853Z",
+	"tags": {
+		"categories": [
+			"validation",
+			"json-schema",
+			"validator"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

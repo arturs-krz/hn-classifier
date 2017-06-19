@@ -1,0 +1,15 @@
+{
+	"_id": "6298046",
+	"site": "https://github.com/cloudify/sPDF",
+	"title": " Scala library to render PDF files from HTML+CSS+JS",
+	"author": "cloudify",
+	"date": "2017-06-19T10:57:09.827Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"scala",
+			"shell"
+		]
+	},
+	"content": ""
+}

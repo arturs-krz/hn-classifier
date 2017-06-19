@@ -1,0 +1,28 @@
+{
+	"_id": "13519612",
+	"site": "https://github.com/lchsk/xstarter",
+	"title": " Terminal-based application launcher for Unix-like systems",
+	"author": "lchsk",
+	"date": "2017-06-19T10:07:26.057Z",
+	"tags": {
+		"categories": [
+			"application-launcher",
+			"unix",
+			"linux",
+			"c",
+			"terminal",
+			"ncurses",
+			"launcher",
+			"dmenu-replacement",
+			"dmenu"
+		],
+		"languages": [
+			"c",
+			"cmake",
+			"roff",
+			"shell",
+			"c++"
+		]
+	},
+	"content": ""
+}

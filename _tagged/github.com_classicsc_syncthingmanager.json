@@ -1,0 +1,18 @@
+{
+	"_id": "13793049",
+	"site": "https://github.com/classicsc/syncthingmanager",
+	"title": " Syncthingmanager – Configure Syncthing from the CLI",
+	"author": "resfirestar",
+	"date": "2017-06-19T08:46:16.782Z",
+	"tags": {
+		"categories": [
+			"syncthing",
+			"synchronization",
+			"cli"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

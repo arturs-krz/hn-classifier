@@ -1,0 +1,21 @@
+{
+	"_id": "9697139",
+	"site": "https://github.com/ajvb/kala",
+	"title": " Kala – Modern Job Scheduler Written in Go",
+	"author": "ajvb",
+	"date": "2017-06-19T10:33:22.882Z",
+	"tags": {
+		"categories": [
+			"go",
+			"scheduler",
+			"service",
+			"iso8601",
+			"golang",
+			"golang-application"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

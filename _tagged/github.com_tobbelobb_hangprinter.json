@@ -1,0 +1,20 @@
+{
+	"_id": "13480519",
+	"site": "https://github.com/tobbelobb/hangprinter",
+	"title": " Hangprinter, 3D print big at low cost with a string driven RepRap",
+	"author": "tobbelobb",
+	"date": "2017-06-19T10:40:47.540Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"c++",
+			"processing",
+			"openscad",
+			"objective-c",
+			"makefile",
+			"other"
+		]
+	},
+	"content": ""
+}

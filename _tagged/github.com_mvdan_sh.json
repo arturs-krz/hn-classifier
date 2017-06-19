@@ -1,0 +1,21 @@
+{
+	"_id": "11854959",
+	"site": "https://github.com/mvdan/sh",
+	"title": " shfmt – gofmt for shell scripts",
+	"author": "mvdan",
+	"date": "2017-06-19T08:46:28.986Z",
+	"tags": {
+		"categories": [
+			"go",
+			"parser",
+			"shell",
+			"bash",
+			"format"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

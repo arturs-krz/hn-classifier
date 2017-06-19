@@ -1,0 +1,23 @@
+{
+	"_id": "13924955",
+	"site": "https://github.com/distelli/europa",
+	"title": " Europa – An Open Source Self Hosted Container Registry",
+	"author": "kt9",
+	"date": "2017-06-19T08:44:18.839Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"docker-registry",
+			"container-registry",
+			"docker-container",
+			"docker-images"
+		],
+		"languages": [
+			"java",
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

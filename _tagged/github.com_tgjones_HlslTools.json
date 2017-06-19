@@ -1,0 +1,24 @@
+{
+	"_id": "11564177",
+	"site": "https://github.com/tgjones/HlslTools",
+	"title": " HLSL Tools for Visual Studio",
+	"author": "tgjones",
+	"date": "2017-06-19T11:09:58.295Z",
+	"tags": {
+		"categories": [
+			"hlsl",
+			"visual-studio",
+			"parser"
+		],
+		"languages": [
+			"c#",
+			"hlsl",
+			"flux",
+			"shaderlab",
+			"glsl",
+			"typescript",
+			"other"
+		]
+	},
+	"content": ""
+}

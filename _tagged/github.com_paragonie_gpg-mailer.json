@@ -1,0 +1,24 @@
+{
+	"_id": "11842713",
+	"site": "https://github.com/paragonie/gpg-mailer",
+	"title": " GPG-Mailer – send GPG-encrypted emails from your PHP application",
+	"author": "CiPHPerCoder",
+	"date": "2017-06-19T08:43:01.967Z",
+	"tags": {
+		"categories": [
+			"gnupg",
+			"gpg-mailer",
+			"signed",
+			"encrypted",
+			"emails",
+			"encrypted-email",
+			"mailer",
+			"php",
+			"zend-framework"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "8334736",
+	"site": "https://github.com/looplab/fsm",
+	"title": " Finite State Machine for Go",
+	"author": "maxpersson",
+	"date": "2017-06-19T08:44:20.586Z",
+	"tags": {
+		"categories": [
+			"finite-state-machine",
+			"fsm",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

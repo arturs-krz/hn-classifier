@@ -1,0 +1,20 @@
+{
+	"_id": "12599751",
+	"site": "https://github.com/mbasso/react-decoration",
+	"title": " React-decoration – A collection of decorators for React Components",
+	"author": "mbasso",
+	"date": "2017-06-19T08:43:53.111Z",
+	"tags": {
+		"categories": [
+			"decorators",
+			"react-components",
+			"annotations",
+			"high-order-component",
+			"es7"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

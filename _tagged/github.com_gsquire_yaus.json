@@ -1,0 +1,17 @@
+{
+	"_id": "11996758",
+	"site": "https://github.com/gsquire/yaus",
+	"title": " A URL shortener in Rust",
+	"author": "squiguy7",
+	"date": "2017-06-19T10:18:40.544Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"url-shortener"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

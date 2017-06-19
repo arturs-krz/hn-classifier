@@ -1,0 +1,14 @@
+{
+	"_id": "11701917",
+	"site": "https://github.com/soudy/mathcat",
+	"title": " Mathcat – An expression evaluating library and REPL in Go",
+	"author": "soud",
+	"date": "2017-06-19T10:18:32.109Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

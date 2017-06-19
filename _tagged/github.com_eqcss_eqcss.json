@@ -1,0 +1,32 @@
+{
+	"_id": "13323314",
+	"site": "https://github.com/eqcss/eqcss",
+	"title": " EQCSS – a plugin for scoped CSS and element queries",
+	"author": "err4nt",
+	"date": "2017-06-19T10:43:35.813Z",
+	"tags": {
+		"categories": [
+			"eqcss",
+			"css",
+			"polyfill",
+			"javascript",
+			"responsive",
+			"parent-selector",
+			"min-width",
+			"max-width",
+			"reprocessor",
+			"element-queries",
+			"container-queries",
+			"css-reprocessor",
+			"scoped-css",
+			"scoped-selectors",
+			"meta-selector",
+			"eval"
+		],
+		"languages": [
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

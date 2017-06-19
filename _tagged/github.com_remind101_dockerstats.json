@@ -1,0 +1,16 @@
+{
+	"_id": "9589691",
+	"site": "https://github.com/remind101/dockerstats",
+	"title": " Dockerstats – Easy scraping for the Docker stats api",
+	"author": "ejholmes",
+	"date": "2017-06-19T10:03:58.338Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

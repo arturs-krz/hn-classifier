@@ -1,0 +1,19 @@
+{
+	"_id": "14077685",
+	"site": "https://github.com/roman01la/babel-plugin-stateful-functional-react-components",
+	"title": " Stateful functional React components without runtime overhead",
+	"author": "roman01la",
+	"date": "2017-06-19T08:44:39.740Z",
+	"tags": {
+		"categories": [
+			"react",
+			"babel-plugin",
+			"react-component",
+			"stateful"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

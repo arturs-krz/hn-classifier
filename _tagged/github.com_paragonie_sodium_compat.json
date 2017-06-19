@@ -1,0 +1,19 @@
+{
+	"_id": "13376850",
+	"site": "https://github.com/paragonie/sodium_compat",
+	"title": " Sodium_compat, a Pure PHP implementation of libsodium",
+	"author": "CiPHPerCoder",
+	"date": "2017-06-19T10:06:02.633Z",
+	"tags": {
+		"categories": [
+			"libsodium",
+			"php",
+			"cryptography-library",
+			"security"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

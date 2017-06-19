@@ -1,0 +1,18 @@
+{
+	"_id": "11659707",
+	"site": "https://github.com/alanhamlett/pip-update-requirements",
+	"title": " Update your requirements.txt file with Pur in Python",
+	"author": "welder",
+	"date": "2017-06-19T10:48:53.847Z",
+	"tags": {
+		"categories": [
+			"python",
+			"pip",
+			"dependency-manager"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

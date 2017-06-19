@@ -1,0 +1,17 @@
+{
+	"_id": "8002928",
+	"site": "https://github.com/penk/terrarium-app",
+	"title": " A Swift Playgrounds-like Live Editor for QML",
+	"author": "penkia",
+	"date": "2017-06-19T09:43:48.259Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"qml",
+			"c++",
+			"qmake",
+			"makefile"
+		]
+	},
+	"content": ""
+}

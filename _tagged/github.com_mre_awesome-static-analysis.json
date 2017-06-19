@@ -1,0 +1,22 @@
+{
+	"_id": "11991973",
+	"site": "https://github.com/mre/awesome-static-analysis",
+	"title": " My List of Awesome Static Analysis Tools",
+	"author": "omn1",
+	"date": "2017-06-19T10:52:14.173Z",
+	"tags": {
+		"categories": [
+			"static-analysis",
+			"quality",
+			"static-analyzers",
+			"awesome",
+			"linter",
+			"list",
+			"code-quality",
+			"awesome-list",
+			"programming-language"
+		],
+		"languages": []
+	},
+	"content": ""
+}

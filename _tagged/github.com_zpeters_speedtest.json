@@ -1,0 +1,23 @@
+{
+	"_id": "9667801",
+	"site": "https://github.com/zpeters/speedtest",
+	"title": " Speedtest command line",
+	"author": "cliffwarden",
+	"date": "2017-06-19T08:44:13.226Z",
+	"tags": {
+		"categories": [
+			"speedtest",
+			"go",
+			"command-line",
+			"monitoring",
+			"download",
+			"speed",
+			"network"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

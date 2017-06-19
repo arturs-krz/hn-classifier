@@ -1,0 +1,21 @@
+{
+	"_id": "13676633",
+	"site": "https://github.com/encrypt0r/permadelete",
+	"title": " Permadelete – an open-source file shredder for Windows",
+	"author": "theEncrypt0r",
+	"date": "2017-06-19T10:06:11.397Z",
+	"tags": {
+		"categories": [
+			"windows",
+			"delete",
+			"filesystem",
+			"c-sharp",
+			"wpf",
+			"shred"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "9758893",
+	"site": "https://github.com/stefanmaric/ntee",
+	"title": " Ntee – portable Unix shell tee command in Node",
+	"author": "stefanmaric",
+	"date": "2017-06-19T08:42:45.850Z",
+	"tags": {
+		"categories": [
+			"shell",
+			"tee",
+			"npm",
+			"npm-scripts",
+			"stdout",
+			"ntee",
+			"pipe",
+			"stdin"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

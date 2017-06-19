@@ -1,0 +1,19 @@
+{
+	"_id": "10132023",
+	"site": "https://github.com/mattbostock/rotate",
+	"title": " A small command-line utility to rotate a file or directory",
+	"author": "mattbostock",
+	"date": "2017-06-19T10:11:14.212Z",
+	"tags": {
+		"categories": [
+			"backup",
+			"rotation",
+			"schedule"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

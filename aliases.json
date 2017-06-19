@@ -5,18 +5,19 @@
             "docker", "kubernetes", "containers", "continuous-delivery", "continuous-deployment",
             "continuous-integration", "aws", "automation", "terraform", "ci", "serverless",
             "docker-image", "docker-compose", "jenkins", "aws-ecs", "deployment", "travis",
-            "test-automation", "aws-cognito", "heroku", "balance", "digitalocean", "amazon"
+            "test-automation", "aws-cognito", "heroku", "balance", "digitalocean", "amazon",
+            "aws-s3"
         ]
     },
     {
         "tag": "web",
         "aliases": [
-            "react", "redux", "angular", "angular2", "angular4", "vuejs" , "webpack", "webpack2",
+            "react", "redux", "flux", "angular", "angular2", "angular4", "vuejs" , "webpack", "webpack2",
             "vdom", "d3", "preact", "jsx", "javascript-library",
             "inferno", "isomorphic", "progressive-web-app", "redux-middleware",
             "rxjs", "javascript", "typescript", "js", "forms", "json-schema",
             "bower", "websocket", "chrome", "chrome-extension", "chrome-devtools", "service-worker", "browser",
-            "server-side-rendering", "ssr", "frontend", "wasm", "webassembly", "web-design",
+            "server-side-rendering", "ssr", "frontend", "wasm", "webassembly", "web-design", "coffeescript",
             "backbone"
         ]
     },
@@ -41,13 +42,15 @@
             "garbage-collector", "garbage-collection",
             "migration", "wordpress", "cms", "joomla", "lisp", "starter",
             "unittest", "jest", "protobuf", "buffer", "serialization",
-            "declarative-programming", "framework"
+            "declarative-programming", "framework", "makefile", "ocaml", "c++", "cmake",
+            "lua", "perl"
+
         ]
     },
     {
         "tag": "java",
         "aliases": [
-            "jvm", "clojure", "scala", "java-library", "scalatest", "rxjava"
+            "jvm", "clojure", "scala", "java-library", "scalatest", "rxjava", "groovy"
         ]
     },
     {
@@ -58,13 +61,13 @@
             "performance", "backup", "http2", "network", "daemon",
             "windows", "windows-10", "bios", "uefi", "firmware",
             "filesystem", "nginx", "torrent", "smtp", "imap", "vpn", "ssl", "https",
-            "arm", "assembly", "emulator", "syscalls"
+            "arm", "assembly", "emulator", "syscalls", "batchfile"
         ]
     },
     {
         "tag": "dotnet",
         "aliases": [
-            "csharp", "c-sharp"
+            "csharp", "c-sharp", "c#"
         ]
     },
     {
@@ -113,7 +116,8 @@
             "integrated-development-environment", "monaco-editor", "telegram", "telegram-bot",
             "notifier", "notification-service", "p2p", "peer-to-peer", "emacs", "gui",
             "twitter", "webhooks", "webhook", "rabbitmq", "plugin", "monitoring", "alerting",
-            "cleanup", "cloud", "paas", "jpeg", "jpeg-decoder", "client", "communication"
+            "cleanup", "cloud", "paas", "jpeg", "jpeg-decoder", "client", "communication",
+            "vim script"
         ]
     },
     {
@@ -157,7 +161,7 @@
     {
         "tag": "apple",
         "aliases": [
-            "mac", "osx", "macos", "swift3", "touchbar", "swift", "icloud", "watchos"
+            "mac", "osx", "macos", "swift3", "touchbar", "swift", "icloud", "watchos", "objective-c"
         ]
     },
     {
@@ -194,7 +198,7 @@
             "python3", "pypi", "python2", "django", "numpy", "flask",
             "python-2", "python-3", "python-library", "python-script",
             "python-3-5", "python-3-6", "asyncio", "matplotlib",
-            "ipython"
+            "ipython", "jupyter notebook", "jupyter"
         ]
     },
     {

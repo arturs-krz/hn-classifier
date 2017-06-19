@@ -1,0 +1,24 @@
+{
+	"_id": "7883744",
+	"site": "https://github.com/scottsievert/swix",
+	"title": " Swift Matrix Library",
+	"author": "skierscott",
+	"date": "2017-06-19T09:52:12.645Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"math",
+			"linear-algebra"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"swift",
+			"objective-c",
+			"objective-c++",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

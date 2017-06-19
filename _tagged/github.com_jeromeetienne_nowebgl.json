@@ -1,0 +1,14 @@
+{
+	"_id": "3190884",
+	"site": "https://github.com/jeromeetienne/nowebgl",
+	"title": " declare WebGL functions as noop - usefull to benchmark your js",
+	"author": "jerome_etienne",
+	"date": "2017-06-19T10:10:44.144Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

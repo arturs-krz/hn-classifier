@@ -1,0 +1,17 @@
+{
+	"_id": "13917780",
+	"site": "https://github.com/caramelomartins/awesome-linters",
+	"title": " A list of awesome linters",
+	"author": "caramelomartins",
+	"date": "2017-06-19T08:44:00.241Z",
+	"tags": {
+		"categories": [
+			"linter",
+			"static-analysis",
+			"style-linter",
+			"static-analyzers"
+		],
+		"languages": []
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "13522248",
+	"site": "https://github.com/dtnewman/zappa_boilerplate",
+	"title": " Boilerplate template for a serverless web app using Flask and Zappa",
+	"author": "dtnewman",
+	"date": "2017-06-19T10:53:07.649Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"html"
+		]
+	},
+	"content": ""
+}

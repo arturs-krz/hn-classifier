@@ -1,0 +1,35 @@
+{
+	"_id": "14041400",
+	"site": "https://github.com/wingify/across-tabs",
+	"title": " AcrossTabs – Easy communication between cross-origin browser tabs",
+	"author": "softvar",
+	"date": "2017-06-19T08:42:50.433Z",
+	"tags": {
+		"categories": [
+			"browser-tabs",
+			"tabs-comunication",
+			"postmessage",
+			"tabs",
+			"communication-library",
+			"communication-channel",
+			"handshake-mechanism",
+			"cross-origin",
+			"sessionstorage",
+			"es6",
+			"webpack",
+			"karma-plugin",
+			"jasmine-tests",
+			"istanbul",
+			"isparta",
+			"babel",
+			"tabs-api",
+			"event-driven",
+			"new-tab"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

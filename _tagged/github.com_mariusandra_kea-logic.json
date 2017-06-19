@@ -1,0 +1,24 @@
+{
+	"_id": "12050101",
+	"site": "https://github.com/mariusandra/kea-logic",
+	"title": " Bring your React data to life with kea-logic",
+	"author": "mariusandra",
+	"date": "2017-06-19T10:51:27.368Z",
+	"tags": {
+		"categories": [
+			"react",
+			"redux",
+			"kea",
+			"scaffolding",
+			"sagas",
+			"react-component",
+			"framework",
+			"data"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

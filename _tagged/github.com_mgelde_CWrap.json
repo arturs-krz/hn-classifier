@@ -1,0 +1,19 @@
+{
+	"_id": "12327601",
+	"site": "https://github.com/mgelde/CWrap",
+	"title": " Make using plain-old C APIs from C++ more fun (and safer)",
+	"author": "redmnic",
+	"date": "2017-06-19T10:12:46.425Z",
+	"tags": {
+		"categories": [
+			"functor",
+			"posix",
+			"cpp"
+		],
+		"languages": [
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

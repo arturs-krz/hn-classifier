@@ -1,0 +1,20 @@
+{
+	"_id": "13731299",
+	"site": "https://github.com/chenxsan/HNView#addon-link",
+	"title": " HNView – Browser extension providing a better style for hacker news",
+	"author": "Landish",
+	"date": "2017-06-19T10:13:24.180Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"firefox-addon",
+			"hacker-news"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

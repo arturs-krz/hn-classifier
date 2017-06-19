@@ -1,0 +1,16 @@
+{
+	"_id": "10074157",
+	"site": "https://github.com/tillberg/gut",
+	"title": " Gut-sync, real-time bidirectional file sync via modified git",
+	"author": "dantillberg",
+	"date": "2017-06-19T09:39:03.441Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

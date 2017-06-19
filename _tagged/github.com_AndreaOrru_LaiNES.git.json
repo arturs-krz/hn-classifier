@@ -1,0 +1,25 @@
+{
+	"_id": "13030837",
+	"site": "https://github.com/AndreaOrru/LaiNES.git",
+	"title": " Cycle-accurate Nintendo NES emulator in ~1000 lines of code",
+	"author": "andreaorru",
+	"date": "2017-06-19T09:40:04.863Z",
+	"tags": {
+		"categories": [
+			"nes-emulator",
+			"nintendo-nes",
+			"emulation",
+			"emulator",
+			"sdl",
+			"compact",
+			"c-plus-plus",
+			"minimal"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"python"
+		]
+	},
+	"content": ""
+}

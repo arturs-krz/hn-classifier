@@ -1,0 +1,16 @@
+{
+	"_id": "10727027",
+	"site": "https://github.com/cortex/gopass",
+	"title": " Gopass – A simple UI for password-store",
+	"author": "jlundborg",
+	"date": "2017-06-19T09:44:49.326Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"qml",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "5684914",
+	"site": "https://github.com/pollen-digital/generator-static",
+	"title": " A Yeoman generator for a front-end dev workflow",
+	"author": "disintegrator",
+	"date": "2017-06-19T10:30:05.655Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

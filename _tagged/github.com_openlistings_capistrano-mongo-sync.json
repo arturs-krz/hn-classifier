@@ -1,0 +1,14 @@
+{
+	"_id": "11667215",
+	"site": "https://github.com/openlistings/capistrano-mongo-sync",
+	"title": " Ruby gem to sync your mongo dev and prod db’s with capistrano",
+	"author": "pharkle",
+	"date": "2017-06-19T10:22:35.484Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

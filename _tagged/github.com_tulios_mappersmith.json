@@ -1,0 +1,21 @@
+{
+	"_id": "9106253",
+	"site": "https://github.com/tulios/mappersmith",
+	"title": " Mappersmith a isomorphic, dependency-free, rest client for JavaScript",
+	"author": "tulios",
+	"date": "2017-06-19T08:43:05.426Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"nodejs",
+			"isomorphic",
+			"promise",
+			"ajax"
+		],
+		"languages": [
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

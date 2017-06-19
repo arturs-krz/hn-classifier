@@ -1,0 +1,17 @@
+{
+	"_id": "9931502",
+	"site": "https://github.com/jarcane/crusture",
+	"title": " Crusture – Minimal template for ClojureScript app hosted from Rust",
+	"author": "jarcane",
+	"date": "2017-06-19T10:55:47.037Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"clojure",
+			"html",
+			"rust",
+			"css"
+		]
+	},
+	"content": ""
+}

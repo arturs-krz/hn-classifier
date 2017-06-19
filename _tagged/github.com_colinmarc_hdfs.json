@@ -1,0 +1,21 @@
+{
+	"_id": "8515243",
+	"site": "https://github.com/colinmarc/hdfs",
+	"title": " An idiomatic go client for HDFS (also, a binary with tab completion)",
+	"author": "colinmarc",
+	"date": "2017-06-19T11:07:30.085Z",
+	"tags": {
+		"categories": [
+			"hdfs",
+			"go",
+			"commandline"
+		],
+		"languages": [
+			"go",
+			"protocol buffer",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "10774719",
+	"site": "https://github.com/schneidmaster/action-cable-react",
+	"title": " React bindings for Rails 5 ActionCable",
+	"author": "schneidmaster",
+	"date": "2017-06-19T11:03:30.132Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "11438221",
+	"site": "https://github.com/phil-r/hackernewsbot",
+	"title": " A Hacker News bot for telegram",
+	"author": "tonekk",
+	"date": "2017-06-19T08:44:15.627Z",
+	"tags": {
+		"categories": [
+			"telegram",
+			"bot",
+			"hacker-news",
+			"telegram-bot"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

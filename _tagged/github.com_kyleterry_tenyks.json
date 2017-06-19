@@ -1,0 +1,24 @@
+{
+	"_id": "8093628",
+	"site": "https://github.com/kyleterry/tenyks",
+	"title": " Tenyks – The service-oriented IRC bot I've been working on",
+	"author": "vhost-",
+	"date": "2017-06-19T08:39:57.735Z",
+	"tags": {
+		"categories": [
+			"irc",
+			"go",
+			"bot",
+			"tenyks",
+			"irc-bot",
+			"json-payload",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

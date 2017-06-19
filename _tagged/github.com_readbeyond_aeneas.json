@@ -1,0 +1,39 @@
+{
+	"_id": "13907010",
+	"site": "https://github.com/readbeyond/aeneas",
+	"title": " Aeneas – a Python audio/text aligner",
+	"author": "alpe",
+	"date": "2017-06-19T08:44:15.908Z",
+	"tags": {
+		"categories": [
+			"speech",
+			"alignment",
+			"tts",
+			"python",
+			"linux",
+			"macos",
+			"windows",
+			"nlp",
+			"espeak",
+			"espeak-ng",
+			"festival",
+			"cli",
+			"dtw",
+			"ffmpeg",
+			"forced-alignment",
+			"text",
+			"audio",
+			"srt",
+			"smil",
+			"text-to-speech"
+		],
+		"languages": [
+			"python",
+			"c++",
+			"c",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

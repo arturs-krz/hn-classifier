@@ -1,0 +1,24 @@
+{
+	"_id": "10462019",
+	"site": "http://github.com/marmelroy/phonenumberkit",
+	"title": " PhoneNumberKit – a Swift take on libphonenumber",
+	"author": "marmelroy",
+	"date": "2017-06-19T09:50:00.680Z",
+	"tags": {
+		"categories": [
+			"phone-number",
+			"google-libphonenumber",
+			"swift",
+			"parsing",
+			"validation",
+			"contacts",
+			"formatting"
+		],
+		"languages": [
+			"swift",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

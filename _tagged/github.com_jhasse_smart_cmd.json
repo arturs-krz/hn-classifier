@@ -1,0 +1,14 @@
+{
+	"_id": "3462846",
+	"site": "https://github.com/jhasse/smart_cmd",
+	"title": " A program to open cmd.exe in the Explorer's current path",
+	"author": "jhasse",
+	"date": "2017-06-19T09:54:27.864Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": ""
+}

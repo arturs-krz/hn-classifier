@@ -1,0 +1,17 @@
+{
+	"_id": "10209691",
+	"site": "https://github.com/matthewbauer/x-retro",
+	"title": " x-retro - a web component for retro emulators",
+	"author": "matthewbauer",
+	"date": "2017-06-19T09:35:05.605Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"coffeescript",
+			"javascript",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

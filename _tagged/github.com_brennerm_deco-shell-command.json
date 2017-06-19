@@ -1,0 +1,17 @@
+{
+	"_id": "11199693",
+	"site": "https://github.com/brennerm/deco-shell-command",
+	"title": " Deco-shell-command – Automagically convert function into shell command",
+	"author": "brennerm",
+	"date": "2017-06-19T10:29:50.088Z",
+	"tags": {
+		"categories": [
+			"decorator",
+			"shell"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

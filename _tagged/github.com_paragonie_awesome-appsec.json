@@ -1,0 +1,21 @@
+{
+	"_id": "9477236",
+	"site": "https://github.com/paragonie/awesome-appsec",
+	"title": " A curated list for learning about application security",
+	"author": "sarciszewski",
+	"date": "2017-06-19T09:59:22.280Z",
+	"tags": {
+		"categories": [
+			"security-experts",
+			"reading-list",
+			"curated",
+			"application-security",
+			"security",
+			"owasp"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

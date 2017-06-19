@@ -1,0 +1,15 @@
+{
+	"_id": "13105871",
+	"site": "https://github.com/kelseyhightower/konfd",
+	"title": " konfd – Manage Kubernetes secrets and configmaps with Go templates",
+	"author": "kelseyhightower",
+	"date": "2017-06-19T10:36:52.250Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

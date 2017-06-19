@@ -1,0 +1,20 @@
+{
+	"_id": "11448058",
+	"site": "https://github.com/jdonaghue/es-search",
+	"title": " Tool for searching ECMAScript structurally",
+	"author": "jdonaghue2",
+	"date": "2017-06-19T10:39:40.385Z",
+	"tags": {
+		"categories": [
+			"ecmascript",
+			"javascript",
+			"nodejs",
+			"acorn",
+			"pegjs-grammar"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

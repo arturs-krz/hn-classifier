@@ -1,0 +1,30 @@
+{
+	"_id": "13083009",
+	"site": "https://github.com/Cyclenerd/postinstall",
+	"title": " Script to automate installation steps. Inst packages on different OS",
+	"author": "Cyclenerd",
+	"date": "2017-06-19T10:29:25.227Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"bash-script",
+			"bash-hacks",
+			"ubuntu",
+			"fedora",
+			"slackware",
+			"postinstall",
+			"suse",
+			"openbsd",
+			"freebsd",
+			"debian",
+			"arch-linux",
+			"centos",
+			"redhat",
+			"macos"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "13835224",
+	"site": "https://github.com/tonytonyjan/coder_decorator",
+	"title": " Coder_decorator – An encoding/decoding library for Ruby",
+	"author": "tonytonyjan",
+	"date": "2017-06-19T10:46:19.541Z",
+	"tags": {
+		"categories": [
+			"ruby",
+			"rack",
+			"encoding",
+			"coder",
+			"decorator-pattern",
+			"cookie"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

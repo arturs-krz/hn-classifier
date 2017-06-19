@@ -1,0 +1,15 @@
+{
+	"_id": "8824592",
+	"site": "https://github.com/Somasis/lux",
+	"title": " Lux, a linux kernel updater preferring Git to patching",
+	"author": "Somasis",
+	"date": "2017-06-19T10:28:37.061Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

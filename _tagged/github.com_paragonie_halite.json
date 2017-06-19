@@ -1,0 +1,35 @@
+{
+	"_id": "12111322",
+	"site": "https://github.com/paragonie/halite",
+	"title": " Halite – A simple libsodium wrapper for PHP projects",
+	"author": "CiPHPerCoder",
+	"date": "2017-06-19T08:39:53.156Z",
+	"tags": {
+		"categories": [
+			"easy-to-use",
+			"cryptography",
+			"cryptography-library",
+			"libsodium",
+			"composer",
+			"encryption",
+			"authentication",
+			"digital-signature",
+			"curve25519",
+			"ed25519",
+			"x25519",
+			"xsalsa20",
+			"poly1305",
+			"blake2b",
+			"siphash",
+			"argon2",
+			"php",
+			"php7",
+			"misuse-resistant"
+		],
+		"languages": [
+			"php",
+			"shell"
+		]
+	},
+	"content": ""
+}

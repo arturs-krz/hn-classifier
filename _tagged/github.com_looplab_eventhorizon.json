@@ -1,0 +1,24 @@
+{
+	"_id": "8661664",
+	"site": "https://github.com/looplab/eventhorizon",
+	"title": " Event Horizon – CQRS/ES Toolkit for Go",
+	"author": "maxpersson",
+	"date": "2017-06-19T08:44:18.901Z",
+	"tags": {
+		"categories": [
+			"go",
+			"cqrs",
+			"ddd",
+			"event-horizon",
+			"event-sourcing",
+			"domain-driven-design",
+			"google-cloud",
+			"aws"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

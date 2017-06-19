@@ -1,0 +1,25 @@
+{
+	"_id": "10973167",
+	"site": "https://github.com/JosPolfliet/pandas-profiling",
+	"title": " Pandas-profiling, a Jupyter notebook plugin for profiling data",
+	"author": "jos_pol",
+	"date": "2017-06-19T10:50:19.895Z",
+	"tags": {
+		"categories": [
+			"pandas-profiling",
+			"pandas-dataframe",
+			"statistics",
+			"jupyter-notebook",
+			"exploration",
+			"data-science",
+			"python",
+			"pandas"
+		],
+		"languages": [
+			"python",
+			"html",
+			"powershell"
+		]
+	},
+	"content": ""
+}

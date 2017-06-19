@@ -1,0 +1,26 @@
+{
+	"_id": "11285772",
+	"site": "https://github.com/truerss/truerss",
+	"title": " Convenient web rss-reader",
+	"author": "mike--",
+	"date": "2017-06-19T10:25:57.490Z",
+	"tags": {
+		"categories": [
+			"scala",
+			"rss",
+			"truerss",
+			"news",
+			"reader",
+			"akka",
+			"slick",
+			"akka-http"
+		],
+		"languages": [
+			"scala",
+			"coffeescript",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "11865996",
+	"site": "https://github.com/bswinnerton/nyc-restaurant-grades",
+	"title": " A GraphQL Interface to NYC Restaurant Health Inspection Data",
+	"author": "bswinnerton",
+	"date": "2017-06-19T10:59:12.930Z",
+	"tags": {
+		"categories": [
+			"graphql",
+			"nyc",
+			"ruby"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

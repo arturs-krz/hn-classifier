@@ -1,0 +1,20 @@
+{
+	"_id": "11153269",
+	"site": "https://github.com/fogleman/gg",
+	"title": " Go Graphics – 2D rendering in pure Go with a simple API",
+	"author": "fogleman",
+	"date": "2017-06-19T11:11:29.782Z",
+	"tags": {
+		"categories": [
+			"graphics",
+			"go",
+			"2d",
+			"2d-graphics",
+			"rendering"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

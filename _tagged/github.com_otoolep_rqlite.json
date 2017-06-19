@@ -1,0 +1,25 @@
+{
+	"_id": "11167980",
+	"site": "https://github.com/otoolep/rqlite",
+	"title": " rqlite v2, SQLite Replication via Hashicorp Raft",
+	"author": "otoolep",
+	"date": "2017-06-19T08:43:09.562Z",
+	"tags": {
+		"categories": [
+			"go",
+			"sqlite",
+			"distributed-systems",
+			"database",
+			"relational-database",
+			"raft",
+			"consensus",
+			"distributed-database",
+			"sql"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "11218080",
+	"site": "https://github.com/aerofs/zendesk-elasticsearch",
+	"title": " Quickly query Zendesk support tickets with Elasticsearch",
+	"author": "yurisagalov",
+	"date": "2017-06-19T10:57:34.697Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

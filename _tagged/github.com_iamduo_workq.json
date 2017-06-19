@@ -1,0 +1,26 @@
+{
+	"_id": "12342781",
+	"site": "https://github.com/iamduo/workq",
+	"title": " Workq – Job Server in Go",
+	"author": "iamduo",
+	"date": "2017-06-19T10:15:04.589Z",
+	"tags": {
+		"categories": [
+			"queue",
+			"queueing",
+			"jobs",
+			"jobqueue",
+			"job",
+			"job-scheduler",
+			"worker",
+			"workers",
+			"scheduler",
+			"schedule"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

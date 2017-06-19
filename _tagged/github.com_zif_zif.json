@@ -1,0 +1,22 @@
+{
+	"_id": "13821447",
+	"site": "https://github.com/zif/zif",
+	"title": " Zif, peer-to-peer torrent indexing in Go",
+	"author": "wjh_",
+	"date": "2017-06-19T10:55:40.636Z",
+	"tags": {
+		"categories": [
+			"bittorrent",
+			"torrent",
+			"peer-to-peer",
+			"index",
+			"search",
+			"dfi"
+		],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "9319212",
+	"site": "https://github.com/trevoro/sshauth",
+	"title": " SSH Authentication Using GitHub Teams",
+	"author": "trevoro",
+	"date": "2017-06-19T10:07:09.634Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "9527962",
+	"site": "https://github.com/bouncestorage/chaos-http-proxy",
+	"title": " Chaos HTTP Proxy introduces failures into requests via a proxy server",
+	"author": "gaul",
+	"date": "2017-06-19T08:43:53.824Z",
+	"tags": {
+		"categories": [
+			"chaos",
+			"http-proxy"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

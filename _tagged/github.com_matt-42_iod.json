@@ -1,0 +1,20 @@
+{
+	"_id": "7709815",
+	"site": "https://github.com/matt-42/iod",
+	"title": " C++11 inline object definitions",
+	"author": "matt42",
+	"date": "2017-06-19T10:30:15.552Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"meta-programming",
+			"serialization",
+			"deserialization"
+		],
+		"languages": [
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "13721585",
+	"site": "https://github.com/PumpMagic/ostrich",
+	"title": " Ostrich – A Game Boy Sound System Player Written in Swift",
+	"author": "PumpMagic",
+	"date": "2017-06-19T10:54:19.654Z",
+	"tags": {
+		"categories": [
+			"gameboy",
+			"gameboy-emulator",
+			"swift",
+			"appkit",
+			"z80",
+			"gbs",
+			"chiptune"
+		],
+		"languages": [
+			"swift",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

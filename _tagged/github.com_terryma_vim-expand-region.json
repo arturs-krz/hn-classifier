@@ -1,0 +1,14 @@
+{
+	"_id": "5465206",
+	"site": "https://github.com/terryma/vim-expand-region",
+	"title": " vim-expand-region - Incremental visual selection in Vim",
+	"author": "tma",
+	"date": "2017-06-19T09:47:31.421Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

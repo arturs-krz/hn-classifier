@@ -1,0 +1,35 @@
+{
+	"_id": "12842797",
+	"site": "https://github.com/joowani/kq",
+	"title": " KQ – Simple Job Queue for Python Using Kafka",
+	"author": "joohwan",
+	"date": "2017-06-19T10:55:57.370Z",
+	"tags": {
+		"categories": [
+			"kafka",
+			"job-queue",
+			"python",
+			"async",
+			"kafka-client",
+			"kafka-consumer",
+			"kafka-producer",
+			"python3",
+			"python2",
+			"python-library",
+			"python-3",
+			"python-2",
+			"asynchronous",
+			"queueing",
+			"jobqueue",
+			"apache-kafka",
+			"worker-queue",
+			"producer-consumer",
+			"serialization",
+			"python-3-5"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

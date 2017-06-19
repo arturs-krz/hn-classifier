@@ -1,0 +1,23 @@
+{
+	"_id": "11346037",
+	"site": "https://github.com/draft-js-plugins/draft-js-plugins",
+	"title": " DraftJS Plugins: Slack-Like Emojis, FB-Like Mentions and Stickers (Web)",
+	"author": "nik-graf",
+	"date": "2017-06-19T09:49:27.369Z",
+	"tags": {
+		"categories": [
+			"draft-js",
+			"draft-js-plugins",
+			"react",
+			"stickers",
+			"mentions",
+			"hashtags"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"shell"
+		]
+	},
+	"content": ""
+}

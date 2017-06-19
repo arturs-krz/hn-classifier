@@ -1,0 +1,15 @@
+{
+	"_id": "12621059",
+	"site": "https://github.com/darylyu/static-api",
+	"title": " A tool for generating simple HTTP APIs off of static files",
+	"author": "darylyu",
+	"date": "2017-06-19T10:44:24.324Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

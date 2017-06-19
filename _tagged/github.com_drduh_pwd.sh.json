@@ -1,0 +1,22 @@
+{
+	"_id": "9820249",
+	"site": "https://github.com/drduh/pwd.sh",
+	"title": " Manage passwords with GPG",
+	"author": "noondip",
+	"date": "2017-06-19T11:11:40.895Z",
+	"tags": {
+		"categories": [
+			"password-manager",
+			"password",
+			"gpg",
+			"gnupg",
+			"unix",
+			"bash",
+			"bash-script"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

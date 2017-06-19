@@ -1,0 +1,22 @@
+{
+	"_id": "13595157",
+	"site": "https://github.com/kwent/pgbouncerhero",
+	"title": " PgBouncerhero – A dashboard for your PgBouncers",
+	"author": "kwent",
+	"date": "2017-06-19T08:44:10.859Z",
+	"tags": {
+		"categories": [
+			"pgbouncer",
+			"gui",
+			"postgresql",
+			"dashboard",
+			"engine"
+		],
+		"languages": [
+			"ruby",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

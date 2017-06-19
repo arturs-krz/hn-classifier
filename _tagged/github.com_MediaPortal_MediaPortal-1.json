@@ -1,0 +1,26 @@
+{
+	"_id": "7745720",
+	"site": "https://github.com/MediaPortal/MediaPortal-1",
+	"title": " MediaPortal turns your HTPC into an advanced media center",
+	"author": "czsu69jj",
+	"date": "2017-06-19T08:42:55.587Z",
+	"tags": {
+		"categories": [
+			"c-sharp",
+			"windows",
+			"dvb",
+			"htpc",
+			"dvr"
+		],
+		"languages": [
+			"c#",
+			"c",
+			"c++",
+			"shell",
+			"nsis",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

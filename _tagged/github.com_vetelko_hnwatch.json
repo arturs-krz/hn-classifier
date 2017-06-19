@@ -1,0 +1,19 @@
+{
+	"_id": "13871249",
+	"site": "https://github.com/vetelko/hnwatch",
+	"title": " HNWatch – Watch HN, filter stories, get e-mail alerts",
+	"author": "vetelko",
+	"date": "2017-06-19T09:41:41.638Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"golang-application",
+			"hacker-news",
+			"robot"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

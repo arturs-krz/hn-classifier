@@ -1,0 +1,28 @@
+{
+	"_id": "12724020",
+	"site": "https://github.com/devfake/flox",
+	"title": " Flox – Self Hosted Movies Watch List",
+	"author": "devfake",
+	"date": "2017-06-19T10:19:18.002Z",
+	"tags": {
+		"categories": [
+			"movie",
+			"movie-database",
+			"self-hosted",
+			"tv",
+			"laravel",
+			"vue",
+			"movies",
+			"episodes",
+			"tmdb"
+		],
+		"languages": [
+			"php",
+			"vue",
+			"javascript",
+			"nginx",
+			"other"
+		]
+	},
+	"content": ""
+}

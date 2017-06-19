@@ -1,0 +1,23 @@
+{
+	"_id": "13908771",
+	"site": "https://github.com/SeedJobs/micromanage",
+	"title": " Extensible framework to manage Microservices/Multirepos in pure shell",
+	"author": "ahmadassaf",
+	"date": "2017-06-19T08:42:37.888Z",
+	"tags": {
+		"categories": [
+			"shell-script",
+			"shell-extension",
+			"microservices",
+			"microservice-toolkit",
+			"microservice-helper",
+			"multirepo",
+			"repository-management",
+			"repository-utilities"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

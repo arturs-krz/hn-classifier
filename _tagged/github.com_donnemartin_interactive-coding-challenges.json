@@ -1,0 +1,25 @@
+{
+	"_id": "11944544",
+	"site": "https://github.com/donnemartin/interactive-coding-challenges",
+	"title": " A Repo of Python Interactive Coding Challenges",
+	"author": "donnemartin",
+	"date": "2017-06-19T08:40:01.133Z",
+	"tags": {
+		"categories": [
+			"python",
+			"algorithm",
+			"data-structure",
+			"development",
+			"programming",
+			"coding",
+			"interview",
+			"interview-questions",
+			"interview-practice",
+			"competitive-programming"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

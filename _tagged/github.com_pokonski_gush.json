@@ -1,0 +1,26 @@
+{
+	"_id": "9556537",
+	"site": "https://github.com/pokonski/gush",
+	"title": " Gush – run complex workflows with Sidekiq",
+	"author": "pokonski",
+	"date": "2017-06-19T09:37:36.434Z",
+	"tags": {
+		"categories": [
+			"workflows",
+			"ruby",
+			"sidekiq",
+			"graph",
+			"parallel",
+			"parallelization",
+			"activejob",
+			"queues",
+			"redis",
+			"workflow",
+			"workers"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

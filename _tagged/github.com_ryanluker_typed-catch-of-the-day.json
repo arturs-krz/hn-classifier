@@ -1,0 +1,21 @@
+{
+	"_id": "11099400",
+	"site": "https://github.com/ryanluker/typed-catch-of-the-day",
+	"title": " Typescript conversion of Wes Bos' popular reactjs tutorial series",
+	"author": "ryanluker",
+	"date": "2017-06-19T08:42:46.954Z",
+	"tags": {
+		"categories": [
+			"beginners-tutorial-series",
+			"typescript",
+			"reactjs"
+		],
+		"languages": [
+			"typescript",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

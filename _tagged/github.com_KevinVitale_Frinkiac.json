@@ -1,0 +1,20 @@
+{
+	"_id": "12966826",
+	"site": "https://github.com/KevinVitale/Frinkiac",
+	"title": " A tiny Frinkiac and Morbotron client, written in Swift 3",
+	"author": "vitalekj",
+	"date": "2017-06-19T10:14:35.402Z",
+	"tags": {
+		"categories": [
+			"frinkiac",
+			"simpsons",
+			"imessage-apps",
+			"swift"
+		],
+		"languages": [
+			"swift",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

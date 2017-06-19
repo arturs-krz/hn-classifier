@@ -1,0 +1,14 @@
+{
+	"_id": "9396474",
+	"site": "https://github.com/mtabini/go-bowtie",
+	"title": " Bowtie, a (hopefully) idiomatic HTTP middleware for Go",
+	"author": "mtabini",
+	"date": "2017-06-19T10:56:44.755Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "13713151",
+	"site": "https://github.com/powturbo/TurboTranspose",
+	"title": " Turbo Transpose compressor filter for binary/integer/floating point data",
+	"author": "powturbo",
+	"date": "2017-06-19T10:14:28.592Z",
+	"tags": {
+		"categories": [
+			"transpose",
+			"shuffle",
+			"compression",
+			"data-compression",
+			"simd",
+			"sse",
+			"avx2",
+			"lz77",
+			"floating-point"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

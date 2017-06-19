@@ -1,0 +1,23 @@
+{
+	"_id": "10251079",
+	"site": "https://github.com/simonnorberg/dmach",
+	"title": " DMach – Drum Machine for Android with Pure Data Sound Synthesis",
+	"author": "simonnorberg",
+	"date": "2017-06-19T10:44:16.953Z",
+	"tags": {
+		"categories": [
+			"pure-data",
+			"android",
+			"drums",
+			"synth"
+		],
+		"languages": [
+			"pure data",
+			"java",
+			"c",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

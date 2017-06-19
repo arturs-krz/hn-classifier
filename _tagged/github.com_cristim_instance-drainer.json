@@ -1,0 +1,20 @@
+{
+	"_id": "13719629",
+	"site": "https://github.com/cristim/instance-drainer",
+	"title": " Instance-drainer – cleanly remove current AWS EC2 instance from its ELB",
+	"author": "alien_",
+	"date": "2017-06-19T10:45:52.150Z",
+	"tags": {
+		"categories": [
+			"ec2-instance",
+			"elb",
+			"spot-instances",
+			"golang-application",
+			"aws-ec2"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "13507912",
+	"site": "https://github.com/RatulSaha/presento",
+	"title": " Presento – A clean, simple and extensible template for presentations",
+	"author": "RatulSaha_",
+	"date": "2017-06-19T08:42:50.593Z",
+	"tags": {
+		"categories": [
+			"presentation",
+			"beamer",
+			"tex",
+			"xetex"
+		],
+		"languages": [
+			"tex"
+		]
+	},
+	"content": ""
+}

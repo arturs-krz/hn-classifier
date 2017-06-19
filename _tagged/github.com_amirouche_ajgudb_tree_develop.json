@@ -1,0 +1,15 @@
+{
+	"_id": "11407767",
+	"site": "https://github.com/amirouche/ajgudb/tree/develop",
+	"title": " Graph Database written in Python using wiredtiger with Gremlin querying",
+	"author": "amirouche",
+	"date": "2017-06-19T10:32:46.094Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

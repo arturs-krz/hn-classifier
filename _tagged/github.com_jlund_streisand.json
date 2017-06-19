@@ -1,0 +1,31 @@
+{
+	"_id": "8082444",
+	"site": "https://github.com/jlund/streisand",
+	"title": " Streisand – Silence censorship, automate the effect",
+	"author": "jlund",
+	"date": "2017-06-19T08:42:32.156Z",
+	"tags": {
+		"categories": [
+			"vpn",
+			"ansible",
+			"openvpn",
+			"wireguard",
+			"l2tp",
+			"ipsec",
+			"openconnect",
+			"anyconnect",
+			"shadowsocks",
+			"stunnel",
+			"tor",
+			"ssh",
+			"sshuttle"
+		],
+		"languages": [
+			"shell",
+			"html",
+			"nginx",
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "11665006",
+	"site": "https://github.com/kovetskiy/manul",
+	"title": " manul – the madness vendoring utility for Go (with git submodules)",
+	"author": "kovetskiy",
+	"date": "2017-06-19T09:36:09.315Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"go",
+			"git",
+			"submodule",
+			"submodules",
+			"vendor",
+			"dependencies",
+			"manager",
+			"manul"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

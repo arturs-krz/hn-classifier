@@ -1,0 +1,16 @@
+{
+	"_id": "6670417",
+	"site": "https://github.com/damballa/parkour/",
+	"title": " Parkour: Hadoop MapReduce in idiomatic Clojure",
+	"author": "llasram",
+	"date": "2017-06-19T10:06:47.589Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"clojure",
+			"java",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,29 @@
+{
+	"_id": "11358918",
+	"site": "https://github.com/XamlBehaviors/XamlBehaviors",
+	"title": " Port of Windows UWP Xaml Behaviors for Perspex Xaml",
+	"author": "wiso",
+	"date": "2017-06-19T08:39:59.785Z",
+	"tags": {
+		"categories": [
+			"avalonia",
+			"avaloniaui",
+			"behavior",
+			"action",
+			"bahaviors",
+			"interaction",
+			"interactivity",
+			"interactions",
+			"xaml",
+			"c-sharp",
+			"multi-platform",
+			"mvvm"
+		],
+		"languages": [
+			"c#",
+			"powershell",
+			"shell"
+		]
+	},
+	"content": ""
+}

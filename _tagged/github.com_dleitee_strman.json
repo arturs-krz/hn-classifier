@@ -1,0 +1,18 @@
+{
+	"_id": "11519017",
+	"site": "https://github.com/dleitee/strman",
+	"title": " A JavaScript string manipulation library without npm dependences",
+	"author": "dleitee",
+	"date": "2017-06-19T09:32:01.138Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"string",
+			"es6"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,9 @@
+{
+	"_id": "14460128",
+	"site": "http://downloads.getcomposercat.com/",
+	"title": " Composercat – Graphical User Interface for Composer (PHP)",
+	"author": "tantanel",
+	"date": "2017-06-16T07:57:13.222Z",
+	"tags": [],
+	"content": "composercat graphical interface composer (php). in beta! composercat is comprehensive gui the composer package manager, designed both professionals people taking first steps composer. download here: windows macos linux (appimage) linux (deb) more command line composercat manage your composer configurations, update packages even care updating composer itself. need edit composer.json file manually. ever. packagist.org integration composercat integrates seamlessly packagist.org, means will always up- date information your installed packages. ssh support composercat know to connect your virtual machine remote server ssh (coming soon). working composer has never been easier. composercat works windows, mac linux. download . we need help make composercat better! please send your feedback comments beta@getcomposercat.com. composercat is beta software may contain bugs. it your own risk. composercat is created ornion oü - company based tartu, start- hub estonia. © 2017 - rights reserved."
+}

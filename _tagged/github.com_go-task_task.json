@@ -1,0 +1,24 @@
+{
+	"_id": "13884855",
+	"site": "https://github.com/go-task/task",
+	"title": " Task, a simple task runner / 'Make' alternative",
+	"author": "ahacker15",
+	"date": "2017-06-19T11:06:21.395Z",
+	"tags": {
+		"categories": [
+			"go",
+			"make",
+			"makefile",
+			"task",
+			"task-runner",
+			"build-automation",
+			"build-tool",
+			"build-system",
+			"developer-tools"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

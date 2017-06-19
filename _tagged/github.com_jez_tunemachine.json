@@ -1,0 +1,22 @@
+{
+	"_id": "9822124",
+	"site": "https://github.com/jez/tunemachine",
+	"title": " TuneMachine, version control for Spotify playlists",
+	"author": "z1mm32m4n",
+	"date": "2017-06-19T11:07:43.814Z",
+	"tags": {
+		"categories": [
+			"spotify",
+			"music",
+			"webapp"
+		],
+		"languages": [
+			"coffeescript",
+			"css",
+			"javascript",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

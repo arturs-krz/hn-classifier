@@ -1,0 +1,19 @@
+{
+	"_id": "10950754",
+	"site": "https://github.com/crafttheweb/graphql-wp",
+	"title": " A GraphQL endpoint for WordPress",
+	"author": "waingake",
+	"date": "2017-06-19T10:12:16.161Z",
+	"tags": {
+		"categories": [
+			"wordpress",
+			"graphql",
+			"react",
+			"react-relay"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": ""
+}

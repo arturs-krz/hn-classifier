@@ -1,0 +1,14 @@
+{
+	"_id": "11549496",
+	"site": "https://github.com/vbezhenar/shenc",
+	"title": " Shell utility to encrypt a file into a self-decrypting script",
+	"author": "vbezhenar",
+	"date": "2017-06-19T09:32:51.958Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

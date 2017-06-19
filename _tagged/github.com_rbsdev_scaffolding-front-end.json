@@ -1,0 +1,22 @@
+{
+	"_id": "10547413",
+	"site": "https://github.com/rbsdev/scaffolding-front-end",
+	"title": " Yeoman generator for webapps using make as task runner",
+	"author": "gibatronic",
+	"date": "2017-06-19T10:32:28.131Z",
+	"tags": {
+		"categories": [
+			"scaffold",
+			"scaffolding",
+			"front-end"
+		],
+		"languages": [
+			"shell",
+			"javascript",
+			"makefile",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "13403606",
+	"site": "https://github.com/Fakerr/log-so-handy",
+	"title": " Log So Handy – A convenient approach to deal with your Git logs",
+	"author": "Fakerr",
+	"date": "2017-06-19T08:44:46.887Z",
+	"tags": {
+		"categories": [
+			"git",
+			"command-line",
+			"log"
+		],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "9128984",
+	"site": "https://github.com/ajtulloch/caffegraph/",
+	"title": " A Haskell DSL for deep learning models",
+	"author": "ajtulloch",
+	"date": "2017-06-19T10:35:33.703Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"haskell",
+			"protocol buffer",
+			"other"
+		]
+	},
+	"content": ""
+}

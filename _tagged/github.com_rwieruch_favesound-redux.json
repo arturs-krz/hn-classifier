@@ -1,0 +1,29 @@
+{
+	"_id": "11829729",
+	"site": "https://github.com/rwieruch/favesound-redux",
+	"title": " Redux and React SoundCloud Client for Artists – Favesound-Redux",
+	"author": "rwieruch",
+	"date": "2017-06-19T08:44:20.236Z",
+	"tags": {
+		"categories": [
+			"soundcloud",
+			"soundcloud-api",
+			"soundcloud-client",
+			"player",
+			"playlist",
+			"redux",
+			"react",
+			"demo",
+			"duration",
+			"normalizr",
+			"react-router",
+			"redux-thunk",
+			"react-router-v4"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

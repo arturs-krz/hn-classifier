@@ -1,0 +1,21 @@
+{
+	"_id": "10574823",
+	"site": "https://github.com/lambtron/homemirror",
+	"title": " Web-based, pluggable home mirror",
+	"author": "lambtron",
+	"date": "2017-06-19T10:55:25.612Z",
+	"tags": {
+		"categories": [
+			"mirror",
+			"meteor",
+			"smarthome",
+			"iot"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

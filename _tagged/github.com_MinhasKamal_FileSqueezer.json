@@ -1,0 +1,21 @@
+{
+	"_id": "13116455",
+	"site": "https://github.com/MinhasKamal/FileSqueezer",
+	"title": " FileSqueezer- Simple File Compressor and Extractor",
+	"author": "MinhasKamal",
+	"date": "2017-06-19T08:44:25.240Z",
+	"tags": {
+		"categories": [
+			"compressor",
+			"huffman-algorithm",
+			"encoder",
+			"c-plus-plus",
+			"cpp",
+			"zip"
+		],
+		"languages": [
+			"c++"
+		]
+	},
+	"content": ""
+}

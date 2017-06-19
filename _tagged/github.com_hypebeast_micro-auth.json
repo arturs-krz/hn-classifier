@@ -1,0 +1,25 @@
+{
+	"_id": "13681951",
+	"site": "https://github.com/hypebeast/micro-auth",
+	"title": " A microservice that makes adding authentication to your app easy",
+	"author": "hypebeast",
+	"date": "2017-06-19T10:49:07.387Z",
+	"tags": {
+		"categories": [
+			"lapis",
+			"docker",
+			"docker-compose",
+			"openresty",
+			"nginx",
+			"authentication",
+			"google",
+			"github"
+		],
+		"languages": [
+			"lua",
+			"nginx",
+			"shell"
+		]
+	},
+	"content": ""
+}

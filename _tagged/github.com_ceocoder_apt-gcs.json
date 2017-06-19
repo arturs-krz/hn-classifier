@@ -1,0 +1,15 @@
+{
+	"_id": "10272060",
+	"site": "https://github.com/ceocoder/apt-gcs",
+	"title": " APT Transport for Google Cloud Storage",
+	"author": "ceocoder",
+	"date": "2017-06-19T10:28:37.884Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "12210299",
+	"site": "https://github.com/sqreen/PyMiniRacer",
+	"title": " Minimal, modern embedded V8 for Python",
+	"author": "jbaviat",
+	"date": "2017-06-19T10:15:21.693Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"c++",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

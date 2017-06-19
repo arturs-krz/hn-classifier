@@ -1,0 +1,14 @@
+{
+	"_id": "10631465",
+	"site": "https://github.com/ejholmes/cloudwatch",
+	"title": " Treat CloudWatch logs as io streams with Go",
+	"author": "ejholmes",
+	"date": "2017-06-19T10:27:10.888Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

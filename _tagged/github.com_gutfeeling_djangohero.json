@@ -1,0 +1,20 @@
+{
+	"_id": "13268263",
+	"site": "https://github.com/gutfeeling/djangohero",
+	"title": " Django and Heroku for lazy humans",
+	"author": "gh1",
+	"date": "2017-06-19T10:30:38.030Z",
+	"tags": {
+		"categories": [
+			"heroku",
+			"heroku-postgres",
+			"django",
+			"best-practices",
+			"cloud"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

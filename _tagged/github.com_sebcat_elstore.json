@@ -1,0 +1,14 @@
+{
+	"_id": "8289398",
+	"site": "https://github.com/sebcat/elstore",
+	"title": " A lightweight, fs-backed, caching element store in Go",
+	"author": "sebcat",
+	"date": "2017-06-19T10:35:47.736Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

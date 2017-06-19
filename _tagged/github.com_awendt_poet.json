@@ -1,0 +1,16 @@
+{
+	"_id": "9637384",
+	"site": "https://github.com/awendt/poet",
+	"title": " Split your ssh_config into separate files",
+	"author": "awendt",
+	"date": "2017-06-19T09:46:06.421Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"gherkin",
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

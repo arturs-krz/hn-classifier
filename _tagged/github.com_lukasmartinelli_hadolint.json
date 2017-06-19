@@ -1,0 +1,15 @@
+{
+	"_id": "10887561",
+	"site": "https://github.com/lukasmartinelli/hadolint",
+	"title": " Static Analysis Tool for Dockerfiles in Haskell",
+	"author": "morgenkaffee",
+	"date": "2017-06-19T11:07:24.014Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"haskell",
+			"shell"
+		]
+	},
+	"content": ""
+}

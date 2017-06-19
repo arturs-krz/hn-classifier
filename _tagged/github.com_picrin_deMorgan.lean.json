@@ -1,0 +1,14 @@
+{
+	"_id": "13101335",
+	"site": "https://github.com/picrin/deMorgan.lean",
+	"title": " A formal proof of deMorgan's law in lean",
+	"author": "picrin",
+	"date": "2017-06-19T10:59:00.094Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"lean"
+		]
+	},
+	"content": ""
+}

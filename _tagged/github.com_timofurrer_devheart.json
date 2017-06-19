@@ -1,0 +1,24 @@
+{
+	"_id": "13161115",
+	"site": "https://github.com/timofurrer/devheart",
+	"title": " Linux Kernel Module to listen to Master Tux's heartbeat",
+	"author": "tuxtimo",
+	"date": "2017-06-19T09:37:27.857Z",
+	"tags": {
+		"categories": [
+			"linux",
+			"linux-kernel",
+			"linux-kernel-module",
+			"fun",
+			"cpu",
+			"heart",
+			"heartbeat",
+			"device"
+		],
+		"languages": [
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

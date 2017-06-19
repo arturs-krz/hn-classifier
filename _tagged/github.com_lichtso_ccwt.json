@@ -1,0 +1,26 @@
+{
+	"_id": "13566705",
+	"site": "http://github.com/lichtso/ccwt",
+	"title": " Signal Analysis Library Using Continuous Wavelet Transform",
+	"author": "Lichtso",
+	"date": "2017-06-19T10:46:13.784Z",
+	"tags": {
+		"categories": [
+			"wavelet",
+			"fft",
+			"python-bindings",
+			"png",
+			"c99",
+			"python-2",
+			"python-3",
+			"signal-processing"
+		],
+		"languages": [
+			"c",
+			"python",
+			"makefile",
+			"c++"
+		]
+	},
+	"content": ""
+}

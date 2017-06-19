@@ -1,0 +1,19 @@
+{
+	"_id": "9204976",
+	"site": "https://github.com/ricn/librex",
+	"title": " Convert documents to other formats with Elixir and LibreOffice",
+	"author": "ricny046",
+	"date": "2017-06-19T10:55:21.698Z",
+	"tags": {
+		"categories": [
+			"elixir",
+			"convert-office-documents",
+			"libreoffice",
+			"elixir-library"
+		],
+		"languages": [
+			"elixir"
+		]
+	},
+	"content": ""
+}

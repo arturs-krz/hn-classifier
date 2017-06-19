@@ -1,0 +1,19 @@
+{
+	"_id": "13650747",
+	"site": "https://github.com/jgranstrom/gonode",
+	"title": " Gonode – Easily Integrate Go with Node.js",
+	"author": "jgranstrom",
+	"date": "2017-06-19T11:02:43.513Z",
+	"tags": {
+		"categories": [
+			"go",
+			"node",
+			"integration"
+		],
+		"languages": [
+			"javascript",
+			"go"
+		]
+	},
+	"content": ""
+}

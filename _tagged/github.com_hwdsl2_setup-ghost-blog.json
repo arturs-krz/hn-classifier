@@ -1,0 +1,24 @@
+{
+	"_id": "11462287",
+	"site": "https://github.com/hwdsl2/setup-ghost-blog",
+	"title": " Ghost Blog Auto Setup Scripts with Nginx and WAF",
+	"author": "hwdsl2",
+	"date": "2017-06-19T08:42:43.702Z",
+	"tags": {
+		"categories": [
+			"ghost-blog",
+			"naxsi",
+			"modsecurity",
+			"nginx",
+			"wordpress",
+			"ghost",
+			"blog",
+			"nodejs",
+			"node"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

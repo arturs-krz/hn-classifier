@@ -1,0 +1,15 @@
+{
+	"_id": "10887811",
+	"site": "https://github.com/sebcat/openssl-hook",
+	"title": " Record Calls to SSL_read, SSL_write Using LD_PRELOAD",
+	"author": "sebcat",
+	"date": "2017-06-19T10:32:51.711Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

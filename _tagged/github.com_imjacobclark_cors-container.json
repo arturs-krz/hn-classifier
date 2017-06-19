@@ -1,0 +1,20 @@
+{
+	"_id": "11240132",
+	"site": "https://github.com/imjacobclark/cors-container",
+	"title": " A CORS proxy in a container",
+	"author": "corscontainer",
+	"date": "2017-06-19T09:50:30.132Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"cors",
+			"permissive-cors",
+			"cors-proxy"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

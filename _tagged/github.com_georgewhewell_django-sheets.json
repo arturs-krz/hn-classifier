@@ -1,0 +1,16 @@
+{
+	"_id": "8947494",
+	"site": "https://github.com/georgewhewell/django-sheets",
+	"title": " Use Google Spreadsheets as a backend for your Django templates",
+	"author": "grw_",
+	"date": "2017-06-19T10:52:31.828Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"html",
+			"makefile"
+		]
+	},
+	"content": ""
+}

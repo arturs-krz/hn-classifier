@@ -1,0 +1,21 @@
+{
+	"_id": "13743374",
+	"site": "https://github.com/src-d/proteus",
+	"title": " Proteus, keeping Go as the source of truth, .proto files from Go code",
+	"author": "mcuadros",
+	"date": "2017-06-19T08:44:17.188Z",
+	"tags": {
+		"categories": [
+			"protobuf3",
+			"protobuf",
+			"go",
+			"grpc"
+		],
+		"languages": [
+			"go",
+			"protocol buffer",
+			"makefile"
+		]
+	},
+	"content": ""
+}

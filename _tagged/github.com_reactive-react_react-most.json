@@ -1,0 +1,27 @@
+{
+	"_id": "13122228",
+	"site": "https://github.com/reactive-react/react-most",
+	"title": " React-Most – Declarative Monadic Reactive State Container for React",
+	"author": "oyanglulu",
+	"date": "2017-06-19T11:11:37.555Z",
+	"tags": {
+		"categories": [
+			"react",
+			"reactive",
+			"frp",
+			"rxjs",
+			"redux",
+			"react-most",
+			"mostjs",
+			"typescript",
+			"fantasy-land",
+			"xreact",
+			"data-flow"
+		],
+		"languages": [
+			"typescript",
+			"shell"
+		]
+	},
+	"content": ""
+}

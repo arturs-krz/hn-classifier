@@ -1,0 +1,23 @@
+{
+	"_id": "13206573",
+	"site": "https://github.com/nithinmurali/pygsheets",
+	"title": " Pygsheets – Acessing Google sheets from python simplified",
+	"author": "nithinm",
+	"date": "2017-06-19T10:32:52.691Z",
+	"tags": {
+		"categories": [
+			"google-sheets",
+			"google-sheets-api",
+			"python",
+			"python-lib",
+			"google-sheets-api-v4",
+			"google-sheets-library",
+			"spreadsheet"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

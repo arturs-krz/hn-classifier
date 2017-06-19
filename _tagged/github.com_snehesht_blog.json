@@ -1,0 +1,22 @@
+{
+	"_id": "12244475",
+	"site": "https://github.com/snehesht/blog",
+	"title": " Publish blog post with a simple Git push",
+	"author": "snehesht",
+	"date": "2017-06-19T09:48:38.719Z",
+	"tags": {
+		"categories": [
+			"blog-engine",
+			"minimalist-design",
+			"python"
+		],
+		"languages": [
+			"css",
+			"python",
+			"html",
+			"javascript",
+			"shell"
+		]
+	},
+	"content": ""
+}

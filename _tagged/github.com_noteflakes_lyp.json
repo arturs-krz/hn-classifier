@@ -1,0 +1,23 @@
+{
+	"_id": "10930004",
+	"site": "https://github.com/noteflakes/lyp",
+	"title": " Lyp – a package manager for lilypond",
+	"author": "ciconia",
+	"date": "2017-06-19T08:42:37.580Z",
+	"tags": {
+		"categories": [
+			"lilypond",
+			"music",
+			"ruby",
+			"package-manager",
+			"music-notation"
+		],
+		"languages": [
+			"ruby",
+			"lilypond",
+			"scheme",
+			"shell"
+		]
+	},
+	"content": ""
+}

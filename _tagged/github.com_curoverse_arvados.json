@@ -1,0 +1,20 @@
+{
+	"_id": "11238582",
+	"site": "https://github.com/curoverse/arvados",
+	"title": " Arvados, a free software storage and compute platform for big data",
+	"author": "tetron",
+	"date": "2017-06-19T10:35:15.115Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"python",
+			"go",
+			"javascript",
+			"html",
+			"shell",
+			"other"
+		]
+	},
+	"content": ""
+}

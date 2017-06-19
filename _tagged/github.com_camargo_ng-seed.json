@@ -1,0 +1,27 @@
+{
+	"_id": "12561671",
+	"site": "https://github.com/camargo/ng-seed",
+	"title": " Ng-seed – Simple Angular 2 seed project",
+	"author": "nucleic",
+	"date": "2017-06-19T08:44:11.802Z",
+	"tags": {
+		"categories": [
+			"ng-seed",
+			"angular",
+			"angular-2",
+			"starter",
+			"seed",
+			"angular2",
+			"aot",
+			"ng2",
+			"material"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

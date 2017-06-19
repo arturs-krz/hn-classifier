@@ -1,0 +1,16 @@
+{
+	"_id": "8954350",
+	"site": "https://github.com/robinmonjo/sc-redis",
+	"title": " Self-contained Redis server",
+	"author": "b0ba1lle",
+	"date": "2017-06-19T09:50:46.762Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

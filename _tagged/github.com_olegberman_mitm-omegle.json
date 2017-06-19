@@ -1,0 +1,19 @@
+{
+	"_id": "10019087",
+	"site": "https://github.com/olegberman/mitm-omegle",
+	"title": " Watch strangers talk on Omegle with a MitM attack",
+	"author": "berman",
+	"date": "2017-06-19T11:05:47.709Z",
+	"tags": {
+		"categories": [
+			"omegle",
+			"chat",
+			"hack",
+			"man-in-the-middle"
+		],
+		"languages": [
+			"coffeescript"
+		]
+	},
+	"content": ""
+}

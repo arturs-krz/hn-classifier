@@ -1,0 +1,21 @@
+{
+	"_id": "14042478",
+	"site": "https://github.com/zsck/clink",
+	"title": " Clink is a language-agnostic refactoring assistant tool",
+	"author": "_redwire",
+	"date": "2017-06-19T08:43:09.204Z",
+	"tags": {
+		"categories": [
+			"developer",
+			"assistive-technology",
+			"refactoring",
+			"code",
+			"workflow"
+		],
+		"languages": [
+			"rust",
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "13806365",
+	"site": "https://github.com/AlmasB/FXGL",
+	"title": " FXGL – JavaFX Game Development Framework",
+	"author": "AlmasB",
+	"date": "2017-06-19T11:07:01.019Z",
+	"tags": {
+		"categories": [
+			"game-development",
+			"game-engine",
+			"javafx",
+			"gamedev",
+			"kotlin",
+			"java",
+			"framework",
+			"game",
+			"2d-game-engine",
+			"2d-game",
+			"2d-framework",
+			"fxgl",
+			"2d",
+			"2d-game-framework"
+		],
+		"languages": [
+			"java",
+			"kotlin",
+			"other"
+		]
+	},
+	"content": ""
+}

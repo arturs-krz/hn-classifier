@@ -1,0 +1,20 @@
+{
+	"_id": "13908620",
+	"site": "https://github.com/Flaque/penguin",
+	"title": " A GUI tool for recoloring multiple icons at once",
+	"author": "flaque",
+	"date": "2017-06-19T09:58:44.248Z",
+	"tags": {
+		"categories": [
+			"exports-svg",
+			"electron",
+			"react",
+			"tool"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,32 @@
+{
+	"_id": "14231625",
+	"site": "https://github.com/zzw922cn/Automatic_Speech_Recognition",
+	"title": " Automatic Speech Recognition in TensorFlow",
+	"author": "zzw922cn",
+	"date": "2017-06-19T10:17:30.533Z",
+	"tags": {
+		"categories": [
+			"automatic-speech-recognition",
+			"tensorflow",
+			"timit-dataset",
+			"feature-vector",
+			"phonemes",
+			"data-preprocessing",
+			"rnn",
+			"audio",
+			"deep-learning",
+			"lstm",
+			"end-to-end",
+			"cnn",
+			"rnn-encoder-decoder",
+			"evaluation",
+			"paper",
+			"speech-recognition"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

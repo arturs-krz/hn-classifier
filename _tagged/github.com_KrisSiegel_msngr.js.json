@@ -1,0 +1,29 @@
+{
+	"_id": "12375981",
+	"site": "https://github.com/KrisSiegel/msngr.js",
+	"title": " Msngr.js a simple messaging library that works in the server or browser",
+	"author": "BinaryIdiot",
+	"date": "2017-06-19T11:02:58.801Z",
+	"tags": {
+		"categories": [
+			"msngr",
+			"asynchronous",
+			"javascript",
+			"messaging",
+			"pubsub",
+			"eventing",
+			"handler",
+			"middleware",
+			"pub",
+			"sub",
+			"subscription",
+			"js",
+			"immediate"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "13976707",
+	"site": "https://github.com/styled-components/polished",
+	"title": " Polished – A lightweight toolset for writing styles in JavaScript",
+	"author": "mxstbr",
+	"date": "2017-06-19T08:42:57.351Z",
+	"tags": {
+		"categories": [
+			"css-in-js",
+			"styled-components",
+			"styling",
+			"inline-styles"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

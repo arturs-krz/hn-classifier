@@ -1,0 +1,23 @@
+{
+	"_id": "13229483",
+	"site": "https://github.com/irqlevel/vdisk",
+	"title": " Secure network block device",
+	"author": "irqlevel",
+	"date": "2017-06-19T10:42:34.999Z",
+	"tags": {
+		"categories": [
+			"network",
+			"storage",
+			"linux-kernel",
+			"linux-kernel-module",
+			"linux-kernel-tls"
+		],
+		"languages": [
+			"c",
+			"perl",
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

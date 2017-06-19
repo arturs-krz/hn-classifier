@@ -1,0 +1,9 @@
+{
+	"_id": "14426483",
+	"site": "https://johan-nordberg.com/glslwasmgif",
+	"title": " Create GIFs with GLSL shaders",
+	"author": "almostdigital",
+	"date": "2017-06-16T07:57:58.194Z",
+	"tags": [],
+	"content": "glslwasmgifcapture duration 3s interval 40ms scale 1 frames 25 size 250x250 capture render quality 10 delay 40ms repeat forever palette local global ( frame) dither none atkinson atkinson-serpentine falsefloydsteinberg falsefloydsteinberg-serpentine floydsteinberg floydsteinberg-serpentine stucki stucki-serpentine backend webassembly javascript workers 4 render must capture glslwasmgif was made johan nordberg (web, twitter) uses gif.js, glsleditor some things, the source code more info."
+}

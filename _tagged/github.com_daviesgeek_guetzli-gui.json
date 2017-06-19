@@ -1,0 +1,20 @@
+{
+	"_id": "13898179",
+	"site": "https://github.com/daviesgeek/guetzli-gui",
+	"title": " A super simple Mac GUI for Google's JPEG encoder, guetzli",
+	"author": "daviesgeek",
+	"date": "2017-06-19T11:04:51.397Z",
+	"tags": {
+		"categories": [
+			"jpeg",
+			"encoder",
+			"jpeg-encoder",
+			"guetzli",
+			"image-encoder"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

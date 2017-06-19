@@ -1,0 +1,21 @@
+{
+	"_id": "9844127",
+	"site": "https://github.com/Nutomic/ensichat",
+	"title": " Ensichat – Decentralized instant messenger for Android",
+	"author": "Nutomic",
+	"date": "2017-06-19T10:45:00.668Z",
+	"tags": {
+		"categories": [
+			"android",
+			"scala",
+			"peer-to-peer",
+			"decentralized",
+			"p2p"
+		],
+		"languages": [
+			"scala",
+			"java"
+		]
+	},
+	"content": ""
+}

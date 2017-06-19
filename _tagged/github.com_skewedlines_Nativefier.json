@@ -1,0 +1,24 @@
+{
+	"_id": "9840407",
+	"site": "https://github.com/skewedlines/Nativefier",
+	"title": " Nativefier – Making native executables for web apps",
+	"author": "skewedlines",
+	"date": "2017-06-19T10:18:24.444Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"electron",
+			"linux",
+			"windows",
+			"macos",
+			"desktop-application"
+		],
+		"languages": [
+			"javascript",
+			"shell",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

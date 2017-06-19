@@ -1,0 +1,9 @@
+{
+	"_id": "14471153",
+	"site": "https://www.freerobotcollective.com",
+	"title": " Strukt – a visual shell for tabular data",
+	"author": "ken",
+	"date": "2017-06-16T07:56:59.492Z",
+	"tags": [],
+	"content": "struktsupport buy the interactive to with kinds tabular datadata sources data comes all places. shouldn't be able handle everything one app? strukt natively supports: * folders files * csv, tsv, excel (xlsx) files * html tables/lists, json structures, other data the web * local data stores git sqlite * mac contacts, calendars, events data types shell process data source, only plain text ( bytes). strukt has rich collection actual data types:type examples string hello, world number 345-10.36 boolean date 2016/07/05 9:45 location 47°3713n 122°2057w color hsl(118°, 45%, 95%) blob null null visualizationtables are great model data, they're so great visualization. 's why, addition tables, strukt supports charts, maps, plain text, html views.interactive keyboard-friendlymany etl tools connect data source, manipulate data arbitrary ways, are difficult use.strukt is fully keyboard-friendly (mac/emacs/vi styles), includes alias common unix commands might already . as type, displays partial results. will automatically update results it sees your source data changed, it's safe do .requires macos 10.11.6 newertwitter privacy support ©2017 ken harris"
+}

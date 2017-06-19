@@ -1,0 +1,15 @@
+{
+	"_id": "13951040",
+	"site": "https://github.com/acg/timebox",
+	"title": " Timebox, politely timebox unix programs",
+	"author": "sigil",
+	"date": "2017-06-19T10:58:39.186Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "13795759",
+	"site": "https://github.com/igoradamenko/npm.plugin.zsh",
+	"title": " Npm.plugin.zsh – npm aliases and command completion",
+	"author": "igoradamenko",
+	"date": "2017-06-19T09:57:17.514Z",
+	"tags": {
+		"categories": [
+			"oh-my-zsh",
+			"npm",
+			"oh-my-zsh-plugin",
+			"zsh",
+			"zsh-plugin"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13046237",
+	"site": "http://github.com/johnathanhowell/masterkey",
+	"title": " masterkey – secure interactive password manager using Go and NACL",
+	"author": "roughly27",
+	"date": "2017-06-19T10:51:12.596Z",
+	"tags": {
+		"categories": [
+			"password-manager",
+			"security",
+			"cryptography",
+			"vault",
+			"interactive",
+			"unix"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

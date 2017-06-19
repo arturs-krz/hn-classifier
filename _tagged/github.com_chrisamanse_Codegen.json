@@ -1,0 +1,26 @@
+{
+	"_id": "13294596",
+	"site": "https://github.com/chrisamanse/Codegen",
+	"title": " Codegen – An open source one-time password generator for iOS",
+	"author": "chrisamanse",
+	"date": "2017-06-19T11:09:12.005Z",
+	"tags": {
+		"categories": [
+			"cryptography",
+			"one-time-passwords",
+			"hmac",
+			"security",
+			"ios",
+			"swift",
+			"qrcode",
+			"generator",
+			"authentication",
+			"authenticator"
+		],
+		"languages": [
+			"swift",
+			"ruby"
+		]
+	},
+	"content": ""
+}

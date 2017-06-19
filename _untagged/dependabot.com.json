@@ -1,0 +1,9 @@
+{
+	"_id": "14425326",
+	"site": "https://dependabot.com",
+	"title": " Dependabot automates dependency updates for Ruby and JavaScript (Yarn)",
+	"author": "hcm",
+	"date": "2017-06-16T07:57:53.069Z",
+	"tags": [],
+	"content": "how works features pricing blog log automated dependency updatesdependabot makes keeping ruby, javascript php dependencies to date easy. started learn it works it works1 dependabot checks updatesevery , dependabot pulls down dependency files looks any outdated requirements.2 opens pull requests any your dependencies are -of-date, dependabot opens individual pull requests bump each .3 you review merge check tests pass, scan included changelog release notes, hit merge confidence.features up date painlessly'll update five your dependencies each , until 're the cutting edge. request more prs you , or close to ignore dependency until next release.daily update checking check new releases every , and send prs each . think it brushing teeth every rather occasionally making painful trips the dentist.easy--review pull requestsdependabot prs include release notes, changelogs commit links whenever 're available. 'll automatically keep themselves conflict-free.multi-language supportdependabot already supports ruby, javascript php, python cocoapods beta. languages are easy add our open-source core.pricingopen sourceopen source projects are always free$0 / month hobbyistunlimited private projects your personal account$5 / month startup to 5 private projects an organization account$15 / month unlimitedunlimited private projects an organization account$50 / month starteddependabot works a github integration. get started, 'll you through github flow link account. me the app © dependabot 2017 privacy terms service twitter contact us"
+}

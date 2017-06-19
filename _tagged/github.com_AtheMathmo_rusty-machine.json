@@ -1,0 +1,17 @@
+{
+	"_id": "12199429",
+	"site": "https://github.com/AtheMathmo/rusty-machine",
+	"title": " Machine learning (entirely) in Rust",
+	"author": "AtheMathmo",
+	"date": "2017-06-19T10:29:20.432Z",
+	"tags": {
+		"categories": [
+			"machine-learning",
+			"rust"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

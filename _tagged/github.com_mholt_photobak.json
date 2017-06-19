@@ -1,0 +1,21 @@
+{
+	"_id": "13410525",
+	"site": "https://github.com/mholt/photobak",
+	"title": " Photobak – Back up your content from Google Photos",
+	"author": "mholt",
+	"date": "2017-06-19T10:47:11.437Z",
+	"tags": {
+		"categories": [
+			"google-photos",
+			"album",
+			"backup",
+			"photos",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

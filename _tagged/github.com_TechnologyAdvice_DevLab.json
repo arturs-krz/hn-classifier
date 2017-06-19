@@ -1,0 +1,20 @@
+{
+	"_id": "10482991",
+	"site": "https://github.com/TechnologyAdvice/DevLab",
+	"title": " DevLab – Docker Containerization for Local Development",
+	"author": "ksafranski",
+	"date": "2017-06-19T10:26:57.980Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"nodejs",
+			"cli",
+			"containers",
+			"continuous-integration"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

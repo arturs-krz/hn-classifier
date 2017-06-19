@@ -1,0 +1,18 @@
+{
+	"_id": "12902156",
+	"site": "https://github.com/zuck007/CleanSlate",
+	"title": " Delete NSFW history in mozilla Firefox from command line",
+	"author": "zuck007",
+	"date": "2017-06-19T09:32:32.806Z",
+	"tags": {
+		"categories": [
+			"mozilla-history",
+			"python-script",
+			"cli-app"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

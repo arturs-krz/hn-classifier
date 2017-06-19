@@ -1,0 +1,29 @@
+{
+	"_id": "11748413",
+	"site": "https://github.com/onqtam/doctest",
+	"title": " Doctest – C++ single-header testing framework",
+	"author": "onqtam",
+	"date": "2017-06-19T09:57:22.017Z",
+	"tags": {
+		"categories": [
+			"c-plus-plus",
+			"doctest",
+			"tdd",
+			"testing",
+			"unit-testing",
+			"header-only",
+			"c-plus-plus-14",
+			"c-plus-plus-11",
+			"cplusplus",
+			"cpp",
+			"cpp11",
+			"cpp14"
+		],
+		"languages": [
+			"c++",
+			"python",
+			"cmake"
+		]
+	},
+	"content": ""
+}

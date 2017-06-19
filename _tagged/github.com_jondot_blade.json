@@ -1,0 +1,16 @@
+{
+	"_id": "10079613",
+	"site": "https://github.com/jondot/blade",
+	"title": " Blade – a CLI image catalog generator for iOS / OS X written in Go",
+	"author": "jondot",
+	"date": "2017-06-19T10:44:47.066Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile",
+			"ruby"
+		]
+	},
+	"content": ""
+}

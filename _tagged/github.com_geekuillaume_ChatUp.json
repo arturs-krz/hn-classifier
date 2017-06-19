@@ -1,0 +1,16 @@
+{
+	"_id": "10862362",
+	"site": "https://github.com/geekuillaume/ChatUp",
+	"title": " ChatUp, a highly performant and scalable Chat platform in Node.js",
+	"author": "geekuillaume",
+	"date": "2017-06-19T10:20:42.019Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"typescript",
+			"shell"
+		]
+	},
+	"content": ""
+}

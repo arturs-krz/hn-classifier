@@ -1,0 +1,22 @@
+{
+	"_id": "11227662",
+	"site": "https://github.com/tidwall/tile38",
+	"title": " Tile38 – A geolocation DB with spatial index and realtime geofencing",
+	"author": "tidwall",
+	"date": "2017-06-19T08:46:17.947Z",
+	"tags": {
+		"categories": [
+			"geofences",
+			"geospatial",
+			"database",
+			"spatial-index",
+			"geojson",
+			"geohash"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

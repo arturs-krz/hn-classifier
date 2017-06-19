@@ -1,0 +1,17 @@
+{
+	"_id": "12270202",
+	"site": "https://github.com/dpolansky/go-poet/",
+	"title": " Go-poet: A Go package for generating .go source files",
+	"author": "kdeenanauth",
+	"date": "2017-06-19T10:21:44.662Z",
+	"tags": {
+		"categories": [
+			"code-generation"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

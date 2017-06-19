@@ -1,0 +1,31 @@
+{
+	"_id": "13814223",
+	"site": "https://github.com/camelaissani/loca",
+	"title": " Loca – Open source real estate management application",
+	"author": "camelaissani",
+	"date": "2017-06-19T08:44:26.501Z",
+	"tags": {
+		"categories": [
+			"real-estate",
+			"open-source",
+			"rentals",
+			"occupants",
+			"properties",
+			"owners",
+			"nodejs",
+			"erp",
+			"appartments",
+			"offices",
+			"car-park",
+			"invoices",
+			"property-management",
+			"property"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

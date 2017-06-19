@@ -1,0 +1,22 @@
+{
+	"_id": "12937453",
+	"site": "https://github.com/nicolaslopezj/meteor-apollo-accounts",
+	"title": " Implementation of Meteor Accounts in GraphQL with Apollo",
+	"author": "janikvonrotz",
+	"date": "2017-06-19T10:59:47.602Z",
+	"tags": {
+		"categories": [
+			"graphql",
+			"react",
+			"javascript",
+			"accounts",
+			"meteor",
+			"apollo",
+			"authentication"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "11107700",
+	"site": "https://github.com/egoist/is-taken-cli",
+	"title": " A simple cli program to check if an NPM package name is taken",
+	"author": "0x142857",
+	"date": "2017-06-19T10:18:32.937Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

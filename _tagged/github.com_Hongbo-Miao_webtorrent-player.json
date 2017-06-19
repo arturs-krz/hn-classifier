@@ -1,0 +1,22 @@
+{
+	"_id": "13110336",
+	"site": "https://github.com/Hongbo-Miao/webtorrent-player",
+	"title": " WebTorrent Player – open source, build by Angular 2 and ngrx",
+	"author": "Hongbo-Miao",
+	"date": "2017-06-19T10:28:00.159Z",
+	"tags": {
+		"categories": [
+			"angular",
+			"ngrx",
+			"webtorrent",
+			"typescript"
+		],
+		"languages": [
+			"typescript",
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

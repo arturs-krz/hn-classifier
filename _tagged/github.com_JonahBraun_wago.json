@@ -1,0 +1,21 @@
+{
+	"_id": "10205907",
+	"site": "https://github.com/JonahBraun/wago",
+	"title": " WaGo – Automate the actions you do after saving code",
+	"author": "JonahBraun",
+	"date": "2017-06-19T08:46:31.453Z",
+	"tags": {
+		"categories": [
+			"go",
+			"developer-tools",
+			"cli",
+			"development",
+			"watcher"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

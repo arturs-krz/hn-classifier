@@ -1,0 +1,15 @@
+{
+	"_id": "9270405",
+	"site": "https://github.com/eatonphil/ocalc",
+	"title": " A Lispy Calculator in under 50 Lines of OCaml",
+	"author": "eatonphil",
+	"date": "2017-06-19T10:01:01.569Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ocaml",
+			"makefile"
+		]
+	},
+	"content": ""
+}

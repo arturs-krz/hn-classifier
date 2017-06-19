@@ -1,0 +1,15 @@
+{
+	"_id": "12109104",
+	"site": "https://github.com/shicky/gocelery",
+	"title": " Celery Distributed Task Queue Client/Worker in Go",
+	"author": "shickys",
+	"date": "2017-06-19T10:15:03.561Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"python"
+		]
+	},
+	"content": ""
+}

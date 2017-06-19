@@ -1,0 +1,19 @@
+{
+	"_id": "9772977",
+	"site": "https://github.com/robertstettner/elasticsearch-csv",
+	"title": " ElasticsearchCSV – A Node.js Library for importing CSV's into ES",
+	"author": "robertstettner",
+	"date": "2017-06-19T09:57:47.978Z",
+	"tags": {
+		"categories": [
+			"elasticsearch",
+			"csv",
+			"import",
+			"elasticsearch-csv"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

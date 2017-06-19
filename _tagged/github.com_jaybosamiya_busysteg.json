@@ -1,0 +1,19 @@
+{
+	"_id": "13866734",
+	"site": "https://github.com/jaybosamiya/busysteg",
+	"title": " BusySteg- Hide information content into busy areas of images, optimally",
+	"author": "jaybosamiya",
+	"date": "2017-06-19T09:55:45.143Z",
+	"tags": {
+		"categories": [
+			"steganography",
+			"opencv",
+			"proof-of-concept"
+		],
+		"languages": [
+			"c++",
+			"cmake"
+		]
+	},
+	"content": ""
+}

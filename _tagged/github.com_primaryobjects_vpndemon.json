@@ -1,0 +1,26 @@
+{
+	"_id": "8232880",
+	"site": "https://github.com/primaryobjects/vpndemon",
+	"title": " VPNDemon – Monitor a VPN connection and kill a process upon disconnect",
+	"author": "primaryobjects",
+	"date": "2017-06-19T08:42:38.548Z",
+	"tags": {
+		"categories": [
+			"vpn",
+			"bash",
+			"linux",
+			"vpn-connections",
+			"networkmanager",
+			"disconnect",
+			"dns-leak",
+			"security",
+			"shell",
+			"monitoring",
+			"prevent-dns-leaks"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

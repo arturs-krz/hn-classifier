@@ -1,0 +1,22 @@
+{
+	"_id": "12853846",
+	"site": "https://github.com/NullVoxPopuli/rails_module_unification",
+	"title": " A better way to organize rails apps so that not everything is silo'd",
+	"author": "nullvoxpopuli",
+	"date": "2017-06-19T08:43:09.395Z",
+	"tags": {
+		"categories": [
+			"architecture",
+			"rails",
+			"silo",
+			"drawer",
+			"resource",
+			"unification"
+		],
+		"languages": [
+			"ruby",
+			"html"
+		]
+	},
+	"content": ""
+}

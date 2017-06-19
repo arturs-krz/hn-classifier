@@ -1,0 +1,18 @@
+{
+	"_id": "13994058",
+	"site": "https://github.com/hopshadoop/hops-tensorflow",
+	"title": " Easy distributed TensorFlow on Hadoop",
+	"author": "708145_",
+	"date": "2017-06-19T11:08:57.489Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python",
+			"java",
+			"jupyter notebook",
+			"shell",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

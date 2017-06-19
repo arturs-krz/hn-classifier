@@ -1,0 +1,23 @@
+{
+	"_id": "13976610",
+	"site": "https://github.com/CompileInc/cappy/",
+	"title": " Cappy – http proxy with file based caching",
+	"author": "cyriacthomas",
+	"date": "2017-06-19T09:39:00.806Z",
+	"tags": {
+		"categories": [
+			"cappy",
+			"http",
+			"proxy",
+			"python",
+			"requests",
+			"python-proxy",
+			"proxy-server"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

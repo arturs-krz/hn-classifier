@@ -1,0 +1,20 @@
+{
+	"_id": "12920000",
+	"site": "https://github.com/mightyCrow/pomd",
+	"title": " Just a good old cli based pomodoro timer with native notifactions",
+	"author": "mightyCrow",
+	"date": "2017-06-19T10:38:00.555Z",
+	"tags": {
+		"categories": [
+			"timer",
+			"pomodoro",
+			"pomodoro-technique",
+			"cli",
+			"pomodoro-timer"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

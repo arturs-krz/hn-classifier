@@ -1,0 +1,27 @@
+{
+	"_id": "10408524",
+	"site": "https://github.com/derive4j/derive4j",
+	"title": " Derive4j – Java8 support for ADTs, pattern matching, and more",
+	"author": "jbgi",
+	"date": "2017-06-19T10:29:52.097Z",
+	"tags": {
+		"categories": [
+			"algebraic-data-types",
+			"optics",
+			"functional-programming",
+			"algebra",
+			"visitor-pattern",
+			"annotation-processor",
+			"java-8",
+			"derive4j",
+			"catamorphisms",
+			"visitor",
+			"laziness",
+			"java"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

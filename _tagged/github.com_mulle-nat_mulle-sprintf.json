@@ -1,0 +1,20 @@
+{
+	"_id": "13165853",
+	"site": "https://github.com/mulle-nat/mulle-sprintf",
+	"title": " Mulle_sprintf, an extensible sprintf written in C",
+	"author": "mulle_nat",
+	"date": "2017-06-19T10:10:35.420Z",
+	"tags": {
+		"categories": [
+			"printf",
+			"formatting",
+			"mulle-objc"
+		],
+		"languages": [
+			"c",
+			"shell",
+			"cmake"
+		]
+	},
+	"content": ""
+}

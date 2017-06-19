@@ -1,0 +1,20 @@
+{
+	"_id": "7242042",
+	"site": "https://github.com/fizx/sit#sit-streaming-index-toy",
+	"title": " I wrote a realtime search and/or pubsub (in memory, C)",
+	"author": "fizx",
+	"date": "2017-06-19T10:27:28.277Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"shell",
+			"html",
+			"perl",
+			"c++",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

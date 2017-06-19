@@ -1,0 +1,20 @@
+{
+	"_id": "12387903",
+	"site": "https://github.com/minaandrawos/ModbusRestAPI",
+	"title": " A RESTful API for Modbus Devices",
+	"author": "minaandrawos",
+	"date": "2017-06-19T10:51:58.295Z",
+	"tags": {
+		"categories": [
+			"modbus",
+			"nancy",
+			"scada",
+			"mono",
+			"restful-api"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

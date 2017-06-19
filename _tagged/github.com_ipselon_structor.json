@@ -1,0 +1,26 @@
+{
+	"_id": "10650446",
+	"site": "https://github.com/ipselon/structor",
+	"title": " Structor – a user interface builder for React",
+	"author": "ipselon",
+	"date": "2017-06-19T10:47:20.830Z",
+	"tags": {
+		"categories": [
+			"react",
+			"generator",
+			"react-components",
+			"scaffold",
+			"prototype",
+			"ui",
+			"presets",
+			"structor",
+			"webpack"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

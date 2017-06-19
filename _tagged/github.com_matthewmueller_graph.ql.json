@@ -1,0 +1,15 @@
+{
+	"_id": "10617680",
+	"site": "https://github.com/matthewmueller/graph.ql",
+	"title": " Graph.ql, a schema parser that makes it simpler and faster to use GraphQL",
+	"author": "matthewmueller",
+	"date": "2017-06-19T10:41:05.753Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

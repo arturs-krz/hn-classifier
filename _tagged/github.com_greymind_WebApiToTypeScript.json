@@ -1,0 +1,27 @@
+{
+	"_id": "12691101",
+	"site": "https://github.com/greymind/WebApiToTypeScript",
+	"title": " Web API to TypeScript",
+	"author": "balki",
+	"date": "2017-06-19T10:39:31.790Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"angular",
+			"asp-net",
+			"webapi",
+			"webapi-2",
+			"c-sharp",
+			"csharp",
+			"code-generation",
+			"code-generator"
+		],
+		"languages": [
+			"c#",
+			"typescript",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

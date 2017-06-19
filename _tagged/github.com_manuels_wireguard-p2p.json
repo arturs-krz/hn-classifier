@@ -1,0 +1,19 @@
+{
+	"_id": "14230860",
+	"site": "https://github.com/manuels/wireguard-p2p",
+	"title": " WireGuard Peer-To-Peer: NAT Traversal for WireGuard",
+	"author": "__manuels__",
+	"date": "2017-06-19T10:08:44.415Z",
+	"tags": {
+		"categories": [
+			"wireguard",
+			"nat-traversal",
+			"p2p"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

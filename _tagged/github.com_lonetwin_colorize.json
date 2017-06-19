@@ -1,0 +1,19 @@
+{
+	"_id": "13898090",
+	"site": "https://github.com/lonetwin/colorize",
+	"title": " *nixy filter to color stdout, by rows or space-separated columns",
+	"author": "devnonymous",
+	"date": "2017-06-19T09:58:10.215Z",
+	"tags": {
+		"categories": [
+			"python",
+			"cli",
+			"color",
+			"unix-pipes"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

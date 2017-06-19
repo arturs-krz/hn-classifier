@@ -1,0 +1,21 @@
+{
+	"_id": "13804348",
+	"site": "https://github.com/hcyrnd/simon",
+	"title": " Simon – a simple macOS menubar system monitor, written in Python",
+	"author": "hcyrnd",
+	"date": "2017-06-19T10:02:18.055Z",
+	"tags": {
+		"categories": [
+			"python",
+			"python3",
+			"pyobjc",
+			"macos",
+			"menubar",
+			"system-monitor"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

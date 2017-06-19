@@ -1,0 +1,17 @@
+{
+	"_id": "13120680",
+	"site": "https://github.com/polm/showmemore",
+	"title": " ShowMeMore, an Archillect-alike taste bot",
+	"author": "polm23",
+	"date": "2017-06-19T10:05:01.219Z",
+	"tags": {
+		"categories": [
+			"bot"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "13762037",
+	"site": "https://github.com/nanit/kubernetes-graphite-cluster",
+	"title": " Graphite and StatsD Cluster on Kubernetes",
+	"author": "erez-rabih",
+	"date": "2017-06-19T10:46:09.812Z",
+	"tags": {
+		"categories": [
+			"kubernetes",
+			"graphite",
+			"statsd",
+			"docker"
+		],
+		"languages": [
+			"python",
+			"javascript",
+			"makefile",
+			"nginx",
+			"shell"
+		]
+	},
+	"content": ""
+}

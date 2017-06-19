@@ -1,0 +1,19 @@
+{
+	"_id": "11300856",
+	"site": "https://github.com/cjhdev/moda",
+	"title": " A MISRA C compatible AES, AES-GCM, and AES-CMAC implementation",
+	"author": "cjhdev",
+	"date": "2017-06-19T10:07:26.950Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile",
+			"objective-c",
+			"html",
+			"c++",
+			"ruby"
+		]
+	},
+	"content": ""
+}

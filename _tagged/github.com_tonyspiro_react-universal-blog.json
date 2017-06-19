@@ -1,0 +1,19 @@
+{
+	"_id": "10533465",
+	"site": "https://github.com/tonyspiro/react-universal-blog",
+	"title": " React Universal Blog",
+	"author": "tonyspiro",
+	"date": "2017-06-19T08:42:57.966Z",
+	"tags": {
+		"categories": [
+			"react",
+			"cosmicjs"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

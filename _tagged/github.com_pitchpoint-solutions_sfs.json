@@ -1,0 +1,25 @@
+{
+	"_id": "12632780",
+	"site": "https://github.com/pitchpoint-solutions/sfs",
+	"title": " Secure Openstack Swift compatible object storage",
+	"author": "P4Awd",
+	"date": "2017-06-19T10:48:41.081Z",
+	"tags": {
+		"categories": [
+			"distributed-storage",
+			"distributed-systems",
+			"vertx",
+			"rxjava",
+			"elasticsearch",
+			"openstack-swift",
+			"distributed-file-system",
+			"object-storage",
+			"java"
+		],
+		"languages": [
+			"java",
+			"other"
+		]
+	},
+	"content": ""
+}

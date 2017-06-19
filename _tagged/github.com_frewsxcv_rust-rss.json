@@ -1,0 +1,19 @@
+{
+	"_id": "9517490",
+	"site": "https://github.com/frewsxcv/rust-rss",
+	"title": " rust-rss – library for serializing the RSS web content format",
+	"author": "frewsxcv",
+	"date": "2017-06-19T09:42:08.645Z",
+	"tags": {
+		"categories": [
+			"rust",
+			"rss",
+			"feed",
+			"parser"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

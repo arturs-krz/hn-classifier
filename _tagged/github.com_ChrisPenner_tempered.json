@@ -1,0 +1,19 @@
+{
+	"_id": "14229173",
+	"site": "https://github.com/ChrisPenner/tempered",
+	"title": " Tempered – Simple Shell-Based Templating Engine",
+	"author": "ChrisPenner",
+	"date": "2017-06-19T10:26:34.243Z",
+	"tags": {
+		"categories": [
+			"templating",
+			"utility",
+			"tools",
+			"shell"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": ""
+}

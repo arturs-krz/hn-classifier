@@ -1,0 +1,14 @@
+{
+	"_id": "10835811",
+	"site": "https://github.com/lukasmartinelli/pipecat",
+	"title": " Pipecat – Connect message queues with Unix pipes",
+	"author": "morgenkaffee",
+	"date": "2017-06-19T09:44:19.172Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

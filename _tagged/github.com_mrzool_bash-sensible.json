@@ -1,0 +1,18 @@
+{
+	"_id": "11211344",
+	"site": "https://github.com/mrzool/bash-sensible",
+	"title": " Sensible Bash: An attempt at saner Bash defaults",
+	"author": "mrzool",
+	"date": "2017-06-19T10:13:29.779Z",
+	"tags": {
+		"categories": [
+			"bash",
+			"config",
+			"config-bashrc"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

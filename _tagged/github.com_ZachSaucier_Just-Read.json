@@ -1,0 +1,22 @@
+{
+	"_id": "12896616",
+	"site": "https://github.com/ZachSaucier/Just-Read",
+	"title": " Just Read – Reader Extension for Chrome",
+	"author": "ZachSaucier",
+	"date": "2017-06-19T08:42:44.057Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"readability",
+			"reader",
+			"userstyles",
+			"customizable"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,28 @@
+{
+	"_id": "9010127",
+	"site": "https://github.com/alanfranz/docker-rpm-builder",
+	"title": " Fast native RPM building from any distro, for any distro, via Docker",
+	"author": "alanfranzoni",
+	"date": "2017-06-19T10:05:14.838Z",
+	"tags": {
+		"categories": [
+			"packaging",
+			"rpm",
+			"docker",
+			"rpmbuild",
+			"redhat",
+			"fedora",
+			"centos"
+		],
+		"languages": [
+			"c",
+			"python",
+			"shell",
+			"roff",
+			"makefile",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "10213119",
+	"site": "https://github.com/doches/rwordnet",
+	"title": " A pure Ruby interface to the Wordnet database",
+	"author": "Doches",
+	"date": "2017-06-19T10:32:49.267Z",
+	"tags": {
+		"categories": [
+			"wordnet",
+			"wordnet-tags",
+			"nlp-library",
+			"ruby"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

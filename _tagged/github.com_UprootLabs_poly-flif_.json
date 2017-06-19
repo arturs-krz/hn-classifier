@@ -1,0 +1,26 @@
+{
+	"_id": "12874733",
+	"site": "https://github.com/UprootLabs/poly-flif/",
+	"title": " PolyFLIF, JavaScript decoder for FLIF images",
+	"author": "hrjet",
+	"date": "2017-06-19T10:18:48.196Z",
+	"tags": {
+		"categories": [
+			"flif",
+			"polyfill",
+			"javascript",
+			"image",
+			"animation"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"javascript",
+			"makefile",
+			"shell",
+			"batchfile",
+			"other"
+		]
+	},
+	"content": ""
+}

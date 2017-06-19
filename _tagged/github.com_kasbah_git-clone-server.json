@@ -1,0 +1,21 @@
+{
+	"_id": "13181738",
+	"site": "https://github.com/kasbah/git-clone-server",
+	"title": " Git clone as a microservice",
+	"author": "kasbah",
+	"date": "2017-06-19T09:37:52.830Z",
+	"tags": {
+		"categories": [
+			"git",
+			"clone",
+			"server",
+			"heroku",
+			"microservice"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

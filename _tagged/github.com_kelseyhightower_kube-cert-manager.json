@@ -1,0 +1,14 @@
+{
+	"_id": "12159249",
+	"site": "https://github.com/kelseyhightower/kube-cert-manager",
+	"title": " Kubernetes Certificate Manager – Native Let's Encrypt Integration",
+	"author": "kelseyhightower",
+	"date": "2017-06-19T09:43:49.329Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

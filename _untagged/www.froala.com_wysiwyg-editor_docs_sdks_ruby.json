@@ -1,0 +1,9 @@
+{
+	"_id": "14443981",
+	"site": "https://www.froala.com/wysiwyg-editor/docs/sdks/ruby",
+	"title": " Fastest Way to Integrate Froala WYSIWYG HTML Editor in Your Rails App",
+	"author": "froala",
+	"date": "2017-06-16T07:57:31.920Z",
+	"tags": [],
+	"content": "menu * pricing * demos * docs * support * login * download× * to docs * install configure * image * server upload * server delete * s3 upload * resize * validation * image manager * simple server * file * server upload * server delete * s3 upload * validation * references * image * file * s3star ruby sdk froala wysiwyg editor github our ruby geminside gem file need add gem 'froala-editor-sdk' then run:bundle installsample applicationhttps://github.com/froala/editor-ruby-sdk-example us * froala * blog * terms * privacy * careerswysiwyg editor * pricing * help center * version 1.2 * migrate v1 * contactlearning * features * innovations * download * docs * examples're social * facebook * twitter * google+ * linkedin * github"
+}

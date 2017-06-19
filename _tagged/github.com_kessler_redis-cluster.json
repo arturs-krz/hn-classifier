@@ -1,0 +1,14 @@
+{
+	"_id": "8548457",
+	"site": "https://github.com/kessler/redis-cluster",
+	"title": " A hashring-based Redis cluster",
+	"author": "ikessler",
+	"date": "2017-06-19T10:52:20.946Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

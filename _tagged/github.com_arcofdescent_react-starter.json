@@ -1,0 +1,22 @@
+{
+	"_id": "13742809",
+	"site": "https://github.com/arcofdescent/react-starter",
+	"title": " A simple starter/learner kit for Redux+React",
+	"author": "arc_of_descent",
+	"date": "2017-06-19T09:44:12.775Z",
+	"tags": {
+		"categories": [
+			"react",
+			"redux",
+			"javascript",
+			"webpack"
+		],
+		"languages": [
+			"vim script",
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

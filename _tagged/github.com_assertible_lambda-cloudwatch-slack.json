@@ -1,0 +1,18 @@
+{
+	"_id": "12175897",
+	"site": "https://github.com/assertible/lambda-cloudwatch-slack",
+	"title": " Better Slack Notifications for AWS CloudWatch via Lambda",
+	"author": "CodyReichert",
+	"date": "2017-06-19T08:42:32.365Z",
+	"tags": {
+		"categories": [
+			"slack-notifications",
+			"aws-lambda"
+		],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}
