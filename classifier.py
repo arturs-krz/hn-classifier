@@ -176,4 +176,5 @@ for filename in listdir("./_untagged/"):
         resource = json.load(data)
         title = clean(resource['title'])
         vec_title = pad_to_size(vectorize_title(title), max_size)
-        print("{} = > {}".format(resource['title'], get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
+        feed_dict = {data: [vec_title]}
+        print("{} => {}".format(resource['title'], get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict))))
