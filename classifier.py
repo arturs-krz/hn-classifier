@@ -1,11 +1,14 @@
 import json
 import tensorflow as tf
 import string
+import re
 import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
 from os import listdir
+from nltk.corpus import stopwords
 
 word_vec = KeyedVectors.load_word2vec_format('./embeddings.bin.gz', binary=True)
+common = set(stopwords.words('english'))
 
 # print(word_vec['react'])
 # print(word_vec['javascript'])
@@ -48,6 +51,16 @@ def create_class_vec(tags):
     hot_val = 1.0 / num_tags
     vec = [hot_val if a in tags else 0.0 for a in aliases]
     return vec
+
+def clean(seq):
+    seq = " ".join(filter(lambda w: not w in common, seq.split()))
+    seq = re.sub('[^\x00-\xFF]', '', seq)
+    seq = re.sub('(?:\r\n|\r|\n)', '', seq)
+    seq = re.sub('(?:\\[rn])+', '', seq)
+    seq = re.sub('\t', '', seq)
+    seq = re.sub(' +(?= )', '', seq)
+    return seq.lower().strip()
+    
 
 def vectorize_title(title):
     title = title.translate(str.maketrans('', '', string.punctuation)).split()
@@ -97,7 +110,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 100
+num_hidden = 200
 
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
@@ -125,11 +138,13 @@ train_step = optimizer.minimize(cross_entropy)
 
 init = tf.initialize_all_variables()
 sess = tf.Session()
+
+saver = tf.train.Saver()
 sess.run(init)
 
 batch_size = 100
 batch_count = int(len(input_data) / batch_size)
-epochs = 250
+epochs = 350
 for e in range(epochs):
     ptr = 0
     entropy_val = 0
@@ -142,14 +157,20 @@ for e in range(epochs):
     
     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
 
+saver.save(sess, "model.ckpt")
+
 tests = [
     "dosycrypt homemade symmetric stream cipher with tunable parameters",
     "blur photo background in ten seconds",
     "basic manga reader powered by vue js",
     "free search engine for everybody",
-    "argskwargs, flexible python lib for positional and keyword arguments"
+    "argskwargs, flexible python lib for positional and keyword arguments",
+    "strukt visual shell for tabular data"
 ]
 
-for test in tests:
-    vec_title = pad_to_size(vectorize_title(test), max_size)
-    print("{} = > {}".format(test, get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
+for filename in listdir("./_untagged/"):
+    with open("./_untagged/" + filename, encoding='utf-8') as data:
+        resource = json.load(data)
+        title = clean(resource['title'])
+        vec_title = pad_to_size(vectorize_title(resource['title']))
+        print("{} = > {}".format(test, get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
