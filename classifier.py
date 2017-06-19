@@ -142,22 +142,24 @@ sess = tf.Session()
 saver = tf.train.Saver()
 sess.run(init)
 
-batch_size = 100
-batch_count = int(len(input_data) / batch_size)
-epochs = 350
-for e in range(epochs):
-    ptr = 0
-    entropy_val = 0
-    for i in range(batch_count):
-        inp = input_data[ptr:ptr+batch_size]
-        out = labels[ptr:ptr+batch_size]
-        ptr += batch_size
-        train_step.run(session=sess,feed_dict={data: inp, target: out})
-        entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
-    
-    print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
+saver.restore(sess, "model.ckpt")
 
-saver.save(sess, "model.ckpt")
+# batch_size = 100
+# batch_count = int(len(input_data) / batch_size)
+# epochs = 350
+# for e in range(epochs):
+#     ptr = 0
+#     entropy_val = 0
+#     for i in range(batch_count):
+#         inp = input_data[ptr:ptr+batch_size]
+#         out = labels[ptr:ptr+batch_size]
+#         ptr += batch_size
+#         train_step.run(session=sess,feed_dict={data: inp, target: out})
+#         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
+    
+#     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
+
+# saver.save(sess, "model.ckpt")
 
 tests = [
     "dosycrypt homemade symmetric stream cipher with tunable parameters",
@@ -172,5 +174,5 @@ for filename in listdir("./_untagged/"):
     with open("./_untagged/" + filename, encoding='utf-8') as data:
         resource = json.load(data)
         title = clean(resource['title'])
-        vec_title = pad_to_size(vectorize_title(resource['title']))
+        vec_title = pad_to_size(vectorize_title(resource['title']), max_size)
         print("{} = > {}".format(test, get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
