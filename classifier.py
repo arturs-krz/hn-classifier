@@ -53,6 +53,7 @@ def create_class_vec(tags):
     return vec
 
 def clean(seq):
+    seq = seq.replace("Show HN:", "")
     seq = " ".join(filter(lambda w: not w in common, seq.split()))
     seq = re.sub('[^\x00-\xFF]', '', seq)
     seq = re.sub('(?:\r\n|\r|\n)', '', seq)
@@ -136,7 +137,7 @@ cross_entropy = -tf.reduce_sum(target * tf.log(tf.clip_by_value(prediction, 1e-1
 optimizer = tf.train.AdamOptimizer()
 train_step = optimizer.minimize(cross_entropy)
 
-init = tf.initialize_all_variables()
+init = tf.global_variables_initializer()
 sess = tf.Session()
 
 saver = tf.train.Saver()
@@ -175,4 +176,4 @@ for filename in listdir("./_untagged/"):
         resource = json.load(data)
         title = clean(resource['title'])
         vec_title = pad_to_size(vectorize_title(resource['title']), max_size)
-        print("{} = > {}".format(test, get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
+        print("{} = > {}".format(resource['title'], get_top_tags(prediction.eval(session=sess, feed_dict={data: [vec_title]}))))
