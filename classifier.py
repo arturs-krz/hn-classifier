@@ -172,8 +172,8 @@ tests = [
 ]
 
 for filename in listdir("./_untagged/"):
-    with open("./_untagged/" + filename, encoding='utf-8') as data:
-        resource = json.load(data)
+    with open("./_untagged/" + filename, encoding='utf-8') as untagged:
+        resource = json.load(untagged)
         title = clean(resource['title'])
         vec_title = pad_to_size(vectorize_title(title), max_size)
         feed_dict = {data: [vec_title]}
