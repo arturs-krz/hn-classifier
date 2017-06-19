@@ -174,7 +174,7 @@ tests = [
 for filename in listdir("./_untagged/"):
     with open("./_untagged/" + filename, encoding='utf-8') as untagged:
         resource = json.load(untagged)
-        title = clean(resource['title'])
+        title = clean(resource['title'].encode('utf-8'))
         vec_title = pad_to_size(vectorize_title(title), max_size)
         feed_dict = {data: [vec_title]}
         print("{} => {}".format(resource['title'], get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict))))
