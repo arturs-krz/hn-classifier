@@ -1,0 +1,21 @@
+{
+	"_id": "13773434",
+	"site": "https://github.com/AKSHAYUBHAT/DeepVideoAnalytics/",
+	"title": " A visual search platform using TensorFlow, Django and Docker",
+	"author": "aub3bhat",
+	"date": "2017-06-19T10:06:06.483Z",
+	"tags": {
+		"categories": [
+			"data-science", "devops"
+		],
+		"languages": [
+			"python",
+			"jupyter notebook",
+			"html",
+			"css",
+			"protocol buffer",
+			"php"
+		]
+	},
+	"content": ""
+}

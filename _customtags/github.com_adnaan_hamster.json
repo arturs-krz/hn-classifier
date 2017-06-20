@@ -1,0 +1,14 @@
+{
+	"_id": "6130767",
+	"site": "https://github.com/adnaan/hamster",
+	"title": " Hamster, A Backend as a Service written in Go",
+	"author": "realrocker",
+	"date": "2017-06-19T10:53:33.433Z",
+	"tags": {
+		"categories": ["cloud", "development"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

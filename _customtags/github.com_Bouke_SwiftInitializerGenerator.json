@@ -1,0 +1,18 @@
+{
+	"_id": "12534243",
+	"site": "https://github.com/Bouke/SwiftInitializerGenerator",
+	"title": " Xcode 8 Source Code Extension to Generate Swift Initializers",
+	"author": "bouke",
+	"date": "2017-06-19T08:46:23.346Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"xcode-extension",
+			"code-generator"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

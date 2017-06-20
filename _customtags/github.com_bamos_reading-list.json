@@ -1,0 +1,21 @@
+{
+	"_id": "9395466",
+	"site": "https://github.com/bamos/reading-list",
+	"title": " My reading list website",
+	"author": "bdamos",
+	"date": "2017-06-19T10:58:49.736Z",
+	"tags": {
+		"categories": [
+			"python"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"html",
+			"shell",
+			"ruby",
+			"haskell"
+		]
+	},
+	"content": ""
+}

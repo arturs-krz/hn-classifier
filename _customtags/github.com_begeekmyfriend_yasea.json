@@ -1,0 +1,33 @@
+{
+	"_id": "11807372",
+	"site": "https://github.com/begeekmyfriend/yasea",
+	"title": " Android live streaming client over RTMP in pure Java",
+	"author": "begeekmyfriend",
+	"date": "2017-06-19T10:45:53.426Z",
+	"tags": {
+		"categories": [
+			"rtmp",
+			"android",
+			"rtmp-stream",
+			"camera",
+			"media",
+			"live-streaming",
+			"android-sdk",
+			"android-library",
+			"gles",
+			"shader",
+			"opengles",
+			"glsl"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"java",
+			"assembly",
+			"glsl",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "13191535",
+	"site": "https://github.com/amalfra/dashing-mongo",
+	"title": " MongoDb widget for Dashing",
+	"author": "amalfra",
+	"date": "2017-06-19T08:37:00.643Z",
+	"tags": {
+		"categories": [
+			"widget",
+			"mongodb",
+			"dashing"
+		],
+		"languages": [
+			"css",
+			"coffeescript",
+			"ruby",
+			"html"
+		]
+	},
+	"content": ""
+}

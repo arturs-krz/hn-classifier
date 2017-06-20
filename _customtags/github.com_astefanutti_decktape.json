@@ -1,0 +1,22 @@
+{
+	"_id": "9765281",
+	"site": "https://github.com/astefanutti/decktape",
+	"title": " DeckTape – PDF exporter for HTML5 presentation frameworks",
+	"author": "astefanutti",
+	"date": "2017-06-19T08:42:58.886Z",
+	"tags": {
+		"categories": [
+			"pdf",
+			"exporter",
+			"converter",
+			"html",
+			"html5",
+			"presentations",
+			"slides"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

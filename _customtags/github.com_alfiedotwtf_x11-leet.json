@@ -1,0 +1,15 @@
+{
+	"_id": "9089233",
+	"site": "https://github.com/alfiedotwtf/x11-leet",
+	"title": " x11-leet – turn your machine into a leet workstation",
+	"author": "alfiedotwtf",
+	"date": "2017-06-19T09:53:54.085Z",
+	"tags": {
+		"categories": ["tools", "system"],
+		"languages": [
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

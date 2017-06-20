@@ -1,0 +1,17 @@
+{
+	"_id": "13985784",
+	"site": "https://github.com/ademakov/RNG",
+	"title": " A state-of-the-art C++ random number generator",
+	"author": "avdicius",
+	"date": "2017-06-19T10:00:01.376Z",
+	"tags": {
+		"categories": [
+			"development", "security", "library"
+		],
+		"languages": [
+			"c++",
+			"makefile"
+		]
+	},
+	"content": ""
+}

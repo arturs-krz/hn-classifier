@@ -1,0 +1,20 @@
+{
+	"_id": "10264970",
+	"site": "https://github.com/anko/eslisp",
+	"title": " Eslisp – Minimal JavaScript S-expression syntax and macro system",
+	"author": "an_ko",
+	"date": "2017-06-19T08:42:48.691Z",
+	"tags": {
+		"categories": [
+			"macro",
+			"javascript",
+			"lisp",
+			"compiler"
+		],
+		"languages": [
+			"livescript",
+			"other"
+		]
+	},
+	"content": ""
+}

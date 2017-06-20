@@ -1,0 +1,17 @@
+{
+	"_id": "14382441",
+	"site": "https://github.com/ambewas/react-style-hoc",
+	"title": " Styles as composable higher order components (React)",
+	"author": "ambewas",
+	"date": "2017-06-13T13:07:23.723Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md installation:yarn add react-style-hoc if prefer npm:npm install --save react-style-hoc[motivation] why i to compose styles functions...?!great question! purpose this repository is allow to declare styles functions, are composable, return react higher order component. direct benefit which is it becomes possible create reusable hocs styling. is probably very useful 'looks--feel' styles (everything 'inside component box') - more things have do positioning. separating those concerns is good idea any case, this provides with tool do .a simple example be define flex centerer, would something this:const mycomponent = ({style}) => <div style={style}>unstyled</div>const isflexbox = createstylehoc('display', 'flex');const centerschidren = createstylehoc({alignitems: 'center', justifycontent: 'center'}, '');const isflexcenterer = compose( isflexbox, centerschildren) using isflexcenterer it's own a wrapper around mycomponent, this:...export isflexcenterer(mycomponent); style prop mycomponent looks this:{ display: 'flex', alignitems: 'center', justifycontent: 'center',} course, power composing styles becomes fully clear once start composing different helpers. can compare to using mixins a css preprocessor such sass less.const isfullystyled = compose( withmargin(20), withpadding(40), isflexcenterer, withcolor, ....) is very young library, contributions very welcome!development:yarn installnpm run watch:jsrun tests: npm testexample:run example app to :import react, { component } 'react';import { withpadding, withmargin, compose, createstylehoc } 'react-style-hoc';compose styles our default provided style hocsconst withpaddingandmargin = compose( withpadding(20), withmargin(50),);... create own style hocs using createstylehoc:pass string (style key). everything here is curried, if default value is provided, still to call withcolor a value -> usage withallstylesconst withcolor = createstylehoc('color');pass style key & value arguments:const withsomerandomstyleasarguments = createstylehoc('display', 'flex');pass object default styles applied:note: need second argument. still need figure how get rid that. should even expose kind api? thoughts are welcome.const withsomerandomstyleasobject = createstylehoc({ background: 'purple',}, '');compose previously made styles one!const withallstyles = compose( withsomerandomstyleasarguments, withsomerandomstyleasobject, withpaddingandmargin, withcolor('#78a5ff'),) the hoc your stateless components:note: can still provide other default style a prop, hoc styles be applied -- so possible override everything. e.g. we have provided {padding: '1px'}, withpadding(20) before not any effect.const teststateless = ({ children, style }) => <div style={style}>{children}</div>const styled = withallstyles(teststateless);class app extends component { render() { return ( <div classname=\"app\"> hello <styled style={{border: '1px solid red'}}> <div> padding, composed margin</div> <div>test</div> <div>test</div> <div>test</div> <div>test</div> </styled> </div> ); }}export default app;contributingplease our guidelines contributing.md you to contribute something this library.licensemit licensed. copyright (c) kevin decock 2017."
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14495153",
+	"site": "https://github.com/bastikr/QuantumOptics.jl",
+	"title": "Quantum Simulations with Julia",
+	"author": "HaoZeke",
+	"date": "2017-06-13T14:10:07.976Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"julia",
+			"quantum",
+			"quantum-mechanics",
+			"quantum-optics",
+			"quantum-toolbox"
+		],
+		"languages": [
+			"julia"
+		]
+	},
+	"content": "readme.md quantumoptics.jl is numerical framework written julia makes easy simulate various kinds quantum systems. is inspired the quantum optics toolbox matlab the python framework qutip.more information, documentation examples be found our website http://qojulia.org."
+}

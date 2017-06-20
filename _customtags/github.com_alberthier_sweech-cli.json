@@ -1,0 +1,16 @@
+{
+	"_id": "14521174",
+	"site": "https://github.com/alberthier/sweech-cli",
+	"title": " Sweech-cli: console tool to copy files to your Android phone over Wifi",
+	"author": "alberthier",
+	"date": "2017-06-13T13:04:19.142Z",
+	"tags": {
+		"categories": [
+			"mobile", "tools", "system"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst sweech command line interface's ?it's command line tool interact sweech wifi file transfer.sweech is android app which can browse content your phone transfer files. 's based an http server. tool interacts sweech's http api. can push pull files wifi directly your favorite shellok, show !nice, do get ?use python's pip$ pip install sweech-cli download python script add to $path$ curl -o sweech https://raw.githubusercontent.com/alberthier/sweech-cli/master/sweech.py$ wget -o sweech https://raw.githubusercontent.com/alberthier/sweech-cli/master/sweech.py do use ?the sweech tool is totally standalone:$ sweech -u http://192.168.0.65 info may practical create config file containing connection settings: ~/.config/sweech.json linux/macos, %appdata%/sweech.json windowshere is example file a phone having 192.168.0.65 ip address{ \"url\": \"http://192.168.0.65:4444\", \"user\": \"\", \"password\": \"\", \"defaultdir\": \"/storage/emulated/0/downloads\"} you define defaultdir, relative remote paths be interpreted relatively this default directory.assuming have added sweech your path:$ sweech infoprints information default paths your device$ sweech ls /storage/emulated/0/downloadlist content a folder display details a file$ sweech push testdirpushes files directories a remote path. no remote file is specified, defaultdir is used can create files directories the internal storage. external storage (sd card) is writable too you granted sweech authorisation the app's settings. --keep option uploads missing files the remote device. existing files are left untouched.$ sweech pull testdirpull files folders the remote device a local folder. remote file path is relative, defaultdir is used base --keep option downloads missing local files. existing files are left untouched.$ sweech mkdir testdircreates directory. missing intermediate directories are created too$ sweech rm //pathremoves file a directory ( its content)$ sweech mv //path //otherpathmoves file a directory ( its content). moving files between directories may slow some circumstances (between different storages, external sd card android pre 7.0)$ sweech cat /path//some/file.txtdisplays content a file what i to it my python script ?simply import sweech module use connector object. cli commands their equivalent method:import sweechc = sweech.connector('http://192.168.0.11:4444')print(c.info()) f c.ls('/storage/emulated/0/download'): print(f) open('test.txt', 'wt') f: f.write('hello world')c.push('test.txt', '/storage/emulated/0/download')c.pull('/storage/emulated/0/download/test.txt', '/tmp')f = c.cat('/storage/emulated/0/download/test.txt')print(f.read().decode('utf-8'))f.close()c.mkdir('/storage/emulated/0/download/testdir')c.mv('/storage/emulated/0/download/testdir', '/storage/emulated/0/download/testdir2')c.rm('/storage/emulated/0/download/testdir2')dependenciespython 2.7 python 3.5+contributingreport issues herepull-requests welcome !"
+}

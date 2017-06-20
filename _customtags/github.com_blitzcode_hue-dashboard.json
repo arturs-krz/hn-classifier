@@ -1,0 +1,23 @@
+{
+	"_id": "11649859",
+	"site": "https://github.com/blitzcode/hue-dashboard",
+	"title": " Haskell and RPi powered web interface for controlling Philips Hue lights",
+	"author": "SirRockALot",
+	"date": "2017-06-19T10:02:43.766Z",
+	"tags": {
+		"categories": [
+			"philips-hue",
+			"haskell",
+			"raspberry-pi",
+			"home-automation",
+			"dashboard",
+			"web-interface"
+		],
+		"languages": [
+			"haskell",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

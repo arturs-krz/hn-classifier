@@ -1,0 +1,21 @@
+{
+	"_id": "11026185",
+	"site": "https://github.com/brakmic/BackbonePlayground",
+	"title": " Backbone.JS Playground with Marionette.JS",
+	"author": "brakmic",
+	"date": "2017-06-19T08:42:28.931Z",
+	"tags": {
+		"categories": [
+			"backbone",
+			"marionettejs",
+			"playground"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "13589525",
+	"site": "https://github.com/astashov/crosshub-chrome-extension",
+	"title": " Crosshub – Chrome extension for code nav on GitHub for TypeScript",
+	"author": "astashov",
+	"date": "2017-06-19T09:53:35.585Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"chrome-extension",
+			"github-extension",
+			"chrome"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

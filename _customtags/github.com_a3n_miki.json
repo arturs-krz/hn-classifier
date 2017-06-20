@@ -1,0 +1,15 @@
+{
+	"_id": "13862833",
+	"site": "https://github.com/a3n/miki",
+	"title": " Miki: Makefile Wiki, Minimal makefile-based personal wiki",
+	"author": "a3n",
+	"date": "2017-06-19T10:36:55.081Z",
+	"tags": {
+		"categories": ["development", "tools"],
+		"languages": [
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

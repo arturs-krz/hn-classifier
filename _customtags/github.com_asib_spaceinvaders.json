@@ -1,0 +1,15 @@
+{
+	"_id": "10078928",
+	"site": "https://github.com/asib/spaceinvaders",
+	"title": " A terminal Space Invaders game",
+	"author": "asib",
+	"date": "2017-06-19T11:00:39.628Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

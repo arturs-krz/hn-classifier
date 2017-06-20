@@ -1,0 +1,16 @@
+{
+	"_id": "11830237",
+	"site": "https://github.com/alexk307/redis_cache",
+	"title": " Python decorator for function level Redis caching",
+	"author": "alexk307",
+	"date": "2017-06-19T08:46:44.118Z",
+	"tags": {
+		"categories": [
+			"development", "database"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

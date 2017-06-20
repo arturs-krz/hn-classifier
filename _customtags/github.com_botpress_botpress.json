@@ -1,0 +1,28 @@
+{
+	"_id": "13383238",
+	"site": "https://github.com/botpress/botpress",
+	"title": " Botpress – Open-Source Bots Platform Written in JavaScript",
+	"author": "slvnperron",
+	"date": "2017-06-19T08:42:27.569Z",
+	"tags": {
+		"categories": [
+			"chatbot",
+			"bot",
+			"chat",
+			"botpress",
+			"bot-framework",
+			"sdk",
+			"bot-builder",
+			"microsoft-bot-framework",
+			"botkit",
+			"botkit-bots",
+			"bots"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

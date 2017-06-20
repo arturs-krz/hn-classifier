@@ -1,0 +1,15 @@
+{
+	"_id": "13428632",
+	"site": "https://github.com/alexellis/minio-gauge",
+	"title": " File-server activity gauge with LEDs & Raspberry Pi",
+	"author": "alexellisuk",
+	"date": "2017-06-19T10:00:22.352Z",
+	"tags": {
+		"categories": ["monitoring", "system"],
+		"languages": [
+			"python",
+			"javascript"
+		]
+	},
+	"content": ""
+}

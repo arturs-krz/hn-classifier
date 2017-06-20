@@ -1,0 +1,25 @@
+{
+	"_id": "13892159",
+	"site": "https://github.com/beauty-enjoy/beauty",
+	"title": " Coding with girls",
+	"author": "netpi",
+	"date": "2017-06-19T08:43:59.859Z",
+	"tags": {
+		"categories": [
+			"vuex",
+			"firebase",
+			"beauty",
+			"vue",
+			"website",
+			"ssr",
+			"vuessr"
+		],
+		"languages": [
+			"javascript",
+			"vue",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "9716589",
+	"site": "https://github.com/alediaferia/stackgo",
+	"title": " Stackgo – A slice-based implementation of a stack. In Go",
+	"author": "alediaferia",
+	"date": "2017-06-19T10:26:27.091Z",
+	"tags": {
+		"categories": ["development", "library"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

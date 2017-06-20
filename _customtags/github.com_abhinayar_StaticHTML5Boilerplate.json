@@ -1,0 +1,19 @@
+{
+	"_id": "14422222",
+	"site": "https://github.com/abhinayar/StaticHTML5Boilerplate",
+	"title": "Ludicrously Simple HTML5 Boilerplate Repo",
+	"author": "anayar",
+	"date": "2017-06-13T13:56:31.513Z",
+	"tags": {
+		"categories": [
+			"development",
+			"premade"
+		],
+		"languages": [
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md ludicrously simple static website framework boilerplate code static site generation.got sick rewriting pulling code and again. clone, edit push - static site.includes default theme the idea is write go.mit license. whatever want! 's github. to this?clone repository git clone https://github.com/abhinayar/statichtml5boilerplateedit index.html, /public/css/pages/index.css, /public/js/main.jspush a github repository follow instructions here https://pages.github.com/ does include?jquery cdn local fallback http://code.jquery.com/bootstrap cdn local fallback http://getbootstrap.com/modernizr cdn local fallback https://modernizr.com/google analytics code http://analytics.google.com/normalizecss cdn local fallback https://necolas.github.io/normalize.css/roboto (light, medium, bold) font google fonts http://fonts.google.com/compatibility => html5shim, lt-ie-9, es5-shim, es5-sham (local)console shim non console browsers (local)meta tags social sharing (fb, twitter, etc.) + example meta imagegoogle analytics verification, fb pixel other opinionated analytics/script suggestionsfavicons, apple touch icons, msappicons templates /iconsmain.css file (unminified) some small templating styles + common media queriessuggestions? comments?send email anayar2[]gmail.comwhy was made?sometimes don't node, don't rails, don't every damn package under sun. just a damn boilerplate html/css/js package can plop the browser run. wah-la. barebones deps., lightweight, ready go. you any suggestions improvement please reach ."
+}

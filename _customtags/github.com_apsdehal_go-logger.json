@@ -1,0 +1,18 @@
+{
+	"_id": "8380740",
+	"site": "https://github.com/apsdehal/go-logger",
+	"title": " Simple logger and debugger for Go programs",
+	"author": "apsdehal",
+	"date": "2017-06-19T09:45:16.263Z",
+	"tags": {
+		"categories": [
+			"logger",
+			"golang",
+			"logging-library"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

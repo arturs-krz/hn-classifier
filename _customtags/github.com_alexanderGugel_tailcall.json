@@ -1,0 +1,14 @@
+{
+	"_id": "9919312",
+	"site": "https://github.com/alexanderGugel/tailcall",
+	"title": " Eliminate tail recursive function calls via AST transform",
+	"author": "blubbi2",
+	"date": "2017-06-19T10:08:47.778Z",
+	"tags": {
+		"categories": ["development"],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

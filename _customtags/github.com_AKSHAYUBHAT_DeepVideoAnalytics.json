@@ -1,0 +1,21 @@
+{
+	"_id": "14211048",
+	"site": "https://github.com/AKSHAYUBHAT/DeepVideoAnalytics",
+	"title": " Deep learning visual search and data analytics",
+	"author": "aub3bhat",
+	"date": "2017-06-13T13:33:03.983Z",
+	"tags": {
+		"categories": [
+			"data-science", "monitoring"
+		],
+		"languages": [
+			"python",
+			"jupyter notebook",
+			"html",
+			"css",
+			"php",
+			"shell"
+		]
+	},
+	"content": "readme.md deep video analytics don't worried complexity this banner, latest version docker installed correctly, can run deep video analytics minutes locally ( without gpu) using single command.data & processing modelauthor: akshay bhat, cornell university.deep video analytics is platform indexing extracting information videos images. installation instructions & demo to https://www.deepvideoanalytics.comlibraries used/modified code their licenseslibrarylink the licenseyad2kmit licenseadminlte2mit licensefabricjsmit licensefacenetmit licensejsfeatmit licensemtcnnmit licensecrnn.pytorchmit licenseoriginal crnn code baoguang shimit licensemodified pyscenedetectbsd 2-clausesegment annotatorbsd 3-clausemodified ssd-tensorflowapache 2.0 license (individual files)lopqapache 2.0 licenseopen images pre-trained networkapache 2.0 licenseadditionally following libraries & frameworks are installed building/running containerffmpeg ( linked, called via subprocess)tensorflowopencvnumpypytorchdockernvidia-dockerdocker-compose packages requirements.txt & used dockerfiles.license & copyrightcopyright 2016-2017, akshay bhat, cornell university, rights reserved.contactdeep video analytics is currently active development. license be relaxed once a stable release version is reached.please contact for more information. more information answer this issue"
+}

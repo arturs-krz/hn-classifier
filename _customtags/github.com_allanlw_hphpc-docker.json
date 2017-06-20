@@ -1,0 +1,15 @@
+{
+	"_id": "13152089",
+	"site": "https://github.com/allanlw/hphpc-docker",
+	"title": " Docker template for HPHPc",
+	"author": "awirth",
+	"date": "2017-06-19T10:09:35.405Z",
+	"tags": {
+		"categories": ["devops"],
+		"languages": [
+			"shell",
+			"php"
+		]
+	},
+	"content": ""
+}

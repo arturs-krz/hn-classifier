@@ -1,0 +1,18 @@
+{
+	"_id": "14406561",
+	"site": "https://github.com/agherzan/syncit",
+	"title": "Syncit: Sync files, directories or the entire filesystem with durability in mind",
+	"author": "alephan",
+	"date": "2017-06-13T13:56:41.912Z",
+	"tags": {
+		"categories": [
+			"system", "tools"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"c++"
+		]
+	},
+	"content": "readme.md syncit small tool provides ability sync files directories while ensuring durability. supports:sync disk file a directory while making sure parent directory is fsync'ed toosync disk the buffered modificationssync disk filesystem which specific file residesinstall you arch linux? 're luck: https://aur.archlinux.org/packages/syncit/ . cheers <gergely [] imreh [dot] net>!otherwise:make install to when ran without file argument will behave a normal sync. a file argument is provided tool fsync file ( can a directory too) the parent directory ensure durability data. -f option is used, will sync entire filesystem specified file resides .check help:syncit --helpcontributions to contribute? great! throw pull requests us."
+}

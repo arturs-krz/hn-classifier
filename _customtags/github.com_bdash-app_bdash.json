@@ -1,0 +1,22 @@
+{
+	"_id": "13596434",
+	"site": "https://github.com/bdash-app/bdash",
+	"title": " Bdash – A simple business intelligence application",
+	"author": "barlog",
+	"date": "2017-06-19T10:58:21.496Z",
+	"tags": {
+		"categories": [
+			"electron",
+			"sql",
+			"javascript",
+			"visualization"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"shell",
+			"html"
+		]
+	},
+	"content": ""
+}

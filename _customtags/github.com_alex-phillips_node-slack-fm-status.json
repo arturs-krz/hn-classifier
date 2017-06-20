@@ -1,0 +1,17 @@
+{
+	"_id": "14153158",
+	"site": "https://github.com/alex-phillips/node-slack-fm-status",
+	"title": " Auto-update Slack status with Last.fm",
+	"author": "alexphillips",
+	"date": "2017-06-13T13:34:47.068Z",
+	"tags": {
+		"categories": [
+			"tools",
+			"productivity"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md slack status updater (last.fm) app, while running, update slack user status what is currently playing the specified last.fm user. the app exists, status change 'no currently playing'.installgit clone https://github.com/alex-phillips/node-slack-fm-statuscd node-slack-fm-statusnpm installonce cloned, simply copy .env.example file fill the necessary credentials. just run run.js your last.fm username:node run.js lastfm_username"
+}

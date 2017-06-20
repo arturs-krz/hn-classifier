@@ -1,0 +1,21 @@
+{
+	"_id": "12993594",
+	"site": "https://github.com/anantzoid/Conditional-PixelCNN-decoder",
+	"title": " Tensorflow implementation of Conditional PixelCNN",
+	"author": "anantzoid",
+	"date": "2017-06-19T10:14:56.108Z",
+	"tags": {
+		"categories": [
+			"deep-learning",
+			"generative-algorithm",
+			"paper",
+			"convolution",
+			"deepmind",
+			"tensorflow"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

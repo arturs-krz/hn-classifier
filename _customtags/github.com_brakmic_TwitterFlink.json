@@ -1,0 +1,19 @@
+{
+	"_id": "10979022",
+	"site": "https://github.com/brakmic/TwitterFlink",
+	"title": " Twitter-Streaming with Apache Flink",
+	"author": "brakmic",
+	"date": "2017-06-19T08:44:24.918Z",
+	"tags": {
+		"categories": [
+			"apache-flink",
+			"scala",
+			"jvm",
+			"bigdata"
+		],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

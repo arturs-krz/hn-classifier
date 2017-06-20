@@ -1,0 +1,14 @@
+{
+	"_id": "7994285",
+	"site": "https://github.com/9uuso/do-go-ssh",
+	"title": " Create ssh hostname rules from your DigitalOcean servers with ease",
+	"author": "Jhsto",
+	"date": "2017-06-19T10:09:16.881Z",
+	"tags": {
+		"categories": ["tools", "system", "devops"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

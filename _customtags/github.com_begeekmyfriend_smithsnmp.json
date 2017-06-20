@@ -1,0 +1,24 @@
+{
+	"_id": "13487940",
+	"site": "https://github.com/begeekmyfriend/smithsnmp",
+	"title": " SNMP agent customizing private MIB with Lua",
+	"author": "begeekmyfriend",
+	"date": "2017-06-19T08:46:16.112Z",
+	"tags": {
+		"categories": [
+			"snmp",
+			"snmp-agent",
+			"snmp-devices",
+			"snmpv2-trap",
+			"lua"
+		],
+		"languages": [
+			"c",
+			"lua",
+			"python",
+			"c++",
+			"shell"
+		]
+	},
+	"content": ""
+}

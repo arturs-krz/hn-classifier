@@ -1,0 +1,19 @@
+{
+	"_id": "14377795",
+	"site": "https://github.com/ajitsing/pairing_matrix",
+	"title": "Extreme Programming: Pairing Matrix",
+	"author": "ajitsing",
+	"date": "2017-06-13T13:57:06.924Z",
+	"tags": {
+		"categories": [
+			"media", "development"
+		],
+		"languages": [
+			"javascript",
+			"ruby",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md pairingmatrix to read matrix?1. matrix is purely based commits.2. darker line more pair has worked together.3. you a dark red circle around name means person has worked aloneinstallationadd line your application's gemfile:gem 'pairing_matrix' then execute:$ bundle install yourself :$ gem install pairing_matrixusage of you need decide format your commit messages e.g.#feature [dev1/dev2] commit message can choose format long you are able extract dev names the message using regex.once have decided the commit message format, create pairing_matrix.yml file.authors_regex: ^.*\\[([\\w]*)(?:\\/)?([\\w]*)\\].*$github_access_token: 000324cff69wes5613f732c345hn679c0knt509cgithub_repos: - org1/repo1 - org1/repo2 - github_username/my_private_repoauthors_regex: regex is used extract dev names the commit message. can verify regex irb console using below command. your regex is correct will return array dev names.e.g\"#4324 [ajit/abhishek] commit message\".scan(/^.*\\[([\\w]*)(?:\\/)?([\\w]*)\\].*$/).flatten=> [\"ajit\", \"abhishek\"]github_access_token: you to private github repos matrix, create github_access_token give the repo read permission. here is you create token: https://help.github.com/articles/creating--personal-access-token--the-command-line/github_repos:list repos you to for matrix. you your repos inside organization follow org/repo format else mention github_username/repo. after installing pairing matrix gem, simply run pairing_matrix command the repo where have pairing_matrix.yml file. command start web server. hit url localhost:4567/matrix the browser. example pairing_matrix.ymlhere is sample pairing_matrix.yml fileauthors_regex: ^.*\\[([\\w]*)(?:\\/)?([\\w]*)\\].*$repos: - /users/ajit/projects/project1 - /users/ajit/projects/project2 - /users/ajit/projects/project3 above config fetch data directly your local repositories. to fetch private repos data directly github?authors_regex: ^.*\\[([\\w]*)(?:\\/)?([\\w]*)\\].*$github_access_token: 000324cff69wes5613f732c345hn679c0knt509cgithub_repos: - org1/repo1 - org1/repo2 - github_username/my_private_repofetching data public github reposauthors_regex: ^.*\\[([\\w]*)(?:\\/)?([\\w]*)\\].*$github_repos: - github_username/my_public_repo1 - github_username/my_public_repo2contributingfork ( https://github.com/ajitsing/pairing_matrix/fork )create feature branch (git checkout -b -new-feature)commit changes (git commit -am 'add feature')push the branch (git push origin -new-feature)create new pull requestlicensecopyright (c) 2017 ajit singhmit licensepermission is hereby granted, free charge, any person obtaining copy this software associated documentation files (\"software\"), deal the software without restriction, includingwithout limitation rights use, copy, modify, merge, publish,distribute, sublicense, /or sell copies the software, topermit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind,express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

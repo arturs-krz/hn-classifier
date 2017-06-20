@@ -1,0 +1,19 @@
+{
+	"_id": "14135955",
+	"site": "https://github.com/applecrazy/Love2D-Template",
+	"title": " Love2D-Template, a template with tooling for Love2D projects",
+	"author": "applecrazy",
+	"date": "2017-06-13T13:35:12.531Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"template"
+		],
+		"languages": [
+			"shell",
+			"lua",
+			"makefile"
+		]
+	},
+	"content": "readme.md löve2d-template template löve-2d game development projects, complete build run tooling.dependencieslöve2d (obviously...)sh compatible shellzipgetting startedclone/download repo.open shell, cd this directory, modify build scripts' hashbangs (#!) the shell use. , chmod +x the build scripts build_scripts/ make executable. sure love zip are your path.running projectopen shell run to create build your project. ( build be found under dist.)run build running run. will the build open in löve.packaging distribution the build dist/ follow instructions the löve2d wiki create binary the public.uploading source github is weird caveat, remove .gitignore the dist directory order have builds uploaded too."
+}

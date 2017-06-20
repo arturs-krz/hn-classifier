@@ -1,0 +1,16 @@
+{
+	"_id": "8686947",
+	"site": "https://github.com/austinzheng/swift-lambdatron",
+	"title": " Clojure-ish Lisp interpreter implemented in Swift",
+	"author": "austinz",
+	"date": "2017-06-19T10:12:04.945Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"swift",
+			"html",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

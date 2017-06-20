@@ -1,0 +1,15 @@
+{
+	"_id": "10709997",
+	"site": "https://github.com/agonzalezro/md2slides",
+	"title": " md2slides: Transform markdown files to your favourite presentation tool",
+	"author": "agonzalezro",
+	"date": "2017-06-19T10:27:43.566Z",
+	"tags": {
+		"categories": ["tools", "productivity"],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

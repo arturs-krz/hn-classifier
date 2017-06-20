@@ -1,0 +1,26 @@
+{
+	"_id": "14288677",
+	"site": "https://github.com/bluebookrun/bluebook",
+	"title": " Bluebook – API test management and execution",
+	"author": "tadasv",
+	"date": "2017-06-13T13:31:14.549Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"test-driven-development",
+			"testing-tools",
+			"test-automation",
+			"test-runner",
+			"api-testing",
+			"api-test-platform",
+			"testing"
+		],
+		"languages": [
+			"go",
+			"html",
+			"css",
+			"makefile"
+		]
+	},
+	"content": "readme.md bluebookapi test management execution. is bluebook?inspired terraform, bluebook let's declare run api tests yourservices.installingcurrently can install bluebook source code: get -u github.com/bluebookrun/bluebookexample can some examples regressions/regressions.bcl. short can write api tests look something this:# is exmaple showing you login make authenticated requestresource \"http_assertion\" \"equals_200\" { source = \"status_code\" target = \"200\" comparison = \"equals\"}resource \"http_variable\" \"api_key\" { source = \"json\" property = \"data.api_key\" variable = \"api_key\"}resource \"http_step\" \"authenticate\" { method = \"post\" url = \"http://localhost:12345/authenticate\" body = <<<eofusername=username&password=passwordeof assertions = [ \"${http_assertion.equals_200.id}\", ] variables = [ \"${http_variable.api_key.id}\", ]}resource \"http_step\" \"get_document\" { method = \"\" url = \"http://localhost:12345/document/1?api_key=${var.api_key}\" assertions = [ \"${http_assertion.equals_200.id}\", ]}resource \"http_test\" \"login_and_get_document\" { steps = [ \"${http_step.authenticate.id}\", \"${http_step.get_document.id}\", ]}"
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "11239686",
+	"site": "https://github.com/bitjson/wip",
+	"title": " WIP and naenae – CLI utilities to easily manage Work in Progress with Git",
+	"author": "bitjson",
+	"date": "2017-06-19T11:02:47.171Z",
+	"tags": {
+		"categories": [
+			"wip",
+			"sound-effects",
+			"ship",
+			"git",
+			"work-in-progress",
+			"naenae",
+			"simple",
+			"version-control"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

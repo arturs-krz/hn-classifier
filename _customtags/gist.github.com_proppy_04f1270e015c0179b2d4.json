@@ -1,0 +1,12 @@
+{
+	"_id": "9274020",
+	"site": "https://gist.github.com/proppy/04f1270e015c0179b2d4",
+	"title": " podlet – a tiny hack to launch kubernetes pods on a bare docker host",
+	"author": "proppy",
+	"date": "2017-06-19T10:23:59.584Z",
+	"tags": {
+		"categories": ["devops"],
+		"languages": []
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "12270194",
+	"site": "https://github.com/ahmetalpbalkan/govvv",
+	"title": " Govvv – Easy Go binary versioning tool",
+	"author": "alpb",
+	"date": "2017-06-19T09:37:21.509Z",
+	"tags": {
+		"categories": [
+			"tools", "development"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

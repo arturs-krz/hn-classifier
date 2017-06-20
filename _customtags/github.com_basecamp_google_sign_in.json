@@ -1,0 +1,18 @@
+{
+	"_id": "14459312",
+	"site": "https://github.com/basecamp/google_sign_in",
+	"title": "Sign in (or up) with Google for Rails applications",
+	"author": "doppp",
+	"date": "2017-06-13T13:55:02.265Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rails", 
+			"authentication"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": "readme.md google sign- for railsgoogle sign- provides easy secure to let users signin and for service,without adding yet-another per-app email/password combination. integrating into rails appshould drop- easy. gem makes so. only configuration needed is setting google client id your application. google has tutorial how setup client id.once have client id, create config/initializers/google_sign_in_client_id.rb file this:googlesignin::identity.client_id = < client id got google> you use sign- integration your signup sigin screen.examplehere's most basic example:# app/views/layouts/application.html.erb<html><head><% # required google_sign_in add google js assets meta tags! %><%= yield :head %></head><body><%= yield %></body></html># app/views/sessions/.html.erb<%= google_sign_in(url: session_path) %> # you replace with whatever design please the button. # should follow google's brand guidelines google sign-, though: # https://developers.google.com/identity/branding-guidelines <%= button_tag(\"signin google\") %><% end %> url option is url the hidden form be submitted against along the google id token's set the user has picked account authenticated the pop- window google provides. can use in sessions controller so:class sessionscontroller < applicationcontroller def end def create user = authenticate_via_google cookies.signed[:user_id] = user.id redirect_to user else redirect_to new_session_url, alert: \"authentication_failed\" end end private def authenticate_via_google params[:google_id_token].present? user.find_by google_id: googlesignin::identity.(params[:google_id_token]).user_id end endend( example assumes a user has already signed for service using google sign- and you're storing google user id the user#google_id attribute).'s ! you checkout googlesignin::identity class the thin wrapping provides around decoding the google id token using google-id-token library. interrogating identity object profile details is particularly helpful you google signup, you get name, emailaddress, avatar url, locale through .unreleased gem caveat gem google-id-token is currently behind github repository the release schedule. latest releaseis version 1.3.1 2015. for , you should depend the github version your app's gemfile:gem 'google-id-token', github: 'google/google-id-token'outstanding proper testing. need generate test client_id/google id token combo we use test .cajole google release new version the google-id-token caveat be removed. much more. 'm seeking keep simple, for signin/signup, general google integration.licensegoogle sign- for rails is released under mit license."
+}

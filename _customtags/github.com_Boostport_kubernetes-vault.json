@@ -1,0 +1,19 @@
+{
+	"_id": "13029751",
+	"site": "https://github.com/Boostport/kubernetes-vault",
+	"title": " Use Vault to store your secrets for Kubernetes",
+	"author": "F21Global",
+	"date": "2017-06-19T09:42:06.905Z",
+	"tags": {
+		"categories": [
+			"kubernetes",
+			"vault"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"hcl"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,23 @@
+{
+	"_id": "14018877",
+	"site": "https://github.com/boramalper/magnetico",
+	"title": " Magnetico – self-hosted BitTorrent DHT search engine suite",
+	"author": "boramalper",
+	"date": "2017-06-19T10:08:20.511Z",
+	"tags": {
+		"categories": [
+			"self-hosted",
+			"bittorrent",
+			"dht",
+			"search-engine",
+			"website"
+		],
+		"languages": [
+			"python",
+			"css",
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

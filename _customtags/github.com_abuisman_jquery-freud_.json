@@ -1,0 +1,18 @@
+{
+	"_id": "10161188",
+	"site": "https://github.com/abuisman/jquery-freud/",
+	"title": " A simple jQuery plugin for letting DOM elements behave like components",
+	"author": "mosselman",
+	"date": "2017-06-19T11:04:12.616Z",
+	"tags": {
+		"categories": [
+			"development", "library"
+		],
+		"languages": [
+			"javascript",
+			"coffeescript",
+			"html"
+		]
+	},
+	"content": ""
+}

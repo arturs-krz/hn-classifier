@@ -1,0 +1,18 @@
+{
+	"_id": "13334495",
+	"site": "https://github.com/amalfra/gits",
+	"title": " Tiny bash script for the lazy ones to sync repos with upstream",
+	"author": "amalfra",
+	"date": "2017-06-19T08:39:58.246Z",
+	"tags": {
+		"categories": [
+			"sync",
+			"shell-script",
+			"git"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

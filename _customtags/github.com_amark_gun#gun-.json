@@ -1,0 +1,36 @@
+{
+	"_id": "8489651",
+	"site": "https://github.com/amark/gun#gun-",
+	"title": " Gun – A distributed, embedded, graph database engine",
+	"author": "marknadal",
+	"date": "2017-06-19T10:53:39.039Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"gun",
+			"realtime",
+			"graph",
+			"docker",
+			"reactive",
+			"offline-first",
+			"p2p",
+			"decentralized",
+			"distributed",
+			"data",
+			"big-data",
+			"fault-tolerance",
+			"conflict-resolution",
+			"concurrency",
+			"heroku",
+			"database",
+			"performance",
+			"load-testing",
+			"end-to-end"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

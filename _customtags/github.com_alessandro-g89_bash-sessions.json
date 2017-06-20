@@ -1,0 +1,15 @@
+{
+	"_id": "12729689",
+	"site": "https://github.com/alessandro-g89/bash-sessions",
+	"title": " Bash-sessions, a session manager for the bash shell",
+	"author": "HotblackDesiato",
+	"date": "2017-06-19T11:10:36.657Z",
+	"tags": {
+		"categories": ["tools", "system"],
+		"languages": [
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

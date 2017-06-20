@@ -1,0 +1,17 @@
+{
+	"_id": "10652508",
+	"site": "https://github.com/afainer/cleven",
+	"title": " Cleven – a Common Lisp experimental volume graphics game engine",
+	"author": "afainer",
+	"date": "2017-06-19T09:48:24.040Z",
+	"tags": {
+		"categories": ["games", "development"],
+		"languages": [
+			"common lisp",
+			"c++",
+			"c",
+			"other"
+		]
+	},
+	"content": ""
+}

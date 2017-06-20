@@ -1,0 +1,19 @@
+{
+	"_id": "14429528",
+	"site": "https://github.com/Azure/fast_retraining/",
+	"title": "Fast retraining of machine learning models",
+	"author": "hoaphumanoid",
+	"date": "2017-06-13T13:55:33.863Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"machine-learning"
+		],
+		"languages": [
+			"jupyter notebook",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md fast retraining repo shows to perform fast retraining lightgbm different business cases.project the folder experiments can find different experiments the project. the folder experiment/libs is common code the project.contributing project has adopted microsoft open source code conduct. more information the code conduct faq contact opencode@microsoft.com any additional questions comments.setupinstruction setting on linux microsoft dsvmclone repo your desired locationgit clone https://github.com/azure/fast_retraining.gitcreate conda environment you haven't already done . the command below creates python 3 environment called sbsa.conda create --name strata python=3 anacondaedit activate_env_vars.sh deactivate_env_vars.sh that contain correct information.install command line jason parserapt- install jqactivate conda environmentsource activate strata the currently activated environment assign to env_path. info current env output json | for default_prefix element json | remove quotesenv_path=$(conda info --json | jq '.default_prefix' | tr -d '\"') sure are the environemnt folder the project run followingactivate_script_path=$(readlink -f activate_env_vars.sh)deactivate_script_path=$(readlink -f deactivate_env_vars.sh) we create activation deactivation scripts make sure point our modified activation deactivation scripts our environment foldermkdir -p $env_path/etc/conda/activate.dmkdir -p $env_path/etc/conda/deactivate.decho 'source '$activate_script_path >> $env_path/etc/conda/activate.d/env_vars.shecho 'source '$deactivate_script_path >> $env_path/etc/conda/deactivate.d/env_vars.shexit environmentsource deactivateenter environment againsource activate strata"
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "13347261",
+	"site": "https://github.com/alexellis/jaas",
+	"title": " Ad-hoc jobs (JaaS) on Docker Swarm (prototype)",
+	"author": "alexellisuk",
+	"date": "2017-06-19T08:43:08.849Z",
+	"tags": {
+		"categories": [
+			"devops"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

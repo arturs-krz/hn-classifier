@@ -1,0 +1,16 @@
+{
+	"_id": "14418150",
+	"site": "https://github.com/Aegeaner/kafka-connector-redis",
+	"title": "Kafka Connector for Redis (Source)",
+	"author": "Aegeaner",
+	"date": "2017-06-13T13:56:32.626Z",
+	"tags": {
+		"categories": [
+			"database"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md redis replicationredis replication is very simple use configure master-slave replication allows slave redis servers be exact copies master servers. following are very important facts redis replication:redis uses asynchronous replication. starting redis 2.8, however, slaves periodically acknowledge amount data processed the replication stream. master have multiple slaves.slaves are able accept connections other slaves. aside connecting number slaves the same master, slaves also connected other slaves a cascading- structure.redis replication is non-blocking the master side. means the master continue handle queries one more slaves perform initial synchronization.replication is non-blocking the slave side. while slave is performing initial synchronization, can handle queries using old version the dataset, assuming configured redis do in redis.conf. otherwise, can configure redis slaves return error clients the replication stream is down. however, the initial sync, old dataset must deleted the one must loaded. slave block incoming connections during brief window ( can as long many seconds very large datasets).replication be used both scalability, order have multiple slaves read- queries ( example, slow o(n) operations be offloaded slaves), simply data redundancy. is possible use replication avoid cost having master write full dataset disk: typical technique involves configuring master redis.conf avoid persisting disk all, connect slave configured save time time, with aof enabled. however setup must handled care, since restarting master start an empty dataset: the slave tries synchronized it, slave be emptied well.partial resynchronizationstarting redis 2.8, master slave are usually able continue replication process without requiring full resynchronization the replication link went down. works creating in-memory backlog the replication stream the master side. master all slaves agree a replication offset a master run id, when link goes down, slave reconnect ask master continue replication. assuming master run id is still same, that offset specified is available the replication backlog, replication resume the point where left off. either these conditions are unmet, full resynchronization is performed ( is normal pre-2.8 behavior). the run id the connected master is persisted disk, full resynchronization is needed the slave restarts. new partial resynchronization feature uses psync command internally, while old implementation uses sync command. note a redis slave is able detect the server is talking does support psync, will sync instead."
+}

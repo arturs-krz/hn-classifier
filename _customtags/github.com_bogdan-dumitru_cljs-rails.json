@@ -1,0 +1,19 @@
+{
+	"_id": "13517668",
+	"site": "https://github.com/bogdan-dumitru/cljs-rails",
+	"title": " Bring ClojureScript to your Rails app today",
+	"author": "idoom",
+	"date": "2017-06-19T08:44:26.144Z",
+	"tags": {
+		"categories": [
+			"clojurescript",
+			"boot",
+			"rails"
+		],
+		"languages": [
+			"ruby",
+			"clojure"
+		]
+	},
+	"content": ""
+}

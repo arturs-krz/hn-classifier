@@ -1,0 +1,27 @@
+{
+	"_id": "11480404",
+	"site": "https://github.com/AnalogJ/capsulecd",
+	"title": " Continuous Delivery for Versioned Artifacts(Npm, Chef, Gems, Pip, Etc)",
+	"author": "analogj",
+	"date": "2017-06-19T10:28:41.115Z",
+	"tags": {
+		"categories": [
+			"rubygems",
+			"ruby",
+			"python",
+			"pypi",
+			"nodejs",
+			"npm",
+			"chef",
+			"chef-cookbook",
+			"supermarket",
+			"continuous-integration",
+			"docker",
+			"packaging"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

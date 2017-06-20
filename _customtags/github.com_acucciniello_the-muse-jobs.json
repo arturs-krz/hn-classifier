@@ -1,0 +1,16 @@
+{
+	"_id": "14138335",
+	"site": "https://github.com/acucciniello/the-muse-jobs",
+	"title": " Ask Amazon Alexa for Remote Job Postings",
+	"author": "acucciniello",
+	"date": "2017-06-13T13:35:12.468Z",
+	"tags": {
+		"categories": [
+			"tools", "productivity", "cloud"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md -muse-jobs amazon alexa skill gives new job postings themuse.comgetting startedmust an amazon echo use skill.open amazon echo companion mobile application.click the top left button open menuclick skillssearch \"fan muse jobs\"click enable skill to amazon echo \"alexa, launch fan muse jobs\"usagelist newest job postings generalsample phrase say alexa list newest five job postings:\"alexa, ask fan muse jobs give the newest job postings\"alexa's response:\"job 1: info: .... location:.... company: ....\"location searchsample phrase say alexa list newest five job postings a specific location:\"alexa, ask fan muse jobs tell jobs near york city metro area\"alexa's response:\"job 1: info: .... location:.... company: ....\"experience level searchsample phrase say alexa list newest five job postings a given experience level:\"alexa, ask fan muse jobs show jobs are entry level\"alexa's response:\"job 1: info: .... location:.... company: ....\"category searchsample phrase say alexa list newest five job postings a given job category:\"alexa, ask fan muse jobs tell jobs are the category engineering\"alexa's response:\"job 1: info: .... location:.... company: ....\"referencethemuse apilicensemit"
+}

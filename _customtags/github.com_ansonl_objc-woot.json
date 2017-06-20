@@ -1,0 +1,21 @@
+{
+	"_id": "12766607",
+	"site": "https://github.com/ansonl/objc-woot",
+	"title": " P2P Editing Framework (WithOut Operational Transform) in Objective-C",
+	"author": "aetch",
+	"date": "2017-06-19T08:46:13.079Z",
+	"tags": {
+		"categories": [
+			"woot",
+			"operational-transformation",
+			"mesh-notes",
+			"ios",
+			"uitextview",
+			"crdt"
+		],
+		"languages": [
+			"objective-c"
+		]
+	},
+	"content": ""
+}

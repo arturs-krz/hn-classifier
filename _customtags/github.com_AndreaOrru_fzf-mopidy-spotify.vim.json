@@ -1,0 +1,20 @@
+{
+	"_id": "13040565",
+	"site": "https://github.com/AndreaOrru/fzf-mopidy-spotify.vim",
+	"title": " Fuzzy find Spotify music from inside Vim",
+	"author": "andreaorru",
+	"date": "2017-06-19T09:59:18.264Z",
+	"tags": {
+		"categories": [
+			"mopidy",
+			"fzf",
+			"vim",
+			"plugin",
+			"spotify"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

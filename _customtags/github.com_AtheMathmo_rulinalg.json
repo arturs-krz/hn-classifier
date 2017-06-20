@@ -1,0 +1,19 @@
+{
+	"_id": "12063674",
+	"site": "https://github.com/AtheMathmo/rulinalg",
+	"title": " A linear algebra library implemented entirely in Rust",
+	"author": "AtheMathmo",
+	"date": "2017-06-19T09:48:51.038Z",
+	"tags": {
+		"categories": [
+			"linear-algebra-library",
+			"rust",
+			"scientific-computing",
+			"linear-algebra"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

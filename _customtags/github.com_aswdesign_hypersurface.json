@@ -1,0 +1,22 @@
+{
+	"_id": "13970106",
+	"site": "https://github.com/aswdesign/hypersurface",
+	"title": " Hypersurface – a modern polling app. (Vue and Socketio)",
+	"author": "byasw",
+	"date": "2017-06-19T11:02:48.298Z",
+	"tags": {
+		"categories": [
+			"vue",
+			"socketio",
+			"webpack",
+			"mongoose"
+		],
+		"languages": [
+			"css",
+			"vue",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

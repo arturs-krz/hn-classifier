@@ -1,0 +1,30 @@
+{
+	"_id": "12249502",
+	"site": "https://github.com/ankitaggarwal011/PyCNN",
+	"title": " PyCNN – Image Processing with Cellular Neural Networks",
+	"author": "aaggarwal",
+	"date": "2017-06-19T10:04:23.723Z",
+	"tags": {
+		"categories": [
+			"cellular",
+			"neural-network",
+			"cnn",
+			"image-processing",
+			"cnn-processors",
+			"paper",
+			"edge-detection",
+			"corner-detection",
+			"python",
+			"library",
+			"cross-platform",
+			"feedback",
+			"computer-vision",
+			"computer-science",
+			"control"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "13834522",
+	"site": "https://github.com/agustinmista/mdviewer",
+	"title": " mdviewer – minimalistic GTK+ Markdown viewer/converter with Css support",
+	"author": "agustinmista",
+	"date": "2017-06-19T10:20:09.303Z",
+	"tags": {
+		"categories": [
+			"tools", "productivity"
+		],
+		"languages": [
+			"haskell",
+			"shell"
+		]
+	},
+	"content": ""
+}

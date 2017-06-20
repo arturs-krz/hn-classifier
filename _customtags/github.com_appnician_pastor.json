@@ -1,0 +1,15 @@
+{
+	"_id": "8047231",
+	"site": "https://github.com/appnician/pastor",
+	"title": " Pastor generates and stores passwords without storing any passwords",
+	"author": "Appnician",
+	"date": "2017-06-19T10:22:01.825Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"python"
+		]
+	},
+	"content": ""
+}

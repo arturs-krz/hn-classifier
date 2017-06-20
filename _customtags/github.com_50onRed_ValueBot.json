@@ -1,0 +1,15 @@
+{
+	"_id": "9939844",
+	"site": "https://github.com/50onRed/ValueBot",
+	"title": " A Slack Bot for Commending Your Teammates with Your Company's Values",
+	"author": "maxucho",
+	"date": "2017-06-19T10:24:29.381Z",
+	"tags": {
+		"categories": ["tools", "bot"],
+		"languages": [
+			"python",
+			"mako"
+		]
+	},
+	"content": ""
+}

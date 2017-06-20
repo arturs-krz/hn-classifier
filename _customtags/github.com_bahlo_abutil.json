@@ -1,0 +1,15 @@
+{
+	"_id": "10158896",
+	"site": "https://github.com/bahlo/abutil",
+	"title": " A collection of often-used Go helpers",
+	"author": "abahlo",
+	"date": "2017-06-19T09:45:20.536Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

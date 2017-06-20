@@ -1,0 +1,19 @@
+{
+	"_id": "12870376",
+	"site": "https://github.com/bcherny/ngimport",
+	"title": " Ngimport – ES6 imports for $http, $filter, etc. (replaces Angular 1 DI)",
+	"author": "bcherny",
+	"date": "2017-06-19T10:16:06.668Z",
+	"tags": {
+		"categories": [
+			"angular",
+			"es6",
+			"typescript"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

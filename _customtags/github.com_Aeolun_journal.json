@@ -1,0 +1,17 @@
+{
+	"_id": "14452153",
+	"site": "https://github.com/Aeolun/journal",
+	"title": "A super basic mobile-compatible self-hosted personal journal",
+	"author": "Aeolun",
+	"date": "2017-06-13T13:55:20.233Z",
+	"tags": {
+		"categories": [
+			"tools", "productivity"
+		],
+		"languages": [
+			"php",
+			"html"
+		]
+	},
+	"content": "readme.md journal super basic mobile-compatible personal journal. needed something would allow to write down thoughts the with minimum fuzz, since couldn't find anything simple enough. built .feel free use extend as want, pull requests are welcome, the idea is it's simple possible both code feature wise.installation download extract/clone anywhere. code runs anywhere php runs, data is stored plain text files. can modify config.php file edit user password required access site. probably to sure the public directory be accessible outside, people 't read entries.featureswrite the main textbox add the current (timestamp be added automatically) can write down things they happen, new submit the main textbox be added todayselect day you wrote it the past, edit content therein"
+}

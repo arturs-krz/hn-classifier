@@ -1,0 +1,14 @@
+{
+	"_id": "13058058",
+	"site": "https://github.com/agrinman/chasm",
+	"title": " Chasm – Fault-Tolerant, Information-Theoretic Secure Cloud Backup",
+	"author": "agrinman",
+	"date": "2017-06-19T10:05:37.691Z",
+	"tags": {
+		"categories": ["cloud", "security"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

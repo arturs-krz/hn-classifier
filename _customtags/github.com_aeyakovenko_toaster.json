@@ -1,0 +1,15 @@
+{
+	"_id": "13418525",
+	"site": "https://github.com/aeyakovenko/toaster",
+	"title": " Find all the bugs, testing C with incremental failure injection",
+	"author": "aey",
+	"date": "2017-06-19T09:35:34.627Z",
+	"tags": {
+		"categories": ["development"],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

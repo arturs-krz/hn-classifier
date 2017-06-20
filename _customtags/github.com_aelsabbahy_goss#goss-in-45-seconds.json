@@ -1,0 +1,19 @@
+{
+	"_id": "10424864",
+	"site": "https://github.com/aelsabbahy/goss#goss-in-45-seconds",
+	"title": " Goss – A serverspec-like tool written in go",
+	"author": "aelsabbahy",
+	"date": "2017-06-19T08:46:30.665Z",
+	"tags": {
+		"categories": [
+			"tools", "system", "monitoring"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"ruby",
+			"makefile"
+		]
+	},
+	"content": ""
+}

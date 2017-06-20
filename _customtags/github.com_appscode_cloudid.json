@@ -1,0 +1,20 @@
+{
+	"_id": "13380750",
+	"site": "https://github.com/appscode/cloudid",
+	"title": " CloudId – Detect Cloud Provider from Instance Metadata",
+	"author": "tamalsaha001",
+	"date": "2017-06-19T08:44:35.417Z",
+	"tags": {
+		"categories": [
+			"cloudid",
+			"kubernetes",
+			"cloud-providers"
+		],
+		"languages": [
+			"go",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

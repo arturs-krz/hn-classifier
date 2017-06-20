@@ -1,0 +1,16 @@
+{
+	"_id": "14419148",
+	"site": "https://github.com/alexellis/build_executor_exporter",
+	"title": " Get Jenkins build executor alerts from Prometheus",
+	"author": "alexellisuk",
+	"date": "2017-06-13T13:06:44.154Z",
+	"tags": {
+		"categories": [
+			"devops"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md build_executor_exporterprometheus exporter jenkins build executors metrics. this alertmanager build alerting your remote executors/agents/slaves.online_statuswhether node has become disconnectedtemporarily_offline_statuswhether node is deliberately marked offline maintenanceoptions running: default port the exporter is tcp/9001 the metrics endpoint is /metrics. a long running daemon inside docker containerdocker run -p 9001:9001 -d alexellis2/build_executor_exporter:0.2-faas ./build_executor_exporter -urls http://site1,http://site2 a native golang binaryrun install use -urls http://site1,http://site2 a serverless / -shot docker image: wil run once then output stdout can used faas a serverless function.docker run -ti alexellis2/build_executor_exporter:0.2-faas ./build_executor_exporter -urls http://site1,http://site2sample alert.rules is example alerting rules can configured alertmanager:alert agentoffline online_status == 0 60s labels { service = \"build_executor_exporter\", severity = \"major\", value = \"{{$value}}\" } annotations { summary = \"agent down {{ $labels.instance }}\", description = \"high invocation total {{ $labels.instance }} {{ $value }}\" } may to combine with temporarily_offline_status flag you build agents are kept offline long periods maintenance.todo:[-] configure basic auth through cli argumentslicensemit"
+}

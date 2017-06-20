@@ -1,0 +1,21 @@
+{
+	"_id": "14317264",
+	"site": "https://github.com/assertible/go-heroku-example",
+	"title": " Automate Smoke-Tests for a Go API Using Heroku Review Apps",
+	"author": "creichert",
+	"date": "2017-06-13T13:08:55.842Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"deployment",
+			"continuous-testing",
+			"continuous-deployment",
+			"smoke-testing",
+			"go"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md automate smoke tests a app heroku automatically run smoke tests a application every it'sdeployed heroku using assertible.example pull requesttry by opening pull requestquick start following step are high-level overview how get review appsworking assertible. a more detailed set steps, check theposttutorial: automate smoke tests a api heroku1. setup heroku app w/ review apps enabled2. configure assertible web service3. connect assertible web service github4. push code a pull requestdocumentation resourcesautomate smoke tests a api herokucreate new heroku appsetup heroku review appsautomating qa pipelines heroku review appstesting production changes are merged master, assertible automatically runchecks against production application. may need configure new environment assertible matches name your heroku application. this app havecreated environment named -heroku-assertible-example:license code this repository is licensed undermit. view license"
+}

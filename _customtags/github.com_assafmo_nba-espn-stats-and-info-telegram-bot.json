@@ -1,0 +1,22 @@
+{
+	"_id": "14513884",
+	"site": "https://github.com/assafmo/nba-espn-stats-and-info-telegram-bot",
+	"title": " A Telegram Channel with Only NBA Tweets from ESPN Stats and Info",
+	"author": "assafmo",
+	"date": "2017-06-13T13:04:19.498Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"telegram-bot",
+			"telegram-bot-api",
+			"twitter-api",
+			"nba-stats",
+			"nba",
+			"bot"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md bot lives @nbaespnstats telegram bot follows twitter account sends tweets match certain keywords a specific chat.usagecreate twitter appcreate telegram botcreate file config.json along side main.js:{ \"telegram\": { \"chat_id\": \"<your_telegram_chat_id>\", \"bot_key\": \"<your_telegram_bot_key>\" }, \"twitter\": { \"account_id_to_follow\": \"get_at http://idfromuser.com/\", \"consumer_key\": \"get_at https://apps.twitter.com/app/xxxxxxxx/keys\", \"consumer_secret\": \"get_at https://apps.twitter.com/app/xxxxxxxx/keys\", \"access_token_key\": \"get_at https://apps.twitter.com/app/xxxxxxxx/keys\", \"access_token_secret\": \"get_at https://apps.twitter.com/app/xxxxxxxx/keys\" }} your telegram chat_id messaging bot the desired chat checking https://api.telegram.org/bot<your_telegram_bot_key>/getupdates.keyswords in ./keywords folder a .js module.each keyword list is promised array strings.keywords are case-sensitive.blacklist entries in ./keywords_blacklist folder a .js module.each keyword list is promised array objects.each object is the form { is_accepted_because: \"hawks\",blacklist: \"black hawks\"}. means if bot find hawks a keyword also black hawks, it won't consider hawks a keyword this tweet.blacklist keywords are case-sensitive.execute node main.jsdebug config_debug.json instead config.jsonexecute node main.js debug"
+}

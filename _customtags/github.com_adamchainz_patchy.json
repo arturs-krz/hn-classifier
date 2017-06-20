@@ -1,0 +1,16 @@
+{
+	"_id": "10060969",
+	"site": "https://github.com/adamchainz/patchy",
+	"title": " Python function patching (not monkey patching, actual patch-patching)",
+	"author": "adamchainz",
+	"date": "2017-06-19T10:37:26.149Z",
+	"tags": {
+		"categories": [
+			"development"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

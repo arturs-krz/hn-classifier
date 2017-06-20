@@ -1,0 +1,22 @@
+{
+	"_id": "13793193",
+	"site": "https://github.com/BharatKalluri/MovieScore",
+	"title": " A CLI utility to show information and reviews about movies in terminal",
+	"author": "bharatkalluri",
+	"date": "2017-06-19T10:46:26.557Z",
+	"tags": {
+		"categories": [
+			"command-line-tool",
+			"cli",
+			"golang",
+			"go",
+			"movie-reviews",
+			"ratings",
+			"poster-images"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "12157516",
+	"site": "https://github.com/brakmic/TroAPI",
+	"title": " Transforming my hometown's pages into Web-APIs with full-text search",
+	"author": "brakmic",
+	"date": "2017-06-19T10:36:57.886Z",
+	"tags": {
+		"categories": [
+			"typescript",
+			"rest-api",
+			"solr",
+			"lunr",
+			"indexing",
+			"search"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"typescript",
+			"css"
+		]
+	},
+	"content": ""
+}

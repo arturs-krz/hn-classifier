@@ -1,0 +1,16 @@
+{
+	"_id": "7451631",
+	"site": "https://github.com/ajh17/VimCompletesMe",
+	"title": " VimCompletesMe, my first Vim plugin for Tab Completion",
+	"author": "Watabou",
+	"date": "2017-06-19T10:59:48.685Z",
+	"tags": {
+		"categories": [
+			"tools", "productivity"
+		],
+		"languages": [
+			"vim script"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "13785956",
+	"site": "https://github.com/aliemteam/wp-graphql",
+	"title": " Wp-Graphql – A Client-Side GraphQL Wrapper for the WordPress REST API",
+	"author": "dsifford",
+	"date": "2017-06-19T10:18:35.894Z",
+	"tags": {
+		"categories": [
+			"database", "productivity"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

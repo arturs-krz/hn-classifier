@@ -1,0 +1,18 @@
+{
+	"_id": "14540255",
+	"site": "https://github.com/amaksr/nsynjs/wiki",
+	"title": " Procedural JavaScript with promises but without then/catch/async/await",
+	"author": "kidstrack",
+	"date": "2017-06-16T07:56:02.654Z",
+	"tags": {
+		"categories": [
+			"javascript", 
+			"async",
+			"procedular-programming"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

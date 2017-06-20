@@ -1,0 +1,27 @@
+{
+	"_id": "11239481",
+	"site": "https://github.com/bmwcarit/barefoot",
+	"title": " State-of-the-art realtime map matching engine",
+	"author": "LaurenceW1",
+	"date": "2017-06-19T08:43:04.240Z",
+	"tags": {
+		"categories": [
+			"map-matching",
+			"tracking",
+			"openstreetmap",
+			"spatial-analysis",
+			"java",
+			"map"
+		],
+		"languages": [
+			"java",
+			"python",
+			"tex",
+			"html",
+			"shell",
+			"plpgsql",
+			"javascript"
+		]
+	},
+	"content": ""
+}

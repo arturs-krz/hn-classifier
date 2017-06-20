@@ -1,0 +1,20 @@
+{
+	"_id": "5456220",
+	"site": "https://github.com/aurorasoftware/git-bigstore",
+	"title": " Bigstore, track huge files with Git and Amazon S3",
+	"author": "theli0nheart",
+	"date": "2017-06-19T11:03:12.333Z",
+	"tags": {
+		"categories": [
+			"python",
+			"git",
+			"tools"
+		],
+		"languages": [
+			"python",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

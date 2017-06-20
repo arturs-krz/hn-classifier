@@ -1,0 +1,27 @@
+{
+	"_id": "13205858",
+	"site": "https://github.com/asamy/ksm",
+	"title": " KSM Linux/Win X64-Hypervisor (#VE, VMFUNC, Nesting)",
+	"author": "asamy45",
+	"date": "2017-06-19T10:08:21.625Z",
+	"tags": {
+		"categories": [
+			"virtualization",
+			"hypervisor",
+			"x86-64",
+			"reverse-engineering",
+			"windows",
+			"sandbox",
+			"introspect",
+			"kernel",
+			"linux"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"assembly",
+			"other"
+		]
+	},
+	"content": ""
+}

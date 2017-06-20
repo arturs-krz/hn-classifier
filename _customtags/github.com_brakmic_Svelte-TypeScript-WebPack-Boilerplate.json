@@ -1,0 +1,24 @@
+{
+	"_id": "13350958",
+	"site": "https://github.com/brakmic/Svelte-TypeScript-WebPack-Boilerplate",
+	"title": " Boilerplate for Svelte containing TypeScript, WebPack, Bootstrap",
+	"author": "brakmic",
+	"date": "2017-06-19T09:53:32.791Z",
+	"tags": {
+		"categories": [
+			"svelte-components",
+			"svelte",
+			"boilerplate",
+			"typescript",
+			"javascript",
+			"webapp-boilerplate"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"typescript",
+			"html"
+		]
+	},
+	"content": ""
+}

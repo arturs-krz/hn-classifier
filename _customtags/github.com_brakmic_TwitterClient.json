@@ -1,0 +1,19 @@
+{
+	"_id": "10966565",
+	"site": "https://github.com/brakmic/TwitterClient",
+	"title": " A configurable, colorful, console-based Twitter-Client",
+	"author": "brakmic",
+	"date": "2017-06-19T08:43:07.928Z",
+	"tags": {
+		"categories": [
+			"twitter",
+			"python",
+			"sql-server"
+		],
+		"languages": [
+			"python",
+			"batchfile"
+		]
+	},
+	"content": ""
+}

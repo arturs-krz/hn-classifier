@@ -1,0 +1,17 @@
+{
+	"_id": "9526589",
+	"site": "https://github.com/albrow/zoom",
+	"title": " A blazing-fast datastore and querying engine for Go built on Redis",
+	"author": "polymathist",
+	"date": "2017-06-19T10:23:46.058Z",
+	"tags": {
+		"categories": [
+			"database", "development", "tools"
+		],
+		"languages": [
+			"go",
+			"lua"
+		]
+	},
+	"content": ""
+}

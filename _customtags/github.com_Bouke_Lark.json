@@ -1,0 +1,20 @@
+{
+	"_id": "13697705",
+	"site": "https://github.com/Bouke/Lark",
+	"title": " Swift SOAP Client library through code generation",
+	"author": "bouke",
+	"date": "2017-06-19T10:30:43.264Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"soap",
+			"swift-soap-client",
+			"swift-package-manager",
+			"lark"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

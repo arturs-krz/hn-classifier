@@ -1,0 +1,23 @@
+{
+	"_id": "14431087",
+	"site": "https://github.com/bloomberg/comdb2",
+	"title": "Comdb2 - Bloomberg's distributed RDBMS",
+	"author": "elvinyung",
+	"date": "2017-06-13T13:55:34.777Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"rdbms"
+		],
+		"languages": [
+			"c",
+			"shell",
+			"objective-c",
+			"java",
+			"c++",
+			"html",
+			"other"
+		]
+	},
+	"content": "readme.md overviewcomdb2 is clustered rdbms built optimistic concurrency control techniques. provides multiple isolation levels, including snapshot serializable isolation.read/write transactions run any node, the client library transparently negotiating connections lowest cost (latency) node is available. client library provides transparent reconnect. on comdb2 was started bloomberg lp 2004 it has been under heavy development since.more information the architecture the project be found our vldb 2016 paper for more information usage please in docs.documentationcomdb2 documentation is included the docs directory. can hosted locally jekyll running jekyll serve the docs directory.contributingplease refer our contribution guide instructions. welcome code idea contributions.quick start every machine the cluster: sure machines the cluster talk each via ssh.copy keys around needed.install prerequisites:** ubuntu 16.04, 16.10, 17.04, windows subsystem linux (wsl) **sudo apt- install -y build-essential bison flex libprotobuf-c-dev libreadline-dev libsqlite3-dev libssl-dev libunwind-dev libz1 libz-dev gawk protobuf-c-compiler uuid-dev liblz4-tool liblz4-dev libprotobuf-c1 libsqlite3-0 libuuid1 libz1 tzdata ncurses-dev tcl bc** centos 7 **sudo yum install -y gcc gcc-c++ protobuf-c libunwind libunwind-devel protobuf-c-devel byacc flex openssl openssl-devel openssl-libs readline-devel sqlite sqlite-devel libuuid libuuid-devel zlib-devel zlib lz4-devel gawk tcl epel-release lz4 rpm-build build comdb2: && sudo installadd /opt/bb/bin your pathexport path=$path:/opt/bb/binstart pmux:pmux -nnote: wsl needs be run elevated, such : sudo /opt/bb/bin/pmux -n(optional) comdb2 nodes identify each by hostnames. the hostname each node isn't resolvable other nodes, should tell comdb2 fulldomain name use the current node. setups won't this issue.tell comdb2 fqdn.vi /opt/bb/etc/cdb2/config/comdb2.d/hostname.lrladd current machine's name, e.g.hostname machine-1.comdb2.example.com one machine ( machine-1), create database - example creates databasecalled testdb stored ~/db.comdb2 --create --dir ~/db testdbnote: --dir path parameter is optional, if is omitted comdb2 uses default root /opt/bb/var/cdb2/ creating database directory contain database files, is named per database name parameter; hence this case /opt/bb/var/cdb2/testdb. default root have be created explicitly the desired permissions before invoking comdb2 --create a database. this quick start, use home directory avoid obfuscating key steps the process.configure nodes the cluster:vi ~/db/testdb.lrladdcluster nodes machine-1.comdb2.example.com machine-2.comdb2.example.com other nodes, copy database :copycomdb2 mptest-1.comdb2.example.com:${home}/db/testdb.lrl all nodes, start database.comdb2 --lrl ~/db/testdb.lrl testdb nodes say ' am ready.' ready.note: log dir comdb2 uses default is /opt/bb/var/log/cdb2/ this directory does have permissions allowing user create file, will diagnostics output such :[error] error opening '/opt/bb/var/log/cdb2/testdb.longreqs' logging: 13 permission denied condition not impact operation the database the purposes this quick start.  any node, start using database. don't any tables yet. can add with cdb2sqlexample -cdb2sql testdb local 'create table t1 { schema { int }}'database be queried/updated cdb2sql:cdb2sql testdb local 'insert t1() values(1)'(rows inserted=1)cdb2sql testdb local 'select * t1'(=1)comdb2 directory contentsdirectorydescriptionbb/useful generic modulesbbinc/header & generic include filesbdb/table layerberkdb/btrees layercdb2api/client codecdb2jdbc/jdbc drivercomdb2rle/run length encodingcomdb2tests/contains the tests will run this versionconfig/lrl config filescontrib/misc useful programs aren't part core comdb2crc32c/checksum componentcsc2/csc2 processingcsc2files/csc2 config filescson/json librarydatetime/datetime componentdb/types layer overall gluedeb/sample debian package configdfp/decimal number componentdlmalloc/local malloc versiondocs/documentationlua/ things pertaining lua vm used stored proceduresnet/network componentprotobuf/api communicate the serverschemachangecode table create/alter/truncate/etcsqlite/sqlite vm sql enginetests/comdb2 test suitetools/tools are part comdb2 core"
+}

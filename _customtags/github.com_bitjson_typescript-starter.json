@@ -1,0 +1,36 @@
+{
+	"_id": "13640620",
+	"site": "https://github.com/bitjson/typescript-starter",
+	"title": " Typescript-starter: use ES7, export an ES6 module, gen docs using types",
+	"author": "bitjson",
+	"date": "2017-06-19T10:43:44.147Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"es6",
+			"es7",
+			"typescript",
+			"boilerplate",
+			"starter",
+			"ava",
+			"nyc",
+			"typedoc",
+			"jsnext",
+			"javascript",
+			"node",
+			"tree-shaking",
+			"rollup",
+			"tslint",
+			"template",
+			"javascript-modules",
+			"conventional-changelog",
+			"async-await",
+			"javascript-library"
+		],
+		"languages": [
+			"typescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

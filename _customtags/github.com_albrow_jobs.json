@@ -1,0 +1,17 @@
+{
+	"_id": "9389186",
+	"site": "https://github.com/albrow/jobs",
+	"title": " A Background Jobs Library for Go (like Sidekiq/Resque/DelayedJob)",
+	"author": "polymathist",
+	"date": "2017-06-19T08:44:17.703Z",
+	"tags": {
+		"categories": [
+			"development", "library"
+		],
+		"languages": [
+			"go",
+			"lua"
+		]
+	},
+	"content": ""
+}

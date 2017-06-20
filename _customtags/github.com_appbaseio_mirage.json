@@ -1,0 +1,24 @@
+{
+	"_id": "12628082",
+	"site": "https://github.com/appbaseio/mirage",
+	"title": " Mirage – An interactive query explorer for Elasticsearch",
+	"author": "sidi",
+	"date": "2017-06-19T08:46:13.545Z",
+	"tags": {
+		"categories": [
+			"mirage",
+			"elasticsearch-plugin",
+			"chrome-extension",
+			"database-gui",
+			"elasticsearch",
+			"kibana"
+		],
+		"languages": [
+			"typescript",
+			"html",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

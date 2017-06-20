@@ -1,0 +1,20 @@
+{
+	"_id": "8184233",
+	"site": "https://github.com/adobe-research/spindle",
+	"title": " Web analytics with Scala, Spark, and Parquet",
+	"author": "bdamos",
+	"date": "2017-06-19T10:19:19.215Z",
+	"tags": {
+		"categories": ["monitoring", "web"],
+		"languages": [
+			"javascript",
+			"html",
+			"python",
+			"scala",
+			"tex",
+			"css",
+			"other"
+		]
+	},
+	"content": ""
+}

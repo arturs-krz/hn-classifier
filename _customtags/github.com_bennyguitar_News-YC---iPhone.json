@@ -1,0 +1,18 @@
+{
+	"_id": "5678422",
+	"site": "https://github.com/bennyguitar/News-YC---iPhone",
+	"title": " the iPhone version of News/YC, a Hacker News reader",
+	"author": "bennyg",
+	"date": "2017-06-19T10:53:57.049Z",
+	"tags": {
+		"categories": [
+			"ycombinator",
+			"hackernews"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

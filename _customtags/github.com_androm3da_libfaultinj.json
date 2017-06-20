@@ -1,0 +1,15 @@
+{
+	"_id": "12530943",
+	"site": "https://github.com/androm3da/libfaultinj",
+	"title": " Fault injection library for testing",
+	"author": "wyldfire",
+	"date": "2017-06-19T09:51:37.971Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"rust",
+			"shell"
+		]
+	},
+	"content": ""
+}

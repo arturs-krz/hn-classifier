@@ -1,0 +1,16 @@
+{
+	"_id": "14348020",
+	"site": "https://github.com/alexanderepstein/Sandman-Lite",
+	"title": "Sandman-Lite Version 1.4.0 Released",
+	"author": "epstein43",
+	"date": "2017-06-13T13:57:47.519Z",
+	"tags": {
+		"categories": [
+			"system", "development"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md sandman-lite lightweight script built late night developers mind crossplatform g.u.. version be found heresandman remind to a rest that can always back the tomorrow. sleep cycle is 90-minute chunk time where body transitions through various phases sleep the down deep rem sleep back again. health experts believe these 90-minute sleep cycles are key restful sleep. recommend trying sleep exactly 7.5 hours even 9 hours, you the .based the you need wake and assuming will you 15 minutes fall asleepsandman notify throughout evening specific times you go sleep maximize number full sleep cycles. script works with https://justgetflux.com/inspired http://sleepyti.in actioninstalling1). the source codecd ~git clone https://github.com/alexanderepstein/sandman-litecd sandman-lite2). install sandman-lite install latest stable releasegit checkout v1.6.0chmod +x install.sh./install.sh install nightly buildschmod +x install.sh./install.shusage set desired wake time using sandman-lite -s xx:xx get times the set notifications sandman-lite -g test rest notification behavior sandman-lite -t remove pending notifications sandman-lite -r check and download/install sandman-lite updates sandman-lite -u get help using sandman-lite sandman-lite -h get sandman-lite version sandman-lite -vremovingcd ~/sandman-lite./uninstall.sh( _)( _)>-(_)helping feel free fork repository add code submit pull requestlist yet be implemented featuresadd option show parsed times 24 12 hour formatting uptime notification error exiting main scriptknown bugsuninstaller script doesn't uninstall dependencies they weren't before installation sandman-litedonate this project helped in way you feel buying broke college kid cup coffeelicensemit licensecopyright (c) 2017 alex epsteinpermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sell copies the software, to permit persons whom software is furnished do , subject the following conditions: above copyright notice this permission notice shall included all copies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability, fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages other liability, whether an action contract, tort otherwise, arising , out or connection the software the or dealings the software."
+}

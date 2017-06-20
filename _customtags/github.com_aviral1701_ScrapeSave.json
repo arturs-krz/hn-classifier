@@ -1,0 +1,20 @@
+{
+	"_id": "14444956",
+	"site": "https://github.com/aviral1701/ScrapeSave",
+	"title": "Project review",
+	"author": "aviral1701",
+	"date": "2017-06-13T13:55:21.624Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"review",
+			"beautifulsoup",
+			"request",
+			"codechef-crawler"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.md scrapesave one you realise your beautiful beautiful code codechef problems is sitting a server. put much efforts, those hours spent chosing right algorithm the data structure to the green tick. who knows your efforts ? decide i showcase my beautiful beautiful code world. this is tool you!! if want study brilliant coder's code one simple place again is tool you!! requirements :beautifulsouprequestsinstructions :# clone repositorygit clone https://github.com/aviral1701/scrapesavegit# into repositorycd scrapesave# run apppython codechef_scrapper.py#enter username prompted.todos : the code run faster.save files language extension in code comments write url the problem.contributing :fork repo.create new branch named <your_feature>commit changes make pr.prs are welcome."
+}

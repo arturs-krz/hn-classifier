@@ -1,0 +1,22 @@
+{
+	"_id": "13920588",
+	"site": "http://github.com/alexellis/faas",
+	"title": " FaaS – Serverless functions framework for Docker",
+	"author": "alexellisuk",
+	"date": "2017-06-19T08:43:16.059Z",
+	"tags": {
+		"categories": [
+			"devops", "framework", "web"
+		],
+		"languages": [
+			"go",
+			"html",
+			"shell",
+			"javascript",
+			"cobol",
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

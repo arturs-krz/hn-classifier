@@ -1,0 +1,14 @@
+{
+	"_id": "11463047",
+	"site": "https://github.com/adnanh/webscrot",
+	"title": " Render screenshots of urls on Linux using Xvfb, midori, ratpoison and IM",
+	"author": "adnanh",
+	"date": "2017-06-19T09:36:35.019Z",
+	"tags": {
+		"categories": ["visual", "system"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

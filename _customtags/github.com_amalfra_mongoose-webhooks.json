@@ -1,0 +1,19 @@
+{
+	"_id": "13243447",
+	"site": "https://github.com/amalfra/mongoose-webhooks",
+	"title": " Sends webhook on mongoose model events",
+	"author": "amalfra",
+	"date": "2017-06-19T10:39:21.828Z",
+	"tags": {
+		"categories": [
+			"webhook",
+			"mongoose-webhooks",
+			"mongoose",
+			"mongoose-plugin"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

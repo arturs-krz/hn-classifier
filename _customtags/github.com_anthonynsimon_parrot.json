@@ -1,0 +1,32 @@
+{
+	"_id": "13394996",
+	"site": "https://github.com/anthonynsimon/parrot",
+	"title": " Parrot - Localization Management Platform built with Go and Angular 2",
+	"author": "amzans",
+	"date": "2017-06-19T10:09:00.201Z",
+	"tags": {
+		"categories": [
+			"nginx",
+			"go",
+			"angular",
+			"javascript",
+			"typescript",
+			"localization",
+			"api",
+			"self-hosted",
+			"i18n",
+			"i10n",
+			"translation"
+		],
+		"languages": [
+			"typescript",
+			"go",
+			"html",
+			"css",
+			"shell",
+			"javascript",
+			"nginx"
+		]
+	},
+	"content": ""
+}

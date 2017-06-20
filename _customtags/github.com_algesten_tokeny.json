@@ -1,0 +1,20 @@
+{
+	"_id": "14203593",
+	"site": "https://github.com/algesten/tokeny",
+	"title": " Tocan – 2FA React-Native App with iCloud Keychain Sync",
+	"author": "algesten",
+	"date": "2017-06-13T13:33:07.022Z",
+	"tags": {
+		"categories": [
+			"mobile", "security"
+		],
+		"languages": [
+			"javascript",
+			"swift",
+			"objective-c",
+			"python",
+			"java"
+		]
+	},
+	"content": "readme.md tocanapp ios here: https://itunes.apple.com//app/tocan/id1226964610?mt=8(tokeny is project name)tocan is 2-step authentication app compatible google, dropbox, github, more. signing an account, need provide both password a verification code generated the app. need enable 2-factor-authentication the service .scans qr-codesstores items icloud keychain backup sync other devices.watch app works independently the iphone. totp ( based time password), now. 30-second totp, now.screen grabsphone appwatch applicensesonetimepassword (used watchos) is copyright (c) 2013-2017 mattrubin the onetimepassword authors tocan name logo ( bird) are copyright 2017 trademarks objekt & funktion ab (martin algesten) not licensed withoutexplicit written permission. tokeny code base ( the tocan name/logo) is licensed under mit license:copyright (c) 2017 martin algestenpermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

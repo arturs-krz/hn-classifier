@@ -1,0 +1,15 @@
+{
+	"_id": "10059343",
+	"site": "https://github.com/bbu/simple-interpreter",
+	"title": " A toy interpreter for a minimalistic imperative language in 1.3k LoC",
+	"author": "bluetomcat",
+	"date": "2017-06-19T10:26:10.401Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

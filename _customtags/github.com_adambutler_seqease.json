@@ -1,0 +1,15 @@
+{
+	"_id": "10140127",
+	"site": "https://github.com/adambutler/seqease",
+	"title": " SeqEase – Easing for linear videos or image sequences",
+	"author": "adambutler",
+	"date": "2017-06-19T10:32:39.031Z",
+	"tags": {
+		"categories": ["tools", "visual"],
+		"languages": [
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

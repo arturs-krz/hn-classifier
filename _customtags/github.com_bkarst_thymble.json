@@ -1,0 +1,18 @@
+{
+	"_id": "12902032",
+	"site": "https://github.com/bkarst/thymble",
+	"title": " Thymble, a Rails 5 Open Source “Hacker News”-esque News Platform",
+	"author": "benkarst",
+	"date": "2017-06-19T10:08:06.631Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"ruby",
+			"html",
+			"css",
+			"coffeescript",
+			"javascript"
+		]
+	},
+	"content": ""
+}

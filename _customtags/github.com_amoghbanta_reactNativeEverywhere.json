@@ -1,0 +1,23 @@
+{
+	"_id": "13462338",
+	"site": "https://github.com/amoghbanta/reactNativeEverywhere",
+	"title": " Target almost all platforms at once with react native",
+	"author": "amoghbanta",
+	"date": "2017-06-19T10:57:33.511Z",
+	"tags": {
+		"categories": [
+			"react-native",
+			"cross-platform",
+			"starter-kit",
+			"boilerplate"
+		],
+		"languages": [
+			"javascript",
+			"objective-c",
+			"python",
+			"java",
+			"html"
+		]
+	},
+	"content": ""
+}

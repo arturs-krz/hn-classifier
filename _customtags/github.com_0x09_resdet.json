@@ -1,0 +1,21 @@
+{
+	"_id": "10941966",
+	"site": "https://github.com/0x09/resdet",
+	"title": " Detect upsampling in images",
+	"author": "0x09",
+	"date": "2017-06-19T08:43:04.410Z",
+	"tags": {
+		"categories": [
+			"image-processing",
+			"visual"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"python",
+			"makefile",
+			"matlab"
+		]
+	},
+	"content": ""
+}

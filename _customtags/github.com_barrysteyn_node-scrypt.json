@@ -1,0 +1,20 @@
+{
+	"_id": "4952629",
+	"site": "https://github.com/barrysteyn/node-scrypt",
+	"title": " I've ported scrypt authenticaton to NodeJS.",
+	"author": "bazsouthafrica",
+	"date": "2017-06-19T10:24:19.988Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c",
+			"shell",
+			"makefile",
+			"javascript",
+			"c++",
+			"python",
+			"m4"
+		]
+	},
+	"content": ""
+}

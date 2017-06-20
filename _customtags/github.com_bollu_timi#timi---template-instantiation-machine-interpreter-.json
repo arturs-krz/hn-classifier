@@ -1,0 +1,19 @@
+{
+	"_id": "13534717",
+	"site": "https://github.com/bollu/timi#timi---template-instantiation-machine-interpreter-",
+	"title": " TIMi-Visual Interpreter for lazy functional language in Rust",
+	"author": "bollu",
+	"date": "2017-06-19T09:54:39.622Z",
+	"tags": {
+		"categories": [
+			"interpreter",
+			"haskell",
+			"lazy-evaluation",
+			"language"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

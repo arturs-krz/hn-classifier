@@ -1,0 +1,23 @@
+{
+	"_id": "13183263",
+	"site": "https://github.com/ashazar/TabDrawer",
+	"title": " TabDrawer for Android – Alternative to Hamburger Menu",
+	"author": "ashazar",
+	"date": "2017-06-19T10:05:03.405Z",
+	"tags": {
+		"categories": [
+			"drawer",
+			"navigation-drawer",
+			"hamburger-menu",
+			"android",
+			"tabbar",
+			"tab",
+			"tabbarcontroller",
+			"android-navigation-tab"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": ""
+}

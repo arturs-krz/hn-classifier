@@ -1,0 +1,16 @@
+{
+	"_id": "11348412",
+	"site": "https://github.com/allegro/bigcache",
+	"title": " Efficient cache for gigabytes of data written in Go",
+	"author": "janisz",
+	"date": "2017-06-19T08:44:04.100Z",
+	"tags": {
+		"categories": [
+			"data-science", "tools"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

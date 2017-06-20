@@ -1,0 +1,22 @@
+{
+	"_id": "14329071",
+	"site": "https://github.com/brennerm/docker-registry-frontend",
+	"title": " Front end for multiple Docker registries",
+	"author": "brennerm",
+	"date": "2017-06-13T13:08:17.231Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"docker-registry",
+			"docker-registry-ui"
+		],
+		"languages": [
+			"python",
+			"html",
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md docker-registry-frontendweb front end display content multiple docker registriesfeature overviewbrowse available docker images check availability multiple docker registriesadd remove registries via web interfacesupport docker registries v1 v2 detailed information your docker imagesinstallation$ git clone git@github.com:brennerm/docker-registry-frontend.git && cd docker-registry-frontend$ pip3 install -r requirements.txt$ bower installusage$ python3 main.py -husage: main.py [-h] [-d] [- ip_address] [-p port] configpositional arguments: configoptional arguments: -h, --help show help message exit -d, --debug run application debug mode - ip_address, --ip-address ip_address ip address bind application -p port, --port port port bind application $ python3 main.py config.jsonalternatively can the prebuilt docker image.docker run brennerm/docker-registry-frontendconfigurationcaching's possible enable caching functionality keep frontend fast when viewing thousands repos tags. default 's disabled there is need small registries. enable set value the cache timeout seconds.{ \"cache_timeout\": 3600}supported storage drivers frontend supports various kinds storages persists configuration. following options are currently implemented:sqlite{ \"storage\": { \"driver\": \"sqlite\", \"file_path\": \"db.sqlite\" }}set \"file_path\" value \":memory:\" use in-memory database.json file{ \"storage\": { \"driver\": \"json\", \"file_path\": \"db.json\" }} you'd to another storage feel free create issue open pull request.imagesregistry overviewrepository overviewtag overviewtag detail"
+}

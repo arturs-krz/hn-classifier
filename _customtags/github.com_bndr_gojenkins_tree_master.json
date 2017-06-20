@@ -1,0 +1,20 @@
+{
+	"_id": "8547828",
+	"site": "https://github.com/bndr/gojenkins/tree/master",
+	"title": " Jenkins CI Client in Go",
+	"author": "bndr",
+	"date": "2017-06-19T10:03:33.377Z",
+	"tags": {
+		"categories": [
+			"jenkins",
+			"go",
+			"continuous-integration",
+			"api",
+			"godoc"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

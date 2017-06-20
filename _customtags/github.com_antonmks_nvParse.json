@@ -1,0 +1,15 @@
+{
+	"_id": "9485714",
+	"site": "https://github.com/antonmks/nvParse",
+	"title": " Parsing CSV files with GPU",
+	"author": "antonmks",
+	"date": "2017-06-19T11:08:05.668Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"cuda",
+			"c++"
+		]
+	},
+	"content": ""
+}

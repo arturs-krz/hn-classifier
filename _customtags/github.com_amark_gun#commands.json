@@ -1,0 +1,36 @@
+{
+	"_id": "8478323",
+	"site": "http://github.com/amark/gun#commands",
+	"title": " Circular References with JSON and Kittens, JavaScript Graph Database",
+	"author": "marknadal",
+	"date": "2017-06-19T10:03:30.368Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"gun",
+			"realtime",
+			"graph",
+			"docker",
+			"reactive",
+			"offline-first",
+			"p2p",
+			"decentralized",
+			"distributed",
+			"data",
+			"big-data",
+			"fault-tolerance",
+			"conflict-resolution",
+			"concurrency",
+			"heroku",
+			"database",
+			"performance",
+			"load-testing",
+			"end-to-end"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

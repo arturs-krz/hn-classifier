@@ -1,0 +1,19 @@
+{
+	"_id": "13493598",
+	"site": "https://github.com/bfirsh/whalebrew",
+	"title": " Whalebrew – Homebrew, but with Docker images",
+	"author": "bfirsh",
+	"date": "2017-06-19T11:09:22.293Z",
+	"tags": {
+		"categories": [
+			"docker",
+			"package-manager",
+			"homebrew"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

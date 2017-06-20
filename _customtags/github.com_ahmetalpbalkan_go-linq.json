@@ -1,0 +1,16 @@
+{
+	"_id": "7010000",
+	"site": "https://github.com/ahmetalpbalkan/go-linq",
+	"title": " LINQ for Go",
+	"author": "aabalkan",
+	"date": "2017-06-19T10:39:07.389Z",
+	"tags": {
+		"categories": [
+			"development", "database"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

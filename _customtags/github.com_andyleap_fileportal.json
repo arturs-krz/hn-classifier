@@ -1,0 +1,17 @@
+{
+	"_id": "14270330",
+	"site": "https://github.com/andyleap/fileportal",
+	"title": " FilePortal – a portal gun for your files",
+	"author": "Vendan",
+	"date": "2017-06-13T13:32:04.035Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"storage"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md fileportal encrypted anything fancy, works the 2 computers see each via udp broadcast, run fileportal - <filetosend> one just fileportal the and file pop there!doesn't matter side start ."
+}

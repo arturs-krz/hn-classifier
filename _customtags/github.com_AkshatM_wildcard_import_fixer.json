@@ -1,0 +1,16 @@
+{
+	"_id": "12472428",
+	"site": "https://github.com/AkshatM/wildcard_import_fixer",
+	"title": " A utility to find and fix wildcard imports in Python 2.7 automatically",
+	"author": "AkshatM",
+	"date": "2017-06-19T09:39:17.739Z",
+	"tags": {
+		"categories": [
+			"tools", "development"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

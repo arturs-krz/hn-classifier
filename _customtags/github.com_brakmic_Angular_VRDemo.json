@@ -1,0 +1,25 @@
+{
+	"_id": "12067152",
+	"site": "https://github.com/brakmic/Angular_VRDemo",
+	"title": " WebVR with A-Frame and Angular 2",
+	"author": "brakmic",
+	"date": "2017-06-19T10:23:35.741Z",
+	"tags": {
+		"categories": [
+			"vr",
+			"virtualreality",
+			"angular2",
+			"aframe",
+			"aframevr",
+			"webvr",
+			"cardboard"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"typescript",
+			"html"
+		]
+	},
+	"content": ""
+}

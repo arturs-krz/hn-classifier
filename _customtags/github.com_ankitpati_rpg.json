@@ -1,0 +1,19 @@
+{
+	"_id": "14480028",
+	"site": "https://github.com/ankitpati/rpg",
+	"title": " Random Password Generator",
+	"author": "ankitpati",
+	"date": "2017-06-13T13:04:45.635Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"password",
+			"random"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md random password generatorgenerate long strong passwords.kickstartgit clone https://github.com/ankitpati/rpg.gitcd rpg./rpginstallation install binary the current user, && make install install binary all users (requires root), && sudo installsamplesplace binary your path easier access. refer installation.rpg # defaults between 8 16 charactersrpg 100 # 100 charactersrpg 50 100 # between 50 100 charactersrpg 50 100 43 # generate 43 passwordsrpg 50 50 43 # 43 passwords 50 characters each"
+}

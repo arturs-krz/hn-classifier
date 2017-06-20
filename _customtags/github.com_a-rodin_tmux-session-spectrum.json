@@ -1,0 +1,16 @@
+{
+	"_id": "14333086",
+	"site": "https://github.com/a-rodin/tmux-session-spectrum",
+	"title": " tmux-session-spectrum – different colors for different sessions in tmux",
+	"author": "inlineint",
+	"date": "2017-06-13T13:08:16.814Z",
+	"tags": {
+		"categories": [
+			"system"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md tmux-session-spectrum is script makes tmux different panel colors different sessions. it action:each session uses color the bottom panel, that different sessions aremore easily distinguishable between each .also automatically renumerates default session names, analogous renumber-windows windows.installation script requires tmux version be less 2.3. install copy tmux-session-spectru.sh file ~/.tmux directory add your ~/.tmux.conf following command:set-hook -g -new-session \"run-shell 'bash ~/.tmux/tmux-session-spectrum.sh'\" you to change default style, pass as environment variable:set-hook -g -new-session \"run-shell 'default_style=colour4 bash ~/.tmux/tmux-session-spectrum.sh'\" you your ~/.tmux.conf with both older tmux versions don't support script the newer ones, can done using tmux conditional directive:-shell \"bash -c \\\"[[ ! $(tmux -v | cut -d' ' -f2) < 2.3 ]]\\\"\" \"\\ set-hook -g -new-session \\\"run-shell 'bash ~/.tmux-session.sh\\'\\\"\""
+}

@@ -1,0 +1,17 @@
+{
+	"_id": "14177873",
+	"site": "https://github.com/bodyloss/Benchmarkable",
+	"title": " Easy small benchmarks in .NET",
+	"author": "bodyloss",
+	"date": "2017-06-13T13:33:35.534Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"dotnet"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md benchmarkablesimple easy .net benchmarking little bits code uses probability give accurate results regardless how fast cpu is. you benchmark method will a sample run see many iterations per batch should run your method. it run batch batch until error percentage is below 1% ( default, can changed though). idea is even your cpu is insanely fast really slow will still a statistically accurate result.installrun following command the package manager console (nuget).pm> install-package benchmarkable clone include benchmarkable.csproj directlylets you wanted see string.contains was faster slower using regular expressionvar haystack = \"abcdef\";benchmark.(() => haystack.contains(\"ef\"), \"string.contains\") .against(() => regex(\"ef\").ismatch(haystack), \"regex.ismatch\") .print();label |runs |ops/sec |times slower-----------------+----------+-------------------------+---------------string.contains |27 |13,773,246 +/-3.460% |1.000xregex.ismatch |10 |459,500 +/-9.674% |29.974xsingle methodbenchmark..this(() => math.sin(1.23)).print(); methodsbenchmark.(() => { }) .against(() => { }, \" a label\") .print();multiple methodsbenchmark.(new(action, string)[]{ (() => math.sin(1.23), \"sin1\"), (() => math.sin(1.23), \"sin2\"), (() => math.sin(1.23), \"sin3\"), (() => math.sin(1.23), \"sin4\"), (() => math.sin(1.23), \"sin5\"),}).print();note: have provide labels each method want benchmark using syntaxexplicit declarationvar benchmark = benchmark(); benchmark.add(() => { }, \"label\"); benchmark.add(() => { }, \"label 2\"); var results = benchmark.run(); results.print();benchmark.settings settings must changed before creating benchmark.valuedefaultdescriptionbenchmark.settings.initialbatchtime500ms time run benchmark method initially calculate batch sizebenchmark.settings.minimumerrortoaccept1.0error % the last 10 (default) batches accept a valid benchmark resultbenchmark.settings.batchestoworkacross10number batches calculate statistics across ( thus error%)benchmark.settings.maxtime5000msmaximum to run single method before terminating, is the error % has yet been metbenchmark.settings.verbosefalseprint outinformation a benchmark is run.contributing and help is greatly appreciated. especially around statistical elements.todoprinting results, needs be cleaned made more versatile. maybe lightweight templatesautomatically calculate batch size one will lower error % fast possible."
+}

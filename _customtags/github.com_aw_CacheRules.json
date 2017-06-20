@@ -1,0 +1,20 @@
+{
+	"_id": "8976984",
+	"site": "https://github.com/aw/CacheRules",
+	"title": " RFC compliant HTTP Caching library in functional Ruby",
+	"author": "alexwilliamsca",
+	"date": "2017-06-19T08:42:29.949Z",
+	"tags": {
+		"categories": [
+			"rfc7234",
+			"caching",
+			"http",
+			"cache-control",
+			"functional-ruby"
+		],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

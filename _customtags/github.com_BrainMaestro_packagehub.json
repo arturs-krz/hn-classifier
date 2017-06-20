@@ -1,0 +1,18 @@
+{
+	"_id": "13687531",
+	"site": "https://github.com/BrainMaestro/packagehub",
+	"title": " Package Hub – A Chrome extension to show package manager dependencies",
+	"author": "BrainMaestro",
+	"date": "2017-06-19T10:08:40.062Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"package-manager",
+			"github-extension"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}
