@@ -6,10 +6,7 @@
 	"date": "2017-06-19T10:33:46.946Z",
 	"tags": {
 		"categories": [
-			"rust",
-			"repl",
-			"education",
-			"bitwise-operators"
+			"development", "tools"
 		],
 		"languages": [
 			"rust"

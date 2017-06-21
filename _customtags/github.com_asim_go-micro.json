@@ -6,13 +6,7 @@
 	"date": "2017-06-19T10:58:33.696Z",
 	"tags": {
 		"categories": [
-			"go",
-			"micro",
-			"rpc",
-			"distributed-systems",
-			"microservices",
-			"go-micro",
-			"microservice"
+			"development", "library"
 		],
 		"languages": [
 			"go",

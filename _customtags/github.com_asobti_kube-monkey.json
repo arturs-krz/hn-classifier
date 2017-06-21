@@ -6,10 +6,7 @@
 	"date": "2017-06-19T10:51:57.425Z",
 	"tags": {
 		"categories": [
-			"netflix-chaos-monkey",
-			"kubernetes",
-			"chaos-monkey",
-			"go"
+			"devops", "tools"
 		],
 		"languages": [
 			"go",

@@ -5,7 +5,7 @@
 	"author": "andars",
 	"date": "2017-06-19T10:28:10.182Z",
 	"tags": {
-		"categories": [],
+		"categories": ["tools", "example"],
 		"languages": [
 			"rust"
 		]

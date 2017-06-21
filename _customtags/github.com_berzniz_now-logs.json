@@ -6,10 +6,7 @@
 	"date": "2017-06-19T08:42:46.702Z",
 	"tags": {
 		"categories": [
-			"realtime-logs",
-			"logs",
-			"now",
-			"zeit"
+			"monitoring", "development", "system"
 		],
 		"languages": [
 			"javascript"

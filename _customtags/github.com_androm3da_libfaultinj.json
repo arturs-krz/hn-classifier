@@ -5,7 +5,7 @@
 	"author": "wyldfire",
 	"date": "2017-06-19T09:51:37.971Z",
 	"tags": {
-		"categories": [],
+		"categories": ["development", "library"],
 		"languages": [
 			"rust",
 			"shell"

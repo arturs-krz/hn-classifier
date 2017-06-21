@@ -6,10 +6,7 @@
 	"date": "2017-06-19T09:54:39.622Z",
 	"tags": {
 		"categories": [
-			"interpreter",
-			"haskell",
-			"lazy-evaluation",
-			"language"
+			"development", "tools"
 		],
 		"languages": [
 			"rust"

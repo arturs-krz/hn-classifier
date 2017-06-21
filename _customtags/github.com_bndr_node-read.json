@@ -5,7 +5,7 @@
 	"author": "bndr",
 	"date": "2017-06-19T10:01:44.227Z",
 	"tags": {
-		"categories": [],
+		"categories": ["web", "tools"],
 		"languages": [
 			"javascript",
 			"makefile"

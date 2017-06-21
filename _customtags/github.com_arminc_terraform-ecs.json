@@ -6,10 +6,7 @@
 	"date": "2017-06-13T13:56:40.869Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"aws-ecs",
-			"terraform",
-			"terraform-modules"
+			"devops"
 		],
 		"languages": [
 			"hcl",

@@ -6,12 +6,7 @@
 	"date": "2017-06-13T13:55:20.660Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"golang",
-			"go",
-			"websocket",
-			"gin-gonic",
-			"remote-control"
+			"tools", "productivity"
 		],
 		"languages": [
 			"go",

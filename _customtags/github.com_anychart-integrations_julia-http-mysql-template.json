@@ -5,7 +5,7 @@
 	"author": "andreykh",
 	"date": "2017-06-19T10:57:23.080Z",
 	"tags": {
-		"categories": [],
+		"categories": ["development", "database", "example", "visual"],
 		"languages": [
 			"sqlpl",
 			"html",

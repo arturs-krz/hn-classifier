@@ -1,0 +1,134 @@
+[
+    {
+        "tag": "library",
+        "aliases": [
+            "development, library", "framework", "plugin", "plugins"
+        ]
+    },
+    {
+        "tag": "entertainment",
+        "aliases": [
+            "games", "music", "audio"
+        ]
+    },
+    {
+        "tag": "data-science",
+        "aliases": [
+            "image-processing", "tensorflow"
+        ]
+    },
+    {
+        "tag": "development",
+        "aliases": [
+            "algorithms"
+        ]
+    },
+    {
+        "tag": "tools",
+        "aliases": [
+            "tool"
+        ]
+    },
+    {
+        "tag": "example",
+        "aliases": [
+            "starter", "premade"
+        ]
+    },
+    {
+        "tag": "productivity",
+        "aliases": [
+            "editor", "themes", "theme", "bot", "nontech"
+        ]
+    },
+    {
+        "tag": "social",
+        "aliases": [
+            "chat"
+        ]
+    },
+    {
+        "tag": "system",
+        "aliases": [
+            "shell"
+        ]
+    },
+    {
+        "tag": "web",
+        "aliases":[
+            "browser"
+        ]
+    },
+    {
+        "tag": "media",
+        "aliases": [
+            
+        ]
+    },
+    {
+        "tag": "devops",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "visual",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "design",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "security",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "database",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "mobile",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "monitoring",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "api",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "list",
+        "aliases":[
+            
+        ]
+    },
+    {
+        "tag": "cloud",
+        "aliases":[
+            "blockchain"
+        ]
+    },
+    {
+        "tag": "apple",
+        "aliases":[
+            
+        ]
+    },
+]

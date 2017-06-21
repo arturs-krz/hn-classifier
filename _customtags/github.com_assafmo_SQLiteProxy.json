@@ -6,10 +6,7 @@
 	"date": "2017-06-13T13:06:43.970Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"sqlite",
-			"http-server",
-			"json"
+			"tools", "database", "development"
 		],
 		"languages": [
 			"javascript"

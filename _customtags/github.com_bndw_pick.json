@@ -6,20 +6,7 @@
 	"date": "2017-06-19T10:15:17.344Z",
 	"tags": {
 		"categories": [
-			"password",
-			"password-manager",
-			"cli",
-			"terminal",
-			"security",
-			"crypto",
-			"golang",
-			"chacha20-poly1305",
-			"aes-gcm",
-			"openpgp",
-			"scrypt",
-			"pbkdf2",
-			"macos",
-			"linux"
+			"security", "system", "tools"
 		],
 		"languages": [
 			"go",

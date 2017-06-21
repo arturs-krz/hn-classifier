@@ -5,7 +5,7 @@
 	"author": "avodonosov",
 	"date": "2017-06-19T10:07:53.228Z",
 	"tags": {
-		"categories": [],
+		"categories": ["devops", "development"],
 		"languages": [
 			"common lisp",
 			"shell"

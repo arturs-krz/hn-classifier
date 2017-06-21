@@ -6,10 +6,7 @@
 	"date": "2017-06-13T13:08:17.231Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"docker",
-			"docker-registry",
-			"docker-registry-ui"
+			"devops", "tools"
 		],
 		"languages": [
 			"python",

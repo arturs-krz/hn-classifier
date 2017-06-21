@@ -6,9 +6,7 @@
 	"date": "2017-06-19T10:08:40.062Z",
 	"tags": {
 		"categories": [
-			"chrome-extension",
-			"package-manager",
-			"github-extension"
+			"browser", "tools", "monitoring"
 		],
 		"languages": [
 			"javascript"

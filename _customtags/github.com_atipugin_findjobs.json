@@ -5,7 +5,7 @@
 	"author": "atipugin",
 	"date": "2017-06-19T10:46:38.412Z",
 	"tags": {
-		"categories": [],
+		"categories": ["tools", "system"],
 		"languages": [
 			"ruby",
 			"shell"

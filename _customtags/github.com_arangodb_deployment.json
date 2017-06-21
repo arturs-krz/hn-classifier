@@ -5,7 +5,7 @@
 	"author": "fceller",
 	"date": "2017-06-19T10:41:09.533Z",
 	"tags": {
-		"categories": [],
+		"categories": ["devops", "cloud", "database"],
 		"languages": [
 			"shell",
 			"makefile"

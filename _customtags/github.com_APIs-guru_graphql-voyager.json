@@ -6,11 +6,7 @@
 	"date": "2017-06-19T10:11:51.753Z",
 	"tags": {
 		"categories": [
-			"graphql",
-			"api-documentation",
-			"visualization",
-			"graphviz",
-			"graphql-tools"
+			"database"
 		],
 		"languages": [
 			"typescript",

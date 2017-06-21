@@ -6,10 +6,7 @@
 	"date": "2017-06-19T10:39:21.828Z",
 	"tags": {
 		"categories": [
-			"webhook",
-			"mongoose-webhooks",
-			"mongoose",
-			"mongoose-plugin"
+			"database", "web"
 		],
 		"languages": [
 			"javascript"

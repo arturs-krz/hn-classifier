@@ -6,11 +6,7 @@
 	"date": "2017-06-13T13:55:21.278Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"ng2-redux",
-			"redux-store",
-			"redux",
-			"angular"
+			"web", "development", "framework"
 		],
 		"languages": [
 			"typescript",

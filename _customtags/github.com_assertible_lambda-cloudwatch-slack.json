@@ -6,8 +6,7 @@
 	"date": "2017-06-19T08:42:32.365Z",
 	"tags": {
 		"categories": [
-			"slack-notifications",
-			"aws-lambda"
+			"devops", "chat"
 		],
 		"languages": [
 			"javascript",

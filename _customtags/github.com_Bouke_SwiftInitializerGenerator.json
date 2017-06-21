@@ -6,9 +6,7 @@
 	"date": "2017-06-19T08:46:23.346Z",
 	"tags": {
 		"categories": [
-			"swift",
-			"xcode-extension",
-			"code-generator"
+			"development", "tools", "plugin"
 		],
 		"languages": [
 			"swift"

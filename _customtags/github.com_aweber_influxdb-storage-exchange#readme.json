@@ -5,7 +5,7 @@
 	"author": "crad",
 	"date": "2017-06-19T10:35:07.617Z",
 	"tags": {
-		"categories": [],
+		"categories": ["database"],
 		"languages": [
 			"erlang",
 			"shell",

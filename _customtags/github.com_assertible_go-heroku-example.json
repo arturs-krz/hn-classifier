@@ -6,12 +6,7 @@
 	"date": "2017-06-13T13:08:55.842Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"deployment",
-			"continuous-testing",
-			"continuous-deployment",
-			"smoke-testing",
-			"go"
+			"development", "api", "devops"
 		],
 		"languages": [
 			"go"

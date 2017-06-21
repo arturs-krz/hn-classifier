@@ -6,12 +6,7 @@
 	"date": "2017-06-19T10:02:43.766Z",
 	"tags": {
 		"categories": [
-			"philips-hue",
-			"haskell",
-			"raspberry-pi",
-			"home-automation",
-			"dashboard",
-			"web-interface"
+			"system", "tools", "productivity"
 		],
 		"languages": [
 			"haskell",

@@ -5,7 +5,7 @@
 	"author": "barryclark",
 	"date": "2017-06-19T10:29:26.041Z",
 	"tags": {
-		"categories": [],
+		"categories": ["system", "tools"],
 		"languages": [
 			"shell"
 		]

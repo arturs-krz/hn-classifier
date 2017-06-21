@@ -6,17 +6,7 @@
 	"date": "2017-06-19T11:05:20.268Z",
 	"tags": {
 		"categories": [
-			"webrtc",
-			"text-editor",
-			"crdt",
-			"bias",
-			"collaboration",
-			"operational-transformation",
-			"blind-auditions",
-			"interview",
-			"peer",
-			"coding-interviews",
-			"voice-anonymization"
+			"tools", "productivity"
 		],
 		"languages": [
 			"typescript",

@@ -6,14 +6,7 @@
 	"date": "2017-06-13T13:31:14.549Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"test-driven-development",
-			"testing-tools",
-			"test-automation",
-			"test-runner",
-			"api-testing",
-			"api-test-platform",
-			"testing"
+			"development", "tools", "api"
 		],
 		"languages": [
 			"go",

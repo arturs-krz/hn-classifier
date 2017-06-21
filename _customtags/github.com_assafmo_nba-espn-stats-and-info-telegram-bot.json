@@ -6,13 +6,7 @@
 	"date": "2017-06-13T13:04:19.498Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"telegram-bot",
-			"telegram-bot-api",
-			"twitter-api",
-			"nba-stats",
-			"nba",
-			"bot"
+			"chat", "monitoring", "social"
 		],
 		"languages": [
 			"javascript"

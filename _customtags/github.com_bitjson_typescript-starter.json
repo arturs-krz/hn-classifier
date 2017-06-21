@@ -6,26 +6,7 @@
 	"date": "2017-06-19T10:43:44.147Z",
 	"tags": {
 		"categories": [
-			"nodejs",
-			"es6",
-			"es7",
-			"typescript",
-			"boilerplate",
-			"starter",
-			"ava",
-			"nyc",
-			"typedoc",
-			"jsnext",
-			"javascript",
-			"node",
-			"tree-shaking",
-			"rollup",
-			"tslint",
-			"template",
-			"javascript-modules",
-			"conventional-changelog",
-			"async-await",
-			"javascript-library"
+			"development", "starter"
 		],
 		"languages": [
 			"typescript",

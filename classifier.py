@@ -54,7 +54,7 @@ def create_class_vec(tags):
 
 def clean(seq):
     seq = seq.replace("Show HN:", "")
-    seq = " ".join(filter(lambda w: not w in common, seq.split()))
+    # seq = " ".join(filter(lambda w: not w in common, seq.split()))
     seq = re.sub('[^\x00-\xFF]', '', seq)
     seq = re.sub('(?:\r\n|\r|\n)', '', seq)
     seq = re.sub('(?:\\[rn])+', '', seq)
@@ -110,7 +110,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 200
+num_hidden = 400
 
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
@@ -142,33 +142,33 @@ sess = tf.Session()
 saver = tf.train.Saver()
 sess.run(init)
 
-saver.restore(sess, "./model.ckpt")
+# saver.restore(sess, "./model.ckpt")
 
-# batch_size = 100
-# batch_count = int(len(input_data) / batch_size)
-# epochs = 350
-# for e in range(epochs):
-#     ptr = 0
-#     entropy_val = 0
-#     for i in range(batch_count):
-#         inp = input_data[ptr:ptr+batch_size]
-#         out = labels[ptr:ptr+batch_size]
-#         ptr += batch_size
-#         train_step.run(session=sess,feed_dict={data: inp, target: out})
-#         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
+batch_size = 100
+batch_count = int(len(input_data) / batch_size)
+epochs = 400
+for e in range(epochs):
+    ptr = 0
+    entropy_val = 0
+    for i in range(batch_count):
+        inp = input_data[ptr:ptr+batch_size]
+        out = labels[ptr:ptr+batch_size]
+        ptr += batch_size
+        train_step.run(session=sess,feed_dict={data: inp, target: out})
+        entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
     
-#     print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
+    print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
 
-# saver.save(sess, "./model.ckpt")
+saver.save(sess, "./model.ckpt")
 
-tests = [
-    "dosycrypt homemade symmetric stream cipher with tunable parameters",
-    "blur photo background in ten seconds",
-    "basic manga reader powered by vue js",
-    "free search engine for everybody",
-    "argskwargs, flexible python lib for positional and keyword arguments",
-    "strukt visual shell for tabular data"
-]
+# tests = [
+#     "dosycrypt homemade symmetric stream cipher with tunable parameters",
+#     "blur photo background in ten seconds",
+#     "basic manga reader powered by vue js",
+#     "free search engine for everybody",
+#     "argskwargs, flexible python lib for positional and keyword arguments",
+#     "strukt visual shell for tabular data"
+# ]
 
 for filename in listdir("./_untagged/"):
     with open("./_untagged/" + filename, encoding='utf-8') as untagged:

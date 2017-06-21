@@ -6,15 +6,7 @@
 	"date": "2017-06-19T10:29:11.501Z",
 	"tags": {
 		"categories": [
-			"ios-notification",
-			"notification-server",
-			"android",
-			"golang",
-			"gcm",
-			"gorush-server",
-			"apns",
-			"ios-alert-payload",
-			"ios"
+			"system", "tools"
 		],
 		"languages": [
 			"go",

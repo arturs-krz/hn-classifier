@@ -6,11 +6,7 @@
 	"date": "2017-06-19T10:03:33.377Z",
 	"tags": {
 		"categories": [
-			"jenkins",
-			"go",
-			"continuous-integration",
-			"api",
-			"godoc"
+			"devops"
 		],
 		"languages": [
 			"go"

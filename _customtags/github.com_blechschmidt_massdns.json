@@ -6,15 +6,7 @@
 	"date": "2017-06-19T10:01:00.684Z",
 	"tags": {
 		"categories": [
-			"dns",
-			"dns-resolver",
-			"dns-resolution",
-			"dns-bruteforcer",
-			"dns-client",
-			"subbrute",
-			"massdns",
-			"bulk-dns",
-			"dns-lookup"
+			"system", "development"
 		],
 		"languages": [
 			"c",

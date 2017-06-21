@@ -5,7 +5,7 @@
 	"author": "boramalper",
 	"date": "2017-06-19T10:08:48.643Z",
 	"tags": {
-		"categories": [],
+		"categories": ["system", "tools"],
 		"languages": [
 			"shell",
 			"python"

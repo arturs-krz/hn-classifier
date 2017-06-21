@@ -6,8 +6,7 @@
 	"date": "2017-06-19T08:43:55.540Z",
 	"tags": {
 		"categories": [
-			"timing-attacks",
-			"devtools"
+			"security", "browser"
 		],
 		"languages": [
 			"javascript",

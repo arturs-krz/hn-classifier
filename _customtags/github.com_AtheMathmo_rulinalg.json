@@ -6,10 +6,7 @@
 	"date": "2017-06-19T09:48:51.038Z",
 	"tags": {
 		"categories": [
-			"linear-algebra-library",
-			"rust",
-			"scientific-computing",
-			"linear-algebra"
+			"data-science", "library"
 		],
 		"languages": [
 			"rust"

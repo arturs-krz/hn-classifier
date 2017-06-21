@@ -6,10 +6,7 @@
 	"date": "2017-06-19T09:53:35.585Z",
 	"tags": {
 		"categories": [
-			"typescript",
-			"chrome-extension",
-			"github-extension",
-			"chrome"
+			"browser", "development"
 		],
 		"languages": [
 			"javascript",

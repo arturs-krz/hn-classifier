@@ -6,10 +6,7 @@
 	"date": "2017-06-19T10:40:02.586Z",
 	"tags": {
 		"categories": [
-			"curl",
-			"rest",
-			"requests",
-			"cpp11"
+			"development", "library"
 		],
 		"languages": [
 			"c++",

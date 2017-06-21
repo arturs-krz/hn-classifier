@@ -6,18 +6,7 @@
 	"date": "2017-06-19T10:45:53.426Z",
 	"tags": {
 		"categories": [
-			"rtmp",
-			"android",
-			"rtmp-stream",
-			"camera",
-			"media",
-			"live-streaming",
-			"android-sdk",
-			"android-library",
-			"gles",
-			"shader",
-			"opengles",
-			"glsl"
+			"mobile", "development"
 		],
 		"languages": [
 			"c",

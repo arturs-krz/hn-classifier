@@ -5,7 +5,7 @@
 	"author": "bdamos",
 	"date": "2017-06-19T09:35:22.516Z",
 	"tags": {
-		"categories": [],
+		"categories": ["web", "monitoring"],
 		"languages": [
 			"haskell",
 			"shell",

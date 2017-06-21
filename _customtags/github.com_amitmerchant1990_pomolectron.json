@@ -6,14 +6,7 @@
 	"date": "2017-06-19T10:05:38.602Z",
 	"tags": {
 		"categories": [
-			"pomodoro",
-			"pomodoro-timer",
-			"productivity",
-			"desktop",
-			"electron",
-			"menubar",
-			"tray",
-			"time-intervals"
+			"productivity", "tools"
 		],
 		"languages": [
 			"javascript",

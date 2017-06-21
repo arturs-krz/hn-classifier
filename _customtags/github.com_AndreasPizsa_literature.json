@@ -5,7 +5,7 @@
 	"author": "AndreasPizsa",
 	"date": "2017-06-19T10:07:49.112Z",
 	"tags": {
-		"categories": [],
+		"categories": ["tools", "development"],
 		"languages": [
 			"coffeescript",
 			"javascript"

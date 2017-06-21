@@ -6,9 +6,7 @@
 	"date": "2017-06-19T09:45:16.263Z",
 	"tags": {
 		"categories": [
-			"logger",
-			"golang",
-			"logging-library"
+			"monitoring", "development", "tools"
 		],
 		"languages": [
 			"go"

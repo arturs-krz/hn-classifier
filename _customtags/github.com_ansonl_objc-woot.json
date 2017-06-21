@@ -6,12 +6,7 @@
 	"date": "2017-06-19T08:46:13.079Z",
 	"tags": {
 		"categories": [
-			"woot",
-			"operational-transformation",
-			"mesh-notes",
-			"ios",
-			"uitextview",
-			"crdt"
+			"framework", "development"
 		],
 		"languages": [
 			"objective-c"

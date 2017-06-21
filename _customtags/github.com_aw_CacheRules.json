@@ -6,11 +6,7 @@
 	"date": "2017-06-19T08:42:29.949Z",
 	"tags": {
 		"categories": [
-			"rfc7234",
-			"caching",
-			"http",
-			"cache-control",
-			"functional-ruby"
+			"library", "development", "system"
 		],
 		"languages": [
 			"ruby"

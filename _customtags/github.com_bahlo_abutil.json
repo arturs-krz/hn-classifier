@@ -5,7 +5,7 @@
 	"author": "abahlo",
 	"date": "2017-06-19T09:45:20.536Z",
 	"tags": {
-		"categories": [],
+		"categories": ["list", "development"],
 		"languages": [
 			"go",
 			"makefile"

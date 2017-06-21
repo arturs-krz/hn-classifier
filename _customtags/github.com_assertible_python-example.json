@@ -6,13 +6,7 @@
 	"date": "2017-06-13T13:04:45.986Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"qa",
-			"api",
-			"continuous-delivery",
-			"continuous-integration",
-			"api-testing",
-			"travis"
+			"api", "devops"
 		],
 		"languages": [
 			"python"

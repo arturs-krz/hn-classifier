@@ -1,5 +1,5 @@
 const fs = require("fs")
-const tagDir = `${__dirname}/_tagged/`
+const tagDir = `${__dirname}/_customtags/`
 
 const categories = {}
 const languages = {}

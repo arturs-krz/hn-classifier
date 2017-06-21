@@ -6,26 +6,7 @@
 	"date": "2017-06-19T10:03:30.368Z",
 	"tags": {
 		"categories": [
-			"javascript",
-			"gun",
-			"realtime",
-			"graph",
-			"docker",
-			"reactive",
-			"offline-first",
-			"p2p",
-			"decentralized",
-			"distributed",
-			"data",
-			"big-data",
-			"fault-tolerance",
-			"conflict-resolution",
-			"concurrency",
-			"heroku",
-			"database",
-			"performance",
-			"load-testing",
-			"end-to-end"
+			"database", "web", "development"
 		],
 		"languages": [
 			"javascript",

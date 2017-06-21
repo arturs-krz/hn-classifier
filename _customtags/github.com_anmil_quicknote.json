@@ -6,13 +6,7 @@
 	"date": "2017-06-19T10:28:56.941Z",
 	"tags": {
 		"categories": [
-			"notebook",
-			"go",
-			"search",
-			"bleve",
-			"elasticsearch",
-			"note",
-			"qnote"
+			"tools", "productivity"
 		],
 		"languages": [
 			"go"

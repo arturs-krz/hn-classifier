@@ -6,16 +6,7 @@
 	"date": "2017-06-13T13:04:46.006Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"python",
-			"geohash",
-			"compression",
-			"utility",
-			"command-line-tool",
-			"geospatial",
-			"geolocation",
-			"optimization",
-			"performance"
+			"development", "tools"
 		],
 		"languages": [
 			"python"

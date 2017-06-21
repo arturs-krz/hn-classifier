@@ -6,8 +6,7 @@
 	"date": "2017-06-13T13:57:07.916Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"cryptography"
+			"library", "security"
 		],
 		"languages": [
 			"c",

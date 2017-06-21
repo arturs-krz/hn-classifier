@@ -6,12 +6,7 @@
 	"date": "2017-06-13T13:55:34.260Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"websocket",
-			"client",
-			"simple",
-			"adventure",
-			"reconnect"
+			"library", "development"
 		],
 		"languages": [
 			"javascript"

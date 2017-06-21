@@ -6,11 +6,7 @@
 	"date": "2017-06-19T09:59:18.264Z",
 	"tags": {
 		"categories": [
-			"mopidy",
-			"fzf",
-			"vim",
-			"plugin",
-			"spotify"
+			"tools", "productivity"
 		],
 		"languages": [
 			"vim script"

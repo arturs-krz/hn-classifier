@@ -6,9 +6,7 @@
 	"date": "2017-06-19T09:42:46.987Z",
 	"tags": {
 		"categories": [
-			"babel-preset",
-			"autoprefixer",
-			"flavortown"
+			"development", "tools"
 		],
 		"languages": [
 			"javascript"

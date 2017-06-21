@@ -6,17 +6,7 @@
 	"date": "2017-06-19T10:09:00.201Z",
 	"tags": {
 		"categories": [
-			"nginx",
-			"go",
-			"angular",
-			"javascript",
-			"typescript",
-			"localization",
-			"api",
-			"self-hosted",
-			"i18n",
-			"i10n",
-			"translation"
+			"tools", "development"
 		],
 		"languages": [
 			"typescript",

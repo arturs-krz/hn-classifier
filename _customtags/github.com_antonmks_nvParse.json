@@ -5,7 +5,7 @@
 	"author": "antonmks",
 	"date": "2017-06-19T11:08:05.668Z",
 	"tags": {
-		"categories": [],
+		"categories": ["development", "data-science"],
 		"languages": [
 			"cuda",
 			"c++"

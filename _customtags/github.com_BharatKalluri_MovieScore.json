@@ -6,13 +6,7 @@
 	"date": "2017-06-19T10:46:26.557Z",
 	"tags": {
 		"categories": [
-			"command-line-tool",
-			"cli",
-			"golang",
-			"go",
-			"movie-reviews",
-			"ratings",
-			"poster-images"
+			"system", "tools", "entertainment"
 		],
 		"languages": [
 			"go"

@@ -5,7 +5,7 @@
 	"author": "bluetomcat",
 	"date": "2017-06-19T10:26:10.401Z",
 	"tags": {
-		"categories": [],
+		"categories": ["example", "development"],
 		"languages": [
 			"c",
 			"makefile"

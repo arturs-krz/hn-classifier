@@ -5,7 +5,7 @@
 	"author": "apgwoz",
 	"date": "2017-06-19T10:28:13.873Z",
 	"tags": {
-		"categories": [],
+		"categories": ["system", "browser"],
 		"languages": [
 			"javascript",
 			"go"

@@ -6,9 +6,7 @@
 	"date": "2017-06-19T09:39:06.747Z",
 	"tags": {
 		"categories": [
-			"pouchdb",
-			"purescript",
-			"database"
+			"database", "development"
 		],
 		"languages": [
 			"purescript",

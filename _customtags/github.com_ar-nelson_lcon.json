@@ -5,7 +5,7 @@
 	"author": "ar-nelson",
 	"date": "2017-06-19T10:15:57.344Z",
 	"tags": {
-		"categories": [],
+		"categories": ["development", "media"],
 		"languages": [
 			"typescript",
 			"vim script"

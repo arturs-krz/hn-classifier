@@ -6,13 +6,7 @@
 	"date": "2017-06-13T13:06:43.719Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"bittorrent",
-			"torrent",
-			"p2p",
-			"dht",
-			"encryption",
-			"library"
+			"security", "media"
 		],
 		"languages": [
 			"java",

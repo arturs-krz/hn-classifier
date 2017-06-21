@@ -5,7 +5,7 @@
 	"author": "msoloviev",
 	"date": "2017-06-19T10:53:00.423Z",
 	"tags": {
-		"categories": [],
+		"categories": ["visual", "tools"],
 		"languages": [
 			"c",
 			"makefile"

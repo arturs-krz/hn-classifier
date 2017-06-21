@@ -6,12 +6,7 @@
 	"date": "2017-06-13T13:04:20.247Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"similarity",
-			"duplicate",
-			"javascript",
-			"static-analysis",
-			"typescript"
+			"development", "tools", "productivity"
 		],
 		"languages": [
 			"typescript"

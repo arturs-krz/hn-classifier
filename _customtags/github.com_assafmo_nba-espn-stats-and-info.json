@@ -6,12 +6,7 @@
 	"date": "2017-06-19T11:09:17.808Z",
 	"tags": {
 		"categories": [
-			"espn-stats",
-			"nba",
-			"nba-stats",
-			"twitter-bot",
-			"bash-script",
-			"crawl"
+			"social", "monitoring"
 		],
 		"languages": [
 			"html",

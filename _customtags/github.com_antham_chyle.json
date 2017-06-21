@@ -6,12 +6,7 @@
 	"date": "2017-06-13T13:55:21.107Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"git",
-			"changelog",
-			"changelog-generator",
-			"github-releases",
-			"jira-issue"
+			"development", "tools"
 		],
 		"languages": [
 			"go",

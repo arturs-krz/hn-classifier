@@ -5,7 +5,7 @@
 	"author": "ananthakumaran",
 	"date": "2017-06-19T10:29:29.852Z",
 	"tags": {
-		"categories": [],
+		"categories": ["tools", "system"],
 		"languages": [
 			"haskell",
 			"ruby"

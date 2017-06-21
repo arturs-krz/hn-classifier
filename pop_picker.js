@@ -1,9 +1,9 @@
 const natural = new require('natural')
 // const classifier = new natural.BayesClassifier()
 const fs = require("fs")
-const stripCommon = require('strip-common-words')
+// const stripCommon = require('strip-common-words')
 
-const tagDir = `${__dirname}/_tagged/`
+const tagDir = `${__dirname}/_customtags/`
 const untagDir = `${__dirname}/_untagged/`
 
 
@@ -30,7 +30,7 @@ fs.readFile(aliasesPath, (err, data) => {
                             resource.popularTags = []
                             resource.tags.categories.forEach(category => {
                                 aliases.forEach(alias => {
-                                    if(category == alias.tag || alias.aliases.indexOf(category) !== -1) {
+                                    if(category != 'opensource' && (category == alias.tag || alias.aliases.indexOf(category) !== -1)) {
                                         resource.popularTags.push(alias.tag)
                                     } else {
                                         if(!unknown.hasOwnProperty(category)) unknown[category] = 0
@@ -39,15 +39,15 @@ fs.readFile(aliasesPath, (err, data) => {
                                 })
                             })
 
-                            if(!resource.popularTags.length) {
-                                resource.tags.languages.forEach(lang => {
-                                    aliases.forEach(alias => {
-                                        if(lang == alias.tag || alias.aliases.indexOf(lang) !== -1) {
-                                            resource.popularTags.push(alias.tag)
-                                        }
-                                    })
-                                })
-                            }
+                            // if(!resource.popularTags.length) {
+                            //     resource.tags.languages.forEach(lang => {
+                            //         aliases.forEach(alias => {
+                            //             if(lang == alias.tag || alias.aliases.indexOf(lang) !== -1) {
+                            //                 resource.popularTags.push(alias.tag)
+                            //             }
+                            //         })
+                            //     })
+                            // }
 
                             resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
                             if(resource.popularTags.length) {
@@ -55,7 +55,7 @@ fs.readFile(aliasesPath, (err, data) => {
                                 
                                 tagged.push(resource)
                                 fs.writeFile(`${__dirname}/_popular/${file}`, JSON.stringify({
-                                    "title": clean(resource.title, true),
+                                    "title": clean(resource.title, false),
                                     "tags": resource.popularTags.map(tag => clean(tag))
                                 }))
                             }
@@ -99,7 +99,7 @@ fs.readFile(aliasesPath, (err, data) => {
 function clean(str, strip) {
 
     // Remove common english words
-    if (strip) str = stripCommon(str)
+    // if (strip) str = stripCommon(str)
 
     return str
         // remove non-ascii chars

@@ -6,11 +6,7 @@
 	"date": "2017-06-19T09:57:54.164Z",
 	"tags": {
 		"categories": [
-			"go",
-			"middleware",
-			"rest",
-			"framework",
-			"json"
+			"development", "tools", "api"
 		],
 		"languages": [
 			"go"

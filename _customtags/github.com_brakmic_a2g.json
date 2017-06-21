@@ -6,9 +6,7 @@
 	"date": "2017-06-19T10:32:38.136Z",
 	"tags": {
 		"categories": [
-			"tools",
-			"angular2",
-			"cli"
+			"development", "tools"
 		],
 		"languages": [
 			"typescript",

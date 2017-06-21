@@ -6,13 +6,7 @@
 	"date": "2017-06-13T14:09:47.190Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"angular",
-			"typescript",
-			"javascript",
-			"angular2",
-			"angular4",
-			"socketio"
+			"library", "development", "web"
 		],
 		"languages": [
 			"typescript"

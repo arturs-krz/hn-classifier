@@ -6,12 +6,8 @@
 	"date": "2017-06-13T13:04:19.968Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"docker",
-			"nodejs",
-			"cli",
-			"containers",
-			"continuous-integration"
+			"devops",
+			"tools"
 		],
 		"languages": [
 			"javascript"

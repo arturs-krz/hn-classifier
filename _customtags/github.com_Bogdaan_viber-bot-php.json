@@ -6,10 +6,7 @@
 	"date": "2017-06-19T10:16:31.408Z",
 	"tags": {
 		"categories": [
-			"php",
-			"bot",
-			"viber",
-			"sdk"
+			"library", "api"
 		],
 		"languages": [
 			"php"

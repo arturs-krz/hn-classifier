@@ -6,11 +6,7 @@
 	"date": "2017-06-19T10:08:20.511Z",
 	"tags": {
 		"categories": [
-			"self-hosted",
-			"bittorrent",
-			"dht",
-			"search-engine",
-			"website"
+			"tools", "framework"
 		],
 		"languages": [
 			"python",

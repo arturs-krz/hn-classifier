@@ -6,11 +6,7 @@
 	"date": "2017-06-19T10:51:18.820Z",
 	"tags": {
 		"categories": [
-			"ast",
-			"babylon",
-			"parser",
-			"babel",
-			"estree"
+			"development", "web", "tools"
 		],
 		"languages": [
 			"javascript",

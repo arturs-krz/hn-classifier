@@ -5,7 +5,7 @@
 	"author": "asib",
 	"date": "2017-06-19T11:00:39.628Z",
 	"tags": {
-		"categories": [],
+		"categories": ["games", "system"],
 		"languages": [
 			"go",
 			"shell"

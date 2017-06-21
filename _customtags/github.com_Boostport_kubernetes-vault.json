@@ -6,8 +6,7 @@
 	"date": "2017-06-19T09:42:06.905Z",
 	"tags": {
 		"categories": [
-			"kubernetes",
-			"vault"
+			"security", "devops"
 		],
 		"languages": [
 			"go",

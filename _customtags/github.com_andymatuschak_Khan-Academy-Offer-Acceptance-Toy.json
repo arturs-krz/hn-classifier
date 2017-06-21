@@ -5,7 +5,7 @@
 	"author": "andymatuschak",
 	"date": "2017-06-19T11:11:11.890Z",
 	"tags": {
-		"categories": [],
+		"categories": ["tools", "example"],
 		"languages": [
 			"objective-c",
 			"c",

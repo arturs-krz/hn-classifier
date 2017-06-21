@@ -6,13 +6,7 @@
 	"date": "2017-06-19T08:46:43.542Z",
 	"tags": {
 		"categories": [
-			"python",
-			"home-automation",
-			"iot",
-			"internet-of-things",
-			"mqtt",
-			"raspberry-pi",
-			"asyncio"
+			"design", "development", "system"
 		],
 		"languages": [
 			"python",

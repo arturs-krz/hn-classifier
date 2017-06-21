@@ -6,10 +6,7 @@
 	"date": "2017-06-13T13:08:18.587Z",
 	"tags": {
 		"categories": [
-			"opensource",
-			"redis",
-			"redis-module",
-			"roaring-bitmaps"
+			"database", "visual"
 		],
 		"languages": [
 			"c",

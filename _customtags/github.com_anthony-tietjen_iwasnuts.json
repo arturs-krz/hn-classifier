@@ -5,7 +5,7 @@
 	"author": "tones411",
 	"date": "2017-06-19T09:49:07.347Z",
 	"tags": {
-		"categories": [],
+		"categories": ["web", "development", "example"],
 		"languages": [
 			"typescript",
 			"html",

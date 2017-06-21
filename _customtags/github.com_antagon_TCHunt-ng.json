@@ -6,11 +6,7 @@
 	"date": "2017-06-19T11:08:32.530Z",
 	"tags": {
 		"categories": [
-			"forensics",
-			"security",
-			"truecrypt",
-			"cryptography",
-			"encryption"
+			"security", "tools"
 		],
 		"languages": [
 			"c",

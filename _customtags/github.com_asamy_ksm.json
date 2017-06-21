@@ -6,15 +6,7 @@
 	"date": "2017-06-19T10:08:21.625Z",
 	"tags": {
 		"categories": [
-			"virtualization",
-			"hypervisor",
-			"x86-64",
-			"reverse-engineering",
-			"windows",
-			"sandbox",
-			"introspect",
-			"kernel",
-			"linux"
+			"system"
 		],
 		"languages": [
 			"c",

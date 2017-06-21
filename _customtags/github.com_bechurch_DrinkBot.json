@@ -6,11 +6,7 @@
 	"date": "2017-06-19T10:31:43.701Z",
 	"tags": {
 		"categories": [
-			"slack",
-			"cocktails",
-			"bot",
-			"nodejs",
-			"chatbot"
+			"chat", "tools", "productivity"
 		],
 		"languages": [
 			"javascript"

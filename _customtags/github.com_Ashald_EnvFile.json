@@ -6,14 +6,7 @@
 	"date": "2017-06-19T08:42:35.744Z",
 	"tags": {
 		"categories": [
-			"envfile",
-			"yaml",
-			"json",
-			"jetbrains",
-			"idea",
-			"pycharm",
-			"rubymine",
-			"plugin"
+			"development", "plugin"
 		],
 		"languages": [
 			"java"

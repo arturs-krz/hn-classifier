@@ -6,14 +6,7 @@
 	"date": "2017-06-19T09:40:04.863Z",
 	"tags": {
 		"categories": [
-			"nes-emulator",
-			"nintendo-nes",
-			"emulation",
-			"emulator",
-			"sdl",
-			"compact",
-			"c-plus-plus",
-			"minimal"
+			"games", "development", "system"
 		],
 		"languages": [
 			"c++",

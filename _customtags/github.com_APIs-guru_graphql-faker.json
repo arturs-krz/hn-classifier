@@ -6,12 +6,7 @@
 	"date": "2017-06-19T08:44:37.840Z",
 	"tags": {
 		"categories": [
-			"graphql",
-			"idl",
-			"faked-data",
-			"mock",
-			"faker",
-			"api"
+			"database", "tools"
 		],
 		"languages": [
 			"javascript",

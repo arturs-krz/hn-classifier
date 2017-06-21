@@ -5,7 +5,7 @@
 	"author": "oakaz",
 	"date": "2017-06-19T09:39:59.855Z",
 	"tags": {
-		"categories": [],
+		"categories": ["framework", "development"],
 		"languages": [
 			"go",
 			"shell"
