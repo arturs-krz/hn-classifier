@@ -8,7 +8,7 @@ const untagDir = `${__dirname}/_untagged/`
 
 
 
-const aliasesPath = `${__dirname}/aliases.json`
+const aliasesPath = `${__dirname}/custom_aliases.json`
 fs.readFile(aliasesPath, (err, data) => {
     const aliases = JSON.parse(data)
     
