@@ -6,7 +6,7 @@ const fs = require("fs")
 const tagDir = `${__dirname}/_customtags/`
 const untagDir = `${__dirname}/_untagged/`
 
-
+const bigClasses = ['development', 'tools']
 
 const aliasesPath = `${__dirname}/custom_aliases.json`
 fs.readFile(aliasesPath, (err, data) => {
@@ -49,8 +49,15 @@ fs.readFile(aliasesPath, (err, data) => {
                             //     })
                             // }
 
-                            resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
+                            
                             if(resource.popularTags.length) {
+                                resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
+                                let containsBig = resource.popularTags.reduce((acc, value) => {
+                                    if(bigClasses.indexOf(value) !== -1) acc += 1
+                                }, 0)
+                                if(resource.popularTags.length > containsBig) {
+                                    resource.popularTags = resource.popularTags.filter(value => bigClasses.indexOf(value) === -1)
+                                }
                                 // if (fs.existsSync(`${__dirname}/_popular/${file}`)) return
                                 
                                 tagged.push(resource)
