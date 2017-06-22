@@ -110,7 +110,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 600
+num_hidden = 400
 
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
@@ -144,7 +144,7 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 50
+batch_size = 100
 batch_count = int(len(input_data) / batch_size)
 epochs = 400
 for e in range(epochs):
