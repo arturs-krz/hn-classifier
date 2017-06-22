@@ -1,0 +1,21 @@
+{
+	"_id": "10957806",
+	"site": "https://github.com/rsc-dev/pbd",
+	"title": " Pbd – Protocol Buffers Disassembler",
+	"author": "rsc-dev",
+	"date": "2017-06-19T08:46:25.112Z",
+	"tags": {
+		"categories": [
+			"protocol-buffers",
+			"disassembler",
+			"python",
+			"security",
+			"protocol-buffers-disassembler",
+			"reverse-engineering"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

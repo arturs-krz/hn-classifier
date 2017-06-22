@@ -1,0 +1,21 @@
+{
+	"_id": "9007564",
+	"site": "https://github.com/Justineo/coplay",
+	"title": " Coplay – synchonizing video play between browsers",
+	"author": "Justineo",
+	"date": "2017-06-19T08:39:57.650Z",
+	"tags": {
+		"categories": [
+			"webrtc",
+			"peerjs",
+			"browser-extension",
+			"video"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

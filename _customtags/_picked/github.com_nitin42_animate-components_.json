@@ -1,0 +1,29 @@
+{
+	"_id": "14447474",
+	"site": "https://github.com/nitin42/animate-components/",
+	"title": "Elemental components for doing animations in React",
+	"author": "wanderlust516",
+	"date": "2017-06-13T13:55:21.194Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"react",
+			"animations",
+			"web",
+			"styled-components",
+			"create-react-app",
+			"css",
+			"javascript",
+			"react-animations",
+			"animate-components",
+			"cssinjs",
+			"inline-styles",
+			"webdesign"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": "readme.md animate componentselemental components doing animations reactinstallnpmnpm install animate-components --saveyarnyarn add animate-components umd build is available unpkg:<script src=\"https://unpkg.com/animate-components@1.1.9/dist/animate-components.min.js\"></script>featurescomponent basedsupports the animation propertiesmerge animations create .isolated keyframes ( with styled-components, aphrodite glamor)ratifies dom nestingelement type rendering components using propadd the html attributes supported react along component props.why ?ease doing animations (purely component based).simplified minimal api.best source someone is to react (folks are already enjoying ease doing animations).supports element type rendering an animation component (interesting tweak).provides isolated keyframes that don't to hardcode the curves directly them css--js solutions glamor, styled-components, aphrodite etc.taskstasklistdocscheck complete documentation here.animationsbelow is list all available animations (components).bouncebouncebounceupbouncerightbounceleftbouncedownfadefadeinfadeinupfadeinrightfadeinleftfadeindownfadeinupbigfadeinleftbigfadeinrightbigflipflipflipxflipylightspeedlightoutlightinrotaterotateinrotaterightrotateleftrotateuprightrotateupleftslideslideupslidedownslideleftsliderightspecialflashrolloutrollinrubberswingzoomhingepulseexpandupentrancehatch perspectivepdownpuppleftprightbingopuffoutpuffinvanishoutvanishinexpanse ( space)expanseupexpansedownexpanseleftexpanseright animation libraries (css)animate.csscsshakemagic"
+}

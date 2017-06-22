@@ -1,0 +1,14 @@
+{
+	"_id": "11208046",
+	"site": "https://github.com/CSLDepend/timemachine",
+	"title": " Timemachine, create vulnerable Docker images for security experiments",
+	"author": "pmcao",
+	"date": "2017-06-19T10:29:49.179Z",
+	"tags": {
+		"categories": ["devops", "security"],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

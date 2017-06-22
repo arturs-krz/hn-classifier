@@ -1,0 +1,18 @@
+{
+	"_id": "13744118",
+	"site": "https://github.com/SirCmpwn/pass-rotate",
+	"title": " Pass-rotate: a tool/library for rotating passwords on online services",
+	"author": "Sir_Cmpwn",
+	"date": "2017-06-19T10:54:02.523Z",
+	"tags": {
+		"categories": [
+			"password-manager",
+			"security",
+			"passwords"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "13430216",
+	"site": "https://github.com/fugue/example-ci-circleci",
+	"title": " Continuous integration of cloud infrastructure using Fugue and CircleCI",
+	"author": "AndrewWright",
+	"date": "2017-06-19T10:07:54.126Z",
+	"tags": {
+		"categories": ["devops"],
+		"languages": [
+			"makefile"
+		]
+	},
+	"content": ""
+}

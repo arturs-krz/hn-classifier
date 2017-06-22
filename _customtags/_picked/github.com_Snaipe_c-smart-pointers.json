@@ -1,0 +1,17 @@
+{
+	"_id": "8886842",
+	"site": "https://github.com/Snaipe/c-smart-pointers",
+	"title": " Smart pointers for the C programming language",
+	"author": "Snaipe",
+	"date": "2017-06-19T11:06:53.700Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"cmake",
+			"c",
+			"shell",
+			"objective-c"
+		]
+	},
+	"content": ""
+}

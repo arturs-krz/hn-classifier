@@ -1,0 +1,18 @@
+{
+	"_id": "12433515",
+	"site": "https://github.com/zorgiepoo/Komet",
+	"title": " Komet – Native commit editor for macOS",
+	"author": "zZorgz",
+	"date": "2017-06-19T08:46:29.378Z",
+	"tags": {
+		"categories": [
+			"cocoa-editor",
+			"commits",
+			"git"
+		],
+		"languages": [
+			"objective-c"
+		]
+	},
+	"content": ""
+}

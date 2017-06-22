@@ -1,0 +1,22 @@
+{
+	"_id": "13514324",
+	"site": "https://github.com/jgranstrom/sass-extract",
+	"title": " Sass-extract – Extract variables from sass into JSON",
+	"author": "jgranstrom",
+	"date": "2017-06-19T08:44:15.754Z",
+	"tags": {
+		"categories": [
+			"sass",
+			"variables",
+			"javascript",
+			"css",
+			"webpack",
+			"extract"
+		],
+		"languages": [
+			"javascript",
+			"css"
+		]
+	},
+	"content": ""
+}

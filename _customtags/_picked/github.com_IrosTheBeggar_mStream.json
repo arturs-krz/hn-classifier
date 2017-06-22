@@ -1,0 +1,26 @@
+{
+	"_id": "14246334",
+	"site": "https://github.com/IrosTheBeggar/mStream",
+	"title": " MStream – A personal music streaming server",
+	"author": "mStreamTeam",
+	"date": "2017-06-13T13:32:48.637Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"mstream",
+			"flac-streaming",
+			"music-streaming-server",
+			"beets",
+			"javascript",
+			"music-streaming",
+			"music",
+			"flac"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": "readme.md mstreammstream is personal music streaming server written nodejs. mstream comes a restful json api a built web client access music any browser.main featuresworks mac, linux windowsjukebox mode. control browser any devicesecure login systemcomes sqlite built . no need setup external dbserver uses restful json api. 's documented easy write code againstlinkscheck the official websiteread docs the demomstream express - v0.4 windows & macmstream express is port mstream server uses electron. packages the dependencies mstream the app, you just download run. also adds gui layer make managing server simple possible.mstream express is simple can setup server under 30 seconds. video uses v0.1 mstream had simpler interfacedownload hereinstall sourceinstall instructions are the docs"
+}

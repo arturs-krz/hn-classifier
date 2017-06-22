@@ -1,0 +1,25 @@
+{
+	"_id": "14377969",
+	"site": "https://github.com/vanshg/MacAssistant",
+	"title": "Google Assistant for macOS",
+	"author": "vanshg",
+	"date": "2017-06-13T13:57:06.581Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"assistant",
+			"google",
+			"google-assistant",
+			"google-assistant-sdk",
+			"macos",
+			"swift",
+			"cocoa",
+			"osx"
+		],
+		"languages": [
+			"swift",
+			"shell"
+		]
+	},
+	"content": "readme.md macassistant note: 've currently hit api limit am working google resolve and me more api quota. can obtain own oauth client key build project yourself following build instructions below. project integrates google assistant macos, using google assistant sdk.\"google assistant is on 100 million devices\" - sundar pichaimacassistant bring number 200 milliondownloaddownloads are listed under releases tab.click here directly download latest version.macassistant is currently beta.example queries\"'s weather today?\"\" agenda tomorrow.\"\" was benedict cumberbatch born?\"\"does president the united states any children?\"build instructionsmacassistant is built using swift 3.1 xcode 8dependencies are managed using carthage. you clone project, run carthage update --platform macos. ( you don't carthage, refer here installation instructions) will need oauth credentials the google developer console. order get , you'll need create new project enable assistant api that project. , generate oauth credential, select application type other. download json file clicking button the right. finally, rename file google_oauth.json place in project (/macassistant/google_oauth.json).contributingplease feel free contribute this project. welcome contributions pull requests. is list pending things need be worked in todo.md file.license project is licensed under mit license - the license file details"
+}

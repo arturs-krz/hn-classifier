@@ -1,0 +1,18 @@
+{
+	"_id": "10780957",
+	"site": "https://github.com/tylertreat/bench",
+	"title": " Bench – A generic latency benchmarking library",
+	"author": "tylertreat",
+	"date": "2017-06-19T10:54:36.339Z",
+	"tags": {
+		"categories": [
+			"benchmark",
+			"latency",
+			"latency-distribution"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

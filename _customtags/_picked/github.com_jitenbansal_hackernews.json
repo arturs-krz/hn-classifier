@@ -1,0 +1,18 @@
+{
+	"_id": "12690603",
+	"site": "https://github.com/jitenbansal/hackernews",
+	"title": " HackerNews Redesigned",
+	"author": "jiten_bansal",
+	"date": "2017-06-19T09:32:47.845Z",
+	"tags": {
+		"categories": [
+			"chrome-extension",
+			"hacker-news"
+		],
+		"languages": [
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

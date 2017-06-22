@@ -1,0 +1,17 @@
+{
+	"_id": "14391746",
+	"site": "https://github.com/pardahlman/docker-infrastructure",
+	"title": " Local dev setup in minutes with docker",
+	"author": "pardahlman",
+	"date": "2017-06-13T13:07:23.090Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"docker",
+			"infrastructure",
+			"infrastructure-as-code"
+		],
+		"languages": []
+	},
+	"content": "readme.md docker infrastructureproof concept how docker be used set a local development environment within minutes.install> git clone https://github.com/pardahlman/docker-infrastructure.git> cd docker-infrastructure> docker volume create mongodata> docker volume create rabbitmq> docker volume create mssql> docker-compose that's . services should up running default port:mongodb, port 27017kibana, port 5601elastic search, port 9200 9300rabbitmq port 15672 (mgmt) 5672mssql, port 1433read more wrote blog post this.feedbackregister issue!"
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "13854380",
+	"site": "https://github.com/google/seq2seq",
+	"title": " A general-purpose encoder-decoder framework for Tensorflow",
+	"author": "dennybritz",
+	"date": "2017-06-19T10:46:23.614Z",
+	"tags": {
+		"categories": [
+			"framework", "data-science"
+		],
+		"languages": [
+			"python",
+			"shell",
+			"perl",
+			"other"
+		]
+	},
+	"content": ""
+}

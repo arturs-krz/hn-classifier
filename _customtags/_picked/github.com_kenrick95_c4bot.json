@@ -1,0 +1,25 @@
+{
+	"_id": "12740781",
+	"site": "https://github.com/kenrick95/c4bot",
+	"title": " c4bot – Connect Four Chatbot",
+	"author": "kenrick95",
+	"date": "2017-06-19T08:44:24.150Z",
+	"tags": {
+		"categories": [
+			"chat-bot",
+			"connect-four",
+			"game-2d",
+			"facebook-messenger-bot",
+			"skypebot",
+			"bot-framework",
+			"microsoft-bot-framework",
+			"chatbot",
+			"telegram-bot",
+			"nodejs"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

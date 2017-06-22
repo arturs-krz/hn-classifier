@@ -1,0 +1,21 @@
+{
+	"_id": "12071456",
+	"site": "https://github.com/rgcr/m-cli",
+	"title": " Nice and simple mac cli without dependencies",
+	"author": "rgcr",
+	"date": "2017-06-19T10:04:00.659Z",
+	"tags": {
+		"categories": [
+			"macos",
+			"mac",
+			"cli",
+			"sh",
+			"bash"
+		],
+		"languages": [
+			"shell",
+			"python"
+		]
+	},
+	"content": ""
+}

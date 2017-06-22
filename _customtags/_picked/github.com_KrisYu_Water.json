@@ -1,0 +1,23 @@
+{
+	"_id": "14190174",
+	"site": "https://github.com/KrisYu/Water",
+	"title": " Simple iOS/macOS App to render cheap water effect",
+	"author": "xueyu666",
+	"date": "2017-06-13T13:33:34.647Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"metal",
+			"swift3",
+			"compute-shader",
+			"kernel-functions",
+			"ios",
+			"osx"
+		],
+		"languages": [
+			"swift",
+			"metal"
+		]
+	},
+	"content": "readme.md watersimple calculation render cheap water effects. simple project demonstrates : to metal draw compute shader, known 'kernal function'.share code between ios/osx, both targets are built the same project.demo - macdemo - iphonebuild runchoose run osx ios version.notice: ios simulator doesnot support metal framework, have run on real a7 iphone.thanks is experiment apple swift/metal shading language. bascially just port webgl shadertoy metal.special thanks victor korsun letting use shader codehttp://metalkit.org all nice tutorials"
+}

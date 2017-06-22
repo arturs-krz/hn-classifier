@@ -1,0 +1,21 @@
+{
+	"_id": "11517667",
+	"site": "https://github.com/schollz/find",
+	"title": " FIND – an indoor positioning system for smartphones and laptops",
+	"author": "qrv3w",
+	"date": "2017-06-19T10:35:14.069Z",
+	"tags": {
+		"categories": [
+			"motion-sensors",
+			"wifi-fingerprints",
+			"gps-tracker",
+			"location-services"
+		],
+		"languages": [
+			"go",
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

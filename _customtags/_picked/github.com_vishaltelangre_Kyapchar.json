@@ -1,0 +1,20 @@
+{
+	"_id": "12625606",
+	"site": "https://github.com/vishaltelangre/Kyapchar",
+	"title": " Kyapchar – Simple screen and microphone audio recorder for Mac",
+	"author": "vishaltelangre",
+	"date": "2017-06-19T08:39:57.485Z",
+	"tags": {
+		"categories": [
+			"screencast",
+			"microphone-audio-recorder",
+			"recorder",
+			"screenflow",
+			"screenflow-alternative"
+		],
+		"languages": [
+			"swift"
+		]
+	},
+	"content": ""
+}

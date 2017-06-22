@@ -1,0 +1,14 @@
+{
+	"_id": "11269629",
+	"site": "https://github.com/Markbnj/venv2docker",
+	"title": " Venv2docker – create a docker image from a python virtualenv",
+	"author": "markbnj",
+	"date": "2017-06-19T11:04:45.289Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

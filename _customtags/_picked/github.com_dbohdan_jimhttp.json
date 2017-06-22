@@ -1,0 +1,17 @@
+{
+	"_id": "8404668",
+	"site": "https://github.com/dbohdan/jimhttp",
+	"title": " A web microframework prototype written in pure Jim Tcl",
+	"author": "networked",
+	"date": "2017-06-19T10:47:44.962Z",
+	"tags": {
+		"categories": [
+			"framework", "example"
+		],
+		"languages": [
+			"tcl",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "11109438",
+	"site": "https://github.com/src-d/go-git",
+	"title": " Go-git – low-level and extensible Git client library in Go",
+	"author": "mcuadros",
+	"date": "2017-06-19T10:40:10.106Z",
+	"tags": {
+		"categories": [
+			"git",
+			"git-client",
+			"go-git",
+			"git-server",
+			"golang"
+		],
+		"languages": [
+			"go",
+			"other"
+		]
+	},
+	"content": ""
+}

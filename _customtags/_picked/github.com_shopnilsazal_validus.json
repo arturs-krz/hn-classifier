@@ -1,0 +1,21 @@
+{
+	"_id": "14512275",
+	"site": "https://github.com/shopnilsazal/validus",
+	"title": "Validus: A dead simple Python data validation library",
+	"author": "shopnilsazal",
+	"date": "2017-06-13T14:09:57.187Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python3",
+			"data-validation",
+			"package"
+		],
+		"languages": [
+			"python",
+			"makefile",
+			"batchfile"
+		]
+	},
+	"content": "readme.rst validus dead simple python data validation library.requirementspython 3.3+installationpip install validususage>>> import validus>>> validus.isemail('someone@example.com')truelist functionsisascii()isprintascii()isbase64()isemail()ishexadecimal()isint()isfloat()isslug()isuuid()isuuid3()isuuid4()isuuid5()isfullwidth()ishalfwidth()islatitude()islongitude()ismac()ismd5()ismongoid()isiso8601()isbytelen()isipv4()isipv6()isip()isport()isdns()isssn()issemver()ismultibyte()isfilepath()isdatauri()isjson()istime()isurl()iscrcard()isisin()isiban()ishexcolor()isrgbcolor()isphone()isisbn()isisbn10()isisbn13()resourcesdocumentationissue trackercodecredits package was created cookiecutter the audreyr/cookiecutter-pypackage project template."
+}

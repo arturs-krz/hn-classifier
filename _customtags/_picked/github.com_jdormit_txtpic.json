@@ -1,0 +1,18 @@
+{
+	"_id": "14018151",
+	"site": "https://github.com/jdormit/txtpic",
+	"title": " txtpic, a Rust project to generate Unicode text from images",
+	"author": "jdormit",
+	"date": "2017-06-19T10:14:38.285Z",
+	"tags": {
+		"categories": [
+			"ascii-art",
+			"unicode-art",
+			"rust"
+		],
+		"languages": [
+			"rust"
+		]
+	},
+	"content": ""
+}

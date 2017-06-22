@@ -1,0 +1,16 @@
+{
+	"_id": "10758290",
+	"site": "https://github.com/johanvts/emacs-fireplace",
+	"title": " A fireplace for Emacs",
+	"author": "johanvts",
+	"date": "2017-06-19T10:45:46.515Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"emacs lisp",
+			"gherkin",
+			"makefile"
+		]
+	},
+	"content": ""
+}

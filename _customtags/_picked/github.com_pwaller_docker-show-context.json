@@ -1,0 +1,15 @@
+{
+	"_id": "11052942",
+	"site": "https://github.com/pwaller/docker-show-context",
+	"title": " docker-show-context shows you why `docker build` takes so long",
+	"author": "peterwaller",
+	"date": "2017-06-19T11:04:20.395Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "13905627",
+	"site": "https://github.com/ManrajGrover/football-cli",
+	"title": " CLI written in Node.js for hackers who follow football while working",
+	"author": "manrajsingh",
+	"date": "2017-06-19T10:59:32.739Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"nodejs",
+			"football",
+			"cli",
+			"command-line-tool"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

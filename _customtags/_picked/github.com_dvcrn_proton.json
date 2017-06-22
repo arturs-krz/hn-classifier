@@ -1,0 +1,17 @@
+{
+	"_id": "10735606",
+	"site": "https://github.com/dvcrn/proton",
+	"title": " Proton – Spacemacs inspired configuration kit for Atom",
+	"author": "dvcrn",
+	"date": "2017-06-19T10:42:10.946Z",
+	"tags": {
+		"categories": [
+			"productivity"
+		],
+		"languages": [
+			"clojure",
+			"css"
+		]
+	},
+	"content": ""
+}

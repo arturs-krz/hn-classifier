@@ -1,0 +1,21 @@
+{
+	"_id": "12153082",
+	"site": "https://github.com/kosinix/grafika",
+	"title": " Grafika – An image processing library for PHP",
+	"author": "vatotemking",
+	"date": "2017-06-19T10:06:20.339Z",
+	"tags": {
+		"categories": [
+			"image-processing",
+			"smartcrop",
+			"gd",
+			"imagick",
+			"animated-gif"
+		],
+		"languages": [
+			"php",
+			"other"
+		]
+	},
+	"content": ""
+}

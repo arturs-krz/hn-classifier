@@ -1,0 +1,15 @@
+{
+	"_id": "10687531",
+	"site": "https://github.com/micro/slack-srv",
+	"title": " Slack-srv: slack bot API as a go-micro RPC microservice",
+	"author": "chuhnk",
+	"date": "2017-06-19T11:03:48.510Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"protocol buffer"
+		]
+	},
+	"content": ""
+}

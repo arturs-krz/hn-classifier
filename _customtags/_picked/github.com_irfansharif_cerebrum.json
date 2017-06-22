@@ -1,0 +1,19 @@
+{
+	"_id": "12105314",
+	"site": "https://github.com/irfansharif/cerebrum",
+	"title": " Lightweight artificial neural networks in Ruby",
+	"author": "irfansharif",
+	"date": "2017-06-19T08:44:25.853Z",
+	"tags": {
+		"categories": [
+			"neural-network",
+			"ann",
+			"ruby"
+		],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

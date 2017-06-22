@@ -1,0 +1,25 @@
+{
+	"_id": "14393166",
+	"site": "https://github.com/tsurupin/job_search",
+	"title": " An app to search startup jobs scraped from websites written in Elixir",
+	"author": "tsurupin",
+	"date": "2017-06-13T13:07:23.208Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"elixir",
+			"phoenix",
+			"otp",
+			"react",
+			"redux",
+			"styled-components",
+			"elasticsearch",
+			"scraping"
+		],
+		"languages": [
+			"elixir",
+			"javascript"
+		]
+	},
+	"content": "readme.md startup jobstartup job is sample project search startup jobs scraped various websites written elixir/phoenix(backend) react/redux(frontend). project is umbrella project.customer app is processing data rendering contents.scraper app is scraping data websites.demohttp://demo.job-search.tsurupin.com/motivation created app understand elixir/otp get more familliar react.main technology stackreactreduxelixirphoenixelasticsearchstyled-componentsrequirementselixir 1.4+phoenix 1.3+node 7.0+postgresql 9.4+elasticsearchdevelopmentsetup the repo. % git clone git@github.com:tsurupin/job_search.gitinstall elasticsearch local environment.mac oschange username password postgresql% vi apps/customer/config/dev.exssetup environment. % cd apps/customer % mix deps. % mix ecto.setup % cd assets % npm install scrape data % cd ../../scraper % mix deps. % iex -s mix % scraper.site.accel.show.perform(\"http://google/com\", \"test\", \"software engineer\", \"san francisco, ca, \", :test) % scraper.site.a16z.show.perform(\"http://google/com\", \"sample\", \"senior software engineer\", \"seattle, wa, \", :test) % scraper.site.sequoia.show.perform(\"http://google/com\", :test) % customer.builder.esreindex.perform create new oauth account(url) (optional. google oauth account is needed login logout) 1. click `create credentials` choose oauth client id 2. select web application set authorizedredirect uris `http://localhost:4000/auth/google/callback` 3. set client id, client secret authorized redirect uri your oauth account apps/customer/config/dev.exsrun customer application. % cd ../customer % mix phx.serververify the app is and running. % open http://localhost:4000todo selenium in background server.enable users download favorite jobs csv.synchronize favorite jobs google sheets.license project is available open source under terms the mit license.troubleshootingplease create issue."
+}

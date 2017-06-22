@@ -1,0 +1,22 @@
+{
+	"_id": "14359530",
+	"site": "https://github.com/NodensN/android-fuze",
+	"title": "Fuze is an amazing functional reactive mvvm sample  based on Kickstarter oss app",
+	"author": "NodensN",
+	"date": "2017-06-13T13:57:47.075Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"android-development",
+			"android",
+			"functional-reactive-programming",
+			"kotlin-android",
+			"rxjava2",
+			"dependency-injection"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md functional reactive mvvm sample android project fuze is exemple mvvm design pattern full functional reactive programming rxjava2, lambda, with dependency injection dagger2, design pattern makes app easier test.'s based kickstarter oss app android (migrated rxjava rxjava2)show love! --> contributorsnodensn, kickstarterlicensecopyright 2017 guillaume mas,licensed under apache license, version 2.0 ( \"license\"); may use file except compliance the license. may obtain copy the license http://www.apache.org/licenses/license-2.0unless required applicable law agreed in writing, softwaredistributed under license is distributed an \" is\" basis,without warranties conditions any kind, either express implied. the license the specific language governing permissions limitations under license."
+}

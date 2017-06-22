@@ -1,0 +1,27 @@
+{
+	"_id": "8333259",
+	"site": "https://github.com/preziotte/party-mode",
+	"title": " An experimental music visualizer using D3.js and the web audio api",
+	"author": "lowtecky",
+	"date": "2017-06-19T10:39:52.988Z",
+	"tags": {
+		"categories": [
+			"visualization",
+			"html5-audio-element",
+			"javascript",
+			"d3js",
+			"d3",
+			"audio-visualizer",
+			"audio",
+			"art",
+			"generative-art",
+			"data-visualization"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

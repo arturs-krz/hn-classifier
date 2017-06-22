@@ -1,0 +1,18 @@
+{
+	"_id": "14417413",
+	"site": "https://github.com/general-mobile/kotlin-android-mvp-starter",
+	"title": "Android Kotlin MVP Starter Project",
+	"author": "dtunctuncer",
+	"date": "2017-06-13T13:56:32.351Z",
+	"tags": {
+		"categories": [
+			"mobile", "example"
+		],
+		"languages": [
+			"kotlin",
+			"python",
+			"java"
+		]
+	},
+	"content": "readme.md android kotlin mvp starterandroid kotlin starter is starter project implements mvp pattern.thanks project extends deniz tunç tuncer's android starter projectlibraries includes librariesrxjava2 rxandroid rxkotlinretrofit / okhttpgsondagger 2butterknifetimberespresso ui testscrashlyticsrealmpicasso can choose library want include your projectrequirementspythonpipcookiecutterinstall1. install python2. install pip3. pip install cookiecutterscaffold project:cookiecutter https://github.com/general-mobile/kotlin-android-mvp-starter.gitproject tree scaffold. app app.iml build.gradle proguard-rules.pro src androidtest java com generalmobile app test applicationtest.java main androidmanifest.xml kotlin com generalmobile app test application.kt base baseactivity.kt ibaseview.kt di component applicationcomponent.kt module applicationmodule.kt databasemodule.kt netmodule.kt scope activityscope.kt main imainview.kt mainactivity.kt maincomponent.kt mainmodule.kt mainpresenter.kt splash splashactivity.kt utils rxbus.kt timber crashreporttree.kt res drawable android_starter.png splash_logo.xml layout activity_main.xml menu menu_main.xml mipmap-hdpi ic_launcher.png ic_launcher_round.png mipmap-mdpi ic_launcher.png ic_launcher_round.png mipmap-xhdpi ic_launcher.png ic_launcher_round.png mipmap-xxhdpi ic_launcher.png ic_launcher_round.png mipmap-xxxhdpi ic_launcher.png ic_launcher_round.png values colors.xml dimens.xml strings.xml styles.xml values-v21 styles.xml values-w820dp dimens.xml test java com generalmobile app test exampleunittest.java build.gradle gradle wrapper gradle-wrapper.jar gradle-wrapper.properties gradle.properties gradlew gradlew.bat local.properties settings.gradle test.iml43 directories, 51 fileslicense mit license (mit)copyright (c) 2017 general mobilepermission is hereby granted, free charge, any person obtaining copy this software associated documentation files ( \"software\"), deal the software without restriction, including without limitation rights use, copy, modify, merge, publish, distribute, sublicense, /or sellcopies the software, to permit persons whom software isfurnished do , subject the following conditions: above copyright notice this permission notice shall included allcopies substantial portions the software. software is provided \" is\", without warranty any kind, express implied, including not limited the warranties merchantability,fitness a particular purpose noninfringement. no event shall authors copyright holders liable any claim, damages otherliability, whether an action contract, tort otherwise, arising ,out or connection the software the or dealings thesoftware."
+}

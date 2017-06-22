@@ -1,0 +1,23 @@
+{
+	"_id": "14364007",
+	"site": "https://github.com/Kotlin/ktor",
+	"title": "Ktor – Web back end framework for Kotlin by Jetbrains",
+	"author": "Scarbutt",
+	"date": "2017-06-13T13:57:47.645Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kotlin",
+			"web-framework",
+			"asynchronous",
+			"async",
+			"web"
+		],
+		"languages": [
+			"kotlin",
+			"java",
+			"other"
+		]
+	},
+	"content": "readme.md ktor is framework quickly creating web applications kotlin minimal effort.import org.jetbrains.ktor.netty.*import org.jetbrains.ktor.routing.*import org.jetbrains.ktor.application.*import org.jetbrains.ktor.host.*import org.jetbrains.ktor.http.*import org.jetbrains.ktor.response.*fun main(args: array<string>) { embeddedserver(netty, 8080) { routing { (\"/\") { call.respondtext(\"hello, world!\", contenttype.text.html) } } }.start(wait = true)}runs embedded web server localhost:8080installs routing responds hello, world! receiving http request root pathdocumentationplease visit documentation wiki quick start, detailed explanations features, usage machinery. you to contribute documentation please clone documentation repository,edit and send a pull request. will sync wiki this project that repository periodically needed.principlesunopinionatedktor framework doesn't impose lot constraints what technology project is going use logging, templating, messaging, persistent, serializing, dependency injection, etc. rarely may required implement pretty simple interface, usually is matter writing transforming intercepting function. features are installed application using unified interception mechanism allows building arbitrary pipelines.ktor application be hosted any servlet container servlet 3.0+ api support such tomcat, standalone using netty jetty. support other hosts be added, though admittedly 's an easy task.ktor apis are mostly functions calls lambdas. thanks kotlin dsl capabilities, code looks declarative. application composition is entirely developer's choice functions classes, using dependency injection framework doing all manually main function.asynchronousktor pipeline machinery api is utilising number kotlin features provide easy--use asynchronous programming model without making too cumbersome.testablektor application be hosted a testhost, emulates someextent web server without actually doing networking. provides easy to test application without mockingtoo much stuff, still achieve performance while validating application calls. integration tests realembedded web server are course possible, too.features addition core http request processing response building, ktor provides number features of box, implemented through extensibility:routing: attaches code specific path/query/method/header extract parameters placeholderssessions: stores retrieves additional information attached client sessioncontent transformations: transforms response content the fly utilise unified mechanism build responseauthentication: authenticates client using basic, digest, form, oauth (1a & 2)custom status pages: sends custom content specific status responses such 404 foundcontent type mapping: maps file extension mime type static file servingtemplate engines: uses content transformation enable transparent template engine usagestatic content: serves streams data local file system full asynchronous supporthttp core featurescompression: enables gzip/deflate compression client accepts conditional headers: sends 304 modified response if-modified-since/etag indicate content is samepartial content: sends partial content streaming ranges, in video streamsautomatic head response: responds head requests running through pipeline dropping response bodycors: verifies sends headers according cross-origin resource sharing controlhsts https redirect: supports strict transport securitymavenadd repository<repository> <snapshots> <enabled>false</enabled> </snapshots> <id>bintray-kotlin-ktor</id> <name>bintray</name> <url>https://dl.bintray.com/kotlin/ktor</url></repository>add dependency:<dependency> <groupid>org.jetbrains.ktor</groupid> <artifactid>ktor-core</artifactid> <version>${ktor.version}</version></dependency><!-- also may need include host implementation well, example<dependency> <groupid>org.jetbrains.ktor</groupid> <artifactid>ktor-jetty</artifactid> <version>${ktor.version}</version></dependency>-->gradlerepositories { jcenter() maven { url \"https://dl.bintray.com/kotlin/kotlinx\" } maven { url \"https://dl.bintray.com/kotlin/ktor\" }}dependency:dependencies { compile \"org.jetbrains.ktor:ktor-core:$ktorversion\" // may need include host implementation well, example // compile \"org.jetbrains.ktor:ktor-jetty:$ktorversion\"}inspirationswasabi, kara"
+}

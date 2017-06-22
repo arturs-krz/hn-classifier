@@ -1,0 +1,25 @@
+{
+	"_id": "14345663",
+	"site": "https://github.com/ronsor/relaychat",
+	"title": "Federated chat server implemented in Tcl",
+	"author": "ronsor",
+	"date": "2017-06-13T13:58:18.217Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"chat",
+			"irc",
+			"tcl",
+			"script",
+			"tls",
+			"protocol",
+			"mit-licensed",
+			"relaychat"
+		],
+		"languages": [
+			"tcl",
+			"shell"
+		]
+	},
+	"content": "readme is pretty .you need tcl run and optionally tls tcl 1.6.7+ tls/ssl.edit chat.conf then run: tclsh chat.tclcurrently, use irc gateway simple chat client: connect localhost:6667 you the irc gateway enabled. : tclsh chatclient.tcl localhost 7654 <desired nickname> you to the simple quite awful chat client.protocol docs are protocol.md"
+}

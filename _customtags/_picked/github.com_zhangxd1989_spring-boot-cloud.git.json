@@ -1,0 +1,34 @@
+{
+	"_id": "14356886",
+	"site": "https://github.com/zhangxd1989/spring-boot-cloud.git",
+	"title": "Spring cloud microservices",
+	"author": "zhangxd1989",
+	"date": "2017-06-13T13:57:48.911Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"springcloud",
+			"eureka",
+			"spring-cloud-config",
+			"zuul",
+			"feign",
+			"ribbon",
+			"spring-cloud-sleuth",
+			"microservice",
+			"spring-boot-admin",
+			"spring-boot",
+			"monitor",
+			"spring-cloud-oauth2",
+			"zipkin",
+			"oauth",
+			"hystrix",
+			"turbine",
+			"rabbit",
+			"registry"
+		],
+		"languages": [
+			"java"
+		]
+	},
+	"content": "readme.md spring cloud spring bootspring cloudspring oauth2 spring cloud netflix spring boot - spring eureka - rest spring cloud config - git subversionhystrix - ,zuul - zuul zuul netflix web spring cloud bus - spring cloud config spring cloud sleuth - dapper log-based zipkin htrace springcloud ribbon - turbine - turbine hystrix metrics spring cloud stream - spring redisrabbitkafka feign - feign http spring cloud oauth2 - spring security oauth2 8 registry - config - monitor - zipkin - gateway - auth-service - oauth2 svca-service - svcb-service - b docker docker mvn clean package docker docker-compose -d rabbitmq hosts 127.0.0.1 registry config monitor rabbitmq auth-service ip registryconfigmonitorzipkin gatewayauth-servicesvca-servicesvcb-service http://localhost:8761/ user password http://localhost:8040/ admin adminturbine hystrix logback jmx http hystrix http://localhost:9411/ admin adminrabbitmq docker http://localhost:15673/ guest guest rabbit 15672 tokencurl -x post -vu client:secret http://localhost:8060/uaa/oauth/token -h \"accept: application/json\" -d \"password=password&username=anil&grant_type=password&scope=read%20write\"{ \"access_token\": \"eac56504-c4f0-4706-b72e-3dc3acdf45e9\", \"token_type\": \"bearer\", \"refresh_token\": \"da1007dc-683c-4309-965d-370b15aa4aeb\", \"expires_in\": 3599, \"scope\": \"read write\"} access token service curl - -h \"authorization: bearer eac56504-c4f0-4706-b72e-3dc3acdf45e9\" http://localhost:8060/svcasvca-service (172.18.0.8:8080)===>name:zhangxdsvcb-service (172.18.0.2:8070)===> hello access token service b curl - -h \"authorization: bearer eac56504-c4f0-4706-b72e-3dc3acdf45e9\" http://localhost:8060/svcbsvcb-service (172.18.0.2:8070)===> hello refresh token tokencurl -x post -vu client:secret http://localhost:8060/uaa/oauth/token -h \"accept: application/json\" -d \"grant_type=refresh_token&refresh_token=da1007dc-683c-4309-965d-370b15aa4aeb\" token{ \"access_token\": \"63ff57ce-f140-482e-ba7e-b6f29df35c88\", \"token_type\": \"bearer\", \"refresh_token\": \"da1007dc-683c-4309-965d-370b15aa4aeb\", \"expires_in\": 3599, \"scope\": \"read write\"}curl -x post -vu user:password http://localhost:8888/bus/refresh"
+}

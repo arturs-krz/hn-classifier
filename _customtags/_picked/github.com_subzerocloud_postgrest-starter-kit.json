@@ -1,0 +1,29 @@
+{
+	"_id": "14349145",
+	"site": "https://github.com/subzerocloud/postgrest-starter-kit",
+	"title": " PostgREST Starter Kit – Boilerplate and Tooling for Authoring REST APIs",
+	"author": "ruslan_talpa",
+	"date": "2017-06-13T13:08:16.099Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"postgrest",
+			"postgresql",
+			"api",
+			"rest",
+			"openresty",
+			"docker",
+			"boilerplate",
+			"starter-kit"
+		],
+		"languages": [
+			"plpgsql",
+			"shell",
+			"lua",
+			"javascript",
+			"nginx",
+			"makefile"
+		]
+	},
+	"content": "readme.md postgrest api starter kitpostgrest api starter kit is boilerplate tooling authoring data apibackends postgrest.features cross-platform development macos, windows linux inside docker postgresql database schema boilerplate authentication authorization flow openresty configuration files the reverse proxy lua functions hook each stage the http request add custom logic (integrate 3rd party systems) debugging live code reloading (sql/configs/lua) functionality using subzero devtools sql unit test using pgtap integration tests supertest / mocha (soon) docker files building production images community support slack compatible subzero you decide need graphql api no additional directory layout. db # database schema source files tests src # schema definition api # api entities avaiable rest endpoints data # definition source tables hold data pgjwt # jwt util functions request # http request helper functions roles # application level roles their privileges sample_data # few sample rows init.sql # schema definition entry point tests # pgtap tests openresty # reverse proxy configurations lua code lualib user_code # application lua code nginx # nginx files conf # configuration files html # static frontend files tests # mocha based integration tests rest # rest interface tests common.js # helper functions dockerfile # dockerfile definition production entrypoint.sh # custom entrypoint postgrest # postgrest tests # simple bash based integration tests docker-compose.yml # defines docker services, networks volumes .env # project configurationsgetting started sure you docker v17 newer installed, clone repo launch app dockercompose:git clone --single-branch https://github.com/subzerocloud/postgrest-starter-kit example-apicd example-api # change current directory the newly created docker-compose -d # launch docker containers api server must become available http://localhost:8080/rest.try simple requestcurl http://localhost:8080/rest/items?id=eq.1testingnpm install # install test dependenciesnpm run test_db # run pgtap testsnpm run test_rest # run integration testsnpm test # run tests (db, rest)keeping -to-date you keep original git history forking cloning repo, can always fetch merge recent updates into project running:git remote add upstream https://github.com/subzerocloud/postgrest-starter-kit.gitgit fetch upstreamgit merge upstream/masterdevelopment workflow debuggingdownload install subzero devtools your os.execute sz ( the name used symlink binary) the root your project. this step can view logs all stack components (sql queries also logged). you edit sql/conf/lua file your project, changes immediately applied.deployment are stages going production.deploying database code production should rds a similar service.'ll soon examples how migrate sql code dev productiondeploying postgrest openresty recommend deploying both components (openresty/postgrest) docker containers. can ec2 container service help solve lot devops problems deploying containers.'ll soon provide task definition templates. postgrest can the official image production. openresty will build own image is based the official but includes your custom configurations files.contributinganyone everyone is welcome contribute.supportslack watch announcements, share ideas feedbackgithub issues check open issues, send feature requestslicensecopyright © 2017-present subzero cloud, llc. source code is licensed under mit license documentation the project is licensed under cc -sa 4.0 license."
+}

@@ -1,0 +1,21 @@
+{
+	"_id": "14163309",
+	"site": "https://github.com/simonnorberg/klingar",
+	"title": " Klingar – Android music player for Plex",
+	"author": "simonnorberg",
+	"date": "2017-06-13T13:34:46.555Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"android",
+			"plex",
+			"google-cast",
+			"music-player"
+		],
+		"languages": [
+			"java",
+			"css"
+		]
+	},
+	"content": "readme.md klingar klingar is android music player plex media server google cast support. in progress!note: using klingar requires plex account. local server discovery is supported the moment."
+}

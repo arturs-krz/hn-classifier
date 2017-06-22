@@ -1,0 +1,18 @@
+{
+	"_id": "10294743",
+	"site": "https://github.com/sochix/TLSharp",
+	"title": " Telegram client library implemented in C#",
+	"author": "sochix",
+	"date": "2017-06-19T10:44:23.276Z",
+	"tags": {
+		"categories": [
+			"telegram",
+			"tlsharp",
+			"telegram-api"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": ""
+}

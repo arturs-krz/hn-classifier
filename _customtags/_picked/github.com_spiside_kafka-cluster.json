@@ -1,0 +1,19 @@
+{
+	"_id": "11884787",
+	"site": "https://github.com/spiside/kafka-cluster",
+	"title": " Run a kafka cluster using docker",
+	"author": "spiside",
+	"date": "2017-06-19T08:46:13.149Z",
+	"tags": {
+		"categories": [
+			"kafka",
+			"cluster",
+			"docker-container",
+			"docker"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": ""
+}

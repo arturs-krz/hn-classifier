@@ -1,0 +1,19 @@
+{
+	"_id": "8813313",
+	"site": "https://github.com/jbarrow/LambdaNet",
+	"title": " LambdaNet – A functional neural network library written in Haskell",
+	"author": "jbarrow",
+	"date": "2017-06-19T10:55:00.572Z",
+	"tags": {
+		"categories": [
+			"haskell-library",
+			"haskell",
+			"neural-networks",
+			"deep-learning"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": ""
+}

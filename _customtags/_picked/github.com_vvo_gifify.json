@@ -1,0 +1,24 @@
+{
+	"_id": "8647187",
+	"site": "https://github.com/vvo/gifify",
+	"title": " Gifify – Convert any video file to an optimized animated GIF",
+	"author": "vvoyer",
+	"date": "2017-06-19T08:37:00.543Z",
+	"tags": {
+		"categories": [
+			"gif",
+			"video",
+			"mp4",
+			"gifsicle",
+			"screencast",
+			"gifify",
+			"nodejs",
+			"imagemagick",
+			"ffmpeg"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

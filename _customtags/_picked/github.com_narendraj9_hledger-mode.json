@@ -1,0 +1,20 @@
+{
+	"_id": "13566147",
+	"site": "https://github.com/narendraj9/hledger-mode",
+	"title": " Personal finance with 'hledger' in Emacs",
+	"author": "narendraj9",
+	"date": "2017-06-19T10:08:11.119Z",
+	"tags": {
+		"categories": [
+			"hledger",
+			"hledger-mode",
+			"accounting",
+			"emacs",
+			"ledger"
+		],
+		"languages": [
+			"emacs lisp"
+		]
+	},
+	"content": ""
+}

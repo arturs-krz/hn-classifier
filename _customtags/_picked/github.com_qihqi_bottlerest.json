@@ -1,0 +1,14 @@
+{
+	"_id": "10161722",
+	"site": "https://github.com/qihqi/bottlerest",
+	"title": " Tiny library to turn your SQLAlchemy model into a REST endpoint",
+	"author": "qihqi",
+	"date": "2017-06-19T11:05:46.771Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

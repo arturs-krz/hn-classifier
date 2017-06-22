@@ -1,0 +1,18 @@
+{
+	"_id": "10221806",
+	"site": "https://github.com/cbdevnet/piechart/",
+	"title": " Generate SVG pie charts from the command line",
+	"author": "_cbdev",
+	"date": "2017-06-19T08:44:26.538Z",
+	"tags": {
+		"categories": [
+			"visual"
+		],
+		"languages": [
+			"c",
+			"other",
+			"makefile"
+		]
+	},
+	"content": ""
+}

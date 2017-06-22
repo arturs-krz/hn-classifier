@@ -1,0 +1,22 @@
+{
+	"_id": "8389021",
+	"site": "https://github.com/kessler/nw-ninja",
+	"title": " Minimal node-webkit starter project for ninjas",
+	"author": "ikessler",
+	"date": "2017-06-19T08:44:08.851Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"node-js",
+			"nw-ninja",
+			"javascript",
+			"nwjs"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

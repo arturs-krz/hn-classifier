@@ -1,0 +1,23 @@
+{
+	"_id": "13760206",
+	"site": "https://github.com/jakey-wan-kenobi/yay",
+	"title": " An open source Slack bot",
+	"author": "jakeywankenobi",
+	"date": "2017-06-19T10:16:01.161Z",
+	"tags": {
+		"categories": [
+			"javascript",
+			"node",
+			"es6",
+			"async-await",
+			"slack-bot",
+			"slack",
+			"jwt"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

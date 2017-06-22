@@ -1,0 +1,16 @@
+{
+	"_id": "11127142",
+	"site": "https://github.com/flopp/go-staticmaps",
+	"title": " A Go library (+ CLI tool) to render static maps using OSM tiles",
+	"author": "flopp",
+	"date": "2017-06-19T09:50:29.309Z",
+	"tags": {
+		"categories": [
+			"library", "system"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

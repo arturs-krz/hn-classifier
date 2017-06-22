@@ -1,0 +1,21 @@
+{
+	"_id": "13891791",
+	"site": "https://github.com/ofek/bit",
+	"title": " Bit – A fast and easy Python Bitcoin library",
+	"author": "ofek",
+	"date": "2017-06-19T08:44:36.656Z",
+	"tags": {
+		"categories": [
+			"bitcoin",
+			"python",
+			"libraries",
+			"cryptocurrencies",
+			"payments"
+		],
+		"languages": [
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

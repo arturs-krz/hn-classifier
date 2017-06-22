@@ -1,0 +1,16 @@
+{
+	"_id": "13932430",
+	"site": "https://github.com/bstaruk/starbase",
+	"title": " Webpack 2 boilerplate with babel (es6), eslint, postcss, cssnext and more",
+	"author": "elbrian",
+	"date": "2017-06-19T10:50:34.152Z",
+	"tags": {
+		"categories": ["example", "web"],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "14469277",
+	"site": "https://github.com/klappvisor/orly-bookstore-bot",
+	"title": "Example Telegram bookstore bot written in Haskell",
+	"author": "klappvisor",
+	"date": "2017-06-13T13:55:02.053Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"haskell"
+		]
+	},
+	"content": "readme.md orly-bookstore-bot more this tutorialdefine telegram_token payments_token env variables corresponding values.compile run with stack:$ stack build...$ stack exec orly-bookstore-bot-exeorly book store bot is starting..."
+}

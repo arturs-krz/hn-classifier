@@ -1,0 +1,25 @@
+{
+	"_id": "14256548",
+	"site": "https://github.com/oxalorg/sakura",
+	"title": " Sakura - a minimal classless css theme. Just drop it in and done.",
+	"author": "oxalorg",
+	"date": "2017-06-13T13:32:47.445Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"design",
+			"web",
+			"css",
+			"theme",
+			"sakura",
+			"classless",
+			"classless-theme",
+			"css-framework"
+		],
+		"languages": [
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md sakura: minimal classless css framework / theme.[ to github repository] perfect blossom is rare thing. could spend life looking one, it not a wasted life drop sakura.css any webpage go ugly looking 1900's website a pretty modern website literally 0 seconds.easy customize build top sakura.sakura supports extremely easy theming support usingvariables duotone color scheming. comes severalexisting themes, be found the css folder thisrepository.democompare live page and without sakura.https://oxal.org/projects/sakura/demobookmarkdon't to develop using sakura, instead to it websites outdated 90's design (.e. css)? so, enable sakura any website using followinginstructions:https://oxal.org/projects/sakura/bookmarkwhy? - reasons use sakura exactly does sakura help ? i had discussion this the reddit thread drop , even existing html content, get prettylooking website (everything \" works\")quick prototyping, especially working backend sites can't yet bothered fidget css/htmlbuilding quick ( pretty) site/blog your best friend aunt! need remember tons different class names every css frameworkworks amazingly markdown generated html pages (eliminates need hacks including .img img-responsive markdown-parser generated <img></img> tagswonderful people really or interested design sakura is nothing a set reasonable defaultsinstallationmanually (recommended):download file:wget \"https://raw.githubusercontent.com/oxalorg/sakura/master/css/sakura.css\" download directly:sakura.csslink from html:<link rel=\"stylesheet\" href=\"sakura.css\" type=\"text/css\">cdn:simply add in <head> tag.<link rel=\"stylesheet\" href=\"https://unpkg.com/sakura.css/css/sakura.css\" type=\"text/css\">(optional) recommended usenormalize.css reset before using sakura.sites using sakurahttp://computableverse.comhttp://owlofathena.comhttp://findyourip.cfhttps://higher.team you're using sakura, please let know make pullrequest adding your name. would super happy!! ^_^theming can your own themes overriding variables colors.here is example file: ./scss/sakura-earthly.scss:/* duotone color scheming: uses blossom the revealing/stark color uses fade the more prominent color*/$color-blossom: #338618;$color-fade: #5e5e5e;/* bg color is used the background the page bg-alt is used code-blocks etc*/$color-bg: #f9f9f9;$color-bg-alt: #c7e3be;/* color all text the page */$color-text: #4a4a4a;$font-size-base: 1.8rem;@import \"main\";contributingplease a at instructions.contributorsbookmarklet was added zhouzi image is credited deedstershare <3between two lives is the life the cherryblossom. - basho matsuoplease leave star :)"
+}

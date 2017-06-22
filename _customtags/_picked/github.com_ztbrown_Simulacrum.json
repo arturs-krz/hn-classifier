@@ -1,0 +1,20 @@
+{
+	"_id": "13688605",
+	"site": "https://github.com/ztbrown/Simulacrum",
+	"title": " A test double framework in C",
+	"author": "ztbrown",
+	"date": "2017-06-19T08:46:06.065Z",
+	"tags": {
+		"categories": [
+			"c",
+			"mocking-framework",
+			"testing-tools"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"shell"
+		]
+	},
+	"content": ""
+}

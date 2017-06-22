@@ -1,0 +1,16 @@
+{
+	"_id": "14463365",
+	"site": "https://github.com/hxlnt/computers-are-easy",
+	"title": "NES ROM demos music, sprites, input and color–celebrating marriage equality (2015)",
+	"author": "interweb",
+	"date": "2017-06-13T13:55:01.840Z",
+	"tags": {
+		"categories": [
+			"visual", "media"
+		],
+		"languages": [
+			"assembly"
+		]
+	},
+	"content": "readme.md computers-are-easy computers are easy, love is kind (v. 2.0) rachel simone weil/electronic love operation 2015\"computers are easy, love is kind\" is nes rom demonstrates basic music, sprite animation, user input, color cycling. rom was made one , on occasion the supreme court ruling marriage equality (june 26, 2015). fully-commented 6502 asm source code updates the sparkle animation were released september 11, 2015.playing rom: press and down change colors. press b toggle glitching. press to toggle sparkle animation.source code: hopefully commented source code is help those wishing know more how nes games are written. the fceux emulator (windows ), you watch variables update loading compiled rom choosing debug > hex editor. watch values $0000 through $0015. compile source, nesasm3 ( included). nesasm3 usage is nesasm3 loveiskind.asmartist statement: is video-game equivalent a love song? my , i seek use obsolete technology whimsical romantic ways bring closer one another. while assembly language programming might seem intimidating the newcomer, 's important keep mind computers are easy! love is kind! can it! this program was written quickly, likely remain errors opportunities make code more efficient. perhaps can find . have fun, traveler!rsw"
+}

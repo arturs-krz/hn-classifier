@@ -1,0 +1,22 @@
+{
+	"_id": "12232293",
+	"site": "https://github.com/thewhitetulip/web-dev-golang-anti-textbook/",
+	"title": " Book about writing web apps in Go without a framework",
+	"author": "thewhitetulip",
+	"date": "2017-06-19T08:44:01.953Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"book",
+			"golang-book",
+			"go"
+		],
+		"languages": [
+			"go",
+			"css",
+			"html",
+			"python"
+		]
+	},
+	"content": ""
+}

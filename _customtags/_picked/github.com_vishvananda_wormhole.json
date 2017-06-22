@@ -1,0 +1,15 @@
+{
+	"_id": "8351276",
+	"site": "https://github.com/vishvananda/wormhole",
+	"title": " Wormhole – A smart proxy that connects docker containers",
+	"author": "vishvananda",
+	"date": "2017-06-19T10:03:04.644Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

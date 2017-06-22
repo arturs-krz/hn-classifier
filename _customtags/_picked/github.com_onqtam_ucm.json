@@ -1,0 +1,21 @@
+{
+	"_id": "11077347",
+	"site": "https://github.com/onqtam/ucm",
+	"title": " UCM – useful cmake macros for cleaner CMakeLists.txt files",
+	"author": "onqtam",
+	"date": "2017-06-19T09:39:28.167Z",
+	"tags": {
+		"categories": [
+			"linker-flags",
+			"cmake",
+			"compiler-flags",
+			"unity-build",
+			"precompiled-headers"
+		],
+		"languages": [
+			"cmake",
+			"other"
+		]
+	},
+	"content": ""
+}

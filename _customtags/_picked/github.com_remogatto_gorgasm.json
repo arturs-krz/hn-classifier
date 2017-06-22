@@ -1,0 +1,15 @@
+{
+	"_id": "7045810",
+	"site": "https://github.com/remogatto/gorgasm",
+	"title": " Gorgasm, a framework for writing native Android applications in Go",
+	"author": "remogatto",
+	"date": "2017-06-19T10:06:43.212Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go",
+			"c"
+		]
+	},
+	"content": ""
+}

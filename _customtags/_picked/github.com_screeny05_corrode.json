@@ -1,0 +1,19 @@
+{
+	"_id": "12844222",
+	"site": "https://github.com/screeny05/corrode",
+	"title": " Corrode – A batteries-included js-library for reading binary data",
+	"author": "screeny05",
+	"date": "2017-06-19T10:59:28.470Z",
+	"tags": {
+		"categories": [
+			"binary",
+			"stream",
+			"parsing",
+			"buffer"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

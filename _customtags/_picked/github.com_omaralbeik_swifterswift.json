@@ -1,0 +1,36 @@
+{
+	"_id": "12377099",
+	"site": "https://github.com/omaralbeik/swifterswift",
+	"title": " SwifterSwift, Swift3 Extensions for iOS/macOS devs",
+	"author": "pvtmert",
+	"date": "2017-06-19T11:08:55.337Z",
+	"tags": {
+		"categories": [
+			"swift",
+			"xcode",
+			"carthage",
+			"cocoapods",
+			"tvos",
+			"ios",
+			"macos",
+			"swifterswift",
+			"extensions",
+			"uikit",
+			"swift-package-manager",
+			"swift-extensions",
+			"swift-library",
+			"open-source",
+			"mit",
+			"watchos",
+			"productivity-booster",
+			"awesome",
+			"unit-testing",
+			"foundation"
+		],
+		"languages": [
+			"swift",
+			"other"
+		]
+	},
+	"content": ""
+}

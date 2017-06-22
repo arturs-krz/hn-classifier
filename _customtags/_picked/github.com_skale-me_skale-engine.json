@@ -1,0 +1,22 @@
+{
+	"_id": "13015992",
+	"site": "https://github.com/skale-me/skale-engine",
+	"title": " Skale-engine, high performance data processing in Node.js",
+	"author": "mvertes",
+	"date": "2017-06-19T08:42:58.795Z",
+	"tags": {
+		"categories": [
+			"nodejs",
+			"cluster",
+			"skale-engine",
+			"aws-s3",
+			"azure-storage",
+			"parquet"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

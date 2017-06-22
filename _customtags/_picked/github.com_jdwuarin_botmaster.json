@@ -1,0 +1,21 @@
+{
+	"_id": "12405189",
+	"site": "https://github.com/jdwuarin/botmaster",
+	"title": " Botmaster – a new platform agnostic chatbot framework",
+	"author": "johndavidwuarin",
+	"date": "2017-06-19T10:10:11.645Z",
+	"tags": {
+		"categories": [
+			"botmaster",
+			"chatbot-framework",
+			"nodejs",
+			"messenger",
+			"slack",
+			"twitter"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

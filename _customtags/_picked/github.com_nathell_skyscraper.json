@@ -1,0 +1,14 @@
+{
+	"_id": "10053098",
+	"site": "https://github.com/nathell/skyscraper",
+	"title": " Skyscraper, a Clojure library for structural scraping of whole sites",
+	"author": "nathell",
+	"date": "2017-06-19T09:51:27.672Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"clojure"
+		]
+	},
+	"content": ""
+}

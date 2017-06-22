@@ -1,0 +1,20 @@
+{
+	"_id": "13183903",
+	"site": "https://github.com/psolbach/metadoc",
+	"title": " Metadoc – fast, post-truth era news article metadata extraction",
+	"author": "hansenrum",
+	"date": "2017-06-19T08:42:53.155Z",
+	"tags": {
+		"categories": [
+			"metadata",
+			"perceptron",
+			"extraction",
+			"news",
+			"nlp"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

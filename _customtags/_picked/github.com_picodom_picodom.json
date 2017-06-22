@@ -1,0 +1,21 @@
+{
+	"_id": "14438088",
+	"site": "https://github.com/picodom/picodom",
+	"title": "Build your own next generation view library: 1kb vDOM builder and patch function",
+	"author": "jbucaran",
+	"date": "2017-06-13T13:55:34.329Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"picodom",
+			"vdom",
+			"dom",
+			"jsx",
+			"hyperscript"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md picodompicodom is 1kb virtual dom builder patch algorithm.try onlineimport { h, patch } \"picodom\"patch( document.body, null, null, h(\"button\", { onclick: () => alert(\"hello world\") }, \"click here\")) picodom build own view library state management architecture.try onlineimport { h, patch } \"picodom\"let element, oldnodefunction render(newnode) { return (element = patch( document.body, element, oldnode, (oldnode = newnode) ))}function view(state) { return ( <div> <h1>{state}</h1> <input oninput={e => render(view(e.target.value))} value={state} type=\"text\" /> </div> )}render(view(\"hello picodom!\"))documentation documentation is located the /docs directory.licensepicodom is mit licensed. license."
+}

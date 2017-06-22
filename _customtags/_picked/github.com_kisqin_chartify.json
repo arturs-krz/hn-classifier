@@ -1,0 +1,35 @@
+{
+	"_id": "13049672",
+	"site": "https://github.com/kisqin/chartify",
+	"title": " Chartify – Lightweight and customizable React.js chart component",
+	"author": "kirillstyopkin",
+	"date": "2017-06-19T10:43:27.628Z",
+	"tags": {
+		"categories": [
+			"chart",
+			"charts",
+			"react",
+			"barchart",
+			"linechart",
+			"timeline",
+			"timesheet",
+			"films",
+			"music-library",
+			"music-visualizer",
+			"react-plugins",
+			"customizable-charts",
+			"cinematography",
+			"movie-collection",
+			"visualization",
+			"draggable-elements",
+			"draggable",
+			"film-ratings",
+			"rank"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

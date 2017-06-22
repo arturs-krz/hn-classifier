@@ -1,0 +1,25 @@
+{
+	"_id": "7765279",
+	"site": "https://github.com/leemunroe/grunt-email-design",
+	"title": " A Grunt workflow for designing and testing HTML emails",
+	"author": "fonziguy",
+	"date": "2017-06-19T10:32:37.082Z",
+	"tags": {
+		"categories": [
+			"litmus",
+			"grunt",
+			"css",
+			"transactional-emails",
+			"email",
+			"template",
+			"mailgun",
+			"responsive"
+		],
+		"languages": [
+			"css",
+			"html",
+			"javascript"
+		]
+	},
+	"content": ""
+}

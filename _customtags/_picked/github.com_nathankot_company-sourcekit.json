@@ -1,0 +1,21 @@
+{
+	"_id": "10685388",
+	"site": "https://github.com/nathankot/company-sourcekit",
+	"title": " Autocompletion for Swift on Emacs",
+	"author": "nathankot",
+	"date": "2017-06-19T11:08:12.314Z",
+	"tags": {
+		"categories": [
+			"company-mode",
+			"sourcekit",
+			"sourcekitten",
+			"emacs",
+			"swift",
+			"autocomplete"
+		],
+		"languages": [
+			"emacs lisp"
+		]
+	},
+	"content": ""
+}

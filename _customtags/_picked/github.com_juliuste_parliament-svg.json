@@ -1,0 +1,21 @@
+{
+	"_id": "13503108",
+	"site": "https://github.com/juliuste/parliament-svg",
+	"title": " Generate SVG parliament charts (JavaScript)",
+	"author": "juliuste",
+	"date": "2017-06-19T09:54:16.587Z",
+	"tags": {
+		"categories": [
+			"elections",
+			"seats",
+			"svg",
+			"parliament-charts",
+			"seat-count",
+			"parliament"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

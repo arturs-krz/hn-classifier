@@ -1,0 +1,17 @@
+{
+	"_id": "14471229",
+	"site": "https://github.com/ZoeB/steg/",
+	"title": "Steg: Hide text in music",
+	"author": "syntexis",
+	"date": "2017-06-13T13:55:02.532Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": "readme.md is steg?'s command line program written c converts plain text messages .wav files, enabling to hide messages within sound clips such music. do use ?clone repo git clone git@github.com:zoeb/steg.git, into directory cd steg, compile program make, run with message 'd to encode, such ./steg 'foo'. steg create new file, .wav, your message encoded it. are various command line arguments available. run ./steg without message a list them. can read message again? a spectrogram the waveform. are many ways generating spectrogram. an example, 'd recommend spek. made ?the bulk the program was written zoë blade. .wav file writing routine was written douglas thain. license is released under?'s released under cc 4.0 license."
+}

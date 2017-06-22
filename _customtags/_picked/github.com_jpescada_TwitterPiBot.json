@@ -1,0 +1,29 @@
+{
+	"_id": "10771395",
+	"site": "https://github.com/jpescada/TwitterPiBot",
+	"title": " A bot for RaspberryPi that grabs tweets and reads them out loud",
+	"author": "jpescada",
+	"date": "2017-06-19T10:08:00.760Z",
+	"tags": {
+		"categories": [
+			"raspberry-pi",
+			"twitter",
+			"tweets",
+			"text-to-speech",
+			"python",
+			"twitter-api",
+			"standalone",
+			"bot",
+			"peewee",
+			"tweepy",
+			"flite",
+			"sqlite",
+			"ssh",
+			"linux"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

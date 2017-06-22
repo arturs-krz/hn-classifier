@@ -1,0 +1,22 @@
+{
+	"_id": "13737258",
+	"site": "https://github.com/raymestalez/chat",
+	"title": " Simple chat app built with Node/React",
+	"author": "rayalez",
+	"date": "2017-06-19T08:46:07.743Z",
+	"tags": {
+		"categories": [
+			"chat",
+			"react",
+			"docker",
+			"node",
+			"express",
+			"socket-io"
+		],
+		"languages": [
+			"javascript",
+			"other"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,20 @@
+{
+	"_id": "13121757",
+	"site": "https://github.com/mulle-nat/mulle-utf",
+	"title": " UTF8-16-32 analysis, conversion, classification library",
+	"author": "mulle_nat",
+	"date": "2017-06-19T10:46:01.326Z",
+	"tags": {
+		"categories": [
+			"unicode",
+			"mulle-objc"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"shell",
+			"cmake"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,25 @@
+{
+	"_id": "12172139",
+	"site": "https://github.com/madflojo/automatron",
+	"title": " Automatron – Autonomous IT systems monitoring and remediation",
+	"author": "madflojo",
+	"date": "2017-06-19T10:29:15.567Z",
+	"tags": {
+		"categories": [
+			"jinja2",
+			"runbook",
+			"health-check",
+			"python",
+			"self-healing",
+			"monitoring",
+			"remote-execution",
+			"docker",
+			"devops",
+			"devops-tools"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

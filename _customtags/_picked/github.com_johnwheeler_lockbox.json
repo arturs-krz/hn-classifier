@@ -1,0 +1,16 @@
+{
+	"_id": "14482088",
+	"site": "https://github.com/johnwheeler/lockbox",
+	"title": " Lockbox – User-friendly CLI/lib over cryptography.io encryption cipher",
+	"author": "johnwheeler",
+	"date": "2017-06-13T13:04:45.624Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": "readme.rst lockbox: user-friendly cli cryptography.io's fernet symmetric cipherlockbox provides command line interface cryptography.io's fernet symmetric cipher.fernet guarantees a message encrypted using cannot manipulated read without key. lockbox was inspired the ruby-basedsekrets project, they different ciphers.installationpip install lockboxcommand line interface lock commandusage: lockbox lock [options] input output symmetric encryption plaintext input file ciphertext output fileoptions: --key text encryption key --help show message exit. unlock commandusage: lockbox unlock [options] input output symmetric decryption ciphertext input file plaintext output fileoptions: --key text encryption key --help show message exit. edit commandusage: lockbox edit [options] path decrypts given file opens contents a temporary file editing. once saved, updated contents are reencrypted to orignal file.options: --key text encryption key --help show message exit. genkey commandusage: lockbox genkey [options] output generates cryptographically strong key writes to given output pathoptions: --help show message exit.key resolution lockbox, can pass encryption key a command line option --key store key a .lockbox.key file. key should cryptographically strong. commandline interface has command generate such key. all operations, lockbox uses following algorithm search a key: key passed via --key option is always preferred.otherwise code looks a companion key file named .lockbox.key the current working directory. that is found lockbox looks the key the environment under environment variable lockbox_keynext global key file is searched . the path this file is ~/.lockbox.keyfinally, no keys been specified found, user is prompted input key. prompt occurs the user is attached a tty. should never commit keyfiles. add to your .gitignore similar."
+}

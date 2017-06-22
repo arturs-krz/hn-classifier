@@ -1,0 +1,22 @@
+{
+	"_id": "12696030",
+	"site": "https://github.com/ory-am/dockertest#",
+	"title": " Test Go code against elastic search, postgres and others with docker",
+	"author": "cyclingrng",
+	"date": "2017-06-19T08:44:46.916Z",
+	"tags": {
+		"categories": [
+			"go",
+			"docker",
+			"ci",
+			"tests",
+			"automation",
+			"unit-testing",
+			"integration-testing"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

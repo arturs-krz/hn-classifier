@@ -1,0 +1,32 @@
+{
+	"_id": "14247178",
+	"site": "https://github.com/thombashi/pytablereader",
+	"title": " Pytablereader – A Python library to load tables from text/file/URL",
+	"author": "thombashi",
+	"date": "2017-06-13T13:32:48.675Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"python-library",
+			"reader",
+			"table",
+			"csv",
+			"excel",
+			"html",
+			"json",
+			"ltsv",
+			"markdown",
+			"mediawiki",
+			"tsv",
+			"sqlite",
+			"google-sheets",
+			"pandas",
+			"pandas-dataframe"
+		],
+		"languages": [
+			"python",
+			"html"
+		]
+	},
+	"content": "readme.rst pytablereadersummary python library load structured table data files/strings/url various data format: csv/excel/google-sheets/html/json/ltsv/markdown/sqlite/tsv.featuresextract structured tabular data various data format:csvmicrosoft excel tm filegoogle sheetshtmljsonlabeled tab-separated values (ltsv)markdownmediawikisqlite database filetab separated values (tsv)supported data sources are:files a local file systemaccessible urlsstr instancesloaded table data be used :pandas.dataframe instancedict instanceexamplesload csv tableimport pytablereader ptrimport pytablewriter ptw# prepare data ---file_path = \"sample_data.csv\"csv_text = \"\".join([ '\"attr_a\",\"attr_b\",\"attr_c\"', '1,4,\"\"', '2,2.1,\"bb\"', '3,120.9,\"ccc\"',]) open(file_path, \"w\") f: f.write(csv_text)# load a csv file ---loader = ptr.csvtablefileloader(file_path) table_data loader.load(): print(\"\".join([ \"load file\", \"==============\", \"{:s}\".format(ptw.dump_tabledata(table_data)), ]))# load a csv text ---loader = ptr.csvtabletextloader(csv_text) table_data loader.load(): print(\"\".join([ \"load text\", \"==============\", \"{:s}\".format(ptw.dump_tabledata(table_data)), ]))load file==============.. table:: sample_data ====== ====== ====== attr_a attr_b attr_c ====== ====== ====== 1 4.0 2 2.1 bb 3 120.9 ccc ====== ====== ======load text==============.. table:: csv2 ====== ====== ====== attr_a attr_b attr_c ====== ====== ====== 1 4.0 2 2.1 bb 3 120.9 ccc ====== ====== ====== loaded table data pandas.dataframe instance pytablereader import tabledatatabledata( table_name=\"sample\", header_list=[\"\", \"b\"], record_list=[[1, 2], [3.3, 4.4]]).as_dataframe() b0 1 21 3.3 4.4 more informationmore examples are available http://pytablereader.rtfd.io/en/latest/pages/examples/index.htmlinstallationpip install pytablereaderdependenciespython 2.7+ 3.3+mandatory python packagesbeautifulsoup4datapropery (used extract data types)jsonschemambstrdecoderpathvalidatepath.pyrequestssixtypepyxlrdoptional python packagespypandocrequired loading mediawiki filepandasrequired get table data a pandas data frameoptional packages ( than python packages)lxml (faster html convert installed)pandoc (required loading mediawiki file)test dependenciespytablewriterpytestpytest-runnertoxxlsxwriterdocumentationhttp://pytablereader.rtfd.io/related projectpytablewritertabular data loaded pytablereader be written another tabular data format pytablewriter."
+}

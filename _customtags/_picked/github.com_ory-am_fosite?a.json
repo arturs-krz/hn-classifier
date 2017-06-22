@@ -1,0 +1,26 @@
+{
+	"_id": "10905160",
+	"site": "https://github.com/ory-am/fosite?a",
+	"title": " Fosite – OAuth2 framework for Go",
+	"author": "arekkas",
+	"date": "2017-06-19T10:13:35.203Z",
+	"tags": {
+		"categories": [
+			"golang",
+			"oauth",
+			"oauth2",
+			"library",
+			"sdk",
+			"security",
+			"auth",
+			"authentication",
+			"authorization",
+			"openid-connect"
+		],
+		"languages": [
+			"go",
+			"shell"
+		]
+	},
+	"content": ""
+}

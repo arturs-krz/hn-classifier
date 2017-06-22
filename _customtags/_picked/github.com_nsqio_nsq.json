@@ -1,0 +1,28 @@
+{
+	"_id": "14451148",
+	"site": "https://github.com/nsqio/nsq",
+	"title": "NSQ – A realtime distributed messaging platform designed to operate at scale",
+	"author": "loppers92",
+	"date": "2017-06-13T13:55:21.307Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"go",
+			"messaging",
+			"distributed-systems",
+			"queue",
+			"message-queue",
+			"nsq"
+		],
+		"languages": [
+			"go",
+			"javascript",
+			"html",
+			"python",
+			"shell",
+			"css",
+			"makefile"
+		]
+	},
+	"content": "readme.md source: https://github.com/nsqio/nsqissues: https://github.com/nsqio/nsq/issuesmailing list: nsq-users@googlegroups.comirc: #nsq freenodedocs: http://nsq.iotwitter: @nsqio nsq is realtime distributed messaging platform designed operate scale, handlingbillions messages per .it promotes distributed decentralized topologies without single points failure,enabling fault tolerance high availability coupled a reliable message deliveryguarantee. features & guarantees.operationally, nsq is easy configure deploy ( parameters are specified the commandline compiled binaries no runtime dependencies). maximum flexibility, is agnostic data format (messages be json, msgpack, protocol buffers, anything else). official andpython libraries are available of box ( well many clientlibraries) , if 're interested building own, 's protocolspec. publish binary releases linux darwin.note: master is development branch may be stable all times. production                                                          code conducthelp keep nsq open inclusive. please read follow code conduct.authorsnsq was designed developed matt reiferson (@imsnakes) jehiah czebotar(@jehiah) wouldn't been possible without support bitly all contributors.logo created wolasi konu (@kisalow)."
+}

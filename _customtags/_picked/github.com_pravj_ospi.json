@@ -1,0 +1,21 @@
+{
+	"_id": "8912004",
+	"site": "https://github.com/pravj/ospi",
+	"title": " Open Source Presence Infographic of Indian Startups",
+	"author": "pravj",
+	"date": "2017-06-19T08:42:51.890Z",
+	"tags": {
+		"categories": [
+			"open-source",
+			"startup",
+			"data-analysis",
+			"data-visualization",
+			"india"
+		],
+		"languages": [
+			"python",
+			"r"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "12604800",
+	"site": "https://github.com/littlecodersh/ItChat",
+	"title": " itchat - Python API for personal Wechat account",
+	"author": "LittleCoder",
+	"date": "2017-06-19T11:03:24.192Z",
+	"tags": {
+		"categories": [
+			"itchat",
+			"wechat",
+			"api",
+			"robot"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "3582707",
+	"site": "https://github.com/infincia/cardrand",
+	"title": " Feeding the linux /dev/random pool using a smart card RNG",
+	"author": "infincia",
+	"date": "2017-06-19T09:57:27.068Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"c"
+		]
+	},
+	"content": ""
+}

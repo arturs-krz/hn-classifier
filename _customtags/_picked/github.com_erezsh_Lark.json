@@ -1,0 +1,17 @@
+{
+	"_id": "13644186",
+	"site": "https://github.com/erezsh/Lark",
+	"title": " Lark, a modern parsing library with Earley and LALR(1) implementations",
+	"author": "erezsh",
+	"date": "2017-06-19T09:43:29.278Z",
+	"tags": {
+		"categories": [
+			"library"
+		],
+		"languages": [
+			"python",
+			"gap"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,18 @@
+{
+	"_id": "14488343",
+	"site": "https://github.com/shrayasr/pinboard.net",
+	"title": " A cross platform .Net library for pinboard.in",
+	"author": "skun",
+	"date": "2017-06-13T13:04:45.351Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"api-wrapper",
+			"api-client"
+		],
+		"languages": [
+			"c#"
+		]
+	},
+	"content": "readme.md pinboard.net fully featured c# wrapper the pinboard. api.installationpm> install-package pinboard.netsince is written atop .net standard 1.4, will run the following platforms:.net core 1.0.net framework 4.6.1mono 4.6xamarin.ios 10.0xamarin.android 7.0universal windows platform 10usage start, retrieve pinboard api token thepassword page the website. class starts all is pinboardapi. implements idisposable is best used within using block so:using (var pb = pinboardapi(apitoken)){ // ...} internally creates reuses instance httpclient perinstance pinboardapi. pb object now used make calls the pinboard apipostsupdatereturns most recent a bookmark was added, updated deleted. this before calling to if data has changed since lastfetch.pb.posts.getlastupdate()add bookmarkvar bookmark = bookmark{ url = \"http://linkur.co.\", description = \"bookmarking groups!\", extended = \"\", tags = list<string> { \"bookmarking\", \"web\", \"tools\" }, dt = datetime., shared = true, toread = false};pb.posts.add(bookmark);update bookmark// the bookmark var bookmark = pb.posts.().firstordefault();bookmark.extended = \"nothing does group bookmarking better\";bookmark.tags.add(\"free\");pb.posts.update(bookmark)delete bookmarkpb.posts.delete(\"http://linkur.co.\");get posts matching parametersreturns or more posts a single matching arguments. nodate url is given, date most recent bookmark be used. can filtered :tagsdateurlpb.posts.();get recent bookmarksreturns list the user's recent posts, filtered tag.pb.posts.recent(tags: list<string> { \"programming\", \"dotnet\" }); all bookmarksreturns bookmarks the user's account. can filtered :tagsoffsetnumber results date datepb.posts.()tags all tags also returns number times each tag has been usedpb.tags.()get suggested tags a urlpb.posts.suggest(\"https://linkur.co.\")delete tagpb.tags.delete(\"prugramming\");rename tagpb.tags.rename(\"pithon\", \"python\");users secretreturns user's secret rss key ( viewing private feeds)pb.users.secret() api tokenreturns user's api token ( making api calls without password)pb.users.apitoken()notes all notespb.notes.list() details a single notepb.notes.note(\"foobar\")"
+}

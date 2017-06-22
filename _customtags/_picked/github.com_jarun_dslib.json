@@ -1,0 +1,23 @@
+{
+	"_id": "11547876",
+	"site": "https://github.com/jarun/dslib",
+	"title": " Dslib – Data Structures library growing on itself in C",
+	"author": "apjana",
+	"date": "2017-06-19T10:09:18.567Z",
+	"tags": {
+		"categories": [
+			"academic",
+			"stack",
+			"tree",
+			"avl",
+			"dlist",
+			"data-structures"
+		],
+		"languages": [
+			"c",
+			"makefile",
+			"c++"
+		]
+	},
+	"content": ""
+}

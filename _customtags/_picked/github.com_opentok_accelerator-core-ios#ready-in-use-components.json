@@ -1,0 +1,38 @@
+{
+	"_id": "14150497",
+	"site": "https://github.com/opentok/accelerator-core-ios#ready-in-use-components",
+	"title": " Tokbox iOS audio/video(screen) accelerator pack 1.1.1",
+	"author": "lucashuang",
+	"date": "2017-06-13T13:34:48.437Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"audio",
+			"video",
+			"webrtc",
+			"ios",
+			"screen-capture",
+			"opentok",
+			"communication",
+			"tokbox",
+			"objective-c",
+			"real-time",
+			"realtime-audio",
+			"real-time-video-streaming",
+			"video-communication",
+			"video-call",
+			"realtime",
+			"screencast",
+			"screensharing",
+			"screenshare",
+			"screenshots",
+			"screencapture"
+		],
+		"languages": [
+			"objective-c",
+			"html",
+			"ruby"
+		]
+	},
+	"content": "readme.md accelerator core ios accelerator core is easy manner integrate audio/video communication any ios applications via opentok platform. things can easily :one one audio/video callmultiparty audio/video call to screen sharingmultiparty screen sharingui components handling audio/video enable&disableconfigure, build run sample app values api key, session id, token. obtaining opentok credentials important information.install cocoapods described cocoapods getting started. terminal, cd your project directory type pod install.reopen project xcode using new *.xcworkspace file.replace following empty strings the corresponding api key, session id, token values:- (bool)application:(uiapplication *)application didfinishlaunchingwithoptions:(nsdictionary *)launchoptions { // override point customization application launch. sharedsession = [[otacceleratorsession alloc] initwithopentokapikey:@\"apikey\" sessionid:@\"sessionid\" token:@\"token\"]; return yes;} xcode build run app an ios simulator device. testing audio/video communication, include simple web app make easier: browser-demo. simply open and replace corresponding api key, session id, token values. save load to browser. multiparty, can achieve opening multiple tabs. might to run other platforms:accelerator core javascript accelerator core androidsample codeseach communicator instance take opentok session otonetoonecommunicatordatasource, this applies each communicator instance:passing session- (otacceleratorsession *)sessionofotonetoonecommunicator:(otonetoonecommunicator *)onetoonecommunicator { return <#otacceleratorsession#>;}-to-self.communicator = [[otonetoonecommunicator alloc] init];self.communicator.datasource = self;[self.communicator connectwithhandler:^(otcommunicationsignal signal, nserror *error) { (signal == otpublishercreated && !error) { weakself.communicator.publisherview.frame = cgrectmake(0, 0, 100, 100); [self.publisherview addsubview:weakself.communicator.publisherview]; } else (signal == otsubscriberready && !error) { weakself.communicator.subscriberview.frame = cgrectmake(0, 0, 100, 100); [self.subscriberview addsubview:weakself.communicator.subscriberview]; }}];multipartyself.communicator = [[otmultipartycommunicator alloc] init];self.communicator.datasource = self;[self.communicator connectwithhandler:^(otcommunicationsignal signal, otmultipartyremote *subscriber, nserror *error) { (signal == otpublishercreated && !error) { weakself.communicator.publisherview.frame = cgrectmake(0, 0, 100, 100); [self.publisherview addsubview:weakself.communicator.publisherview]; } else (signal == otsubscriberready && !error) { subscriber.subscriberview.frame = <# desired frame this remote subscriberview#>; // logic handle multiple remote subscriberview(s) }}];screen sharing - (instancetype)initwithview: - (instancetype)initwithview:name: soself.screensharer = [[otonetoonecommunicator alloc] initwithview:[uiapplication sharedapplication].keywindow.rootviewcontroller.view];self.screensharer = [[otmultipartycommunicator alloc] initwithview:[uiapplication sharedapplication].keywindow.rootviewcontroller.view];pre-defined uienable audio&video controlself.communicator.publisherview.controlview.isverticalalignment = yes;self.communicator.publisherview.controlview.frame = cgrectmake(10, 10, cgrectgetwidth(self.publisherview.frame) * 0.1, cgrectgetheight(self.publisherview.frame) * 0.3);handle video enable/disable control// default// enable handleaudiovideo property, publisherview be covered a silhouette automatically.self.communicator.publisherview.handleaudiovideo = yes; // disable handleaudiovideo property, publisherview do nothing enabling/disabling publishvideo.self.communicator.publisherview.handleaudiovideo = ; ready--use components-to- communicationotonetoonecommunicationcontroller *vc = [otonetoonecommunicationcontroller onetoonecommunicationcontrollerwithsession:<#otacceleratorsession#>];[self.navigationcontroller pushviewcontroller:vc animated:yes];sample apps uses core following sample apps accelerator core:opentok -to- communication sample appaccelerator sample appobtaining opentok credentials use opentok's framework need session id, token, api key can these values the opentok developer dashboard . production deployment, must generate session id token values using of opentok server sdks.accelerator core a dependency accelerator core is required whenever use of opentok accelerators. accelerator core is common layer includes audio-video communication logic contained all opentok -to- communication sample apps, permits accelerators samples share same opentok session. accelerator packs sample app access opentok session through common accelerator session pack layer, allows to share single opentok session: the android ios mobile platforms, you try set listener (android) delegate (ios), is normally possible set multiple listeners delegates the same event. example, these mobile platforms can set opentok signal listener. common accelerator session pack, however, allows to set several listeners the same event."
+}

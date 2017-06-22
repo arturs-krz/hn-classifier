@@ -1,0 +1,19 @@
+{
+	"_id": "12143212",
+	"site": "https://github.com/sozercan/slack-typobot",
+	"title": " A Slack bot that automatically corrects typos",
+	"author": "polygot",
+	"date": "2017-06-19T08:45:38.632Z",
+	"tags": {
+		"categories": [
+			"slack",
+			"bots",
+			"slack-bot"
+		],
+		"languages": [
+			"javascript",
+			"smarty"
+		]
+	},
+	"content": ""
+}

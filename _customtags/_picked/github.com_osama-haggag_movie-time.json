@@ -1,0 +1,18 @@
+{
+	"_id": "14430562",
+	"site": "https://github.com/osama-haggag/movie-time",
+	"title": " Movie Time – Movie recommender based on the GroupLens/MovieLens dataset",
+	"author": "GunnyTunes",
+	"date": "2017-06-13T13:06:18.792Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"jupyter notebook",
+			"python",
+			"html"
+		]
+	},
+	"content": "readme.md movie recommendation system based the grouplens dataset movielens data. dataset contains 40,000 movies, around 11,000 those tagsassociated them could related one another.movie uses tagged movies relate to each , and presentsrandom recommendations the 29,000 unrelatable movies.screenshots!installationvirtual environment0- install python virtual env ubuntu:$ apt- install virtualenvwrapper via pip ( linux, mac linux subsystem windows) given have python installed:$ pip install virtualenv virtualenvwrapperreset terminal the commands below should available use1- create python 3 virtualenv the project$ mkvirtualenv movie- -p /usr/bin/python31.1- activate virtualenv it's automatically activated$ workon movie-2- install required dependencies(movie-) $ pip install -r requirements.txtgetting movie database readybuilding db yourself1- preferrably download dataset manually here extract to folder2- run first setup script the project's root directory populate local database the data needed the recommendations. takes between 50 minutes ( a macbook pro) 5 hours ( an msi gaming laptop) the database amounts about 7 gb. point script the directory where extracted dataset, optionally ( not preferrably) path the db, then 'd to change in django settings too.(movie-) $ pythonpath=. python first_time_setup/run.py - /path//extracted/datasetdownloading db the cloud db is backed on google drive, can downloaded directly there may slow case google setsbandwidth limits.either download to defaultpath, is project root. , download to specific path be sure change django settings point that path.download from here, download is 6gb.starting server1- start django server(movie-) $ python manage.py runserver2- open server a browser, default 's : 127.0.0.1:8000 rate away!usage can either: search movies watched like/dislike to more candidates the homepage, you search a movie know enjoyed manually find yourself promising candidate the list similar movies. the detail view only shows 40 similar movies the selected movie. it works \"science\" behind system be found theinvestigation notebookrecommendations the homepage are presented 3 categories, 2 which are based the calculated movie--movie similarity using provided genome tags.1. movies similar movies have liked are movies are most similar the ones 've liked. recommendations the homepage are presented follows: each movie liked adds n (default 10) its similar movies a pool recommendations, will n * number liked movies movies it. of pool n movies (again 10) are randomly selected ensure mixture your tastes.2. movies similar what have disliked are highest rated movies are most similar movies disliked. recommendations are presentedsimply a list movies sorted their mean_rating descendingly. assumption is a movie didn't gotsomething \"wrong\", maybe high-rated very similar movie it got \"right\".3. random selection the 29,000 have tags can't related due them having tags"
+}

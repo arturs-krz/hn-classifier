@@ -1,0 +1,27 @@
+{
+	"_id": "10347307",
+	"site": "https://github.com/sachinchoolur/lightGallery",
+	"title": " lightGallery - A modern, responsive, modular, lightbox gallery plugin.",
+	"author": "sachinchoolur",
+	"date": "2017-06-19T10:31:50.081Z",
+	"tags": {
+		"categories": [
+			"lightbox-gallery-plugin",
+			"image-gallery",
+			"video-gallery",
+			"lightbox",
+			"video",
+			"thumbnails",
+			"youtube",
+			"vimeo",
+			"html5-video",
+			"css-animations"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": ""
+}

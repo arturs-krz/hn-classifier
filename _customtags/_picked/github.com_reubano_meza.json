@@ -1,0 +1,23 @@
+{
+	"_id": "10972947",
+	"site": "https://github.com/reubano/meza",
+	"title": " A Python toolkit for processing tabular data",
+	"author": "reubano",
+	"date": "2017-06-19T08:42:55.848Z",
+	"tags": {
+		"categories": [
+			"pandas",
+			"csv",
+			"xml",
+			"xlsx",
+			"excel"
+		],
+		"languages": [
+			"python",
+			"html",
+			"shell",
+			"makefile"
+		]
+	},
+	"content": ""
+}

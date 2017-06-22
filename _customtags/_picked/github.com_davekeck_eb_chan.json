@@ -1,0 +1,16 @@
+{
+	"_id": "8395702",
+	"site": "https://github.com/davekeck/eb_chan",
+	"title": " Go channels as a C library (with Obj-C wrapper)",
+	"author": "davekeck",
+	"date": "2017-06-19T10:54:56.176Z",
+	"tags": {
+		"categories": ["library"],
+		"languages": [
+			"c",
+			"objective-c",
+			"go"
+		]
+	},
+	"content": ""
+}

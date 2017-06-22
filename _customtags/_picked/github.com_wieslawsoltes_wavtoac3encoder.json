@@ -1,0 +1,32 @@
+{
+	"_id": "13912851",
+	"site": "https://github.com/wieslawsoltes/wavtoac3encoder",
+	"title": " WAV to AC3 Encoder an audio encoder based on ATSC A/52 specification",
+	"author": "wiso",
+	"date": "2017-06-19T10:40:41.897Z",
+	"tags": {
+		"categories": [
+			"audio",
+			"ac3",
+			"atsc",
+			"audio-applications",
+			"audio-files-conversion",
+			"converter",
+			"encoder",
+			"front-end",
+			"gui",
+			"music",
+			"windows"
+		],
+		"languages": [
+			"c++",
+			"c",
+			"c#",
+			"batchfile",
+			"cmake",
+			"inno setup",
+			"other"
+		]
+	},
+	"content": ""
+}

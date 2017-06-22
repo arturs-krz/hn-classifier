@@ -1,0 +1,15 @@
+{
+	"_id": "7277340",
+	"site": "https://github.com/filp/psdiff",
+	"title": " psdiff – use github's image diff tools with .psd files",
+	"author": "filp",
+	"date": "2017-06-19T09:57:50.881Z",
+	"tags": {
+		"categories": ["visual"],
+		"languages": [
+			"ruby",
+			"shell"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14451572",
+	"site": "https://github.com/izniburak/pdox",
+	"title": "Useful query builder library for PHP",
+	"author": "izniburak",
+	"date": "2017-06-13T13:55:21.631Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"php",
+			"sql",
+			"query-builder"
+		],
+		"languages": [
+			"php"
+		]
+	},
+	"content": "readme.md pdox _____ _____ ____ | __ \\| __ \\ / __ \\ | |__) | | | | | | |_ __ | ___/| | | | | | \\ \\/ / | | | |__| | |__| |> < |_| |_____/ \\____//_/\\_\\fast, efficient useful query builder pdo class #phpinstallcomposer.json file:{ \"require\": { \"izniburak/pdox\": \"^1\" }} run install command.$ composer install run following command directly.$ composer require izniburak/pdoxexample usagerequire 'vendor/autoload.php';$config = ['host'=> 'localhost','driver'=> 'mysql','database'=> 'test','username'=> 'root','password'=> '','charset'=> 'utf8','collation'=> 'utf8_general_ci','prefix' => ''];$db = \\buki\\pdox($config);$records = $db->table('users')->select('id, name, surname, age')->where('age', '>', 18)->orderby('id', 'desc')->limit(20)->getall();var_dump($records);docsdocumentation page: pdox docssupportizniburak's homepageizniburak's twitterlicencemit licencecontributingfork ( https://github.com/izniburak/pdox/fork )create feature branch (git checkout -b -new-feature)commit changes (git commit -am 'add feature')push the branch (git push origin -new-feature)create new pull requestcontributorsizniburak zni burak demirta - creator, maintainer"
+}

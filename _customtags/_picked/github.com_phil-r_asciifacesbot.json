@@ -1,0 +1,21 @@
+{
+	"_id": "11140509",
+	"site": "https://github.com/phil-r/asciifacesbot",
+	"title": " Telegram bot that allows you to append ascii faces to your messages",
+	"author": "dartf",
+	"date": "2017-06-19T08:42:22.807Z",
+	"tags": {
+		"categories": [
+			"telegram-bot",
+			"faces",
+			"telegram",
+			"bot",
+			"ascii",
+			"ascii-art"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

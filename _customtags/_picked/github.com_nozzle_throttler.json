@@ -1,0 +1,14 @@
+{
+	"_id": "9162680",
+	"site": "https://github.com/nozzle/throttler",
+	"title": " Golang Throttler – smart WaitGroups to easily manage worker goroutines",
+	"author": "derekperkins",
+	"date": "2017-06-19T10:36:09.639Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,24 @@
+{
+	"_id": "14400778",
+	"site": "https://github.com/kubernetes-incubator/kompose",
+	"title": "Kompose – Tool to move from `docker-compose` to Kubernetes",
+	"author": "loppers92",
+	"date": "2017-06-13T13:56:41.234Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"kubernetes",
+			"docker",
+			"docker-compose",
+			"go",
+			"containers"
+		],
+		"languages": [
+			"go",
+			"shell",
+			"makefile",
+			"other"
+		]
+	},
+	"content": "readme.md kompose (kubernetes + compose) #kompose channelkompose is tool help users are familiar docker-compose move kubernetes. kompose takes docker compose file translates into kubernetes resources.kompose is convenience tool go local docker development managing application kubernetes. transformation the docker compose format kubernetes resources manifest may be exact, it helps tremendously first deploying application kubernetes. caseconvert docker-compose.yaml kubernetes deployments services one simple command:kompose convert -f docker-compose.yamlinfo kubernetes file \"frontend-service.yaml\" created info kubernetes file \"redis-master-service.yaml\" created info kubernetes file \"redis-slave-service.yaml\" created info kubernetes file \"frontend-deployment.yaml\" created info kubernetes file \"redis-master-deployment.yaml\" created info kubernetes file \"redis-slave-deployment.yaml\" created examples are provided the examples directory.installation have multiple ways install kompose. prefered method is downloading binary the latest github release. entire list installation methods are located our setup.md document.installation methods:binary (prefered method)centosfedoramacos (homebrew)binary installationkompose is released via github a three-week cycle, can all current releases the github release page.# linuxcurl -l https://github.com/kubernetes-incubator/kompose/releases/download/v0.7.0/kompose-linux-amd64 -o kompose# macoscurl -l https://github.com/kubernetes-incubator/kompose/releases/download/v0.7.0/kompose-darwin-amd64 -o kompose# windowscurl -l https://github.com/kubernetes-incubator/kompose/releases/download/v0.7.0/kompose-windows-amd64.exe -o kompose.exechmod +x komposesudo mv ./kompose /usr/local/bin/komposealternatively, can download less-bandwidth intense tarball.shell autocompletion support both bash zsh autocompletion.bash:source <(kompose completion bash)zsh:source <(kompose completion zsh)buildingbuilding go need you need v1.6 later. your working copy is in gopath, need set accordingly. can either build via makefile:$ bin go build:$ build -o kompose main.if have v1.5, 's still to build kompose the following settings:$ cgo_enabled=0 go15vendorexperiment=1 build -o kompose main.to create multi-platform binary, the cross command via :$ make crosscontributing issueskompose is work progress, will how far takes . we welcome pull request make even better. you find issues, please file .community, discussion, contribution, support part the kubernetes ecosystem, follow kubernetes community principles. more information be found the community page. can reach maintainers this project slack channel #komposekompose is being incubated the kubernetes community via sig-apps kubernetes/community.@ericchiang is acting champion incubation. do biweekly community meeting is open the public. each week outline we talked in agenda doc. meeting occurs every weeks wednesday 18:00-19:00 gmt.road map up--date roadmap upcoming releases is located roadmap.md.code conductparticipation the kubernetes community is governed the kubernetes code conduct."
+}

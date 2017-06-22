@@ -1,0 +1,14 @@
+{
+	"_id": "14374871",
+	"site": "https://github.com/eduardorost/learn-spring-email/blob/master/README.md",
+	"title": "Send email using java 8, spring-boot-starter-web and spring-boot-starter-mail",
+	"author": "eduardorost",
+	"date": "2017-06-13T13:57:06.447Z",
+	"tags": {
+		"categories": [
+			"example"
+		],
+		"languages": []
+	},
+	"content": "learn-spring-emaildescription sample rest api send email.technologiesjava 8spring-boot-starter-webspring-boot-starter-mailrun./gradlew bootrun see magic https://localhost:9000"
+}

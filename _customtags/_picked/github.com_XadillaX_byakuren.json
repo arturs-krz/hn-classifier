@@ -1,0 +1,22 @@
+{
+	"_id": "13781789",
+	"site": "https://github.com/XadillaX/byakuren",
+	"title": " A theme color extracting library implemented in C",
+	"author": "XadillaX",
+	"date": "2017-06-19T09:32:29.710Z",
+	"tags": {
+		"categories": [
+			"theme-color",
+			"c",
+			"library",
+			"byakuren"
+		],
+		"languages": [
+			"c",
+			"javascript",
+			"python",
+			"makefile"
+		]
+	},
+	"content": ""
+}

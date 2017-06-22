@@ -1,0 +1,17 @@
+{
+	"_id": "14368916",
+	"site": "https://github.com/tholman/obnoxious.css",
+	"title": "Obnoxious.css: Animations for the strong of heart, and stupid of mind",
+	"author": "doppp",
+	"date": "2017-06-13T13:57:07.941Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md obnoxious.cssobnoxious css is animation set the strong heart, weak mind. check out. to to , add obnoxious.css stylesheet the <head> your document<head> <link rel=\"stylesheet\" href=\"/path//obnoxious.css\"></head>, to animate need add class animated your element, any the obnoxious.css classes are:shakeitintensifiesfontaliciousstrobetwister can these animations live here. example: <h1 class=\"animated intensifies\">omg!</h1> to contribute edit codebase, 'll need clone repository.next, run npm install, gulp watch have edits automatically saved obnoxious.css... please add each animation a file.licenselicense mit license (mit)copyright (c) 2017 ~ tim holman ~ timothy.w.holman@gmail.com"
+}

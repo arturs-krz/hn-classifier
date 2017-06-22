@@ -1,0 +1,26 @@
+{
+	"_id": "12401825",
+	"site": "https://github.com/tautvilas/epoh",
+	"title": " EPOH – A simple multiplayer turn-based game built with JavaScript",
+	"author": "brisky",
+	"date": "2017-06-19T10:02:04.937Z",
+	"tags": {
+		"categories": [
+			"multiplayer",
+			"game",
+			"web-game",
+			"javascript",
+			"turn-based",
+			"isomorphic",
+			"nodejs",
+			"browser-strategy-game"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"css",
+			"makefile"
+		]
+	},
+	"content": ""
+}

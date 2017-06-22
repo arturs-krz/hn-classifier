@@ -1,0 +1,25 @@
+{
+	"_id": "8349438",
+	"site": "https://github.com/xray/xray",
+	"title": " Xray: N-D labeled arrays and datasets in Python",
+	"author": "shoyer",
+	"date": "2017-06-19T10:03:22.913Z",
+	"tags": {
+		"categories": [
+			"python",
+			"scientific-computing",
+			"netcdf",
+			"numpy",
+			"data-science",
+			"pandas",
+			"dataframes",
+			"data-analysis",
+			"pydata"
+		],
+		"languages": [
+			"python",
+			"powershell"
+		]
+	},
+	"content": ""
+}

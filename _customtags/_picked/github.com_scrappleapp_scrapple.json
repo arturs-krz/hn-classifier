@@ -1,0 +1,25 @@
+{
+	"_id": "9373618",
+	"site": "https://github.com/scrappleapp/scrapple",
+	"title": " Scrapple – A framework for creating semi-automatic web extractors",
+	"author": "alexmathew16",
+	"date": "2017-06-19T08:43:15.471Z",
+	"tags": {
+		"categories": [
+			"python",
+			"css-selector",
+			"xpath-expression",
+			"web-scraper",
+			"web-scraping",
+			"scrapers",
+			"scraping",
+			"scrapy"
+		],
+		"languages": [
+			"python",
+			"html",
+			"shell"
+		]
+	},
+	"content": ""
+}

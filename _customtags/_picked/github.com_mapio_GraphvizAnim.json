@@ -1,0 +1,18 @@
+{
+	"_id": "11014852",
+	"site": "https://github.com/mapio/GraphvizAnim",
+	"title": " GraphvizAnim, a tool to create animated graphs, based on graphviz",
+	"author": "mapio",
+	"date": "2017-06-19T08:44:21.076Z",
+	"tags": {
+		"categories": [
+			"graph-animation",
+			"graphviz",
+			"algoritms-animation"
+		],
+		"languages": [
+			"python"
+		]
+	},
+	"content": ""
+}

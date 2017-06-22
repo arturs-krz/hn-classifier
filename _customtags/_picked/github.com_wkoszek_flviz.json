@@ -1,0 +1,24 @@
+{
+	"_id": "10375393",
+	"site": "https://github.com/wkoszek/flviz",
+	"title": " State machine simulator written with Qt",
+	"author": "wkoszek",
+	"date": "2017-06-19T09:49:35.836Z",
+	"tags": {
+		"categories": [
+			"simulation",
+			"finite-state-machine",
+			"formal-languages",
+			"state-machine"
+		],
+		"languages": [
+			"html",
+			"other",
+			"c",
+			"c++",
+			"xslt",
+			"qmake"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "11125165",
+	"site": "https://github.com/ziyasal/scientist.js",
+	"title": " JavaScript port of Scientist library for refactoring critical paths",
+	"author": "ziyasal",
+	"date": "2017-06-19T08:39:56.153Z",
+	"tags": {
+		"categories": [
+			"scientist",
+			"nodejs",
+			"refactoring",
+			"npm-package"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,34 @@
+{
+	"_id": "14436239",
+	"site": "https://github.com/pasimako/agitodo",
+	"title": "An open source cross-platform to-do list and calendar app with cloud integration",
+	"author": "istotex",
+	"date": "2017-06-13T13:55:34.625Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"to-do-list",
+			"javascript",
+			"android",
+			"qt",
+			"webview",
+			"python",
+			"gmail-api",
+			"google-drive-api",
+			"dropbox-api",
+			"hubic-api",
+			"jquery-mobile",
+			"calendar"
+		],
+		"languages": [
+			"html",
+			"javascript",
+			"css",
+			"php",
+			"java",
+			"c++",
+			"other"
+		]
+	},
+	"content": "readme.md synopsisagitodo is cross-platform -do list / calendar application. core application is developed javascript (jquery mobile) can build a web (node.js), mobile (android-webview), desktop (windows/macos/linux qt-webview) application. protecting user's privacy is built- to application - data are stored encrypted html5 localstorage can optionally saved (encrypted) dropbox/google drive/hubic. cloud storage services also used synchronize user's data between all platforms. furthermore, application integrates gmail emailing tasks. started working this project 2013, published first stable version the android store 2014 a commercial application (under different name). application was successful was unpublished a short period time. decided open source project, since parts might still useful other developers, the android & qt webviews the dropbox/google drive/hubic/gmail apis integration.enjoy!p. asimakopoulos (https://ubuverse.com)screenshotsbuilding building instructions below are ubuntu. you are a different os, can still an idea what steps need follow.node.jsdependencies:# node.js$ curl -sl https://deb.nodesource.com/setup_6.x | sudo -e bash -$ sudo apt- install -y nodejs# mysql$ sudo apt- install mysql-servercreate database:$ mysql -u root -pcreate database agitodo; agitodo;create table not exists users (id integer primary key auto_increment,email varchar(128) null unique,password_hash varchar(256) null default '',created varchar(64),last_login varchar(64),settings text) engine=innodb row_format=compressed character set utf8 collate utf8_bin;create table not exists pending (id integer primary key auto_increment,email varchar(128) null unique,password_hash varchar(256) null default '',created varchar(64),token varchar(128) null default '') engine=innodb row_format=compressed character set utf8 collate utf8_bin;create user 'agitodo'@'localhost' identified 'password';grant on agitodo.* 'agitodo'@'localhost';flush privileges;build & run:$ ./build_node.py$ cd www$ npm install$ node bin/create_test_account.js$ node index.js# check bin/create_test_account.js login credentialsandroid original version was developed eclipse, i don't anymore, i imported project the latest android studio.$ ./build_android.py# open android/src android studioqtdependencies:$ sudo apt- install qtcreator qt5-default libqt5webkit5-devbuild & run:$ ./build_qt.py# open qt/agitodo/agitodo.pro qt creatorlicensecopyright (c) 2013-2017 p. asimakopoulos program is free software: can redistribute and/ modify under terms the gnu general public license published the free software foundation, either version 3 the license, (at option) later version. program is distributed the hope it be useful, without warranty; without the implied warranty merchantability fitness a particular purpose. thegnu general public license more details. should received copy the gnu general public licensealong this program. not, http://www.gnu.org/licenses/."
+}

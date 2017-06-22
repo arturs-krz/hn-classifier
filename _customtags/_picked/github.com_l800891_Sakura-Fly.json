@@ -1,0 +1,24 @@
+{
+	"_id": "11286538",
+	"site": "https://github.com/l800891/Sakura-Fly",
+	"title": " Sakura Fly - Open source iOS game on App Store",
+	"author": "lcllcl",
+	"date": "2017-06-19T10:02:15.551Z",
+	"tags": {
+		"categories": [
+			"spritekit",
+			"ios-game",
+			"ios-app",
+			"flappy-bird-game",
+			"sakura",
+			"swift3",
+			"objective-c",
+			"gamecenter"
+		],
+		"languages": [
+			"objective-c",
+			"swift"
+		]
+	},
+	"content": ""
+}

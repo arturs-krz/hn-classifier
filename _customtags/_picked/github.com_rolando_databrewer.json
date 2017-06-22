@@ -1,0 +1,22 @@
+{
+	"_id": "14274539",
+	"site": "https://github.com/rolando/databrewer",
+	"title": " DataBrewer – A CLI-tool to search and discover datasets",
+	"author": "darkrho",
+	"date": "2017-06-13T13:32:02.883Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"datasets",
+			"data",
+			"discovery",
+			"command-line",
+			"python"
+		],
+		"languages": [
+			"python",
+			"makefile"
+		]
+	},
+	"content": "readme.rst databrewer missing datasets manager.free software: mit licensedocumentation: https://databrewer.readthedocs.org.databrewer let search discover datasets. inspired homebrew, creates index known datasets you download a singlecommand. will provide api allow do same , for example, ipython notebook you longer to manually download datasets.quickstartinstall databrewer:pip install databrewerupdate recipes index:databrewer updatesearch some keywords:databrewer search nyc taxiexample output:andresmh-nyc-taxi-trips - nyc taxi trips. data obtained through foia requestnyc-tlc-taxi - dataset includes trip records all trips completed yellow green taxis nyc 2014 select months 2015.let's check nyc-tlc-taxi dataset:databrewer info nyc-tlc-taxi can either download entire dataset ( is huge!):databrewer download nyc-tlc-taxi just few files the dataset, select subset:databrewer download \"nyc-tlc-taxi[green][2014-*]\"notenote * is standard glob operator [green] acts selector. selectors depends how recipe defined. using selectors must enclose name quotes most shells.finally need know where files are located further processing:databrewer download \"nyc-tlc-taxi[green][2014-*]\"example output:/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-01.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-02.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-03.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-04.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-05.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-06.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-07.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-08.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-09.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-10.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-11.csv/users/rolando/.databrewer/datasets/nyc-tlc-taxi/green_tripdata_2014-12.csvdatasets aim is index known not--known datasets. is plans standarize dataset format we to keep as published theauthors.recipesdatasets are defined recipes contains information the dataset where find .these recipes are community maintained hosted the databrewer-recipesrepository.roadmapinclude api. now only provides cli-interface in nearfuture will include api you search, download load datasetsdirectly your python code.contributing can help the following means:spread word!request missing featuresreport usability issues bugsrequest missing datasets contributing.rst more information."
+}

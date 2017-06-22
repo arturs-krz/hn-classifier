@@ -1,0 +1,21 @@
+{
+	"_id": "14112991",
+	"site": "https://github.com/ketanhwr/react-chat",
+	"title": " A Socket.io chat application using React for beginners",
+	"author": "ketanhwr",
+	"date": "2017-06-13T13:35:26.770Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"nodejs",
+			"react",
+			"socket-io"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md react chat simple chat application written node.js using socket.io react.setup yarn faster installation.npm install install dependencies.npm start start application.screenshot"
+}

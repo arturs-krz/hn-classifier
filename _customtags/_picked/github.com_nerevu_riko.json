@@ -1,0 +1,21 @@
+{
+	"_id": "12136011",
+	"site": "https://github.com/nerevu/riko",
+	"title": " Riko – A Python stream processing engine modeled after Yahoo! Pipes",
+	"author": "reubano",
+	"date": "2017-06-19T10:29:09.116Z",
+	"tags": {
+		"categories": [
+			"stream-processing",
+			"etl",
+			"async-programming",
+			"parallelism",
+			"rss"
+		],
+		"languages": [
+			"python",
+			"other"
+		]
+	},
+	"content": ""
+}

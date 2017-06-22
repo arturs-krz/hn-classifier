@@ -1,0 +1,14 @@
+{
+	"_id": "12848153",
+	"site": "https://github.com/esell/dockopotamus",
+	"title": " Dockopotamus, a naive honeypot that uses docker",
+	"author": "johnnycarcin",
+	"date": "2017-06-19T10:48:11.489Z",
+	"tags": {
+		"categories": ["devops"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

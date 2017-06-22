@@ -1,0 +1,20 @@
+{
+	"_id": "6203894",
+	"site": "https://github.com/jm3/dotfiles",
+	"title": " a slightly smart dotfiles installer",
+	"author": "jm3",
+	"date": "2017-06-19T10:58:59.229Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"vim script",
+			"shell",
+			"ruby",
+			"javascript",
+			"emacs lisp",
+			"applescript",
+			"python"
+		]
+	},
+	"content": ""
+}

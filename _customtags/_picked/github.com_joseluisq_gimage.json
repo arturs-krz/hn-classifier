@@ -1,0 +1,25 @@
+{
+	"_id": "14210104",
+	"site": "https://github.com/joseluisq/gimage",
+	"title": " GImage, a PHP library for easy image handling",
+	"author": "joseluisq",
+	"date": "2017-06-13T13:33:04.422Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"gd",
+			"image",
+			"crop",
+			"resize",
+			"jpg",
+			"png",
+			"save",
+			"scale"
+		],
+		"languages": [
+			"php",
+			"makefile"
+		]
+	},
+	"content": "readme.md gimage php library easy image handling.presentation card built gimage - view sample codefeaturesgimage is simple small library based php image processing gd processing images without stress.load image local path url.create shapes such rectangles ellipses opacity.resize scale images proportionally.crop images proportionally.rotate images, shapes texts.embed text custom ttf fonts.compose pool images canvas.swap image formats such jpeg, png gif.save images local output the browser.save several copies the same image.requirementsgimage requires php 7.x latest gd extension.installcomposer require joseluisq/gimageusageimageworking an external jpg image output on browser png format:<?php gimage\\image;$avatar = image();$avatar// loading jpeg image (200x200) an url ( local path too)->load('http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200.jpg');// scaling 50% (100x100)->scale(50)// set 50% opacity->setopacity(0.5)// changing format png->topng()// preserving image before saving outputting->preserve()// saving local path->save('octocat.png')// preparing destroy resource outputting->preserve(false)// outputting the browser destroy resource.->output();figurecreating green ellipse:<?php gimage\\figure;// setting ellipse sizes$ellipse = figure(500, 300);$ellipse// set ellipse type->isellipse()// setting green rgb color->setbackgroundcolor(170, 188, 147)// creating figure->create()// outputting image (png figure default) the browser.->output();textcreating rectangle text embedded:<?php gimage\\text; gimage\\figure; gimage\\canvas;$figure = figure(400, 250);$figure ->isrectangle() ->setbackgroundcolor(47, 42, 39) ->create();$text = text(' awesome text!');$text ->setwidth(400) ->setheight(250) ->setlineheight(1.2) ->setalign('center') ->setvalign('center') ->setsize(22) ->setcolor(255, 255, 255) ->setfontface('./fonts/lato-bol.ttf');$canvas = canvas($figure);$canvas ->append($text) ->topng() ->draw() ->save('./text.png');creating simple presentation cardpresentation card example using image, canvas, figure text.<?php gimage\\image; gimage\\text; gimage\\figure; gimage\\canvas;$avatar_image = image();$avatar_image->load('http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=100.jpg')->settop(60)->setleft(70);$about_text = text(\" awesome presentation card generated gimage\");$about_text->setsize(16)->setwidth(300)->setleft(210)->settop(75)->setcolor(204, 164, 116)->setfontface('fonts/lato-light.ttf');$twitter_text = text('@username');$twitter_text->setsize(11)->setwidth(70)->setleft(450)->settop(210)->setcolor(130, 127, 125)->setfontface('fonts/lato-regular.ttf');$canvas_figure = figure(550, 250);$canvas_figure->setbackgroundcolor(47, 42, 39)->create();$avatar_box = figure($avatar_image->getwidth() + 16, $avatar_image->getheight() + 17);$avatar_box->setbackgroundcolor(63, 56, 52)->setleft($avatar_image->getleft() - 7)->settop($avatar_image->gettop() - 8)->create();$avatar_box2 = figure($avatar_image->getwidth() + 3, $avatar_image->getheight() + 19);$avatar_box2->setbackgroundcolor(79, 72, 67)->setleft($avatar_image->getleft() + 7)->settop($avatar_image->gettop() - 9)->create();$avatar_box3 = figure(120, 240);$avatar_box3->setbackgroundcolor(63, 56, 52)->create();$line_vertical = figure(600, 10);$line_vertical->setbackgroundcolor(119, 99, 77)->settop(240)->create();$line_horizontal = figure(1, 240);$line_horizontal->setbackgroundcolor(79, 72, 67)->setleft(120)->create();$canvas = canvas($canvas_figure);$canvas->append([ $line_horizontal, $avatar_box2, $avatar_box3, $avatar_box, $avatar_image, $about_text, $twitter_text, $line_vertical])->topng()->draw()->save('./card.png'); more examples check the ./examples dir.changelogcheck the changelog.md file.documentationview documentation apicontribution you like contribute pull requests issues be welcome! feature requests are welcome. please before sending feature requests sure provide much detail context possible.licensemit license© 2017 josé luis quintana"
+}

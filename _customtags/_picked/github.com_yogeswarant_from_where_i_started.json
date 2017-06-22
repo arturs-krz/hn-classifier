@@ -1,0 +1,14 @@
+{
+	"_id": "14407809",
+	"site": "https://github.com/yogeswarant/from_where_i_started",
+	"title": " Capturing the resources which helped in getting started with a subject",
+	"author": "yogeswarant",
+	"date": "2017-06-13T13:06:47.247Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "readme.md where startedreferences resources i used get started a particular subjectpythonlecture videos https://developers.google.com/edu/python/yield keyword pythonhttp://stackoverflow.com/questions/231767/-python-yield-keyword-explained/231855#231855super pythonhttps://www.youtube.com/watch?v=eioglterpeo@staticmethod vs @classmethod pythonhttps://stackoverflow.com/questions/136097/-is--difference-between-staticmethod--classmethod--pythonmean stackhttps://www.coursera.org/learn/server-side-development/home/welcomevue.jshttps://www.youtube.com/playlist?list=plwakr305cro_1yaao-8aziqnbqjeyng4ohttps://www.youtube.com/playlist?list=pl55riy5tl51p-yu-uw90qqh419bm4iz07webpackhttps://www.youtube.com/playlist?list=pl55riy5tl51rccnrorzixuoszhahhy6osgithttps://www.pluralsight.com/courses/-git-workshttps://www.pluralsight.com/courses/mastering-git"
+}

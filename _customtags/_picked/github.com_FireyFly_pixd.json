@@ -1,0 +1,18 @@
+{
+	"_id": "14429138",
+	"site": "https://github.com/FireyFly/pixd",
+	"title": "FireyFly/pixd: Colourful visualization tool for binary files",
+	"author": "mpweiher",
+	"date": "2017-06-13T13:55:35.141Z",
+	"tags": {
+		"categories": [
+			"visual", "system"
+		],
+		"languages": [
+			"c",
+			"roff",
+			"makefile"
+		]
+	},
+	"content": "readme.md pixd is tool visualizing binary data using colour palette. is a lot ways akin a hexdump tool, except using coloured squares represent each octet.pixd uses 24-bit color sgr escape sequences. a list terminalemulators support these, xvilka's list supporting terminalemulators.screenshotlicensemit license. enjoy! alsohexd:more conventional hexdump tool colourful output, also pixd'scode is based ."
+}

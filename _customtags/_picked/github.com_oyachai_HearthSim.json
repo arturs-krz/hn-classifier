@@ -1,0 +1,16 @@
+{
+	"_id": "8020102",
+	"site": "https://github.com/oyachai/HearthSim",
+	"title": " HearthSim, an AI and game simulator for Hearthstone Heroes of Warcraft",
+	"author": "oyachai",
+	"date": "2017-06-19T10:44:49.081Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"java",
+			"groovy",
+			"python"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "10138662",
+	"site": "https://github.com/doches/progressbar",
+	"title": " Progressbar - A C library for displaying command-line progress bars",
+	"author": "Doches",
+	"date": "2017-06-19T09:58:09.186Z",
+	"tags": {
+		"categories": [
+			"library", "system"
+		],
+		"languages": [
+			"c",
+			"objective-c",
+			"makefile",
+			"cmake"
+		]
+	},
+	"content": ""
+}

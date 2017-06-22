@@ -1,0 +1,22 @@
+{
+	"_id": "13605295",
+	"site": "https://github.com/seajosh/crapsbot",
+	"title": " Crapsbot – angular2 craps game",
+	"author": "seajosh",
+	"date": "2017-06-19T10:47:16.827Z",
+	"tags": {
+		"categories": [
+			"angular2",
+			"typescript",
+			"css3-animations",
+			"html5-game"
+		],
+		"languages": [
+			"typescript",
+			"css",
+			"javascript",
+			"html"
+		]
+	},
+	"content": ""
+}

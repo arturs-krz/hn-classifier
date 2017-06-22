@@ -1,0 +1,26 @@
+{
+	"_id": "14444761",
+	"site": "https://github.com/yesiamrocks/cssanimation.io",
+	"title": "Cssanimation.io",
+	"author": "b0n40",
+	"date": "2017-06-13T13:55:20.938Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"css-animations",
+			"css",
+			"animation",
+			"web-animation",
+			"transition",
+			"css-hover-animation",
+			"text-animation",
+			"greensock",
+			"css3-animations"
+		],
+		"languages": [
+			"css",
+			"javascript"
+		]
+	},
+	"content": "readme.md getting started cssanimation.io modern web concept, cssanimation.io is best controlling animation library css greensock, moving forward this library, need have basic idea html css3. believe have . if are pretty confused, refreshing idea here go along more easily. also offer to greensock animation, fly here get guideline. library is too easy install implement. anything can done our relevant animation class name. download lets started this library. get started, the outset download complete library theninclude cssanimation.css cssanimation.min.css stylesheet the head.<!doctype html><html lang=\"en\"><head> <meta charset=\"utf-8\"> <title>document</title> <link href=\"cssanimation.min.css\" rel=\"stylesheet\"></head> <body> </body></html> add class cssanimation class animation name fadein fade animation the element you to animate. list animation class name check the home page<!doctype html><html lang=\"en\"><head> <meta charset=\"utf-8\"> <title>document</title> <link rel=\"stylesheet\" href=\"cssanimation.min.css\"></head> <body> <h1 class=\"cssanimation fadein\"> example </h1> </body></html> if want letter animation, are versions here. is sequential the is random animation. add file letteranimation.js before body tag. add letter animation class lefadein letter fade animation must add sequential class to an animation sequence random class animate randomly.<!doctype html><html lang=\"en\"><head> <meta charset=\"utf-8\"> <title>document</title> <link rel=\"stylesheet\" href=\"cssanimation.min.css\"></head> <body> <h1 class=\"cssanimation lefadein sequence\"> example </h1> <h1 class=\"cssanimation lefadein random\"> example </h1> <script type=\"text/javascript\" src=\"letteranimation.js\"></body></html> may want include class infinite an infinite loop.<!doctype html><html lang=\"en\"><head> <meta charset=\"utf-8\"> <title>document</title> <link rel=\"stylesheet\" href=\"cssanimation.min.css\"></head> <body> <h1 class=\"cssanimation fadein infinite\"> example </h1> <script type=\"text/javascript\" src=\"letteranimation.js\"></body></html>extremely light weightunlike the complicated vendors, cssanimation.css is 84kb 300 animations, 165kb the minified version all prefix only 10kb compressed. the letteranimation.js 3kb, 1kb the minified version only 0.6kb compressed.hard believe !!! we , believe !!!having trouble? cssanimation.io isn't doing you expect to please post mail hello@cssanimation.io create issuelicensecssanimation.io is licensed under mit licenses"
+}

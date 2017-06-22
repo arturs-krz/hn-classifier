@@ -1,0 +1,15 @@
+{
+	"_id": "14111004",
+	"site": "https://github.com/siscia/hexstickers/",
+	"title": " Hexagonal stickers design",
+	"author": "siscia",
+	"date": "2017-06-13T13:35:26.821Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"stickers"
+		],
+		"languages": []
+	},
+	"content": "readme.md hexstickers.com repository host the artworks are sales the website hexstickers.com. material this pages is distributed under creative commons attribution-noncommercial-sharealike 4.0 international. i to achieve this license is give everybody possibility print stickers themselves.however cannot sell , if want buy you are welcome do in website hexstickers.com. the stickers are total 20 stickers 20 different know technologies, can browser repository see all our website hexstickers.com stickers are hexagonal that be tiled any surface they look awesome well curate. followed standard proposed terin stock his repo: stickerconstructorspec.following specification means you use stickers next the of vendors.repository structureunder folder artworks will find and 20 technologies, inside each folder are files.1. simple png 2. svg png is simple image can showed the web, however is difficult modify to with. svg is simpler modify is actually ready be printed, is blue dashed border line is where sticker should cut. you actually to print sticker will need line. want more you like different technologies the same style are main .1. design sticker yourself license in business friendly so we actually sell . 2. ask it opening issues. please consider we have full job, we not guarantee we the actual to on .however you bribe (with order our website) you ask another technology we don't yet, guarantee we design and include in package. website says wallofsticker not hexsticker know, just bought domain i am moving whole website.why didn't pair with hexb. ?i tried. open issues their repo i send email."
+}

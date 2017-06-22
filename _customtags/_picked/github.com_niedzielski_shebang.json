@@ -1,0 +1,22 @@
+{
+	"_id": "12386995",
+	"site": "https://github.com/niedzielski/shebang",
+	"title": " #! hacks",
+	"author": "niedzielski",
+	"date": "2017-06-19T10:33:35.319Z",
+	"tags": {
+		"categories": [
+			"env",
+			"shebang",
+			"shell",
+			"executable"
+		],
+		"languages": [
+			"shell",
+			"python",
+			"terra",
+			"perl"
+		]
+	},
+	"content": ""
+}

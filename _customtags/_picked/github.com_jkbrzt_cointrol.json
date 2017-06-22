@@ -1,0 +1,25 @@
+{
+	"_id": "9873735",
+	"site": "https://github.com/jkbrzt/cointrol",
+	"title": " Cointrol – Bitcoin trading bot written in Python",
+	"author": "jkbr",
+	"date": "2017-06-19T10:51:40.806Z",
+	"tags": {
+		"categories": [
+			"bitcoin",
+			"bot",
+			"bitstamp",
+			"trade",
+			"transaction",
+			"automation",
+			"python"
+		],
+		"languages": [
+			"python",
+			"coffeescript",
+			"html",
+			"css"
+		]
+	},
+	"content": ""
+}

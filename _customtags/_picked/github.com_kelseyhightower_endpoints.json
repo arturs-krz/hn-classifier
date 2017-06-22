@@ -1,0 +1,14 @@
+{
+	"_id": "12886301",
+	"site": "https://github.com/kelseyhightower/endpoints",
+	"title": " Endpoints - client-side load balancer library for Kubernetes",
+	"author": "kelseyhightower",
+	"date": "2017-06-19T10:13:55.147Z",
+	"tags": {
+		"categories": [],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

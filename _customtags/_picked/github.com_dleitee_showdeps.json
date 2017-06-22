@@ -1,0 +1,16 @@
+{
+	"_id": "13649158",
+	"site": "https://github.com/dleitee/showdeps",
+	"title": " A little library to list all dependencies from code",
+	"author": "dleitee",
+	"date": "2017-06-19T10:03:31.346Z",
+	"tags": {
+		"categories": [
+			"library"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": ""
+}

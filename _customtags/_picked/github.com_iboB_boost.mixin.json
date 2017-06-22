@@ -1,0 +1,16 @@
+{
+	"_id": "11496425",
+	"site": "https://github.com/iboB/boost.mixin",
+	"title": " Boost.Mixin – a runtime type composition/mutation library for C++",
+	"author": "ibob",
+	"date": "2017-06-19T10:48:50.021Z",
+	"tags": {
+		"categories": ["library"],
+		"languages": [
+			"c++",
+			"ruby",
+			"other"
+		]
+	},
+	"content": ""
+}

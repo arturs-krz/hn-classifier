@@ -1,0 +1,26 @@
+{
+	"_id": "12885585",
+	"site": "https://github.com/mifi/lossless-cut",
+	"title": " LosslessCut – Cross-platform GUI tool for fast, lossless video cutting",
+	"author": "mifino",
+	"date": "2017-06-19T10:38:46.165Z",
+	"tags": {
+		"categories": [
+			"video",
+			"editor",
+			"ffmpeg",
+			"video-files",
+			"cut",
+			"codec",
+			"player",
+			"lossless"
+		],
+		"languages": [
+			"css",
+			"javascript",
+			"shell",
+			"html"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,22 @@
+{
+	"_id": "13529238",
+	"site": "https://github.com/vkazanov/elfuse",
+	"title": " FUSE filesystems in Emacs Lisp",
+	"author": "vkazanov",
+	"date": "2017-06-19T08:44:32.202Z",
+	"tags": {
+		"categories": [
+			"emacs",
+			"libfuse",
+			"fuse",
+			"c",
+			"elisp"
+		],
+		"languages": [
+			"c",
+			"emacs lisp",
+			"makefile"
+		]
+	},
+	"content": ""
+}

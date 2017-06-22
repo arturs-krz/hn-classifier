@@ -1,0 +1,15 @@
+{
+	"_id": "10562873",
+	"site": "https://github.com/gosuri/uitable",
+	"title": " Go library to improve tabular data readability in terminal apps",
+	"author": "gosuri",
+	"date": "2017-06-19T11:10:32.060Z",
+	"tags": {
+		"categories": ["library", "system"],
+		"languages": [
+			"go",
+			"makefile"
+		]
+	},
+	"content": ""
+}

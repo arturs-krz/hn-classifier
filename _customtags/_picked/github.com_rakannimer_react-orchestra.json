@@ -1,0 +1,24 @@
+{
+	"_id": "13287010",
+	"site": "https://github.com/rakannimer/react-orchestra",
+	"title": " React Orchestra – A declarative api for creating musical instruments",
+	"author": "kpmrn",
+	"date": "2017-06-19T09:46:43.969Z",
+	"tags": {
+		"categories": [
+			"react",
+			"react-native",
+			"music",
+			"music-composition",
+			"orchestra",
+			"instrument",
+			"javascript"
+		],
+		"languages": [
+			"javascript",
+			"html",
+			"other"
+		]
+	},
+	"content": ""
+}

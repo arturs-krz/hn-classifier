@@ -1,0 +1,14 @@
+{
+	"_id": "14366932",
+	"site": "https://github.com/lanjingling0510/bundle-compare-analyzer/blob/master/README_EN.md",
+	"title": "A simple analysis of the output file size of the visualization tool",
+	"author": "lanjingling0510",
+	"date": "2017-06-13T13:57:06.715Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": []
+	},
+	"content": "bundle-compare-analyzer ............   bundle-compare-analyzer is simple analysis the various versions the code output file size the visualization tool. webpack, gulp, browserify other tools are always packaged source code multiple bundles js files, often need optimize package file size.bundle-compare-analyzer generate version each the source code is packaged. easy compare, analyze size each version the bundles js files.featureleave each webpack, gulp, browserify other tools generate bundle file information.intuitive analysis webpack, gulp, browserify other tools generate size the bundle file.installationnpm install -g bundle-compare-analyzersupport node4.0 aboveusagebundle-compare-analyzer comes three commands right :add <bundlepath/bundlefile>: the package is finished, generate version based the specified package directory a defined file.compare: compare each version.remove: remove version.generate versionazer add ./build // bundle path remove version. azer removeanalysis versionazer comparenote is recommended use [name]. [chunkhash] .js the output file name. to contributeanyone everyone is welcome contribute this project. best tostart is checking open issues,submit new issues feature request,participate discussions, upvote downvote issues like dislike."
+}

@@ -1,0 +1,16 @@
+{
+	"_id": "14135781",
+	"site": "https://github.com/robertfoss/audio_shop/",
+	"title": " Audioshop – Audio image editing",
+	"author": "robert_foss",
+	"date": "2017-06-13T13:35:12.252Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"shell"
+		]
+	},
+	"content": "readme.md audio shop friendly neighborhood script mangling images video using audio editing tools. you'd to read more how actually works, a here.usage$ ./mangle.sh .jpg .png [effect [effect]] script lets interpret image video data sound, apply audio effects it before converting back image representationoptions:--bits=x -- set audio sample size bits, 8/16/24--blend=x -- blend distorted video original video, 0.5--color-format=x -- color space/format, rgb24/yuv444p/yuyv422. full list: $ ffmpeg -pix_fmts--res=wxh -- set output resolution, 1920x1080effects:bass 5echo 0.8 0.88 60 0.4flanger 0 2 0 71 0.5 25 linhilbert -n 5001loudness 6norm 90overdrive 17phaser 0.8 0.74 3 0.7 0.5phaser 0.8 0.74 3 0.4 0.5pitch 2riaasinc 20-4kvol 10example:./mangle .jpg .jpg vol 11./mangle .mp4 .mp4 echo 0.8 0.88 60 0.4./mangle .mp4 .mp4 pitch 5 --res=1280x720./mangle .mp4 .mp4 pitch 5 --blend=0.75 --color-format=yuv444p --bits=8 full list effects be found here: http://sox.sourceforge.net/sox.html#effectsdependenciesffmpegsoxvideosoverdrive hilbertphaserimagesbassechooverdrivephasersinc"
+}

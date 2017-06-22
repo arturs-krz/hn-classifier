@@ -1,0 +1,16 @@
+{
+	"_id": "14448715",
+	"site": "https://github.com/pito-svk/node-train",
+	"title": "Clojure's “thread-last” macro in Node.js",
+	"author": "peterparada",
+	"date": "2017-06-13T13:55:20.087Z",
+	"tags": {
+		"categories": [
+			"opensource"
+		],
+		"languages": [
+			"javascript"
+		]
+	},
+	"content": "readme.md node-traininspired clojure's \"thread-last\" macro.installationnpm:$ npm node-trainyarn:$ yarn add node-train caseconst train = require('node-train')const _ = require('lodash')const calls = await train(callsresponse.items, addtotalspendingpercall, addshopnamepercall, addcustomerpercall, addbranchidpercall, addproductdescriptionpercall, _.last)return calls// same const calls = callsresponse.itemsconst callswithtotalspending = await addtotalspendingpercall(calls)const callswithtotalspendingandshopname = await addshopnamepercall(callswithtotalspending)const callswithtotalspendingandshopnameandcustomer = await addcustomerpercall(callswithtotalspendingandshopname)const callswithtotalspendingandshopnameandcustomerandbranchid = await addbranchidpercall(callswithtotalspendingandshopnameandcustomer)const callswithtotalspendingandshopnameandcustomerandbranchidandproductdescription = await addproductdescriptionpercall(callswithtotalspendingandshopnameandcustomerandbranchid)const lastcallwithtotalspendingandshopnameandcustomerandbranchidandproductdescription = _.last(callswithtotalspendingandshopnameandcustomerandbranchidandproductdescription)return lastcallwithtotalspendingandshopnameandcustomerandbranchidandproductdescription"
+}

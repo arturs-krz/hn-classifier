@@ -1,0 +1,19 @@
+{
+	"_id": "14409019",
+	"site": "https://github.com/porjo/freshtube",
+	"title": " FreshTube – show latest videos from YouTube channels",
+	"author": "porjo",
+	"date": "2017-06-13T13:06:44.996Z",
+	"tags": {
+		"categories": [
+			"opensource",
+			"youtube"
+		],
+		"languages": [
+			"javascript",
+			"css",
+			"html"
+		]
+	},
+	"content": "readme.md freshtube tool display latest videos your favourite youtube channels. didn't the 'subscriptions' page much youtube thought 'd build own. also don't to logged youtube the - this tool allows not be!runs entirely the browser, storing data local storage. it here: https://porjo.github.io/freshtube/"
+}
