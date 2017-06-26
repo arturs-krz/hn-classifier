@@ -137,11 +137,6 @@ cross_entropy = -tf.reduce_sum(target * tf.log(tf.clip_by_value(prediction, 1e-1
 optimizer = tf.train.AdamOptimizer(learning_rate=0.005)
 train_step = optimizer.minimize(cross_entropy)
 
-accuracy = tf.metrics.accuracy(
-    target,
-    prediction
-)
-
 init = tf.global_variables_initializer()
 sess = tf.Session()
 
@@ -156,17 +151,16 @@ epochs = 700
 for e in range(epochs):
     ptr = 0
     entropy_val = 0
-    accuracy_val = 0
+
     for i in range(batch_count):
         inp = input_data[ptr:ptr+batch_size]
         out = labels[ptr:ptr+batch_size]
         ptr += batch_size
         train_step.run(session=sess,feed_dict={data: inp, target: out})
 
-        accuracy_val += sess.run([accuracy], feed_dict={data: inp, target: out})[0]
         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
     
-    print("Epoch {}, avg entropy: {}, avg accuracy: {}".format(e, entropy_val/(batch_count * batch_size), accuracy_val/batch_count))
+    print("Epoch {}, avg entropy: {}".format(e, entropy_val/(batch_count * batch_size)))
 
 saver.save(sess, "./model.ckpt")
 
