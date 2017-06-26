@@ -1,0 +1,14 @@
+{
+	"_id": "11444956",
+	"site": "https://github.com/cybozu-go/goma",
+	"title": " Goma – monitoring agent designed with DevOps in mind",
+	"author": "ymmt2005",
+	"date": "2017-06-19T09:48:45.709Z",
+	"tags": {
+		"categories": ["monitoring", "devops"],
+		"languages": [
+			"go"
+		]
+	},
+	"content": ""
+}

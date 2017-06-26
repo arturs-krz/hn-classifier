@@ -1,0 +1,14 @@
+{
+	"_id": "8679412",
+	"site": "https://github.com/ifree/emacs-code-playground",
+	"title": " Emacs code playground",
+	"author": "ifree",
+	"date": "2017-06-19T10:54:17.939Z",
+	"tags": {
+		"categories": ["productivity"],
+		"languages": [
+			"emacs lisp"
+		]
+	},
+	"content": ""
+}

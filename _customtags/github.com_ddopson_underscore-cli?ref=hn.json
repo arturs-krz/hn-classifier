@@ -1,0 +1,15 @@
+{
+	"_id": "4491058",
+	"site": "https://github.com/ddopson/underscore-cli?ref=hn",
+	"title": " A command-line utility-belt for hacking JSON and Javascript",
+	"author": "RealCasually",
+	"date": "2017-06-19T09:31:56.656Z",
+	"tags": {
+		"categories": ["system", "security"],
+		"languages": [
+			"javascript",
+			"makefile"
+		]
+	},
+	"content": ""
+}

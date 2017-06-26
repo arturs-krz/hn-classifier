@@ -1,0 +1,14 @@
+{
+	"_id": "7719980",
+	"site": "https://github.com/goldmar/bitcoin-akka/",
+	"title": " bitcoin-akka – a btcwallet client, written in Scala and built on akka",
+	"author": "goldmar",
+	"date": "2017-06-19T10:49:18.097Z",
+	"tags": {
+		"categories": ["blockchain"],
+		"languages": [
+			"scala"
+		]
+	},
+	"content": ""
+}

@@ -1,130 +1,146 @@
 [
     {
         "tag": "development",
-        "count": 458
+        "count": 487
     },
     {
         "tag": "tools",
-        "count": 329
-    },
-    {
-        "tag": "system",
-        "count": 144
-    },
-    {
-        "tag": "web",
-        "count": 131
-    },
-    {
-        "tag": "media",
-        "count": 103
+        "count": 343
     },
     {
         "tag": "library",
-        "count": 98
+        "count": 323
+    },
+    {
+        "tag": "system",
+        "count": 255
+    },
+    {
+        "tag": "web",
+        "count": 205
+    },
+    {
+        "tag": "media",
+        "count": 170
     },
     {
         "tag": "productivity",
-        "count": 84
-    },
-    {
-        "tag": "data-science",
-        "count": 60
-    },
-    {
-        "tag": "devops",
-        "count": 56
+        "count": 161
     },
     {
         "tag": "visual",
-        "count": 54
+        "count": 132
     },
     {
-        "tag": "example",
-        "count": 50
+        "tag": "data-science",
+        "count": 123
     },
     {
         "tag": "design",
-        "count": 47
-    },
-    {
-        "tag": "security",
-        "count": 46
-    },
-    {
-        "tag": "database",
-        "count": 45
-    },
-    {
-        "tag": "mobile",
-        "count": 38
-    },
-    {
-        "tag": "monitoring",
-        "count": 37
+        "count": 119
     },
     {
         "tag": "framework",
-        "count": 25
+        "count": 105
     },
     {
-        "tag": "api",
-        "count": 22
+        "tag": "example",
+        "count": 105
     },
     {
-        "tag": "list",
-        "count": 21
+        "tag": "devops",
+        "count": 92
     },
     {
-        "tag": "social",
-        "count": 21
+        "tag": "security",
+        "count": 85
     },
     {
         "tag": "games",
-        "count": 20
+        "count": 75
     },
     {
-        "tag": "browser",
-        "count": 18
+        "tag": "mobile",
+        "count": 68
     },
     {
-        "tag": "cloud",
-        "count": 16
+        "tag": "monitoring",
+        "count": 64
     },
     {
         "tag": "chat",
-        "count": 11
+        "count": 64
     },
     {
-        "tag": "audio",
-        "count": 8
+        "tag": "database",
+        "count": 61
     },
     {
-        "tag": "apple",
-        "count": 6
+        "tag": "social",
+        "count": 48
     },
     {
         "tag": "bot",
-        "count": 6
+        "count": 45
     },
     {
-        "tag": "plugin",
-        "count": 4
+        "tag": "api",
+        "count": 41
     },
     {
-        "tag": "blockchain",
-        "count": 3
+        "tag": "list",
+        "count": 39
     },
     {
-        "tag": "shell",
-        "count": 2
+        "tag": "apple",
+        "count": 35
     },
     {
-        "tag": "themes",
-        "count": 2
+        "tag": "cloud",
+        "count": 32
     },
     {
         "tag": "entertainment",
+        "count": 32
+    },
+    {
+        "tag": "browser",
+        "count": 29
+    },
+    {
+        "tag": "blockchain",
+        "count": 26
+    },
+    {
+        "tag": "music",
+        "count": 22
+    },
+    {
+        "tag": "audio",
+        "count": 14
+    },
+    {
+        "tag": "plugin",
+        "count": 8
+    },
+    {
+        "tag": "theme",
+        "count": 5
+    },
+    {
+        "tag": "video",
+        "count": 4
+    },
+    {
+        "tag": "themes",
+        "count": 3
+    },
+    {
+        "tag": "premade",
+        "count": 2
+    },
+    {
+        "tag": "game",
         "count": 2
     },
     {
@@ -132,36 +148,8 @@
         "count": 2
     },
     {
-        "tag": "premade",
+        "tag": "shell",
         "count": 2
-    },
-    {
-        "tag": "theme",
-        "count": 2
-    },
-    {
-        "tag": "plugins",
-        "count": 1
-    },
-    {
-        "tag": "tensorflow",
-        "count": 1
-    },
-    {
-        "tag": "music",
-        "count": 1
-    },
-    {
-        "tag": "algorithms",
-        "count": 1
-    },
-    {
-        "tag": "image-processing",
-        "count": 1
-    },
-    {
-        "tag": "opensource",
-        "count": 1
     },
     {
         "tag": "development, library",
@@ -172,11 +160,39 @@
         "count": 1
     },
     {
+        "tag": "plugins",
+        "count": 1
+    },
+    {
+        "tag": "opensource",
+        "count": 1
+    },
+    {
+        "tag": "image-processing",
+        "count": 1
+    },
+    {
+        "tag": "tensorflow",
+        "count": 1
+    },
+    {
+        "tag": "algorithms",
+        "count": 1
+    },
+    {
         "tag": "tool",
         "count": 1
     },
     {
         "tag": "starter",
+        "count": 1
+    },
+    {
+        "tag": "browsr",
+        "count": 1
+    },
+    {
+        "tag": "idesign",
         "count": 1
     }
 ]

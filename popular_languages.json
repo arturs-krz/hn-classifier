@@ -1,106 +1,166 @@
 [
     {
         "tag": "javascript",
-        "count": 325
-    },
-    {
-        "tag": "html",
-        "count": 178
+        "count": 633
     },
     {
         "tag": "python",
-        "count": 162
+        "count": 367
+    },
+    {
+        "tag": "html",
+        "count": 350
     },
     {
         "tag": "css",
-        "count": 151
+        "count": 305
     },
     {
         "tag": "shell",
-        "count": 133
-    },
-    {
-        "tag": "go",
-        "count": 91
+        "count": 269
     },
     {
         "tag": "makefile",
-        "count": 74
+        "count": 160
+    },
+    {
+        "tag": "go",
+        "count": 158
     },
     {
         "tag": "ruby",
-        "count": 72
+        "count": 134
     },
     {
         "tag": "other",
-        "count": 59
+        "count": 130
     },
     {
         "tag": "c",
-        "count": 48
+        "count": 112
     },
     {
         "tag": "c++",
-        "count": 40
+        "count": 89
     },
     {
         "tag": "java",
-        "count": 38
+        "count": 83
     },
     {
         "tag": "objective-c",
-        "count": 33
+        "count": 67
     },
     {
         "tag": "php",
-        "count": 28
-    },
-    {
-        "tag": "typescript",
-        "count": 26
+        "count": 49
     },
     {
         "tag": "swift",
-        "count": 20
+        "count": 44
     },
     {
         "tag": "coffeescript",
-        "count": 19
+        "count": 38
     },
     {
-        "tag": "c#",
-        "count": 13
+        "tag": "typescript",
+        "count": 36
     },
     {
         "tag": "cmake",
-        "count": 10
+        "count": 25
     },
     {
-        "tag": "rust",
-        "count": 9
+        "tag": "c#",
+        "count": 25
+    },
+    {
+        "tag": "emacs lisp",
+        "count": 20
     },
     {
         "tag": "jupyter notebook",
-        "count": 8
+        "count": 19
     },
     {
-        "tag": "lua",
-        "count": 8
-    },
-    {
-        "tag": "haskell",
-        "count": 8
+        "tag": "rust",
+        "count": 16
     },
     {
         "tag": "scala",
-        "count": 7
+        "count": 16
+    },
+    {
+        "tag": "haskell",
+        "count": 15
+    },
+    {
+        "tag": "clojure",
+        "count": 14
+    },
+    {
+        "tag": "lua",
+        "count": 13
     },
     {
         "tag": "assembly",
-        "count": 6
+        "count": 11
     },
     {
         "tag": "vim script",
+        "count": 11
+    },
+    {
+        "tag": "batchfile",
+        "count": 10
+    },
+    {
+        "tag": "perl",
+        "count": 10
+    },
+    {
+        "tag": "nginx",
+        "count": 8
+    },
+    {
+        "tag": "protocol buffer",
+        "count": 8
+    },
+    {
+        "tag": "elixir",
+        "count": 8
+    },
+    {
+        "tag": "vue",
+        "count": 7
+    },
+    {
+        "tag": "kotlin",
+        "count": 7
+    },
+    {
+        "tag": "dart",
+        "count": 6
+    },
+    {
+        "tag": "tex",
+        "count": 6
+    },
+    {
+        "tag": "erlang",
+        "count": 6
+    },
+    {
+        "tag": "objective-c++",
+        "count": 5
+    },
+    {
+        "tag": "common lisp",
+        "count": 5
+    },
+    {
+        "tag": "matlab",
         "count": 5
     },
     {
@@ -108,35 +168,51 @@
         "count": 5
     },
     {
-        "tag": "nginx",
-        "count": 4
-    },
-    {
-        "tag": "elixir",
-        "count": 4
-    },
-    {
-        "tag": "vue",
-        "count": 4
-    },
-    {
-        "tag": "batchfile",
-        "count": 4
-    },
-    {
-        "tag": "tex",
-        "count": 4
-    },
-    {
-        "tag": "protocol buffer",
-        "count": 3
-    },
-    {
         "tag": "ocaml",
+        "count": 4
+    },
+    {
+        "tag": "groovy",
+        "count": 4
+    },
+    {
+        "tag": "powershell",
+        "count": 4
+    },
+    {
+        "tag": "hcl",
+        "count": 4
+    },
+    {
+        "tag": "roff",
+        "count": 4
+    },
+    {
+        "tag": "smarty",
+        "count": 4
+    },
+    {
+        "tag": "xslt",
         "count": 3
     },
     {
-        "tag": "clojure",
+        "tag": "apacheconf",
+        "count": 3
+    },
+    {
+        "tag": "plpgsql",
+        "count": 3
+    },
+    {
+        "tag": "tcl",
+        "count": 3
+    },
+    {
+        "tag": "glsl",
+        "count": 3
+    },
+    {
+        "tag": "gherkin",
         "count": 3
     },
     {
@@ -144,7 +220,15 @@
         "count": 3
     },
     {
-        "tag": "smarty",
+        "tag": "sqlpl",
+        "count": 2
+    },
+    {
+        "tag": "arduino",
+        "count": 2
+    },
+    {
+        "tag": "crystal",
         "count": 2
     },
     {
@@ -152,23 +236,19 @@
         "count": 2
     },
     {
-        "tag": "perl",
+        "tag": "inno setup",
         "count": 2
     },
     {
-        "tag": "hcl",
+        "tag": "gap",
         "count": 2
     },
     {
-        "tag": "groovy",
+        "tag": "qmake",
         "count": 2
     },
     {
-        "tag": "julia",
-        "count": 2
-    },
-    {
-        "tag": "sqlpl",
+        "tag": "r",
         "count": 2
     },
     {
@@ -176,79 +256,27 @@
         "count": 2
     },
     {
-        "tag": "common lisp",
-        "count": 2
-    },
-    {
-        "tag": "dart",
-        "count": 2
-    },
-    {
-        "tag": "erlang",
-        "count": 2
-    },
-    {
-        "tag": "kotlin",
-        "count": 1
-    },
-    {
-        "tag": "gosu",
-        "count": 1
-    },
-    {
-        "tag": "plsql",
-        "count": 1
-    },
-    {
-        "tag": "crystal",
-        "count": 1
-    },
-    {
-        "tag": "web ontology language",
-        "count": 1
-    },
-    {
-        "tag": "emberscript",
-        "count": 1
-    },
-    {
-        "tag": "prolog",
-        "count": 1
-    },
-    {
-        "tag": "visual basic",
-        "count": 1
-    },
-    {
-        "tag": "cobol",
-        "count": 1
-    },
-    {
-        "tag": "matlab",
-        "count": 1
-    },
-    {
-        "tag": "jsoniq",
-        "count": 1
-    },
-    {
         "tag": "livescript",
-        "count": 1
+        "count": 2
     },
     {
-        "tag": "cuda",
-        "count": 1
+        "tag": "metal",
+        "count": 2
     },
     {
-        "tag": "awk",
-        "count": 1
+        "tag": "m",
+        "count": 2
     },
     {
-        "tag": "mako",
-        "count": 1
+        "tag": "julia",
+        "count": 2
     },
     {
-        "tag": "powershell",
+        "tag": "nsis",
+        "count": 2
+    },
+    {
+        "tag": "perl6",
         "count": 1
     },
     {
@@ -256,39 +284,27 @@
         "count": 1
     },
     {
-        "tag": "emacs lisp",
+        "tag": "cuda",
         "count": 1
     },
     {
-        "tag": "objective-c++",
+        "tag": "cobol",
         "count": 1
     },
     {
-        "tag": "gherkin",
+        "tag": "visual basic",
         "count": 1
     },
     {
-        "tag": "glsl",
+        "tag": "prolog",
         "count": 1
     },
     {
-        "tag": "qmake",
+        "tag": "mako",
         "count": 1
     },
     {
-        "tag": "gap",
-        "count": 1
-    },
-    {
-        "tag": "plpgsql",
-        "count": 1
-    },
-    {
-        "tag": "apacheconf",
-        "count": 1
-    },
-    {
-        "tag": "pascal",
+        "tag": "plsql",
         "count": 1
     },
     {
@@ -300,11 +316,67 @@
         "count": 1
     },
     {
-        "tag": "xslt",
+        "tag": "pascal",
         "count": 1
     },
     {
-        "tag": "roff",
+        "tag": "gosu",
+        "count": 1
+    },
+    {
+        "tag": "kicad",
+        "count": 1
+    },
+    {
+        "tag": "d",
+        "count": 1
+    },
+    {
+        "tag": "web ontology language",
+        "count": 1
+    },
+    {
+        "tag": "emberscript",
+        "count": 1
+    },
+    {
+        "tag": "haxe",
+        "count": 1
+    },
+    {
+        "tag": "awk",
+        "count": 1
+    },
+    {
+        "tag": "applescript",
+        "count": 1
+    },
+    {
+        "tag": "fortran",
+        "count": 1
+    },
+    {
+        "tag": "terra",
+        "count": 1
+    },
+    {
+        "tag": "jsoniq",
+        "count": 1
+    },
+    {
+        "tag": "antlr",
+        "count": 1
+    },
+    {
+        "tag": "forth",
+        "count": 1
+    },
+    {
+        "tag": "puppet",
+        "count": 1
+    },
+    {
+        "tag": "mask",
         "count": 1
     }
 ]

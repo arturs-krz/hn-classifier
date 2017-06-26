@@ -1,0 +1,16 @@
+{
+	"_id": "11209599",
+	"site": "https://github.com/estin/pomp-craigslist-example",
+	"title": " Craigslist web crawler example in python3 and docker-compose",
+	"author": "etatarkin",
+	"date": "2017-06-19T09:56:31.995Z",
+	"tags": {
+		"categories": ["example", "productivity"],
+		"languages": [
+			"html",
+			"python",
+			"shell"
+		]
+	},
+	"content": ""
+}

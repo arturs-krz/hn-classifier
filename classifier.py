@@ -110,7 +110,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 800
+num_hidden = 400
 
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
@@ -133,7 +133,7 @@ bias = tf.Variable(tf.constant(0.1, shape=[num_classes]))
 prediction = tf.nn.softmax(tf.matmul(last, weight) + bias)
 cross_entropy = -tf.reduce_sum(target * tf.log(tf.clip_by_value(prediction, 1e-10, 1.0)))
 
-optimizer = tf.train.AdamOptimizer()
+optimizer = tf.train.AdamOptimizer(learning_rate=0.005)
 train_step = optimizer.minimize(cross_entropy)
 
 init = tf.global_variables_initializer()
@@ -144,9 +144,9 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 50
+batch_size = 1000
 batch_count = int(len(input_data) / batch_size)
-epochs = 1000
+epochs = 20
 for e in range(epochs):
     ptr = 0
     entropy_val = 0

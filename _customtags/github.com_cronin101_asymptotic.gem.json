@@ -1,0 +1,14 @@
+{
+	"_id": "6139754",
+	"site": "https://github.com/cronin101/asymptotic.gem",
+	"title": " I hacked together a gem for profiling functions during prototyping.",
+	"author": "cronin101",
+	"date": "2017-06-19T11:07:32.193Z",
+	"tags": {
+		"categories": ["library", "monitoring"],
+		"languages": [
+			"ruby"
+		]
+	},
+	"content": ""
+}

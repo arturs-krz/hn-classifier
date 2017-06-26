@@ -1,0 +1,16 @@
+{
+	"_id": "10054484",
+	"site": "https://github.com/djanowski/hasp",
+	"title": " Hasp – A minimal CSS preprocessor using the M4 macro language",
+	"author": "djanowski",
+	"date": "2017-06-19T11:10:04.893Z",
+	"tags": {
+		"categories": ["web", "design"],
+		"languages": [
+			"shell",
+			"css",
+			"makefile"
+		]
+	},
+	"content": ""
+}

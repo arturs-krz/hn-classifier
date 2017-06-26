@@ -1,0 +1,16 @@
+{
+	"_id": "14436396",
+	"site": "https://github.com/christopherjenness/pyplotter",
+	"title": " A python IDE in emacs for working with plots",
+	"author": "lab_fly",
+	"date": "2017-06-13T13:06:18.417Z",
+	"tags": {
+		"categories": [
+			"productivity", "system"
+		],
+		"languages": [
+			"emacs lisp"
+		]
+	},
+	"content": "readme.md pyplotterpython ide working plots dataoverviewpyplotter is minor mode built top elpy. idea is be able handle plots a natural , similar rstudio rodeo. you see the screenshot above, the left is python file repl. main functionality is the right. plots generated are loaded the thumbnail viewer the bottom right hand corner. can browsed displayed the top right window. other basic functionality is be able inspect variables without printing . currently, pandas dataframes are supported, this is easily extended. shown below, pandas dataframe is being inspected the top right window.installationcopy pyplotter.el your load path.add (require 'pyplotter) your .emacs fileusage any elpy buffer, press m-x pyplotter-mode. will initialize the functionality. like windows ordered different ways, you need customize layout yourself. typical elpy function send code the repl is elpy-shell-send-region--buffer. instead, you to utilize pyplotters thumbnail browser, pyplotter-shell-send-region--buffer. will send plots generated the thumbnail viewer. default, pyplotter-shell-send-region--buffer is bound c-c f. browse current dataframes memory, call pyplotter-browse-dataframes is bound c-c v default.contributingpyplotter has many issues."
+}

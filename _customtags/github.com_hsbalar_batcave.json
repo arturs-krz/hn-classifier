@@ -1,0 +1,19 @@
+{
+	"_id": "13914952",
+	"site": "https://github.com/hsbalar/batcave",
+	"title": " Cool dark themed chat app built with Electron,Angular2,Socket.io,RxJS",
+	"author": "hsbalar",
+	"date": "2017-06-19T10:23:47.315Z",
+	"tags": {
+		"categories": [
+			"chat", "tools"
+		],
+		"languages": [
+			"html",
+			"typescript",
+			"css",
+			"javascript"
+		]
+	},
+	"content": ""
+}

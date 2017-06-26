@@ -1,0 +1,17 @@
+{
+	"_id": "14379169",
+	"site": "https://github.com/developit/preact-cli",
+	"title": "Preact CLI: Your next Preact PWA starts in 30 seconds",
+	"author": "petercooper",
+	"date": "2017-06-13T13:57:07.852Z",
+	"tags": {
+		"categories": [
+			"media", "system"
+		],
+		"languages": [
+			"javascript",
+			"html"
+		]
+	},
+	"content": "readme.md preact-clistart building preact progressive web app seconds features:100/100 lighthouse score, right of box (proof)fully automatic code splitting routestransparently code-split component an async! prefixauto-generated service workers offline caching powered sw-precacheprpl pattern support efficient loadingzero-configuration pre-rendering / server-side rendering hydrationsupport css modules, less & autoprefixermonitor bundle/chunk sizes built- trackingautomatic app mounting, debug helpers & hot module replacement just 4.5kb get productive environment:preactpreact-router1.5kb conditionally-loaded polyfills fetch & promisecommandspreact create -app-name: create new apppreact build: build apppreact watch: start dev serverquickstart# once you're :npm -g preact-cli# create new project:preact create -great-appcd -great-app# start live-reload/hmr dev server:npm start# to production:npm run buildcli options$ preact create --name directory package name the app --dest directory create app within [default: <name>] --type project template start [options: \"default\", \"root\", \"simple\", \"empty\"] [default: \"default\"] --less pre-install less support [boolean] [default: false] --sass pre-install sass/scss support [boolean] [default: false]$ preact build --src entry file (index.js) [default: \"src\"] --dest directory root output [default: \"build\"] --production, -p create minified production build. [default: true] --less, -l build compile less files [default: false] --sass, -s build compile sass files [default: false] --prerender pre-render static app content. [default: true] --clean clear output directory before building. [default: true] --json generate build statistics analysis. [default: false]$ preact watch --src entry file (index.js) [default: \"src\"] --port, -p port start server [default: \"8080\"] --host [boolean] [default: \"0.0.0.0\"] --prerender pre-render static app content initial build [default: false]$ preact serve --dir directory root serve static files . [default: \"build\"] --cwd working directory which spawn server. [default: .] --server server run, \"config\" produce firebase config. [options: \"simplehttp2server\", \"superstatic\", \"config\"] [default:\"simplehttp2server\"] --dest directory filename where firebase.json should written (used --server config) [default: -] --port, -p port start server [default: \"8080\"]deploying# create production build:npm run build# generate configuration firebase hosting format:npm run serve -- --server config# copy static files a server!"
+}

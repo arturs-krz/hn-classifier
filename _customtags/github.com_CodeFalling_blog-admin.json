@@ -1,0 +1,17 @@
+{
+	"_id": "11010400",
+	"site": "https://github.com/CodeFalling/blog-admin",
+	"title": " Write blog in Emacs with hexo/org-page",
+	"author": "codefalling",
+	"date": "2017-06-19T08:42:23.538Z",
+	"tags": {
+		"categories": [
+			"media", "system"
+		],
+		"languages": [
+			"emacs lisp",
+			"shell"
+		]
+	},
+	"content": ""
+}

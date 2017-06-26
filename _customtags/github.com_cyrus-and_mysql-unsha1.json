@@ -1,0 +1,17 @@
+{
+	"_id": "13901054",
+	"site": "https://github.com/cyrus-and/mysql-unsha1",
+	"title": " mysql-unsha1 – MySQL authentication without cleartext password",
+	"author": "cyrusand",
+	"date": "2017-06-19T08:43:51.234Z",
+	"tags": {
+		"categories": [
+			"database", "security"
+		],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

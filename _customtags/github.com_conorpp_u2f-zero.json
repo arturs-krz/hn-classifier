@@ -1,0 +1,17 @@
+{
+	"_id": "11950664",
+	"site": "https://github.com/conorpp/u2f-zero",
+	"title": " A secure, open source U2F token you can make with $4.5 worth of parts",
+	"author": "conorpp",
+	"date": "2017-06-19T11:00:57.229Z",
+	"tags": {
+		"categories": ["security"],
+		"languages": [
+			"c",
+			"kicad",
+			"c++",
+			"other"
+		]
+	},
+	"content": ""
+}

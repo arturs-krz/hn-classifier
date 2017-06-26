@@ -1,0 +1,21 @@
+{
+	"_id": "12992829",
+	"site": "https://github.com/cytopia/awesome-ci",
+	"title": " Awesome-ci Lot's of tools for git, file and static source code analysis",
+	"author": "everythingcli",
+	"date": "2017-06-19T09:40:57.722Z",
+	"tags": {
+		"categories": [
+			"monitoring"
+		],
+		"languages": [
+			"shell",
+			"makefile",
+			"html",
+			"perl",
+			"python",
+			"css"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,19 @@
+{
+	"_id": "14528735",
+	"site": "https://github.com/bullno1/ugc",
+	"title": "Ugc: a single-header garbage collector library",
+	"author": "mabynogy",
+	"date": "2017-06-13T14:09:47.597Z",
+	"tags": {
+		"categories": [
+			"library"
+		],
+		"languages": [
+			"c",
+			"c++",
+			"python",
+			"shell"
+		]
+	},
+	"content": "readme.md gcgc is single-header garbage collector library. is designed be embedded a programming language's runtime.featuresfully incremental using tri-color marking. external dependencies. memory allocation.overhead 2 pointers per object.thoroughly tested: unit test property-based testusagebuildingput ugc.h your project.write one c file:#define ugc_implementation#include \"ugc.h\"integrating your runtime heap allocated objects must include ugc_header_t, usually the member:struct my_heap_obj_s{ugc_header_t header;// fieldstype_info_t type;void* external_ref;// ...};initialize garbage collector :ugc_t gc;ugc_init(&gc, scan_fn, free_fn);// each gc instance has userdata field.gc.userdata = language_runtime;ugc_init requires callback functions: scan_fn free_fn.scan_fn is function will called help gc trace object's reference the root set. should behave follow:static voidscan_gc_obj(ugc_t* gc, ugc_header_t* header){(header == null) // scan root set{// ugc_visit needs be called each pointer the stack global// environmentstruct my_language_runtime_s* runtime = gc->userdata;// scan stack(unsigned int = 0; < runtime->stack_len; ++){if(runtime->stack[]) { ugc_visit(gc, runtime->stack[]); }}// if language is similar lua where global environment is // first-class object, call ugc_visit the object instead its fieldsugc_visit(gc, runtime->global);}else // scan given object{// ugc_visit needs be called each external reference this// object.struct my_heap_obj_s* obj = (struct my_heap_obj_s*)header;(obj->external_ref) { ugc_visit(gc, obj->external_ref); }}} second parameter ugc_visit must be null must point a ugc_header_t.free_fn be called gc has determined a language is garbage. should release object's resources:static voidfree_gc_obj(ugc_t* gc, ugc_header_t* header){struct my_language_runtime_s* runtime = gc->userdata;runtime->free(header);} a object is allocated, needs be registered gc using:ugc_register(gc, new_object);whenever object receives reference another (.e: src.field = dst), gc must informed:ugc_add_ref(gc, src, dst); is known a write barrier is required the incremental gc work correctly. the above language example, stores the stack/local variables not require write barrier stores global variables .controlling garbage collectiongc does start collection automatically there are many factors (e.g: heap size, number objects, limit...) need be considered. is best left the language implementer decide.thus, provides functions control garbage collector:ugc_step(gc) performs single atomic step (e.g: mark/free object, scan root set). typically calls several times per allocation regularly a trigger.\"push/pop gc pause\" function usually found some language's api be implemented simply maintaining counter not calling ugc_step it is non-zero. current state the gc is stored ugc_t::state. can that give different speeds different phases.ugc_collect(gc) finishes current collection cycle. means: the gc has alread started, will return once current cycle ends. the gc is idle (ugc_t::state == ugc_idle), will start cycle finish .therefore, the gc is already the ugc_sweep phase, new garbage be left the next cycle. needs pay attention this calling gc_collect case emergency (e.g: malloc returns null). first call gc_collect may reclaim but all memory. is possible malloc return null again.gc_collect should called second .the runtime should panic malloc still fails."
+}

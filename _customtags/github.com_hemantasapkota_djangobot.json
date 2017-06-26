@@ -1,0 +1,16 @@
+{
+	"_id": "14176324",
+	"site": "https://github.com/hemantasapkota/djangobot",
+	"title": " Djangobot – Make authenticated requests to a Django server",
+	"author": "laex",
+	"date": "2017-06-13T13:33:35.671Z",
+	"tags": {
+		"categories": [
+			"security", "web"
+		],
+		"languages": [
+			"go"
+		]
+	},
+	"content": "readme.md djangobotcurl django. authenticated requests a django server. does work ?django authentication relies two cookies: csrftoken sessionid. once accquire cookies, can authenticated requests like browser does.getting csrftoken is easy. make request a page the server sends the cookie.sessionid, however is tricky most production servers configure as secure http cookie. is sent authentication is made securely ( via. https ) make secure connection need ssl/tls certificates. has package called autocert lets accquire certificates. autocert provides automatic access certificates let's encrypt any acme-based ca. certs place, we need is authentication details we're to .what are potential cases this library ?api testingweb scrapingautomationbot frameworksmobile apps an example usage below.installationadd github.com/hemantasapkota/djangobot an import your project.execute get github.com/hemantasapkota/djangobotusage this example, 'll authenticate disqus is built top django. let's inspect parameters get sent the login endpoint. query parameter is next the form data items are csrfmiddlewaretoken, username, password.'ll the same. before being able call login endpoint 'll need accquire csrf token. let's get .bot := djangobot.(\"https://disqus.com/profile/login/\"). forhost(\"disqus.com\"). setusername(\"<<username>>\"). setpassword(\"<<password>>\"). loadcookies() bot.error != nil {panic(bot.error)}next, let's authenticate the server. django expects csrf token be sent the csrfmiddlewaretoken form data. set() sets query parameters x() sets form data.client, err := bot.set(\"next\", \"https://disqus.com/\"). x(\"csrfmiddlewaretoken\", bot.cookie(\"csrftoken\").value). x(\"username\", bot.username). x(\"password\", bot.password). login() err != nil {panic(err)}sessionid := bot.cookie(\"sessionid\").value sessionid == \"\" { panic(\"authentication failed.\")}successful authentication creates sessionid cookie returns http client object. this point , the http client be used make requests. 's important note all subsequent requests should at least headers: user-agent, referrer, x-csrftoken, x-requested-.the bot.requester() method is available prepare requests pre-filled headers. example below.changing discus account passwordlet's put library use changing account's password.data := map[string]string{\"email\": \"<< email address>>\",\"old_password\": \"<< old password>>\",\"password\": \"<< password>>\",\"username\": \"<<username>>\",}_, body, _ := bot.requester(\"put\", \"https://disqus.com/users/self/account/\"). client. send(data). end()fmt.println(body)please refer the test file more details."
+}

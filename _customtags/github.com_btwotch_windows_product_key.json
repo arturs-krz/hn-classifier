@@ -1,0 +1,15 @@
+{
+	"_id": "12212985",
+	"site": "https://github.com/btwotch/windows_product_key",
+	"title": " A simple kernel module to show the windows key of your machine via ACPI",
+	"author": "btwotch",
+	"date": "2017-06-19T10:37:04.647Z",
+	"tags": {
+		"categories": ["system"],
+		"languages": [
+			"c",
+			"makefile"
+		]
+	},
+	"content": ""
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "14381975",
+	"site": "https://github.com/clementdallas/english-supersequence",
+	"title": " Intractable problems as conceptual art",
+	"author": "lllpc",
+	"date": "2017-06-13T13:07:23.877Z",
+	"tags": {
+		"categories": [
+			"visual", "media"
+		],
+		"languages": []
+	},
+	"content": "readme.md search a shortest common supersequence the set english words. this project, set english words is defined those found words.txt. current shortest common supersequenceis found shortest.txt.contributingreplace shortest.txt a shorter common supersequence ( sequence should the thing the file) open pull request.background information english word, such 'cellar', is sequence letters the english alphabet. sequence is distinct a set that order the letters matters, example 'cellar' is the same 'erllac'. sequence 'cellar' is supersequence 'car' each letter 'car' occurs, order, the word 'cellar'. word 'create' is a super sequence 'car', though contains letters c, and r, the letters are in right order. word 'cellar' is common supersequence the words 'cell' 'car' it is supersequence both words. shortest common supersequence problem is find minimal length a supersequence a given set words. https://en.wikipedia.org/wiki/shortest_common_supersequence_problem shortest common supersequence english depends the words considered, for project english words are those found words.txt. file was created using wordlists american-english british-english /usr/share/dict. words uppercase special characters were removed, that alphabet is -z.determining length the shortest common supersequence is np-complete problem, this search should no end."
+}

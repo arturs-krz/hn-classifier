@@ -1,0 +1,15 @@
+{
+	"_id": "8581905",
+	"site": "https://github.com/gmr/huesos-de-vaquero",
+	"title": " Skeleton Cowboy app with rebar, relx, erlydtl, Web Starter Kit, and more",
+	"author": "crad",
+	"date": "2017-06-19T11:03:34.576Z",
+	"tags": {
+		"categories": ["example", "development"],
+		"languages": [
+			"erlang",
+			"coffeescript"
+		]
+	},
+	"content": ""
+}
