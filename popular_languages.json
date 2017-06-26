@@ -68,11 +68,11 @@
         "count": 36
     },
     {
-        "tag": "cmake",
+        "tag": "c#",
         "count": 25
     },
     {
-        "tag": "c#",
+        "tag": "cmake",
         "count": 25
     },
     {
@@ -84,11 +84,11 @@
         "count": 19
     },
     {
-        "tag": "rust",
+        "tag": "scala",
         "count": 16
     },
     {
-        "tag": "scala",
+        "tag": "rust",
         "count": 16
     },
     {
@@ -160,11 +160,11 @@
         "count": 5
     },
     {
-        "tag": "matlab",
+        "tag": "purescript",
         "count": 5
     },
     {
-        "tag": "purescript",
+        "tag": "matlab",
         "count": 5
     },
     {

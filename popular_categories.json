@@ -64,11 +64,11 @@
         "count": 68
     },
     {
-        "tag": "monitoring",
+        "tag": "chat",
         "count": 64
     },
     {
-        "tag": "chat",
+        "tag": "monitoring",
         "count": 64
     },
     {
@@ -96,11 +96,11 @@
         "count": 35
     },
     {
-        "tag": "cloud",
+        "tag": "entertainment",
         "count": 32
     },
     {
-        "tag": "entertainment",
+        "tag": "cloud",
         "count": 32
     },
     {
@@ -136,7 +136,7 @@
         "count": 3
     },
     {
-        "tag": "premade",
+        "tag": "nontech",
         "count": 2
     },
     {
@@ -144,11 +144,11 @@
         "count": 2
     },
     {
-        "tag": "nontech",
+        "tag": "shell",
         "count": 2
     },
     {
-        "tag": "shell",
+        "tag": "premade",
         "count": 2
     },
     {
@@ -164,11 +164,11 @@
         "count": 1
     },
     {
-        "tag": "opensource",
+        "tag": "image-processing",
         "count": 1
     },
     {
-        "tag": "image-processing",
+        "tag": "opensource",
         "count": 1
     },
     {

@@ -39,6 +39,9 @@ fs.readdir(tagDir, (err, files) => {
         }
         sortedCats.sort((a,b) => b.count - a.count)
         fs.writeFile(`${__dirname}/popular_categories.json`, JSON.stringify(sortedCats, null, 4))
+        console.log(sortedCats.reduce((acc, current) => {
+            return acc + current.count
+        }, 0) / 23)
 
         let sortedLangs = []
         for(lang in languages) {
