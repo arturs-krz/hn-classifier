@@ -144,9 +144,9 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 1000
+batch_size = 600
 batch_count = int(len(input_data) / batch_size)
-epochs = 20
+epochs = 500
 for e in range(epochs):
     ptr = 0
     entropy_val = 0
@@ -157,7 +157,7 @@ for e in range(epochs):
         train_step.run(session=sess,feed_dict={data: inp, target: out})
         entropy_val += sess.run([cross_entropy], feed_dict={data: inp, target: out})[0]
     
-    print("Epoch {}, avg entropy: {}".format(e, entropy_val/batch_count))
+    print("Epoch {}, avg entropy: {}".format(e, entropy_val/(batch_count * batch_size)))
 
 saver.save(sess, "./model.ckpt")
 
