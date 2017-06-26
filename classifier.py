@@ -3,6 +3,7 @@ import tensorflow as tf
 import string
 import re
 import numpy as np
+import random
 from gensim.models.keyedvectors import KeyedVectors
 from os import listdir
 from nltk.corpus import stopwords
@@ -110,7 +111,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 600
+num_hidden = 300
 
 print("Total {} training samples...".format(len(resources)))
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
@@ -147,14 +148,20 @@ sess.run(init)
 
 batch_size = 100
 batch_count = int(len(input_data) / batch_size)
-epochs = 700
+epochs = 500
 for e in range(epochs):
+    
+    indices = range(len(input_data))
+    random.shuffle(indices)
+    shuffled_inp = [input_data[i] for i in indices]
+    shuffled_labels = [labels[i] for i in indices]
+
     ptr = 0
     entropy_val = 0
 
     for i in range(batch_count):
-        inp = input_data[ptr:ptr+batch_size]
-        out = labels[ptr:ptr+batch_size]
+        inp = shuffled_inp[ptr:ptr+batch_size]
+        out = shuffled_labels[ptr:ptr+batch_size]
         ptr += batch_size
         train_step.run(session=sess,feed_dict={data: inp, target: out})
 
