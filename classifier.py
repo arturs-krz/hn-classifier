@@ -151,7 +151,7 @@ batch_count = int(len(input_data) / batch_size)
 epochs = 500
 for e in range(epochs):
     
-    indices = range(len(input_data))
+    indices = xrange(len(input_data))
     random.shuffle(indices)
     shuffled_inp = [input_data[i] for i in indices]
     shuffled_labels = [labels[i] for i in indices]
