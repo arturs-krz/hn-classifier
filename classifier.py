@@ -110,7 +110,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 400
+num_hidden = 500
 
 print("Total {} training samples...".format(len(resources)))
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
@@ -145,9 +145,9 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 600
+batch_size = 200
 batch_count = int(len(input_data) / batch_size)
-epochs = 500
+epochs = 700
 for e in range(epochs):
     ptr = 0
     entropy_val = 0
