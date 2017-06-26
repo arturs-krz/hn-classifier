@@ -41,7 +41,7 @@ def pad_to_size(input, size):
     return input
 
 # prepare class vector format 
-with open("./aliases.json", encoding='utf-8') as data:
+with open("./custom_aliases.json", encoding='utf-8') as data:
     alias_dict = json.load(data)
     aliases = list(map(lambda entry: entry["tag"], alias_dict))
     num_classes = len(aliases)
@@ -112,6 +112,7 @@ for filename in listdir("./_popular/"):
 max_size += 15
 num_hidden = 400
 
+print("Total {} training samples...".format(len(resources)))
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
 labels = list(map(lambda tags: create_class_vec(tags), labels))
