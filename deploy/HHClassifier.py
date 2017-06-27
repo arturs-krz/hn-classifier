@@ -102,7 +102,7 @@ with tf.Session() as sess:
         # feed_dict = {data: [vec_title]}
 
         predictions = get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict))
-        for i, title in req:
+        for i, title in enumerate(req):
             predictions[i]["title"] = title
         return json.dumps(predictions, indent=4, sort_keys=True)
 
