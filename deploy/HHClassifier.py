@@ -71,7 +71,7 @@ def vectorize_title(title):
 def get_top_tags(prediction):
     last = prediction[0].argsort()[-3:][::-1]
     last = last.tolist()
-    return [{"tag": tags[i], "probability": prediction[0][i]} for i in last]
+    return [{"tag": classes[i], "probability": prediction[0][i]} for i in last]
 
 with tf.Session() as sess:
     saver = tf.train.import_meta_graph('../model.ckpt.meta')
@@ -84,7 +84,8 @@ with tf.Session() as sess:
 
     api = Flask(__name__)
     
-    @api.route('/')
+
+    @api.route('/classify')
     def classify():
         title = request.data['title']
         print(title)
@@ -92,6 +93,10 @@ with tf.Session() as sess:
         vec_title = pad_to_size(vectorize_title(title), max_size)
         feed_dict = {data: [vec_title]}
         return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
+
+    @api.route('/')
+    def main():
+        return 'hai'
 
     if __name__ == '__main__':
         api.run()
