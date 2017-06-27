@@ -106,7 +106,7 @@ for filename in listdir("./_popular/"):
 
 
 max_size += 15
-num_hidden = 300
+num_hidden = 400
 
 classifier_data = {max_size: max_size, aliases: aliases}
 with open('./classifier_data.json', "w") as dfile:
