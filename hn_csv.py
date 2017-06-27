@@ -101,5 +101,5 @@ with tf.Session() as sess:
         predictions[i]["title"] = title
     
     with open("./csv_results.json", "w") as cfile:
-        json.dump(predictions, cfile)
+        json.dump(predictions, cfile, indent=4)
         cfile.close()
