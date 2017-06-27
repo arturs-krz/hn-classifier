@@ -87,12 +87,15 @@ with tf.Session() as sess:
 
     @api.route('/classify')
     def classify():
-        title = request.data['title']
-        print(title)
-        title = clean(title)
-        vec_title = pad_to_size(vectorize_title(title), max_size)
-        feed_dict = {data: [vec_title]}
-        return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
+        req = request.json
+        print(req)
+        return 'bump'
+        # title = request.data['title']
+        # print(title)
+        # title = clean(title)
+        # vec_title = pad_to_size(vectorize_title(title), max_size)
+        # feed_dict = {data: [vec_title]}
+        # return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
 
     @api.route('/')
     def main():
