@@ -85,9 +85,10 @@ with tf.Session() as sess:
     api = Flask(__name__)
     
 
-    @api.route('/classify')
+    @api.route('/classify', methods=['POST'])
     def classify():
         req = request.json
+        print(request.data)
         print(req)
         return 'bump'
         # title = request.data['title']
