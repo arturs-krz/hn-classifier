@@ -86,12 +86,15 @@ with tf.Session() as sess:
     
 
     titles = []
+    urls = []
     feed_dict = {data: []}
     with open('show_hn.csv', encoding='utf-8') as hncsv:
         rows = csv.reader(hncsv, delimiter=';')
         for row in rows:
             title = row[4]
             titles.append(title)
+            urls.append(row[5])
+
             title = clean(title)
             vec_title = pad_to_size(vectorize_title(title), max_size)
             feed_dict[data].append(vec_title)
@@ -99,6 +102,7 @@ with tf.Session() as sess:
     predictions = get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict))
     for i, title in enumerate(titles):
         predictions[i]["title"] = title
+        predictions[i]["url"] = urls[i]
     
     with open("./csv_results.json", "w") as cfile:
         json.dump(predictions, cfile, indent=4)
