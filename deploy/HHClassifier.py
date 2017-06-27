@@ -99,4 +99,4 @@ with tf.Session() as sess:
         return 'hai'
 
     if __name__ == '__main__':
-        api.run()
+        api.run(host='0.0.0.0', port='5000')
