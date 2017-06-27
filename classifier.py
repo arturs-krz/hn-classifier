@@ -106,7 +106,7 @@ for filename in listdir("./_popular/"):
 
 
 max_size += 15
-num_hidden = 400
+num_hidden = 300
 
 classifier_data = {"max_size": max_size, "tags": aliases}
 with open('./classifier_data.json', "w") as dfile:
@@ -146,7 +146,7 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 100
+batch_size = 80
 batch_count = int(len(input_data) / batch_size)
 epochs = 500
 for e in range(epochs):
