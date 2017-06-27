@@ -108,7 +108,7 @@ for filename in listdir("./_popular/"):
 max_size += 15
 num_hidden = 400
 
-classifier_data = {max_size: max_size, aliases: aliases}
+classifier_data = {"max_size": max_size, "tags": aliases}
 with open('./classifier_data.json', "w") as dfile:
     json.dump(classifier_data, dfile)
     dfile.close()
