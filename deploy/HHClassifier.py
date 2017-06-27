@@ -68,10 +68,13 @@ def vectorize_title(title):
             continue    
     return vec_title
 
-def get_top_tags(prediction):
-    last = prediction[0].argsort()[-3:][::-1]
-    last = last.tolist()
-    return [{"tag": classes[i], "probability": prediction[0][i]} for i in last]
+def get_top_tags(predictions):
+    results = []
+    for prediction in predictions:
+        last = prediction.argsort()[-3:][::-1]
+        last = last.tolist()
+        results.append([{"tag": classes[i], "probability": prediction[0][i]} for i in last])
+    return results
 
 with tf.Session() as sess:
     saver = tf.train.import_meta_graph('../model.ckpt.meta')
@@ -88,15 +91,16 @@ with tf.Session() as sess:
     @api.route('/classify', methods=['POST'])
     def classify():
         req = request.json
-        print(request.data)
-        print(req)
-        return 'bump'
-        # title = request.data['title']
-        # print(title)
-        # title = clean(title)
-        # vec_title = pad_to_size(vectorize_title(title), max_size)
+        
+        feed_dict = {data: []}
+        response = []
+        for title in req:
+            print(title)
+            title = clean(title)
+            vec_title = pad_to_size(vectorize_title(title), max_size)
+            feed_dict[data].append(vec_title)
         # feed_dict = {data: [vec_title]}
-        # return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
+        return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
 
     @api.route('/')
     def main():
