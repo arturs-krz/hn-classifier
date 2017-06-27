@@ -111,7 +111,7 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 350
+num_hidden = 300
 
 print("Maximum title size: {}".format(max_size))
 print("Total {} training samples...".format(len(resources)))
@@ -119,7 +119,7 @@ input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources
 labels = map(lambda res: res['tags'], resources)
 labels = list(map(lambda tags: create_class_vec(tags), labels))
 
-
+max_size_var = tf.constant(max_size, name="max_size")
 data = tf.placeholder(tf.float32, [None, max_size, 300], name="input_data")
 target = tf.placeholder(tf.float32, [None, num_classes])
 
@@ -147,7 +147,7 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 150
+batch_size = 100
 batch_count = int(len(input_data) / batch_size)
 epochs = 500
 for e in range(epochs):
