@@ -11,12 +11,6 @@ from nltk.corpus import stopwords
 word_vec = KeyedVectors.load_word2vec_format('./embeddings.bin.gz', binary=True)
 common = set(stopwords.words('english'))
 
-# print(word_vec['react'])
-# print(word_vec['javascript'])
-# print(word_vec['node'])
-# print(word_vec['aws'])
-# print(word_vec['vue'])
-
 def process_unknown(word):
     words = []
     last_pos = 0
@@ -110,8 +104,14 @@ for filename in listdir("./_popular/"):
 #     np.savetxt(vfile, input)
 #     vfile.close()
 
+
 max_size += 15
 num_hidden = 300
+
+classifier_data = {max_size: max_size, aliases: aliases}
+with open('./classifier_data.json', "w") as dfile:
+    json.dump(classifier_data, dfile)
+    dfile.close()
 
 print("Maximum title size: {}".format(max_size))
 print("Total {} training samples...".format(len(resources)))
@@ -119,7 +119,6 @@ input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources
 labels = map(lambda res: res['tags'], resources)
 labels = list(map(lambda tags: create_class_vec(tags), labels))
 
-max_size_var = tf.constant(max_size, name="max_size")
 data = tf.placeholder(tf.float32, [None, max_size, 300], name="input_data")
 target = tf.placeholder(tf.float32, [None, num_classes])
 
