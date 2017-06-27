@@ -53,17 +53,17 @@ fs.readFile(aliasesPath, (err, data) => {
                             
                             if(resource.popularTags.length) {
                                 resource.popularTags = resource.popularTags.filter((value, index, self) => self.indexOf(value) == index)
-                                // let containsBig = resource.popularTags.reduce((acc, value) => {
-                                //     if(bigClasses.indexOf(value) !== -1) return acc + 1
-                                //     else return acc
-                                // }, 0)
-                                // if(resource.popularTags.length > containsBig) {
-                                //     console.log('------')
-                                //     console.log(containsBig)
-                                //     console.log(resource.popularTags)
-                                //     resource.popularTags = resource.popularTags.filter(value => bigClasses.indexOf(value) === -1)
-                                //     console.log(resource.popularTags)
-                                // }
+                                let containsBig = resource.popularTags.reduce((acc, value) => {
+                                    if(bigClasses.indexOf(value) !== -1) return acc + 1
+                                    else return acc
+                                }, 0)
+                                if(resource.popularTags.length > containsBig) {
+                                    console.log('------')
+                                    console.log(containsBig)
+                                    console.log(resource.popularTags)
+                                    resource.popularTags = resource.popularTags.filter(value => bigClasses.indexOf(value) === -1)
+                                    console.log(resource.popularTags)
+                                }
                                 // if (fs.existsSync(`${__dirname}/_popular/${file}`)) return
                                 
                                 tagged.push(resource)

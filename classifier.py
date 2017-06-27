@@ -169,7 +169,7 @@ for e in range(epochs):
     
     print("Epoch {}, avg entropy: {}".format(e, entropy_val/(batch_count * batch_size)))
 
-saver.save(sess, "./model_bt.ckpt")
+saver.save(sess, "./model.ckpt")
 
 # tests = [
 #     "dosycrypt homemade symmetric stream cipher with tunable parameters",
