@@ -87,7 +87,7 @@ with tf.Session() as sess:
 
     titles = []
     feed_dict = {data: []}
-    with open('show_hn.csv', 'r') as hncsv:
+    with open('show_hn.csv', encoding='utf-8') as hncsv:
         rows = csv.reader(hncsv, delimiter=';')
         for row in rows:
             title = row[4]
