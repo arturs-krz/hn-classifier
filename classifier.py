@@ -111,15 +111,16 @@ for filename in listdir("./_popular/"):
 #     vfile.close()
 
 max_size += 15
-num_hidden = 300
+num_hidden = 350
 
+print("Maximum title size: {}".format(max_size))
 print("Total {} training samples...".format(len(resources)))
 input_data = list(map(lambda res: pad_to_size(res['title'], max_size), resources))
 labels = map(lambda res: res['tags'], resources)
 labels = list(map(lambda tags: create_class_vec(tags), labels))
 
 
-data = tf.placeholder(tf.float32, [None, max_size, 300])
+data = tf.placeholder(tf.float32, [None, max_size, 300], name="input_data")
 target = tf.placeholder(tf.float32, [None, num_classes])
 
 lstm_cell = tf.contrib.rnn.LSTMCell(num_hidden, state_is_tuple=True)
@@ -132,7 +133,7 @@ last = tf.gather(val, int(val.get_shape()[0]) - 1)
 weight = tf.Variable(tf.truncated_normal([num_hidden, num_classes]))
 bias = tf.Variable(tf.constant(0.1, shape=[num_classes]))
 
-prediction = tf.nn.softmax(tf.matmul(last, weight) + bias)
+prediction = tf.nn.softmax(tf.matmul(last, weight) + bias, name="prediction")
 cross_entropy = -tf.reduce_sum(target * tf.log(tf.clip_by_value(prediction, 1e-10, 1.0)))
 
 optimizer = tf.train.AdamOptimizer(learning_rate=0.005)
@@ -146,7 +147,7 @@ sess.run(init)
 
 # saver.restore(sess, "./model.ckpt")
 
-batch_size = 100
+batch_size = 150
 batch_count = int(len(input_data) / batch_size)
 epochs = 500
 for e in range(epochs):
