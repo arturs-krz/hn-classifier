@@ -73,7 +73,7 @@ def get_top_tags(predictions):
     for prediction in predictions:
         last = prediction.argsort()[-3:][::-1]
         last = last.tolist()
-        results.append([{"tag": classes[i], "probability": float(prediction[i])} for i in last])
+        results.append({"predictions": [{"tag": classes[i], "probability": float(prediction[i])} for i in last]})
     return results
 
 with tf.Session() as sess:
@@ -100,7 +100,11 @@ with tf.Session() as sess:
             vec_title = pad_to_size(vectorize_title(title), max_size)
             feed_dict[data].append(vec_title)
         # feed_dict = {data: [vec_title]}
-        return json.dumps(get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict)))
+
+        predictions = get_top_tags(prediction.eval(session=sess, feed_dict=feed_dict))
+        for i, title in req:
+            predictions[i]["title"] = title
+        return json.dumps(predictions, indent=4, sort_keys=True)
 
     @api.route('/')
     def main():
