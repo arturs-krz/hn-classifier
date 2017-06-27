@@ -95,7 +95,6 @@ with tf.Session() as sess:
         feed_dict = {data: []}
         response = []
         for title in req:
-            print(title)
             title = clean(title)
             vec_title = pad_to_size(vectorize_title(title), max_size)
             feed_dict[data].append(vec_title)
@@ -106,9 +105,9 @@ with tf.Session() as sess:
             predictions[i]["title"] = title
         return json.dumps(predictions, indent=4, sort_keys=True)
 
-    @api.route('/')
-    def main():
-        return 'hai'
+    # @api.route('/')
+    # def main():
+    #     return 'hai'
 
     if __name__ == '__main__':
         api.run(host='0.0.0.0', port='5000')
