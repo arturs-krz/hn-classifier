@@ -73,7 +73,7 @@ def get_top_tags(predictions):
     for prediction in predictions:
         last = prediction.argsort()[-3:][::-1]
         last = last.tolist()
-        results.append([{"tag": classes[i], "probability": prediction[0][i]} for i in last])
+        results.append([{"tag": classes[i], "probability": prediction[i]} for i in last])
     return results
 
 with tf.Session() as sess:
